@@ -1324,3 +1324,135 @@
 [2023-06-07 01:32:28] INFO root fetch - processPackages [sqlite-http]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_http-0.1.0a3-py3-none-win_amd64.whl.zip]
 [2023-06-07 01:32:28] INFO root fetch - main [MainThread]: End processing [sqlite-http]: success
 [2023-06-07 01:32:28] INFO root fetch - main [MainThread]: Store serial: [18398664]
+[2023-06-07 01:37:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18398664]
+[2023-06-07 01:37:54] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-07 01:37:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ruff
+[2023-06-07 01:37:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: datasette-sqlite-http
+[2023-06-07 01:37:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sqlite-http
+[2023-06-07 01:37:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pipen
+[2023-06-07 01:37:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: SmoobuExtractorFormatter
+[2023-06-07 01:37:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: visier-connector
+[2023-06-07 01:37:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gnlib
+[2023-06-07 01:37:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: easy-sqla
+[2023-06-07 01:37:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: phoenixtools
+[2023-06-07 01:37:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ovos-PHAL-plugin-homeassistant
+[2023-06-07 01:37:54] INFO root fetch - processPackages [SmoobuExtractorFormatter]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-07 01:37:54] INFO root fetch - processPackages [sqlite-http]: New version: [0.1.0a4] Old Version: [0.1.0a3]
+[2023-06-07 01:37:54] INFO root fetch - processPackages [datasette-sqlite-http]: New version: [0.1.0a4] Old Version: [0.1.0a3]
+[2023-06-07 01:37:54] INFO root fetch - processPackages [visier-connector]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-06-07 01:37:54] WARNING root fetch - processPackages [gnlib]: Skipping, unable to determine old version
+[2023-06-07 01:37:54] INFO root fetch - processPackages [gnlib]: Start processing: pymangaj
+[2023-06-07 01:37:54] INFO root fetch - main [MainThread]: End processing [gnlib] error
+[2023-06-07 01:37:54] INFO root fetch - processPackages [phoenixtools]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-07 01:37:54] INFO root fetch - processPackages [ovos-PHAL-plugin-homeassistant]: New version: [0.0.2a6] Old Version: [0.0.2a5]
+[2023-06-07 01:37:54] INFO root fetch - processPackages [pipen]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-07 01:37:54] INFO root fetch - processPackages [pymangaj]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-07 01:37:54] INFO root fetch - processPackages [easy-sqla]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-07 01:37:54] INFO root fetch - processPackages [ruff]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-07 01:37:54] INFO root fetch - processPackages [ovos-PHAL-plugin-homeassistant]: Downloading https://files.pythonhosted.org/packages/30/50/ca249edf10e1a1f106d2dcd678b43dbd3f5bb84a031b7010ab6fcb90b9bb/ovos-PHAL-plugin-homeassistant-0.0.2a5.tar.gz
+[2023-06-07 01:37:54] INFO root fetch - processPackages [datasette-sqlite-http]: Downloading https://files.pythonhosted.org/packages/78/69/e7b5212e209e6f6422fde000ca1f2c90be6aa2e63c1d362c9b776909ae23/datasette_sqlite_http-0.1.0a3-py3-none-any.whl
+[2023-06-07 01:37:54] INFO root fetch - processPackages [visier-connector]: Downloading https://files.pythonhosted.org/packages/51/ab/cd3063bbd5489c4a1504ca601ab5dae2deac6993f793193e7a5b628d77e9/visier-connector-0.9.6.tar.gz
+[2023-06-07 01:37:54] INFO root fetch - processPackages [sqlite-http]: Downloading https://files.pythonhosted.org/packages/ad/17/2a71cf1ec9ddab42a4f4d0e754da65a0eed2ec384890d6858acec4660991/sqlite_http-0.1.0a3-py3-none-win_amd64.whl
+[2023-06-07 01:37:54] INFO root fetch - processPackages [SmoobuExtractorFormatter]: Downloading https://files.pythonhosted.org/packages/42/ec/bb3a187f91406e905eec28458343e767e5f8d0b05580f9c48d48830c73da/SmoobuExtractorFormatter-1.0.8.tar.gz
+[2023-06-07 01:37:54] INFO root fetch - processPackages [phoenixtools]: Downloading https://files.pythonhosted.org/packages/5c/b1/a0a74594f84ca703fa7c1ac2e198fbc984308c5eee5c2f7a5aa2344fcf40/phoenixtools-0.0.1.tar.gz
+[2023-06-07 01:37:54] INFO root fetch - processPackages [pymangaj]: Downloading https://files.pythonhosted.org/packages/04/30/717fa1bbafb385da41f5993342a3f760ac30977e7d5fae3b5e5603fa4a81/pymangaj-0.1.7.tar.gz
+[2023-06-07 01:37:54] INFO root fetch - processPackages [pipen]: Downloading https://files.pythonhosted.org/packages/89/8d/9c6dc54d1785255af9c0f2b040483e2d6d4b2c0f75ac4eef36237b5ba735/pipen-0.9.8.tar.gz
+[2023-06-07 01:37:54] INFO root fetch - processPackages [ruff]: Downloading https://files.pythonhosted.org/packages/47/03/d97ee64c6c8899eed05f51278ea3a1de7aec597d746afa99b689f7e91c3c/ruff-0.0.98.tar.gz
+[2023-06-07 01:37:54] INFO root fetch - processPackages [easy-sqla]: Downloading https://files.pythonhosted.org/packages/9b/a8/b65983a39632f5783f37f4fb18d2fcaf56aef05a5657a426d33e33a6ba9d/easy_sqla-0.1.0-py3-none-any.whl
+[2023-06-07 01:37:54] INFO root fetch - processPackages [visier-connector]: Downloading https://files.pythonhosted.org/packages/48/ba/08e72ae4322367296b1d46e9037c86c328a040ae0f809f5484538d45f79e/visier-connector-0.9.7.tar.gz
+[2023-06-07 01:37:54] INFO root fetch - processPackages [datasette-sqlite-http]: Downloading https://files.pythonhosted.org/packages/4a/eb/a79d5ba5d694c71f86050df1fe585e9d612777131dba0832168b75f382d4/datasette_sqlite_http-0.1.0a4-py3-none-any.whl
+[2023-06-07 01:37:55] INFO root fetch - processPackages [ovos-PHAL-plugin-homeassistant]: Downloading https://files.pythonhosted.org/packages/a3/af/25957c38e9729da18455e78d81cd6aa360099808fa1ed85432081a393c2f/ovos-PHAL-plugin-homeassistant-0.0.2a6.tar.gz
+[2023-06-07 01:37:55] INFO root fetch - processPackages [visier-connector]: executing diffoscope
+[2023-06-07 01:37:55] INFO root fetch - processPackages [visier-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/visier-connector-0.9.6.tar.gz tmp/visier-connector-0.9.7.tar.gz --markdown 20230607/v/visier-connector/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-06-07 01:37:55] INFO root fetch - processPackages [SmoobuExtractorFormatter]: Downloading https://files.pythonhosted.org/packages/31/01/57644854b0e34e1381d340e76515e9846352b50fe10a4460a862c6b14bce/SmoobuExtractorFormatter-1.0.9.tar.gz
+[2023-06-07 01:37:55] INFO root fetch - processPackages [phoenixtools]: Downloading https://files.pythonhosted.org/packages/5b/c3/7ec48ba632401bdff9e19d00de63b5354954100b7f4b28ff8f8bc41276cc/phoenixtools-0.0.2.tar.gz
+[2023-06-07 01:37:55] INFO root fetch - processPackages [SmoobuExtractorFormatter]: executing diffoscope
+[2023-06-07 01:37:55] INFO root fetch - processPackages [SmoobuExtractorFormatter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SmoobuExtractorFormatter-1.0.8.tar.gz tmp/SmoobuExtractorFormatter-1.0.9.tar.gz --markdown 20230607/S/SmoobuExtractorFormatter/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-07 01:37:55] INFO root fetch - processPackages [phoenixtools]: executing diffoscope
+[2023-06-07 01:37:55] INFO root fetch - processPackages [phoenixtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phoenixtools-0.0.1.tar.gz tmp/phoenixtools-0.0.2.tar.gz --markdown 20230607/p/phoenixtools/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-07 01:37:55] INFO root fetch - processPackages [datasette-sqlite-http]: executing diffoscope
+[2023-06-07 01:37:55] INFO root fetch - processPackages [datasette-sqlite-http]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasette_sqlite_http-0.1.0a3-py3-none-any.whl.zip tmp/datasette_sqlite_http-0.1.0a4-py3-none-any.whl.zip --markdown 20230607/d/datasette-sqlite-http/0.1.0a3-0.1.0a4/diff.md --exclude *.pyd
+[2023-06-07 01:37:55] INFO root fetch - processPackages [pymangaj]: Downloading https://files.pythonhosted.org/packages/c3/f7/994b3eff00a331963eeb0c4b1784668282193dc3165bb953bb3bd1f43c4f/pymangaj-0.1.8.tar.gz
+[2023-06-07 01:37:55] INFO root fetch - processPackages [ovos-PHAL-plugin-homeassistant]: executing diffoscope
+[2023-06-07 01:37:55] INFO root fetch - processPackages [ovos-PHAL-plugin-homeassistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos-PHAL-plugin-homeassistant-0.0.2a5.tar.gz tmp/ovos-PHAL-plugin-homeassistant-0.0.2a6.tar.gz --markdown 20230607/o/ovos-PHAL-plugin-homeassistant/0.0.2a5-0.0.2a6/diff.md --exclude *.pyd
+[2023-06-07 01:37:55] INFO root fetch - processPackages [pipen]: Downloading https://files.pythonhosted.org/packages/45/94/66725f0ebe253ae8e488f0eba36085ecc25349bc326bfe14d38c76bb9482/pipen-0.9.9.tar.gz
+[2023-06-07 01:37:55] INFO root fetch - processPackages [ruff]: Downloading https://files.pythonhosted.org/packages/43/74/128be8dbfb351ff04131ec18fb5b96694cd3ca0c92c6acacfdfe8dc4235f/ruff-0.0.99.tar.gz
+[2023-06-07 01:37:55] INFO root fetch - processPackages [pymangaj]: executing diffoscope
+[2023-06-07 01:37:55] INFO root fetch - processPackages [pymangaj]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymangaj-0.1.7.tar.gz tmp/pymangaj-0.1.8.tar.gz --markdown 20230607/p/pymangaj/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-07 01:37:55] INFO root fetch - processPackages [pipen]: executing diffoscope
+[2023-06-07 01:37:55] INFO root fetch - processPackages [pipen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipen-0.9.8.tar.gz tmp/pipen-0.9.9.tar.gz --markdown 20230607/p/pipen/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-07 01:37:55] INFO root fetch - processPackages [easy-sqla]: Downloading https://files.pythonhosted.org/packages/8d/f3/68e275b9d9c7100d8fecf9203ed2e2afff57b01658bf6ab0d15ee12eb765/easy-sqla-0.1.1.tar.gz
+[2023-06-07 01:37:55] INFO root fetch - processPackages [easy-sqla]: executing diffoscope
+[2023-06-07 01:37:55] INFO root fetch - processPackages [easy-sqla]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy_sqla-0.1.0-py3-none-any.whl.zip tmp/easy-sqla-0.1.1.tar.gz --markdown 20230607/e/easy-sqla/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-07 01:37:55] INFO root fetch - processPackages [ruff]: executing diffoscope
+[2023-06-07 01:37:55] INFO root fetch - processPackages [ruff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ruff-0.0.98.tar.gz tmp/ruff-0.0.99.tar.gz --markdown 20230607/r/ruff/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-07 01:37:55] INFO root fetch - processPackages [sqlite-http]: Downloading https://files.pythonhosted.org/packages/f8/d9/beab121de8b4a08270b95e9c791bd9a9d6f3f34e233486b0a18c4176b5cc/sqlite_http-0.1.0a4-py3-none-win_amd64.whl
+[2023-06-07 01:37:56] INFO root fetch - processPackages [SmoobuExtractorFormatter]: Remove: archive file [/home/abi/fetcher/tmp/SmoobuExtractorFormatter-1.0.8.tar.gz]
+[2023-06-07 01:37:56] INFO root fetch - processPackages [SmoobuExtractorFormatter]: Remove: archive file [/home/abi/fetcher/tmp/SmoobuExtractorFormatter-1.0.9.tar.gz]
+[2023-06-07 01:37:56] INFO root fetch - processPackages [SmoobuExtractorFormatter]: Start processing: chrombpnet
+[2023-06-07 01:37:56] INFO root fetch - main [MainThread]: End processing [SmoobuExtractorFormatter]: success
+[2023-06-07 01:37:56] INFO root fetch - processPackages [chrombpnet]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-07 01:37:56] INFO root fetch - processPackages [sqlite-http]: executing diffoscope
+[2023-06-07 01:37:56] INFO root fetch - processPackages [sqlite-http]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlite_http-0.1.0a3-py3-none-win_amd64.whl.zip tmp/sqlite_http-0.1.0a4-py3-none-win_amd64.whl.zip --markdown 20230607/s/sqlite-http/0.1.0a3-0.1.0a4/diff.md --exclude *.pyd
+[2023-06-07 01:37:56] INFO root fetch - processPackages [datasette-sqlite-http]: Remove: archive file [/home/abi/fetcher/tmp/datasette_sqlite_http-0.1.0a3-py3-none-any.whl.zip]
+[2023-06-07 01:37:56] INFO root fetch - processPackages [datasette-sqlite-http]: Remove: archive file [/home/abi/fetcher/tmp/datasette_sqlite_http-0.1.0a4-py3-none-any.whl.zip]
+[2023-06-07 01:37:56] INFO root fetch - processPackages [datasette-sqlite-http]: Start processing: DKCloudCommand
+[2023-06-07 01:37:56] INFO root fetch - main [MainThread]: End processing [datasette-sqlite-http]: success
+[2023-06-07 01:37:56] INFO root fetch - processPackages [visier-connector]: Remove: archive file [/home/abi/fetcher/tmp/visier-connector-0.9.6.tar.gz]
+[2023-06-07 01:37:56] INFO root fetch - processPackages [visier-connector]: Remove: archive file [/home/abi/fetcher/tmp/visier-connector-0.9.7.tar.gz]
+[2023-06-07 01:37:56] INFO root fetch - processPackages [visier-connector]: Start processing: matgl
+[2023-06-07 01:37:56] INFO root fetch - main [MainThread]: End processing [visier-connector]: success
+[2023-06-07 01:37:56] INFO root fetch - processPackages [matgl]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-06-07 01:37:56] INFO root fetch - processPackages [phoenixtools]: Remove: archive file [/home/abi/fetcher/tmp/phoenixtools-0.0.1.tar.gz]
+[2023-06-07 01:37:56] INFO root fetch - processPackages [phoenixtools]: Remove: archive file [/home/abi/fetcher/tmp/phoenixtools-0.0.2.tar.gz]
+[2023-06-07 01:37:56] INFO root fetch - processPackages [phoenixtools]: Start processing: python-parted
+[2023-06-07 01:37:56] INFO root fetch - main [MainThread]: End processing [phoenixtools]: success
+[2023-06-07 01:37:56] INFO root fetch - processPackages [DKCloudCommand]: New version: [1.1.273rc1] Old Version: [1.1.273]
+[2023-06-07 01:37:56] INFO root fetch - processPackages [chrombpnet]: Downloading https://files.pythonhosted.org/packages/8a/7e/9a0d3c4db2b35221effc0f71a8533746c3e5c6a491699b3f363d213cdd69/chrombpnet-0.1.2.tar.gz
+[2023-06-07 01:37:56] INFO root fetch - processPackages [python-parted]: New version: [1.1.0] Old Version: [1.0.17]
+[2023-06-07 01:37:56] INFO root fetch - processPackages [matgl]: Downloading https://files.pythonhosted.org/packages/41/8d/07ae068420dfaa4eb4edca26d744c7900747789f09af1573f59a31bd9ccd/matgl-0.3.0.tar.gz
+[2023-06-07 01:37:56] INFO root fetch - processPackages [ovos-PHAL-plugin-homeassistant]: Remove: archive file [/home/abi/fetcher/tmp/ovos-PHAL-plugin-homeassistant-0.0.2a5.tar.gz]
+[2023-06-07 01:37:56] INFO root fetch - processPackages [ovos-PHAL-plugin-homeassistant]: Remove: archive file [/home/abi/fetcher/tmp/ovos-PHAL-plugin-homeassistant-0.0.2a6.tar.gz]
+[2023-06-07 01:37:56] INFO root fetch - main [MainThread]: End processing [ovos-PHAL-plugin-homeassistant]: success
+[2023-06-07 01:37:56] INFO root fetch - processPackages [pymangaj]: Remove: archive file [/home/abi/fetcher/tmp/pymangaj-0.1.7.tar.gz]
+[2023-06-07 01:37:56] INFO root fetch - processPackages [pymangaj]: Remove: archive file [/home/abi/fetcher/tmp/pymangaj-0.1.8.tar.gz]
+[2023-06-07 01:37:56] INFO root fetch - main [MainThread]: End processing [pymangaj]: success
+[2023-06-07 01:37:56] INFO root fetch - processPackages [DKCloudCommand]: Downloading https://files.pythonhosted.org/packages/0d/47/a74ba0377007f639007d95e65d326d41b917e7fb85269eebf20646b43698/DKCloudCommand-1.1.273-py2.py3-none-any.whl
+[2023-06-07 01:37:56] INFO root fetch - processPackages [pipen]: Remove: archive file [/home/abi/fetcher/tmp/pipen-0.9.8.tar.gz]
+[2023-06-07 01:37:56] INFO root fetch - processPackages [pipen]: Remove: archive file [/home/abi/fetcher/tmp/pipen-0.9.9.tar.gz]
+[2023-06-07 01:37:56] INFO root fetch - main [MainThread]: End processing [pipen]: success
+[2023-06-07 01:37:56] INFO root fetch - processPackages [easy-sqla]: Remove: archive file [/home/abi/fetcher/tmp/easy_sqla-0.1.0-py3-none-any.whl.zip]
+[2023-06-07 01:37:56] INFO root fetch - processPackages [easy-sqla]: Remove: archive file [/home/abi/fetcher/tmp/easy-sqla-0.1.1.tar.gz]
+[2023-06-07 01:37:56] INFO root fetch - main [MainThread]: End processing [easy-sqla]: success
+[2023-06-07 01:37:56] INFO root fetch - processPackages [python-parted]: Downloading https://files.pythonhosted.org/packages/79/ea/0a518b140aa80a1a113462865615b9a663a62ab50449e6fe9d7c44ec433f/python_parted-1.0.17.tar.gz
+[2023-06-07 01:37:56] INFO root fetch - processPackages [chrombpnet]: Downloading https://files.pythonhosted.org/packages/27/82/48dfd86c34e656599a221d8bd769c93b30ae8fe2ee2018578eae6c58264d/chrombpnet-0.1.3.tar.gz
+[2023-06-07 01:37:56] INFO root fetch - processPackages [DKCloudCommand]: Downloading https://files.pythonhosted.org/packages/a3/f0/7e0bf3308a4999a879c26a6b8acc11ff3fdf7b90ece6ad1f0dcab398b4cf/DKCloudCommand-1.1.273rc1-py2.py3-none-any.whl
+[2023-06-07 01:37:56] INFO root fetch - processPackages [chrombpnet]: executing diffoscope
+[2023-06-07 01:37:56] INFO root fetch - processPackages [chrombpnet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chrombpnet-0.1.2.tar.gz tmp/chrombpnet-0.1.3.tar.gz --markdown 20230607/c/chrombpnet/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-07 01:37:57] INFO root fetch - processPackages [matgl]: Downloading https://files.pythonhosted.org/packages/f7/f4/ba4f8f388af8dc79defe796714198de64ff1daaaaa51c996aefd1e1d9efa/matgl-0.4.0.tar.gz
+[2023-06-07 01:37:57] INFO root fetch - processPackages [matgl]: executing diffoscope
+[2023-06-07 01:37:57] INFO root fetch - processPackages [matgl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matgl-0.3.0.tar.gz tmp/matgl-0.4.0.tar.gz --markdown 20230607/m/matgl/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-06-07 01:37:57] INFO root fetch - processPackages [DKCloudCommand]: executing diffoscope
+[2023-06-07 01:37:57] INFO root fetch - processPackages [DKCloudCommand]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DKCloudCommand-1.1.273-py2.py3-none-any.whl.zip tmp/DKCloudCommand-1.1.273rc1-py2.py3-none-any.whl.zip --markdown 20230607/D/DKCloudCommand/1.1.273-1.1.273rc1/diff.md --exclude *.pyd
+[2023-06-07 01:37:57] INFO root fetch - processPackages [python-parted]: Downloading https://files.pythonhosted.org/packages/9b/89/7d137ab2e3be9a9454a2aef1046705c22e7aabd8bfc7d2ecc42309d8e07b/python_parted-1.1.0.tar.gz
+[2023-06-07 01:37:57] INFO root fetch - processPackages [python-parted]: executing diffoscope
+[2023-06-07 01:37:57] INFO root fetch - processPackages [python-parted]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_parted-1.0.17.tar.gz tmp/python_parted-1.1.0.tar.gz --markdown 20230607/p/python-parted/1.0.17-1.1.0/diff.md --exclude *.pyd
+[2023-06-07 01:37:58] INFO root fetch - processPackages [python-parted]: Remove: archive file [/home/abi/fetcher/tmp/python_parted-1.0.17.tar.gz]
+[2023-06-07 01:37:58] INFO root fetch - processPackages [python-parted]: Remove: archive file [/home/abi/fetcher/tmp/python_parted-1.1.0.tar.gz]
+[2023-06-07 01:37:58] INFO root fetch - main [MainThread]: End processing [python-parted]: success
+[2023-06-07 01:37:58] INFO root fetch - processPackages [DKCloudCommand]: Remove: archive file [/home/abi/fetcher/tmp/DKCloudCommand-1.1.273-py2.py3-none-any.whl.zip]
+[2023-06-07 01:37:58] INFO root fetch - processPackages [DKCloudCommand]: Remove: archive file [/home/abi/fetcher/tmp/DKCloudCommand-1.1.273rc1-py2.py3-none-any.whl.zip]
+[2023-06-07 01:37:58] INFO root fetch - main [MainThread]: End processing [DKCloudCommand]: success
+[2023-06-07 01:37:58] INFO root fetch - processPackages [matgl]: Remove: archive file [/home/abi/fetcher/tmp/matgl-0.3.0.tar.gz]
+[2023-06-07 01:37:58] INFO root fetch - processPackages [matgl]: Remove: archive file [/home/abi/fetcher/tmp/matgl-0.4.0.tar.gz]
+[2023-06-07 01:37:58] INFO root fetch - main [MainThread]: End processing [matgl]: success
+[2023-06-07 01:37:58] INFO root fetch - processPackages [chrombpnet]: Remove: archive file [/home/abi/fetcher/tmp/chrombpnet-0.1.2.tar.gz]
+[2023-06-07 01:37:58] INFO root fetch - processPackages [chrombpnet]: Remove: archive file [/home/abi/fetcher/tmp/chrombpnet-0.1.3.tar.gz]
+[2023-06-07 01:37:58] INFO root fetch - main [MainThread]: End processing [chrombpnet]: success
+[2023-06-07 01:38:02] INFO root fetch - processPackages [ruff]: Remove: archive file [/home/abi/fetcher/tmp/ruff-0.0.98.tar.gz]
+[2023-06-07 01:38:02] INFO root fetch - processPackages [ruff]: Remove: archive file [/home/abi/fetcher/tmp/ruff-0.0.99.tar.gz]
+[2023-06-07 01:38:02] INFO root fetch - main [MainThread]: End processing [ruff]: success
+[2023-06-07 01:40:46] INFO root fetch - processPackages [sqlite-http]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_http-0.1.0a3-py3-none-win_amd64.whl.zip]
+[2023-06-07 01:40:46] INFO root fetch - processPackages [sqlite-http]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_http-0.1.0a4-py3-none-win_amd64.whl.zip]
+[2023-06-07 01:40:46] INFO root fetch - main [MainThread]: End processing [sqlite-http]: success
+[2023-06-07 01:40:46] INFO root fetch - main [MainThread]: Store serial: [18398723]
