@@ -422,3 +422,86 @@
 [2023-06-07 00:26:36] INFO root fetch - main [MainThread]: End processing [dev-gpt]: success
 [2023-06-07 00:26:36] INFO root fetch - main [MainThread]: End processing [dev-gpt]: success
 [2023-06-07 00:26:36] INFO root fetch - main [MainThread]: Store serial: [18398300]
+[2023-06-07 00:31:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18398300]
+[2023-06-07 00:31:45] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-07 00:31:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulpcore
+[2023-06-07 00:31:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulpcore-client
+[2023-06-07 00:31:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: omnata-plugin-devkit
+[2023-06-07 00:31:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulpcore
+[2023-06-07 00:31:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulpcore-client
+[2023-06-07 00:31:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: whylogs
+[2023-06-07 00:31:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: neon-skill-fallback-llm
+[2023-06-07 00:31:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: LiamHsieh-toolbox
+[2023-06-07 00:31:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: modular-rl
+[2023-06-07 00:31:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: unitsnet-py
+[2023-06-07 00:31:45] INFO root fetch - processPackages [pulpcore]: New version: [3.9.1] Old Version: [3.9.0]
+[2023-06-07 00:31:45] INFO root fetch - processPackages [modular-rl]: New version: [0.3.0] Old Version: [0.2.3]
+[2023-06-07 00:31:45] INFO root fetch - processPackages [omnata-plugin-devkit]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-07 00:31:45] INFO root fetch - processPackages [whylogs]: New version: [1.1.9.dev0] Old Version: [1.1.9]
+[2023-06-07 00:31:45] INFO root fetch - processPackages [neon-skill-fallback-llm]: New version: [0.0.1a5] Old Version: [0.0.1a4]
+[2023-06-07 00:31:45] WARNING root fetch - processPackages [LiamHsieh-toolbox]: Skipping, unable to determine old version
+[2023-06-07 00:31:45] INFO root fetch - processPackages [pulpcore]: New version: [3.9.1] Old Version: [3.9.0]
+[2023-06-07 00:31:45] INFO root fetch - main [MainThread]: End processing [LiamHsieh-toolbox] error
+[2023-06-07 00:31:45] INFO root fetch - processPackages [unitsnet-py]: New version: [0.1.38] Old Version: [0.1.37]
+[2023-06-07 00:31:45] INFO root fetch - processPackages [pulpcore-client]: New version: [3.9.1] Old Version: [3.9.0.dev1607297320]
+[2023-06-07 00:31:45] INFO root fetch - processPackages [omnata-plugin-devkit]: Downloading https://files.pythonhosted.org/packages/f3/0d/25543e4b35b613c73c4eed0c4aeb5e2bd1781404e56e6839b97bc0839bb1/omnata_plugin_devkit-0.1.5.tar.gz
+[2023-06-07 00:31:45] INFO root fetch - processPackages [pulpcore-client]: New version: [3.9.1] Old Version: [3.9.0.dev1607297320]
+[2023-06-07 00:31:45] INFO root fetch - processPackages [neon-skill-fallback-llm]: Downloading https://files.pythonhosted.org/packages/c7/2a/e4870c30807162033ca5350ce86cd49d7d329a367b3004af4c983e4212ce/neon_skill_fallback_llm-0.0.1a4-py3-none-any.whl
+[2023-06-07 00:31:45] INFO root fetch - processPackages [pulpcore]: Downloading https://files.pythonhosted.org/packages/f8/1d/71d5ee5112d508faa58a8e221cf74383b6d987ca0d17c18e2703c7f42845/pulpcore-3.9.0.tar.gz
+[2023-06-07 00:31:45] INFO root fetch - processPackages [pulpcore]: Downloading https://files.pythonhosted.org/packages/f8/1d/71d5ee5112d508faa58a8e221cf74383b6d987ca0d17c18e2703c7f42845/pulpcore-3.9.0.tar.gz
+[2023-06-07 00:31:45] INFO root fetch - processPackages [modular-rl]: Downloading https://files.pythonhosted.org/packages/1e/17/282a1e693b37d4b4c35b27537800441252e225648e6c082713849128b02f/modular_rl-0.2.3.tar.gz
+[2023-06-07 00:31:45] INFO root fetch - processPackages [unitsnet-py]: Downloading https://files.pythonhosted.org/packages/18/ba/c0c9128562423b48ddad627a60eb1fad9e9e7eda4dc69aac17042ad5ed19/unitsnet-py-0.1.37.tar.gz
+[2023-06-07 00:31:45] INFO root fetch - processPackages [whylogs]: Downloading https://files.pythonhosted.org/packages/44/f1/d0c2ceb2f992ecca7e7c54c3748613c3933e8aeea3b26f1d6a178eb8544d/whylogs-1.1.9.tar.gz
+[2023-06-07 00:31:45] INFO root fetch - processPackages [pulpcore-client]: Downloading https://files.pythonhosted.org/packages/bc/86/6e7f7c30116cfa30b6bd9e4cb32992d10e7c7f831ceef210610b30707023/pulpcore-client-3.9.0.dev1607297320.tar.gz
+[2023-06-07 00:31:45] INFO root fetch - processPackages [pulpcore-client]: Downloading https://files.pythonhosted.org/packages/bc/86/6e7f7c30116cfa30b6bd9e4cb32992d10e7c7f831ceef210610b30707023/pulpcore-client-3.9.0.dev1607297320.tar.gz
+[2023-06-07 00:31:46] INFO root fetch - processPackages [omnata-plugin-devkit]: Downloading https://files.pythonhosted.org/packages/2d/46/d99de2fad091a8bd71f6b64aea4516b1bf43a4723c8d37f13dfcb47804b1/omnata_plugin_devkit-0.1.6.tar.gz
+[2023-06-07 00:31:46] INFO root fetch - processPackages [neon-skill-fallback-llm]: Downloading https://files.pythonhosted.org/packages/c8/e9/94204a0866548a24c9ece7dec6cc2bdca42666c1b46d14c451d2ea41185c/neon_skill_fallback_llm-0.0.1a5-py3-none-any.whl
+[2023-06-07 00:31:46] INFO root fetch - processPackages [modular-rl]: Downloading https://files.pythonhosted.org/packages/0b/b2/4a49affd134df7b3734cd5aedd044979d544a2639b9cf595735876d83a2b/modular_rl-0.3.0.tar.gz
+[2023-06-07 00:31:46] INFO root fetch - processPackages [omnata-plugin-devkit]: executing diffoscope
+[2023-06-07 00:31:46] INFO root fetch - processPackages [omnata-plugin-devkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnata_plugin_devkit-0.1.5.tar.gz tmp/omnata_plugin_devkit-0.1.6.tar.gz --markdown 20230607/o/omnata-plugin-devkit/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-07 00:31:46] INFO root fetch - processPackages [pulpcore]: Downloading https://files.pythonhosted.org/packages/bb/70/24516074cc53b97be0e41b4892a3f5bcf3ac34e3b7634e49e28a6ae67a49/pulpcore-3.9.1.tar.gz
+[2023-06-07 00:31:46] INFO root fetch - processPackages [pulpcore]: Downloading https://files.pythonhosted.org/packages/bb/70/24516074cc53b97be0e41b4892a3f5bcf3ac34e3b7634e49e28a6ae67a49/pulpcore-3.9.1.tar.gz
+[2023-06-07 00:31:46] INFO root fetch - processPackages [pulpcore-client]: Downloading https://files.pythonhosted.org/packages/35/63/611a0870907086abd3a010fad88acd0236d830aac5b72032d41e66440aff/pulpcore-client-3.9.1.tar.gz
+[2023-06-07 00:31:46] INFO root fetch - processPackages [pulpcore-client]: Downloading https://files.pythonhosted.org/packages/35/63/611a0870907086abd3a010fad88acd0236d830aac5b72032d41e66440aff/pulpcore-client-3.9.1.tar.gz
+[2023-06-07 00:31:46] INFO root fetch - processPackages [neon-skill-fallback-llm]: executing diffoscope
+[2023-06-07 00:31:46] INFO root fetch - processPackages [neon-skill-fallback-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_skill_fallback_llm-0.0.1a4-py3-none-any.whl.zip tmp/neon_skill_fallback_llm-0.0.1a5-py3-none-any.whl.zip --markdown 20230607/n/neon-skill-fallback-llm/0.0.1a4-0.0.1a5/diff.md --exclude *.pyd
+[2023-06-07 00:31:46] INFO root fetch - processPackages [unitsnet-py]: Downloading https://files.pythonhosted.org/packages/15/ed/6323b80ed932fbea41cbd38bd8a67cc99a653e7deceb39645bdc30e02fb5/unitsnet-py-0.1.38.tar.gz
+[2023-06-07 00:31:46] INFO root fetch - processPackages [modular-rl]: executing diffoscope
+[2023-06-07 00:31:46] INFO root fetch - processPackages [modular-rl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modular_rl-0.2.3.tar.gz tmp/modular_rl-0.3.0.tar.gz --markdown 20230607/m/modular-rl/0.2.3-0.3.0/diff.md --exclude *.pyd
+[2023-06-07 00:31:46] INFO root fetch - processPackages [pulpcore]: executing diffoscope
+[2023-06-07 00:31:46] INFO root fetch - processPackages [pulpcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulpcore-3.9.0.tar.gz tmp/pulpcore-3.9.1.tar.gz --markdown 20230607/p/pulpcore/3.9.0-3.9.1/diff.md --exclude *.pyd
+[2023-06-07 00:31:46] INFO root fetch - processPackages [pulpcore-client]: executing diffoscope
+[2023-06-07 00:31:46] INFO root fetch - processPackages [pulpcore-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulpcore-client-3.9.0.dev1607297320.tar.gz tmp/pulpcore-client-3.9.1.tar.gz --markdown 20230607/p/pulpcore-client/3.9.0.dev1607297320-3.9.1/diff.md --exclude *.pyd
+[2023-06-07 00:31:46] INFO root fetch - processPackages [pulpcore]: executing diffoscope
+[2023-06-07 00:31:46] INFO root fetch - processPackages [pulpcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulpcore-3.9.0.tar.gz tmp/pulpcore-3.9.1.tar.gz --markdown 20230607/p/pulpcore/3.9.0-3.9.1/diff.md --exclude *.pyd
+[2023-06-07 00:31:46] INFO root fetch - processPackages [pulpcore-client]: executing diffoscope
+[2023-06-07 00:31:46] INFO root fetch - processPackages [pulpcore-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulpcore-client-3.9.0.dev1607297320.tar.gz tmp/pulpcore-client-3.9.1.tar.gz --markdown 20230607/p/pulpcore-client/3.9.0.dev1607297320-3.9.1/diff.md --exclude *.pyd
+[2023-06-07 00:31:46] INFO root fetch - processPackages [unitsnet-py]: executing diffoscope
+[2023-06-07 00:31:46] INFO root fetch - processPackages [unitsnet-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unitsnet-py-0.1.37.tar.gz tmp/unitsnet-py-0.1.38.tar.gz --markdown 20230607/u/unitsnet-py/0.1.37-0.1.38/diff.md --exclude *.pyd
+[2023-06-07 00:31:46] INFO root fetch - processPackages [whylogs]: Downloading https://files.pythonhosted.org/packages/61/60/7d86d3c1b7fa9e59180a1270f188d931d74ee519ba64d0294973b19ec04e/whylogs-1.1.9.dev0.tar.gz
+[2023-06-07 00:31:47] INFO root fetch - processPackages [whylogs]: executing diffoscope
+[2023-06-07 00:31:47] INFO root fetch - processPackages [whylogs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whylogs-1.1.9.tar.gz tmp/whylogs-1.1.9.dev0.tar.gz --markdown 20230607/w/whylogs/1.1.9-1.1.9.dev0/diff.md --exclude *.pyd
+[2023-06-07 00:31:47] INFO root fetch - processPackages [omnata-plugin-devkit]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_devkit-0.1.5.tar.gz]
+[2023-06-07 00:31:47] INFO root fetch - processPackages [omnata-plugin-devkit]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_devkit-0.1.6.tar.gz]
+[2023-06-07 00:31:47] INFO root fetch - main [MainThread]: End processing [omnata-plugin-devkit]: success
+[2023-06-07 00:31:47] INFO root fetch - processPackages [neon-skill-fallback-llm]: Remove: archive file [/home/abi/fetcher/tmp/neon_skill_fallback_llm-0.0.1a4-py3-none-any.whl.zip]
+[2023-06-07 00:31:47] INFO root fetch - processPackages [neon-skill-fallback-llm]: Remove: archive file [/home/abi/fetcher/tmp/neon_skill_fallback_llm-0.0.1a5-py3-none-any.whl.zip]
+[2023-06-07 00:31:47] INFO root fetch - main [MainThread]: End processing [neon-skill-fallback-llm]: success
+[2023-06-07 00:31:47] INFO root fetch - processPackages [modular-rl]: Remove: archive file [/home/abi/fetcher/tmp/modular_rl-0.2.3.tar.gz]
+[2023-06-07 00:31:47] INFO root fetch - processPackages [modular-rl]: Remove: archive file [/home/abi/fetcher/tmp/modular_rl-0.3.0.tar.gz]
+[2023-06-07 00:31:47] INFO root fetch - main [MainThread]: End processing [modular-rl]: success
+[2023-06-07 00:31:48] INFO root fetch - processPackages [unitsnet-py]: Remove: archive file [/home/abi/fetcher/tmp/unitsnet-py-0.1.37.tar.gz]
+[2023-06-07 00:31:48] INFO root fetch - processPackages [unitsnet-py]: Remove: archive file [/home/abi/fetcher/tmp/unitsnet-py-0.1.38.tar.gz]
+[2023-06-07 00:31:48] INFO root fetch - main [MainThread]: End processing [unitsnet-py]: success
+[2023-06-07 00:31:48] INFO root fetch - processPackages [pulpcore-client]: Remove: archive file [/home/abi/fetcher/tmp/pulpcore-client-3.9.0.dev1607297320.tar.gz]
+[2023-06-07 00:31:48] INFO root fetch - processPackages [pulpcore-client]: Remove: archive file [/home/abi/fetcher/tmp/pulpcore-client-3.9.1.tar.gz]
+[2023-06-07 00:31:48] INFO root fetch - main [MainThread]: End processing [pulpcore-client]: success
+[2023-06-07 00:31:49] INFO root fetch - processPackages [pulpcore]: Remove: archive file [/home/abi/fetcher/tmp/pulpcore-3.9.0.tar.gz]
+[2023-06-07 00:31:49] INFO root fetch - processPackages [pulpcore]: Remove: archive file [/home/abi/fetcher/tmp/pulpcore-3.9.1.tar.gz]
+[2023-06-07 00:31:49] INFO root fetch - main [MainThread]: End processing [pulpcore]: success
+[2023-06-07 00:31:49] INFO root fetch - main [MainThread]: End processing [pulpcore]: success
+[2023-06-07 00:31:49] INFO root fetch - processPackages [whylogs]: Remove: archive file [/home/abi/fetcher/tmp/whylogs-1.1.9.tar.gz]
+[2023-06-07 00:31:49] INFO root fetch - processPackages [whylogs]: Remove: archive file [/home/abi/fetcher/tmp/whylogs-1.1.9.dev0.tar.gz]
+[2023-06-07 00:31:49] INFO root fetch - main [MainThread]: End processing [whylogs]: success
+[2023-06-07 00:31:49] INFO root fetch - main [MainThread]: End processing [pulpcore-client]: success
+[2023-06-07 00:31:49] INFO root fetch - main [MainThread]: Store serial: [18398331]
