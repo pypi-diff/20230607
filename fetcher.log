@@ -284,3 +284,75 @@
 [2023-06-07 00:10:57] INFO root fetch - processPackages [quantconnect-stubs]: Remove: archive file [/home/abi/fetcher/tmp/quantconnect-stubs-9998.tar.gz]
 [2023-06-07 00:10:57] INFO root fetch - main [MainThread]: End processing [quantconnect-stubs]: success
 [2023-06-07 00:10:57] INFO root fetch - main [MainThread]: Store serial: [18398236]
+[2023-06-07 00:16:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18398236]
+[2023-06-07 00:16:06] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-07 00:16:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: thu-learn-downloader
+[2023-06-07 00:16:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pandasai
+[2023-06-07 00:16:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-autotask
+[2023-06-07 00:16:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qssp
+[2023-06-07 00:16:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dataquality
+[2023-06-07 00:16:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aind-segmentation-evaluation
+[2023-06-07 00:16:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: twitter-api-client
+[2023-06-07 00:16:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pipd
+[2023-06-07 00:16:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: PhoenixTools
+[2023-06-07 00:16:06] INFO root fetch - processPackages [thu-learn-downloader]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-07 00:16:06] INFO root fetch - processPackages [django-autotask]: New version: [1.2.4] Old Version: [1.1.4]
+[2023-06-07 00:16:06] INFO root fetch - processPackages [pandasai]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-06-07 00:16:06] WARNING root fetch - processPackages [qssp]: Skipping, unable to determine old version
+[2023-06-07 00:16:06] INFO root fetch - main [MainThread]: End processing [qssp] error
+[2023-06-07 00:16:06] INFO root fetch - processPackages [twitter-api-client]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-07 00:16:06] INFO root fetch - processPackages [pipd]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-07 00:16:06] INFO root fetch - processPackages [aind-segmentation-evaluation]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-07 00:16:06] INFO root fetch - processPackages [dataquality]: New version: [0.8.9] Old Version: [0.8.8a0]
+[2023-06-07 00:16:06] INFO root fetch - processPackages [thu-learn-downloader]: Downloading https://files.pythonhosted.org/packages/b9/b1/10860181688936832714cd6f11b3590c78dc507037fe53ea8e5c54ccb5ee/thu_learn_downloader-0.1.8.tar.gz
+[2023-06-07 00:16:06] INFO root fetch - processPackages [pandasai]: Downloading https://files.pythonhosted.org/packages/75/d3/6c907ed8428db3f998a659d2a115a96910a4d400d4075062b36dc5500958/pandasai-0.4.0.tar.gz
+[2023-06-07 00:16:06] INFO root fetch - processPackages [twitter-api-client]: Downloading https://files.pythonhosted.org/packages/f2/d0/1dff64629efd3213a81e7ad20825e5d43b99ebaf6ab64b1fe99e7426d9da/twitter-api-client-0.9.0.tar.gz
+[2023-06-07 00:16:06] INFO root fetch - processPackages [dataquality]: Downloading https://files.pythonhosted.org/packages/ec/c0/a67c048905f2c652971d55ff82c30b8a749cfdd800d5119bb8accf3770bc/dataquality-0.8.8a0.tar.gz
+[2023-06-07 00:16:06] WARNING root fetch - processPackages [PhoenixTools]: Skipping, unable to determine old version
+[2023-06-07 00:16:06] INFO root fetch - main [MainThread]: End processing [PhoenixTools] error
+[2023-06-07 00:16:06] INFO root fetch - processPackages [aind-segmentation-evaluation]: Downloading https://files.pythonhosted.org/packages/0f/55/d339e4a1a627d9f16bde01dbd1b77907dc371973ebb8c5814c98b0246d07/aind_segmentation_evaluation-0.1.8.tar.gz
+[2023-06-07 00:16:07] INFO root fetch - processPackages [django-autotask]: Downloading https://files.pythonhosted.org/packages/6e/55/fef5b877642b9b51f61cac6e99dd15d055fabe89830bad261281ee653042/django-autotask-1.1.4.tar.gz
+[2023-06-07 00:16:07] INFO root fetch - processPackages [pipd]: Downloading https://files.pythonhosted.org/packages/9c/1f/e681e80fb656ec07a5c29f19e390303ad3fb32bca47a1d91966125b7489c/pipd-0.1.1.tar.gz
+[2023-06-07 00:16:07] INFO root fetch - processPackages [thu-learn-downloader]: Downloading https://files.pythonhosted.org/packages/9d/74/992144c7ba4621c5d50d6923a66b2b20c0ba03716cc497806e4c3791fa1a/thu_learn_downloader-0.1.9.tar.gz
+[2023-06-07 00:16:07] INFO root fetch - processPackages [pandasai]: Downloading https://files.pythonhosted.org/packages/7f/0c/6aaff7ab95027a291fc2c387bad7c056f97ee4991fe75e6bc543f21256e3/pandasai-0.4.1.tar.gz
+[2023-06-07 00:16:07] INFO root fetch - processPackages [dataquality]: Downloading https://files.pythonhosted.org/packages/91/1e/b93106f778087ce05e7c356ffd9a6a6062c6e62a84bf3f9d4eb655b16850/dataquality-0.8.9.tar.gz
+[2023-06-07 00:16:07] INFO root fetch - processPackages [aind-segmentation-evaluation]: Downloading https://files.pythonhosted.org/packages/bc/ac/83eb7dc1edd6ef85ed0b49968b144fc4008c7bc0bc75dd809f2a24cb2aa7/aind_segmentation_evaluation-0.1.9.tar.gz
+[2023-06-07 00:16:07] INFO root fetch - processPackages [twitter-api-client]: Downloading https://files.pythonhosted.org/packages/09/98/44388599960e4df6b6375c3f1026e59a6d68afcb92d886f5b8ee681f8327/twitter-api-client-0.9.1.tar.gz
+[2023-06-07 00:16:07] INFO root fetch - processPackages [thu-learn-downloader]: executing diffoscope
+[2023-06-07 00:16:07] INFO root fetch - processPackages [thu-learn-downloader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thu_learn_downloader-0.1.8.tar.gz tmp/thu_learn_downloader-0.1.9.tar.gz --markdown 20230607/t/thu-learn-downloader/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-07 00:16:07] INFO root fetch - processPackages [aind-segmentation-evaluation]: executing diffoscope
+[2023-06-07 00:16:07] INFO root fetch - processPackages [aind-segmentation-evaluation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aind_segmentation_evaluation-0.1.8.tar.gz tmp/aind_segmentation_evaluation-0.1.9.tar.gz --markdown 20230607/a/aind-segmentation-evaluation/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-07 00:16:07] INFO root fetch - processPackages [dataquality]: executing diffoscope
+[2023-06-07 00:16:07] INFO root fetch - processPackages [dataquality]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataquality-0.8.8a0.tar.gz tmp/dataquality-0.8.9.tar.gz --markdown 20230607/d/dataquality/0.8.8a0-0.8.9/diff.md --exclude *.pyd
+[2023-06-07 00:16:07] INFO root fetch - processPackages [django-autotask]: Downloading https://files.pythonhosted.org/packages/3c/89/d1248b247cb01a0f27733df7a7e131cf9f9c82b5be98d407d6be5453845e/django-autotask-1.2.4.tar.gz
+[2023-06-07 00:16:07] INFO root fetch - processPackages [pandasai]: executing diffoscope
+[2023-06-07 00:16:07] INFO root fetch - processPackages [pandasai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandasai-0.4.0.tar.gz tmp/pandasai-0.4.1.tar.gz --markdown 20230607/p/pandasai/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-06-07 00:16:07] INFO root fetch - processPackages [pipd]: Downloading https://files.pythonhosted.org/packages/9c/e1/ba5bd3791660a05857ddf6c217f5115487853d1890134ff5e7ffd5a70ab2/pipd-0.1.2.tar.gz
+[2023-06-07 00:16:07] INFO root fetch - processPackages [twitter-api-client]: executing diffoscope
+[2023-06-07 00:16:07] INFO root fetch - processPackages [twitter-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twitter-api-client-0.9.0.tar.gz tmp/twitter-api-client-0.9.1.tar.gz --markdown 20230607/t/twitter-api-client/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-07 00:16:07] INFO root fetch - processPackages [django-autotask]: executing diffoscope
+[2023-06-07 00:16:07] INFO root fetch - processPackages [django-autotask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-autotask-1.1.4.tar.gz tmp/django-autotask-1.2.4.tar.gz --markdown 20230607/d/django-autotask/1.1.4-1.2.4/diff.md --exclude *.pyd
+[2023-06-07 00:16:07] INFO root fetch - processPackages [pipd]: executing diffoscope
+[2023-06-07 00:16:07] INFO root fetch - processPackages [pipd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipd-0.1.1.tar.gz tmp/pipd-0.1.2.tar.gz --markdown 20230607/p/pipd/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-07 00:16:08] INFO root fetch - processPackages [thu-learn-downloader]: Remove: archive file [/home/abi/fetcher/tmp/thu_learn_downloader-0.1.8.tar.gz]
+[2023-06-07 00:16:08] INFO root fetch - processPackages [thu-learn-downloader]: Remove: archive file [/home/abi/fetcher/tmp/thu_learn_downloader-0.1.9.tar.gz]
+[2023-06-07 00:16:08] INFO root fetch - main [MainThread]: End processing [thu-learn-downloader]: success
+[2023-06-07 00:16:08] INFO root fetch - processPackages [twitter-api-client]: Remove: archive file [/home/abi/fetcher/tmp/twitter-api-client-0.9.0.tar.gz]
+[2023-06-07 00:16:08] INFO root fetch - processPackages [twitter-api-client]: Remove: archive file [/home/abi/fetcher/tmp/twitter-api-client-0.9.1.tar.gz]
+[2023-06-07 00:16:08] INFO root fetch - main [MainThread]: End processing [twitter-api-client]: success
+[2023-06-07 00:16:08] INFO root fetch - processPackages [pandasai]: Remove: archive file [/home/abi/fetcher/tmp/pandasai-0.4.0.tar.gz]
+[2023-06-07 00:16:08] INFO root fetch - processPackages [pandasai]: Remove: archive file [/home/abi/fetcher/tmp/pandasai-0.4.1.tar.gz]
+[2023-06-07 00:16:08] INFO root fetch - main [MainThread]: End processing [pandasai]: success
+[2023-06-07 00:16:09] INFO root fetch - processPackages [pipd]: Remove: archive file [/home/abi/fetcher/tmp/pipd-0.1.1.tar.gz]
+[2023-06-07 00:16:09] INFO root fetch - processPackages [pipd]: Remove: archive file [/home/abi/fetcher/tmp/pipd-0.1.2.tar.gz]
+[2023-06-07 00:16:09] INFO root fetch - main [MainThread]: End processing [pipd]: success
+[2023-06-07 00:16:09] INFO root fetch - processPackages [dataquality]: Remove: archive file [/home/abi/fetcher/tmp/dataquality-0.8.8a0.tar.gz]
+[2023-06-07 00:16:09] INFO root fetch - processPackages [dataquality]: Remove: archive file [/home/abi/fetcher/tmp/dataquality-0.8.9.tar.gz]
+[2023-06-07 00:16:09] INFO root fetch - main [MainThread]: End processing [dataquality]: success
+[2023-06-07 00:16:11] INFO root fetch - processPackages [django-autotask]: Remove: archive file [/home/abi/fetcher/tmp/django-autotask-1.1.4.tar.gz]
+[2023-06-07 00:16:11] INFO root fetch - processPackages [django-autotask]: Remove: archive file [/home/abi/fetcher/tmp/django-autotask-1.2.4.tar.gz]
+[2023-06-07 00:16:11] INFO root fetch - main [MainThread]: End processing [django-autotask]: success
+[2023-06-07 00:16:11] INFO root fetch - processPackages [aind-segmentation-evaluation]: Remove: archive file [/home/abi/fetcher/tmp/aind_segmentation_evaluation-0.1.8.tar.gz]
+[2023-06-07 00:16:11] INFO root fetch - processPackages [aind-segmentation-evaluation]: Remove: archive file [/home/abi/fetcher/tmp/aind_segmentation_evaluation-0.1.9.tar.gz]
+[2023-06-07 00:16:11] INFO root fetch - main [MainThread]: End processing [aind-segmentation-evaluation]: success
+[2023-06-07 00:16:11] INFO root fetch - main [MainThread]: Store serial: [18398266]
