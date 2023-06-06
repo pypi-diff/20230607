@@ -676,3 +676,81 @@
 [2023-06-07 00:52:54] INFO root fetch - processPackages [mojo-xmodules]: Remove: archive file [/home/abi/fetcher/tmp/mojo_xmodules-0.0.9.tar.gz]
 [2023-06-07 00:52:54] INFO root fetch - main [MainThread]: End processing [mojo-xmodules]: success
 [2023-06-07 00:52:54] INFO root fetch - main [MainThread]: Store serial: [18398424]
+[2023-06-07 00:57:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18398424]
+[2023-06-07 00:58:03] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-07 00:58:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mlplatformutils
+[2023-06-07 00:58:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hmc-mir
+[2023-06-07 00:58:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wicked-expressions
+[2023-06-07 00:58:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: quantconnect-stubs
+[2023-06-07 00:58:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rising-plugin
+[2023-06-07 00:58:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: truss
+[2023-06-07 00:58:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: connex
+[2023-06-07 00:58:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kndsa
+[2023-06-07 00:58:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: steamship
+[2023-06-07 00:58:03] INFO root fetch - processPackages [hmc-mir]: New version: [0.1.5] Old Version: [0.1.2]
+[2023-06-07 00:58:03] INFO root fetch - processPackages [mlplatformutils]: New version: [0.9.0.1] Old Version: [0.9.0]
+[2023-06-07 00:58:03] WARNING root fetch - processPackages [kndsa]: Skipping, unable to determine old version
+[2023-06-07 00:58:03] INFO root fetch - processPackages [truss]: New version: [0.4.8rc5] Old Version: [0.4.8rc4]
+[2023-06-07 00:58:03] INFO root fetch - main [MainThread]: End processing [kndsa] error
+[2023-06-07 00:58:03] INFO root fetch - processPackages [connex]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-06-07 00:58:03] INFO root fetch - processPackages [wicked-expressions]: New version: [0.7.0] Old Version: [0.6.4]
+[2023-06-07 00:58:03] INFO root fetch - processPackages [steamship]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-06-07 00:58:03] INFO root fetch - processPackages [rising-plugin]: New version: [0.222.100] Old Version: [0.1.4]
+[2023-06-07 00:58:03] INFO root fetch - processPackages [truss]: Downloading https://files.pythonhosted.org/packages/a2/cc/2d34ed7e25541813d2c630b2e80e76698e6e9c0aec0f3b657de1e865ac15/truss-0.4.8rc4.tar.gz
+[2023-06-07 00:58:03] INFO root fetch - processPackages [hmc-mir]: Downloading https://files.pythonhosted.org/packages/b9/36/b8b24cde858bffd2be3666be3456a795efe3e6e98ff486b4a8de481a9fdc/hmc_mir-0.1.2.tar.gz
+[2023-06-07 00:58:03] INFO root fetch - processPackages [quantconnect-stubs]: New version: [9998] Old Version: [9997]
+[2023-06-07 00:58:03] INFO root fetch - processPackages [connex]: Downloading https://files.pythonhosted.org/packages/52/45/2d73b36dba7fb5b665152d0d48c76e388f9506beafea399190372a405ae3/connex-0.3.1.tar.gz
+[2023-06-07 00:58:03] INFO root fetch - processPackages [mlplatformutils]: Downloading https://files.pythonhosted.org/packages/39/5b/470165ef9538f54f20427250af158eb32205d37a78b414334d609088cf92/mlplatformutils-0.9.0.tar.gz
+[2023-06-07 00:58:03] INFO root fetch - processPackages [quantconnect-stubs]: Downloading https://files.pythonhosted.org/packages/c1/05/f15c16a3f852decfd032ce1688dfdf02fd7289f1780742453533e8c55209/quantconnect-stubs-9997.tar.gz
+[2023-06-07 00:58:03] INFO root fetch - processPackages [rising-plugin]: Downloading https://files.pythonhosted.org/packages/d1/b1/62e29fe9e5589bce868d0a9a5b2cac722145b9596315da89a84a3d8afac4/rising_plugin-0.1.4.tar.gz
+[2023-06-07 00:58:03] INFO root fetch - processPackages [steamship]: Downloading https://files.pythonhosted.org/packages/d5/9d/2e877493befc03aade673fa8cbf159f77955b8658f16d4b0e16ad0ab106f/steamship-2.3.8.tar.gz
+[2023-06-07 00:58:03] INFO root fetch - processPackages [wicked-expressions]: Downloading https://files.pythonhosted.org/packages/92/68/0ff24c51f908ade6e310f80b0830c17c62a8dacadef5897414bd071ed1b5/wicked_expressions-0.6.4.tar.gz
+[2023-06-07 00:58:03] INFO root fetch - processPackages [quantconnect-stubs]: Downloading https://files.pythonhosted.org/packages/b7/4c/71e6bb724f14efcd8865f2aa692528a4c45877c58f5cf8c964a8e0fc0e74/quantconnect-stubs-9998.tar.gz
+[2023-06-07 00:58:03] INFO root fetch - processPackages [hmc-mir]: Downloading https://files.pythonhosted.org/packages/8c/5a/aa628e9476e032e0b01b2941b37a1e76246958876bc0701302740d6b96a4/hmc_mir-0.1.5.tar.gz
+[2023-06-07 00:58:03] INFO root fetch - processPackages [connex]: Downloading https://files.pythonhosted.org/packages/ed/0c/66f89bc6fe35c59b28d7b557c7b5c125a8e8934a7cf820ff22e92ce1db1a/connex-0.3.2.tar.gz
+[2023-06-07 00:58:03] INFO root fetch - processPackages [mlplatformutils]: Downloading https://files.pythonhosted.org/packages/7c/35/ff50a0548e8701e1e89ec1399327a37f1dd0db25773a10904fcdaa5767b3/mlplatformutils-0.9.0.1.tar.gz
+[2023-06-07 00:58:03] INFO root fetch - processPackages [truss]: Downloading https://files.pythonhosted.org/packages/bb/9f/7515f156b7b72391895ae2e2a7740f3bbb8c91be187cc147bea3ad19c2c5/truss-0.4.8rc5.tar.gz
+[2023-06-07 00:58:03] INFO root fetch - processPackages [rising-plugin]: Downloading https://files.pythonhosted.org/packages/ec/41/522ceb8ef2ccd2fb1fed9c0dd9af0b15009ee92e216d9ec8a55f05700fd0/rising_plugin-0.222.100.tar.gz
+[2023-06-07 00:58:03] INFO root fetch - processPackages [wicked-expressions]: Downloading https://files.pythonhosted.org/packages/a1/7b/9816fb5e6b6315d95411e6f91eb74cd3b7bd43a21c3920e9d088237ccf1d/wicked_expressions-0.7.0.tar.gz
+[2023-06-07 00:58:03] INFO root fetch - processPackages [quantconnect-stubs]: executing diffoscope
+[2023-06-07 00:58:03] INFO root fetch - processPackages [quantconnect-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantconnect-stubs-9997.tar.gz tmp/quantconnect-stubs-9998.tar.gz --markdown 20230607/q/quantconnect-stubs/9997-9998/diff.md --exclude *.pyd
+[2023-06-07 00:58:03] INFO root fetch - processPackages [mlplatformutils]: executing diffoscope
+[2023-06-07 00:58:03] INFO root fetch - processPackages [mlplatformutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlplatformutils-0.9.0.tar.gz tmp/mlplatformutils-0.9.0.1.tar.gz --markdown 20230607/m/mlplatformutils/0.9.0-0.9.0.1/diff.md --exclude *.pyd
+[2023-06-07 00:58:03] INFO root fetch - processPackages [connex]: executing diffoscope
+[2023-06-07 00:58:03] INFO root fetch - processPackages [connex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/connex-0.3.1.tar.gz tmp/connex-0.3.2.tar.gz --markdown 20230607/c/connex/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-06-07 00:58:03] INFO root fetch - processPackages [hmc-mir]: executing diffoscope
+[2023-06-07 00:58:03] INFO root fetch - processPackages [hmc-mir]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hmc_mir-0.1.2.tar.gz tmp/hmc_mir-0.1.5.tar.gz --markdown 20230607/h/hmc-mir/0.1.2-0.1.5/diff.md --exclude *.pyd
+[2023-06-07 00:58:03] INFO root fetch - processPackages [rising-plugin]: executing diffoscope
+[2023-06-07 00:58:03] INFO root fetch - processPackages [rising-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rising_plugin-0.1.4.tar.gz tmp/rising_plugin-0.222.100.tar.gz --markdown 20230607/r/rising-plugin/0.1.4-0.222.100/diff.md --exclude *.pyd
+[2023-06-07 00:58:03] INFO root fetch - processPackages [wicked-expressions]: executing diffoscope
+[2023-06-07 00:58:03] INFO root fetch - processPackages [wicked-expressions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wicked_expressions-0.6.4.tar.gz tmp/wicked_expressions-0.7.0.tar.gz --markdown 20230607/w/wicked-expressions/0.6.4-0.7.0/diff.md --exclude *.pyd
+[2023-06-07 00:58:04] INFO root fetch - processPackages [truss]: executing diffoscope
+[2023-06-07 00:58:04] INFO root fetch - processPackages [truss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/truss-0.4.8rc4.tar.gz tmp/truss-0.4.8rc5.tar.gz --markdown 20230607/t/truss/0.4.8rc4-0.4.8rc5/diff.md --exclude *.pyd
+[2023-06-07 00:58:04] INFO root fetch - processPackages [steamship]: Downloading https://files.pythonhosted.org/packages/8a/2c/45284b04a7bcb421510b1bbb2e3f826c87946551d954eb3a3cd6b481fe09/steamship-2.3.9.tar.gz
+[2023-06-07 00:58:04] INFO root fetch - processPackages [steamship]: executing diffoscope
+[2023-06-07 00:58:04] INFO root fetch - processPackages [steamship]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/steamship-2.3.8.tar.gz tmp/steamship-2.3.9.tar.gz --markdown 20230607/s/steamship/2.3.8-2.3.9/diff.md --exclude *.pyd
+[2023-06-07 00:58:05] INFO root fetch - processPackages [mlplatformutils]: Remove: archive file [/home/abi/fetcher/tmp/mlplatformutils-0.9.0.tar.gz]
+[2023-06-07 00:58:05] INFO root fetch - processPackages [mlplatformutils]: Remove: archive file [/home/abi/fetcher/tmp/mlplatformutils-0.9.0.1.tar.gz]
+[2023-06-07 00:58:05] INFO root fetch - main [MainThread]: End processing [mlplatformutils]: success
+[2023-06-07 00:58:05] INFO root fetch - processPackages [connex]: Remove: archive file [/home/abi/fetcher/tmp/connex-0.3.1.tar.gz]
+[2023-06-07 00:58:05] INFO root fetch - processPackages [connex]: Remove: archive file [/home/abi/fetcher/tmp/connex-0.3.2.tar.gz]
+[2023-06-07 00:58:05] INFO root fetch - main [MainThread]: End processing [connex]: success
+[2023-06-07 00:58:05] INFO root fetch - processPackages [rising-plugin]: Remove: archive file [/home/abi/fetcher/tmp/rising_plugin-0.1.4.tar.gz]
+[2023-06-07 00:58:05] INFO root fetch - processPackages [rising-plugin]: Remove: archive file [/home/abi/fetcher/tmp/rising_plugin-0.222.100.tar.gz]
+[2023-06-07 00:58:05] INFO root fetch - main [MainThread]: End processing [rising-plugin]: success
+[2023-06-07 00:58:05] INFO root fetch - processPackages [hmc-mir]: Remove: archive file [/home/abi/fetcher/tmp/hmc_mir-0.1.2.tar.gz]
+[2023-06-07 00:58:05] INFO root fetch - processPackages [hmc-mir]: Remove: archive file [/home/abi/fetcher/tmp/hmc_mir-0.1.5.tar.gz]
+[2023-06-07 00:58:05] INFO root fetch - main [MainThread]: End processing [hmc-mir]: success
+[2023-06-07 00:58:05] INFO root fetch - processPackages [wicked-expressions]: Remove: archive file [/home/abi/fetcher/tmp/wicked_expressions-0.6.4.tar.gz]
+[2023-06-07 00:58:05] INFO root fetch - processPackages [wicked-expressions]: Remove: archive file [/home/abi/fetcher/tmp/wicked_expressions-0.7.0.tar.gz]
+[2023-06-07 00:58:05] INFO root fetch - main [MainThread]: End processing [wicked-expressions]: success
+[2023-06-07 00:58:07] INFO root fetch - processPackages [truss]: Remove: archive file [/home/abi/fetcher/tmp/truss-0.4.8rc4.tar.gz]
+[2023-06-07 00:58:07] INFO root fetch - processPackages [truss]: Remove: archive file [/home/abi/fetcher/tmp/truss-0.4.8rc5.tar.gz]
+[2023-06-07 00:58:07] INFO root fetch - main [MainThread]: End processing [truss]: success
+[2023-06-07 00:58:07] INFO root fetch - processPackages [steamship]: Remove: archive file [/home/abi/fetcher/tmp/steamship-2.3.8.tar.gz]
+[2023-06-07 00:58:07] INFO root fetch - processPackages [steamship]: Remove: archive file [/home/abi/fetcher/tmp/steamship-2.3.9.tar.gz]
+[2023-06-07 00:58:07] INFO root fetch - main [MainThread]: End processing [steamship]: success
+[2023-06-07 00:58:08] INFO root fetch - processPackages [quantconnect-stubs]: Remove: archive file [/home/abi/fetcher/tmp/quantconnect-stubs-9997.tar.gz]
+[2023-06-07 00:58:08] INFO root fetch - processPackages [quantconnect-stubs]: Remove: archive file [/home/abi/fetcher/tmp/quantconnect-stubs-9998.tar.gz]
+[2023-06-07 00:58:08] INFO root fetch - main [MainThread]: End processing [quantconnect-stubs]: success
+[2023-06-07 00:58:08] INFO root fetch - main [MainThread]: Store serial: [18398451]
