@@ -1033,3 +1033,132 @@
 [2023-06-07 01:13:53] INFO root fetch - processPackages [truera]: Remove: archive file [/home/abi/fetcher/tmp/truera-9.9.0-py3-none-any.whl.zip]
 [2023-06-07 01:13:53] INFO root fetch - main [MainThread]: End processing [truera]: success
 [2023-06-07 01:13:53] INFO root fetch - main [MainThread]: Store serial: [18398556]
+[2023-06-07 01:18:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18398556]
+[2023-06-07 01:19:02] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-06-07 01:19:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: synapgrad
+[2023-06-07 01:19:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: deployfish
+[2023-06-07 01:19:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nipype2pydra
+[2023-06-07 01:19:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sheng-pypi
+[2023-06-07 01:19:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: SerializerAraseniiShmatovNEW
+[2023-06-07 01:19:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pepperize.cdk-ses-smtp-credentials
+[2023-06-07 01:19:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sliwGN
+[2023-06-07 01:19:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dragonfly-grasshopper
+[2023-06-07 01:19:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: steps-autoencoder
+[2023-06-07 01:19:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pychonet
+[2023-06-07 01:19:02] INFO root fetch - processPackages [deployfish]: New version: [1.9.6] Old Version: [1.9.5]
+[2023-06-07 01:19:02] WARNING root fetch - processPackages [sliwGN]: Skipping, unable to determine old version
+[2023-06-07 01:19:02] INFO root fetch - processPackages [sliwGN]: Start processing: spotON_sdk
+[2023-06-07 01:19:02] INFO root fetch - processPackages [SerializerAraseniiShmatovNEW]: New version: [0.1.7] Old Version: [0.1.5]
+[2023-06-07 01:19:02] INFO root fetch - main [MainThread]: End processing [sliwGN] error
+[2023-06-07 01:19:02] WARNING root fetch - processPackages [nipype2pydra]: Skipping, unable to determine old version
+[2023-06-07 01:19:02] INFO root fetch - processPackages [synapgrad]: New version: [0.6.0] Old Version: [0.5.1]
+[2023-06-07 01:19:02] INFO root fetch - processPackages [steps-autoencoder]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-07 01:19:02] INFO root fetch - processPackages [nipype2pydra]: Start processing: lassen
+[2023-06-07 01:19:02] INFO root fetch - main [MainThread]: End processing [nipype2pydra] error
+[2023-06-07 01:19:02] INFO root fetch - processPackages [sheng-pypi]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-07 01:19:02] INFO root fetch - processPackages [pychonet]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-06-07 01:19:02] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: New version: [0.3.351] Old Version: [0.3.350]
+[2023-06-07 01:19:02] INFO root fetch - processPackages [spotON_sdk]: New version: [0.0.5.25] Old Version: [0.0.5.24]
+[2023-06-07 01:19:02] INFO root fetch - processPackages [dragonfly-grasshopper]: New version: [1.9.0] Old Version: [1.8.4]
+[2023-06-07 01:19:02] INFO root fetch - processPackages [deployfish]: Downloading https://files.pythonhosted.org/packages/9d/d7/c6216956d9be271f193368959212bc2df2a2991f5f538fc6949a9ffb5cf1/deployfish-1.9.5.tar.gz
+[2023-06-07 01:19:02] WARNING root fetch - processPackages [lassen]: Skipping, unable to determine old version
+[2023-06-07 01:19:02] INFO root fetch - processPackages [lassen]: Start processing: clouding-server-manager
+[2023-06-07 01:19:02] INFO root fetch - main [MainThread]: End processing [lassen] error
+[2023-06-07 01:19:02] INFO root fetch - processPackages [SerializerAraseniiShmatovNEW]: Downloading https://files.pythonhosted.org/packages/c4/68/992e65a7a48b0184a9b23a63057763b007f39a18c4aab9c846ae94e71997/SerializerAraseniiShmatovNEW-0.1.5.tar.gz
+[2023-06-07 01:19:02] INFO root fetch - processPackages [sheng-pypi]: Downloading https://files.pythonhosted.org/packages/48/4f/4b0f60e3772a9913a2fabfe104cc51a0ecc8a73c7693131c1b831c20abc2/sheng-pypi-0.0.2.tar.gz
+[2023-06-07 01:19:02] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/0b/54/9b93e416ed4dec67c19a21941ce830f8ea3d94b8ad4f87b79c59e78b6264/pepperize.cdk-ses-smtp-credentials-0.3.350.tar.gz
+[2023-06-07 01:19:02] INFO root fetch - processPackages [clouding-server-manager]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-07 01:19:02] INFO root fetch - processPackages [steps-autoencoder]: Downloading https://files.pythonhosted.org/packages/f3/97/bd314cb3fd1eeb35252e3c635741ea30ad26842e9be8bb6d7da3ea3e60a0/steps-autoencoder-0.1.7.tar.gz
+[2023-06-07 01:19:02] INFO root fetch - processPackages [synapgrad]: Downloading https://files.pythonhosted.org/packages/63/07/3dd7dbeb8b1a92cf9aba98f0338f6486112ccba80a1ab1483bdfb687decb/synapgrad-0.5.1-py3-none-any.whl
+[2023-06-07 01:19:03] INFO root fetch - processPackages [spotON_sdk]: Downloading https://files.pythonhosted.org/packages/2a/c2/f35666ecba8f127b12620a16b6f772f3b215f080e9bfed249a81823cd301/spotON_sdk-0.0.5.24.tar.gz
+[2023-06-07 01:19:03] INFO root fetch - processPackages [pychonet]: Downloading https://files.pythonhosted.org/packages/82/23/f899d1459d4461943a5b3d180497fe642026465ba490d4cfb35019db379b/pychonet-2.3.8.tar.gz
+[2023-06-07 01:19:03] INFO root fetch - processPackages [deployfish]: Downloading https://files.pythonhosted.org/packages/52/7d/9a175e9cf46a38849c3d62138417864d11754e457d39f248e23a1aa39c79/deployfish-1.9.6.tar.gz
+[2023-06-07 01:19:03] INFO root fetch - processPackages [dragonfly-grasshopper]: Downloading https://files.pythonhosted.org/packages/61/7c/926c180ac51778655057fbd9c2b7a694a7cfbc634c510e4bab5af0beb8d9/dragonfly-grasshopper-1.8.4.tar.gz
+[2023-06-07 01:19:03] INFO root fetch - processPackages [sheng-pypi]: Downloading https://files.pythonhosted.org/packages/e0/4e/f8b6c805286dd6732af0169b5aff1480bda2df4b9afeab8272574a687c0e/sheng-pypi-0.0.3.tar.gz
+[2023-06-07 01:19:03] INFO root fetch - processPackages [clouding-server-manager]: Downloading https://files.pythonhosted.org/packages/1d/e8/7bcd87d5911ee26de3ca359020b97b8f259da1c8d5e841c788dc878fa059/clouding_server_manager-1.0.3.tar.gz
+[2023-06-07 01:19:03] INFO root fetch - processPackages [SerializerAraseniiShmatovNEW]: Downloading https://files.pythonhosted.org/packages/ef/0b/536715dbf9bfa25cd2f88c419c99ae5b76eff736919e7d387d2a23c57b5e/SerializerAraseniiShmatovNEW-0.1.7.tar.gz
+[2023-06-07 01:19:03] INFO root fetch - processPackages [deployfish]: executing diffoscope
+[2023-06-07 01:19:03] INFO root fetch - processPackages [deployfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deployfish-1.9.5.tar.gz tmp/deployfish-1.9.6.tar.gz --markdown 20230607/d/deployfish/1.9.5-1.9.6/diff.md --exclude *.pyd
+[2023-06-07 01:19:03] INFO root fetch - processPackages [steps-autoencoder]: Downloading https://files.pythonhosted.org/packages/63/ef/ce34f0ee12b139a44a5809e08007c2cffcbd63de6c190c628be43fe8b446/steps-autoencoder-0.1.8.tar.gz
+[2023-06-07 01:19:03] INFO root fetch - processPackages [synapgrad]: Downloading https://files.pythonhosted.org/packages/02/e2/35e9616138bb263a4595654f56889a3cf6318e5cdf57f6464366a62de6c5/synapgrad-0.6.0-py3-none-any.whl
+[2023-06-07 01:19:03] INFO root fetch - processPackages [sheng-pypi]: executing diffoscope
+[2023-06-07 01:19:03] INFO root fetch - processPackages [sheng-pypi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sheng-pypi-0.0.2.tar.gz tmp/sheng-pypi-0.0.3.tar.gz --markdown 20230607/s/sheng-pypi/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-07 01:19:03] INFO root fetch - processPackages [spotON_sdk]: Downloading https://files.pythonhosted.org/packages/e0/12/08baf0272e6c64ec8b390410ea34acf804a822260d1cf6fd96cd8cc3da72/spotON_sdk-0.0.5.25.tar.gz
+[2023-06-07 01:19:03] INFO root fetch - processPackages [SerializerAraseniiShmatovNEW]: executing diffoscope
+[2023-06-07 01:19:03] INFO root fetch - processPackages [SerializerAraseniiShmatovNEW]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SerializerAraseniiShmatovNEW-0.1.5.tar.gz tmp/SerializerAraseniiShmatovNEW-0.1.7.tar.gz --markdown 20230607/S/SerializerAraseniiShmatovNEW/0.1.5-0.1.7/diff.md --exclude *.pyd
+[2023-06-07 01:19:03] INFO root fetch - processPackages [steps-autoencoder]: executing diffoscope
+[2023-06-07 01:19:03] INFO root fetch - processPackages [steps-autoencoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/steps-autoencoder-0.1.7.tar.gz tmp/steps-autoencoder-0.1.8.tar.gz --markdown 20230607/s/steps-autoencoder/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-07 01:19:03] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/97/f7/a5e637f873614cfa319ef0117a4ae26eb73777f4eb7a35618b37b33ccc0c/pepperize.cdk-ses-smtp-credentials-0.3.351.tar.gz
+[2023-06-07 01:19:03] INFO root fetch - processPackages [synapgrad]: executing diffoscope
+[2023-06-07 01:19:03] INFO root fetch - processPackages [synapgrad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synapgrad-0.5.1-py3-none-any.whl.zip tmp/synapgrad-0.6.0-py3-none-any.whl.zip --markdown 20230607/s/synapgrad/0.5.1-0.6.0/diff.md --exclude *.pyd
+[2023-06-07 01:19:03] INFO root fetch - processPackages [spotON_sdk]: executing diffoscope
+[2023-06-07 01:19:03] INFO root fetch - processPackages [spotON_sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotON_sdk-0.0.5.24.tar.gz tmp/spotON_sdk-0.0.5.25.tar.gz --markdown 20230607/s/spotON_sdk/0.0.5.24-0.0.5.25/diff.md --exclude *.pyd
+[2023-06-07 01:19:03] INFO root fetch - processPackages [clouding-server-manager]: Downloading https://files.pythonhosted.org/packages/11/a4/2c4578871ebc05bc3af894c345238a5def7fa04f67b517e021d6fcadad1f/clouding_server_manager-1.0.4.tar.gz
+[2023-06-07 01:19:03] INFO root fetch - processPackages [pychonet]: Downloading https://files.pythonhosted.org/packages/a0/39/f7300ef9e22f97eff0fc060639dc5f43856724f269a1ab53edeef0fed548/pychonet-2.3.9.tar.gz
+[2023-06-07 01:19:03] INFO root fetch - processPackages [clouding-server-manager]: executing diffoscope
+[2023-06-07 01:19:03] INFO root fetch - processPackages [clouding-server-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clouding_server_manager-1.0.3.tar.gz tmp/clouding_server_manager-1.0.4.tar.gz --markdown 20230607/c/clouding-server-manager/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-07 01:19:03] INFO root fetch - processPackages [dragonfly-grasshopper]: Downloading https://files.pythonhosted.org/packages/ed/a1/8b42a38306e46248ca16ca8ad5c9b02b4f86db7634aa329ec5ef99e2a623/dragonfly-grasshopper-1.9.0.tar.gz
+[2023-06-07 01:19:03] INFO root fetch - processPackages [pychonet]: executing diffoscope
+[2023-06-07 01:19:03] INFO root fetch - processPackages [pychonet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pychonet-2.3.8.tar.gz tmp/pychonet-2.3.9.tar.gz --markdown 20230607/p/pychonet/2.3.8-2.3.9/diff.md --exclude *.pyd
+[2023-06-07 01:19:03] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: executing diffoscope
+[2023-06-07 01:19:03] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ses-smtp-credentials-0.3.350.tar.gz tmp/pepperize.cdk-ses-smtp-credentials-0.3.351.tar.gz --markdown 20230607/p/pepperize.cdk-ses-smtp-credentials/0.3.350-0.3.351/diff.md --exclude *.pyd
+[2023-06-07 01:19:03] INFO root fetch - processPackages [dragonfly-grasshopper]: executing diffoscope
+[2023-06-07 01:19:03] INFO root fetch - processPackages [dragonfly-grasshopper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-grasshopper-1.8.4.tar.gz tmp/dragonfly-grasshopper-1.9.0.tar.gz --markdown 20230607/d/dragonfly-grasshopper/1.8.4-1.9.0/diff.md --exclude *.pyd
+[2023-06-07 01:19:04] INFO root fetch - processPackages [sheng-pypi]: Remove: archive file [/home/abi/fetcher/tmp/sheng-pypi-0.0.2.tar.gz]
+[2023-06-07 01:19:04] INFO root fetch - processPackages [sheng-pypi]: Remove: archive file [/home/abi/fetcher/tmp/sheng-pypi-0.0.3.tar.gz]
+[2023-06-07 01:19:04] INFO root fetch - processPackages [sheng-pypi]: Start processing: lbt-grasshopper
+[2023-06-07 01:19:04] INFO root fetch - main [MainThread]: End processing [sheng-pypi]: success
+[2023-06-07 01:19:04] INFO root fetch - processPackages [lbt-grasshopper]: New version: [1.6.9] Old Version: [1.6.8]
+[2023-06-07 01:19:04] INFO root fetch - processPackages [SerializerAraseniiShmatovNEW]: Remove: archive file [/home/abi/fetcher/tmp/SerializerAraseniiShmatovNEW-0.1.5.tar.gz]
+[2023-06-07 01:19:04] INFO root fetch - processPackages [SerializerAraseniiShmatovNEW]: Remove: archive file [/home/abi/fetcher/tmp/SerializerAraseniiShmatovNEW-0.1.7.tar.gz]
+[2023-06-07 01:19:04] INFO root fetch - processPackages [SerializerAraseniiShmatovNEW]: Start processing: eve-client
+[2023-06-07 01:19:04] INFO root fetch - main [MainThread]: End processing [SerializerAraseniiShmatovNEW]: success
+[2023-06-07 01:19:04] INFO root fetch - processPackages [eve-client]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-06-07 01:19:04] INFO root fetch - processPackages [lbt-grasshopper]: Downloading https://files.pythonhosted.org/packages/30/e6/3685f99cfd36f45ae30b5ab732ec26ae4730b99648a47480cf683b1142a4/lbt-grasshopper-1.6.8.tar.gz
+[2023-06-07 01:19:04] INFO root fetch - processPackages [spotON_sdk]: Remove: archive file [/home/abi/fetcher/tmp/spotON_sdk-0.0.5.24.tar.gz]
+[2023-06-07 01:19:04] INFO root fetch - processPackages [spotON_sdk]: Remove: archive file [/home/abi/fetcher/tmp/spotON_sdk-0.0.5.25.tar.gz]
+[2023-06-07 01:19:04] INFO root fetch - processPackages [spotON_sdk]: Start processing: spotON_sdk
+[2023-06-07 01:19:04] INFO root fetch - main [MainThread]: End processing [spotON_sdk]: success
+[2023-06-07 01:19:04] INFO root fetch - processPackages [spotON_sdk]: New version: [0.0.5.25] Old Version: [0.0.5.24]
+[2023-06-07 01:19:04] INFO root fetch - processPackages [spotON_sdk]: Downloading https://files.pythonhosted.org/packages/2a/c2/f35666ecba8f127b12620a16b6f772f3b215f080e9bfed249a81823cd301/spotON_sdk-0.0.5.24.tar.gz
+[2023-06-07 01:19:04] INFO root fetch - processPackages [synapgrad]: Remove: archive file [/home/abi/fetcher/tmp/synapgrad-0.5.1-py3-none-any.whl.zip]
+[2023-06-07 01:19:04] INFO root fetch - processPackages [synapgrad]: Remove: archive file [/home/abi/fetcher/tmp/synapgrad-0.6.0-py3-none-any.whl.zip]
+[2023-06-07 01:19:04] INFO root fetch - main [MainThread]: End processing [synapgrad]: success
+[2023-06-07 01:19:04] INFO root fetch - processPackages [eve-client]: Downloading https://files.pythonhosted.org/packages/42/ed/56053e96b8c1f711f73f3f69f72d3e6905f008952e115f2ea3a6e9f7c70d/eve_client-2.0.8.tar.gz
+[2023-06-07 01:19:05] INFO root fetch - processPackages [steps-autoencoder]: Remove: archive file [/home/abi/fetcher/tmp/steps-autoencoder-0.1.7.tar.gz]
+[2023-06-07 01:19:05] INFO root fetch - processPackages [steps-autoencoder]: Remove: archive file [/home/abi/fetcher/tmp/steps-autoencoder-0.1.8.tar.gz]
+[2023-06-07 01:19:05] INFO root fetch - main [MainThread]: End processing [steps-autoencoder]: success
+[2023-06-07 01:19:05] INFO root fetch - processPackages [spotON_sdk]: Downloading https://files.pythonhosted.org/packages/e0/12/08baf0272e6c64ec8b390410ea34acf804a822260d1cf6fd96cd8cc3da72/spotON_sdk-0.0.5.25.tar.gz
+[2023-06-07 01:19:05] INFO root fetch - processPackages [clouding-server-manager]: Remove: archive file [/home/abi/fetcher/tmp/clouding_server_manager-1.0.3.tar.gz]
+[2023-06-07 01:19:05] INFO root fetch - processPackages [clouding-server-manager]: Remove: archive file [/home/abi/fetcher/tmp/clouding_server_manager-1.0.4.tar.gz]
+[2023-06-07 01:19:05] INFO root fetch - main [MainThread]: End processing [clouding-server-manager]: success
+[2023-06-07 01:19:05] INFO root fetch - processPackages [pychonet]: Remove: archive file [/home/abi/fetcher/tmp/pychonet-2.3.8.tar.gz]
+[2023-06-07 01:19:05] INFO root fetch - processPackages [pychonet]: Remove: archive file [/home/abi/fetcher/tmp/pychonet-2.3.9.tar.gz]
+[2023-06-07 01:19:05] INFO root fetch - main [MainThread]: End processing [pychonet]: success
+[2023-06-07 01:19:05] INFO root fetch - processPackages [spotON_sdk]: executing diffoscope
+[2023-06-07 01:19:05] INFO root fetch - processPackages [spotON_sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotON_sdk-0.0.5.24.tar.gz tmp/spotON_sdk-0.0.5.25.tar.gz --markdown 20230607/s/spotON_sdk/0.0.5.24-0.0.5.25/diff.md --exclude *.pyd
+[2023-06-07 01:19:05] INFO root fetch - processPackages [lbt-grasshopper]: Downloading https://files.pythonhosted.org/packages/24/e9/d155575f4d38b7ae3d21b6f6e0c4c34409ce3b7b0412b7e24694915ec0e0/lbt-grasshopper-1.6.9.tar.gz
+[2023-06-07 01:19:05] INFO root fetch - processPackages [eve-client]: Downloading https://files.pythonhosted.org/packages/60/f1/6d37afdd19c24d2402c2f12d74e8fe4b2ad8bb3a23b7102f0a10a8248d8c/eve_client-2.0.9.tar.gz
+[2023-06-07 01:19:05] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ses-smtp-credentials-0.3.350.tar.gz]
+[2023-06-07 01:19:05] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ses-smtp-credentials-0.3.351.tar.gz]
+[2023-06-07 01:19:05] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ses-smtp-credentials]: success
+[2023-06-07 01:19:05] INFO root fetch - processPackages [lbt-grasshopper]: executing diffoscope
+[2023-06-07 01:19:05] INFO root fetch - processPackages [lbt-grasshopper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-grasshopper-1.6.8.tar.gz tmp/lbt-grasshopper-1.6.9.tar.gz --markdown 20230607/l/lbt-grasshopper/1.6.8-1.6.9/diff.md --exclude *.pyd
+[2023-06-07 01:19:05] INFO root fetch - processPackages [eve-client]: executing diffoscope
+[2023-06-07 01:19:05] INFO root fetch - processPackages [eve-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eve_client-2.0.8.tar.gz tmp/eve_client-2.0.9.tar.gz --markdown 20230607/e/eve-client/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-06-07 01:19:06] INFO root fetch - processPackages [spotON_sdk]: Remove: archive file [/home/abi/fetcher/tmp/spotON_sdk-0.0.5.24.tar.gz]
+[2023-06-07 01:19:06] INFO root fetch - processPackages [spotON_sdk]: Remove: archive file [/home/abi/fetcher/tmp/spotON_sdk-0.0.5.25.tar.gz]
+[2023-06-07 01:19:06] INFO root fetch - main [MainThread]: End processing [spotON_sdk]: success
+[2023-06-07 01:19:06] INFO root fetch - processPackages [lbt-grasshopper]: Remove: archive file [/home/abi/fetcher/tmp/lbt-grasshopper-1.6.8.tar.gz]
+[2023-06-07 01:19:06] INFO root fetch - processPackages [lbt-grasshopper]: Remove: archive file [/home/abi/fetcher/tmp/lbt-grasshopper-1.6.9.tar.gz]
+[2023-06-07 01:19:06] INFO root fetch - main [MainThread]: End processing [lbt-grasshopper]: success
+[2023-06-07 01:19:06] INFO root fetch - processPackages [eve-client]: Remove: archive file [/home/abi/fetcher/tmp/eve_client-2.0.8.tar.gz]
+[2023-06-07 01:19:06] INFO root fetch - processPackages [eve-client]: Remove: archive file [/home/abi/fetcher/tmp/eve_client-2.0.9.tar.gz]
+[2023-06-07 01:19:06] INFO root fetch - main [MainThread]: End processing [eve-client]: success
+[2023-06-07 01:19:07] INFO root fetch - processPackages [dragonfly-grasshopper]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-grasshopper-1.8.4.tar.gz]
+[2023-06-07 01:19:07] INFO root fetch - processPackages [dragonfly-grasshopper]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-grasshopper-1.9.0.tar.gz]
+[2023-06-07 01:19:07] INFO root fetch - main [MainThread]: End processing [dragonfly-grasshopper]: success
+[2023-06-07 01:19:07] INFO root fetch - processPackages [deployfish]: Remove: archive file [/home/abi/fetcher/tmp/deployfish-1.9.5.tar.gz]
+[2023-06-07 01:19:07] INFO root fetch - processPackages [deployfish]: Remove: archive file [/home/abi/fetcher/tmp/deployfish-1.9.6.tar.gz]
+[2023-06-07 01:19:07] INFO root fetch - main [MainThread]: End processing [deployfish]: success
+[2023-06-07 01:19:07] INFO root fetch - main [MainThread]: Store serial: [18398608]
