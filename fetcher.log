@@ -886,3 +886,89 @@
 [2023-06-07 01:03:23] INFO root fetch - processPackages [seleniumbase]: Remove: archive file [/home/abi/fetcher/tmp/seleniumbase-4.9.9.tar.gz]
 [2023-06-07 01:03:23] INFO root fetch - main [MainThread]: End processing [seleniumbase]: success
 [2023-06-07 01:03:23] INFO root fetch - main [MainThread]: Store serial: [18398495]
+[2023-06-07 01:08:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18398495]
+[2023-06-07 01:08:32] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-07 01:08:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sheng-pypi
+[2023-06-07 01:08:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: numan
+[2023-06-07 01:08:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sfpl
+[2023-06-07 01:08:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: SerializerAraseniiShmatovNEW
+[2023-06-07 01:08:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: llm-blocks
+[2023-06-07 01:08:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pywddff
+[2023-06-07 01:08:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nautobot
+[2023-06-07 01:08:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lbt-dragonfly
+[2023-06-07 01:08:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: deployfish
+[2023-06-07 01:08:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: steps-autoencoder
+[2023-06-07 01:08:32] INFO root fetch - processPackages [numan]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-07 01:08:32] INFO root fetch - processPackages [sheng-pypi]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-07 01:08:32] WARNING root fetch - processPackages [pywddff]: Skipping, unable to determine old version
+[2023-06-07 01:08:32] INFO root fetch - processPackages [pywddff]: Start processing: ovos-PHAL-plugin-homeassistant
+[2023-06-07 01:08:32] INFO root fetch - main [MainThread]: End processing [pywddff] error
+[2023-06-07 01:08:32] WARNING root fetch - processPackages [llm-blocks]: Skipping, unable to determine old version
+[2023-06-07 01:08:32] INFO root fetch - processPackages [sfpl]: New version: [1.5.3] Old Version: [1.5.2]
+[2023-06-07 01:08:32] INFO root fetch - main [MainThread]: End processing [llm-blocks] error
+[2023-06-07 01:08:32] INFO root fetch - processPackages [SerializerAraseniiShmatovNEW]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-07 01:08:32] INFO root fetch - processPackages [steps-autoencoder]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-07 01:08:32] INFO root fetch - processPackages [nautobot]: New version: [2.0.0b1] Old Version: [2.0.0a3]
+[2023-06-07 01:08:32] INFO root fetch - processPackages [deployfish]: New version: [1.9.6] Old Version: [1.9.5]
+[2023-06-07 01:08:32] INFO root fetch - processPackages [lbt-dragonfly]: New version: [0.9.99] Old Version: [0.9.98]
+[2023-06-07 01:08:32] INFO root fetch - processPackages [SerializerAraseniiShmatovNEW]: Downloading https://files.pythonhosted.org/packages/eb/0c/1dc4275c50f46a1cf577467225a89a5b82a71b164d3060f2c4caacc7d99a/SerializerAraseniiShmatovNEW-0.1.1.tar.gz
+[2023-06-07 01:08:32] INFO root fetch - processPackages [ovos-PHAL-plugin-homeassistant]: New version: [0.0.2a6] Old Version: [0.0.2a5]
+[2023-06-07 01:08:32] INFO root fetch - processPackages [steps-autoencoder]: Downloading https://files.pythonhosted.org/packages/36/0c/e718776b352ee446bdf473fa1b4da8e2ea294ff4bb3cda7883e46ed21751/steps-autoencoder-0.1.5.tar.gz
+[2023-06-07 01:08:32] INFO root fetch - processPackages [sheng-pypi]: Downloading https://files.pythonhosted.org/packages/f9/9d/2ecca2ef3f4ae0b7587fb842bccf2c2b5dc730a79b36abc5b1c76cc6e56f/sheng-pypi-0.0.1.tar.gz
+[2023-06-07 01:08:32] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/be/ae/7267dfd241a0641f3fbadea4128db5ffa29609911cadb5fc4840656bb44a/lbt-dragonfly-0.9.98.tar.gz
+[2023-06-07 01:08:32] INFO root fetch - processPackages [numan]: Downloading https://files.pythonhosted.org/packages/c4/66/e18cc9a25f62007cf20c47015f820b289cb68aef7c9cb577bf657ba0b270/numan-1.0.3.tar.gz
+[2023-06-07 01:08:32] INFO root fetch - processPackages [sfpl]: Downloading https://files.pythonhosted.org/packages/98/57/56829c018e6ef82a471a44d2442e291aef035663dd9f0ab0ea510407dd7c/sfpl-1.5.2.tar.gz
+[2023-06-07 01:08:32] INFO root fetch - processPackages [deployfish]: Downloading https://files.pythonhosted.org/packages/9d/d7/c6216956d9be271f193368959212bc2df2a2991f5f538fc6949a9ffb5cf1/deployfish-1.9.5.tar.gz
+[2023-06-07 01:08:32] INFO root fetch - processPackages [nautobot]: Downloading https://files.pythonhosted.org/packages/df/60/3c531b9e002146d0c719a9c22a9141980ed369cddcc85b676bee7fc8e951/nautobot-2.0.0a3.tar.gz
+[2023-06-07 01:08:32] WARNING root fetch - processPackages [nautobot]: Skipping package: exceeds size limit 86590833>=10485760
+[2023-06-07 01:08:32] INFO root fetch - processPackages [ovos-PHAL-plugin-homeassistant]: Downloading https://files.pythonhosted.org/packages/30/50/ca249edf10e1a1f106d2dcd678b43dbd3f5bb84a031b7010ab6fcb90b9bb/ovos-PHAL-plugin-homeassistant-0.0.2a5.tar.gz
+[2023-06-07 01:08:32] INFO root fetch - main [MainThread]: End processing [nautobot] error
+[2023-06-07 01:08:32] INFO root fetch - processPackages [steps-autoencoder]: Downloading https://files.pythonhosted.org/packages/a0/9e/ca12d326b2eb063cca7cb2283bf762307a212d534f5ec1656b0add5941e1/steps-autoencoder-0.1.6.tar.gz
+[2023-06-07 01:08:32] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/b4/08/0ca46e9f7eef7b2cce7f0c6110106c42aa35a79bd88110559177f64d733a/lbt-dragonfly-0.9.99.tar.gz
+[2023-06-07 01:08:32] INFO root fetch - processPackages [SerializerAraseniiShmatovNEW]: Downloading https://files.pythonhosted.org/packages/bf/20/173265bf38262add60fd369fbc1a8585cccb12d07b3640686e224b452ffa/SerializerAraseniiShmatovNEW-0.1.2.tar.gz
+[2023-06-07 01:08:32] INFO root fetch - processPackages [sheng-pypi]: Downloading https://files.pythonhosted.org/packages/48/4f/4b0f60e3772a9913a2fabfe104cc51a0ecc8a73c7693131c1b831c20abc2/sheng-pypi-0.0.2.tar.gz
+[2023-06-07 01:08:32] INFO root fetch - processPackages [steps-autoencoder]: executing diffoscope
+[2023-06-07 01:08:32] INFO root fetch - processPackages [steps-autoencoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/steps-autoencoder-0.1.5.tar.gz tmp/steps-autoencoder-0.1.6.tar.gz --markdown 20230607/s/steps-autoencoder/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-07 01:08:32] INFO root fetch - processPackages [lbt-dragonfly]: executing diffoscope
+[2023-06-07 01:08:32] INFO root fetch - processPackages [lbt-dragonfly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-dragonfly-0.9.98.tar.gz tmp/lbt-dragonfly-0.9.99.tar.gz --markdown 20230607/l/lbt-dragonfly/0.9.98-0.9.99/diff.md --exclude *.pyd
+[2023-06-07 01:08:32] INFO root fetch - processPackages [sfpl]: Downloading https://files.pythonhosted.org/packages/cb/36/315a9437faeb27bb31f911d008131bc21e08b01e4dabcf45bfaf3cc48ba0/sfpl-1.5.3-py3-none-any.whl
+[2023-06-07 01:08:32] INFO root fetch - processPackages [numan]: Downloading https://files.pythonhosted.org/packages/f7/7c/468291788175d00e01e4a4ceccbaaca1e45638283599e1abe2aa00d26c77/numan-1.0.4.tar.gz
+[2023-06-07 01:08:32] INFO root fetch - processPackages [ovos-PHAL-plugin-homeassistant]: Downloading https://files.pythonhosted.org/packages/a3/af/25957c38e9729da18455e78d81cd6aa360099808fa1ed85432081a393c2f/ovos-PHAL-plugin-homeassistant-0.0.2a6.tar.gz
+[2023-06-07 01:08:32] INFO root fetch - processPackages [sfpl]: executing diffoscope
+[2023-06-07 01:08:32] INFO root fetch - processPackages [sfpl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sfpl-1.5.2.tar.gz tmp/sfpl-1.5.3-py3-none-any.whl.zip --markdown 20230607/s/sfpl/1.5.2-1.5.3/diff.md --exclude *.pyd
+[2023-06-07 01:08:32] INFO root fetch - processPackages [numan]: executing diffoscope
+[2023-06-07 01:08:32] INFO root fetch - processPackages [numan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/numan-1.0.3.tar.gz tmp/numan-1.0.4.tar.gz --markdown 20230607/n/numan/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-07 01:08:32] INFO root fetch - processPackages [deployfish]: Downloading https://files.pythonhosted.org/packages/52/7d/9a175e9cf46a38849c3d62138417864d11754e457d39f248e23a1aa39c79/deployfish-1.9.6.tar.gz
+[2023-06-07 01:08:32] INFO root fetch - processPackages [SerializerAraseniiShmatovNEW]: executing diffoscope
+[2023-06-07 01:08:32] INFO root fetch - processPackages [SerializerAraseniiShmatovNEW]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SerializerAraseniiShmatovNEW-0.1.1.tar.gz tmp/SerializerAraseniiShmatovNEW-0.1.2.tar.gz --markdown 20230607/S/SerializerAraseniiShmatovNEW/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-07 01:08:32] INFO root fetch - processPackages [sheng-pypi]: executing diffoscope
+[2023-06-07 01:08:32] INFO root fetch - processPackages [sheng-pypi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sheng-pypi-0.0.1.tar.gz tmp/sheng-pypi-0.0.2.tar.gz --markdown 20230607/s/sheng-pypi/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-07 01:08:32] INFO root fetch - processPackages [ovos-PHAL-plugin-homeassistant]: executing diffoscope
+[2023-06-07 01:08:32] INFO root fetch - processPackages [ovos-PHAL-plugin-homeassistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos-PHAL-plugin-homeassistant-0.0.2a5.tar.gz tmp/ovos-PHAL-plugin-homeassistant-0.0.2a6.tar.gz --markdown 20230607/o/ovos-PHAL-plugin-homeassistant/0.0.2a5-0.0.2a6/diff.md --exclude *.pyd
+[2023-06-07 01:08:32] INFO root fetch - processPackages [deployfish]: executing diffoscope
+[2023-06-07 01:08:32] INFO root fetch - processPackages [deployfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deployfish-1.9.5.tar.gz tmp/deployfish-1.9.6.tar.gz --markdown 20230607/d/deployfish/1.9.5-1.9.6/diff.md --exclude *.pyd
+[2023-06-07 01:08:33] INFO root fetch - processPackages [sfpl]: Remove: archive file [/home/abi/fetcher/tmp/sfpl-1.5.2.tar.gz]
+[2023-06-07 01:08:33] INFO root fetch - processPackages [sfpl]: Remove: archive file [/home/abi/fetcher/tmp/sfpl-1.5.3-py3-none-any.whl.zip]
+[2023-06-07 01:08:33] INFO root fetch - main [MainThread]: End processing [sfpl]: success
+[2023-06-07 01:08:34] INFO root fetch - processPackages [sheng-pypi]: Remove: archive file [/home/abi/fetcher/tmp/sheng-pypi-0.0.1.tar.gz]
+[2023-06-07 01:08:34] INFO root fetch - processPackages [sheng-pypi]: Remove: archive file [/home/abi/fetcher/tmp/sheng-pypi-0.0.2.tar.gz]
+[2023-06-07 01:08:34] INFO root fetch - main [MainThread]: End processing [sheng-pypi]: success
+[2023-06-07 01:08:34] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.98.tar.gz]
+[2023-06-07 01:08:34] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.99.tar.gz]
+[2023-06-07 01:08:34] INFO root fetch - main [MainThread]: End processing [lbt-dragonfly]: success
+[2023-06-07 01:08:34] INFO root fetch - processPackages [steps-autoencoder]: Remove: archive file [/home/abi/fetcher/tmp/steps-autoencoder-0.1.5.tar.gz]
+[2023-06-07 01:08:34] INFO root fetch - processPackages [steps-autoencoder]: Remove: archive file [/home/abi/fetcher/tmp/steps-autoencoder-0.1.6.tar.gz]
+[2023-06-07 01:08:34] INFO root fetch - main [MainThread]: End processing [steps-autoencoder]: success
+[2023-06-07 01:08:34] INFO root fetch - processPackages [SerializerAraseniiShmatovNEW]: Remove: archive file [/home/abi/fetcher/tmp/SerializerAraseniiShmatovNEW-0.1.1.tar.gz]
+[2023-06-07 01:08:34] INFO root fetch - processPackages [SerializerAraseniiShmatovNEW]: Remove: archive file [/home/abi/fetcher/tmp/SerializerAraseniiShmatovNEW-0.1.2.tar.gz]
+[2023-06-07 01:08:34] INFO root fetch - main [MainThread]: End processing [SerializerAraseniiShmatovNEW]: success
+[2023-06-07 01:08:34] INFO root fetch - processPackages [numan]: Remove: archive file [/home/abi/fetcher/tmp/numan-1.0.3.tar.gz]
+[2023-06-07 01:08:34] INFO root fetch - processPackages [numan]: Remove: archive file [/home/abi/fetcher/tmp/numan-1.0.4.tar.gz]
+[2023-06-07 01:08:34] INFO root fetch - main [MainThread]: End processing [numan]: success
+[2023-06-07 01:08:34] INFO root fetch - processPackages [ovos-PHAL-plugin-homeassistant]: Remove: archive file [/home/abi/fetcher/tmp/ovos-PHAL-plugin-homeassistant-0.0.2a5.tar.gz]
+[2023-06-07 01:08:34] INFO root fetch - processPackages [ovos-PHAL-plugin-homeassistant]: Remove: archive file [/home/abi/fetcher/tmp/ovos-PHAL-plugin-homeassistant-0.0.2a6.tar.gz]
+[2023-06-07 01:08:34] INFO root fetch - main [MainThread]: End processing [ovos-PHAL-plugin-homeassistant]: success
+[2023-06-07 01:08:36] INFO root fetch - processPackages [deployfish]: Remove: archive file [/home/abi/fetcher/tmp/deployfish-1.9.5.tar.gz]
+[2023-06-07 01:08:36] INFO root fetch - processPackages [deployfish]: Remove: archive file [/home/abi/fetcher/tmp/deployfish-1.9.6.tar.gz]
+[2023-06-07 01:08:36] INFO root fetch - main [MainThread]: End processing [deployfish]: success
+[2023-06-07 01:08:36] INFO root fetch - main [MainThread]: Store serial: [18398531]
