@@ -173,3 +173,114 @@
 [2023-06-07 00:05:40] INFO root fetch - processPackages [cirq-core]: Remove: archive file [/home/abi/fetcher/tmp/cirq_core-1.2.0.dev20230606220332-py3-none-any.whl.zip]
 [2023-06-07 00:05:40] INFO root fetch - main [MainThread]: End processing [cirq-core]: success
 [2023-06-07 00:05:40] INFO root fetch - main [MainThread]: Store serial: [18398189]
+[2023-06-07 00:10:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18398189]
+[2023-06-07 00:10:49] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-07 00:10:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ukmon-meteortools
+[2023-06-07 00:10:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fyCursor
+[2023-06-07 00:10:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: robotpy-romi
+[2023-06-07 00:10:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pepperize.cdk-serverless-cluster-from-snapshot
+[2023-06-07 00:10:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: forevd
+[2023-06-07 00:10:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Signal8
+[2023-06-07 00:10:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hshield
+[2023-06-07 00:10:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: steps-autoencoder
+[2023-06-07 00:10:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: quantconnect-stubs
+[2023-06-07 00:10:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: upgini
+[2023-06-07 00:10:49] INFO root fetch - processPackages [robotpy-romi]: New version: [2023.4.2.0] Old Version: [2022.2.1.0]
+[2023-06-07 00:10:49] INFO root fetch - processPackages [forevd]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-06-07 00:10:49] INFO root fetch - processPackages [fyCursor]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-07 00:10:49] INFO root fetch - processPackages [hshield]: New version: [3.0] Old Version: [2.0]
+[2023-06-07 00:10:49] INFO root fetch - processPackages [ukmon-meteortools]: New version: [2023.6.2] Old Version: [2023.6.1]
+[2023-06-07 00:10:49] INFO root fetch - processPackages [steps-autoencoder]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-07 00:10:49] INFO root fetch - processPackages [Signal8]: New version: [2.9] Old Version: [2.8]
+[2023-06-07 00:10:49] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-07 00:10:49] INFO root fetch - processPackages [upgini]: New version: [1.1.99] Old Version: [1.1.98]
+[2023-06-07 00:10:49] INFO root fetch - processPackages [hshield]: Downloading https://files.pythonhosted.org/packages/d3/27/2836f56b8823baca49070574896d3ca3c0ba83bab7001e0ec12e3f289399/hshield-2.0.tar.gz
+[2023-06-07 00:10:49] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: Downloading https://files.pythonhosted.org/packages/41/ed/5efe219dc09a3767781b18e59998e46265479245ef5e56798033e654efe2/pepperize.cdk-serverless-cluster-from-snapshot-0.0.98.tar.gz
+[2023-06-07 00:10:49] INFO root fetch - processPackages [steps-autoencoder]: Downloading https://files.pythonhosted.org/packages/35/84/06893b1faee8c4e90c9a55cb46b8c767078371cfd874a0e33eee6b0829bc/steps-autoencoder-0.1.4.tar.gz
+[2023-06-07 00:10:49] INFO root fetch - processPackages [quantconnect-stubs]: New version: [9998] Old Version: [9997]
+[2023-06-07 00:10:49] INFO root fetch - processPackages [fyCursor]: Downloading https://files.pythonhosted.org/packages/13/2c/d9301f9451c970fc811e78c10a537a79d3d5f631806a20edab6fa00504ee/fyCursor-0.1.0.tar.gz
+[2023-06-07 00:10:49] INFO root fetch - processPackages [ukmon-meteortools]: Downloading https://files.pythonhosted.org/packages/70/bf/6ad7cb05296188e9664fb858ef72230b591460292da3bef10bba17544718/ukmon_meteortools-2023.6.1.tar.gz
+[2023-06-07 00:10:49] INFO root fetch - processPackages [quantconnect-stubs]: Downloading https://files.pythonhosted.org/packages/c1/05/f15c16a3f852decfd032ce1688dfdf02fd7289f1780742453533e8c55209/quantconnect-stubs-9997.tar.gz
+[2023-06-07 00:10:49] INFO root fetch - processPackages [forevd]: Downloading https://files.pythonhosted.org/packages/78/09/f7b1fef505301c3c8aba0451346bd6138b374f07945e8f949b408a77d127/forevd-0.1.6.tar.gz
+[2023-06-07 00:10:49] INFO root fetch - processPackages [robotpy-romi]: Downloading https://files.pythonhosted.org/packages/f8/fa/71ca9b166ecefa8526004ef4267ad83746033dc8fe483fe8e04a868682dc/robotpy-romi-2022.2.1.0.tar.gz
+[2023-06-07 00:10:49] INFO root fetch - processPackages [Signal8]: Downloading https://files.pythonhosted.org/packages/1d/f2/98c2ff110c06b0cf7ddd14fc782444a3a6a456d55b281ce01213f1e61977/Signal8-2.8.tar.gz
+[2023-06-07 00:10:49] INFO root fetch - processPackages [upgini]: Downloading https://files.pythonhosted.org/packages/59/79/dc47448e0c68a4e00d9d0b7f4c640207fa605fe48cdc53e30221037a1962/upgini-1.1.98.tar.gz
+[2023-06-07 00:10:49] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: Downloading https://files.pythonhosted.org/packages/0a/e1/974dfac343666db334bd3dc6b819d5e46e3769ce75e9baccd0067702f4ad/pepperize.cdk-serverless-cluster-from-snapshot-0.0.99.tar.gz
+[2023-06-07 00:10:49] INFO root fetch - processPackages [fyCursor]: Downloading https://files.pythonhosted.org/packages/93/ee/752e34e80d541ab6bc42ef154ee23dba65db22a0093f1632611e50760151/fyCursor-0.1.1.tar.gz
+[2023-06-07 00:10:49] INFO root fetch - processPackages [hshield]: Downloading https://files.pythonhosted.org/packages/45/7b/82a0cf3b5c06f176304d68311fdf834e9ef194cc7dd92e71ecb41940c080/hshield-3.0.tar.gz
+[2023-06-07 00:10:49] INFO root fetch - processPackages [steps-autoencoder]: Downloading https://files.pythonhosted.org/packages/36/0c/e718776b352ee446bdf473fa1b4da8e2ea294ff4bb3cda7883e46ed21751/steps-autoencoder-0.1.5.tar.gz
+[2023-06-07 00:10:49] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: executing diffoscope
+[2023-06-07 00:10:49] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.98.tar.gz tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.99.tar.gz --markdown 20230607/p/pepperize.cdk-serverless-cluster-from-snapshot/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-07 00:10:49] INFO root fetch - processPackages [ukmon-meteortools]: Downloading https://files.pythonhosted.org/packages/22/6f/b4f751969c59a3a467e8653c363f7d6d0ac31b430d32548da00e4fcad41e/ukmon_meteortools-2023.6.2.tar.gz
+[2023-06-07 00:10:49] INFO root fetch - processPackages [hshield]: executing diffoscope
+[2023-06-07 00:10:49] INFO root fetch - processPackages [forevd]: Downloading https://files.pythonhosted.org/packages/79/a7/19ce75fbbd58c5bfe56976ca25b2a4d0f3f75bae8000d54df48e8b2cd260/forevd-0.1.7.tar.gz
+[2023-06-07 00:10:49] INFO root fetch - processPackages [hshield]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hshield-2.0.tar.gz tmp/hshield-3.0.tar.gz --markdown 20230607/h/hshield/2.0-3.0/diff.md --exclude *.pyd
+[2023-06-07 00:10:49] INFO root fetch - processPackages [fyCursor]: executing diffoscope
+[2023-06-07 00:10:49] INFO root fetch - processPackages [fyCursor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fyCursor-0.1.0.tar.gz tmp/fyCursor-0.1.1.tar.gz --markdown 20230607/f/fyCursor/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-07 00:10:49] INFO root fetch - processPackages [robotpy-romi]: Downloading https://files.pythonhosted.org/packages/98/f1/164d0fe13902aed451493d1641aaafb7b4a8c1502a24cb26c5b72aff9e22/robotpy-romi-2023.4.2.0.tar.gz
+[2023-06-07 00:10:49] INFO root fetch - processPackages [Signal8]: Downloading https://files.pythonhosted.org/packages/b9/6d/7d8eb09c8ca9c977d79cf98fca8873184541b0244d760ff89d34d79d7792/Signal8-2.9.tar.gz
+[2023-06-07 00:10:49] INFO root fetch - processPackages [ukmon-meteortools]: executing diffoscope
+[2023-06-07 00:10:49] INFO root fetch - processPackages [ukmon-meteortools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ukmon_meteortools-2023.6.1.tar.gz tmp/ukmon_meteortools-2023.6.2.tar.gz --markdown 20230607/u/ukmon-meteortools/2023.6.1-2023.6.2/diff.md --exclude *.pyd
+[2023-06-07 00:10:49] INFO root fetch - processPackages [forevd]: executing diffoscope
+[2023-06-07 00:10:49] INFO root fetch - processPackages [forevd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/forevd-0.1.6.tar.gz tmp/forevd-0.1.7.tar.gz --markdown 20230607/f/forevd/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-06-07 00:10:49] INFO root fetch - processPackages [steps-autoencoder]: executing diffoscope
+[2023-06-07 00:10:49] INFO root fetch - processPackages [steps-autoencoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/steps-autoencoder-0.1.4.tar.gz tmp/steps-autoencoder-0.1.5.tar.gz --markdown 20230607/s/steps-autoencoder/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-07 00:10:49] INFO root fetch - processPackages [robotpy-romi]: executing diffoscope
+[2023-06-07 00:10:49] INFO root fetch - processPackages [robotpy-romi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotpy-romi-2022.2.1.0.tar.gz tmp/robotpy-romi-2023.4.2.0.tar.gz --markdown 20230607/r/robotpy-romi/2022.2.1.0-2023.4.2.0/diff.md --exclude *.pyd
+[2023-06-07 00:10:49] INFO root fetch - processPackages [Signal8]: executing diffoscope
+[2023-06-07 00:10:49] INFO root fetch - processPackages [Signal8]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Signal8-2.8.tar.gz tmp/Signal8-2.9.tar.gz --markdown 20230607/S/Signal8/2.8-2.9/diff.md --exclude *.pyd
+[2023-06-07 00:10:50] INFO root fetch - processPackages [upgini]: Downloading https://files.pythonhosted.org/packages/32/f1/1df90a6a856d855308ddf057a7b8cdad7dbcafb6230f0592bbff90f929fd/upgini-1.1.99.tar.gz
+[2023-06-07 00:10:50] INFO root fetch - processPackages [quantconnect-stubs]: Downloading https://files.pythonhosted.org/packages/b7/4c/71e6bb724f14efcd8865f2aa692528a4c45877c58f5cf8c964a8e0fc0e74/quantconnect-stubs-9998.tar.gz
+[2023-06-07 00:10:50] INFO root fetch - processPackages [upgini]: executing diffoscope
+[2023-06-07 00:10:50] INFO root fetch - processPackages [upgini]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upgini-1.1.98.tar.gz tmp/upgini-1.1.99.tar.gz --markdown 20230607/u/upgini/1.1.98-1.1.99/diff.md --exclude *.pyd
+[2023-06-07 00:10:50] INFO root fetch - processPackages [quantconnect-stubs]: executing diffoscope
+[2023-06-07 00:10:50] INFO root fetch - processPackages [quantconnect-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantconnect-stubs-9997.tar.gz tmp/quantconnect-stubs-9998.tar.gz --markdown 20230607/q/quantconnect-stubs/9997-9998/diff.md --exclude *.pyd
+[2023-06-07 00:10:51] INFO root fetch - processPackages [hshield]: Remove: archive file [/home/abi/fetcher/tmp/hshield-2.0.tar.gz]
+[2023-06-07 00:10:51] INFO root fetch - processPackages [hshield]: Remove: archive file [/home/abi/fetcher/tmp/hshield-3.0.tar.gz]
+[2023-06-07 00:10:51] INFO root fetch - processPackages [hshield]: Start processing: mlplatformutils
+[2023-06-07 00:10:51] INFO root fetch - main [MainThread]: End processing [hshield]: success
+[2023-06-07 00:10:51] INFO root fetch - processPackages [fyCursor]: Remove: archive file [/home/abi/fetcher/tmp/fyCursor-0.1.0.tar.gz]
+[2023-06-07 00:10:51] INFO root fetch - processPackages [fyCursor]: Remove: archive file [/home/abi/fetcher/tmp/fyCursor-0.1.1.tar.gz]
+[2023-06-07 00:10:51] INFO root fetch - processPackages [fyCursor]: Start processing: peachdb
+[2023-06-07 00:10:51] INFO root fetch - main [MainThread]: End processing [fyCursor]: success
+[2023-06-07 00:10:51] INFO root fetch - processPackages [mlplatformutils]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-06-07 00:10:51] INFO root fetch - processPackages [peachdb]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-06-07 00:10:51] INFO root fetch - processPackages [mlplatformutils]: Downloading https://files.pythonhosted.org/packages/34/49/5d67f277e0d6d83dc4b661fe3155ab47d289e07d383510e5757a218577c1/mlplatformutils-0.8.8.tar.gz
+[2023-06-07 00:10:51] INFO root fetch - processPackages [forevd]: Remove: archive file [/home/abi/fetcher/tmp/forevd-0.1.6.tar.gz]
+[2023-06-07 00:10:51] INFO root fetch - processPackages [forevd]: Remove: archive file [/home/abi/fetcher/tmp/forevd-0.1.7.tar.gz]
+[2023-06-07 00:10:51] INFO root fetch - main [MainThread]: End processing [forevd]: success
+[2023-06-07 00:10:51] INFO root fetch - processPackages [steps-autoencoder]: Remove: archive file [/home/abi/fetcher/tmp/steps-autoencoder-0.1.4.tar.gz]
+[2023-06-07 00:10:51] INFO root fetch - processPackages [steps-autoencoder]: Remove: archive file [/home/abi/fetcher/tmp/steps-autoencoder-0.1.5.tar.gz]
+[2023-06-07 00:10:51] INFO root fetch - main [MainThread]: End processing [steps-autoencoder]: success
+[2023-06-07 00:10:51] INFO root fetch - processPackages [peachdb]: Downloading https://files.pythonhosted.org/packages/d8/49/152b8f9bf6e58d0cc88c51c43d2a2a39f5b8ed9a76b7f3573df45e84b407/peachdb-0.0.9.tar.gz
+[2023-06-07 00:10:51] INFO root fetch - processPackages [robotpy-romi]: Remove: archive file [/home/abi/fetcher/tmp/robotpy-romi-2022.2.1.0.tar.gz]
+[2023-06-07 00:10:51] INFO root fetch - processPackages [robotpy-romi]: Remove: archive file [/home/abi/fetcher/tmp/robotpy-romi-2023.4.2.0.tar.gz]
+[2023-06-07 00:10:51] INFO root fetch - main [MainThread]: End processing [robotpy-romi]: success
+[2023-06-07 00:10:51] INFO root fetch - processPackages [mlplatformutils]: Downloading https://files.pythonhosted.org/packages/0b/be/f0c64de3699ff24e3ed0fe74b7ee4f4f0a2e6086e8f18990432459aa19f3/mlplatformutils-0.8.9.tar.gz
+[2023-06-07 00:10:51] INFO root fetch - processPackages [Signal8]: Remove: archive file [/home/abi/fetcher/tmp/Signal8-2.8.tar.gz]
+[2023-06-07 00:10:51] INFO root fetch - processPackages [Signal8]: Remove: archive file [/home/abi/fetcher/tmp/Signal8-2.9.tar.gz]
+[2023-06-07 00:10:51] INFO root fetch - main [MainThread]: End processing [Signal8]: success
+[2023-06-07 00:10:51] INFO root fetch - processPackages [peachdb]: Downloading https://files.pythonhosted.org/packages/26/a1/ff683948667865bde3ffee07919ec9ef745b6bb7ccfbc1012e04c5025a39/peachdb-0.1.0.tar.gz
+[2023-06-07 00:10:51] INFO root fetch - processPackages [mlplatformutils]: executing diffoscope
+[2023-06-07 00:10:51] INFO root fetch - processPackages [mlplatformutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlplatformutils-0.8.8.tar.gz tmp/mlplatformutils-0.8.9.tar.gz --markdown 20230607/m/mlplatformutils/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-06-07 00:10:51] INFO root fetch - processPackages [peachdb]: executing diffoscope
+[2023-06-07 00:10:51] INFO root fetch - processPackages [peachdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peachdb-0.0.9.tar.gz tmp/peachdb-0.1.0.tar.gz --markdown 20230607/p/peachdb/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-06-07 00:10:51] INFO root fetch - processPackages [ukmon-meteortools]: Remove: archive file [/home/abi/fetcher/tmp/ukmon_meteortools-2023.6.1.tar.gz]
+[2023-06-07 00:10:51] INFO root fetch - processPackages [ukmon-meteortools]: Remove: archive file [/home/abi/fetcher/tmp/ukmon_meteortools-2023.6.2.tar.gz]
+[2023-06-07 00:10:51] INFO root fetch - main [MainThread]: End processing [ukmon-meteortools]: success
+[2023-06-07 00:10:52] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.98.tar.gz]
+[2023-06-07 00:10:52] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.99.tar.gz]
+[2023-06-07 00:10:52] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-serverless-cluster-from-snapshot]: success
+[2023-06-07 00:10:52] INFO root fetch - processPackages [peachdb]: Remove: archive file [/home/abi/fetcher/tmp/peachdb-0.0.9.tar.gz]
+[2023-06-07 00:10:52] INFO root fetch - processPackages [peachdb]: Remove: archive file [/home/abi/fetcher/tmp/peachdb-0.1.0.tar.gz]
+[2023-06-07 00:10:52] INFO root fetch - main [MainThread]: End processing [peachdb]: success
+[2023-06-07 00:10:52] INFO root fetch - processPackages [mlplatformutils]: Remove: archive file [/home/abi/fetcher/tmp/mlplatformutils-0.8.8.tar.gz]
+[2023-06-07 00:10:52] INFO root fetch - processPackages [mlplatformutils]: Remove: archive file [/home/abi/fetcher/tmp/mlplatformutils-0.8.9.tar.gz]
+[2023-06-07 00:10:52] INFO root fetch - main [MainThread]: End processing [mlplatformutils]: success
+[2023-06-07 00:10:54] INFO root fetch - processPackages [upgini]: Remove: archive file [/home/abi/fetcher/tmp/upgini-1.1.98.tar.gz]
+[2023-06-07 00:10:54] INFO root fetch - processPackages [upgini]: Remove: archive file [/home/abi/fetcher/tmp/upgini-1.1.99.tar.gz]
+[2023-06-07 00:10:54] INFO root fetch - main [MainThread]: End processing [upgini]: success
+[2023-06-07 00:10:57] INFO root fetch - processPackages [quantconnect-stubs]: Remove: archive file [/home/abi/fetcher/tmp/quantconnect-stubs-9997.tar.gz]
+[2023-06-07 00:10:57] INFO root fetch - processPackages [quantconnect-stubs]: Remove: archive file [/home/abi/fetcher/tmp/quantconnect-stubs-9998.tar.gz]
+[2023-06-07 00:10:57] INFO root fetch - main [MainThread]: End processing [quantconnect-stubs]: success
+[2023-06-07 00:10:57] INFO root fetch - main [MainThread]: Store serial: [18398236]
