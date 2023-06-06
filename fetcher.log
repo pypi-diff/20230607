@@ -535,3 +535,54 @@
 [2023-06-07 00:37:01] INFO root fetch - processPackages [giskard]: Remove: archive file [/home/abi/fetcher/tmp/giskard-2.0.0b2.tar.gz]
 [2023-06-07 00:37:01] INFO root fetch - main [MainThread]: End processing [giskard]: success
 [2023-06-07 00:37:01] INFO root fetch - main [MainThread]: Store serial: [18398342]
+[2023-06-07 00:42:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18398342]
+[2023-06-07 00:42:09] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-07 00:42:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lbt-dragonfly
+[2023-06-07 00:42:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sheng-pypi
+[2023-06-07 00:42:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-pulumiservice
+[2023-06-07 00:42:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: connected-components-3d
+[2023-06-07 00:42:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: scrapeghost
+[2023-06-07 00:42:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kolibri-ml
+[2023-06-07 00:42:09] INFO root fetch - processPackages [scrapeghost]: New version: [0.5.0] Old Version: [0.4.4]
+[2023-06-07 00:42:09] WARNING root fetch - processPackages [sheng-pypi]: Skipping, unable to determine old version
+[2023-06-07 00:42:09] INFO root fetch - main [MainThread]: End processing [sheng-pypi] error
+[2023-06-07 00:42:09] INFO root fetch - processPackages [connected-components-3d]: New version: [3.9.1] Old Version: [3.9.0]
+[2023-06-07 00:42:09] INFO root fetch - processPackages [pulumi-pulumiservice]: New version: [0.9.0] Old Version: [0.8.1a1686089316]
+[2023-06-07 00:42:10] INFO root fetch - processPackages [lbt-dragonfly]: New version: [0.9.99] Old Version: [0.9.98]
+[2023-06-07 00:42:10] INFO root fetch - processPackages [kolibri-ml]: New version: [1.1.8] Old Version: [1.1.73]
+[2023-06-07 00:42:10] INFO root fetch - processPackages [pulumi-pulumiservice]: Downloading https://files.pythonhosted.org/packages/07/73/cef9317aad6085bbd0ebe69704b5fb523ca317786a0e3e81f4243fd159b6/pulumi_pulumiservice-0.8.1a1686089316.tar.gz
+[2023-06-07 00:42:10] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/be/ae/7267dfd241a0641f3fbadea4128db5ffa29609911cadb5fc4840656bb44a/lbt-dragonfly-0.9.98.tar.gz
+[2023-06-07 00:42:10] INFO root fetch - processPackages [scrapeghost]: Downloading https://files.pythonhosted.org/packages/6d/14/52968eb0a79785fea5314b5359c2934dee394fe3ee6db75a031d63dfe481/scrapeghost-0.4.4.tar.gz
+[2023-06-07 00:42:10] INFO root fetch - processPackages [connected-components-3d]: Downloading https://files.pythonhosted.org/packages/51/f7/273086ac8fbe360bd2595ef0d4dd153890299f2197dacb752a43441f87cf/connected-components-3d-3.9.0.tar.gz
+[2023-06-07 00:42:10] INFO root fetch - processPackages [kolibri-ml]: Downloading https://files.pythonhosted.org/packages/bb/66/a05455a0ad38875d4056f68b29b91ad9e7e54bb3b5936844ca3bb791fa86/kolibri_ml-1.1.73-py3-none-any.whl
+[2023-06-07 00:42:10] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/b4/08/0ca46e9f7eef7b2cce7f0c6110106c42aa35a79bd88110559177f64d733a/lbt-dragonfly-0.9.99.tar.gz
+[2023-06-07 00:42:10] INFO root fetch - processPackages [lbt-dragonfly]: executing diffoscope
+[2023-06-07 00:42:10] INFO root fetch - processPackages [lbt-dragonfly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-dragonfly-0.9.98.tar.gz tmp/lbt-dragonfly-0.9.99.tar.gz --markdown 20230607/l/lbt-dragonfly/0.9.98-0.9.99/diff.md --exclude *.pyd
+[2023-06-07 00:42:10] INFO root fetch - processPackages [pulumi-pulumiservice]: Downloading https://files.pythonhosted.org/packages/7f/2a/9f172c6f432bb1aedfdc2e6f674950d4011b0a5dfb418490d7becd77c215/pulumi_pulumiservice-0.9.0.tar.gz
+[2023-06-07 00:42:10] INFO root fetch - processPackages [scrapeghost]: Downloading https://files.pythonhosted.org/packages/ed/bb/c8dfd1a648dce912b52a1af85b8a0406ef68ad45c0183820aaa47b5c5932/scrapeghost-0.5.0.tar.gz
+[2023-06-07 00:42:10] INFO root fetch - processPackages [pulumi-pulumiservice]: executing diffoscope
+[2023-06-07 00:42:10] INFO root fetch - processPackages [pulumi-pulumiservice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_pulumiservice-0.8.1a1686089316.tar.gz tmp/pulumi_pulumiservice-0.9.0.tar.gz --markdown 20230607/p/pulumi-pulumiservice/0.8.1a1686089316-0.9.0/diff.md --exclude *.pyd
+[2023-06-07 00:42:10] INFO root fetch - processPackages [scrapeghost]: executing diffoscope
+[2023-06-07 00:42:10] INFO root fetch - processPackages [scrapeghost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrapeghost-0.4.4.tar.gz tmp/scrapeghost-0.5.0.tar.gz --markdown 20230607/s/scrapeghost/0.4.4-0.5.0/diff.md --exclude *.pyd
+[2023-06-07 00:42:10] INFO root fetch - processPackages [connected-components-3d]: Downloading https://files.pythonhosted.org/packages/14/97/5d0d6bde68a8f6a4eca89d60116c7e6c1761f7d410f586fecde73d7d67dc/connected-components-3d-3.9.1.tar.gz
+[2023-06-07 00:42:10] INFO root fetch - processPackages [kolibri-ml]: Downloading https://files.pythonhosted.org/packages/cf/97/90c21f98d1d917a1aba37dde9f7497a137a46ef54f7c363a162fd4a91d71/kolibri_ml-1.1.8-py3-none-any.whl
+[2023-06-07 00:42:10] INFO root fetch - processPackages [connected-components-3d]: executing diffoscope
+[2023-06-07 00:42:10] INFO root fetch - processPackages [connected-components-3d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/connected-components-3d-3.9.0.tar.gz tmp/connected-components-3d-3.9.1.tar.gz --markdown 20230607/c/connected-components-3d/3.9.0-3.9.1/diff.md --exclude *.pyd
+[2023-06-07 00:42:11] INFO root fetch - processPackages [kolibri-ml]: executing diffoscope
+[2023-06-07 00:42:11] INFO root fetch - processPackages [kolibri-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kolibri_ml-1.1.73-py3-none-any.whl.zip tmp/kolibri_ml-1.1.8-py3-none-any.whl.zip --markdown 20230607/k/kolibri-ml/1.1.73-1.1.8/diff.md --exclude *.pyd
+[2023-06-07 00:42:11] INFO root fetch - processPackages [pulumi-pulumiservice]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_pulumiservice-0.8.1a1686089316.tar.gz]
+[2023-06-07 00:42:11] INFO root fetch - processPackages [pulumi-pulumiservice]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_pulumiservice-0.9.0.tar.gz]
+[2023-06-07 00:42:11] INFO root fetch - main [MainThread]: End processing [pulumi-pulumiservice]: success
+[2023-06-07 00:42:11] INFO root fetch - processPackages [scrapeghost]: Remove: archive file [/home/abi/fetcher/tmp/scrapeghost-0.4.4.tar.gz]
+[2023-06-07 00:42:11] INFO root fetch - processPackages [scrapeghost]: Remove: archive file [/home/abi/fetcher/tmp/scrapeghost-0.5.0.tar.gz]
+[2023-06-07 00:42:11] INFO root fetch - main [MainThread]: End processing [scrapeghost]: success
+[2023-06-07 00:42:11] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.98.tar.gz]
+[2023-06-07 00:42:11] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.99.tar.gz]
+[2023-06-07 00:42:11] INFO root fetch - main [MainThread]: End processing [lbt-dragonfly]: success
+[2023-06-07 00:42:13] INFO root fetch - processPackages [connected-components-3d]: Remove: archive file [/home/abi/fetcher/tmp/connected-components-3d-3.9.0.tar.gz]
+[2023-06-07 00:42:13] INFO root fetch - processPackages [connected-components-3d]: Remove: archive file [/home/abi/fetcher/tmp/connected-components-3d-3.9.1.tar.gz]
+[2023-06-07 00:42:13] INFO root fetch - main [MainThread]: End processing [connected-components-3d]: success
+[2023-06-07 00:42:20] INFO root fetch - processPackages [kolibri-ml]: Remove: archive file [/home/abi/fetcher/tmp/kolibri_ml-1.1.73-py3-none-any.whl.zip]
+[2023-06-07 00:42:20] INFO root fetch - processPackages [kolibri-ml]: Remove: archive file [/home/abi/fetcher/tmp/kolibri_ml-1.1.8-py3-none-any.whl.zip]
+[2023-06-07 00:42:20] INFO root fetch - main [MainThread]: End processing [kolibri-ml]: success
+[2023-06-07 00:42:20] INFO root fetch - main [MainThread]: Store serial: [18398395]
