@@ -1162,3 +1162,69 @@
 [2023-06-07 01:19:07] INFO root fetch - processPackages [deployfish]: Remove: archive file [/home/abi/fetcher/tmp/deployfish-1.9.6.tar.gz]
 [2023-06-07 01:19:07] INFO root fetch - main [MainThread]: End processing [deployfish]: success
 [2023-06-07 01:19:07] INFO root fetch - main [MainThread]: Store serial: [18398608]
+[2023-06-07 01:24:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18398608]
+[2023-06-07 01:24:15] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-07 01:24:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mcap-etl
+[2023-06-07 01:24:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mosaicml-cli
+[2023-06-07 01:24:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: py-data-mock
+[2023-06-07 01:24:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pbumongo
+[2023-06-07 01:24:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: read-rapidpe
+[2023-06-07 01:24:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: SmoobuExtractorFormatter
+[2023-06-07 01:24:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: python-hilo
+[2023-06-07 01:24:16] INFO root fetch - processPackages [read-rapidpe]: New version: [0.6.0] Old Version: [0.5.9]
+[2023-06-07 01:24:16] INFO root fetch - processPackages [mcap-etl]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-07 01:24:16] INFO root fetch - processPackages [py-data-mock]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-07 01:24:16] INFO root fetch - processPackages [pbumongo]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-07 01:24:16] INFO root fetch - processPackages [SmoobuExtractorFormatter]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-06-07 01:24:16] INFO root fetch - processPackages [python-hilo]: New version: [2023.6.1] Old Version: [2023.4.4]
+[2023-06-07 01:24:16] INFO root fetch - processPackages [mosaicml-cli]: New version: [0.4.6] Old Version: [0.4.5]
+[2023-06-07 01:24:16] INFO root fetch - processPackages [read-rapidpe]: Downloading https://files.pythonhosted.org/packages/4b/55/ad69ce5df209d55e1d050d66d41c7c188a714785fbe87f269184c0fd87a7/read_rapidpe-0.5.9.tar.gz
+[2023-06-07 01:24:16] INFO root fetch - processPackages [python-hilo]: Downloading https://files.pythonhosted.org/packages/eb/b8/096bae1aece3d10cb6495cf2d40ad7317481327d0bdc403cded58117898e/python_hilo-2023.4.4.tar.gz
+[2023-06-07 01:24:16] INFO root fetch - processPackages [mcap-etl]: Downloading https://files.pythonhosted.org/packages/da/80/30d89befe64a9927b13a00b801db425663dd59f495f4cc404c64c3c8492b/mcap_etl-0.1.1.tar.gz
+[2023-06-07 01:24:16] INFO root fetch - processPackages [py-data-mock]: Downloading https://files.pythonhosted.org/packages/91/24/62435b43c5c2c54701689c0d1ac452e017145afa2859718d733447f05c49/py-data-mock-0.0.5.tar.gz
+[2023-06-07 01:24:16] INFO root fetch - processPackages [mosaicml-cli]: Downloading https://files.pythonhosted.org/packages/a7/74/2890e64f08d9c915392dbfe7b11c5c08a568c68970839d5c55037c579182/mosaicml-cli-0.4.5.tar.gz
+[2023-06-07 01:24:16] INFO root fetch - processPackages [SmoobuExtractorFormatter]: Downloading https://files.pythonhosted.org/packages/a8/91/230addd0ca2d98a72f6ee4aa48d330f750f51725628da414568734087bff/SmoobuExtractorFormatter-1.0.6-py3-none-any.whl
+[2023-06-07 01:24:16] INFO root fetch - processPackages [pbumongo]: Downloading https://files.pythonhosted.org/packages/71/bc/8c22814f7621741ba5029ded7c07e964d20a82b4e40020647da63491292d/pbumongo-1.0.1.tar.gz
+[2023-06-07 01:24:16] INFO root fetch - processPackages [mcap-etl]: Downloading https://files.pythonhosted.org/packages/01/50/6930ccf53a20472f2f37d27c3313cdbb73e20c64cd7c413db1c0bb98c821/mcap_etl-0.1.2.tar.gz
+[2023-06-07 01:24:16] INFO root fetch - processPackages [read-rapidpe]: Downloading https://files.pythonhosted.org/packages/4a/8c/8591897249ea44a31f05832af03414da9ef698ad4ebea486d5eb6d3c324a/read_rapidpe-0.6.0.tar.gz
+[2023-06-07 01:24:16] INFO root fetch - processPackages [SmoobuExtractorFormatter]: Downloading https://files.pythonhosted.org/packages/50/84/cfe6ad5ce60aa2bbf524c3ed11a51ba89c1f03e2e142f9a527683767aa95/SmoobuExtractorFormatter-1.0.7.tar.gz
+[2023-06-07 01:24:16] INFO root fetch - processPackages [py-data-mock]: Downloading https://files.pythonhosted.org/packages/51/74/5aebc04082af21e7ad51314f936e2e296b3bf58c40169f63a899a9840aa3/py-data-mock-0.0.6.tar.gz
+[2023-06-07 01:24:16] INFO root fetch - processPackages [mosaicml-cli]: Downloading https://files.pythonhosted.org/packages/4a/38/8fba544570a200d833f0728eb6c7a305279c97495a51f2cdfc54d2ec85fc/mosaicml-cli-0.4.6.tar.gz
+[2023-06-07 01:24:16] INFO root fetch - processPackages [mcap-etl]: executing diffoscope
+[2023-06-07 01:24:16] INFO root fetch - processPackages [mcap-etl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mcap_etl-0.1.1.tar.gz tmp/mcap_etl-0.1.2.tar.gz --markdown 20230607/m/mcap-etl/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-07 01:24:16] INFO root fetch - processPackages [pbumongo]: Downloading https://files.pythonhosted.org/packages/e2/60/ee5db4441aaccb074a095e44d26357674aced2e8203381c9c634fd7c5fa0/pbumongo-1.0.2.tar.gz
+[2023-06-07 01:24:16] INFO root fetch - processPackages [python-hilo]: Downloading https://files.pythonhosted.org/packages/39/a4/bf33521ce2c25085cdaf9239ea6a56206de227145ad47840991310c591b4/python_hilo-2023.6.1.tar.gz
+[2023-06-07 01:24:16] INFO root fetch - processPackages [read-rapidpe]: executing diffoscope
+[2023-06-07 01:24:16] INFO root fetch - processPackages [read-rapidpe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/read_rapidpe-0.5.9.tar.gz tmp/read_rapidpe-0.6.0.tar.gz --markdown 20230607/r/read-rapidpe/0.5.9-0.6.0/diff.md --exclude *.pyd
+[2023-06-07 01:24:16] INFO root fetch - processPackages [SmoobuExtractorFormatter]: executing diffoscope
+[2023-06-07 01:24:16] INFO root fetch - processPackages [SmoobuExtractorFormatter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SmoobuExtractorFormatter-1.0.6-py3-none-any.whl.zip tmp/SmoobuExtractorFormatter-1.0.7.tar.gz --markdown 20230607/S/SmoobuExtractorFormatter/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-06-07 01:24:16] INFO root fetch - processPackages [py-data-mock]: executing diffoscope
+[2023-06-07 01:24:16] INFO root fetch - processPackages [py-data-mock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-data-mock-0.0.5.tar.gz tmp/py-data-mock-0.0.6.tar.gz --markdown 20230607/p/py-data-mock/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-07 01:24:16] INFO root fetch - processPackages [pbumongo]: executing diffoscope
+[2023-06-07 01:24:16] INFO root fetch - processPackages [pbumongo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pbumongo-1.0.1.tar.gz tmp/pbumongo-1.0.2.tar.gz --markdown 20230607/p/pbumongo/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-07 01:24:16] INFO root fetch - processPackages [mosaicml-cli]: executing diffoscope
+[2023-06-07 01:24:16] INFO root fetch - processPackages [mosaicml-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mosaicml-cli-0.4.5.tar.gz tmp/mosaicml-cli-0.4.6.tar.gz --markdown 20230607/m/mosaicml-cli/0.4.5-0.4.6/diff.md --exclude *.pyd
+[2023-06-07 01:24:16] INFO root fetch - processPackages [python-hilo]: executing diffoscope
+[2023-06-07 01:24:16] INFO root fetch - processPackages [python-hilo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_hilo-2023.4.4.tar.gz tmp/python_hilo-2023.6.1.tar.gz --markdown 20230607/p/python-hilo/2023.4.4-2023.6.1/diff.md --exclude *.pyd
+[2023-06-07 01:24:17] INFO root fetch - processPackages [SmoobuExtractorFormatter]: Remove: archive file [/home/abi/fetcher/tmp/SmoobuExtractorFormatter-1.0.6-py3-none-any.whl.zip]
+[2023-06-07 01:24:17] INFO root fetch - processPackages [SmoobuExtractorFormatter]: Remove: archive file [/home/abi/fetcher/tmp/SmoobuExtractorFormatter-1.0.7.tar.gz]
+[2023-06-07 01:24:17] INFO root fetch - main [MainThread]: End processing [SmoobuExtractorFormatter]: success
+[2023-06-07 01:24:17] INFO root fetch - processPackages [mcap-etl]: Remove: archive file [/home/abi/fetcher/tmp/mcap_etl-0.1.1.tar.gz]
+[2023-06-07 01:24:17] INFO root fetch - processPackages [mcap-etl]: Remove: archive file [/home/abi/fetcher/tmp/mcap_etl-0.1.2.tar.gz]
+[2023-06-07 01:24:17] INFO root fetch - main [MainThread]: End processing [mcap-etl]: success
+[2023-06-07 01:24:18] INFO root fetch - processPackages [py-data-mock]: Remove: archive file [/home/abi/fetcher/tmp/py-data-mock-0.0.5.tar.gz]
+[2023-06-07 01:24:18] INFO root fetch - processPackages [py-data-mock]: Remove: archive file [/home/abi/fetcher/tmp/py-data-mock-0.0.6.tar.gz]
+[2023-06-07 01:24:18] INFO root fetch - main [MainThread]: End processing [py-data-mock]: success
+[2023-06-07 01:24:18] INFO root fetch - processPackages [read-rapidpe]: Remove: archive file [/home/abi/fetcher/tmp/read_rapidpe-0.5.9.tar.gz]
+[2023-06-07 01:24:18] INFO root fetch - processPackages [read-rapidpe]: Remove: archive file [/home/abi/fetcher/tmp/read_rapidpe-0.6.0.tar.gz]
+[2023-06-07 01:24:18] INFO root fetch - main [MainThread]: End processing [read-rapidpe]: success
+[2023-06-07 01:24:18] INFO root fetch - processPackages [python-hilo]: Remove: archive file [/home/abi/fetcher/tmp/python_hilo-2023.4.4.tar.gz]
+[2023-06-07 01:24:18] INFO root fetch - processPackages [python-hilo]: Remove: archive file [/home/abi/fetcher/tmp/python_hilo-2023.6.1.tar.gz]
+[2023-06-07 01:24:18] INFO root fetch - main [MainThread]: End processing [python-hilo]: success
+[2023-06-07 01:24:18] INFO root fetch - processPackages [pbumongo]: Remove: archive file [/home/abi/fetcher/tmp/pbumongo-1.0.1.tar.gz]
+[2023-06-07 01:24:18] INFO root fetch - processPackages [pbumongo]: Remove: archive file [/home/abi/fetcher/tmp/pbumongo-1.0.2.tar.gz]
+[2023-06-07 01:24:18] INFO root fetch - main [MainThread]: End processing [pbumongo]: success
+[2023-06-07 01:24:18] INFO root fetch - processPackages [mosaicml-cli]: Remove: archive file [/home/abi/fetcher/tmp/mosaicml-cli-0.4.5.tar.gz]
+[2023-06-07 01:24:18] INFO root fetch - processPackages [mosaicml-cli]: Remove: archive file [/home/abi/fetcher/tmp/mosaicml-cli-0.4.6.tar.gz]
+[2023-06-07 01:24:18] INFO root fetch - main [MainThread]: End processing [mosaicml-cli]: success
+[2023-06-07 01:24:18] INFO root fetch - main [MainThread]: Store serial: [18398632]
