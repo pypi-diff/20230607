@@ -356,3 +356,41 @@
 [2023-06-07 00:16:11] INFO root fetch - processPackages [aind-segmentation-evaluation]: Remove: archive file [/home/abi/fetcher/tmp/aind_segmentation_evaluation-0.1.9.tar.gz]
 [2023-06-07 00:16:11] INFO root fetch - main [MainThread]: End processing [aind-segmentation-evaluation]: success
 [2023-06-07 00:16:11] INFO root fetch - main [MainThread]: Store serial: [18398266]
+[2023-06-07 00:21:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18398266]
+[2023-06-07 00:21:20] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-07 00:21:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: imgui-bundle
+[2023-06-07 00:21:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aind-segmentation-evaluation
+[2023-06-07 00:21:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: melnor-bluetooth
+[2023-06-07 00:21:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nso-api
+[2023-06-07 00:21:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lineax
+[2023-06-07 00:21:21] INFO root fetch - processPackages [melnor-bluetooth]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-07 00:21:21] INFO root fetch - processPackages [imgui-bundle]: New version: [0.8.6] Old Version: [0.8.5]
+[2023-06-07 00:21:21] INFO root fetch - processPackages [aind-segmentation-evaluation]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-07 00:21:21] INFO root fetch - processPackages [nso-api]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-06-07 00:21:21] WARNING root fetch - processPackages [lineax]: Skipping, unable to determine old version
+[2023-06-07 00:21:21] INFO root fetch - main [MainThread]: End processing [lineax] error
+[2023-06-07 00:21:21] INFO root fetch - processPackages [aind-segmentation-evaluation]: Downloading https://files.pythonhosted.org/packages/0f/55/d339e4a1a627d9f16bde01dbd1b77907dc371973ebb8c5814c98b0246d07/aind_segmentation_evaluation-0.1.8.tar.gz
+[2023-06-07 00:21:21] INFO root fetch - processPackages [melnor-bluetooth]: Downloading https://files.pythonhosted.org/packages/ae/1b/e370cededd784265fdbd6335ae11181f66a89b0bf7aba749457cb06e0590/melnor-bluetooth-0.0.8.tar.gz
+[2023-06-07 00:21:21] INFO root fetch - processPackages [imgui-bundle]: Downloading https://files.pythonhosted.org/packages/1d/ea/e9d186bcd4c1d642dcd75ec6c31929c4063eac97949de398d39669b0f75c/imgui-bundle-0.8.5.tar.gz
+[2023-06-07 00:21:21] WARNING root fetch - processPackages [imgui-bundle]: Skipping package: exceeds size limit 55286796>=10485760
+[2023-06-07 00:21:21] INFO root fetch - main [MainThread]: End processing [imgui-bundle] error
+[2023-06-07 00:21:21] INFO root fetch - processPackages [nso-api]: Downloading https://files.pythonhosted.org/packages/97/4a/8c58db743d21cf0d400cb19e1288fa9fc87c0c209d9d5f7e4fbabd5f7b6e/nso-api-0.9.5.tar.gz
+[2023-06-07 00:21:21] INFO root fetch - processPackages [aind-segmentation-evaluation]: Downloading https://files.pythonhosted.org/packages/bc/ac/83eb7dc1edd6ef85ed0b49968b144fc4008c7bc0bc75dd809f2a24cb2aa7/aind_segmentation_evaluation-0.1.9.tar.gz
+[2023-06-07 00:21:21] INFO root fetch - processPackages [aind-segmentation-evaluation]: executing diffoscope
+[2023-06-07 00:21:21] INFO root fetch - processPackages [aind-segmentation-evaluation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aind_segmentation_evaluation-0.1.8.tar.gz tmp/aind_segmentation_evaluation-0.1.9.tar.gz --markdown 20230607/a/aind-segmentation-evaluation/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-07 00:21:21] INFO root fetch - processPackages [melnor-bluetooth]: Downloading https://files.pythonhosted.org/packages/ad/d8/409e697ace8337020f01d25524cfb5b7e0f4a4222e44db8121b100b86af9/melnor-bluetooth-0.0.9.tar.gz
+[2023-06-07 00:21:21] INFO root fetch - processPackages [nso-api]: Downloading https://files.pythonhosted.org/packages/26/01/dc3bc363dbf68bcdb92660b897144a47d969c72eee4050abc7558766c8ff/nso-api-0.9.6.tar.gz
+[2023-06-07 00:21:21] INFO root fetch - processPackages [melnor-bluetooth]: executing diffoscope
+[2023-06-07 00:21:21] INFO root fetch - processPackages [melnor-bluetooth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/melnor-bluetooth-0.0.8.tar.gz tmp/melnor-bluetooth-0.0.9.tar.gz --markdown 20230607/m/melnor-bluetooth/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-07 00:21:21] INFO root fetch - processPackages [nso-api]: executing diffoscope
+[2023-06-07 00:21:21] INFO root fetch - processPackages [nso-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nso-api-0.9.5.tar.gz tmp/nso-api-0.9.6.tar.gz --markdown 20230607/n/nso-api/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-06-07 00:21:22] INFO root fetch - processPackages [melnor-bluetooth]: Remove: archive file [/home/abi/fetcher/tmp/melnor-bluetooth-0.0.8.tar.gz]
+[2023-06-07 00:21:22] INFO root fetch - processPackages [melnor-bluetooth]: Remove: archive file [/home/abi/fetcher/tmp/melnor-bluetooth-0.0.9.tar.gz]
+[2023-06-07 00:21:22] INFO root fetch - main [MainThread]: End processing [melnor-bluetooth]: success
+[2023-06-07 00:21:22] INFO root fetch - processPackages [nso-api]: Remove: archive file [/home/abi/fetcher/tmp/nso-api-0.9.5.tar.gz]
+[2023-06-07 00:21:22] INFO root fetch - processPackages [nso-api]: Remove: archive file [/home/abi/fetcher/tmp/nso-api-0.9.6.tar.gz]
+[2023-06-07 00:21:22] INFO root fetch - main [MainThread]: End processing [nso-api]: success
+[2023-06-07 00:21:26] INFO root fetch - processPackages [aind-segmentation-evaluation]: Remove: archive file [/home/abi/fetcher/tmp/aind_segmentation_evaluation-0.1.8.tar.gz]
+[2023-06-07 00:21:26] INFO root fetch - processPackages [aind-segmentation-evaluation]: Remove: archive file [/home/abi/fetcher/tmp/aind_segmentation_evaluation-0.1.9.tar.gz]
+[2023-06-07 00:21:26] INFO root fetch - main [MainThread]: End processing [aind-segmentation-evaluation]: success
+[2023-06-07 00:21:26] INFO root fetch - main [MainThread]: Store serial: [18398294]
