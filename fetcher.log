@@ -754,3 +754,135 @@
 [2023-06-07 00:58:08] INFO root fetch - processPackages [quantconnect-stubs]: Remove: archive file [/home/abi/fetcher/tmp/quantconnect-stubs-9998.tar.gz]
 [2023-06-07 00:58:08] INFO root fetch - main [MainThread]: End processing [quantconnect-stubs]: success
 [2023-06-07 00:58:08] INFO root fetch - main [MainThread]: Store serial: [18398451]
+[2023-06-07 01:03:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18398451]
+[2023-06-07 01:03:17] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-07 01:03:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: animegifs
+[2023-06-07 01:03:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: seleniumbase
+[2023-06-07 01:03:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: SerializerAraseniiShmatovNEW
+[2023-06-07 01:03:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sbase
+[2023-06-07 01:03:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: selenium-base
+[2023-06-07 01:03:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: steps-autoencoder
+[2023-06-07 01:03:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pytest-sbase
+[2023-06-07 01:03:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pytest-seleniumbase
+[2023-06-07 01:03:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: torchbricks
+[2023-06-07 01:03:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: procastro
+[2023-06-07 01:03:17] INFO root fetch - processPackages [SerializerAraseniiShmatovNEW]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-07 01:03:17] INFO root fetch - processPackages [steps-autoencoder]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-07 01:03:17] INFO root fetch - processPackages [animegifs]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-06-07 01:03:17] INFO root fetch - processPackages [procastro]: New version: [0.0.9] Old Version: [0.0.10]
+[2023-06-07 01:03:17] INFO root fetch - processPackages [torchbricks]: New version: [0.0.4] Old Version: [0.0.1]
+[2023-06-07 01:03:17] INFO root fetch - processPackages [sbase]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-06-07 01:03:17] INFO root fetch - processPackages [selenium-base]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-06-07 01:03:17] INFO root fetch - processPackages [pytest-seleniumbase]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-06-07 01:03:17] INFO root fetch - processPackages [pytest-sbase]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-06-07 01:03:17] INFO root fetch - processPackages [steps-autoencoder]: Downloading https://files.pythonhosted.org/packages/36/0c/e718776b352ee446bdf473fa1b4da8e2ea294ff4bb3cda7883e46ed21751/steps-autoencoder-0.1.5.tar.gz
+[2023-06-07 01:03:17] INFO root fetch - processPackages [seleniumbase]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-06-07 01:03:17] INFO root fetch - processPackages [animegifs]: Downloading https://files.pythonhosted.org/packages/43/ec/c962f28a4691a19a28d4aa7a33d1623eb81cd8fecd2f9ae3cc239e9e017d/animegifs-0.6.2.tar.gz
+[2023-06-07 01:03:17] INFO root fetch - processPackages [procastro]: Downloading https://files.pythonhosted.org/packages/e1/c9/7880bbf7273c2739a8d1300aa025a717bf00d57c642aa63a90f4d9de6f52/procastro-0.0.10.tar.gz
+[2023-06-07 01:03:17] INFO root fetch - processPackages [sbase]: Downloading https://files.pythonhosted.org/packages/10/f9/904caa9ffcdc6c4e7625f527d7ff03e2ccbecc9c360a7557b298321e506d/sbase-4.9.8.tar.gz
+[2023-06-07 01:03:17] INFO root fetch - processPackages [selenium-base]: Downloading https://files.pythonhosted.org/packages/49/eb/ad6c55d2af108681e38505aff036aef13544a2d1c09817221f499826a6f9/selenium-base-4.9.8.tar.gz
+[2023-06-07 01:03:17] INFO root fetch - processPackages [SerializerAraseniiShmatovNEW]: Downloading https://files.pythonhosted.org/packages/8a/ec/56c899729f8a02ff9119ea698093819798999b7c7460076094c391476a4e/SerializerAraseniiShmatovNEW-0.1.0.tar.gz
+[2023-06-07 01:03:17] INFO root fetch - processPackages [pytest-seleniumbase]: Downloading https://files.pythonhosted.org/packages/40/bb/757cad3c5535e64c18cee852b145a86e4d539878bd9dce7c2934bcfb972d/pytest-seleniumbase-4.9.8.tar.gz
+[2023-06-07 01:03:17] INFO root fetch - processPackages [torchbricks]: Downloading https://files.pythonhosted.org/packages/d2/38/bddff1dd42cb436d1732edae399c9abcac66a5a1d842d17a81173721a478/torchbricks-0.0.1.tar.gz
+[2023-06-07 01:03:17] INFO root fetch - processPackages [pytest-sbase]: Downloading https://files.pythonhosted.org/packages/91/87/a1223948d4bac31ab82915c4e7a930c22af874859aa805d6c3abd6b5bb3e/pytest-sbase-4.9.8.tar.gz
+[2023-06-07 01:03:17] INFO root fetch - processPackages [seleniumbase]: Downloading https://files.pythonhosted.org/packages/d5/06/b4c4aa69540cf3a9c497a53072da777eefd704403fc8f952a88c69208ad1/seleniumbase-4.9.8.tar.gz
+[2023-06-07 01:03:18] INFO root fetch - processPackages [sbase]: Downloading https://files.pythonhosted.org/packages/d2/57/c23bf788f4a8fba6ef62c68be73c8fb443dc5aa71c69b03726c1254377f7/sbase-4.9.9.tar.gz
+[2023-06-07 01:03:18] INFO root fetch - processPackages [pytest-seleniumbase]: Downloading https://files.pythonhosted.org/packages/34/03/c67c6c24b8d7c3e49595b97d914034cf101d3d1d029f9e9453f497e0937a/pytest-seleniumbase-4.9.9.tar.gz
+[2023-06-07 01:03:18] INFO root fetch - processPackages [selenium-base]: Downloading https://files.pythonhosted.org/packages/0a/3b/8bdd54f85b1550af5050c8683212c3f88b854c0ef99e22fa6fe216094900/selenium-base-4.9.9.tar.gz
+[2023-06-07 01:03:18] INFO root fetch - processPackages [steps-autoencoder]: Downloading https://files.pythonhosted.org/packages/a0/9e/ca12d326b2eb063cca7cb2283bf762307a212d534f5ec1656b0add5941e1/steps-autoencoder-0.1.6.tar.gz
+[2023-06-07 01:03:18] INFO root fetch - processPackages [SerializerAraseniiShmatovNEW]: Downloading https://files.pythonhosted.org/packages/eb/0c/1dc4275c50f46a1cf577467225a89a5b82a71b164d3060f2c4caacc7d99a/SerializerAraseniiShmatovNEW-0.1.1.tar.gz
+[2023-06-07 01:03:18] INFO root fetch - processPackages [pytest-sbase]: Downloading https://files.pythonhosted.org/packages/ea/6c/61da56c0f8d30ee6ecfbf486bd770ce073eba9a09e63981ae35863a37cb0/pytest-sbase-4.9.9.tar.gz
+[2023-06-07 01:03:18] INFO root fetch - processPackages [torchbricks]: Downloading https://files.pythonhosted.org/packages/3f/7d/9372d932ec0926cf9ad9c8f729a2b55a00bb3ce9173d8daf5fcd06053f5d/torchbricks-0.0.4.tar.gz
+[2023-06-07 01:03:18] INFO root fetch - processPackages [procastro]: Downloading https://files.pythonhosted.org/packages/c7/50/69477f8f66320fc8253c50f518f0ebaae1008d29497d598167e13d1e1995/procastro-0.0.9.tar.gz
+[2023-06-07 01:03:18] INFO root fetch - processPackages [pytest-seleniumbase]: executing diffoscope
+[2023-06-07 01:03:18] INFO root fetch - processPackages [pytest-seleniumbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-seleniumbase-4.9.8.tar.gz tmp/pytest-seleniumbase-4.9.9.tar.gz --markdown 20230607/p/pytest-seleniumbase/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-06-07 01:03:18] INFO root fetch - processPackages [selenium-base]: executing diffoscope
+[2023-06-07 01:03:18] INFO root fetch - processPackages [selenium-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selenium-base-4.9.8.tar.gz tmp/selenium-base-4.9.9.tar.gz --markdown 20230607/s/selenium-base/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-06-07 01:03:18] INFO root fetch - processPackages [sbase]: executing diffoscope
+[2023-06-07 01:03:18] INFO root fetch - processPackages [sbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbase-4.9.8.tar.gz tmp/sbase-4.9.9.tar.gz --markdown 20230607/s/sbase/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-06-07 01:03:18] INFO root fetch - processPackages [seleniumbase]: Downloading https://files.pythonhosted.org/packages/9d/0f/462449b9921267bb9f0f0db257c72435e50ec2fcd4219764bb131be70686/seleniumbase-4.9.9.tar.gz
+[2023-06-07 01:03:18] INFO root fetch - processPackages [animegifs]: Downloading https://files.pythonhosted.org/packages/88/cc/ce8dffe2d11fefd2b157db7ce2acd4b488581302fa90b53f5929c45c4848/animegifs-0.6.3.tar.gz
+[2023-06-07 01:03:18] INFO root fetch - processPackages [steps-autoencoder]: executing diffoscope
+[2023-06-07 01:03:18] INFO root fetch - processPackages [steps-autoencoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/steps-autoencoder-0.1.5.tar.gz tmp/steps-autoencoder-0.1.6.tar.gz --markdown 20230607/s/steps-autoencoder/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-07 01:03:18] INFO root fetch - processPackages [SerializerAraseniiShmatovNEW]: executing diffoscope
+[2023-06-07 01:03:18] INFO root fetch - processPackages [SerializerAraseniiShmatovNEW]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SerializerAraseniiShmatovNEW-0.1.0.tar.gz tmp/SerializerAraseniiShmatovNEW-0.1.1.tar.gz --markdown 20230607/S/SerializerAraseniiShmatovNEW/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-07 01:03:18] INFO root fetch - processPackages [pytest-sbase]: executing diffoscope
+[2023-06-07 01:03:18] INFO root fetch - processPackages [pytest-sbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-sbase-4.9.8.tar.gz tmp/pytest-sbase-4.9.9.tar.gz --markdown 20230607/p/pytest-sbase/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-06-07 01:03:18] INFO root fetch - processPackages [torchbricks]: executing diffoscope
+[2023-06-07 01:03:18] INFO root fetch - processPackages [torchbricks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchbricks-0.0.1.tar.gz tmp/torchbricks-0.0.4.tar.gz --markdown 20230607/t/torchbricks/0.0.1-0.0.4/diff.md --exclude *.pyd
+[2023-06-07 01:03:18] INFO root fetch - processPackages [animegifs]: executing diffoscope
+[2023-06-07 01:03:18] INFO root fetch - processPackages [animegifs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/animegifs-0.6.2.tar.gz tmp/animegifs-0.6.3.tar.gz --markdown 20230607/a/animegifs/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-06-07 01:03:18] INFO root fetch - processPackages [seleniumbase]: executing diffoscope
+[2023-06-07 01:03:18] INFO root fetch - processPackages [seleniumbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seleniumbase-4.9.8.tar.gz tmp/seleniumbase-4.9.9.tar.gz --markdown 20230607/s/seleniumbase/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-06-07 01:03:18] INFO root fetch - processPackages [procastro]: executing diffoscope
+[2023-06-07 01:03:18] INFO root fetch - processPackages [procastro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/procastro-0.0.10.tar.gz tmp/procastro-0.0.9.tar.gz --markdown 20230607/p/procastro/0.0.10-0.0.9/diff.md --exclude *.pyd
+[2023-06-07 01:03:19] INFO root fetch - processPackages [steps-autoencoder]: Remove: archive file [/home/abi/fetcher/tmp/steps-autoencoder-0.1.5.tar.gz]
+[2023-06-07 01:03:19] INFO root fetch - processPackages [steps-autoencoder]: Remove: archive file [/home/abi/fetcher/tmp/steps-autoencoder-0.1.6.tar.gz]
+[2023-06-07 01:03:19] INFO root fetch - processPackages [steps-autoencoder]: Start processing: saltshaker-sn
+[2023-06-07 01:03:19] INFO root fetch - main [MainThread]: End processing [steps-autoencoder]: success
+[2023-06-07 01:03:19] WARNING root fetch - processPackages [saltshaker-sn]: Skipping, unable to determine old version
+[2023-06-07 01:03:19] INFO root fetch - processPackages [saltshaker-sn]: Start processing: tmnt-cu101
+[2023-06-07 01:03:19] INFO root fetch - main [MainThread]: End processing [saltshaker-sn] error
+[2023-06-07 01:03:19] INFO root fetch - processPackages [tmnt-cu101]: New version: [0.7.0b20230606] Old Version: [0.7.0b20230605]
+[2023-06-07 01:03:19] INFO root fetch - processPackages [pytest-seleniumbase]: Remove: archive file [/home/abi/fetcher/tmp/pytest-seleniumbase-4.9.8.tar.gz]
+[2023-06-07 01:03:19] INFO root fetch - processPackages [pytest-seleniumbase]: Remove: archive file [/home/abi/fetcher/tmp/pytest-seleniumbase-4.9.9.tar.gz]
+[2023-06-07 01:03:19] INFO root fetch - processPackages [pytest-seleniumbase]: Start processing: pyrecdp
+[2023-06-07 01:03:19] INFO root fetch - main [MainThread]: End processing [pytest-seleniumbase]: success
+[2023-06-07 01:03:19] INFO root fetch - processPackages [selenium-base]: Remove: archive file [/home/abi/fetcher/tmp/selenium-base-4.9.8.tar.gz]
+[2023-06-07 01:03:19] INFO root fetch - processPackages [selenium-base]: Remove: archive file [/home/abi/fetcher/tmp/selenium-base-4.9.9.tar.gz]
+[2023-06-07 01:03:19] INFO root fetch - processPackages [selenium-base]: Start processing: tmnt
+[2023-06-07 01:03:19] INFO root fetch - main [MainThread]: End processing [selenium-base]: success
+[2023-06-07 01:03:19] INFO root fetch - processPackages [animegifs]: Remove: archive file [/home/abi/fetcher/tmp/animegifs-0.6.2.tar.gz]
+[2023-06-07 01:03:19] INFO root fetch - processPackages [animegifs]: Remove: archive file [/home/abi/fetcher/tmp/animegifs-0.6.3.tar.gz]
+[2023-06-07 01:03:19] INFO root fetch - processPackages [animegifs]: Start processing: dragonfly-energy
+[2023-06-07 01:03:19] INFO root fetch - main [MainThread]: End processing [animegifs]: success
+[2023-06-07 01:03:19] INFO root fetch - processPackages [SerializerAraseniiShmatovNEW]: Remove: archive file [/home/abi/fetcher/tmp/SerializerAraseniiShmatovNEW-0.1.0.tar.gz]
+[2023-06-07 01:03:19] INFO root fetch - processPackages [SerializerAraseniiShmatovNEW]: Remove: archive file [/home/abi/fetcher/tmp/SerializerAraseniiShmatovNEW-0.1.1.tar.gz]
+[2023-06-07 01:03:19] INFO root fetch - main [MainThread]: End processing [SerializerAraseniiShmatovNEW]: success
+[2023-06-07 01:03:19] INFO root fetch - processPackages [tmnt]: New version: [0.7.0b20230605] Old Version: [0.7.0b20230604]
+[2023-06-07 01:03:19] INFO root fetch - processPackages [dragonfly-energy]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-06-07 01:03:19] INFO root fetch - processPackages [pyrecdp]: New version: [1.0.1b202306061] Old Version: [1.0.1b202305181]
+[2023-06-07 01:03:19] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/43/3f/5e8a81da4472bcacdc21a1018c8ba3d761ca6531995fccf91a723ba86cb9/tmnt-0.7.0b20230604.tar.gz
+[2023-06-07 01:03:19] INFO root fetch - processPackages [dragonfly-energy]: Downloading https://files.pythonhosted.org/packages/20/4e/115840f938ee254b23bd515351ba786228441464717f8557431f914e75f4/dragonfly-energy-1.9.8.tar.gz
+[2023-06-07 01:03:19] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/1b/44/6ba48396c4dd773a2e4ab28c266b347dbedcbca04556f7a70f5dbb165ace/tmnt-cu101-0.7.0b20230605.tar.gz
+[2023-06-07 01:03:20] INFO root fetch - processPackages [torchbricks]: Remove: archive file [/home/abi/fetcher/tmp/torchbricks-0.0.1.tar.gz]
+[2023-06-07 01:03:20] INFO root fetch - processPackages [torchbricks]: Remove: archive file [/home/abi/fetcher/tmp/torchbricks-0.0.4.tar.gz]
+[2023-06-07 01:03:20] INFO root fetch - main [MainThread]: End processing [torchbricks]: success
+[2023-06-07 01:03:20] INFO root fetch - processPackages [pytest-sbase]: Remove: archive file [/home/abi/fetcher/tmp/pytest-sbase-4.9.8.tar.gz]
+[2023-06-07 01:03:20] INFO root fetch - processPackages [pytest-sbase]: Remove: archive file [/home/abi/fetcher/tmp/pytest-sbase-4.9.9.tar.gz]
+[2023-06-07 01:03:20] INFO root fetch - main [MainThread]: End processing [pytest-sbase]: success
+[2023-06-07 01:03:20] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/dc/8b/c781db27d29e099d619df744eac8117554e5d2e8ab5e1cc6f44755a387a5/tmnt-0.7.0b20230605.tar.gz
+[2023-06-07 01:03:20] INFO root fetch - processPackages [sbase]: Remove: archive file [/home/abi/fetcher/tmp/sbase-4.9.8.tar.gz]
+[2023-06-07 01:03:20] INFO root fetch - processPackages [sbase]: Remove: archive file [/home/abi/fetcher/tmp/sbase-4.9.9.tar.gz]
+[2023-06-07 01:03:20] INFO root fetch - main [MainThread]: End processing [sbase]: success
+[2023-06-07 01:03:20] INFO root fetch - processPackages [dragonfly-energy]: Downloading https://files.pythonhosted.org/packages/09/b6/c12f13159c5beb3b855a32f792faef162ad37358d2e0d3311cbd68a969db/dragonfly-energy-1.9.9.tar.gz
+[2023-06-07 01:03:20] INFO root fetch - processPackages [tmnt]: executing diffoscope
+[2023-06-07 01:03:20] INFO root fetch - processPackages [tmnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-0.7.0b20230604.tar.gz tmp/tmnt-0.7.0b20230605.tar.gz --markdown 20230607/t/tmnt/0.7.0b20230604-0.7.0b20230605/diff.md --exclude *.pyd
+[2023-06-07 01:03:20] INFO root fetch - processPackages [pyrecdp]: Downloading https://files.pythonhosted.org/packages/8a/7b/5af1aa95230f5c301a9e1b46c8247e2edce2af879f6108b8da4483b302ec/pyrecdp-1.0.1b202305181.tar.gz
+[2023-06-07 01:03:20] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/da/7f/ba807843505c5839bbd43b26fa288b85da88ffee85af1a1efefd5a89698b/tmnt-cu101-0.7.0b20230606.tar.gz
+[2023-06-07 01:03:20] INFO root fetch - processPackages [dragonfly-energy]: executing diffoscope
+[2023-06-07 01:03:20] INFO root fetch - processPackages [dragonfly-energy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-energy-1.9.8.tar.gz tmp/dragonfly-energy-1.9.9.tar.gz --markdown 20230607/d/dragonfly-energy/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-06-07 01:03:20] INFO root fetch - processPackages [tmnt-cu101]: executing diffoscope
+[2023-06-07 01:03:20] INFO root fetch - processPackages [tmnt-cu101]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-cu101-0.7.0b20230605.tar.gz tmp/tmnt-cu101-0.7.0b20230606.tar.gz --markdown 20230607/t/tmnt-cu101/0.7.0b20230605-0.7.0b20230606/diff.md --exclude *.pyd
+[2023-06-07 01:03:20] INFO root fetch - processPackages [pyrecdp]: Downloading https://files.pythonhosted.org/packages/d2/25/39b5d6a6847a71d2990bac11b33b9352fa73545cbf3108027d49d554f403/pyrecdp-1.0.1b202306061.tar.gz
+[2023-06-07 01:03:20] INFO root fetch - processPackages [pyrecdp]: executing diffoscope
+[2023-06-07 01:03:20] INFO root fetch - processPackages [pyrecdp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrecdp-1.0.1b202305181.tar.gz tmp/pyrecdp-1.0.1b202306061.tar.gz --markdown 20230607/p/pyrecdp/1.0.1b202305181-1.0.1b202306061/diff.md --exclude *.pyd
+[2023-06-07 01:03:21] INFO root fetch - processPackages [procastro]: Remove: archive file [/home/abi/fetcher/tmp/procastro-0.0.10.tar.gz]
+[2023-06-07 01:03:21] INFO root fetch - processPackages [procastro]: Remove: archive file [/home/abi/fetcher/tmp/procastro-0.0.9.tar.gz]
+[2023-06-07 01:03:21] INFO root fetch - main [MainThread]: End processing [procastro]: success
+[2023-06-07 01:03:21] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.0b20230604.tar.gz]
+[2023-06-07 01:03:21] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.0b20230605.tar.gz]
+[2023-06-07 01:03:21] INFO root fetch - main [MainThread]: End processing [tmnt]: success
+[2023-06-07 01:03:21] INFO root fetch - processPackages [dragonfly-energy]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-energy-1.9.8.tar.gz]
+[2023-06-07 01:03:21] INFO root fetch - processPackages [dragonfly-energy]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-energy-1.9.9.tar.gz]
+[2023-06-07 01:03:21] INFO root fetch - main [MainThread]: End processing [dragonfly-energy]: success
+[2023-06-07 01:03:22] INFO root fetch - processPackages [tmnt-cu101]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-cu101-0.7.0b20230605.tar.gz]
+[2023-06-07 01:03:22] INFO root fetch - processPackages [tmnt-cu101]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-cu101-0.7.0b20230606.tar.gz]
+[2023-06-07 01:03:22] INFO root fetch - main [MainThread]: End processing [tmnt-cu101]: success
+[2023-06-07 01:03:23] INFO root fetch - processPackages [pyrecdp]: Remove: archive file [/home/abi/fetcher/tmp/pyrecdp-1.0.1b202305181.tar.gz]
+[2023-06-07 01:03:23] INFO root fetch - processPackages [pyrecdp]: Remove: archive file [/home/abi/fetcher/tmp/pyrecdp-1.0.1b202306061.tar.gz]
+[2023-06-07 01:03:23] INFO root fetch - main [MainThread]: End processing [pyrecdp]: success
+[2023-06-07 01:03:23] INFO root fetch - processPackages [seleniumbase]: Remove: archive file [/home/abi/fetcher/tmp/seleniumbase-4.9.8.tar.gz]
+[2023-06-07 01:03:23] INFO root fetch - processPackages [seleniumbase]: Remove: archive file [/home/abi/fetcher/tmp/seleniumbase-4.9.9.tar.gz]
+[2023-06-07 01:03:23] INFO root fetch - main [MainThread]: End processing [seleniumbase]: success
+[2023-06-07 01:03:23] INFO root fetch - main [MainThread]: Store serial: [18398495]
