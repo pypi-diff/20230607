@@ -394,3 +394,31 @@
 [2023-06-07 00:21:26] INFO root fetch - processPackages [aind-segmentation-evaluation]: Remove: archive file [/home/abi/fetcher/tmp/aind_segmentation_evaluation-0.1.9.tar.gz]
 [2023-06-07 00:21:26] INFO root fetch - main [MainThread]: End processing [aind-segmentation-evaluation]: success
 [2023-06-07 00:21:26] INFO root fetch - main [MainThread]: Store serial: [18398294]
+[2023-06-07 00:26:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18398294]
+[2023-06-07 00:26:34] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-07 00:26:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-pulumiservice
+[2023-06-07 00:26:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dev-gpt
+[2023-06-07 00:26:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dev-gpt
+[2023-06-07 00:26:34] INFO root fetch - processPackages [dev-gpt]: New version: [0.18.42.dev87] Old Version: [0.18.42.dev8]
+[2023-06-07 00:26:34] INFO root fetch - processPackages [dev-gpt]: New version: [0.18.42.dev87] Old Version: [0.18.42.dev8]
+[2023-06-07 00:26:34] INFO root fetch - processPackages [pulumi-pulumiservice]: New version: [0.8.1a1686089316] Old Version: [0.8.0]
+[2023-06-07 00:26:34] INFO root fetch - processPackages [dev-gpt]: Downloading https://files.pythonhosted.org/packages/60/14/5c760f7dab49ddb02e6b29ea40b70a2d823814ea940a2956424a7b22cb98/dev-gpt-0.18.42.dev8.tar.gz
+[2023-06-07 00:26:34] INFO root fetch - processPackages [dev-gpt]: Downloading https://files.pythonhosted.org/packages/60/14/5c760f7dab49ddb02e6b29ea40b70a2d823814ea940a2956424a7b22cb98/dev-gpt-0.18.42.dev8.tar.gz
+[2023-06-07 00:26:34] INFO root fetch - processPackages [pulumi-pulumiservice]: Downloading https://files.pythonhosted.org/packages/97/26/4643d9b59723fe2376b573c744a2a12bccac44ff5573aa76c65d6e04651c/pulumi_pulumiservice-0.8.0.tar.gz
+[2023-06-07 00:26:35] INFO root fetch - processPackages [dev-gpt]: Downloading https://files.pythonhosted.org/packages/53/94/d6d9eda43b94ac4e906f128679baca621fd415e05401c8738fa8dc737eef/dev-gpt-0.18.42.dev87.tar.gz
+[2023-06-07 00:26:35] INFO root fetch - processPackages [dev-gpt]: Downloading https://files.pythonhosted.org/packages/53/94/d6d9eda43b94ac4e906f128679baca621fd415e05401c8738fa8dc737eef/dev-gpt-0.18.42.dev87.tar.gz
+[2023-06-07 00:26:35] INFO root fetch - processPackages [dev-gpt]: executing diffoscope
+[2023-06-07 00:26:35] INFO root fetch - processPackages [dev-gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dev-gpt-0.18.42.dev8.tar.gz tmp/dev-gpt-0.18.42.dev87.tar.gz --markdown 20230607/d/dev-gpt/0.18.42.dev8-0.18.42.dev87/diff.md --exclude *.pyd
+[2023-06-07 00:26:35] INFO root fetch - processPackages [pulumi-pulumiservice]: Downloading https://files.pythonhosted.org/packages/07/73/cef9317aad6085bbd0ebe69704b5fb523ca317786a0e3e81f4243fd159b6/pulumi_pulumiservice-0.8.1a1686089316.tar.gz
+[2023-06-07 00:26:35] INFO root fetch - processPackages [dev-gpt]: executing diffoscope
+[2023-06-07 00:26:35] INFO root fetch - processPackages [dev-gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dev-gpt-0.18.42.dev8.tar.gz tmp/dev-gpt-0.18.42.dev87.tar.gz --markdown 20230607/d/dev-gpt/0.18.42.dev8-0.18.42.dev87/diff.md --exclude *.pyd
+[2023-06-07 00:26:35] INFO root fetch - processPackages [pulumi-pulumiservice]: executing diffoscope
+[2023-06-07 00:26:35] INFO root fetch - processPackages [pulumi-pulumiservice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_pulumiservice-0.8.0.tar.gz tmp/pulumi_pulumiservice-0.8.1a1686089316.tar.gz --markdown 20230607/p/pulumi-pulumiservice/0.8.0-0.8.1a1686089316/diff.md --exclude *.pyd
+[2023-06-07 00:26:36] INFO root fetch - processPackages [pulumi-pulumiservice]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_pulumiservice-0.8.0.tar.gz]
+[2023-06-07 00:26:36] INFO root fetch - processPackages [pulumi-pulumiservice]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_pulumiservice-0.8.1a1686089316.tar.gz]
+[2023-06-07 00:26:36] INFO root fetch - main [MainThread]: End processing [pulumi-pulumiservice]: success
+[2023-06-07 00:26:36] INFO root fetch - processPackages [dev-gpt]: Remove: archive file [/home/abi/fetcher/tmp/dev-gpt-0.18.42.dev8.tar.gz]
+[2023-06-07 00:26:36] INFO root fetch - processPackages [dev-gpt]: Remove: archive file [/home/abi/fetcher/tmp/dev-gpt-0.18.42.dev87.tar.gz]
+[2023-06-07 00:26:36] INFO root fetch - main [MainThread]: End processing [dev-gpt]: success
+[2023-06-07 00:26:36] INFO root fetch - main [MainThread]: End processing [dev-gpt]: success
+[2023-06-07 00:26:36] INFO root fetch - main [MainThread]: Store serial: [18398300]
