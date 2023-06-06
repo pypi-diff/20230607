@@ -505,3 +505,33 @@
 [2023-06-07 00:31:49] INFO root fetch - main [MainThread]: End processing [whylogs]: success
 [2023-06-07 00:31:49] INFO root fetch - main [MainThread]: End processing [pulpcore-client]: success
 [2023-06-07 00:31:49] INFO root fetch - main [MainThread]: Store serial: [18398331]
+[2023-06-07 00:36:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18398331]
+[2023-06-07 00:36:58] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-07 00:36:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: giskard
+[2023-06-07 00:36:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dragonfly-energy
+[2023-06-07 00:36:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mpservice
+[2023-06-07 00:36:58] INFO root fetch - processPackages [giskard]: New version: [2.0.0b2] Old Version: [2.0.0b1]
+[2023-06-07 00:36:58] INFO root fetch - processPackages [dragonfly-energy]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-06-07 00:36:58] INFO root fetch - processPackages [dragonfly-energy]: Downloading https://files.pythonhosted.org/packages/20/4e/115840f938ee254b23bd515351ba786228441464717f8557431f914e75f4/dragonfly-energy-1.9.8.tar.gz
+[2023-06-07 00:36:58] INFO root fetch - processPackages [mpservice]: New version: [0.9.9.post1] Old Version: [0.9.9]
+[2023-06-07 00:36:58] INFO root fetch - processPackages [giskard]: Downloading https://files.pythonhosted.org/packages/6e/e0/534786b7e6eb057da67f4a3dbb05bcbb5612b814d2de98467d0922c50b2f/giskard-2.0.0b1.tar.gz
+[2023-06-07 00:36:58] INFO root fetch - processPackages [dragonfly-energy]: Downloading https://files.pythonhosted.org/packages/09/b6/c12f13159c5beb3b855a32f792faef162ad37358d2e0d3311cbd68a969db/dragonfly-energy-1.9.9.tar.gz
+[2023-06-07 00:36:58] INFO root fetch - processPackages [mpservice]: Downloading https://files.pythonhosted.org/packages/a4/76/0caf3e54fc1b0c685c01abdb7deb283a4e0ab62467df218edf79256efe6d/mpservice-0.9.9.tar.gz
+[2023-06-07 00:36:58] INFO root fetch - processPackages [dragonfly-energy]: executing diffoscope
+[2023-06-07 00:36:58] INFO root fetch - processPackages [dragonfly-energy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-energy-1.9.8.tar.gz tmp/dragonfly-energy-1.9.9.tar.gz --markdown 20230607/d/dragonfly-energy/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-06-07 00:36:58] INFO root fetch - processPackages [giskard]: Downloading https://files.pythonhosted.org/packages/5e/4e/1678269f42135c4470ef2c8a3bd6b19bf313323b7d91551250ca93ed1668/giskard-2.0.0b2.tar.gz
+[2023-06-07 00:36:58] INFO root fetch - processPackages [giskard]: executing diffoscope
+[2023-06-07 00:36:58] INFO root fetch - processPackages [giskard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/giskard-2.0.0b1.tar.gz tmp/giskard-2.0.0b2.tar.gz --markdown 20230607/g/giskard/2.0.0b1-2.0.0b2/diff.md --exclude *.pyd
+[2023-06-07 00:36:59] INFO root fetch - processPackages [mpservice]: Downloading https://files.pythonhosted.org/packages/62/83/992eb812676a1d5b8ffbc5c9ba7e1bd57f82c86ae5c8a0e509834c8df031/mpservice-0.9.9.post1.tar.gz
+[2023-06-07 00:36:59] INFO root fetch - processPackages [mpservice]: executing diffoscope
+[2023-06-07 00:36:59] INFO root fetch - processPackages [mpservice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpservice-0.9.9.tar.gz tmp/mpservice-0.9.9.post1.tar.gz --markdown 20230607/m/mpservice/0.9.9-0.9.9.post1/diff.md --exclude *.pyd
+[2023-06-07 00:37:00] INFO root fetch - processPackages [dragonfly-energy]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-energy-1.9.8.tar.gz]
+[2023-06-07 00:37:00] INFO root fetch - processPackages [dragonfly-energy]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-energy-1.9.9.tar.gz]
+[2023-06-07 00:37:00] INFO root fetch - main [MainThread]: End processing [dragonfly-energy]: success
+[2023-06-07 00:37:00] INFO root fetch - processPackages [mpservice]: Remove: archive file [/home/abi/fetcher/tmp/mpservice-0.9.9.tar.gz]
+[2023-06-07 00:37:00] INFO root fetch - processPackages [mpservice]: Remove: archive file [/home/abi/fetcher/tmp/mpservice-0.9.9.post1.tar.gz]
+[2023-06-07 00:37:00] INFO root fetch - main [MainThread]: End processing [mpservice]: success
+[2023-06-07 00:37:01] INFO root fetch - processPackages [giskard]: Remove: archive file [/home/abi/fetcher/tmp/giskard-2.0.0b1.tar.gz]
+[2023-06-07 00:37:01] INFO root fetch - processPackages [giskard]: Remove: archive file [/home/abi/fetcher/tmp/giskard-2.0.0b2.tar.gz]
+[2023-06-07 00:37:01] INFO root fetch - main [MainThread]: End processing [giskard]: success
+[2023-06-07 00:37:01] INFO root fetch - main [MainThread]: Store serial: [18398342]
