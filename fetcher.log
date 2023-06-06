@@ -1580,3 +1580,86 @@
 [2023-06-07 01:48:44] INFO root fetch - processPackages [sqlite-http]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_http-0.1.0a5-py3-none-win_amd64.whl.zip]
 [2023-06-07 01:48:44] INFO root fetch - main [MainThread]: End processing [sqlite-http]: success
 [2023-06-07 01:48:44] INFO root fetch - main [MainThread]: Store serial: [18398769]
+[2023-06-07 01:53:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18398769]
+[2023-06-07 01:53:53] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-07 01:53:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: frc6343
+[2023-06-07 01:53:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-aws
+[2023-06-07 01:53:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: grib2io
+[2023-06-07 01:53:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: chalkpy
+[2023-06-07 01:53:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: raindrop-io-py
+[2023-06-07 01:53:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ai-services
+[2023-06-07 01:53:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: datasette-sqlite-html
+[2023-06-07 01:53:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: vessl
+[2023-06-07 01:53:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sqlite-html
+[2023-06-07 01:53:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mojo-interop
+[2023-06-07 01:53:53] WARNING root fetch - processPackages [frc6343]: Skipping, unable to determine old version
+[2023-06-07 01:53:53] INFO root fetch - main [MainThread]: End processing [frc6343] error
+[2023-06-07 01:53:53] INFO root fetch - processPackages [ai-services]: New version: [0.5.0rc9] Old Version: [0.5.0rc8]
+[2023-06-07 01:53:53] INFO root fetch - processPackages [sqlite-html]: New version: [0.1.2a5] Old Version: [0.1.2a4]
+[2023-06-07 01:53:53] INFO root fetch - processPackages [datasette-sqlite-html]: New version: [0.1.2a5] Old Version: [0.1.2a4]
+[2023-06-07 01:53:53] INFO root fetch - processPackages [vessl]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-06-07 01:53:53] INFO root fetch - processPackages [mojo-interop]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-07 01:53:53] INFO root fetch - processPackages [chalkpy]: New version: [2.6.7] Old Version: [2.6.6]
+[2023-06-07 01:53:53] INFO root fetch - processPackages [raindrop-io-py]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-07 01:53:53] INFO root fetch - processPackages [grib2io]: New version: [2.0.0rc1] Old Version: [2.0.0b3]
+[2023-06-07 01:53:53] INFO root fetch - processPackages [pulumi-aws]: New version: [5.9.2] Old Version: [5.9.1]
+[2023-06-07 01:53:53] INFO root fetch - processPackages [mojo-interop]: Downloading https://files.pythonhosted.org/packages/55/36/9f539ca328591858e08e09e01710b5923e4b5fe2e60213684f9eb88bbee1/mojo_interop-0.0.8.tar.gz
+[2023-06-07 01:53:54] INFO root fetch - processPackages [ai-services]: Downloading https://files.pythonhosted.org/packages/77/c5/a81e3c1016a728128de1001a0672005901ca96685966233a57826ceba4e2/ai_services-0.5.0rc8.tar.gz
+[2023-06-07 01:53:54] INFO root fetch - processPackages [datasette-sqlite-html]: Downloading https://files.pythonhosted.org/packages/2f/07/1464352ed46671503755e0378de44322c04526a1e81cb04845651561a3d4/datasette_sqlite_html-0.1.2a4-py3-none-any.whl
+[2023-06-07 01:53:54] INFO root fetch - processPackages [vessl]: Downloading https://files.pythonhosted.org/packages/38/7d/1b2b94a1083188f3376a0af9cb2701abb4c084a8e0608a25f97e191ab3e7/vessl-0.1.98.tar.gz
+[2023-06-07 01:53:54] INFO root fetch - processPackages [sqlite-html]: Downloading https://files.pythonhosted.org/packages/8d/39/526f2964fb4dc7d2052166aabd342549b6588e6cd7da579b892606dde9ab/sqlite_html-0.1.2a4-py3-none-win_amd64.whl
+[2023-06-07 01:53:54] INFO root fetch - processPackages [pulumi-aws]: Downloading https://files.pythonhosted.org/packages/e5/69/3ce582391765ac681b8fe873c7c0edc5e4d4d60649195f04a5f5359a24fb/pulumi_aws-5.9.1.tar.gz
+[2023-06-07 01:53:54] INFO root fetch - processPackages [raindrop-io-py]: Downloading https://files.pythonhosted.org/packages/d1/73/b7567f758fc959b88d5c1575c585c79401a55e0f1b3d00d13a813ebd0a91/raindrop_io_py-0.1.0.tar.gz
+[2023-06-07 01:53:54] INFO root fetch - processPackages [chalkpy]: Downloading https://files.pythonhosted.org/packages/c8/ab/c18698840961a8d77d8bd522092898ca4d119c9d10bf3839166ea58aff36/chalkpy-2.6.6.tar.gz
+[2023-06-07 01:53:54] INFO root fetch - processPackages [grib2io]: Downloading https://files.pythonhosted.org/packages/a6/01/e8e049761fb52436cb0d670cffeadb837e3b8b56f2dcf4de22f84a1c93c6/grib2io-2.0.0b3.tar.gz
+[2023-06-07 01:53:54] INFO root fetch - processPackages [mojo-interop]: Downloading https://files.pythonhosted.org/packages/ea/70/9e09838bffe5311c4accab6c3c9f2293ee5a591bd45e9bf64ebb9a01b20d/mojo_interop-0.0.9.tar.gz
+[2023-06-07 01:53:54] WARNING root fetch - processPackages [grib2io]: Skipping package: exceeds size limit 48465408>=10485760
+[2023-06-07 01:53:54] INFO root fetch - main [MainThread]: End processing [grib2io] error
+[2023-06-07 01:53:54] INFO root fetch - processPackages [mojo-interop]: executing diffoscope
+[2023-06-07 01:53:54] INFO root fetch - processPackages [mojo-interop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mojo_interop-0.0.8.tar.gz tmp/mojo_interop-0.0.9.tar.gz --markdown 20230607/m/mojo-interop/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-07 01:53:54] INFO root fetch - processPackages [ai-services]: Downloading https://files.pythonhosted.org/packages/c2/e2/78cfce554b3c81f6240f71231bcdbdaa59f36309e81fcc627c63823a5d6c/ai_services-0.5.0rc9.tar.gz
+[2023-06-07 01:53:54] INFO root fetch - processPackages [datasette-sqlite-html]: Downloading https://files.pythonhosted.org/packages/ff/bd/39085d3999714fcd977284bbe7fb3751892f2399c582ae74ffb800810c81/datasette_sqlite_html-0.1.2a5-py3-none-any.whl
+[2023-06-07 01:53:54] INFO root fetch - processPackages [raindrop-io-py]: Downloading https://files.pythonhosted.org/packages/0d/4c/888b702f86ee5a0c8a9d415dfae53e8140f998a11075e7807b1ae7736034/raindrop_io_py-0.1.1.tar.gz
+[2023-06-07 01:53:54] INFO root fetch - processPackages [vessl]: Downloading https://files.pythonhosted.org/packages/21/b8/cbd9a61ba9f582b647d4ef42d4b54900e40293bc599bde0a7f1fe73974bc/vessl-0.1.99.tar.gz
+[2023-06-07 01:53:54] INFO root fetch - processPackages [chalkpy]: Downloading https://files.pythonhosted.org/packages/1e/5c/51449ae8ea2186dbffe0e70c3f7499c67623bbef476624110ab21570aa8f/chalkpy-2.6.7.tar.gz
+[2023-06-07 01:53:54] INFO root fetch - processPackages [sqlite-html]: Downloading https://files.pythonhosted.org/packages/dd/dc/fccc6ecb3311f7bb01ac88e758a861bc9aab897a6acc444b2eff0aebd7f2/sqlite_html-0.1.2a5-py3-none-win_amd64.whl
+[2023-06-07 01:53:54] INFO root fetch - processPackages [ai-services]: executing diffoscope
+[2023-06-07 01:53:54] INFO root fetch - processPackages [ai-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai_services-0.5.0rc8.tar.gz tmp/ai_services-0.5.0rc9.tar.gz --markdown 20230607/a/ai-services/0.5.0rc8-0.5.0rc9/diff.md --exclude *.pyd
+[2023-06-07 01:53:54] INFO root fetch - processPackages [datasette-sqlite-html]: executing diffoscope
+[2023-06-07 01:53:54] INFO root fetch - processPackages [datasette-sqlite-html]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasette_sqlite_html-0.1.2a4-py3-none-any.whl.zip tmp/datasette_sqlite_html-0.1.2a5-py3-none-any.whl.zip --markdown 20230607/d/datasette-sqlite-html/0.1.2a4-0.1.2a5/diff.md --exclude *.pyd
+[2023-06-07 01:53:54] INFO root fetch - processPackages [raindrop-io-py]: executing diffoscope
+[2023-06-07 01:53:54] INFO root fetch - processPackages [raindrop-io-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raindrop_io_py-0.1.0.tar.gz tmp/raindrop_io_py-0.1.1.tar.gz --markdown 20230607/r/raindrop-io-py/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-07 01:53:54] INFO root fetch - processPackages [pulumi-aws]: Downloading https://files.pythonhosted.org/packages/b5/2d/3bb0c09182c2672c439edaba78942269f26ed68f8f3385d942e13fb37ce5/pulumi_aws-5.9.2.tar.gz
+[2023-06-07 01:53:54] INFO root fetch - processPackages [vessl]: executing diffoscope
+[2023-06-07 01:53:54] INFO root fetch - processPackages [vessl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vessl-0.1.98.tar.gz tmp/vessl-0.1.99.tar.gz --markdown 20230607/v/vessl/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-06-07 01:53:54] INFO root fetch - processPackages [chalkpy]: executing diffoscope
+[2023-06-07 01:53:54] INFO root fetch - processPackages [chalkpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalkpy-2.6.6.tar.gz tmp/chalkpy-2.6.7.tar.gz --markdown 20230607/c/chalkpy/2.6.6-2.6.7/diff.md --exclude *.pyd
+[2023-06-07 01:53:54] INFO root fetch - processPackages [pulumi-aws]: executing diffoscope
+[2023-06-07 01:53:54] INFO root fetch - processPackages [pulumi-aws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_aws-5.9.1.tar.gz tmp/pulumi_aws-5.9.2.tar.gz --markdown 20230607/p/pulumi-aws/5.9.1-5.9.2/diff.md --exclude *.pyd
+[2023-06-07 01:53:55] INFO root fetch - processPackages [sqlite-html]: executing diffoscope
+[2023-06-07 01:53:55] INFO root fetch - processPackages [sqlite-html]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlite_html-0.1.2a4-py3-none-win_amd64.whl.zip tmp/sqlite_html-0.1.2a5-py3-none-win_amd64.whl.zip --markdown 20230607/s/sqlite-html/0.1.2a4-0.1.2a5/diff.md --exclude *.pyd
+[2023-06-07 01:53:55] INFO root fetch - processPackages [datasette-sqlite-html]: Remove: archive file [/home/abi/fetcher/tmp/datasette_sqlite_html-0.1.2a4-py3-none-any.whl.zip]
+[2023-06-07 01:53:55] INFO root fetch - processPackages [datasette-sqlite-html]: Remove: archive file [/home/abi/fetcher/tmp/datasette_sqlite_html-0.1.2a5-py3-none-any.whl.zip]
+[2023-06-07 01:53:55] INFO root fetch - main [MainThread]: End processing [datasette-sqlite-html]: success
+[2023-06-07 01:53:56] INFO root fetch - processPackages [raindrop-io-py]: Remove: archive file [/home/abi/fetcher/tmp/raindrop_io_py-0.1.0.tar.gz]
+[2023-06-07 01:53:56] INFO root fetch - processPackages [raindrop-io-py]: Remove: archive file [/home/abi/fetcher/tmp/raindrop_io_py-0.1.1.tar.gz]
+[2023-06-07 01:53:56] INFO root fetch - main [MainThread]: End processing [raindrop-io-py]: success
+[2023-06-07 01:53:56] INFO root fetch - processPackages [ai-services]: Remove: archive file [/home/abi/fetcher/tmp/ai_services-0.5.0rc8.tar.gz]
+[2023-06-07 01:53:56] INFO root fetch - processPackages [ai-services]: Remove: archive file [/home/abi/fetcher/tmp/ai_services-0.5.0rc9.tar.gz]
+[2023-06-07 01:53:56] INFO root fetch - main [MainThread]: End processing [ai-services]: success
+[2023-06-07 01:53:58] INFO root fetch - processPackages [mojo-interop]: Remove: archive file [/home/abi/fetcher/tmp/mojo_interop-0.0.8.tar.gz]
+[2023-06-07 01:53:58] INFO root fetch - processPackages [mojo-interop]: Remove: archive file [/home/abi/fetcher/tmp/mojo_interop-0.0.9.tar.gz]
+[2023-06-07 01:53:58] INFO root fetch - main [MainThread]: End processing [mojo-interop]: success
+[2023-06-07 01:54:01] INFO root fetch - processPackages [chalkpy]: Remove: archive file [/home/abi/fetcher/tmp/chalkpy-2.6.6.tar.gz]
+[2023-06-07 01:54:01] INFO root fetch - processPackages [chalkpy]: Remove: archive file [/home/abi/fetcher/tmp/chalkpy-2.6.7.tar.gz]
+[2023-06-07 01:54:01] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
+[2023-06-07 01:54:02] INFO root fetch - processPackages [vessl]: Remove: archive file [/home/abi/fetcher/tmp/vessl-0.1.98.tar.gz]
+[2023-06-07 01:54:02] INFO root fetch - processPackages [vessl]: Remove: archive file [/home/abi/fetcher/tmp/vessl-0.1.99.tar.gz]
+[2023-06-07 01:54:02] INFO root fetch - main [MainThread]: End processing [vessl]: success
+[2023-06-07 01:54:34] INFO root fetch - processPackages [pulumi-aws]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws-5.9.1.tar.gz]
+[2023-06-07 01:54:34] INFO root fetch - processPackages [pulumi-aws]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws-5.9.2.tar.gz]
+[2023-06-07 01:54:34] INFO root fetch - main [MainThread]: End processing [pulumi-aws]: success
+[2023-06-07 01:56:00] INFO root fetch - processPackages [sqlite-html]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_html-0.1.2a4-py3-none-win_amd64.whl.zip]
+[2023-06-07 01:56:00] INFO root fetch - processPackages [sqlite-html]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_html-0.1.2a5-py3-none-win_amd64.whl.zip]
+[2023-06-07 01:56:00] INFO root fetch - main [MainThread]: End processing [sqlite-html]: success
+[2023-06-07 01:56:00] INFO root fetch - main [MainThread]: Store serial: [18398798]
