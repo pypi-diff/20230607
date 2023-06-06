@@ -586,3 +586,36 @@
 [2023-06-07 00:42:20] INFO root fetch - processPackages [kolibri-ml]: Remove: archive file [/home/abi/fetcher/tmp/kolibri_ml-1.1.8-py3-none-any.whl.zip]
 [2023-06-07 00:42:20] INFO root fetch - main [MainThread]: End processing [kolibri-ml]: success
 [2023-06-07 00:42:20] INFO root fetch - main [MainThread]: Store serial: [18398395]
+[2023-06-07 00:47:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18398395]
+[2023-06-07 00:47:28] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-07 00:47:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: plombery
+[2023-06-07 00:47:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: MultiResImagePy
+[2023-06-07 00:47:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-gcp
+[2023-06-07 00:47:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mlplatformutils
+[2023-06-07 00:47:28] INFO root fetch - processPackages [plombery]: New version: [0.3.1] Old Version: [0.3.0rc2]
+[2023-06-07 00:47:28] INFO root fetch - processPackages [mlplatformutils]: New version: [0.9.0] Old Version: [0.8.9]
+[2023-06-07 00:47:28] INFO root fetch - processPackages [pulumi-gcp]: New version: [6.9.0a1643146354] Old Version: [6.9.0]
+[2023-06-07 00:47:29] INFO root fetch - processPackages [mlplatformutils]: Downloading https://files.pythonhosted.org/packages/0b/be/f0c64de3699ff24e3ed0fe74b7ee4f4f0a2e6086e8f18990432459aa19f3/mlplatformutils-0.8.9.tar.gz
+[2023-06-07 00:47:29] INFO root fetch - processPackages [pulumi-gcp]: Downloading https://files.pythonhosted.org/packages/03/9b/bb0c0f52cb17eac01abbac01348d951f12bac85014ab1d671932c5579a5b/pulumi_gcp-6.9.0.tar.gz
+[2023-06-07 00:47:29] WARNING root fetch - processPackages [MultiResImagePy]: Skipping, unable to determine old version
+[2023-06-07 00:47:29] INFO root fetch - main [MainThread]: End processing [MultiResImagePy] error
+[2023-06-07 00:47:29] INFO root fetch - processPackages [plombery]: Downloading https://files.pythonhosted.org/packages/66/d1/a0296906f01d56a6047f44f94c540de5de43e2bcd75b7bc8a7599677e425/plombery-0.3.0rc2.tar.gz
+[2023-06-07 00:47:29] INFO root fetch - processPackages [mlplatformutils]: Downloading https://files.pythonhosted.org/packages/39/5b/470165ef9538f54f20427250af158eb32205d37a78b414334d609088cf92/mlplatformutils-0.9.0.tar.gz
+[2023-06-07 00:47:29] INFO root fetch - processPackages [mlplatformutils]: executing diffoscope
+[2023-06-07 00:47:29] INFO root fetch - processPackages [mlplatformutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlplatformutils-0.8.9.tar.gz tmp/mlplatformutils-0.9.0.tar.gz --markdown 20230607/m/mlplatformutils/0.8.9-0.9.0/diff.md --exclude *.pyd
+[2023-06-07 00:47:29] INFO root fetch - processPackages [plombery]: Downloading https://files.pythonhosted.org/packages/64/74/e74e4d9cffc5bcbb69433b89618d3f4b6569a59f2edb1b2f8089d9ceeb62/plombery-0.3.1.tar.gz
+[2023-06-07 00:47:29] INFO root fetch - processPackages [plombery]: executing diffoscope
+[2023-06-07 00:47:29] INFO root fetch - processPackages [plombery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plombery-0.3.0rc2.tar.gz tmp/plombery-0.3.1.tar.gz --markdown 20230607/p/plombery/0.3.0rc2-0.3.1/diff.md --exclude *.pyd
+[2023-06-07 00:47:29] INFO root fetch - processPackages [pulumi-gcp]: Downloading https://files.pythonhosted.org/packages/39/74/41d1cc3685622f458efd5675d5dac2a2be81a4c87627192c0fd616107756/pulumi_gcp-6.9.0a1643146354.tar.gz
+[2023-06-07 00:47:30] INFO root fetch - processPackages [pulumi-gcp]: executing diffoscope
+[2023-06-07 00:47:30] INFO root fetch - processPackages [pulumi-gcp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_gcp-6.9.0.tar.gz tmp/pulumi_gcp-6.9.0a1643146354.tar.gz --markdown 20230607/p/pulumi-gcp/6.9.0-6.9.0a1643146354/diff.md --exclude *.pyd
+[2023-06-07 00:47:30] INFO root fetch - processPackages [mlplatformutils]: Remove: archive file [/home/abi/fetcher/tmp/mlplatformutils-0.8.9.tar.gz]
+[2023-06-07 00:47:30] INFO root fetch - processPackages [mlplatformutils]: Remove: archive file [/home/abi/fetcher/tmp/mlplatformutils-0.9.0.tar.gz]
+[2023-06-07 00:47:30] INFO root fetch - main [MainThread]: End processing [mlplatformutils]: success
+[2023-06-07 00:47:41] INFO root fetch - processPackages [pulumi-gcp]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_gcp-6.9.0.tar.gz]
+[2023-06-07 00:47:41] INFO root fetch - processPackages [pulumi-gcp]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_gcp-6.9.0a1643146354.tar.gz]
+[2023-06-07 00:47:41] INFO root fetch - main [MainThread]: End processing [pulumi-gcp]: success
+[2023-06-07 00:47:42] INFO root fetch - processPackages [plombery]: Remove: archive file [/home/abi/fetcher/tmp/plombery-0.3.0rc2.tar.gz]
+[2023-06-07 00:47:42] INFO root fetch - processPackages [plombery]: Remove: archive file [/home/abi/fetcher/tmp/plombery-0.3.1.tar.gz]
+[2023-06-07 00:47:42] INFO root fetch - main [MainThread]: End processing [plombery]: success
+[2023-06-07 00:47:42] INFO root fetch - main [MainThread]: Store serial: [18398407]
