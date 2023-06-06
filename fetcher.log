@@ -1456,3 +1456,127 @@
 [2023-06-07 01:40:46] INFO root fetch - processPackages [sqlite-http]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_http-0.1.0a4-py3-none-win_amd64.whl.zip]
 [2023-06-07 01:40:46] INFO root fetch - main [MainThread]: End processing [sqlite-http]: success
 [2023-06-07 01:40:46] INFO root fetch - main [MainThread]: Store serial: [18398723]
+[2023-06-07 01:45:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18398723]
+[2023-06-07 01:45:55] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-07 01:45:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pipen-annotate
+[2023-06-07 01:45:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cbers4asat
+[2023-06-07 01:45:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mojo-xmodules
+[2023-06-07 01:45:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: robotransforms
+[2023-06-07 01:45:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: datasette-sqlite-http
+[2023-06-07 01:45:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sqlite-http
+[2023-06-07 01:45:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: streamlit-chitchat
+[2023-06-07 01:45:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mojo-interop
+[2023-06-07 01:45:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: steps-autoencoder
+[2023-06-07 01:45:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: phoenixtools
+[2023-06-07 01:45:55] INFO root fetch - processPackages [robotransforms]: New version: [0.5.5] Old Version: [0.5.4]
+[2023-06-07 01:45:55] INFO root fetch - processPackages [steps-autoencoder]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-07 01:45:55] WARNING root fetch - processPackages [streamlit-chitchat]: Skipping, unable to determine old version
+[2023-06-07 01:45:55] INFO root fetch - processPackages [streamlit-chitchat]: Start processing: lifetimefitting
+[2023-06-07 01:45:55] INFO root fetch - main [MainThread]: End processing [streamlit-chitchat] error
+[2023-06-07 01:45:55] INFO root fetch - processPackages [mojo-interop]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-07 01:45:55] INFO root fetch - processPackages [datasette-sqlite-http]: New version: [0.1.0a5] Old Version: [0.1.0a4]
+[2023-06-07 01:45:55] INFO root fetch - processPackages [mojo-xmodules]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-07 01:45:55] INFO root fetch - processPackages [phoenixtools]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-07 01:45:55] INFO root fetch - processPackages [lifetimefitting]: New version: [0.0.25] Old Version: [0.0.24]
+[2023-06-07 01:45:55] INFO root fetch - processPackages [sqlite-http]: New version: [0.1.0a5] Old Version: [0.1.0a4]
+[2023-06-07 01:45:55] INFO root fetch - processPackages [cbers4asat]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-06-07 01:45:55] INFO root fetch - processPackages [pipen-annotate]: New version: [0.8.0] Old Version: [0.7.3]
+[2023-06-07 01:45:55] INFO root fetch - processPackages [lifetimefitting]: Downloading https://files.pythonhosted.org/packages/0e/1f/b67f28f42f9541ba89821f7cccc8f87ec672034e83d438eb0815b654f9a8/lifetimefitting-0.0.24.tar.gz
+[2023-06-07 01:45:55] INFO root fetch - processPackages [steps-autoencoder]: Downloading https://files.pythonhosted.org/packages/63/ef/ce34f0ee12b139a44a5809e08007c2cffcbd63de6c190c628be43fe8b446/steps-autoencoder-0.1.8.tar.gz
+[2023-06-07 01:45:55] INFO root fetch - processPackages [robotransforms]: Downloading https://files.pythonhosted.org/packages/68/34/c44699d5a218a50b18063b0209d20266d1836a2e7ca482a45d1ec6bd68c8/robotransforms-0.5.4.tar.gz
+[2023-06-07 01:45:55] INFO root fetch - processPackages [sqlite-http]: Downloading https://files.pythonhosted.org/packages/f8/d9/beab121de8b4a08270b95e9c791bd9a9d6f3f34e233486b0a18c4176b5cc/sqlite_http-0.1.0a4-py3-none-win_amd64.whl
+[2023-06-07 01:45:55] INFO root fetch - processPackages [phoenixtools]: Downloading https://files.pythonhosted.org/packages/5b/c3/7ec48ba632401bdff9e19d00de63b5354954100b7f4b28ff8f8bc41276cc/phoenixtools-0.0.2.tar.gz
+[2023-06-07 01:45:55] INFO root fetch - processPackages [datasette-sqlite-http]: Downloading https://files.pythonhosted.org/packages/4a/eb/a79d5ba5d694c71f86050df1fe585e9d612777131dba0832168b75f382d4/datasette_sqlite_http-0.1.0a4-py3-none-any.whl
+[2023-06-07 01:45:55] INFO root fetch - processPackages [mojo-xmodules]: Downloading https://files.pythonhosted.org/packages/bf/10/b6d851a854a3a852050415af6786fb226d0646a35f4666d322f49ccea4dd/mojo_xmodules-0.0.8.tar.gz
+[2023-06-07 01:45:55] INFO root fetch - processPackages [cbers4asat]: Downloading https://files.pythonhosted.org/packages/c6/80/175d7e57c35abbffe12e61b08f772de0c7d72307fd099ed207e0526f1dcc/cbers4asat-0.6.8.tar.gz
+[2023-06-07 01:45:55] INFO root fetch - processPackages [mojo-interop]: Downloading https://files.pythonhosted.org/packages/55/36/9f539ca328591858e08e09e01710b5923e4b5fe2e60213684f9eb88bbee1/mojo_interop-0.0.8.tar.gz
+[2023-06-07 01:45:55] INFO root fetch - processPackages [pipen-annotate]: Downloading https://files.pythonhosted.org/packages/64/59/25bfeafba6bcc6f48fc18ba0e67c88b9876ec1f8416be1753e62ae1263e5/pipen_annotate-0.7.3.tar.gz
+[2023-06-07 01:45:56] INFO root fetch - processPackages [lifetimefitting]: Downloading https://files.pythonhosted.org/packages/8b/f3/a7f714e0be2033ca6ad22f58115f0102c1bf30841188a01587ad64c6fe06/lifetimefitting-0.0.25.tar.gz
+[2023-06-07 01:45:56] INFO root fetch - processPackages [lifetimefitting]: executing diffoscope
+[2023-06-07 01:45:56] INFO root fetch - processPackages [lifetimefitting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lifetimefitting-0.0.24.tar.gz tmp/lifetimefitting-0.0.25.tar.gz --markdown 20230607/l/lifetimefitting/0.0.24-0.0.25/diff.md --exclude *.pyd
+[2023-06-07 01:45:56] INFO root fetch - processPackages [robotransforms]: Downloading https://files.pythonhosted.org/packages/53/c9/084ab34e6db140a2ce864186a852e846c4776d6f065c34c7c569c78472cc/robotransforms-0.5.5.tar.gz
+[2023-06-07 01:45:56] INFO root fetch - processPackages [datasette-sqlite-http]: Downloading https://files.pythonhosted.org/packages/fe/4c/f3c6381319d908bb7e7c50f49547348aff721a33e26480685eccc66aef82/datasette_sqlite_http-0.1.0a5-py3-none-any.whl
+[2023-06-07 01:45:56] INFO root fetch - processPackages [phoenixtools]: Downloading https://files.pythonhosted.org/packages/c6/e5/d28b4b8c76bed64a551295e231207a6b288fb9ae817f5337adabe0874cc6/phoenixtools-0.0.3.tar.gz
+[2023-06-07 01:45:56] INFO root fetch - processPackages [pipen-annotate]: Downloading https://files.pythonhosted.org/packages/a0/b4/f35a2549ae6c51614a166db164aa05c19ab52efa2a90d52c532f218f09b4/pipen_annotate-0.8.0.tar.gz
+[2023-06-07 01:45:56] INFO root fetch - processPackages [steps-autoencoder]: Downloading https://files.pythonhosted.org/packages/b7/3a/f88d2bcf2e7853b9be37ba1466e4a7845d4026041e143f2111dd0d4e51f1/steps-autoencoder-0.1.9.tar.gz
+[2023-06-07 01:45:56] INFO root fetch - processPackages [mojo-xmodules]: Downloading https://files.pythonhosted.org/packages/ae/80/363a71f08c20912ecd84ee3a80f80c40bbdc4555837b08dedc72e5a6ad01/mojo_xmodules-0.0.9.tar.gz
+[2023-06-07 01:45:56] INFO root fetch - processPackages [robotransforms]: executing diffoscope
+[2023-06-07 01:45:56] INFO root fetch - processPackages [robotransforms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotransforms-0.5.4.tar.gz tmp/robotransforms-0.5.5.tar.gz --markdown 20230607/r/robotransforms/0.5.4-0.5.5/diff.md --exclude *.pyd
+[2023-06-07 01:45:56] INFO root fetch - processPackages [phoenixtools]: executing diffoscope
+[2023-06-07 01:45:56] INFO root fetch - processPackages [phoenixtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phoenixtools-0.0.2.tar.gz tmp/phoenixtools-0.0.3.tar.gz --markdown 20230607/p/phoenixtools/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-07 01:45:56] INFO root fetch - processPackages [sqlite-http]: Downloading https://files.pythonhosted.org/packages/65/62/a2b8ccd7077daec0689d1e8e08753252072079fc32f587500b3f9a0b48be/sqlite_http-0.1.0a5-py3-none-win_amd64.whl
+[2023-06-07 01:45:56] INFO root fetch - processPackages [pipen-annotate]: executing diffoscope
+[2023-06-07 01:45:56] INFO root fetch - processPackages [pipen-annotate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipen_annotate-0.7.3.tar.gz tmp/pipen_annotate-0.8.0.tar.gz --markdown 20230607/p/pipen-annotate/0.7.3-0.8.0/diff.md --exclude *.pyd
+[2023-06-07 01:45:56] INFO root fetch - processPackages [steps-autoencoder]: executing diffoscope
+[2023-06-07 01:45:56] INFO root fetch - processPackages [steps-autoencoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/steps-autoencoder-0.1.8.tar.gz tmp/steps-autoencoder-0.1.9.tar.gz --markdown 20230607/s/steps-autoencoder/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-07 01:45:56] INFO root fetch - processPackages [mojo-xmodules]: executing diffoscope
+[2023-06-07 01:45:56] INFO root fetch - processPackages [mojo-xmodules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mojo_xmodules-0.0.8.tar.gz tmp/mojo_xmodules-0.0.9.tar.gz --markdown 20230607/m/mojo-xmodules/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-07 01:45:56] INFO root fetch - processPackages [datasette-sqlite-http]: executing diffoscope
+[2023-06-07 01:45:56] INFO root fetch - processPackages [datasette-sqlite-http]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasette_sqlite_http-0.1.0a4-py3-none-any.whl.zip tmp/datasette_sqlite_http-0.1.0a5-py3-none-any.whl.zip --markdown 20230607/d/datasette-sqlite-http/0.1.0a4-0.1.0a5/diff.md --exclude *.pyd
+[2023-06-07 01:45:56] INFO root fetch - processPackages [mojo-interop]: Downloading https://files.pythonhosted.org/packages/ea/70/9e09838bffe5311c4accab6c3c9f2293ee5a591bd45e9bf64ebb9a01b20d/mojo_interop-0.0.9.tar.gz
+[2023-06-07 01:45:56] INFO root fetch - processPackages [mojo-interop]: executing diffoscope
+[2023-06-07 01:45:56] INFO root fetch - processPackages [mojo-interop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mojo_interop-0.0.8.tar.gz tmp/mojo_interop-0.0.9.tar.gz --markdown 20230607/m/mojo-interop/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-07 01:45:56] INFO root fetch - processPackages [cbers4asat]: Downloading https://files.pythonhosted.org/packages/fb/be/d2e58fd4778638f0520a4adadf6373206df4853bb76eba4ff945db51f61a/cbers4asat-0.6.9.tar.gz
+[2023-06-07 01:45:56] INFO root fetch - processPackages [cbers4asat]: executing diffoscope
+[2023-06-07 01:45:56] INFO root fetch - processPackages [cbers4asat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cbers4asat-0.6.8.tar.gz tmp/cbers4asat-0.6.9.tar.gz --markdown 20230607/c/cbers4asat/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-06-07 01:45:56] INFO root fetch - processPackages [sqlite-http]: executing diffoscope
+[2023-06-07 01:45:56] INFO root fetch - processPackages [sqlite-http]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlite_http-0.1.0a4-py3-none-win_amd64.whl.zip tmp/sqlite_http-0.1.0a5-py3-none-win_amd64.whl.zip --markdown 20230607/s/sqlite-http/0.1.0a4-0.1.0a5/diff.md --exclude *.pyd
+[2023-06-07 01:45:57] INFO root fetch - processPackages [steps-autoencoder]: Remove: archive file [/home/abi/fetcher/tmp/steps-autoencoder-0.1.8.tar.gz]
+[2023-06-07 01:45:57] INFO root fetch - processPackages [steps-autoencoder]: Remove: archive file [/home/abi/fetcher/tmp/steps-autoencoder-0.1.9.tar.gz]
+[2023-06-07 01:45:57] INFO root fetch - processPackages [steps-autoencoder]: Start processing: mojo-xmodules
+[2023-06-07 01:45:57] INFO root fetch - main [MainThread]: End processing [steps-autoencoder]: success
+[2023-06-07 01:45:57] INFO root fetch - processPackages [mojo-xmodules]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-07 01:45:57] INFO root fetch - processPackages [mojo-xmodules]: executing diffoscope
+[2023-06-07 01:45:57] INFO root fetch - processPackages [mojo-xmodules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mojo_xmodules-0.0.8.tar.gz tmp/mojo_xmodules-0.0.9.tar.gz --markdown 20230607/m/mojo-xmodules/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-07 01:45:57] INFO root fetch - processPackages [lifetimefitting]: Remove: archive file [/home/abi/fetcher/tmp/lifetimefitting-0.0.24.tar.gz]
+[2023-06-07 01:45:57] INFO root fetch - processPackages [lifetimefitting]: Remove: archive file [/home/abi/fetcher/tmp/lifetimefitting-0.0.25.tar.gz]
+[2023-06-07 01:45:57] INFO root fetch - processPackages [lifetimefitting]: Start processing: xgo-pythonlib
+[2023-06-07 01:45:57] INFO root fetch - main [MainThread]: End processing [lifetimefitting]: success
+[2023-06-07 01:45:57] INFO root fetch - processPackages [datasette-sqlite-http]: Remove: archive file [/home/abi/fetcher/tmp/datasette_sqlite_http-0.1.0a4-py3-none-any.whl.zip]
+[2023-06-07 01:45:57] INFO root fetch - processPackages [datasette-sqlite-http]: Remove: archive file [/home/abi/fetcher/tmp/datasette_sqlite_http-0.1.0a5-py3-none-any.whl.zip]
+[2023-06-07 01:45:57] INFO root fetch - processPackages [datasette-sqlite-http]: Start processing: selfcord.py
+[2023-06-07 01:45:57] INFO root fetch - main [MainThread]: End processing [datasette-sqlite-http]: success
+[2023-06-07 01:45:57] INFO root fetch - processPackages [phoenixtools]: Remove: archive file [/home/abi/fetcher/tmp/phoenixtools-0.0.2.tar.gz]
+[2023-06-07 01:45:57] INFO root fetch - processPackages [phoenixtools]: Remove: archive file [/home/abi/fetcher/tmp/phoenixtools-0.0.3.tar.gz]
+[2023-06-07 01:45:57] INFO root fetch - processPackages [phoenixtools]: Start processing: yetl-framework
+[2023-06-07 01:45:57] INFO root fetch - main [MainThread]: End processing [phoenixtools]: success
+[2023-06-07 01:45:57] INFO root fetch - processPackages [xgo-pythonlib]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-07 01:45:57] INFO root fetch - processPackages [pipen-annotate]: Remove: archive file [/home/abi/fetcher/tmp/pipen_annotate-0.7.3.tar.gz]
+[2023-06-07 01:45:57] INFO root fetch - processPackages [pipen-annotate]: Remove: archive file [/home/abi/fetcher/tmp/pipen_annotate-0.8.0.tar.gz]
+[2023-06-07 01:45:57] INFO root fetch - main [MainThread]: End processing [pipen-annotate]: success
+[2023-06-07 01:45:57] INFO root fetch - processPackages [yetl-framework]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-06-07 01:45:57] INFO root fetch - processPackages [selfcord.py]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-07 01:45:57] INFO root fetch - processPackages [xgo-pythonlib]: Downloading https://files.pythonhosted.org/packages/a5/c2/6989b45c0621b5fc35ef05d48fd734bbdb6fd78f071dcc944e1aafb6a54f/xgo-pythonlib-0.0.3.tar.gz
+[2023-06-07 01:45:57] INFO root fetch - processPackages [robotransforms]: Remove: archive file [/home/abi/fetcher/tmp/robotransforms-0.5.4.tar.gz]
+[2023-06-07 01:45:57] INFO root fetch - processPackages [robotransforms]: Remove: archive file [/home/abi/fetcher/tmp/robotransforms-0.5.5.tar.gz]
+[2023-06-07 01:45:57] INFO root fetch - main [MainThread]: End processing [robotransforms]: success
+[2023-06-07 01:45:58] WARNING root fetch - processPackages [xgo-pythonlib]: Skipping package: exceeds size limit 12416830>=10485760
+[2023-06-07 01:45:58] INFO root fetch - main [MainThread]: End processing [xgo-pythonlib] error
+[2023-06-07 01:45:58] INFO root fetch - processPackages [yetl-framework]: Downloading https://files.pythonhosted.org/packages/8b/f6/06420da98dc83038ecb8783d665b4f7cea12abf80b1ebaa76ecdacdc5c6b/yetl-framework-1.4.8.tar.gz
+[2023-06-07 01:45:58] INFO root fetch - processPackages [selfcord.py]: Downloading https://files.pythonhosted.org/packages/97/da/e00c74fcf7310f8092796724e7eefb04bc7a2b92900e4b11339d37518a5c/selfcord.py-0.1.8.tar.gz
+[2023-06-07 01:45:58] INFO root fetch - processPackages [cbers4asat]: Remove: archive file [/home/abi/fetcher/tmp/cbers4asat-0.6.8.tar.gz]
+[2023-06-07 01:45:58] INFO root fetch - processPackages [cbers4asat]: Remove: archive file [/home/abi/fetcher/tmp/cbers4asat-0.6.9.tar.gz]
+[2023-06-07 01:45:58] INFO root fetch - main [MainThread]: End processing [cbers4asat]: success
+[2023-06-07 01:45:58] INFO root fetch - processPackages [yetl-framework]: Downloading https://files.pythonhosted.org/packages/16/41/f7c9468164ed6cbc7df78da25d7adbb6bd07f3f9bc65e9e360c33a09d3f7/yetl-framework-1.4.9.tar.gz
+[2023-06-07 01:45:58] INFO root fetch - processPackages [selfcord.py]: Downloading https://files.pythonhosted.org/packages/1a/bf/c8fda3035725fd1f4947c2d67ed56c76d9ba53ea63f09fbe0931b8988ac5/selfcord.py-0.1.9.tar.gz
+[2023-06-07 01:45:58] INFO root fetch - processPackages [yetl-framework]: executing diffoscope
+[2023-06-07 01:45:58] INFO root fetch - processPackages [yetl-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yetl-framework-1.4.8.tar.gz tmp/yetl-framework-1.4.9.tar.gz --markdown 20230607/y/yetl-framework/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-06-07 01:45:58] INFO root fetch - processPackages [selfcord.py]: executing diffoscope
+[2023-06-07 01:45:58] INFO root fetch - processPackages [selfcord.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selfcord.py-0.1.8.tar.gz tmp/selfcord.py-0.1.9.tar.gz --markdown 20230607/s/selfcord.py/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-07 01:45:58] INFO root fetch - processPackages [mojo-xmodules]: Remove: archive file [/home/abi/fetcher/tmp/mojo_xmodules-0.0.8.tar.gz]
+[2023-06-07 01:45:58] INFO root fetch - processPackages [mojo-xmodules]: Remove: archive file [/home/abi/fetcher/tmp/mojo_xmodules-0.0.9.tar.gz]
+[2023-06-07 01:45:58] INFO root fetch - main [MainThread]: End processing [mojo-xmodules]: success
+[2023-06-07 01:45:59] INFO root fetch - main [MainThread]: End processing [mojo-xmodules]: success
+[2023-06-07 01:45:59] INFO root fetch - processPackages [selfcord.py]: Remove: archive file [/home/abi/fetcher/tmp/selfcord.py-0.1.8.tar.gz]
+[2023-06-07 01:45:59] INFO root fetch - processPackages [selfcord.py]: Remove: archive file [/home/abi/fetcher/tmp/selfcord.py-0.1.9.tar.gz]
+[2023-06-07 01:45:59] INFO root fetch - main [MainThread]: End processing [selfcord.py]: success
+[2023-06-07 01:45:59] INFO root fetch - processPackages [yetl-framework]: Remove: archive file [/home/abi/fetcher/tmp/yetl-framework-1.4.8.tar.gz]
+[2023-06-07 01:45:59] INFO root fetch - processPackages [yetl-framework]: Remove: archive file [/home/abi/fetcher/tmp/yetl-framework-1.4.9.tar.gz]
+[2023-06-07 01:45:59] INFO root fetch - main [MainThread]: End processing [yetl-framework]: success
+[2023-06-07 01:46:02] INFO root fetch - processPackages [mojo-interop]: Remove: archive file [/home/abi/fetcher/tmp/mojo_interop-0.0.8.tar.gz]
+[2023-06-07 01:46:02] INFO root fetch - processPackages [mojo-interop]: Remove: archive file [/home/abi/fetcher/tmp/mojo_interop-0.0.9.tar.gz]
+[2023-06-07 01:46:02] INFO root fetch - main [MainThread]: End processing [mojo-interop]: success
+[2023-06-07 01:48:44] INFO root fetch - processPackages [sqlite-http]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_http-0.1.0a4-py3-none-win_amd64.whl.zip]
+[2023-06-07 01:48:44] INFO root fetch - processPackages [sqlite-http]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_http-0.1.0a5-py3-none-win_amd64.whl.zip]
+[2023-06-07 01:48:44] INFO root fetch - main [MainThread]: End processing [sqlite-http]: success
+[2023-06-07 01:48:44] INFO root fetch - main [MainThread]: Store serial: [18398769]
