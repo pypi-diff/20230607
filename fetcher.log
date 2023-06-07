@@ -21816,3 +21816,132 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-07 13:17:56] INFO root fetch - processPackages [stellar-sdk-mini]: Remove: archive file [/home/abi/fetcher/tmp/stellar-sdk-mini-8.2.0.post3.tar.gz]
 [2023-06-07 13:17:56] INFO root fetch - main [MainThread]: End processing [stellar-sdk-mini]: success
 [2023-06-07 13:17:56] INFO root fetch - main [MainThread]: Store serial: [18406971]
+[2023-06-07 13:23:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18406971]
+[2023-06-07 13:23:06] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-06-07 13:23:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ccxt
+[2023-06-07 13:23:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: heflow
+[2023-06-07 13:23:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pfizer-components
+[2023-06-07 13:23:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pySSRSapi
+[2023-06-07 13:23:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tensorflow-metal
+[2023-06-07 13:23:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: federated-content-connector
+[2023-06-07 13:23:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-auth-jwt-demo
+[2023-06-07 13:23:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Clinamen2
+[2023-06-07 13:23:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addon-auth-jwt
+[2023-06-07 13:23:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: xj-flow
+[2023-06-07 13:23:06] INFO root fetch - processPackages [pfizer-components]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-07 13:23:06] INFO root fetch - processPackages [heflow]: New version: [1.4.0] Old Version: [1.3.1]
+[2023-06-07 13:23:06] INFO root fetch - processPackages [pySSRSapi]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-07 13:23:06] WARNING root fetch - processPackages [odoo-addon-auth-jwt]: Skipping, unable to determine old version
+[2023-06-07 13:23:06] INFO root fetch - processPackages [odoo-addon-auth-jwt]: Start processing: frequenz-api-microgrid
+[2023-06-07 13:23:06] INFO root fetch - processPackages [federated-content-connector]: New version: [1.0.0] Old Version: [0.2.1]
+[2023-06-07 13:23:06] INFO root fetch - processPackages [xj-flow]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-07 13:23:06] INFO root fetch - main [MainThread]: End processing [odoo-addon-auth-jwt] error
+[2023-06-07 13:23:06] WARNING root fetch - processPackages [Clinamen2]: Skipping, unable to determine old version
+[2023-06-07 13:23:06] WARNING root fetch - processPackages [odoo-addon-auth-jwt-demo]: Skipping, unable to determine old version
+[2023-06-07 13:23:06] INFO root fetch - processPackages [Clinamen2]: Start processing: lupin-grognard
+[2023-06-07 13:23:06] INFO root fetch - main [MainThread]: End processing [Clinamen2] error
+[2023-06-07 13:23:06] INFO root fetch - processPackages [odoo-addon-auth-jwt-demo]: Start processing: cs-models
+[2023-06-07 13:23:06] INFO root fetch - main [MainThread]: End processing [odoo-addon-auth-jwt-demo] error
+[2023-06-07 13:23:06] INFO root fetch - processPackages [tensorflow-metal]: New version: [1.0.0] Old Version: [0.8.0]
+[2023-06-07 13:23:06] INFO root fetch - processPackages [frequenz-api-microgrid]: New version: [0.15.1] Old Version: [0.15.0]
+[2023-06-07 13:23:06] INFO root fetch - processPackages [lupin-grognard]: New version: [1.9.0] Old Version: [1.7.0]
+[2023-06-07 13:23:06] INFO root fetch - processPackages [ccxt]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-06-07 13:23:06] INFO root fetch - processPackages [pySSRSapi]: Downloading https://files.pythonhosted.org/packages/c1/1f/3cdcbe16d3596d5f4c8b2bd2a676c177f21741fde5a400918310da0cf6ef/pySSRSapi-0.0.8.tar.gz
+[2023-06-07 13:23:06] INFO root fetch - processPackages [frequenz-api-microgrid]: Downloading https://files.pythonhosted.org/packages/7d/25/73048cb580e84538a37db74fec832021f480a6c675cf50d5f85292cee4a7/frequenz-api-microgrid-0.15.0.tar.gz
+[2023-06-07 13:23:06] INFO root fetch - processPackages [lupin-grognard]: Downloading https://files.pythonhosted.org/packages/26/b3/9a961658affd6954a57ec000b5ea89912c12beb41382bb262947475dfbd6/lupin-grognard-1.7.0.tar.gz
+[2023-06-07 13:23:06] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/c8/8c/0f6049cfe62c7345061ebc4bc204d5b43328f61a0dea4dba781a9cb6d23c/ccxt-3.1.8.tar.gz
+[2023-06-07 13:23:06] INFO root fetch - processPackages [cs-models]: New version: [0.0.99.dev4] Old Version: [0.0.99.dev3]
+[2023-06-07 13:23:06] INFO root fetch - processPackages [pfizer-components]: Downloading https://files.pythonhosted.org/packages/de/b0/dc7b8b0bb8980f29f4a836eb93c5e9fca9112a947a2c6c1c3b3e7085917e/pfizer_components-0.0.8-py3-none-any.whl
+[2023-06-07 13:23:06] INFO root fetch - processPackages [heflow]: Downloading https://files.pythonhosted.org/packages/d6/13/1fe90bdf6bc3fe47d69b0b4febed6149083f8c6461e4842986c773dacf46/heflow-1.3.1.tar.gz
+[2023-06-07 13:23:06] INFO root fetch - processPackages [federated-content-connector]: Downloading https://files.pythonhosted.org/packages/90/60/ab502d03e5cda7aadb223a5e54774bcffa6bc337e41986010854918ac6a8/federated-content-connector-0.2.1.tar.gz
+[2023-06-07 13:23:06] INFO root fetch - processPackages [xj-flow]: Downloading https://files.pythonhosted.org/packages/4b/98/1a3f618c2c4858fcf9b224f239f42c312217e8a3deb7f2ac59a023163a9f/xj_flow-1.0.8.tar.gz
+[2023-06-07 13:23:06] INFO root fetch - processPackages [tensorflow-metal]: Downloading https://files.pythonhosted.org/packages/27/67/3008bff0d2c2cb11ab953352f066b045eb6b4a76d245201dacd41ccc9b3c/tensorflow_metal-0.8.0-cp39-cp39-macosx_12_0_x86_64.whl
+[2023-06-07 13:23:06] INFO root fetch - processPackages [pySSRSapi]: Downloading https://files.pythonhosted.org/packages/28/33/55f9f8da569cf0d93252ba2a1cdba374c9c59c45ca96b8374e8925475457/pySSRSapi-0.0.9.tar.gz
+[2023-06-07 13:23:06] INFO root fetch - processPackages [lupin-grognard]: Downloading https://files.pythonhosted.org/packages/63/f4/2df11a5aed46a791c22609c2233d309499d655d76697dd2980b8e739d68b/lupin-grognard-1.9.0.tar.gz
+[2023-06-07 13:23:06] INFO root fetch - processPackages [cs-models]: Downloading https://files.pythonhosted.org/packages/0e/4f/33efc921aa3ee23f877dda213d1b962dac83a38135b32d2850eb48c2c6a8/cs-models-0.0.99.dev3.tar.gz
+[2023-06-07 13:23:06] INFO root fetch - processPackages [pySSRSapi]: executing diffoscope
+[2023-06-07 13:23:06] INFO root fetch - processPackages [pySSRSapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pySSRSapi-0.0.8.tar.gz tmp/pySSRSapi-0.0.9.tar.gz --markdown 20230607/p/pySSRSapi/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-07 13:23:06] INFO root fetch - processPackages [lupin-grognard]: executing diffoscope
+[2023-06-07 13:23:06] INFO root fetch - processPackages [lupin-grognard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lupin-grognard-1.7.0.tar.gz tmp/lupin-grognard-1.9.0.tar.gz --markdown 20230607/l/lupin-grognard/1.7.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-07 13:23:06] INFO root fetch - processPackages [frequenz-api-microgrid]: Downloading https://files.pythonhosted.org/packages/1d/74/535101071a60d676f209dcc9fa4b9067984c272a078a3df0e815360e5756/frequenz-api-microgrid-0.15.1.tar.gz
+[2023-06-07 13:23:06] INFO root fetch - processPackages [pfizer-components]: Downloading https://files.pythonhosted.org/packages/b5/95/11cf67b96ed2060b460ddb9777d3bee218f98b29bd0fc3b7d8d7482ff12a/pfizer_components-0.0.9-py3-none-any.whl
+[2023-06-07 13:23:06] INFO root fetch - processPackages [federated-content-connector]: Downloading https://files.pythonhosted.org/packages/6b/9a/5f5a2e7b04815ff544b9194c873b551f7934f28f1a10a1977e77770192ec/federated-content-connector-1.0.0.tar.gz
+[2023-06-07 13:23:06] INFO root fetch - processPackages [heflow]: Downloading https://files.pythonhosted.org/packages/cc/7e/009e39ca3e409f90a4549255c4f9ae569746281ba3f28ce442a1c0f276d9/heflow-1.4.0.tar.gz
+[2023-06-07 13:23:06] INFO root fetch - processPackages [pfizer-components]: executing diffoscope
+[2023-06-07 13:23:06] INFO root fetch - processPackages [pfizer-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pfizer_components-0.0.8-py3-none-any.whl.zip tmp/pfizer_components-0.0.9-py3-none-any.whl.zip --markdown 20230607/p/pfizer-components/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-07 13:23:06] INFO root fetch - processPackages [federated-content-connector]: executing diffoscope
+[2023-06-07 13:23:06] INFO root fetch - processPackages [federated-content-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/federated-content-connector-0.2.1.tar.gz tmp/federated-content-connector-1.0.0.tar.gz --markdown 20230607/f/federated-content-connector/0.2.1-1.0.0/diff.md --exclude *.pyd
+[2023-06-07 13:23:06] INFO root fetch - processPackages [tensorflow-metal]: Downloading https://files.pythonhosted.org/packages/19/e1/5338b92dbdb63d67779a4493e1bd6df8e5f1fb2dc6100dd837015c97bd78/tensorflow_metal-1.0.0-cp39-cp39-macosx_12_0_x86_64.whl
+[2023-06-07 13:23:06] INFO root fetch - processPackages [heflow]: executing diffoscope
+[2023-06-07 13:23:06] INFO root fetch - processPackages [heflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heflow-1.3.1.tar.gz tmp/heflow-1.4.0.tar.gz --markdown 20230607/h/heflow/1.3.1-1.4.0/diff.md --exclude *.pyd
+[2023-06-07 13:23:06] INFO root fetch - processPackages [frequenz-api-microgrid]: executing diffoscope
+[2023-06-07 13:23:06] INFO root fetch - processPackages [frequenz-api-microgrid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frequenz-api-microgrid-0.15.0.tar.gz tmp/frequenz-api-microgrid-0.15.1.tar.gz --markdown 20230607/f/frequenz-api-microgrid/0.15.0-0.15.1/diff.md --exclude *.pyd
+[2023-06-07 13:23:06] INFO root fetch - processPackages [xj-flow]: Downloading https://files.pythonhosted.org/packages/93/02/013abb0effbefa548538af1945ba2798a7c0ccbda7de2e19a099047da628/xj_flow-1.0.9.tar.gz
+[2023-06-07 13:23:06] INFO root fetch - processPackages [xj-flow]: executing diffoscope
+[2023-06-07 13:23:06] INFO root fetch - processPackages [xj-flow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_flow-1.0.8.tar.gz tmp/xj_flow-1.0.9.tar.gz --markdown 20230607/x/xj-flow/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-07 13:23:07] INFO root fetch - processPackages [cs-models]: Downloading https://files.pythonhosted.org/packages/8c/4c/e48ab48e00c2dd2f9799da4f76632085fd545ef18606abde256a640ffa7a/cs-models-0.0.99.dev4.tar.gz
+[2023-06-07 13:23:07] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/da/20/697a7c246ccda48f1db7fabcef3d2ae5b059eb38ab11d028ed79393e0d46/ccxt-3.1.9.tar.gz
+[2023-06-07 13:23:07] INFO root fetch - processPackages [cs-models]: executing diffoscope
+[2023-06-07 13:23:07] INFO root fetch - processPackages [cs-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cs-models-0.0.99.dev3.tar.gz tmp/cs-models-0.0.99.dev4.tar.gz --markdown 20230607/c/cs-models/0.0.99.dev3-0.0.99.dev4/diff.md --exclude *.pyd
+[2023-06-07 13:23:07] INFO root fetch - processPackages [tensorflow-metal]: executing diffoscope
+[2023-06-07 13:23:07] INFO root fetch - processPackages [tensorflow-metal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorflow_metal-0.8.0-cp39-cp39-macosx_12_0_x86_64.whl.zip tmp/tensorflow_metal-1.0.0-cp39-cp39-macosx_12_0_x86_64.whl.zip --markdown 20230607/t/tensorflow-metal/0.8.0-1.0.0/diff.md --exclude *.pyd
+[2023-06-07 13:23:08] INFO root fetch - processPackages [ccxt]: executing diffoscope
+[2023-06-07 13:23:08] INFO root fetch - processPackages [ccxt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccxt-3.1.8.tar.gz tmp/ccxt-3.1.9.tar.gz --markdown 20230607/c/ccxt/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-06-07 13:23:08] INFO root fetch - processPackages [pySSRSapi]: Remove: archive file [/home/abi/fetcher/tmp/pySSRSapi-0.0.8.tar.gz]
+[2023-06-07 13:23:08] INFO root fetch - processPackages [pySSRSapi]: Remove: archive file [/home/abi/fetcher/tmp/pySSRSapi-0.0.9.tar.gz]
+[2023-06-07 13:23:08] INFO root fetch - processPackages [pySSRSapi]: Start processing: mysql-statement-builder
+[2023-06-07 13:23:08] INFO root fetch - main [MainThread]: End processing [pySSRSapi]: success
+[2023-06-07 13:23:08] INFO root fetch - processPackages [mysql-statement-builder]: New version: [0.3.0] Old Version: [0.2.6]
+[2023-06-07 13:23:08] INFO root fetch - processPackages [pfizer-components]: Remove: archive file [/home/abi/fetcher/tmp/pfizer_components-0.0.8-py3-none-any.whl.zip]
+[2023-06-07 13:23:08] INFO root fetch - processPackages [pfizer-components]: Remove: archive file [/home/abi/fetcher/tmp/pfizer_components-0.0.9-py3-none-any.whl.zip]
+[2023-06-07 13:23:08] INFO root fetch - processPackages [pfizer-components]: Start processing: inet-nm
+[2023-06-07 13:23:08] INFO root fetch - main [MainThread]: End processing [pfizer-components]: success
+[2023-06-07 13:23:08] INFO root fetch - processPackages [inet-nm]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-07 13:23:08] INFO root fetch - processPackages [mysql-statement-builder]: Downloading https://files.pythonhosted.org/packages/a7/f1/44f3d42d9049473e9392b65cd69493ecdef910730e1bff18c7690bd88799/mysql-statement-builder-0.2.6.tar.gz
+[2023-06-07 13:23:08] INFO root fetch - processPackages [inet-nm]: Downloading https://files.pythonhosted.org/packages/07/35/4e0ac297a0a81c6ff8df8471fd9c7e399606465164dfc88c703b17a2c9cc/inet-nm-0.0.1.tar.gz
+[2023-06-07 13:23:08] INFO root fetch - processPackages [inet-nm]: Downloading https://files.pythonhosted.org/packages/08/e4/f7465fb58f0130b55adc9244e31df29ad236accd3213253c6f4c707f12d5/inet-nm-0.0.2.tar.gz
+[2023-06-07 13:23:08] INFO root fetch - processPackages [lupin-grognard]: Remove: archive file [/home/abi/fetcher/tmp/lupin-grognard-1.7.0.tar.gz]
+[2023-06-07 13:23:08] INFO root fetch - processPackages [lupin-grognard]: Remove: archive file [/home/abi/fetcher/tmp/lupin-grognard-1.9.0.tar.gz]
+[2023-06-07 13:23:08] INFO root fetch - processPackages [lupin-grognard]: Start processing: tensordict-nightly
+[2023-06-07 13:23:08] INFO root fetch - main [MainThread]: End processing [lupin-grognard]: success
+[2023-06-07 13:23:08] INFO root fetch - processPackages [mysql-statement-builder]: Downloading https://files.pythonhosted.org/packages/83/c3/17ca7cb8cb7844a644452d17a2d0a51abe76752184917e7aec174cd78915/mysql-statement-builder-0.3.0.tar.gz
+[2023-06-07 13:23:08] INFO root fetch - processPackages [heflow]: Remove: archive file [/home/abi/fetcher/tmp/heflow-1.3.1.tar.gz]
+[2023-06-07 13:23:08] INFO root fetch - processPackages [heflow]: Remove: archive file [/home/abi/fetcher/tmp/heflow-1.4.0.tar.gz]
+[2023-06-07 13:23:08] INFO root fetch - main [MainThread]: End processing [heflow]: success
+[2023-06-07 13:23:08] INFO root fetch - processPackages [inet-nm]: executing diffoscope
+[2023-06-07 13:23:08] INFO root fetch - processPackages [inet-nm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inet-nm-0.0.1.tar.gz tmp/inet-nm-0.0.2.tar.gz --markdown 20230607/i/inet-nm/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-07 13:23:08] INFO root fetch - processPackages [tensordict-nightly]: New version: [2023.6.7] Old Version: [2023.6.6]
+[2023-06-07 13:23:08] INFO root fetch - processPackages [mysql-statement-builder]: executing diffoscope
+[2023-06-07 13:23:08] INFO root fetch - processPackages [mysql-statement-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mysql-statement-builder-0.2.6.tar.gz tmp/mysql-statement-builder-0.3.0.tar.gz --markdown 20230607/m/mysql-statement-builder/0.2.6-0.3.0/diff.md --exclude *.pyd
+[2023-06-07 13:23:08] INFO root fetch - processPackages [federated-content-connector]: Remove: archive file [/home/abi/fetcher/tmp/federated-content-connector-0.2.1.tar.gz]
+[2023-06-07 13:23:08] INFO root fetch - processPackages [federated-content-connector]: Remove: archive file [/home/abi/fetcher/tmp/federated-content-connector-1.0.0.tar.gz]
+[2023-06-07 13:23:08] INFO root fetch - main [MainThread]: End processing [federated-content-connector]: success
+[2023-06-07 13:23:08] INFO root fetch - processPackages [tensordict-nightly]: Downloading https://files.pythonhosted.org/packages/8d/63/605ebd4743c80b0a5f396e1ec5ccb35d7025e06fa7558c266defd194ba50/tensordict_nightly-2023.6.6-py39-none-any.whl
+[2023-06-07 13:23:09] INFO root fetch - processPackages [frequenz-api-microgrid]: Remove: archive file [/home/abi/fetcher/tmp/frequenz-api-microgrid-0.15.0.tar.gz]
+[2023-06-07 13:23:09] INFO root fetch - processPackages [frequenz-api-microgrid]: Remove: archive file [/home/abi/fetcher/tmp/frequenz-api-microgrid-0.15.1.tar.gz]
+[2023-06-07 13:23:09] INFO root fetch - main [MainThread]: End processing [frequenz-api-microgrid]: success
+[2023-06-07 13:23:09] INFO root fetch - processPackages [xj-flow]: Remove: archive file [/home/abi/fetcher/tmp/xj_flow-1.0.8.tar.gz]
+[2023-06-07 13:23:09] INFO root fetch - processPackages [xj-flow]: Remove: archive file [/home/abi/fetcher/tmp/xj_flow-1.0.9.tar.gz]
+[2023-06-07 13:23:09] INFO root fetch - main [MainThread]: End processing [xj-flow]: success
+[2023-06-07 13:23:09] INFO root fetch - processPackages [tensordict-nightly]: Downloading https://files.pythonhosted.org/packages/ff/30/b32844a10951d90914392dfbcca8636b98e17cce1cde26587f3389a428a0/tensordict_nightly-2023.6.7-py39-none-any.whl
+[2023-06-07 13:23:09] INFO root fetch - processPackages [tensordict-nightly]: executing diffoscope
+[2023-06-07 13:23:09] INFO root fetch - processPackages [tensordict-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensordict_nightly-2023.6.6-py39-none-any.whl.zip tmp/tensordict_nightly-2023.6.7-py39-none-any.whl.zip --markdown 20230607/t/tensordict-nightly/2023.6.6-2023.6.7/diff.md --exclude *.pyd
+[2023-06-07 13:23:09] INFO root fetch - processPackages [mysql-statement-builder]: Remove: archive file [/home/abi/fetcher/tmp/mysql-statement-builder-0.2.6.tar.gz]
+[2023-06-07 13:23:09] INFO root fetch - processPackages [mysql-statement-builder]: Remove: archive file [/home/abi/fetcher/tmp/mysql-statement-builder-0.3.0.tar.gz]
+[2023-06-07 13:23:09] INFO root fetch - main [MainThread]: End processing [mysql-statement-builder]: success
+[2023-06-07 13:23:09] INFO root fetch - processPackages [inet-nm]: Remove: archive file [/home/abi/fetcher/tmp/inet-nm-0.0.1.tar.gz]
+[2023-06-07 13:23:09] INFO root fetch - processPackages [inet-nm]: Remove: archive file [/home/abi/fetcher/tmp/inet-nm-0.0.2.tar.gz]
+[2023-06-07 13:23:09] INFO root fetch - main [MainThread]: End processing [inet-nm]: success
+[2023-06-07 13:23:10] INFO root fetch - processPackages [tensordict-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensordict_nightly-2023.6.6-py39-none-any.whl.zip]
+[2023-06-07 13:23:10] INFO root fetch - processPackages [tensordict-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensordict_nightly-2023.6.7-py39-none-any.whl.zip]
+[2023-06-07 13:23:10] INFO root fetch - main [MainThread]: End processing [tensordict-nightly]: success
+[2023-06-07 13:23:11] INFO root fetch - processPackages [cs-models]: Remove: archive file [/home/abi/fetcher/tmp/cs-models-0.0.99.dev3.tar.gz]
+[2023-06-07 13:23:11] INFO root fetch - processPackages [cs-models]: Remove: archive file [/home/abi/fetcher/tmp/cs-models-0.0.99.dev4.tar.gz]
+[2023-06-07 13:23:11] INFO root fetch - main [MainThread]: End processing [cs-models]: success
+[2023-06-07 13:23:19] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-3.1.8.tar.gz]
+[2023-06-07 13:23:19] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-3.1.9.tar.gz]
+[2023-06-07 13:23:19] INFO root fetch - main [MainThread]: End processing [ccxt]: success
+[2023-06-07 13:23:33] INFO root fetch - processPackages [tensorflow-metal]: Remove: archive file [/home/abi/fetcher/tmp/tensorflow_metal-0.8.0-cp39-cp39-macosx_12_0_x86_64.whl.zip]
+[2023-06-07 13:23:33] INFO root fetch - processPackages [tensorflow-metal]: Remove: archive file [/home/abi/fetcher/tmp/tensorflow_metal-1.0.0-cp39-cp39-macosx_12_0_x86_64.whl.zip]
+[2023-06-07 13:23:33] INFO root fetch - main [MainThread]: End processing [tensorflow-metal]: success
+[2023-06-07 13:23:33] INFO root fetch - main [MainThread]: Store serial: [18407026]
