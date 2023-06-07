@@ -21439,3 +21439,104 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-07 12:56:08] INFO root fetch - processPackages [panda-client]: Remove: archive file [/home/abi/fetcher/tmp/panda-client-1.5.9.tar.gz]
 [2023-06-07 12:56:08] INFO root fetch - main [MainThread]: End processing [panda-client]: success
 [2023-06-07 12:56:08] INFO root fetch - main [MainThread]: Store serial: [18406779]
+[2023-06-07 13:01:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18406779]
+[2023-06-07 13:01:17] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-07 13:01:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: numerous.sdk
+[2023-06-07 13:01:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: srvr-chatt
+[2023-06-07 13:01:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dissect.target
+[2023-06-07 13:01:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: formification
+[2023-06-07 13:01:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cg
+[2023-06-07 13:01:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: evalidate
+[2023-06-07 13:01:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bridgecrew
+[2023-06-07 13:01:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: FPC
+[2023-06-07 13:01:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pybotx
+[2023-06-07 13:01:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: urllib3
+[2023-06-07 13:01:17] INFO root fetch - processPackages [FPC]: New version: [0.9] Old Version: [0.8]
+[2023-06-07 13:01:17] INFO root fetch - processPackages [numerous.sdk]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-07 13:01:17] INFO root fetch - processPackages [evalidate]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-07 13:01:17] WARNING root fetch - processPackages [srvr-chatt]: Skipping, unable to determine old version
+[2023-06-07 13:01:17] INFO root fetch - processPackages [srvr-chatt]: Start processing: agenta
+[2023-06-07 13:01:17] INFO root fetch - main [MainThread]: End processing [srvr-chatt] error
+[2023-06-07 13:01:17] INFO root fetch - processPackages [urllib3]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-06-07 13:01:17] INFO root fetch - processPackages [formification]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-06-07 13:01:17] INFO root fetch - processPackages [pybotx]: New version: [0.55.4] Old Version: [0.55.3]
+[2023-06-07 13:01:17] INFO root fetch - processPackages [dissect.target]: New version: [3.9.dev9] Old Version: [3.9.dev8]
+[2023-06-07 13:01:17] INFO root fetch - processPackages [agenta]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-06-07 13:01:17] INFO root fetch - processPackages [cg]: New version: [33.3.0] Old Version: [33.2.3]
+[2023-06-07 13:01:17] INFO root fetch - processPackages [urllib3]: Downloading https://files.pythonhosted.org/packages/fb/c0/1abba1a1233b81cf2e36f56e05194f5e8a0cec8c03c244cab56cc9dfb5bd/urllib3-2.0.2.tar.gz
+[2023-06-07 13:01:17] INFO root fetch - processPackages [formification]: Downloading https://files.pythonhosted.org/packages/af/a7/2120822ff8c68df72114c53876474e17fe92d0255e2be91d2b6b8bcd06cd/formification-1.1.0.tar.gz
+[2023-06-07 13:01:17] INFO root fetch - processPackages [agenta]: Downloading https://files.pythonhosted.org/packages/1b/56/d7736d4ea837616b64592d184000f3e32c954937418462d46ac5863200da/agenta-0.1.6.tar.gz
+[2023-06-07 13:01:17] INFO root fetch - processPackages [bridgecrew]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-06-07 13:01:17] INFO root fetch - processPackages [FPC]: Downloading https://files.pythonhosted.org/packages/21/8e/cb3fde359346e40cec7994e595614ef647675f843dea133076850fd2db07/FPC-0.8.tar.gz
+[2023-06-07 13:01:17] INFO root fetch - processPackages [numerous.sdk]: Downloading https://files.pythonhosted.org/packages/c5/19/eb5f9aae5084b96359e6dc09800409c59b897f0ca6465db254d85a753429/numerous.sdk-0.8.0.tar.gz
+[2023-06-07 13:01:17] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/90/84/94525d4e194dd1c362ef68050cc6b60993f857071d3b8968419060abee62/cg-33.2.3.tar.gz
+[2023-06-07 13:01:17] INFO root fetch - processPackages [dissect.target]: Downloading https://files.pythonhosted.org/packages/b1/a4/24f9ce2eb6a1913b82598a01b68b634c9fe5535a9484bff3d7d56a0ae929/dissect.target-3.9.dev8.tar.gz
+[2023-06-07 13:01:17] INFO root fetch - processPackages [evalidate]: Downloading https://files.pythonhosted.org/packages/a8/d1/c2988bc432070280af5453cb65849c6b9689ba032fab0d4fc1b3b0a87997/evalidate-1.0.2.tar.gz
+[2023-06-07 13:01:17] INFO root fetch - processPackages [pybotx]: Downloading https://files.pythonhosted.org/packages/e4/6e/dcc8565f820513ebe801406ee989c9c6b9d61f8953b661df351d3958525a/pybotx-0.55.3.tar.gz
+[2023-06-07 13:01:17] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/c1/70/3267f94d196f9213b2b44a429d64b71cb1f9f3d812687dd74ff8a983a588/bridgecrew-2.3.98.tar.gz
+[2023-06-07 13:01:17] INFO root fetch - processPackages [urllib3]: Downloading https://files.pythonhosted.org/packages/d6/af/3b4cfedd46b3addab52e84a71ab26518272c23c77116de3c61ead54af903/urllib3-2.0.3.tar.gz
+[2023-06-07 13:01:18] INFO root fetch - processPackages [agenta]: Downloading https://files.pythonhosted.org/packages/98/a0/c4ef683fd8196b0c9b1cdfec6b7c2b438cc0063f9c0dff678286fdebaf2b/agenta-0.1.7.tar.gz
+[2023-06-07 13:01:18] INFO root fetch - processPackages [FPC]: Downloading https://files.pythonhosted.org/packages/2e/52/6ad17c7fd21298054bcd96fc5e86fe54f07e006467ce5452d57c016d92bc/FPC-0.9.tar.gz
+[2023-06-07 13:01:18] INFO root fetch - processPackages [formification]: Downloading https://files.pythonhosted.org/packages/c9/d0/9035c13f15721b6ce2fe8ef6881ec293c310c82ea618d23abd497c6d4005/formification-1.1.1.tar.gz
+[2023-06-07 13:01:18] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/9e/6b/ea9cdf20d73a8621ab1f56b3ee95c8fe6b3e23cb8cd7a0f75ec041c3f16f/bridgecrew-2.3.99.tar.gz
+[2023-06-07 13:01:18] INFO root fetch - processPackages [urllib3]: executing diffoscope
+[2023-06-07 13:01:18] INFO root fetch - processPackages [urllib3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/urllib3-2.0.2.tar.gz tmp/urllib3-2.0.3.tar.gz --markdown 20230607/u/urllib3/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-06-07 13:01:18] INFO root fetch - processPackages [evalidate]: Downloading https://files.pythonhosted.org/packages/96/ca/060aeb3b919dd1b91fa11546cb6552b1c61bd8c30971f2e4594805870dfb/evalidate-1.0.3.tar.gz
+[2023-06-07 13:01:18] INFO root fetch - processPackages [pybotx]: Downloading https://files.pythonhosted.org/packages/57/da/6e213a70b9130bbe7ccd013bddd680237d4ea0952bc06d35e757af1f48df/pybotx-0.55.4.tar.gz
+[2023-06-07 13:01:18] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/96/69/c8fa0cafe433346f42ec665e90a9784406a6c051a97f85b8e003843498af/cg-33.3.0.tar.gz
+[2023-06-07 13:01:18] INFO root fetch - processPackages [FPC]: executing diffoscope
+[2023-06-07 13:01:18] INFO root fetch - processPackages [FPC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FPC-0.8.tar.gz tmp/FPC-0.9.tar.gz --markdown 20230607/F/FPC/0.8-0.9/diff.md --exclude *.pyd
+[2023-06-07 13:01:18] INFO root fetch - processPackages [bridgecrew]: executing diffoscope
+[2023-06-07 13:01:18] INFO root fetch - processPackages [bridgecrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgecrew-2.3.98.tar.gz tmp/bridgecrew-2.3.99.tar.gz --markdown 20230607/b/bridgecrew/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-06-07 13:01:18] INFO root fetch - processPackages [evalidate]: executing diffoscope
+[2023-06-07 13:01:18] INFO root fetch - processPackages [evalidate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evalidate-1.0.2.tar.gz tmp/evalidate-1.0.3.tar.gz --markdown 20230607/e/evalidate/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-07 13:01:18] INFO root fetch - processPackages [formification]: executing diffoscope
+[2023-06-07 13:01:18] INFO root fetch - processPackages [numerous.sdk]: Downloading https://files.pythonhosted.org/packages/89/b1/8a2eaf2d3b5e5114385f9f271a9de81af8376e58d63490ec17de7acb2de6/numerous.sdk-0.9.0.tar.gz
+[2023-06-07 13:01:18] INFO root fetch - processPackages [agenta]: executing diffoscope
+[2023-06-07 13:01:18] INFO root fetch - processPackages [formification]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/formification-1.1.0.tar.gz tmp/formification-1.1.1.tar.gz --markdown 20230607/f/formification/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-06-07 13:01:18] INFO root fetch - processPackages [agenta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agenta-0.1.6.tar.gz tmp/agenta-0.1.7.tar.gz --markdown 20230607/a/agenta/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-06-07 13:01:18] INFO root fetch - processPackages [pybotx]: executing diffoscope
+[2023-06-07 13:01:18] INFO root fetch - processPackages [pybotx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybotx-0.55.3.tar.gz tmp/pybotx-0.55.4.tar.gz --markdown 20230607/p/pybotx/0.55.3-0.55.4/diff.md --exclude *.pyd
+[2023-06-07 13:01:18] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-06-07 13:01:18] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-33.2.3.tar.gz tmp/cg-33.3.0.tar.gz --markdown 20230607/c/cg/33.2.3-33.3.0/diff.md --exclude *.pyd
+[2023-06-07 13:01:18] INFO root fetch - processPackages [numerous.sdk]: executing diffoscope
+[2023-06-07 13:01:18] INFO root fetch - processPackages [numerous.sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/numerous.sdk-0.8.0.tar.gz tmp/numerous.sdk-0.9.0.tar.gz --markdown 20230607/n/numerous.sdk/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-07 13:01:18] WARNING root fetch - processPackages [dissect.target]: Skipping package: exceeds size limit 63555307>=10485760
+[2023-06-07 13:01:18] INFO root fetch - processPackages [dissect.target]: Start processing: pulumiverse-astra
+[2023-06-07 13:01:18] INFO root fetch - main [MainThread]: End processing [dissect.target] error
+[2023-06-07 13:01:18] INFO root fetch - processPackages [pulumiverse-astra]: New version: [1.0.41] Old Version: [1.0.40]
+[2023-06-07 13:01:18] INFO root fetch - processPackages [pulumiverse-astra]: Downloading https://files.pythonhosted.org/packages/f5/bc/e16429dd6ddc0ecd989f0b319d24fcf5fd34293b6c47519328249154b532/pulumiverse_astra-1.0.40.tar.gz
+[2023-06-07 13:01:19] INFO root fetch - processPackages [pulumiverse-astra]: Downloading https://files.pythonhosted.org/packages/14/2b/8cefe5f64bb24e30ca0f95e5461832b8603967fe094a1bac59854c743ebb/pulumiverse_astra-1.0.41.tar.gz
+[2023-06-07 13:01:19] INFO root fetch - processPackages [pulumiverse-astra]: executing diffoscope
+[2023-06-07 13:01:19] INFO root fetch - processPackages [pulumiverse-astra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumiverse_astra-1.0.40.tar.gz tmp/pulumiverse_astra-1.0.41.tar.gz --markdown 20230607/p/pulumiverse-astra/1.0.40-1.0.41/diff.md --exclude *.pyd
+[2023-06-07 13:01:19] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-2.3.98.tar.gz]
+[2023-06-07 13:01:19] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-2.3.99.tar.gz]
+[2023-06-07 13:01:19] INFO root fetch - main [MainThread]: End processing [bridgecrew]: success
+[2023-06-07 13:01:19] INFO root fetch - processPackages [FPC]: Remove: archive file [/home/abi/fetcher/tmp/FPC-0.8.tar.gz]
+[2023-06-07 13:01:19] INFO root fetch - processPackages [FPC]: Remove: archive file [/home/abi/fetcher/tmp/FPC-0.9.tar.gz]
+[2023-06-07 13:01:19] INFO root fetch - main [MainThread]: End processing [FPC]: success
+[2023-06-07 13:01:20] INFO root fetch - processPackages [agenta]: Remove: archive file [/home/abi/fetcher/tmp/agenta-0.1.6.tar.gz]
+[2023-06-07 13:01:20] INFO root fetch - processPackages [agenta]: Remove: archive file [/home/abi/fetcher/tmp/agenta-0.1.7.tar.gz]
+[2023-06-07 13:01:20] INFO root fetch - main [MainThread]: End processing [agenta]: success
+[2023-06-07 13:01:20] INFO root fetch - processPackages [evalidate]: Remove: archive file [/home/abi/fetcher/tmp/evalidate-1.0.2.tar.gz]
+[2023-06-07 13:01:20] INFO root fetch - processPackages [evalidate]: Remove: archive file [/home/abi/fetcher/tmp/evalidate-1.0.3.tar.gz]
+[2023-06-07 13:01:20] INFO root fetch - main [MainThread]: End processing [evalidate]: success
+[2023-06-07 13:01:20] INFO root fetch - processPackages [numerous.sdk]: Remove: archive file [/home/abi/fetcher/tmp/numerous.sdk-0.8.0.tar.gz]
+[2023-06-07 13:01:20] INFO root fetch - processPackages [numerous.sdk]: Remove: archive file [/home/abi/fetcher/tmp/numerous.sdk-0.9.0.tar.gz]
+[2023-06-07 13:01:20] INFO root fetch - main [MainThread]: End processing [numerous.sdk]: success
+[2023-06-07 13:01:21] INFO root fetch - processPackages [pulumiverse-astra]: Remove: archive file [/home/abi/fetcher/tmp/pulumiverse_astra-1.0.40.tar.gz]
+[2023-06-07 13:01:21] INFO root fetch - processPackages [pulumiverse-astra]: Remove: archive file [/home/abi/fetcher/tmp/pulumiverse_astra-1.0.41.tar.gz]
+[2023-06-07 13:01:21] INFO root fetch - main [MainThread]: End processing [pulumiverse-astra]: success
+[2023-06-07 13:01:21] INFO root fetch - processPackages [pybotx]: Remove: archive file [/home/abi/fetcher/tmp/pybotx-0.55.3.tar.gz]
+[2023-06-07 13:01:21] INFO root fetch - processPackages [pybotx]: Remove: archive file [/home/abi/fetcher/tmp/pybotx-0.55.4.tar.gz]
+[2023-06-07 13:01:21] INFO root fetch - main [MainThread]: End processing [pybotx]: success
+[2023-06-07 13:01:22] INFO root fetch - processPackages [urllib3]: Remove: archive file [/home/abi/fetcher/tmp/urllib3-2.0.2.tar.gz]
+[2023-06-07 13:01:22] INFO root fetch - processPackages [urllib3]: Remove: archive file [/home/abi/fetcher/tmp/urllib3-2.0.3.tar.gz]
+[2023-06-07 13:01:22] INFO root fetch - main [MainThread]: End processing [urllib3]: success
+[2023-06-07 13:01:23] INFO root fetch - processPackages [formification]: Remove: archive file [/home/abi/fetcher/tmp/formification-1.1.0.tar.gz]
+[2023-06-07 13:01:23] INFO root fetch - processPackages [formification]: Remove: archive file [/home/abi/fetcher/tmp/formification-1.1.1.tar.gz]
+[2023-06-07 13:01:23] INFO root fetch - main [MainThread]: End processing [formification]: success
+[2023-06-07 13:01:30] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-33.2.3.tar.gz]
+[2023-06-07 13:01:30] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-33.3.0.tar.gz]
+[2023-06-07 13:01:30] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-06-07 13:01:30] INFO root fetch - main [MainThread]: Store serial: [18406821]
