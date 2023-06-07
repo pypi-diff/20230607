@@ -13178,3 +13178,81 @@ AssertionError: tmp/odoo_addon_crm_lead_firstname-16.0.1.0.1-py3-none-any.whl.zi
 [2023-06-07 07:17:51] INFO root fetch - processPackages [omnisoot]: Remove: archive file [/home/abi/fetcher/tmp/omnisoot-0.1.2-cp39-cp39-win_amd64.whl.zip]
 [2023-06-07 07:17:51] INFO root fetch - main [MainThread]: End processing [omnisoot]: success
 [2023-06-07 07:17:51] INFO root fetch - main [MainThread]: Store serial: [18403031]
+[2023-06-07 07:22:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18403031]
+[2023-06-07 07:23:00] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-07 07:23:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: inhandtest
+[2023-06-07 07:23:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo9-addon-stock-inventory-revaluation
+[2023-06-07 07:23:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo8-addon-stock-inventory-revaluation
+[2023-06-07 07:23:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo10-addon-stock-inventory-revaluation
+[2023-06-07 07:23:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pygem
+[2023-06-07 07:23:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: astrosurveyutils
+[2023-06-07 07:23:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: findu
+[2023-06-07 07:23:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo12-addon-stock-inventory-revaluation
+[2023-06-07 07:23:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pi7db
+[2023-06-07 07:23:00] INFO root fetch - processPackages [odoo9-addon-stock-inventory-revaluation]: New version: [9.0.1.0.0.99.dev9] Old Version: [9.0.1.0.0.99.dev8]
+[2023-06-07 07:23:00] INFO root fetch - processPackages [pygem]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-06-07 07:23:00] INFO root fetch - processPackages [inhandtest]: New version: [0.0.53] Old Version: [0.0.52]
+[2023-06-07 07:23:00] INFO root fetch - processPackages [findu]: New version: [0.1.0] Old Version: [0.0.19]
+[2023-06-07 07:23:00] INFO root fetch - processPackages [odoo12-addon-stock-inventory-revaluation]: New version: [12.0.1.0.2.99.dev5] Old Version: [12.0.1.0.2.99.dev4]
+[2023-06-07 07:23:00] WARNING root fetch - processPackages [astrosurveyutils]: Skipping, unable to determine old version
+[2023-06-07 07:23:00] INFO root fetch - main [MainThread]: End processing [astrosurveyutils] error
+[2023-06-07 07:23:00] INFO root fetch - processPackages [odoo8-addon-stock-inventory-revaluation]: New version: [8.0.1.1.0.99.dev9] Old Version: [8.0.1.1.0.99.dev8]
+[2023-06-07 07:23:00] INFO root fetch - processPackages [pi7db]: New version: [2.0] Old Version: [1.4.3]
+[2023-06-07 07:23:00] INFO root fetch - processPackages [odoo10-addon-stock-inventory-revaluation]: New version: [10.0.1.1.1.99.dev4] Old Version: [10.0.1.1.1.99.dev3]
+[2023-06-07 07:23:00] INFO root fetch - processPackages [inhandtest]: Downloading https://files.pythonhosted.org/packages/fe/d0/486e0f93acfebed55f6cba454af1cb630881ee350dab230277399824c444/inhandtest-0.0.52.tar.gz
+[2023-06-07 07:23:00] INFO root fetch - processPackages [findu]: Downloading https://files.pythonhosted.org/packages/49/33/bb0fd1e7e64661a5e586a4493736ca1b24842a4091f6f80ba16f0ed95409/findu-0.0.19.tar.gz
+[2023-06-07 07:23:00] INFO root fetch - processPackages [pi7db]: Downloading https://files.pythonhosted.org/packages/dc/ba/2eb55648730a330da1c9c6cfc1fc27494417b1da0e56e1d37ef1ae332b98/pi7db-1.4.3-py3-none-any.whl
+[2023-06-07 07:23:00] INFO root fetch - processPackages [pygem]: Downloading https://files.pythonhosted.org/packages/43/32/6287dca53cc7deb80b36e5c9934bd008f9b5a3a31589118ef024c6734515/pygem-0.2.0.tar.gz
+[2023-06-07 07:23:00] INFO root fetch - processPackages [odoo9-addon-stock-inventory-revaluation]: Downloading https://files.pythonhosted.org/packages/e7/37/64e9e603cd9562fe3da42db924f3216807d51cc62d2d22642751c1aaf74e/odoo9_addon_stock_inventory_revaluation-9.0.1.0.0.99.dev8-py2-none-any.whl
+[2023-06-07 07:23:00] INFO root fetch - processPackages [odoo10-addon-stock-inventory-revaluation]: Downloading https://files.pythonhosted.org/packages/83/b4/e3c8f497ee8adecff9684379f582c07bee16f15791f27dab5d8ea5b4dbf9/odoo10_addon_stock_inventory_revaluation-10.0.1.1.1.99.dev3-py2-none-any.whl
+[2023-06-07 07:23:00] INFO root fetch - processPackages [odoo12-addon-stock-inventory-revaluation]: Downloading https://files.pythonhosted.org/packages/d3/df/ab54f7ea3fb6272ae694dc5f37362b29edb3cd1b6024e1784ee2edfd69b6/odoo12_addon_stock_inventory_revaluation-12.0.1.0.2.99.dev4-py3-none-any.whl
+[2023-06-07 07:23:00] INFO root fetch - processPackages [odoo8-addon-stock-inventory-revaluation]: Downloading https://files.pythonhosted.org/packages/f2/a8/e6a68fdd7a7fc4681cf0450a5aed0a1ff54c3088eceecc8c48f77f3bd0ec/odoo8_addon_stock_inventory_revaluation-8.0.1.1.0.99.dev8-py2-none-any.whl
+[2023-06-07 07:23:00] INFO root fetch - processPackages [pi7db]: Downloading https://files.pythonhosted.org/packages/b3/cd/b54cd9e5fb9534dc36f5323efc9edf9b1dd81ff0b6311db2a0a6662fa89b/pi7db-2.0-py3-none-any.whl
+[2023-06-07 07:23:00] INFO root fetch - processPackages [findu]: Downloading https://files.pythonhosted.org/packages/51/af/836d7c81d16e2e73fd10e21546ad34f0815425626dc99a1918e175cc744c/findu-0.1.0.tar.gz
+[2023-06-07 07:23:00] INFO root fetch - processPackages [inhandtest]: Downloading https://files.pythonhosted.org/packages/15/e3/8b767b7b5383056e8044cbbdbfe5d06747c93005d95c5f0bbfc906287152/inhandtest-0.0.53.tar.gz
+[2023-06-07 07:23:00] INFO root fetch - processPackages [pi7db]: executing diffoscope
+[2023-06-07 07:23:00] INFO root fetch - processPackages [pi7db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pi7db-1.4.3-py3-none-any.whl.zip tmp/pi7db-2.0-py3-none-any.whl.zip --markdown 20230607/p/pi7db/1.4.3-2.0/diff.md --exclude *.pyd
+[2023-06-07 07:23:00] INFO root fetch - processPackages [findu]: executing diffoscope
+[2023-06-07 07:23:00] INFO root fetch - processPackages [findu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/findu-0.0.19.tar.gz tmp/findu-0.1.0.tar.gz --markdown 20230607/f/findu/0.0.19-0.1.0/diff.md --exclude *.pyd
+[2023-06-07 07:23:00] INFO root fetch - processPackages [pygem]: Downloading https://files.pythonhosted.org/packages/d4/f0/7b94eb482cc9eebd31d14a20fd0cdf84b2bfe3d6a499d5238bf0f9489e6e/pygem-0.2.1.tar.gz
+[2023-06-07 07:23:00] INFO root fetch - processPackages [odoo10-addon-stock-inventory-revaluation]: Downloading https://files.pythonhosted.org/packages/84/a3/cc1be7df3a5a3d48d5f5f23beadfe4833af20ca82a5608698e85c0de1f91/odoo10_addon_stock_inventory_revaluation-10.0.1.1.1.99.dev4-py2-none-any.whl
+[2023-06-07 07:23:00] INFO root fetch - processPackages [odoo12-addon-stock-inventory-revaluation]: Downloading https://files.pythonhosted.org/packages/eb/a2/2d64a8677e2c05743130834d2df59220359182699a09b0f226cd0f6c4749/odoo12_addon_stock_inventory_revaluation-12.0.1.0.2.99.dev5-py3-none-any.whl
+[2023-06-07 07:23:00] INFO root fetch - processPackages [inhandtest]: executing diffoscope
+[2023-06-07 07:23:00] INFO root fetch - processPackages [inhandtest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inhandtest-0.0.52.tar.gz tmp/inhandtest-0.0.53.tar.gz --markdown 20230607/i/inhandtest/0.0.52-0.0.53/diff.md --exclude *.pyd
+[2023-06-07 07:23:00] INFO root fetch - processPackages [pygem]: executing diffoscope
+[2023-06-07 07:23:00] INFO root fetch - processPackages [pygem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygem-0.2.0.tar.gz tmp/pygem-0.2.1.tar.gz --markdown 20230607/p/pygem/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-06-07 07:23:00] INFO root fetch - processPackages [odoo9-addon-stock-inventory-revaluation]: Downloading https://files.pythonhosted.org/packages/31/a4/b8fe9f716a6575b6e5eae67e19e769d6e4d207d9ac28164b248b87bd311b/odoo9_addon_stock_inventory_revaluation-9.0.1.0.0.99.dev9-py2-none-any.whl
+[2023-06-07 07:23:01] INFO root fetch - processPackages [odoo10-addon-stock-inventory-revaluation]: executing diffoscope
+[2023-06-07 07:23:01] INFO root fetch - processPackages [odoo10-addon-stock-inventory-revaluation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo10_addon_stock_inventory_revaluation-10.0.1.1.1.99.dev3-py2-none-any.whl.zip tmp/odoo10_addon_stock_inventory_revaluation-10.0.1.1.1.99.dev4-py2-none-any.whl.zip --markdown 20230607/o/odoo10-addon-stock-inventory-revaluation/10.0.1.1.1.99.dev3-10.0.1.1.1.99.dev4/diff.md --exclude *.pyd
+[2023-06-07 07:23:01] INFO root fetch - processPackages [odoo12-addon-stock-inventory-revaluation]: executing diffoscope
+[2023-06-07 07:23:01] INFO root fetch - processPackages [odoo12-addon-stock-inventory-revaluation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_stock_inventory_revaluation-12.0.1.0.2.99.dev4-py3-none-any.whl.zip tmp/odoo12_addon_stock_inventory_revaluation-12.0.1.0.2.99.dev5-py3-none-any.whl.zip --markdown 20230607/o/odoo12-addon-stock-inventory-revaluation/12.0.1.0.2.99.dev4-12.0.1.0.2.99.dev5/diff.md --exclude *.pyd
+[2023-06-07 07:23:01] INFO root fetch - processPackages [odoo8-addon-stock-inventory-revaluation]: Downloading https://files.pythonhosted.org/packages/a3/2b/34b7d03f2ec7fd25c43e2c1cb17ed51ae63576f813082fe3b5942dd20ea2/odoo8_addon_stock_inventory_revaluation-8.0.1.1.0.99.dev9-py2-none-any.whl
+[2023-06-07 07:23:01] INFO root fetch - processPackages [odoo9-addon-stock-inventory-revaluation]: executing diffoscope
+[2023-06-07 07:23:01] INFO root fetch - processPackages [odoo9-addon-stock-inventory-revaluation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo9_addon_stock_inventory_revaluation-9.0.1.0.0.99.dev8-py2-none-any.whl.zip tmp/odoo9_addon_stock_inventory_revaluation-9.0.1.0.0.99.dev9-py2-none-any.whl.zip --markdown 20230607/o/odoo9-addon-stock-inventory-revaluation/9.0.1.0.0.99.dev8-9.0.1.0.0.99.dev9/diff.md --exclude *.pyd
+[2023-06-07 07:23:01] INFO root fetch - processPackages [odoo8-addon-stock-inventory-revaluation]: executing diffoscope
+[2023-06-07 07:23:01] INFO root fetch - processPackages [odoo8-addon-stock-inventory-revaluation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_stock_inventory_revaluation-8.0.1.1.0.99.dev8-py2-none-any.whl.zip tmp/odoo8_addon_stock_inventory_revaluation-8.0.1.1.0.99.dev9-py2-none-any.whl.zip --markdown 20230607/o/odoo8-addon-stock-inventory-revaluation/8.0.1.1.0.99.dev8-8.0.1.1.0.99.dev9/diff.md --exclude *.pyd
+[2023-06-07 07:23:02] INFO root fetch - processPackages [pi7db]: Remove: archive file [/home/abi/fetcher/tmp/pi7db-1.4.3-py3-none-any.whl.zip]
+[2023-06-07 07:23:02] INFO root fetch - processPackages [pi7db]: Remove: archive file [/home/abi/fetcher/tmp/pi7db-2.0-py3-none-any.whl.zip]
+[2023-06-07 07:23:02] INFO root fetch - main [MainThread]: End processing [pi7db]: success
+[2023-06-07 07:23:02] INFO root fetch - processPackages [pygem]: Remove: archive file [/home/abi/fetcher/tmp/pygem-0.2.0.tar.gz]
+[2023-06-07 07:23:02] INFO root fetch - processPackages [pygem]: Remove: archive file [/home/abi/fetcher/tmp/pygem-0.2.1.tar.gz]
+[2023-06-07 07:23:02] INFO root fetch - main [MainThread]: End processing [pygem]: success
+[2023-06-07 07:23:02] INFO root fetch - processPackages [findu]: Remove: archive file [/home/abi/fetcher/tmp/findu-0.0.19.tar.gz]
+[2023-06-07 07:23:02] INFO root fetch - processPackages [findu]: Remove: archive file [/home/abi/fetcher/tmp/findu-0.1.0.tar.gz]
+[2023-06-07 07:23:02] INFO root fetch - main [MainThread]: End processing [findu]: success
+[2023-06-07 07:23:02] INFO root fetch - processPackages [odoo10-addon-stock-inventory-revaluation]: Remove: archive file [/home/abi/fetcher/tmp/odoo10_addon_stock_inventory_revaluation-10.0.1.1.1.99.dev3-py2-none-any.whl.zip]
+[2023-06-07 07:23:02] INFO root fetch - processPackages [odoo10-addon-stock-inventory-revaluation]: Remove: archive file [/home/abi/fetcher/tmp/odoo10_addon_stock_inventory_revaluation-10.0.1.1.1.99.dev4-py2-none-any.whl.zip]
+[2023-06-07 07:23:02] INFO root fetch - main [MainThread]: End processing [odoo10-addon-stock-inventory-revaluation]: success
+[2023-06-07 07:23:02] INFO root fetch - processPackages [odoo9-addon-stock-inventory-revaluation]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_stock_inventory_revaluation-9.0.1.0.0.99.dev8-py2-none-any.whl.zip]
+[2023-06-07 07:23:02] INFO root fetch - processPackages [odoo9-addon-stock-inventory-revaluation]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_stock_inventory_revaluation-9.0.1.0.0.99.dev9-py2-none-any.whl.zip]
+[2023-06-07 07:23:02] INFO root fetch - main [MainThread]: End processing [odoo9-addon-stock-inventory-revaluation]: success
+[2023-06-07 07:23:03] INFO root fetch - processPackages [odoo8-addon-stock-inventory-revaluation]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_stock_inventory_revaluation-8.0.1.1.0.99.dev8-py2-none-any.whl.zip]
+[2023-06-07 07:23:03] INFO root fetch - processPackages [odoo8-addon-stock-inventory-revaluation]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_stock_inventory_revaluation-8.0.1.1.0.99.dev9-py2-none-any.whl.zip]
+[2023-06-07 07:23:03] INFO root fetch - main [MainThread]: End processing [odoo8-addon-stock-inventory-revaluation]: success
+[2023-06-07 07:23:03] INFO root fetch - processPackages [odoo12-addon-stock-inventory-revaluation]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_stock_inventory_revaluation-12.0.1.0.2.99.dev4-py3-none-any.whl.zip]
+[2023-06-07 07:23:03] INFO root fetch - processPackages [odoo12-addon-stock-inventory-revaluation]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_stock_inventory_revaluation-12.0.1.0.2.99.dev5-py3-none-any.whl.zip]
+[2023-06-07 07:23:03] INFO root fetch - main [MainThread]: End processing [odoo12-addon-stock-inventory-revaluation]: success
+[2023-06-07 07:23:04] INFO root fetch - processPackages [inhandtest]: Remove: archive file [/home/abi/fetcher/tmp/inhandtest-0.0.52.tar.gz]
+[2023-06-07 07:23:04] INFO root fetch - processPackages [inhandtest]: Remove: archive file [/home/abi/fetcher/tmp/inhandtest-0.0.53.tar.gz]
+[2023-06-07 07:23:04] INFO root fetch - main [MainThread]: End processing [inhandtest]: success
+[2023-06-07 07:23:04] INFO root fetch - main [MainThread]: Store serial: [18403062]
