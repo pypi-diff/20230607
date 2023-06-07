@@ -5765,3 +5765,36 @@
 [2023-06-07 03:16:25] INFO root fetch - processPackages [libsbmlnetworkeditor]: Remove: archive file [/home/abi/fetcher/tmp/libsbmlnetworkeditor-0.0.4-cp39-cp39-macosx_11_0_universal2.whl.zip]
 [2023-06-07 03:16:25] INFO root fetch - main [MainThread]: End processing [libsbmlnetworkeditor]: success
 [2023-06-07 03:16:25] INFO root fetch - main [MainThread]: Store serial: [18400326]
+[2023-06-07 03:21:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18400326]
+[2023-06-07 03:21:34] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-07 03:21:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nmdc-submission-schema
+[2023-06-07 03:21:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pepperize.cdk-organizations
+[2023-06-07 03:21:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-hugo-deploy
+[2023-06-07 03:21:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: school-grader
+[2023-06-07 03:21:34] WARNING root fetch - processPackages [school-grader]: Skipping, unable to determine old version
+[2023-06-07 03:21:34] INFO root fetch - processPackages [nmdc-submission-schema]: New version: [7.6.0] Old Version: [1.0.2]
+[2023-06-07 03:21:34] INFO root fetch - main [MainThread]: End processing [school-grader] error
+[2023-06-07 03:21:34] INFO root fetch - processPackages [cdk-hugo-deploy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-07 03:21:34] INFO root fetch - processPackages [pepperize.cdk-organizations]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-06-07 03:21:34] INFO root fetch - processPackages [cdk-hugo-deploy]: Downloading https://files.pythonhosted.org/packages/33/a0/02c1c61c08488072b10045f13351cac91a6dc5b3b289a3a38fb162ac9cfa/cdk-hugo-deploy-0.0.98.tar.gz
+[2023-06-07 03:21:34] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/c4/ec/fa2c14031b7b9ce22e4b044c652dd13a1a81769141fcd90e55c9eeb24d66/pepperize.cdk-organizations-0.7.98.tar.gz
+[2023-06-07 03:21:35] INFO root fetch - processPackages [nmdc-submission-schema]: Downloading https://files.pythonhosted.org/packages/6b/e1/fd5751f39fedad98ec94460996cbf0e6c327b0d9c57919e7009834dd1a0d/nmdc_submission_schema-1.0.2.tar.gz
+[2023-06-07 03:21:35] INFO root fetch - processPackages [cdk-hugo-deploy]: Downloading https://files.pythonhosted.org/packages/69/65/61cf4e2d01ce9f811649f2d5a9b579e9603a4b6257774c90a60bc13109ee/cdk-hugo-deploy-0.0.99.tar.gz
+[2023-06-07 03:21:35] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/12/45/1106cc30844f7f4d96f7898a6ef3647d24a597c297bab995920a5915750e/pepperize.cdk-organizations-0.7.99.tar.gz
+[2023-06-07 03:21:35] INFO root fetch - processPackages [cdk-hugo-deploy]: executing diffoscope
+[2023-06-07 03:21:35] INFO root fetch - processPackages [cdk-hugo-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-hugo-deploy-0.0.98.tar.gz tmp/cdk-hugo-deploy-0.0.99.tar.gz --markdown 20230607/c/cdk-hugo-deploy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-07 03:21:35] INFO root fetch - processPackages [pepperize.cdk-organizations]: executing diffoscope
+[2023-06-07 03:21:35] INFO root fetch - processPackages [pepperize.cdk-organizations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-organizations-0.7.98.tar.gz tmp/pepperize.cdk-organizations-0.7.99.tar.gz --markdown 20230607/p/pepperize.cdk-organizations/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-06-07 03:21:35] INFO root fetch - processPackages [nmdc-submission-schema]: Downloading https://files.pythonhosted.org/packages/2b/27/5ae3513d8f65445a2bf44ee6f755138a0d0340ed805888759b4253906a7d/nmdc_submission_schema-7.6.0.tar.gz
+[2023-06-07 03:21:35] INFO root fetch - processPackages [nmdc-submission-schema]: executing diffoscope
+[2023-06-07 03:21:35] INFO root fetch - processPackages [nmdc-submission-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nmdc_submission_schema-1.0.2.tar.gz tmp/nmdc_submission_schema-7.6.0.tar.gz --markdown 20230607/n/nmdc-submission-schema/1.0.2-7.6.0/diff.md --exclude *.pyd
+[2023-06-07 03:21:36] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.98.tar.gz]
+[2023-06-07 03:21:36] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.99.tar.gz]
+[2023-06-07 03:21:36] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-organizations]: success
+[2023-06-07 03:21:43] INFO root fetch - processPackages [nmdc-submission-schema]: Remove: archive file [/home/abi/fetcher/tmp/nmdc_submission_schema-1.0.2.tar.gz]
+[2023-06-07 03:21:43] INFO root fetch - processPackages [nmdc-submission-schema]: Remove: archive file [/home/abi/fetcher/tmp/nmdc_submission_schema-7.6.0.tar.gz]
+[2023-06-07 03:21:43] INFO root fetch - main [MainThread]: End processing [nmdc-submission-schema]: success
+[2023-06-07 03:22:29] INFO root fetch - processPackages [cdk-hugo-deploy]: Remove: archive file [/home/abi/fetcher/tmp/cdk-hugo-deploy-0.0.98.tar.gz]
+[2023-06-07 03:22:29] INFO root fetch - processPackages [cdk-hugo-deploy]: Remove: archive file [/home/abi/fetcher/tmp/cdk-hugo-deploy-0.0.99.tar.gz]
+[2023-06-07 03:22:29] INFO root fetch - main [MainThread]: End processing [cdk-hugo-deploy]: success
+[2023-06-07 03:22:29] INFO root fetch - main [MainThread]: Store serial: [18400340]
