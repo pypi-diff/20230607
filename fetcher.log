@@ -11068,3 +11068,94 @@ AssertionError: tmp/odoo_addon_crm_lead_firstname-16.0.1.0.1-py3-none-any.whl.zi
 [2023-06-07 05:18:19] INFO root fetch - processPackages [utah-project]: Remove: archive file [/home/abi/fetcher/tmp/utah_project-1.5.0-py3-none-any.whl.zip]
 [2023-06-07 05:18:19] INFO root fetch - main [MainThread]: End processing [utah-project]: success
 [2023-06-07 05:18:19] INFO root fetch - main [MainThread]: Store serial: [18402230]
+[2023-06-07 05:23:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18402230]
+[2023-06-07 05:23:28] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-07 05:23:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: paper-qa
+[2023-06-07 05:23:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: matrixlib-jfj
+[2023-06-07 05:23:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spvn
+[2023-06-07 05:23:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mvtech-plugin
+[2023-06-07 05:23:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pysimflow
+[2023-06-07 05:23:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sfpl
+[2023-06-07 05:23:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pylychee
+[2023-06-07 05:23:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mlplatformutils
+[2023-06-07 05:23:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nonebot-plugin-access-control
+[2023-06-07 05:23:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mlplatformutils
+[2023-06-07 05:23:28] INFO root fetch - processPackages [mvtech-plugin]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-06-07 05:23:28] INFO root fetch - processPackages [mlplatformutils]: New version: [0.9.1] Old Version: [0.9.0.3]
+[2023-06-07 05:23:28] INFO root fetch - processPackages [mlplatformutils]: New version: [0.9.1] Old Version: [0.9.0.3]
+[2023-06-07 05:23:28] INFO root fetch - processPackages [pylychee]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-07 05:23:28] INFO root fetch - processPackages [sfpl]: New version: [1.5.4] Old Version: [1.5.3]
+[2023-06-07 05:23:28] INFO root fetch - processPackages [matrixlib-jfj]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-07 05:23:28] INFO root fetch - processPackages [pysimflow]: New version: [0.0.46] Old Version: [0.0.45]
+[2023-06-07 05:23:28] INFO root fetch - processPackages [paper-qa]: New version: [2.1.1] Old Version: [2.1.0]
+[2023-06-07 05:23:28] INFO root fetch - processPackages [spvn]: New version: [0.1.1b1] Old Version: [0.1.0]
+[2023-06-07 05:23:28] INFO root fetch - processPackages [nonebot-plugin-access-control]: New version: [0.5.3.post1] Old Version: [0.5.3]
+[2023-06-07 05:23:28] INFO root fetch - processPackages [mlplatformutils]: Downloading https://files.pythonhosted.org/packages/01/28/561acdbcbf8719d0c820c43cdc1659a764869b8237785e0a997210f63542/mlplatformutils-0.9.0.3.tar.gz
+[2023-06-07 05:23:28] INFO root fetch - processPackages [sfpl]: Downloading https://files.pythonhosted.org/packages/cb/36/315a9437faeb27bb31f911d008131bc21e08b01e4dabcf45bfaf3cc48ba0/sfpl-1.5.3-py3-none-any.whl
+[2023-06-07 05:23:28] INFO root fetch - processPackages [mvtech-plugin]: Downloading https://files.pythonhosted.org/packages/12/25/0d184a7e5b0b7a3186ac743dfc654282e3fdddb7cb7e802dd4e18d7a53a9/mvtech-plugin-1.0.4.tar.gz
+[2023-06-07 05:23:28] INFO root fetch - processPackages [mlplatformutils]: Downloading https://files.pythonhosted.org/packages/01/28/561acdbcbf8719d0c820c43cdc1659a764869b8237785e0a997210f63542/mlplatformutils-0.9.0.3.tar.gz
+[2023-06-07 05:23:28] INFO root fetch - processPackages [matrixlib-jfj]: Downloading https://files.pythonhosted.org/packages/a5/a3/ab0d1e54a9a9e55cd562af912f3932cf15646d14e0578dd5e2ed200d88be/matrixlib_jfj-0.0.4.tar.gz
+[2023-06-07 05:23:28] INFO root fetch - processPackages [pysimflow]: Downloading https://files.pythonhosted.org/packages/37/e7/ecc83dabf916288d9231f2b58061b03b203f92e50e8d4f949db6d16837b0/pysimflow-0.0.45.tar.gz
+[2023-06-07 05:23:28] INFO root fetch - processPackages [pylychee]: Downloading https://files.pythonhosted.org/packages/f0/40/b7fde659ba1b29e442fb1d0e0a3b4ae3f36583be1c6b06336eb513db938f/pylychee-0.0.3.tar.gz
+[2023-06-07 05:23:28] INFO root fetch - processPackages [spvn]: Downloading https://files.pythonhosted.org/packages/b5/9b/a4a77520609799eb40df9646330095603aa0e0c93c8a9294fae86b69a128/spvn-0.1.0.tar.gz
+[2023-06-07 05:23:29] INFO root fetch - processPackages [nonebot-plugin-access-control]: Downloading https://files.pythonhosted.org/packages/46/5b/7e585ed5044e9b69121ccdb86174f4f9dee4ff39e8afa722108b9134a4cc/nonebot_plugin_access_control-0.5.3.tar.gz
+[2023-06-07 05:23:29] INFO root fetch - processPackages [paper-qa]: Downloading https://files.pythonhosted.org/packages/be/6c/ab423f4359d4702e06e7a6af36a7d733d57c27f925a362bfb5a8b7ce533d/paper-qa-2.1.0.tar.gz
+[2023-06-07 05:23:29] INFO root fetch - processPackages [sfpl]: Downloading https://files.pythonhosted.org/packages/38/27/d359250581a308c08f5ca8a46c6f753772eace3e12e4efb5079efb3a0ab3/sfpl-1.5.4-py3-none-any.whl
+[2023-06-07 05:23:29] INFO root fetch - processPackages [mlplatformutils]: Downloading https://files.pythonhosted.org/packages/bc/c0/62a54ff29ae0c97eefbdab6c9cf17304f1160709cca7bc85eaa7e53f6d45/mlplatformutils-0.9.1.tar.gz
+[2023-06-07 05:23:29] INFO root fetch - processPackages [pysimflow]: Downloading https://files.pythonhosted.org/packages/63/80/c0e9fd82855383de0b59b5398801f89eea2a974b5c9f962b5dde610953ad/pysimflow-0.0.46.tar.gz
+[2023-06-07 05:23:29] INFO root fetch - processPackages [mlplatformutils]: Downloading https://files.pythonhosted.org/packages/bc/c0/62a54ff29ae0c97eefbdab6c9cf17304f1160709cca7bc85eaa7e53f6d45/mlplatformutils-0.9.1.tar.gz
+[2023-06-07 05:23:29] INFO root fetch - processPackages [matrixlib-jfj]: Downloading https://files.pythonhosted.org/packages/a3/6d/bf57246b62347a1fd6ce12db0ba797f3c6f860d5e85761d6bc9a64cf46a2/matrixlib_jfj-0.0.5.tar.gz
+[2023-06-07 05:23:29] INFO root fetch - processPackages [mvtech-plugin]: Downloading https://files.pythonhosted.org/packages/1b/ca/26f68181fa58b7dc04492fc33c530fccce097345d8591cbc6a018aac9234/mvtech-plugin-1.0.5.tar.gz
+[2023-06-07 05:23:29] INFO root fetch - processPackages [sfpl]: executing diffoscope
+[2023-06-07 05:23:29] INFO root fetch - processPackages [sfpl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sfpl-1.5.3-py3-none-any.whl.zip tmp/sfpl-1.5.4-py3-none-any.whl.zip --markdown 20230607/s/sfpl/1.5.3-1.5.4/diff.md --exclude *.pyd
+[2023-06-07 05:23:29] INFO root fetch - processPackages [spvn]: Downloading https://files.pythonhosted.org/packages/85/2b/24b99a3b08ca4de65be95792c4d55549fc841bb2068a81d3a007e697084a/spvn-0.1.1b1.tar.gz
+[2023-06-07 05:23:29] INFO root fetch - processPackages [pylychee]: Downloading https://files.pythonhosted.org/packages/f1/9c/34f6915415a5435376b164c69d8fdf16da7d1a7365bd5634874cceb3cbd5/pylychee-0.0.4.tar.gz
+[2023-06-07 05:23:29] INFO root fetch - processPackages [mlplatformutils]: executing diffoscope
+[2023-06-07 05:23:29] INFO root fetch - processPackages [mlplatformutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlplatformutils-0.9.0.3.tar.gz tmp/mlplatformutils-0.9.1.tar.gz --markdown 20230607/m/mlplatformutils/0.9.0.3-0.9.1/diff.md --exclude *.pyd
+[2023-06-07 05:23:29] INFO root fetch - processPackages [pysimflow]: executing diffoscope
+[2023-06-07 05:23:29] INFO root fetch - processPackages [pysimflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysimflow-0.0.45.tar.gz tmp/pysimflow-0.0.46.tar.gz --markdown 20230607/p/pysimflow/0.0.45-0.0.46/diff.md --exclude *.pyd
+[2023-06-07 05:23:29] INFO root fetch - processPackages [mlplatformutils]: executing diffoscope
+[2023-06-07 05:23:29] INFO root fetch - processPackages [mlplatformutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlplatformutils-0.9.0.3.tar.gz tmp/mlplatformutils-0.9.1.tar.gz --markdown 20230607/m/mlplatformutils/0.9.0.3-0.9.1/diff.md --exclude *.pyd
+[2023-06-07 05:23:29] INFO root fetch - processPackages [paper-qa]: Downloading https://files.pythonhosted.org/packages/aa/f7/24da0f0fc2fa096ce55bb724c4e7b2479c78559f11f234c6e95126d5c6b1/paper-qa-2.1.1.tar.gz
+[2023-06-07 05:23:29] INFO root fetch - processPackages [spvn]: executing diffoscope
+[2023-06-07 05:23:29] INFO root fetch - processPackages [spvn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spvn-0.1.0.tar.gz tmp/spvn-0.1.1b1.tar.gz --markdown 20230607/s/spvn/0.1.0-0.1.1b1/diff.md --exclude *.pyd
+[2023-06-07 05:23:29] INFO root fetch - processPackages [mvtech-plugin]: executing diffoscope
+[2023-06-07 05:23:29] INFO root fetch - processPackages [mvtech-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mvtech-plugin-1.0.4.tar.gz tmp/mvtech-plugin-1.0.5.tar.gz --markdown 20230607/m/mvtech-plugin/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-06-07 05:23:29] INFO root fetch - processPackages [pylychee]: executing diffoscope
+[2023-06-07 05:23:29] INFO root fetch - processPackages [pylychee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylychee-0.0.3.tar.gz tmp/pylychee-0.0.4.tar.gz --markdown 20230607/p/pylychee/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-07 05:23:29] INFO root fetch - processPackages [matrixlib-jfj]: executing diffoscope
+[2023-06-07 05:23:29] INFO root fetch - processPackages [matrixlib-jfj]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matrixlib_jfj-0.0.4.tar.gz tmp/matrixlib_jfj-0.0.5.tar.gz --markdown 20230607/m/matrixlib-jfj/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-07 05:23:29] INFO root fetch - processPackages [nonebot-plugin-access-control]: Downloading https://files.pythonhosted.org/packages/6e/45/8b141b3a6bab0f5227ecef7c52e27dbca1a787f79aa4af6cf39e9a3470ab/nonebot_plugin_access_control-0.5.3.post1.tar.gz
+[2023-06-07 05:23:29] INFO root fetch - processPackages [paper-qa]: executing diffoscope
+[2023-06-07 05:23:29] INFO root fetch - processPackages [paper-qa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paper-qa-2.1.0.tar.gz tmp/paper-qa-2.1.1.tar.gz --markdown 20230607/p/paper-qa/2.1.0-2.1.1/diff.md --exclude *.pyd
+[2023-06-07 05:23:29] INFO root fetch - processPackages [nonebot-plugin-access-control]: executing diffoscope
+[2023-06-07 05:23:29] INFO root fetch - processPackages [nonebot-plugin-access-control]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_access_control-0.5.3.tar.gz tmp/nonebot_plugin_access_control-0.5.3.post1.tar.gz --markdown 20230607/n/nonebot-plugin-access-control/0.5.3-0.5.3.post1/diff.md --exclude *.pyd
+[2023-06-07 05:23:30] INFO root fetch - processPackages [sfpl]: Remove: archive file [/home/abi/fetcher/tmp/sfpl-1.5.3-py3-none-any.whl.zip]
+[2023-06-07 05:23:30] INFO root fetch - processPackages [sfpl]: Remove: archive file [/home/abi/fetcher/tmp/sfpl-1.5.4-py3-none-any.whl.zip]
+[2023-06-07 05:23:30] INFO root fetch - main [MainThread]: End processing [sfpl]: success
+[2023-06-07 05:23:30] INFO root fetch - processPackages [pysimflow]: Remove: archive file [/home/abi/fetcher/tmp/pysimflow-0.0.45.tar.gz]
+[2023-06-07 05:23:30] INFO root fetch - processPackages [pysimflow]: Remove: archive file [/home/abi/fetcher/tmp/pysimflow-0.0.46.tar.gz]
+[2023-06-07 05:23:30] INFO root fetch - main [MainThread]: End processing [pysimflow]: success
+[2023-06-07 05:23:30] INFO root fetch - processPackages [spvn]: Remove: archive file [/home/abi/fetcher/tmp/spvn-0.1.0.tar.gz]
+[2023-06-07 05:23:30] INFO root fetch - processPackages [spvn]: Remove: archive file [/home/abi/fetcher/tmp/spvn-0.1.1b1.tar.gz]
+[2023-06-07 05:23:30] INFO root fetch - main [MainThread]: End processing [spvn]: success
+[2023-06-07 05:23:30] INFO root fetch - processPackages [mlplatformutils]: Remove: archive file [/home/abi/fetcher/tmp/mlplatformutils-0.9.0.3.tar.gz]
+[2023-06-07 05:23:30] INFO root fetch - processPackages [mlplatformutils]: Remove: archive file [/home/abi/fetcher/tmp/mlplatformutils-0.9.1.tar.gz]
+[2023-06-07 05:23:30] INFO root fetch - main [MainThread]: End processing [mlplatformutils]: success
+[2023-06-07 05:23:31] INFO root fetch - main [MainThread]: End processing [mlplatformutils]: success
+[2023-06-07 05:23:31] INFO root fetch - processPackages [pylychee]: Remove: archive file [/home/abi/fetcher/tmp/pylychee-0.0.3.tar.gz]
+[2023-06-07 05:23:31] INFO root fetch - processPackages [pylychee]: Remove: archive file [/home/abi/fetcher/tmp/pylychee-0.0.4.tar.gz]
+[2023-06-07 05:23:31] INFO root fetch - main [MainThread]: End processing [pylychee]: success
+[2023-06-07 05:23:31] INFO root fetch - processPackages [matrixlib-jfj]: Remove: archive file [/home/abi/fetcher/tmp/matrixlib_jfj-0.0.4.tar.gz]
+[2023-06-07 05:23:31] INFO root fetch - processPackages [matrixlib-jfj]: Remove: archive file [/home/abi/fetcher/tmp/matrixlib_jfj-0.0.5.tar.gz]
+[2023-06-07 05:23:31] INFO root fetch - main [MainThread]: End processing [matrixlib-jfj]: success
+[2023-06-07 05:23:31] INFO root fetch - processPackages [mvtech-plugin]: Remove: archive file [/home/abi/fetcher/tmp/mvtech-plugin-1.0.4.tar.gz]
+[2023-06-07 05:23:31] INFO root fetch - processPackages [mvtech-plugin]: Remove: archive file [/home/abi/fetcher/tmp/mvtech-plugin-1.0.5.tar.gz]
+[2023-06-07 05:23:31] INFO root fetch - main [MainThread]: End processing [mvtech-plugin]: success
+[2023-06-07 05:23:31] INFO root fetch - processPackages [paper-qa]: Remove: archive file [/home/abi/fetcher/tmp/paper-qa-2.1.0.tar.gz]
+[2023-06-07 05:23:31] INFO root fetch - processPackages [paper-qa]: Remove: archive file [/home/abi/fetcher/tmp/paper-qa-2.1.1.tar.gz]
+[2023-06-07 05:23:31] INFO root fetch - main [MainThread]: End processing [paper-qa]: success
+[2023-06-07 05:23:32] INFO root fetch - processPackages [nonebot-plugin-access-control]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_access_control-0.5.3.tar.gz]
+[2023-06-07 05:23:32] INFO root fetch - processPackages [nonebot-plugin-access-control]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_access_control-0.5.3.post1.tar.gz]
+[2023-06-07 05:23:32] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-access-control]: success
+[2023-06-07 05:23:32] INFO root fetch - main [MainThread]: Store serial: [18402260]
