@@ -11720,3 +11720,27 @@ AssertionError: tmp/odoo_addon_crm_lead_firstname-16.0.1.0.1-py3-none-any.whl.zi
 [2023-06-07 05:44:33] INFO root fetch - processPackages [duckdb]: Remove: archive file [/home/abi/fetcher/tmp/duckdb-0.8.1.dev341-cp36-cp36m-win_amd64.whl.zip]
 [2023-06-07 05:44:33] INFO root fetch - main [MainThread]: End processing [duckdb]: success
 [2023-06-07 05:44:33] INFO root fetch - main [MainThread]: Store serial: [18402413]
+[2023-06-07 05:49:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18402413]
+[2023-06-07 05:49:42] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-07 05:49:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: certbot-dns-multi
+[2023-06-07 05:49:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gravitorch
+[2023-06-07 05:49:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: synonym-custom
+[2023-06-07 05:49:42] WARNING root fetch - processPackages [synonym-custom]: Skipping, unable to determine old version
+[2023-06-07 05:49:42] INFO root fetch - processPackages [gravitorch]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-07 05:49:42] INFO root fetch - main [MainThread]: End processing [synonym-custom] error
+[2023-06-07 05:49:42] INFO root fetch - processPackages [certbot-dns-multi]: New version: [4.9.1.dev0] Old Version: [4.9.1]
+[2023-06-07 05:49:42] INFO root fetch - processPackages [certbot-dns-multi]: Downloading https://files.pythonhosted.org/packages/cc/f4/18f66a710e1ecf267ee6643f474609f74951c84f127f2a7bb12646e8a3aa/certbot-dns-multi-4.9.1.tar.gz
+[2023-06-07 05:49:42] INFO root fetch - processPackages [gravitorch]: Downloading https://files.pythonhosted.org/packages/3c/eb/d596884cdb31e5198aa387878eb8ef895802e567d7d679b97f4a406e21ae/gravitorch-0.0.8.tar.gz
+[2023-06-07 05:49:42] INFO root fetch - processPackages [certbot-dns-multi]: Downloading https://files.pythonhosted.org/packages/0b/db/5ad2d4770403ae3a748f7a984f6c03cb6dc95ab6f3302589fcda0d427b30/certbot-dns-multi-4.9.1.dev0.tar.gz
+[2023-06-07 05:49:42] INFO root fetch - processPackages [certbot-dns-multi]: executing diffoscope
+[2023-06-07 05:49:42] INFO root fetch - processPackages [certbot-dns-multi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/certbot-dns-multi-4.9.1.tar.gz tmp/certbot-dns-multi-4.9.1.dev0.tar.gz --markdown 20230607/c/certbot-dns-multi/4.9.1-4.9.1.dev0/diff.md --exclude *.pyd
+[2023-06-07 05:49:42] INFO root fetch - processPackages [gravitorch]: Downloading https://files.pythonhosted.org/packages/d8/af/12bd29b316e1abfd4a89affc84ab78a2b03aaa0ebdf20315c6dc8c4c3886/gravitorch-0.0.9.tar.gz
+[2023-06-07 05:49:43] INFO root fetch - processPackages [gravitorch]: executing diffoscope
+[2023-06-07 05:49:43] INFO root fetch - processPackages [gravitorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gravitorch-0.0.8.tar.gz tmp/gravitorch-0.0.9.tar.gz --markdown 20230607/g/gravitorch/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-07 05:49:43] INFO root fetch - processPackages [certbot-dns-multi]: Remove: archive file [/home/abi/fetcher/tmp/certbot-dns-multi-4.9.1.tar.gz]
+[2023-06-07 05:49:43] INFO root fetch - processPackages [certbot-dns-multi]: Remove: archive file [/home/abi/fetcher/tmp/certbot-dns-multi-4.9.1.dev0.tar.gz]
+[2023-06-07 05:49:43] INFO root fetch - main [MainThread]: End processing [certbot-dns-multi]: success
+[2023-06-07 05:49:46] INFO root fetch - processPackages [gravitorch]: Remove: archive file [/home/abi/fetcher/tmp/gravitorch-0.0.8.tar.gz]
+[2023-06-07 05:49:46] INFO root fetch - processPackages [gravitorch]: Remove: archive file [/home/abi/fetcher/tmp/gravitorch-0.0.9.tar.gz]
+[2023-06-07 05:49:46] INFO root fetch - main [MainThread]: End processing [gravitorch]: success
+[2023-06-07 05:49:46] INFO root fetch - main [MainThread]: Store serial: [18402436]
