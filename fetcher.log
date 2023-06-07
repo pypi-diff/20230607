@@ -21302,3 +21302,140 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-07 12:50:53] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-2.3.99.tar.gz]
 [2023-06-07 12:50:53] INFO root fetch - main [MainThread]: End processing [checkov]: success
 [2023-06-07 12:50:53] INFO root fetch - main [MainThread]: Store serial: [18406710]
+[2023-06-07 12:55:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18406710]
+[2023-06-07 12:56:03] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-06-07 12:56:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: junit-to-md-py
+[2023-06-07 12:56:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spaceone-core
+[2023-06-07 12:56:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pg-bulk-ingest
+[2023-06-07 12:56:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: panda-client-light
+[2023-06-07 12:56:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: panda-client
+[2023-06-07 12:56:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jinja2-simple-tags
+[2023-06-07 12:56:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cognica
+[2023-06-07 12:56:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: django-gisserver
+[2023-06-07 12:56:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addon-l10n-ro-config
+[2023-06-07 12:56:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: multi-channel-pytorch
+[2023-06-07 12:56:03] INFO root fetch - processPackages [junit-to-md-py]: New version: [0.1.3] Old Version: [0.1.1]
+[2023-06-07 12:56:03] INFO root fetch - processPackages [panda-client-light]: New version: [1.5.58] Old Version: [1.5.57]
+[2023-06-07 12:56:03] INFO root fetch - processPackages [panda-client]: New version: [1.5.9] Old Version: [1.5.8]
+[2023-06-07 12:56:03] INFO root fetch - processPackages [pg-bulk-ingest]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-07 12:56:03] INFO root fetch - processPackages [cognica]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-07 12:56:03] INFO root fetch - processPackages [jinja2-simple-tags]: New version: [0.5.0rc1] Old Version: [0.5.0]
+[2023-06-07 12:56:03] INFO root fetch - processPackages [odoo-addon-l10n-ro-config]: New version: [16.0.1.1.0.1] Old Version: [16.0.1.1.0]
+[2023-06-07 12:56:03] INFO root fetch - processPackages [multi-channel-pytorch]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-07 12:56:03] INFO root fetch - processPackages [spaceone-core]: New version: [1.9.7rc1] Old Version: [1.9.7.1]
+[2023-06-07 12:56:03] INFO root fetch - processPackages [django-gisserver]: New version: [1.2.6] Old Version: [1.2.5]
+[2023-06-07 12:56:03] INFO root fetch - processPackages [cognica]: Downloading https://files.pythonhosted.org/packages/7a/f0/47c9d13c26e14552e349b0e60a8dd74336c433882a50b5804cf155412bb5/cognica-0.1.4.tar.gz
+[2023-06-07 12:56:03] INFO root fetch - processPackages [spaceone-core]: Downloading https://files.pythonhosted.org/packages/1f/6d/5cbc0264b2c1dd5f3ae609e7b61b5c5c8d54710e85e098c13db4552af976/spaceone_core-1.9.7.1-py3-none-any.whl
+[2023-06-07 12:56:03] INFO root fetch - processPackages [junit-to-md-py]: Downloading https://files.pythonhosted.org/packages/37/e9/6c4cdd117cb9cba5be1f4953fee98d6e75bb8aaebffa323096818065901b/junit-to-md-py-0.1.1.tar.gz
+[2023-06-07 12:56:03] INFO root fetch - processPackages [jinja2-simple-tags]: Downloading https://files.pythonhosted.org/packages/9f/10/71639f4f0bba4b7d5db9f18bb70f56ed9a6e9ad7973754af350091676d75/jinja2-simple-tags-0.5.0.tar.gz
+[2023-06-07 12:56:03] INFO root fetch - processPackages [panda-client-light]: Downloading https://files.pythonhosted.org/packages/2b/d8/f8564c200d6d3b74d2d40059345faaeb8616024e0e872a5f3f21172b283c/panda_client_light-1.5.57-py2.py3-none-any.whl
+[2023-06-07 12:56:03] INFO root fetch - processPackages [multi-channel-pytorch]: Downloading https://files.pythonhosted.org/packages/48/1b/d0191091249e3b7b688d7ba2e5928bf53304cea8fd8e1c17084b5c6991c8/multi_channel_pytorch-0.1.0.tar.gz
+[2023-06-07 12:56:03] INFO root fetch - processPackages [panda-client]: Downloading https://files.pythonhosted.org/packages/42/68/efaacc907591b37293622e8015fd2f5b8cd84e52f4eebc31de3da9209541/panda-client-1.5.8.tar.gz
+[2023-06-07 12:56:03] INFO root fetch - processPackages [odoo-addon-l10n-ro-config]: Downloading https://files.pythonhosted.org/packages/8f/38/46ef5c06fac0a6d814619fb00f22a0af0723845f67d290e4f11a04651f60/odoo_addon_l10n_ro_config-16.0.1.1.0-py3-none-any.whl
+[2023-06-07 12:56:03] INFO root fetch - processPackages [pg-bulk-ingest]: Downloading https://files.pythonhosted.org/packages/e7/4c/79370bd20a6c816fde6c364043a829acf317c47786fa13893e26ccd005f6/pg_bulk_ingest-0.0.8.tar.gz
+[2023-06-07 12:56:03] INFO root fetch - processPackages [spaceone-core]: Downloading https://files.pythonhosted.org/packages/2f/7f/98bd3e0e1e14ec1a59e8d305c033978db48833658a8f1754c0458e77a3c4/spaceone_core-1.9.7rc1-py3-none-any.whl
+[2023-06-07 12:56:03] INFO root fetch - processPackages [django-gisserver]: Downloading https://files.pythonhosted.org/packages/53/86/2185f5132be249dca931372eb01136ad393b1a414fd36d4e2975f76c44a4/django-gisserver-1.2.5.tar.gz
+[2023-06-07 12:56:03] INFO root fetch - processPackages [cognica]: Downloading https://files.pythonhosted.org/packages/2f/f5/95b5ab56741f40f1c4a41dc48b1555915d28998e8b9616d0bc9a90bc73e9/cognica-0.1.5.tar.gz
+[2023-06-07 12:56:03] INFO root fetch - processPackages [spaceone-core]: executing diffoscope
+[2023-06-07 12:56:03] INFO root fetch - processPackages [spaceone-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone_core-1.9.7.1-py3-none-any.whl.zip tmp/spaceone_core-1.9.7rc1-py3-none-any.whl.zip --markdown 20230607/s/spaceone-core/1.9.7.1-1.9.7rc1/diff.md --exclude *.pyd
+[2023-06-07 12:56:03] INFO root fetch - processPackages [junit-to-md-py]: Downloading https://files.pythonhosted.org/packages/b0/6a/120255d5e4dcf277964cf5f005129ff78bcbd1d0677f94f5bc9266eebb9c/junit-to-md-py-0.1.3.tar.gz
+[2023-06-07 12:56:03] INFO root fetch - processPackages [jinja2-simple-tags]: Downloading https://files.pythonhosted.org/packages/ed/a1/d621d87a67500dc24ab1c547936d8ea8775b95e4c50c9e0c9713d0aba9da/jinja2-simple-tags-0.5.0rc1.tar.gz
+[2023-06-07 12:56:03] INFO root fetch - processPackages [multi-channel-pytorch]: Downloading https://files.pythonhosted.org/packages/0f/19/348f6cfac717a71c9e381463432ef189a8bbdd81ce87c8bb8095d46b2918/multi_channel_pytorch-0.2.0.tar.gz
+[2023-06-07 12:56:03] INFO root fetch - processPackages [panda-client-light]: Downloading https://files.pythonhosted.org/packages/49/53/3f99ebd4a09d5c3329560e59580923538e05c2cb5b8171f49cf1608c6250/panda_client_light-1.5.58-py2.py3-none-any.whl
+[2023-06-07 12:56:03] INFO root fetch - processPackages [cognica]: executing diffoscope
+[2023-06-07 12:56:03] INFO root fetch - processPackages [cognica]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognica-0.1.4.tar.gz tmp/cognica-0.1.5.tar.gz --markdown 20230607/c/cognica/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-07 12:56:03] INFO root fetch - processPackages [junit-to-md-py]: executing diffoscope
+[2023-06-07 12:56:03] INFO root fetch - processPackages [junit-to-md-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/junit-to-md-py-0.1.1.tar.gz tmp/junit-to-md-py-0.1.3.tar.gz --markdown 20230607/j/junit-to-md-py/0.1.1-0.1.3/diff.md --exclude *.pyd
+[2023-06-07 12:56:03] INFO root fetch - processPackages [jinja2-simple-tags]: executing diffoscope
+[2023-06-07 12:56:03] INFO root fetch - processPackages [jinja2-simple-tags]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jinja2-simple-tags-0.5.0.tar.gz tmp/jinja2-simple-tags-0.5.0rc1.tar.gz --markdown 20230607/j/jinja2-simple-tags/0.5.0-0.5.0rc1/diff.md --exclude *.pyd
+[2023-06-07 12:56:03] INFO root fetch - processPackages [odoo-addon-l10n-ro-config]: Downloading https://files.pythonhosted.org/packages/59/c7/92b9170cfa30043c9dab0594f9a1e23655030a06d0214b3d29cefa561def/odoo_addon_l10n_ro_config-16.0.1.1.0.1-py3-none-any.whl
+[2023-06-07 12:56:03] INFO root fetch - processPackages [django-gisserver]: Downloading https://files.pythonhosted.org/packages/51/99/4b21b072ab9748181910b6e7164559e7e112ce9455f9acd7f013884c9b1f/django-gisserver-1.2.6.tar.gz
+[2023-06-07 12:56:03] INFO root fetch - processPackages [pg-bulk-ingest]: Downloading https://files.pythonhosted.org/packages/db/bb/df7525f74975aacf76789085425bed157db43bb21c9d69e39c9e4bedd944/pg_bulk_ingest-0.0.9.tar.gz
+[2023-06-07 12:56:03] INFO root fetch - processPackages [panda-client]: Downloading https://files.pythonhosted.org/packages/d8/3d/b204abdb970252a362db69aa6fbae64332235ba22a575e3aac779564c21c/panda-client-1.5.9.tar.gz
+[2023-06-07 12:56:03] INFO root fetch - processPackages [multi-channel-pytorch]: executing diffoscope
+[2023-06-07 12:56:03] INFO root fetch - processPackages [multi-channel-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multi_channel_pytorch-0.1.0.tar.gz tmp/multi_channel_pytorch-0.2.0.tar.gz --markdown 20230607/m/multi-channel-pytorch/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-07 12:56:03] INFO root fetch - processPackages [panda-client-light]: executing diffoscope
+[2023-06-07 12:56:03] INFO root fetch - processPackages [panda-client-light]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/panda_client_light-1.5.57-py2.py3-none-any.whl.zip tmp/panda_client_light-1.5.58-py2.py3-none-any.whl.zip --markdown 20230607/p/panda-client-light/1.5.57-1.5.58/diff.md --exclude *.pyd
+[2023-06-07 12:56:03] INFO root fetch - processPackages [odoo-addon-l10n-ro-config]: executing diffoscope
+[2023-06-07 12:56:03] INFO root fetch - processPackages [odoo-addon-l10n-ro-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_ro_config-16.0.1.1.0-py3-none-any.whl.zip tmp/odoo_addon_l10n_ro_config-16.0.1.1.0.1-py3-none-any.whl.zip --markdown 20230607/o/odoo-addon-l10n-ro-config/16.0.1.1.0-16.0.1.1.0.1/diff.md --exclude *.pyd
+[2023-06-07 12:56:03] INFO root fetch - processPackages [django-gisserver]: executing diffoscope
+[2023-06-07 12:56:03] INFO root fetch - processPackages [django-gisserver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-gisserver-1.2.5.tar.gz tmp/django-gisserver-1.2.6.tar.gz --markdown 20230607/d/django-gisserver/1.2.5-1.2.6/diff.md --exclude *.pyd
+[2023-06-07 12:56:03] INFO root fetch - processPackages [pg-bulk-ingest]: executing diffoscope
+[2023-06-07 12:56:03] INFO root fetch - processPackages [pg-bulk-ingest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pg_bulk_ingest-0.0.8.tar.gz tmp/pg_bulk_ingest-0.0.9.tar.gz --markdown 20230607/p/pg-bulk-ingest/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-07 12:56:03] INFO root fetch - processPackages [panda-client]: executing diffoscope
+[2023-06-07 12:56:03] INFO root fetch - processPackages [panda-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/panda-client-1.5.8.tar.gz tmp/panda-client-1.5.9.tar.gz --markdown 20230607/p/panda-client/1.5.8-1.5.9/diff.md --exclude *.pyd
+[2023-06-07 12:56:05] INFO root fetch - processPackages [cognica]: Remove: archive file [/home/abi/fetcher/tmp/cognica-0.1.4.tar.gz]
+[2023-06-07 12:56:05] INFO root fetch - processPackages [cognica]: Remove: archive file [/home/abi/fetcher/tmp/cognica-0.1.5.tar.gz]
+[2023-06-07 12:56:05] INFO root fetch - processPackages [cognica]: Start processing: zrouter
+[2023-06-07 12:56:05] INFO root fetch - main [MainThread]: End processing [cognica]: success
+[2023-06-07 12:56:05] INFO root fetch - processPackages [junit-to-md-py]: Remove: archive file [/home/abi/fetcher/tmp/junit-to-md-py-0.1.1.tar.gz]
+[2023-06-07 12:56:05] INFO root fetch - processPackages [junit-to-md-py]: Remove: archive file [/home/abi/fetcher/tmp/junit-to-md-py-0.1.3.tar.gz]
+[2023-06-07 12:56:05] INFO root fetch - processPackages [junit-to-md-py]: Start processing: odoo-addon-purchase-partner-selectable-option
+[2023-06-07 12:56:05] INFO root fetch - main [MainThread]: End processing [junit-to-md-py]: success
+[2023-06-07 12:56:05] INFO root fetch - processPackages [zrouter]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-06-07 12:56:05] INFO root fetch - processPackages [odoo-addon-purchase-partner-selectable-option]: New version: [16.0.1.0.1.2] Old Version: [15.0.1.0.1]
+[2023-06-07 12:56:05] INFO root fetch - processPackages [multi-channel-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/multi_channel_pytorch-0.1.0.tar.gz]
+[2023-06-07 12:56:05] INFO root fetch - processPackages [multi-channel-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/multi_channel_pytorch-0.2.0.tar.gz]
+[2023-06-07 12:56:05] INFO root fetch - processPackages [multi-channel-pytorch]: Start processing: pydae
+[2023-06-07 12:56:05] INFO root fetch - main [MainThread]: End processing [multi-channel-pytorch]: success
+[2023-06-07 12:56:05] INFO root fetch - processPackages [zrouter]: Downloading https://files.pythonhosted.org/packages/97/40/fc5666dd7b024952ad590bfaa2d9c1f78628c52daa86944420d09fc94927/zrouter-0.3.1.tar.gz
+[2023-06-07 12:56:05] INFO root fetch - processPackages [pydae]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-07 12:56:05] INFO root fetch - processPackages [jinja2-simple-tags]: Remove: archive file [/home/abi/fetcher/tmp/jinja2-simple-tags-0.5.0.tar.gz]
+[2023-06-07 12:56:05] INFO root fetch - processPackages [jinja2-simple-tags]: Remove: archive file [/home/abi/fetcher/tmp/jinja2-simple-tags-0.5.0rc1.tar.gz]
+[2023-06-07 12:56:05] INFO root fetch - processPackages [jinja2-simple-tags]: Start processing: ArseinTest
+[2023-06-07 12:56:05] INFO root fetch - main [MainThread]: End processing [jinja2-simple-tags]: success
+[2023-06-07 12:56:05] WARNING root fetch - processPackages [ArseinTest]: Skipping, unable to determine old version
+[2023-06-07 12:56:05] INFO root fetch - processPackages [ArseinTest]: Start processing: dynamic-overload
+[2023-06-07 12:56:05] INFO root fetch - main [MainThread]: End processing [ArseinTest] error
+[2023-06-07 12:56:05] WARNING root fetch - processPackages [dynamic-overload]: Skipping, unable to determine old version
+[2023-06-07 12:56:05] INFO root fetch - processPackages [dynamic-overload]: Start processing: routeros-check
+[2023-06-07 12:56:05] INFO root fetch - main [MainThread]: End processing [dynamic-overload] error
+[2023-06-07 12:56:05] INFO root fetch - processPackages [routeros-check]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-07 12:56:05] INFO root fetch - processPackages [odoo-addon-purchase-partner-selectable-option]: Downloading https://files.pythonhosted.org/packages/71/a8/92fd71723434fae05e73fa10d7d58ae4fa71c5fd71759f687de4e1496330/odoo_addon_purchase_partner_selectable_option-15.0.1.0.1-py3-none-any.whl
+[2023-06-07 12:56:05] INFO root fetch - processPackages [pg-bulk-ingest]: Remove: archive file [/home/abi/fetcher/tmp/pg_bulk_ingest-0.0.8.tar.gz]
+[2023-06-07 12:56:05] INFO root fetch - processPackages [pg-bulk-ingest]: Remove: archive file [/home/abi/fetcher/tmp/pg_bulk_ingest-0.0.9.tar.gz]
+[2023-06-07 12:56:05] INFO root fetch - processPackages [pg-bulk-ingest]: Start processing: Gcgr
+[2023-06-07 12:56:05] INFO root fetch - main [MainThread]: End processing [pg-bulk-ingest]: success
+[2023-06-07 12:56:06] WARNING root fetch - processPackages [Gcgr]: Skipping, unable to determine old version
+[2023-06-07 12:56:06] INFO root fetch - processPackages [Gcgr]: Start processing: clt-chatt
+[2023-06-07 12:56:06] INFO root fetch - main [MainThread]: End processing [Gcgr] error
+[2023-06-07 12:56:06] INFO root fetch - processPackages [pydae]: Downloading https://files.pythonhosted.org/packages/7d/df/18fbeeac68b8076a40737405fc9638efb381a7dae1ccdfa520fe3810b1cd/pydae-0.8.0.tar.gz
+[2023-06-07 12:56:06] WARNING root fetch - processPackages [clt-chatt]: Skipping, unable to determine old version
+[2023-06-07 12:56:06] INFO root fetch - main [MainThread]: End processing [clt-chatt] error
+[2023-06-07 12:56:06] INFO root fetch - processPackages [spaceone-core]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_core-1.9.7.1-py3-none-any.whl.zip]
+[2023-06-07 12:56:06] INFO root fetch - processPackages [spaceone-core]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_core-1.9.7rc1-py3-none-any.whl.zip]
+[2023-06-07 12:56:06] INFO root fetch - main [MainThread]: End processing [spaceone-core]: success
+[2023-06-07 12:56:06] INFO root fetch - processPackages [zrouter]: Downloading https://files.pythonhosted.org/packages/d4/48/a49479ef827c60fd3ec3ba4908ad1dd3dcd0c7cc03a2b43ca1baac33eb38/zrouter-0.3.2.tar.gz
+[2023-06-07 12:56:06] WARNING root fetch - processPackages [pydae]: Skipping package: exceeds size limit 76279170>=10485760
+[2023-06-07 12:56:06] INFO root fetch - main [MainThread]: End processing [pydae] error
+[2023-06-07 12:56:06] INFO root fetch - processPackages [zrouter]: executing diffoscope
+[2023-06-07 12:56:06] INFO root fetch - processPackages [zrouter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zrouter-0.3.1.tar.gz tmp/zrouter-0.3.2.tar.gz --markdown 20230607/z/zrouter/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-06-07 12:56:06] INFO root fetch - processPackages [routeros-check]: Downloading https://files.pythonhosted.org/packages/eb/f3/f9d0712fe5bcf10fae45e5f19e5bcfc67bf9b30fb610c17edcd71d298328/routeros-check-0.9.0.tar.gz
+[2023-06-07 12:56:06] INFO root fetch - processPackages [odoo-addon-l10n-ro-config]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_config-16.0.1.1.0-py3-none-any.whl.zip]
+[2023-06-07 12:56:06] INFO root fetch - processPackages [odoo-addon-l10n-ro-config]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_config-16.0.1.1.0.1-py3-none-any.whl.zip]
+[2023-06-07 12:56:06] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-ro-config]: success
+[2023-06-07 12:56:06] INFO root fetch - processPackages [odoo-addon-purchase-partner-selectable-option]: Downloading https://files.pythonhosted.org/packages/13/93/d19b8e148e8919adde94f3c4764d5f16a2d99ea9cb055586324d6cd9ab6a/odoo_addon_purchase_partner_selectable_option-16.0.1.0.1.2-py3-none-any.whl
+[2023-06-07 12:56:06] INFO root fetch - processPackages [odoo-addon-purchase-partner-selectable-option]: executing diffoscope
+[2023-06-07 12:56:06] INFO root fetch - processPackages [odoo-addon-purchase-partner-selectable-option]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_purchase_partner_selectable_option-15.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_purchase_partner_selectable_option-16.0.1.0.1.2-py3-none-any.whl.zip --markdown 20230607/o/odoo-addon-purchase-partner-selectable-option/15.0.1.0.1-16.0.1.0.1.2/diff.md --exclude *.pyd
+[2023-06-07 12:56:06] INFO root fetch - processPackages [panda-client-light]: Remove: archive file [/home/abi/fetcher/tmp/panda_client_light-1.5.57-py2.py3-none-any.whl.zip]
+[2023-06-07 12:56:06] INFO root fetch - processPackages [panda-client-light]: Remove: archive file [/home/abi/fetcher/tmp/panda_client_light-1.5.58-py2.py3-none-any.whl.zip]
+[2023-06-07 12:56:06] INFO root fetch - main [MainThread]: End processing [panda-client-light]: success
+[2023-06-07 12:56:06] INFO root fetch - processPackages [routeros-check]: Downloading https://files.pythonhosted.org/packages/65/88/500354774b9631a313abd2f9d3251b904b4d07d22d4dca4facc090cdb128/routeros-check-0.9.1.tar.gz
+[2023-06-07 12:56:06] INFO root fetch - processPackages [routeros-check]: executing diffoscope
+[2023-06-07 12:56:06] INFO root fetch - processPackages [routeros-check]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/routeros-check-0.9.0.tar.gz tmp/routeros-check-0.9.1.tar.gz --markdown 20230607/r/routeros-check/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-07 12:56:07] INFO root fetch - processPackages [zrouter]: Remove: archive file [/home/abi/fetcher/tmp/zrouter-0.3.1.tar.gz]
+[2023-06-07 12:56:07] INFO root fetch - processPackages [zrouter]: Remove: archive file [/home/abi/fetcher/tmp/zrouter-0.3.2.tar.gz]
+[2023-06-07 12:56:07] INFO root fetch - main [MainThread]: End processing [zrouter]: success
+[2023-06-07 12:56:07] INFO root fetch - processPackages [odoo-addon-purchase-partner-selectable-option]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_partner_selectable_option-15.0.1.0.1-py3-none-any.whl.zip]
+[2023-06-07 12:56:07] INFO root fetch - processPackages [odoo-addon-purchase-partner-selectable-option]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_partner_selectable_option-16.0.1.0.1.2-py3-none-any.whl.zip]
+[2023-06-07 12:56:07] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-partner-selectable-option]: success
+[2023-06-07 12:56:08] INFO root fetch - processPackages [routeros-check]: Remove: archive file [/home/abi/fetcher/tmp/routeros-check-0.9.0.tar.gz]
+[2023-06-07 12:56:08] INFO root fetch - processPackages [routeros-check]: Remove: archive file [/home/abi/fetcher/tmp/routeros-check-0.9.1.tar.gz]
+[2023-06-07 12:56:08] INFO root fetch - main [MainThread]: End processing [routeros-check]: success
+[2023-06-07 12:56:08] INFO root fetch - processPackages [django-gisserver]: Remove: archive file [/home/abi/fetcher/tmp/django-gisserver-1.2.5.tar.gz]
+[2023-06-07 12:56:08] INFO root fetch - processPackages [django-gisserver]: Remove: archive file [/home/abi/fetcher/tmp/django-gisserver-1.2.6.tar.gz]
+[2023-06-07 12:56:08] INFO root fetch - main [MainThread]: End processing [django-gisserver]: success
+[2023-06-07 12:56:08] INFO root fetch - processPackages [panda-client]: Remove: archive file [/home/abi/fetcher/tmp/panda-client-1.5.8.tar.gz]
+[2023-06-07 12:56:08] INFO root fetch - processPackages [panda-client]: Remove: archive file [/home/abi/fetcher/tmp/panda-client-1.5.9.tar.gz]
+[2023-06-07 12:56:08] INFO root fetch - main [MainThread]: End processing [panda-client]: success
+[2023-06-07 12:56:08] INFO root fetch - main [MainThread]: Store serial: [18406779]
