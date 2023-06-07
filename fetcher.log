@@ -5967,3 +5967,85 @@
 [2023-06-07 03:32:59] INFO root fetch - processPackages [vstutils]: Remove: archive file [/home/abi/fetcher/tmp/vstutils-5.4.9.tar.gz]
 [2023-06-07 03:32:59] INFO root fetch - main [MainThread]: End processing [vstutils]: success
 [2023-06-07 03:32:59] INFO root fetch - main [MainThread]: Store serial: [18400407]
+[2023-06-07 03:38:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18400407]
+[2023-06-07 03:38:08] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-07 03:38:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-lambda-layer-curl
+[2023-06-07 03:38:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: simpleaichat
+[2023-06-07 03:38:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spPersist
+[2023-06-07 03:38:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nbdev-stdlib
+[2023-06-07 03:38:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Finance-Jindowin
+[2023-06-07 03:38:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bioregistry
+[2023-06-07 03:38:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nbdev-numpy
+[2023-06-07 03:38:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: exciton-tools
+[2023-06-07 03:38:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: spPersist
+[2023-06-07 03:38:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mvtech-plugin
+[2023-06-07 03:38:08] WARNING root fetch - processPackages [simpleaichat]: Skipping, unable to determine old version
+[2023-06-07 03:38:08] INFO root fetch - processPackages [simpleaichat]: Start processing: gs2
+[2023-06-07 03:38:08] INFO root fetch - main [MainThread]: End processing [simpleaichat] error
+[2023-06-07 03:38:08] INFO root fetch - processPackages [Finance-Jindowin]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-06-07 03:38:08] INFO root fetch - processPackages [spPersist]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-07 03:38:08] INFO root fetch - processPackages [spPersist]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-07 03:38:08] INFO root fetch - processPackages [gs2]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-06-07 03:38:08] INFO root fetch - processPackages [bioregistry]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-07 03:38:08] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-07 03:38:08] INFO root fetch - processPackages [nbdev-numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-07 03:38:08] INFO root fetch - processPackages [nbdev-stdlib]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-07 03:38:08] INFO root fetch - processPackages [Finance-Jindowin]: Downloading https://files.pythonhosted.org/packages/33/04/63f82d67dc13c19b35b0ece34eb8887eecc365e40179d7534f14b3f4b2c4/Finance_Jindowin-1.2.8-py3.7.egg
+[2023-06-07 03:38:08] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/73/28/26429c7dd7dcf4c45025b55facc2688943de2ab2ec4851cc073f81f31e65/nbdev-numpy-0.0.98.tar.gz
+[2023-06-07 03:38:08] INFO root fetch - processPackages [bioregistry]: Downloading https://files.pythonhosted.org/packages/4e/f6/973ccd4316a05888c3eb85264c9bad233e8f486e3bd1d3ed06d5c5e3504c/bioregistry-0.9.8.tar.gz
+[2023-06-07 03:38:08] WARNING root fetch - processPackages [exciton-tools]: Skipping, unable to determine old version
+[2023-06-07 03:38:08] INFO root fetch - main [MainThread]: End processing [exciton-tools] error
+[2023-06-07 03:38:08] ERROR root fetch - processPackages [mvtech-plugin]: Unable to get metadata: No such project 'mvtech-plugin'
+[2023-06-07 03:38:08] INFO root fetch - main [MainThread]: End processing [mvtech-plugin] error
+[2023-06-07 03:38:08] INFO root fetch - processPackages [gs2]: Downloading https://files.pythonhosted.org/packages/f4/b1/13ed585befcfa8c69b52af73acb96e39e14f443b95942ebcb9c4e9c2db0e/gs2-1.1.8.tar.gz
+[2023-06-07 03:38:08] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/c8/e2/39c88cfa63f418383f3a383b2b62dfe801cbfd5c53de4d005804c19d76dc/cdk-lambda-layer-curl-2.0.98.tar.gz
+[2023-06-07 03:38:09] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/e8/48/ed43dbfa0bd5ca86a6a3f6ae0500b0cffb413b2c3f118e82da24ef3488f1/nbdev-stdlib-0.0.98.tar.gz
+[2023-06-07 03:38:09] INFO root fetch - processPackages [spPersist]: Downloading https://files.pythonhosted.org/packages/cc/ac/bfd85c5260a614f33589b6fd6d52c86547f0195c5c9a52a033e687abc1e4/sppersist-0.1.8.tar.gz
+[2023-06-07 03:38:09] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/ea/78/0c0ef1d69ad517e7123dd810dda3cf8c0863af031c2cbb78ac3dae878b48/nbdev-numpy-0.0.99.tar.gz
+[2023-06-07 03:38:09] INFO root fetch - processPackages [spPersist]: Downloading https://files.pythonhosted.org/packages/cc/ac/bfd85c5260a614f33589b6fd6d52c86547f0195c5c9a52a033e687abc1e4/sppersist-0.1.8.tar.gz
+[2023-06-07 03:38:09] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/9b/0f/42944508859f820e43bf894814c5e9dbc7920a0caceef1828a31a9e5b599/nbdev-stdlib-0.0.99.tar.gz
+[2023-06-07 03:38:09] INFO root fetch - processPackages [nbdev-numpy]: executing diffoscope
+[2023-06-07 03:38:09] INFO root fetch - processPackages [nbdev-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-numpy-0.0.98.tar.gz tmp/nbdev-numpy-0.0.99.tar.gz --markdown 20230607/n/nbdev-numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-07 03:38:09] INFO root fetch - processPackages [nbdev-stdlib]: executing diffoscope
+[2023-06-07 03:38:09] INFO root fetch - processPackages [Finance-Jindowin]: Downloading https://files.pythonhosted.org/packages/ad/7d/7e1a9594b5ca98b3aa61082e779e97011da13a3023c660b6d1bf8bf5bc0c/Finance-Jindowin-1.2.9.tar.gz
+[2023-06-07 03:38:09] INFO root fetch - processPackages [nbdev-stdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-stdlib-0.0.98.tar.gz tmp/nbdev-stdlib-0.0.99.tar.gz --markdown 20230607/n/nbdev-stdlib/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-07 03:38:09] INFO root fetch - processPackages [gs2]: Downloading https://files.pythonhosted.org/packages/9e/ad/b84dd85efc1650d47b3308d729fd537f26fee338fdb19a43c7a243d07107/gs2-1.1.9.tar.gz
+[2023-06-07 03:38:09] INFO root fetch - processPackages [Finance-Jindowin]: executing diffoscope
+[2023-06-07 03:38:09] INFO root fetch - processPackages [Finance-Jindowin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Finance_Jindowin-1.2.8-py3.7.egg tmp/Finance-Jindowin-1.2.9.tar.gz --markdown 20230607/F/Finance-Jindowin/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-06-07 03:38:09] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/2e/02/9e7ab6bc6191e2cbe6705c1530f695ed00527096133668b731e72d6a6445/cdk-lambda-layer-curl-2.0.99.tar.gz
+[2023-06-07 03:38:09] INFO root fetch - processPackages [spPersist]: Downloading https://files.pythonhosted.org/packages/c6/98/1105c24b7481231e47854207049857a414f0f451d9f96a29f9e155184d87/sppersist-0.1.9.tar.gz
+[2023-06-07 03:38:09] INFO root fetch - processPackages [spPersist]: Downloading https://files.pythonhosted.org/packages/c6/98/1105c24b7481231e47854207049857a414f0f451d9f96a29f9e155184d87/sppersist-0.1.9.tar.gz
+[2023-06-07 03:38:09] INFO root fetch - processPackages [gs2]: executing diffoscope
+[2023-06-07 03:38:09] INFO root fetch - processPackages [gs2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gs2-1.1.8.tar.gz tmp/gs2-1.1.9.tar.gz --markdown 20230607/g/gs2/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-06-07 03:38:09] INFO root fetch - processPackages [spPersist]: executing diffoscope
+[2023-06-07 03:38:09] INFO root fetch - processPackages [spPersist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sppersist-0.1.8.tar.gz tmp/sppersist-0.1.9.tar.gz --markdown 20230607/s/spPersist/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-07 03:38:09] INFO root fetch - processPackages [spPersist]: executing diffoscope
+[2023-06-07 03:38:09] INFO root fetch - processPackages [spPersist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sppersist-0.1.8.tar.gz tmp/sppersist-0.1.9.tar.gz --markdown 20230607/s/spPersist/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-07 03:38:09] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2023-06-07 03:38:09] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20230607/c/cdk-lambda-layer-curl/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-07 03:38:10] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.98.tar.gz]
+[2023-06-07 03:38:10] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.99.tar.gz]
+[2023-06-07 03:38:10] INFO root fetch - main [MainThread]: End processing [nbdev-numpy]: success
+[2023-06-07 03:38:10] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.98.tar.gz]
+[2023-06-07 03:38:10] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.99.tar.gz]
+[2023-06-07 03:38:10] INFO root fetch - main [MainThread]: End processing [nbdev-stdlib]: success
+[2023-06-07 03:38:10] INFO root fetch - processPackages [spPersist]: Remove: archive file [/home/abi/fetcher/tmp/sppersist-0.1.8.tar.gz]
+[2023-06-07 03:38:10] INFO root fetch - processPackages [spPersist]: Remove: archive file [/home/abi/fetcher/tmp/sppersist-0.1.9.tar.gz]
+[2023-06-07 03:38:10] INFO root fetch - main [MainThread]: End processing [spPersist]: success
+[2023-06-07 03:38:10] INFO root fetch - processPackages [Finance-Jindowin]: Remove: archive file [/home/abi/fetcher/tmp/Finance_Jindowin-1.2.8-py3.7.egg]
+[2023-06-07 03:38:10] INFO root fetch - processPackages [Finance-Jindowin]: Remove: archive file [/home/abi/fetcher/tmp/Finance-Jindowin-1.2.9.tar.gz]
+[2023-06-07 03:38:10] INFO root fetch - main [MainThread]: End processing [Finance-Jindowin]: success
+[2023-06-07 03:38:10] INFO root fetch - main [MainThread]: End processing [spPersist]: success
+[2023-06-07 03:38:11] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.98.tar.gz]
+[2023-06-07 03:38:11] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
+[2023-06-07 03:38:11] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2023-06-07 03:38:11] INFO root fetch - processPackages [bioregistry]: Downloading https://files.pythonhosted.org/packages/5b/a2/66d69f3acb3d998356aaa7ccffe5395fb3221c2f99dd12100c6abf1826b4/bioregistry-0.9.9.tar.gz
+[2023-06-07 03:38:12] INFO root fetch - processPackages [gs2]: Remove: archive file [/home/abi/fetcher/tmp/gs2-1.1.8.tar.gz]
+[2023-06-07 03:38:12] INFO root fetch - processPackages [gs2]: Remove: archive file [/home/abi/fetcher/tmp/gs2-1.1.9.tar.gz]
+[2023-06-07 03:38:12] INFO root fetch - main [MainThread]: End processing [gs2]: success
+[2023-06-07 03:38:13] INFO root fetch - processPackages [bioregistry]: executing diffoscope
+[2023-06-07 03:38:13] INFO root fetch - processPackages [bioregistry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioregistry-0.9.8.tar.gz tmp/bioregistry-0.9.9.tar.gz --markdown 20230607/b/bioregistry/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-07 03:40:13] INFO root fetch - processPackages [bioregistry]: Remove: archive file [/home/abi/fetcher/tmp/bioregistry-0.9.8.tar.gz]
+[2023-06-07 03:40:13] INFO root fetch - processPackages [bioregistry]: Remove: archive file [/home/abi/fetcher/tmp/bioregistry-0.9.9.tar.gz]
+[2023-06-07 03:40:13] INFO root fetch - main [MainThread]: End processing [bioregistry]: success
+[2023-06-07 03:40:13] INFO root fetch - main [MainThread]: Store serial: [18400442]
