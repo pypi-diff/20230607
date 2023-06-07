@@ -12934,3 +12934,120 @@ AssertionError: tmp/odoo_addon_crm_lead_firstname-16.0.1.0.1-py3-none-any.whl.zi
 [2023-06-07 07:04:23] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.14.0.dev20230606-cp39-cp39-manylinux2014_x86_64.whl.zip]
 [2023-06-07 07:04:23] INFO root fetch - main [MainThread]: End processing [tflite-runtime-nightly]: success
 [2023-06-07 07:04:23] INFO root fetch - main [MainThread]: Store serial: [18402913]
+[2023-06-07 07:09:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18402913]
+[2023-06-07 07:09:37] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-07 07:09:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rapid-pe
+[2023-06-07 07:09:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dsm-django-socialauth
+[2023-06-07 07:09:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fileformats-testing
+[2023-06-07 07:09:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: multi-model-server
+[2023-06-07 07:09:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: findu
+[2023-06-07 07:09:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dask-cuda
+[2023-06-07 07:09:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyunifiprotect
+[2023-06-07 07:09:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: landingai
+[2023-06-07 07:09:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: jijzeptlab-client
+[2023-06-07 07:09:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tflite-model-maker-nightly
+[2023-06-07 07:09:37] INFO root fetch - processPackages [dsm-django-socialauth]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-07 07:09:37] INFO root fetch - processPackages [rapid-pe]: New version: [0.1.1.dev20230607] Old Version: [0.1.1.dev20230606]
+[2023-06-07 07:09:37] INFO root fetch - processPackages [landingai]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-07 07:09:37] INFO root fetch - processPackages [fileformats-testing]: New version: [0.3] Old Version: [0.2]
+[2023-06-07 07:09:37] INFO root fetch - processPackages [findu]: New version: [0.0.16] Old Version: [0.0.15]
+[2023-06-07 07:09:37] INFO root fetch - processPackages [jijzeptlab-client]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-06-07 07:09:37] INFO root fetch - processPackages [pyunifiprotect]: New version: [4.9.1] Old Version: [4.9.0]
+[2023-06-07 07:09:37] INFO root fetch - processPackages [tflite-model-maker-nightly]: New version: [0.4.3.dev202306060509] Old Version: [0.4.3.dev202306050507]
+[2023-06-07 07:09:37] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/cb/93/03c842826d6bf2b7a5714f48183557ff7dc2f5795c2b85b883c5f97d9eaf/rapid_pe-0.1.1.dev20230606.tar.gz
+[2023-06-07 07:09:37] INFO root fetch - processPackages [landingai]: Downloading https://files.pythonhosted.org/packages/24/85/41de202cb57658583318c807ea79fedd058c090462f950346d7677af0cfb/landingai-0.0.7.tar.gz
+[2023-06-07 07:09:37] INFO root fetch - processPackages [dask-cuda]: New version: [23.8.0a230606] Old Version: [23.8.0a230605]
+[2023-06-07 07:09:37] INFO root fetch - processPackages [jijzeptlab-client]: Downloading https://files.pythonhosted.org/packages/38/82/a107440128bb6772b6bb7cffabc9aa99502e94e20ee948c6592cb4fdec4f/jijzeptlab_client-0.3.4-cp39-cp39-win_amd64.whl
+[2023-06-07 07:09:37] INFO root fetch - processPackages [tflite-model-maker-nightly]: Downloading https://files.pythonhosted.org/packages/3b/56/e9a882643818e25f1a7539df4107c5fc9b8a2715edae1cfa2e0abbac4b06/tflite-model-maker-nightly-0.4.3.dev202306050507.tar.gz
+[2023-06-07 07:09:37] INFO root fetch - processPackages [multi-model-server]: New version: [1.1.9b20230601] Old Version: [1.1.9]
+[2023-06-07 07:09:37] INFO root fetch - processPackages [fileformats-testing]: Downloading https://files.pythonhosted.org/packages/a6/70/685e7dc20bf6b6799c203ead3f0c22cdd0a5803cfdcb64f5bc58f8e2b746/fileformats_testing-0.2.tar.gz
+[2023-06-07 07:09:37] INFO root fetch - processPackages [findu]: Downloading https://files.pythonhosted.org/packages/1e/2d/2df25da17620fb38886464e6216b7bd026253176e3c2d9882aeb51e77fda/findu-0.0.15.tar.gz
+[2023-06-07 07:09:37] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/b5/9f/8e78ef69cfd5ac4f8a6b99e34a95aeb3d27e56550ac6fd19c4858714ee3e/dask-cuda-23.8.0a230605.tar.gz
+[2023-06-07 07:09:37] INFO root fetch - processPackages [pyunifiprotect]: Downloading https://files.pythonhosted.org/packages/9d/3d/b9d7a849d059f43232f5756c5a2090ab4540549731286ada3e0c304eaa22/pyunifiprotect-4.9.0.tar.gz
+[2023-06-07 07:09:37] INFO root fetch - processPackages [dsm-django-socialauth]: Downloading https://files.pythonhosted.org/packages/5d/f9/9c11ab0849df799e3f45432528010233757706427e1cc81b64e02341dede/dsm-django-socialauth-1.0.8.tar.gz
+[2023-06-07 07:09:37] INFO root fetch - processPackages [multi-model-server]: executing diffoscope
+[2023-06-07 07:09:37] INFO root fetch - processPackages [multi-model-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multi_model_server-1.1.9-py2.py3-none-any.whl.zip tmp/multi_model_server-1.1.9b20230601-py2.py3-none-any.whl.zip --markdown 20230607/m/multi-model-server/1.1.9-1.1.9b20230601/diff.md --exclude *.pyd
+[2023-06-07 07:09:37] INFO root fetch - processPackages [landingai]: Downloading https://files.pythonhosted.org/packages/fe/41/217b3e0de0fdb300f1bc686d8d5f39f3f600569ab95aa5302ab5c16adc30/landingai-0.0.8.tar.gz
+[2023-06-07 07:09:37] INFO root fetch - processPackages [fileformats-testing]: Downloading https://files.pythonhosted.org/packages/77/60/7034cfbc1f14e47ad1c134008734e1749636a126266058e58c07f9af4472/fileformats_testing-0.3.tar.gz
+[2023-06-07 07:09:37] INFO root fetch - processPackages [jijzeptlab-client]: Downloading https://files.pythonhosted.org/packages/66/c3/2344379301630dec69b0f38f92c1e0b9f58411080c0c4ebc00b646a7057b/jijzeptlab_client-0.3.5-cp39-cp39-win_amd64.whl
+[2023-06-07 07:09:37] INFO root fetch - processPackages [findu]: Downloading https://files.pythonhosted.org/packages/aa/24/ad716bfb7189035e72fdfe5336bcfa28caa4dd65f3f8f483812a610696e2/findu-0.0.16.tar.gz
+[2023-06-07 07:09:37] INFO root fetch - processPackages [landingai]: executing diffoscope
+[2023-06-07 07:09:37] INFO root fetch - processPackages [landingai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/landingai-0.0.7.tar.gz tmp/landingai-0.0.8.tar.gz --markdown 20230607/l/landingai/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-07 07:09:37] INFO root fetch - processPackages [pyunifiprotect]: Downloading https://files.pythonhosted.org/packages/63/45/42f4149b592dde71e519b3521383b63738b99b7ca4220d9001ee51803c9c/pyunifiprotect-4.9.1.tar.gz
+[2023-06-07 07:09:37] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/86/ed/d397c82c7aceffb7652e50d4157c3b43627a05c6c92248b4405ff55491fa/rapid_pe-0.1.1.dev20230607.tar.gz
+[2023-06-07 07:09:37] INFO root fetch - processPackages [fileformats-testing]: executing diffoscope
+[2023-06-07 07:09:37] INFO root fetch - processPackages [fileformats-testing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fileformats_testing-0.2.tar.gz tmp/fileformats_testing-0.3.tar.gz --markdown 20230607/f/fileformats-testing/0.2-0.3/diff.md --exclude *.pyd
+[2023-06-07 07:09:37] INFO root fetch - processPackages [findu]: executing diffoscope
+[2023-06-07 07:09:37] INFO root fetch - processPackages [findu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/findu-0.0.15.tar.gz tmp/findu-0.0.16.tar.gz --markdown 20230607/f/findu/0.0.15-0.0.16/diff.md --exclude *.pyd
+[2023-06-07 07:09:37] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/14/39/4a17ddee59344e4354ce932eacdba5f76da6e5e97bdb946c5be3a88bdece/dask-cuda-23.8.0a230606.tar.gz
+[2023-06-07 07:09:37] INFO root fetch - processPackages [jijzeptlab-client]: executing diffoscope
+[2023-06-07 07:09:37] INFO root fetch - processPackages [jijzeptlab-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jijzeptlab_client-0.3.4-cp39-cp39-win_amd64.whl.zip tmp/jijzeptlab_client-0.3.5-cp39-cp39-win_amd64.whl.zip --markdown 20230607/j/jijzeptlab-client/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-06-07 07:09:37] INFO root fetch - processPackages [tflite-model-maker-nightly]: Downloading https://files.pythonhosted.org/packages/c7/64/280eab77c6294cf63792729333b67345f7908b14886ac5d3ba059201ddcb/tflite-model-maker-nightly-0.4.3.dev202306060509.tar.gz
+[2023-06-07 07:09:37] INFO root fetch - processPackages [rapid-pe]: executing diffoscope
+[2023-06-07 07:09:37] INFO root fetch - processPackages [rapid-pe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapid_pe-0.1.1.dev20230606.tar.gz tmp/rapid_pe-0.1.1.dev20230607.tar.gz --markdown 20230607/r/rapid-pe/0.1.1.dev20230606-0.1.1.dev20230607/diff.md --exclude *.pyd
+[2023-06-07 07:09:37] INFO root fetch - processPackages [pyunifiprotect]: executing diffoscope
+[2023-06-07 07:09:37] INFO root fetch - processPackages [pyunifiprotect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyunifiprotect-4.9.0.tar.gz tmp/pyunifiprotect-4.9.1.tar.gz --markdown 20230607/p/pyunifiprotect/4.9.0-4.9.1/diff.md --exclude *.pyd
+[2023-06-07 07:09:37] INFO root fetch - processPackages [dsm-django-socialauth]: Downloading https://files.pythonhosted.org/packages/8c/aa/089c42588b3e9ea87ea30dc296d13aa9df5baa5822d37bbb19fc2731df4f/dsm-django-socialauth-1.0.9.tar.gz
+[2023-06-07 07:09:37] INFO root fetch - processPackages [dask-cuda]: executing diffoscope
+[2023-06-07 07:09:37] INFO root fetch - processPackages [dask-cuda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dask-cuda-23.8.0a230605.tar.gz tmp/dask-cuda-23.8.0a230606.tar.gz --markdown 20230607/d/dask-cuda/23.8.0a230605-23.8.0a230606/diff.md --exclude *.pyd
+[2023-06-07 07:09:37] INFO root fetch - processPackages [tflite-model-maker-nightly]: executing diffoscope
+[2023-06-07 07:09:37] INFO root fetch - processPackages [tflite-model-maker-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tflite-model-maker-nightly-0.4.3.dev202306050507.tar.gz tmp/tflite-model-maker-nightly-0.4.3.dev202306060509.tar.gz --markdown 20230607/t/tflite-model-maker-nightly/0.4.3.dev202306050507-0.4.3.dev202306060509/diff.md --exclude *.pyd
+[2023-06-07 07:09:37] INFO root fetch - processPackages [dsm-django-socialauth]: executing diffoscope
+[2023-06-07 07:09:37] INFO root fetch - processPackages [dsm-django-socialauth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsm-django-socialauth-1.0.8.tar.gz tmp/dsm-django-socialauth-1.0.9.tar.gz --markdown 20230607/d/dsm-django-socialauth/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-07 07:09:38] INFO root fetch - processPackages [landingai]: Remove: archive file [/home/abi/fetcher/tmp/landingai-0.0.7.tar.gz]
+[2023-06-07 07:09:38] INFO root fetch - processPackages [landingai]: Remove: archive file [/home/abi/fetcher/tmp/landingai-0.0.8.tar.gz]
+[2023-06-07 07:09:38] INFO root fetch - processPackages [landingai]: Start processing: findu
+[2023-06-07 07:09:38] INFO root fetch - main [MainThread]: End processing [landingai]: success
+[2023-06-07 07:09:38] INFO root fetch - processPackages [findu]: New version: [0.0.18] Old Version: [0.0.17]
+[2023-06-07 07:09:38] INFO root fetch - processPackages [fileformats-testing]: Remove: archive file [/home/abi/fetcher/tmp/fileformats_testing-0.2.tar.gz]
+[2023-06-07 07:09:38] INFO root fetch - processPackages [fileformats-testing]: Remove: archive file [/home/abi/fetcher/tmp/fileformats_testing-0.3.tar.gz]
+[2023-06-07 07:09:38] INFO root fetch - processPackages [fileformats-testing]: Start processing: bulma-sphinx-theme
+[2023-06-07 07:09:38] INFO root fetch - main [MainThread]: End processing [fileformats-testing]: success
+[2023-06-07 07:09:39] INFO root fetch - processPackages [findu]: Downloading https://files.pythonhosted.org/packages/3d/c0/dad26e43ed0258921578eb47c7b45b970591842510867557f05746f01f76/findu-0.0.17.tar.gz
+[2023-06-07 07:09:39] INFO root fetch - processPackages [bulma-sphinx-theme]: New version: [0.1.0rc1] Old Version: [0.0.9]
+[2023-06-07 07:09:39] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.1.dev20230606.tar.gz]
+[2023-06-07 07:09:39] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.1.dev20230607.tar.gz]
+[2023-06-07 07:09:39] INFO root fetch - processPackages [rapid-pe]: Start processing: layerx-sdk-beta
+[2023-06-07 07:09:39] INFO root fetch - main [MainThread]: End processing [rapid-pe]: success
+[2023-06-07 07:09:39] INFO root fetch - processPackages [layerx-sdk-beta]: New version: [1.0.9b2] Old Version: [1.0.9b1]
+[2023-06-07 07:09:39] INFO root fetch - processPackages [layerx-sdk-beta]: Downloading https://files.pythonhosted.org/packages/82/30/49db849a17663ef31174e31654b943efd6d652d8fead1d082f103f9ab59e/layerx-sdk-beta-1.0.9b1.tar.gz
+[2023-06-07 07:09:39] INFO root fetch - processPackages [findu]: Downloading https://files.pythonhosted.org/packages/b5/fa/c738ae1e829bd509c2b16556e9d6a33e0597d48226075078958487208558/findu-0.0.18.tar.gz
+[2023-06-07 07:09:39] INFO root fetch - processPackages [bulma-sphinx-theme]: Downloading https://files.pythonhosted.org/packages/e9/81/d50c13c840ad249b9a1c025bbfca4be6fc23423cae2351a5de3413a15ee5/bulma_sphinx_theme-0.0.9.tar.gz
+[2023-06-07 07:09:39] INFO root fetch - processPackages [dsm-django-socialauth]: Remove: archive file [/home/abi/fetcher/tmp/dsm-django-socialauth-1.0.8.tar.gz]
+[2023-06-07 07:09:39] INFO root fetch - processPackages [dsm-django-socialauth]: Remove: archive file [/home/abi/fetcher/tmp/dsm-django-socialauth-1.0.9.tar.gz]
+[2023-06-07 07:09:39] INFO root fetch - main [MainThread]: End processing [dsm-django-socialauth]: success
+[2023-06-07 07:09:39] INFO root fetch - processPackages [findu]: Remove: archive file [/home/abi/fetcher/tmp/findu-0.0.15.tar.gz]
+[2023-06-07 07:09:39] INFO root fetch - processPackages [findu]: Remove: archive file [/home/abi/fetcher/tmp/findu-0.0.16.tar.gz]
+[2023-06-07 07:09:39] INFO root fetch - main [MainThread]: End processing [findu]: success
+[2023-06-07 07:09:39] INFO root fetch - processPackages [layerx-sdk-beta]: Downloading https://files.pythonhosted.org/packages/80/17/9c39f674089d0687a6ebb4bb5cb263194817e74bbf02632c5b1f95ed63ed/layerx-sdk-beta-1.0.9b2.tar.gz
+[2023-06-07 07:09:39] INFO root fetch - processPackages [findu]: executing diffoscope
+[2023-06-07 07:09:39] INFO root fetch - processPackages [findu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/findu-0.0.17.tar.gz tmp/findu-0.0.18.tar.gz --markdown 20230607/f/findu/0.0.17-0.0.18/diff.md --exclude *.pyd
+[2023-06-07 07:09:39] INFO root fetch - processPackages [bulma-sphinx-theme]: Downloading https://files.pythonhosted.org/packages/31/a0/a4e8a925f89e57d658881df3b3230e32ea5c48fd2b40d90e00b02fc314b2/bulma_sphinx_theme-0.1.0rc1.tar.gz
+[2023-06-07 07:09:39] INFO root fetch - processPackages [layerx-sdk-beta]: executing diffoscope
+[2023-06-07 07:09:39] INFO root fetch - processPackages [layerx-sdk-beta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/layerx-sdk-beta-1.0.9b1.tar.gz tmp/layerx-sdk-beta-1.0.9b2.tar.gz --markdown 20230607/l/layerx-sdk-beta/1.0.9b1-1.0.9b2/diff.md --exclude *.pyd
+[2023-06-07 07:09:39] INFO root fetch - processPackages [jijzeptlab-client]: Remove: archive file [/home/abi/fetcher/tmp/jijzeptlab_client-0.3.4-cp39-cp39-win_amd64.whl.zip]
+[2023-06-07 07:09:39] INFO root fetch - processPackages [jijzeptlab-client]: Remove: archive file [/home/abi/fetcher/tmp/jijzeptlab_client-0.3.5-cp39-cp39-win_amd64.whl.zip]
+[2023-06-07 07:09:39] INFO root fetch - main [MainThread]: End processing [jijzeptlab-client]: success
+[2023-06-07 07:09:39] INFO root fetch - processPackages [bulma-sphinx-theme]: executing diffoscope
+[2023-06-07 07:09:39] INFO root fetch - processPackages [bulma-sphinx-theme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bulma_sphinx_theme-0.0.9.tar.gz tmp/bulma_sphinx_theme-0.1.0rc1.tar.gz --markdown 20230607/b/bulma-sphinx-theme/0.0.9-0.1.0rc1/diff.md --exclude *.pyd
+[2023-06-07 07:09:40] INFO root fetch - processPackages [layerx-sdk-beta]: Remove: archive file [/home/abi/fetcher/tmp/layerx-sdk-beta-1.0.9b1.tar.gz]
+[2023-06-07 07:09:40] INFO root fetch - processPackages [layerx-sdk-beta]: Remove: archive file [/home/abi/fetcher/tmp/layerx-sdk-beta-1.0.9b2.tar.gz]
+[2023-06-07 07:09:40] INFO root fetch - main [MainThread]: End processing [layerx-sdk-beta]: success
+[2023-06-07 07:09:40] INFO root fetch - processPackages [findu]: Remove: archive file [/home/abi/fetcher/tmp/findu-0.0.17.tar.gz]
+[2023-06-07 07:09:40] INFO root fetch - processPackages [findu]: Remove: archive file [/home/abi/fetcher/tmp/findu-0.0.18.tar.gz]
+[2023-06-07 07:09:40] INFO root fetch - main [MainThread]: End processing [findu]: success
+[2023-06-07 07:09:40] INFO root fetch - processPackages [dask-cuda]: Remove: archive file [/home/abi/fetcher/tmp/dask-cuda-23.8.0a230605.tar.gz]
+[2023-06-07 07:09:40] INFO root fetch - processPackages [dask-cuda]: Remove: archive file [/home/abi/fetcher/tmp/dask-cuda-23.8.0a230606.tar.gz]
+[2023-06-07 07:09:40] INFO root fetch - main [MainThread]: End processing [dask-cuda]: success
+[2023-06-07 07:09:41] INFO root fetch - processPackages [bulma-sphinx-theme]: Remove: archive file [/home/abi/fetcher/tmp/bulma_sphinx_theme-0.0.9.tar.gz]
+[2023-06-07 07:09:41] INFO root fetch - processPackages [bulma-sphinx-theme]: Remove: archive file [/home/abi/fetcher/tmp/bulma_sphinx_theme-0.1.0rc1.tar.gz]
+[2023-06-07 07:09:41] INFO root fetch - main [MainThread]: End processing [bulma-sphinx-theme]: success
+[2023-06-07 07:09:42] INFO root fetch - processPackages [pyunifiprotect]: Remove: archive file [/home/abi/fetcher/tmp/pyunifiprotect-4.9.0.tar.gz]
+[2023-06-07 07:09:42] INFO root fetch - processPackages [pyunifiprotect]: Remove: archive file [/home/abi/fetcher/tmp/pyunifiprotect-4.9.1.tar.gz]
+[2023-06-07 07:09:42] INFO root fetch - main [MainThread]: End processing [pyunifiprotect]: success
+[2023-06-07 07:09:43] INFO root fetch - processPackages [tflite-model-maker-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite-model-maker-nightly-0.4.3.dev202306050507.tar.gz]
+[2023-06-07 07:09:43] INFO root fetch - processPackages [tflite-model-maker-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite-model-maker-nightly-0.4.3.dev202306060509.tar.gz]
+[2023-06-07 07:09:43] INFO root fetch - main [MainThread]: End processing [tflite-model-maker-nightly]: success
+[2023-06-07 07:12:37] ERROR root fetch - processPackages [multi-model-server]: Timeout during execution of pkgdiff
+[2023-06-07 07:12:37] INFO root fetch - main [MainThread]: End processing [multi-model-server] error
+[2023-06-07 07:12:37] INFO root fetch - main [MainThread]: Store serial: [18402979]
