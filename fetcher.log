@@ -9795,3 +9795,63 @@
 [2023-06-07 04:18:23] INFO root fetch - processPackages [jijzeptlab-client]: Remove: archive file [/home/abi/fetcher/tmp/jijzeptlab_client-0.3.5-cp39-cp39-win_amd64.whl.zip]
 [2023-06-07 04:18:23] INFO root fetch - main [MainThread]: End processing [jijzeptlab-client]: success
 [2023-06-07 04:18:23] INFO root fetch - main [MainThread]: Store serial: [18401799]
+[2023-06-07 04:23:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18401799]
+[2023-06-07 04:23:32] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-07 04:23:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pycot-reports
+[2023-06-07 04:23:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: assisted-service-client
+[2023-06-07 04:23:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: prettyqt
+[2023-06-07 04:23:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: langchainplus-sdk
+[2023-06-07 04:23:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hatch-rest-api
+[2023-06-07 04:23:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: localstack-core
+[2023-06-07 04:23:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: netunicorn-base
+[2023-06-07 04:23:32] WARNING root fetch - processPackages [pycot-reports]: Skipping, unable to determine old version
+[2023-06-07 04:23:32] INFO root fetch - main [MainThread]: End processing [pycot-reports] error
+[2023-06-07 04:23:32] INFO root fetch - processPackages [langchainplus-sdk]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-07 04:23:32] INFO root fetch - processPackages [hatch-rest-api]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-06-07 04:23:32] INFO root fetch - processPackages [prettyqt]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-06-07 04:23:32] INFO root fetch - processPackages [netunicorn-base]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-06-07 04:23:32] INFO root fetch - processPackages [localstack-core]: New version: [2.1.1.dev20230607022227] Old Version: [2.1.1.dev20230606200500]
+[2023-06-07 04:23:32] INFO root fetch - processPackages [hatch-rest-api]: Downloading https://files.pythonhosted.org/packages/53/e1/22f10781461d3819d6151025bff76a7f8a8d1e7d4d05e05819b8c7d16f69/hatch_rest_api-1.8.0.tar.gz
+[2023-06-07 04:23:32] INFO root fetch - processPackages [assisted-service-client]: New version: [2.9.0.post9] Old Version: [2.9.0.post8]
+[2023-06-07 04:23:32] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/03/e6/77cd97eb21cfb206695b556c17cdc6bd4674e864cf6d07664efc9200a390/localstack-core-2.1.1.dev20230606200500.tar.gz
+[2023-06-07 04:23:32] INFO root fetch - processPackages [langchainplus-sdk]: Downloading https://files.pythonhosted.org/packages/f9/ee/ee84637e4dada8e564800d1f08259606137855f54352487fc3d5d7030d23/langchainplus_sdk-0.0.4.tar.gz
+[2023-06-07 04:23:32] INFO root fetch - processPackages [prettyqt]: Downloading https://files.pythonhosted.org/packages/90/b7/c5a53747168c1ccc1d26309eca89b437a5f5c027f7a8486b65463ad4770c/prettyqt-1.9.1.tar.gz
+[2023-06-07 04:23:32] INFO root fetch - processPackages [netunicorn-base]: Downloading https://files.pythonhosted.org/packages/b2/72/c62d1247f8c57eb35d5b8888d55f9f20cbe3e0811b359731b14499c273cd/netunicorn-base-0.3.4.tar.gz
+[2023-06-07 04:23:32] INFO root fetch - processPackages [hatch-rest-api]: Downloading https://files.pythonhosted.org/packages/77/ab/7fffc2e61b25b4af9a272b49c1a99de6cb59dbb098dc0befa9e22e17e0f7/hatch_rest_api-1.9.0.tar.gz
+[2023-06-07 04:23:32] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/a5/ee/a5837c5427b0689f863021f5d65c42ff9d4ae267905a751492653198b2dc/assisted_service_client-2.9.0.post8-py3-none-any.whl
+[2023-06-07 04:23:32] INFO root fetch - processPackages [hatch-rest-api]: executing diffoscope
+[2023-06-07 04:23:32] INFO root fetch - processPackages [hatch-rest-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hatch_rest_api-1.8.0.tar.gz tmp/hatch_rest_api-1.9.0.tar.gz --markdown 20230607/h/hatch-rest-api/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-07 04:23:32] INFO root fetch - processPackages [langchainplus-sdk]: Downloading https://files.pythonhosted.org/packages/fe/fa/d5acf5ef72a0ea19f7350768432a2e91b1cbac83e9b0bd9a06fdf4c7eabc/langchainplus_sdk-0.0.5.tar.gz
+[2023-06-07 04:23:33] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/aa/97/352c0bf07813277a382d23e3e3e5a92b9f858aa6521c3aef2db16436ba26/localstack-core-2.1.1.dev20230607022227.tar.gz
+[2023-06-07 04:23:33] INFO root fetch - processPackages [langchainplus-sdk]: executing diffoscope
+[2023-06-07 04:23:33] INFO root fetch - processPackages [langchainplus-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchainplus_sdk-0.0.4.tar.gz tmp/langchainplus_sdk-0.0.5.tar.gz --markdown 20230607/l/langchainplus-sdk/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-07 04:23:33] INFO root fetch - processPackages [netunicorn-base]: Downloading https://files.pythonhosted.org/packages/da/69/24a5698c213bcec014a1800c66c67846e2abb66ca10dd589db8210ac6b62/netunicorn-base-0.3.5.tar.gz
+[2023-06-07 04:23:33] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-06-07 04:23:33] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.1.1.dev20230606200500.tar.gz tmp/localstack-core-2.1.1.dev20230607022227.tar.gz --markdown 20230607/l/localstack-core/2.1.1.dev20230606200500-2.1.1.dev20230607022227/diff.md --exclude *.pyd
+[2023-06-07 04:23:33] INFO root fetch - processPackages [netunicorn-base]: executing diffoscope
+[2023-06-07 04:23:33] INFO root fetch - processPackages [netunicorn-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netunicorn-base-0.3.4.tar.gz tmp/netunicorn-base-0.3.5.tar.gz --markdown 20230607/n/netunicorn-base/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-06-07 04:23:33] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/f6/90/2599b3c134ea21c06d22f83dd1dfac6801d974b9aa0958f008fb332e5b4d/assisted_service_client-2.9.0.post9-py3-none-any.whl
+[2023-06-07 04:23:33] INFO root fetch - processPackages [prettyqt]: Downloading https://files.pythonhosted.org/packages/49/65/b381f14f4a70e301a6f9cd50931dea1693b62567e0d6f4a9f55040563489/prettyqt-1.9.2.tar.gz
+[2023-06-07 04:23:33] INFO root fetch - processPackages [assisted-service-client]: executing diffoscope
+[2023-06-07 04:23:33] INFO root fetch - processPackages [assisted-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip --markdown 20230607/a/assisted-service-client/2.9.0.post8-2.9.0.post9/diff.md --exclude *.pyd
+[2023-06-07 04:23:33] INFO root fetch - processPackages [prettyqt]: executing diffoscope
+[2023-06-07 04:23:33] INFO root fetch - processPackages [prettyqt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prettyqt-1.9.1.tar.gz tmp/prettyqt-1.9.2.tar.gz --markdown 20230607/p/prettyqt/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-06-07 04:23:34] INFO root fetch - processPackages [langchainplus-sdk]: Remove: archive file [/home/abi/fetcher/tmp/langchainplus_sdk-0.0.4.tar.gz]
+[2023-06-07 04:23:34] INFO root fetch - processPackages [langchainplus-sdk]: Remove: archive file [/home/abi/fetcher/tmp/langchainplus_sdk-0.0.5.tar.gz]
+[2023-06-07 04:23:34] INFO root fetch - main [MainThread]: End processing [langchainplus-sdk]: success
+[2023-06-07 04:23:34] INFO root fetch - processPackages [netunicorn-base]: Remove: archive file [/home/abi/fetcher/tmp/netunicorn-base-0.3.4.tar.gz]
+[2023-06-07 04:23:34] INFO root fetch - processPackages [netunicorn-base]: Remove: archive file [/home/abi/fetcher/tmp/netunicorn-base-0.3.5.tar.gz]
+[2023-06-07 04:23:34] INFO root fetch - main [MainThread]: End processing [netunicorn-base]: success
+[2023-06-07 04:23:34] INFO root fetch - processPackages [hatch-rest-api]: Remove: archive file [/home/abi/fetcher/tmp/hatch_rest_api-1.8.0.tar.gz]
+[2023-06-07 04:23:34] INFO root fetch - processPackages [hatch-rest-api]: Remove: archive file [/home/abi/fetcher/tmp/hatch_rest_api-1.9.0.tar.gz]
+[2023-06-07 04:23:34] INFO root fetch - main [MainThread]: End processing [hatch-rest-api]: success
+[2023-06-07 04:23:37] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip]
+[2023-06-07 04:23:37] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip]
+[2023-06-07 04:23:37] INFO root fetch - main [MainThread]: End processing [assisted-service-client]: success
+[2023-06-07 04:23:39] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230606200500.tar.gz]
+[2023-06-07 04:23:39] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230607022227.tar.gz]
+[2023-06-07 04:23:39] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-06-07 04:23:40] INFO root fetch - processPackages [prettyqt]: Remove: archive file [/home/abi/fetcher/tmp/prettyqt-1.9.1.tar.gz]
+[2023-06-07 04:23:40] INFO root fetch - processPackages [prettyqt]: Remove: archive file [/home/abi/fetcher/tmp/prettyqt-1.9.2.tar.gz]
+[2023-06-07 04:23:40] INFO root fetch - main [MainThread]: End processing [prettyqt]: success
+[2023-06-07 04:23:40] INFO root fetch - main [MainThread]: Store serial: [18401823]
