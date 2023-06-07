@@ -9648,3 +9648,83 @@
 [2023-06-07 04:02:47] INFO root fetch - processPackages [agixt]: Remove: archive file [/home/abi/fetcher/tmp/agixt-1.1.84b0.tar.gz]
 [2023-06-07 04:02:47] INFO root fetch - main [MainThread]: End processing [agixt]: success
 [2023-06-07 04:02:47] INFO root fetch - main [MainThread]: Store serial: [18401714]
+[2023-06-07 04:07:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18401714]
+[2023-06-07 04:07:57] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-07 04:07:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: microviewer
+[2023-06-07 04:07:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ICICONSOLE
+[2023-06-07 04:07:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spPersist
+[2023-06-07 04:07:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Fict
+[2023-06-07 04:07:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: plog-python
+[2023-06-07 04:07:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: seven-cloudapp-frame
+[2023-06-07 04:07:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Fict
+[2023-06-07 04:07:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: matrixlib-jfj
+[2023-06-07 04:07:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: plog-python
+[2023-06-07 04:07:57] INFO root fetch - processPackages [spPersist]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-07 04:07:57] INFO root fetch - processPackages [Fict]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-07 04:07:57] INFO root fetch - processPackages [ICICONSOLE]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-07 04:07:57] INFO root fetch - processPackages [plog-python]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-07 04:07:57] INFO root fetch - processPackages [microviewer]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-07 04:07:57] INFO root fetch - processPackages [plog-python]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-07 04:07:57] INFO root fetch - processPackages [Fict]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-07 04:07:57] INFO root fetch - processPackages [matrixlib-jfj]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-07 04:07:57] INFO root fetch - processPackages [seven-cloudapp-frame]: New version: [1.0.9.9] Old Version: [1.0.9.8]
+[2023-06-07 04:07:57] INFO root fetch - processPackages [plog-python]: Downloading https://files.pythonhosted.org/packages/03/3e/a50d0e369f7dabdfb82aaa69227392e8973ae69df282863ff41612ee9f7a/plog-python-1.0.2.tar.gz
+[2023-06-07 04:07:57] INFO root fetch - processPackages [plog-python]: Downloading https://files.pythonhosted.org/packages/03/3e/a50d0e369f7dabdfb82aaa69227392e8973ae69df282863ff41612ee9f7a/plog-python-1.0.2.tar.gz
+[2023-06-07 04:07:57] INFO root fetch - processPackages [ICICONSOLE]: Downloading https://files.pythonhosted.org/packages/e1/f5/dea14c98e8e3a675f3c88cef978706763b24b77e481d7aa760c0e437eabb/ICICONSOLE-0.0.6.tar.gz
+[2023-06-07 04:07:58] INFO root fetch - processPackages [seven-cloudapp-frame]: Downloading https://files.pythonhosted.org/packages/35/2b/05b1b8a3faf3e0417c648bb54a3032af0de6b3d08180acd83e1eea5e3701/seven_cloudapp_frame-1.0.9.8.tar.gz
+[2023-06-07 04:07:58] INFO root fetch - processPackages [Fict]: Downloading https://files.pythonhosted.org/packages/28/89/0d75169c75fcf54c598ef0cea034dc4894b0a7f3f10f8263a20b0f2f541e/Fict-1.0.0.tar.gz
+[2023-06-07 04:07:58] INFO root fetch - processPackages [Fict]: Downloading https://files.pythonhosted.org/packages/28/89/0d75169c75fcf54c598ef0cea034dc4894b0a7f3f10f8263a20b0f2f541e/Fict-1.0.0.tar.gz
+[2023-06-07 04:07:58] INFO root fetch - processPackages [spPersist]: Downloading https://files.pythonhosted.org/packages/cc/ac/bfd85c5260a614f33589b6fd6d52c86547f0195c5c9a52a033e687abc1e4/sppersist-0.1.8.tar.gz
+[2023-06-07 04:07:58] INFO root fetch - processPackages [matrixlib-jfj]: Downloading https://files.pythonhosted.org/packages/96/25/9253148cd405c43cdaeacde2cbfd73206bb24fa97eb4eacf5741a11486f0/matrixlib_jfj-0.0.3.tar.gz
+[2023-06-07 04:07:58] INFO root fetch - processPackages [microviewer]: Downloading https://files.pythonhosted.org/packages/70/26/13efb1d831e27f43cc0b35e19d41f133bdd468fdf4df5d145411d76820bf/microviewer-1.0.0.tar.gz
+[2023-06-07 04:07:58] INFO root fetch - processPackages [seven-cloudapp-frame]: Downloading https://files.pythonhosted.org/packages/74/d6/645286f46e81a7cbd30574c917b65af03679c974a979c0421012bd713cbd/seven_cloudapp_frame-1.0.9.9.tar.gz
+[2023-06-07 04:07:58] INFO root fetch - processPackages [plog-python]: Downloading https://files.pythonhosted.org/packages/4d/ef/c777d5d34336aab20e1017ac6f8099d93ed75dc0a520c715360ab693ab64/plog_python-1.0.3-py3-none-any.whl
+[2023-06-07 04:07:58] INFO root fetch - processPackages [plog-python]: Downloading https://files.pythonhosted.org/packages/4d/ef/c777d5d34336aab20e1017ac6f8099d93ed75dc0a520c715360ab693ab64/plog_python-1.0.3-py3-none-any.whl
+[2023-06-07 04:07:58] INFO root fetch - processPackages [ICICONSOLE]: Downloading https://files.pythonhosted.org/packages/ed/16/72d29ebc4c5f75b9737c499c71a8e01a7d60dc397e28fe41468571072bb4/ICICONSOLE-0.0.7.tar.gz
+[2023-06-07 04:07:58] INFO root fetch - processPackages [Fict]: Downloading https://files.pythonhosted.org/packages/83/35/7f403d6f9172cb19ae3778ac800abc8fb8c96ce38e5545f51eebf9c60d02/Fict-1.0.1.tar.gz
+[2023-06-07 04:07:58] INFO root fetch - processPackages [Fict]: Downloading https://files.pythonhosted.org/packages/83/35/7f403d6f9172cb19ae3778ac800abc8fb8c96ce38e5545f51eebf9c60d02/Fict-1.0.1.tar.gz
+[2023-06-07 04:07:58] INFO root fetch - processPackages [seven-cloudapp-frame]: executing diffoscope
+[2023-06-07 04:07:58] INFO root fetch - processPackages [seven-cloudapp-frame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seven_cloudapp_frame-1.0.9.8.tar.gz tmp/seven_cloudapp_frame-1.0.9.9.tar.gz --markdown 20230607/s/seven-cloudapp-frame/1.0.9.8-1.0.9.9/diff.md --exclude *.pyd
+[2023-06-07 04:07:58] INFO root fetch - processPackages [plog-python]: executing diffoscope
+[2023-06-07 04:07:58] INFO root fetch - processPackages [plog-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plog-python-1.0.2.tar.gz tmp/plog_python-1.0.3-py3-none-any.whl.zip --markdown 20230607/p/plog-python/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-07 04:07:58] INFO root fetch - processPackages [plog-python]: executing diffoscope
+[2023-06-07 04:07:58] INFO root fetch - processPackages [plog-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plog-python-1.0.2.tar.gz tmp/plog_python-1.0.3-py3-none-any.whl.zip --markdown 20230607/p/plog-python/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-07 04:07:58] INFO root fetch - processPackages [ICICONSOLE]: executing diffoscope
+[2023-06-07 04:07:58] INFO root fetch - processPackages [Fict]: executing diffoscope
+[2023-06-07 04:07:58] INFO root fetch - processPackages [Fict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Fict-1.0.0.tar.gz tmp/Fict-1.0.1.tar.gz --markdown 20230607/F/Fict/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-07 04:07:58] INFO root fetch - processPackages [ICICONSOLE]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ICICONSOLE-0.0.6.tar.gz tmp/ICICONSOLE-0.0.7.tar.gz --markdown 20230607/I/ICICONSOLE/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-07 04:07:58] INFO root fetch - processPackages [matrixlib-jfj]: Downloading https://files.pythonhosted.org/packages/a5/a3/ab0d1e54a9a9e55cd562af912f3932cf15646d14e0578dd5e2ed200d88be/matrixlib_jfj-0.0.4.tar.gz
+[2023-06-07 04:07:58] INFO root fetch - processPackages [Fict]: executing diffoscope
+[2023-06-07 04:07:58] INFO root fetch - processPackages [Fict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Fict-1.0.0.tar.gz tmp/Fict-1.0.1.tar.gz --markdown 20230607/F/Fict/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-07 04:07:58] INFO root fetch - processPackages [microviewer]: Downloading https://files.pythonhosted.org/packages/8f/7e/324c5bce79187f74edff9a2800544b9068bd543ea25ee2effa8326644344/microviewer-1.0.1.tar.gz
+[2023-06-07 04:07:58] INFO root fetch - processPackages [spPersist]: Downloading https://files.pythonhosted.org/packages/c6/98/1105c24b7481231e47854207049857a414f0f451d9f96a29f9e155184d87/sppersist-0.1.9.tar.gz
+[2023-06-07 04:07:58] INFO root fetch - processPackages [matrixlib-jfj]: executing diffoscope
+[2023-06-07 04:07:58] INFO root fetch - processPackages [matrixlib-jfj]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matrixlib_jfj-0.0.3.tar.gz tmp/matrixlib_jfj-0.0.4.tar.gz --markdown 20230607/m/matrixlib-jfj/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-07 04:07:58] INFO root fetch - processPackages [spPersist]: executing diffoscope
+[2023-06-07 04:07:58] INFO root fetch - processPackages [spPersist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sppersist-0.1.8.tar.gz tmp/sppersist-0.1.9.tar.gz --markdown 20230607/s/spPersist/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-07 04:07:58] INFO root fetch - processPackages [microviewer]: executing diffoscope
+[2023-06-07 04:07:58] INFO root fetch - processPackages [microviewer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/microviewer-1.0.0.tar.gz tmp/microviewer-1.0.1.tar.gz --markdown 20230607/m/microviewer/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-07 04:07:59] INFO root fetch - processPackages [plog-python]: Remove: archive file [/home/abi/fetcher/tmp/plog-python-1.0.2.tar.gz]
+[2023-06-07 04:07:59] INFO root fetch - processPackages [plog-python]: Remove: archive file [/home/abi/fetcher/tmp/plog_python-1.0.3-py3-none-any.whl.zip]
+[2023-06-07 04:07:59] INFO root fetch - main [MainThread]: End processing [plog-python]: success
+[2023-06-07 04:07:59] INFO root fetch - main [MainThread]: End processing [plog-python]: success
+[2023-06-07 04:07:59] INFO root fetch - processPackages [Fict]: Remove: archive file [/home/abi/fetcher/tmp/Fict-1.0.0.tar.gz]
+[2023-06-07 04:07:59] INFO root fetch - processPackages [Fict]: Remove: archive file [/home/abi/fetcher/tmp/Fict-1.0.1.tar.gz]
+[2023-06-07 04:07:59] INFO root fetch - main [MainThread]: End processing [Fict]: success
+[2023-06-07 04:07:59] INFO root fetch - main [MainThread]: End processing [Fict]: success
+[2023-06-07 04:08:00] INFO root fetch - processPackages [spPersist]: Remove: archive file [/home/abi/fetcher/tmp/sppersist-0.1.8.tar.gz]
+[2023-06-07 04:08:00] INFO root fetch - processPackages [spPersist]: Remove: archive file [/home/abi/fetcher/tmp/sppersist-0.1.9.tar.gz]
+[2023-06-07 04:08:00] INFO root fetch - main [MainThread]: End processing [spPersist]: success
+[2023-06-07 04:08:00] INFO root fetch - processPackages [matrixlib-jfj]: Remove: archive file [/home/abi/fetcher/tmp/matrixlib_jfj-0.0.3.tar.gz]
+[2023-06-07 04:08:00] INFO root fetch - processPackages [matrixlib-jfj]: Remove: archive file [/home/abi/fetcher/tmp/matrixlib_jfj-0.0.4.tar.gz]
+[2023-06-07 04:08:00] INFO root fetch - main [MainThread]: End processing [matrixlib-jfj]: success
+[2023-06-07 04:08:00] INFO root fetch - processPackages [ICICONSOLE]: Remove: archive file [/home/abi/fetcher/tmp/ICICONSOLE-0.0.6.tar.gz]
+[2023-06-07 04:08:00] INFO root fetch - processPackages [ICICONSOLE]: Remove: archive file [/home/abi/fetcher/tmp/ICICONSOLE-0.0.7.tar.gz]
+[2023-06-07 04:08:00] INFO root fetch - main [MainThread]: End processing [ICICONSOLE]: success
+[2023-06-07 04:08:01] INFO root fetch - processPackages [microviewer]: Remove: archive file [/home/abi/fetcher/tmp/microviewer-1.0.0.tar.gz]
+[2023-06-07 04:08:01] INFO root fetch - processPackages [microviewer]: Remove: archive file [/home/abi/fetcher/tmp/microviewer-1.0.1.tar.gz]
+[2023-06-07 04:08:01] INFO root fetch - main [MainThread]: End processing [microviewer]: success
+[2023-06-07 04:08:02] INFO root fetch - processPackages [seven-cloudapp-frame]: Remove: archive file [/home/abi/fetcher/tmp/seven_cloudapp_frame-1.0.9.8.tar.gz]
+[2023-06-07 04:08:02] INFO root fetch - processPackages [seven-cloudapp-frame]: Remove: archive file [/home/abi/fetcher/tmp/seven_cloudapp_frame-1.0.9.9.tar.gz]
+[2023-06-07 04:08:02] INFO root fetch - main [MainThread]: End processing [seven-cloudapp-frame]: success
+[2023-06-07 04:08:02] INFO root fetch - main [MainThread]: Store serial: [18401744]
