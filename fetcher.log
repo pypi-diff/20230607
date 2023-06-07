@@ -21070,3 +21070,83 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-07 12:39:36] INFO root fetch - processPackages [collective.collectionfilter]: Remove: archive file [/home/abi/fetcher/tmp/collective.collectionfilter-5.0a2.tar.gz]
 [2023-06-07 12:39:36] INFO root fetch - main [MainThread]: End processing [collective.collectionfilter]: success
 [2023-06-07 12:39:36] INFO root fetch - main [MainThread]: Store serial: [18406604]
+[2023-06-07 12:44:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18406604]
+[2023-06-07 12:44:46] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-07 12:44:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ds-caselaw-marklogic-api-client
+[2023-06-07 12:44:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: empiric-network
+[2023-06-07 12:44:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pipeline-ai
+[2023-06-07 12:44:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: artus
+[2023-06-07 12:44:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: formification
+[2023-06-07 12:44:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-somconnexio-python-client
+[2023-06-07 12:44:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: home-assistant-frontend
+[2023-06-07 12:44:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: yapic.di
+[2023-06-07 12:44:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo14-addon-l10n-es-ticketbai
+[2023-06-07 12:44:46] INFO root fetch - processPackages [empiric-network]: New version: [1.6.0] Old Version: [1.5.2]
+[2023-06-07 12:44:46] INFO root fetch - processPackages [formification]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-06-07 12:44:46] INFO root fetch - processPackages [yapic.di]: New version: [2.0.9] Old Version: [2.0.4]
+[2023-06-07 12:44:46] INFO root fetch - processPackages [odoo-somconnexio-python-client]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-07 12:44:46] INFO root fetch - processPackages [ds-caselaw-marklogic-api-client]: New version: [9.0.0] Old Version: [8.0.0]
+[2023-06-07 12:44:46] INFO root fetch - processPackages [artus]: New version: [0.1.3] Old Version: [0.1.1]
+[2023-06-07 12:44:46] INFO root fetch - processPackages [pipeline-ai]: New version: [0.5.0b2] Old Version: [0.5.0b1]
+[2023-06-07 12:44:46] INFO root fetch - processPackages [home-assistant-frontend]: New version: [20230607.0] Old Version: [20230606.0]
+[2023-06-07 12:44:46] INFO root fetch - processPackages [yapic.di]: Downloading https://files.pythonhosted.org/packages/24/02/f3c69622cf1e33fb1341bd085573a717a1491603aad4c8de46924470dfee/yapic.di-2.0.4.tar.gz
+[2023-06-07 12:44:46] INFO root fetch - processPackages [artus]: Downloading https://files.pythonhosted.org/packages/0e/c1/92e4580204ba5feca5a27996588f69292662e30ad6ac4b1cc9ac0aee5d17/artus-0.1.1.tar.gz
+[2023-06-07 12:44:46] INFO root fetch - processPackages [odoo14-addon-l10n-es-ticketbai]: New version: [14.0.2.9.2] Old Version: [14.0.2.9.1.dev1]
+[2023-06-07 12:44:46] INFO root fetch - processPackages [ds-caselaw-marklogic-api-client]: Downloading https://files.pythonhosted.org/packages/5b/8a/0481fc7e5ba3e035cc1653d98c2f46ecd48b306fc79b995ec6af7e7b0f5d/ds_caselaw_marklogic_api_client-8.0.0.tar.gz
+[2023-06-07 12:44:46] INFO root fetch - processPackages [empiric-network]: Downloading https://files.pythonhosted.org/packages/8f/19/a6818fab98120a9d5ef68772a5ce33a3f25efdc1c2d45037c065b2ede20b/empiric_network-1.5.2.tar.gz
+[2023-06-07 12:44:46] INFO root fetch - processPackages [home-assistant-frontend]: Downloading https://files.pythonhosted.org/packages/72/02/922d2049875c4f1c5da8e0764fb9beeddc1fcf67ee41468cba234face980/home_assistant_frontend-20230606.0-py3-none-any.whl
+[2023-06-07 12:44:46] INFO root fetch - processPackages [odoo-somconnexio-python-client]: Downloading https://files.pythonhosted.org/packages/7c/b2/c90cc8ba26aa5ea738b48d84041866034780c193542b40b8a5154dcf91e4/odoo-somconnexio-python-client-0.1.8.tar.gz
+[2023-06-07 12:44:46] INFO root fetch - processPackages [formification]: Downloading https://files.pythonhosted.org/packages/0c/f9/cc280786102f94e0a58d89027e8383588e45c2f0a62391db0c0af3353de3/formification-1.0.0.tar.gz
+[2023-06-07 12:44:46] INFO root fetch - processPackages [pipeline-ai]: Downloading https://files.pythonhosted.org/packages/31/5f/124f56893ff237c4fe024f353bdde5a5282da42cd409cc5a270a70f99567/pipeline_ai-0.5.0b1.tar.gz
+[2023-06-07 12:44:46] WARNING root fetch - processPackages [home-assistant-frontend]: Skipping package: exceeds size limit 45255271>=10485760
+[2023-06-07 12:44:46] INFO root fetch - main [MainThread]: End processing [home-assistant-frontend] error
+[2023-06-07 12:44:46] INFO root fetch - processPackages [yapic.di]: Downloading https://files.pythonhosted.org/packages/36/10/328ed401152aeb9cac49672f857ffdee02e81cc1dc99b3e1186272920414/yapic.di-2.0.9.tar.gz
+[2023-06-07 12:44:46] INFO root fetch - processPackages [odoo14-addon-l10n-es-ticketbai]: Downloading https://files.pythonhosted.org/packages/c0/64/6a0cebed8effa8b275a30f6d2e9fee7d993861964265453d5dbefb005547/odoo14_addon_l10n_es_ticketbai-14.0.2.9.1.dev1-py3-none-any.whl
+[2023-06-07 12:44:46] INFO root fetch - processPackages [artus]: Downloading https://files.pythonhosted.org/packages/bb/8e/2af482a102a1fdd97ad7c8d972b17b7914b393cfc75c929d46dcdc2303c8/artus-0.1.3.tar.gz
+[2023-06-07 12:44:46] INFO root fetch - processPackages [yapic.di]: executing diffoscope
+[2023-06-07 12:44:46] INFO root fetch - processPackages [yapic.di]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yapic.di-2.0.4.tar.gz tmp/yapic.di-2.0.9.tar.gz --markdown 20230607/y/yapic.di/2.0.4-2.0.9/diff.md --exclude *.pyd
+[2023-06-07 12:44:46] INFO root fetch - processPackages [ds-caselaw-marklogic-api-client]: Downloading https://files.pythonhosted.org/packages/3c/df/fedd765da0968ca3e553992d6546069c8c5f4dab1b3aa406246988c77909/ds_caselaw_marklogic_api_client-9.0.0.tar.gz
+[2023-06-07 12:44:46] INFO root fetch - processPackages [artus]: executing diffoscope
+[2023-06-07 12:44:46] INFO root fetch - processPackages [artus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/artus-0.1.1.tar.gz tmp/artus-0.1.3.tar.gz --markdown 20230607/a/artus/0.1.1-0.1.3/diff.md --exclude *.pyd
+[2023-06-07 12:44:46] INFO root fetch - processPackages [empiric-network]: Downloading https://files.pythonhosted.org/packages/ee/ff/1e327534eea4e0b583d2de497d3b56ffc952c8046873cbd909ce23b74a43/empiric_network-1.6.0.tar.gz
+[2023-06-07 12:44:46] INFO root fetch - processPackages [pipeline-ai]: Downloading https://files.pythonhosted.org/packages/71/c1/f7f80fe743380769d8c3eaa94f29976aabb6fcda4b655f1ca29fc47a06d2/pipeline_ai-0.5.0b2.tar.gz
+[2023-06-07 12:44:46] INFO root fetch - processPackages [ds-caselaw-marklogic-api-client]: executing diffoscope
+[2023-06-07 12:44:46] INFO root fetch - processPackages [ds-caselaw-marklogic-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ds_caselaw_marklogic_api_client-8.0.0.tar.gz tmp/ds_caselaw_marklogic_api_client-9.0.0.tar.gz --markdown 20230607/d/ds-caselaw-marklogic-api-client/8.0.0-9.0.0/diff.md --exclude *.pyd
+[2023-06-07 12:44:46] INFO root fetch - processPackages [odoo-somconnexio-python-client]: Downloading https://files.pythonhosted.org/packages/db/ae/1fbdff028cdf00431a3a68d4c040a09f21c473f177e26349f6c55b50095f/odoo-somconnexio-python-client-0.1.9.tar.gz
+[2023-06-07 12:44:46] INFO root fetch - processPackages [formification]: Downloading https://files.pythonhosted.org/packages/af/a7/2120822ff8c68df72114c53876474e17fe92d0255e2be91d2b6b8bcd06cd/formification-1.1.0.tar.gz
+[2023-06-07 12:44:46] INFO root fetch - processPackages [odoo14-addon-l10n-es-ticketbai]: Downloading https://files.pythonhosted.org/packages/54/32/2d1e484635d9180ef98f4c48e3c1562063afed39091e8e11e35978266b03/odoo14_addon_l10n_es_ticketbai-14.0.2.9.2-py3-none-any.whl
+[2023-06-07 12:44:46] INFO root fetch - processPackages [pipeline-ai]: executing diffoscope
+[2023-06-07 12:44:46] INFO root fetch - processPackages [empiric-network]: executing diffoscope
+[2023-06-07 12:44:46] INFO root fetch - processPackages [empiric-network]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/empiric_network-1.5.2.tar.gz tmp/empiric_network-1.6.0.tar.gz --markdown 20230607/e/empiric-network/1.5.2-1.6.0/diff.md --exclude *.pyd
+[2023-06-07 12:44:46] INFO root fetch - processPackages [pipeline-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipeline_ai-0.5.0b1.tar.gz tmp/pipeline_ai-0.5.0b2.tar.gz --markdown 20230607/p/pipeline-ai/0.5.0b1-0.5.0b2/diff.md --exclude *.pyd
+[2023-06-07 12:44:46] INFO root fetch - processPackages [odoo-somconnexio-python-client]: executing diffoscope
+[2023-06-07 12:44:46] INFO root fetch - processPackages [odoo-somconnexio-python-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo-somconnexio-python-client-0.1.8.tar.gz tmp/odoo-somconnexio-python-client-0.1.9.tar.gz --markdown 20230607/o/odoo-somconnexio-python-client/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-07 12:44:46] INFO root fetch - processPackages [odoo14-addon-l10n-es-ticketbai]: executing diffoscope
+[2023-06-07 12:44:46] INFO root fetch - processPackages [odoo14-addon-l10n-es-ticketbai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_es_ticketbai-14.0.2.9.1.dev1-py3-none-any.whl.zip tmp/odoo14_addon_l10n_es_ticketbai-14.0.2.9.2-py3-none-any.whl.zip --markdown 20230607/o/odoo14-addon-l10n-es-ticketbai/14.0.2.9.1.dev1-14.0.2.9.2/diff.md --exclude *.pyd
+[2023-06-07 12:44:46] INFO root fetch - processPackages [formification]: executing diffoscope
+[2023-06-07 12:44:46] INFO root fetch - processPackages [formification]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/formification-1.0.0.tar.gz tmp/formification-1.1.0.tar.gz --markdown 20230607/f/formification/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-06-07 12:44:48] INFO root fetch - processPackages [yapic.di]: Remove: archive file [/home/abi/fetcher/tmp/yapic.di-2.0.4.tar.gz]
+[2023-06-07 12:44:48] INFO root fetch - processPackages [yapic.di]: Remove: archive file [/home/abi/fetcher/tmp/yapic.di-2.0.9.tar.gz]
+[2023-06-07 12:44:48] INFO root fetch - main [MainThread]: End processing [yapic.di]: success
+[2023-06-07 12:44:48] INFO root fetch - processPackages [ds-caselaw-marklogic-api-client]: Remove: archive file [/home/abi/fetcher/tmp/ds_caselaw_marklogic_api_client-8.0.0.tar.gz]
+[2023-06-07 12:44:48] INFO root fetch - processPackages [ds-caselaw-marklogic-api-client]: Remove: archive file [/home/abi/fetcher/tmp/ds_caselaw_marklogic_api_client-9.0.0.tar.gz]
+[2023-06-07 12:44:48] INFO root fetch - main [MainThread]: End processing [ds-caselaw-marklogic-api-client]: success
+[2023-06-07 12:44:48] INFO root fetch - processPackages [artus]: Remove: archive file [/home/abi/fetcher/tmp/artus-0.1.1.tar.gz]
+[2023-06-07 12:44:48] INFO root fetch - processPackages [artus]: Remove: archive file [/home/abi/fetcher/tmp/artus-0.1.3.tar.gz]
+[2023-06-07 12:44:48] INFO root fetch - main [MainThread]: End processing [artus]: success
+[2023-06-07 12:44:48] INFO root fetch - processPackages [pipeline-ai]: Remove: archive file [/home/abi/fetcher/tmp/pipeline_ai-0.5.0b1.tar.gz]
+[2023-06-07 12:44:48] INFO root fetch - processPackages [pipeline-ai]: Remove: archive file [/home/abi/fetcher/tmp/pipeline_ai-0.5.0b2.tar.gz]
+[2023-06-07 12:44:48] INFO root fetch - main [MainThread]: End processing [pipeline-ai]: success
+[2023-06-07 12:44:48] INFO root fetch - processPackages [odoo14-addon-l10n-es-ticketbai]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_es_ticketbai-14.0.2.9.1.dev1-py3-none-any.whl.zip]
+[2023-06-07 12:44:48] INFO root fetch - processPackages [odoo14-addon-l10n-es-ticketbai]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_es_ticketbai-14.0.2.9.2-py3-none-any.whl.zip]
+[2023-06-07 12:44:48] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-es-ticketbai]: success
+[2023-06-07 12:44:48] INFO root fetch - processPackages [odoo-somconnexio-python-client]: Remove: archive file [/home/abi/fetcher/tmp/odoo-somconnexio-python-client-0.1.8.tar.gz]
+[2023-06-07 12:44:48] INFO root fetch - processPackages [odoo-somconnexio-python-client]: Remove: archive file [/home/abi/fetcher/tmp/odoo-somconnexio-python-client-0.1.9.tar.gz]
+[2023-06-07 12:44:48] INFO root fetch - main [MainThread]: End processing [odoo-somconnexio-python-client]: success
+[2023-06-07 12:44:50] INFO root fetch - processPackages [formification]: Remove: archive file [/home/abi/fetcher/tmp/formification-1.0.0.tar.gz]
+[2023-06-07 12:44:50] INFO root fetch - processPackages [formification]: Remove: archive file [/home/abi/fetcher/tmp/formification-1.1.0.tar.gz]
+[2023-06-07 12:44:50] INFO root fetch - main [MainThread]: End processing [formification]: success
+[2023-06-07 12:44:50] INFO root fetch - processPackages [empiric-network]: Remove: archive file [/home/abi/fetcher/tmp/empiric_network-1.5.2.tar.gz]
+[2023-06-07 12:44:50] INFO root fetch - processPackages [empiric-network]: Remove: archive file [/home/abi/fetcher/tmp/empiric_network-1.6.0.tar.gz]
+[2023-06-07 12:44:50] INFO root fetch - main [MainThread]: End processing [empiric-network]: success
+[2023-06-07 12:44:50] INFO root fetch - main [MainThread]: Store serial: [18406634]
