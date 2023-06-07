@@ -18987,3 +18987,129 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-07 11:03:36] INFO root fetch - processPackages [pysequoia]: Remove: archive file [/home/abi/fetcher/tmp/pysequoia-0.1.9.tar.gz]
 [2023-06-07 11:03:36] INFO root fetch - main [MainThread]: End processing [pysequoia]: success
 [2023-06-07 11:03:36] INFO root fetch - main [MainThread]: Store serial: [18405494]
+[2023-06-07 11:08:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18405494]
+[2023-06-07 11:08:46] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-07 11:08:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: autogluon.common
+[2023-06-07 11:08:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: autogluon.core
+[2023-06-07 11:08:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: autogluon.features
+[2023-06-07 11:08:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: autogluon.tabular
+[2023-06-07 11:08:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: autogluon.cloud
+[2023-06-07 11:08:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: esmerald
+[2023-06-07 11:08:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: airbyte-cdk
+[2023-06-07 11:08:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mobio-dedupe-sdk-test
+[2023-06-07 11:08:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: assisted-service-client
+[2023-06-07 11:08:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: computing-toolbox
+[2023-06-07 11:08:46] INFO root fetch - processPackages [airbyte-cdk]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-06-07 11:08:46] INFO root fetch - processPackages [esmerald]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-06-07 11:08:46] INFO root fetch - processPackages [computing-toolbox]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-06-07 11:08:46] INFO root fetch - processPackages [mobio-dedupe-sdk-test]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-07 11:08:46] INFO root fetch - processPackages [autogluon.core]: New version: [0.7.1b20230607] Old Version: [0.7.1b20230606]
+[2023-06-07 11:08:46] INFO root fetch - processPackages [autogluon.cloud]: New version: [0.2.1b20230607] Old Version: [0.2.1b20230606]
+[2023-06-07 11:08:46] INFO root fetch - processPackages [autogluon.features]: New version: [0.7.1b20230607] Old Version: [0.7.1b20230606]
+[2023-06-07 11:08:46] INFO root fetch - processPackages [assisted-service-client]: New version: [2.9.0.post9] Old Version: [2.9.0.post8]
+[2023-06-07 11:08:46] INFO root fetch - processPackages [computing-toolbox]: Downloading https://files.pythonhosted.org/packages/b9/70/517e4c90c80712efc48bc2e7341c2078c63d2734ec53966ddf7d0f5259a7/computing-toolbox-0.3.0.tar.gz
+[2023-06-07 11:08:46] INFO root fetch - processPackages [autogluon.common]: New version: [0.7.1b20230607] Old Version: [0.7.1b20230606]
+[2023-06-07 11:08:46] INFO root fetch - processPackages [autogluon.tabular]: New version: [0.7.1b20230607] Old Version: [0.7.1b20230606]
+[2023-06-07 11:08:46] INFO root fetch - processPackages [autogluon.core]: Downloading https://files.pythonhosted.org/packages/47/db/c64b7b7953354a10bc3953a63817266890067ade8ad1e4419c139d6b5171/autogluon.core-0.7.1b20230606.tar.gz
+[2023-06-07 11:08:46] INFO root fetch - processPackages [autogluon.features]: Downloading https://files.pythonhosted.org/packages/aa/81/cdce6352b8f72813e19b4adef4f6124f2238244c18472b8c141d7286fac8/autogluon.features-0.7.1b20230606.tar.gz
+[2023-06-07 11:08:46] INFO root fetch - processPackages [autogluon.cloud]: Downloading https://files.pythonhosted.org/packages/71/e4/705ef988f85fa65933ee5d36f2c4eb2a903275d20693843699eeddfcfa25/autogluon.cloud-0.2.1b20230606.tar.gz
+[2023-06-07 11:08:46] INFO root fetch - processPackages [autogluon.common]: Downloading https://files.pythonhosted.org/packages/21/b5/c867c9b4d1cf20dee7cfd3d33c87f5613b27c941fff60799b7d5932ba5fc/autogluon.common-0.7.1b20230606.tar.gz
+[2023-06-07 11:08:46] INFO root fetch - processPackages [airbyte-cdk]: Downloading https://files.pythonhosted.org/packages/a6/6c/5db8c1f4ef1f82d0d51a3df308363222107d0773276235a4acbc31f7f8dc/airbyte-cdk-0.9.4.tar.gz
+[2023-06-07 11:08:46] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/a5/ee/a5837c5427b0689f863021f5d65c42ff9d4ae267905a751492653198b2dc/assisted_service_client-2.9.0.post8-py3-none-any.whl
+[2023-06-07 11:08:46] INFO root fetch - processPackages [esmerald]: Downloading https://files.pythonhosted.org/packages/de/e8/0ada1ba53d77d94fd17969749dab46bd6093ca0ede3487c3f9460ba464f6/esmerald-1.2.3.tar.gz
+[2023-06-07 11:08:46] INFO root fetch - processPackages [mobio-dedupe-sdk-test]: Downloading https://files.pythonhosted.org/packages/98/0a/f80291d79092ba71951b6a26781203de5b206e3b53648fcad156d782fef1/mobio-dedupe-sdk-test-1.0.8.tar.gz
+[2023-06-07 11:08:46] INFO root fetch - processPackages [autogluon.tabular]: Downloading https://files.pythonhosted.org/packages/0e/1c/6a1e1963e38fa54838642b2bfdcd407e1067adf7d182e5eab08643649b52/autogluon.tabular-0.7.1b20230606.tar.gz
+[2023-06-07 11:08:46] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/f6/90/2599b3c134ea21c06d22f83dd1dfac6801d974b9aa0958f008fb332e5b4d/assisted_service_client-2.9.0.post9-py3-none-any.whl
+[2023-06-07 11:08:46] INFO root fetch - processPackages [computing-toolbox]: Downloading https://files.pythonhosted.org/packages/e4/a0/c846aae8ab737d5138b4033cbf363121264cb7e58d46e78adfe37f047aa0/computing-toolbox-0.4.0.tar.gz
+[2023-06-07 11:08:46] INFO root fetch - processPackages [autogluon.features]: Downloading https://files.pythonhosted.org/packages/36/64/487a344b127acc28e383cf42a63081f29e7258a7aa1b4a908c7643bfe78a/autogluon.features-0.7.1b20230607.tar.gz
+[2023-06-07 11:08:46] INFO root fetch - processPackages [autogluon.cloud]: Downloading https://files.pythonhosted.org/packages/4c/72/120565e93da0724bee6531f20f1d6f146b960f0003670b62f5d8d84b8258/autogluon.cloud-0.2.1b20230607.tar.gz
+[2023-06-07 11:08:46] INFO root fetch - processPackages [autogluon.common]: Downloading https://files.pythonhosted.org/packages/5f/fa/04d5dbc40383943c26b665194628ba3834803f5c2a53a2a181741b86b685/autogluon.common-0.7.1b20230607.tar.gz
+[2023-06-07 11:08:46] INFO root fetch - processPackages [esmerald]: Downloading https://files.pythonhosted.org/packages/9d/d5/c038aa2cf4022e2d81176cb41fffd7333ab61431c4ae5d5f90d66e1b8f63/esmerald-1.2.4.tar.gz
+[2023-06-07 11:08:46] INFO root fetch - processPackages [assisted-service-client]: executing diffoscope
+[2023-06-07 11:08:46] INFO root fetch - processPackages [assisted-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip --markdown 20230607/a/assisted-service-client/2.9.0.post8-2.9.0.post9/diff.md --exclude *.pyd
+[2023-06-07 11:08:46] INFO root fetch - processPackages [autogluon.core]: Downloading https://files.pythonhosted.org/packages/b5/25/76f62210210a41e3ffc0a529b45c8925f08681f5c837db8af28dae8b2a34/autogluon.core-0.7.1b20230607.tar.gz
+[2023-06-07 11:08:46] INFO root fetch - processPackages [airbyte-cdk]: Downloading https://files.pythonhosted.org/packages/9f/96/b471868d256cf73e3745675013847705a79a47e5a529e1c026d6032228bb/airbyte-cdk-0.9.5.tar.gz
+[2023-06-07 11:08:46] INFO root fetch - processPackages [autogluon.features]: executing diffoscope
+[2023-06-07 11:08:46] INFO root fetch - processPackages [autogluon.features]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.features-0.7.1b20230606.tar.gz tmp/autogluon.features-0.7.1b20230607.tar.gz --markdown 20230607/a/autogluon.features/0.7.1b20230606-0.7.1b20230607/diff.md --exclude *.pyd
+[2023-06-07 11:08:46] INFO root fetch - processPackages [autogluon.cloud]: executing diffoscope
+[2023-06-07 11:08:46] INFO root fetch - processPackages [autogluon.cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.cloud-0.2.1b20230606.tar.gz tmp/autogluon.cloud-0.2.1b20230607.tar.gz --markdown 20230607/a/autogluon.cloud/0.2.1b20230606-0.2.1b20230607/diff.md --exclude *.pyd
+[2023-06-07 11:08:46] INFO root fetch - processPackages [computing-toolbox]: executing diffoscope
+[2023-06-07 11:08:46] INFO root fetch - processPackages [autogluon.tabular]: Downloading https://files.pythonhosted.org/packages/57/3d/efcc0ab4451524c2263615a72b83bbd6f479aca3a4086728271123635310/autogluon.tabular-0.7.1b20230607-py3-none-any.whl
+[2023-06-07 11:08:46] INFO root fetch - processPackages [computing-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/computing-toolbox-0.3.0.tar.gz tmp/computing-toolbox-0.4.0.tar.gz --markdown 20230607/c/computing-toolbox/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-06-07 11:08:46] INFO root fetch - processPackages [esmerald]: executing diffoscope
+[2023-06-07 11:08:46] INFO root fetch - processPackages [esmerald]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esmerald-1.2.3.tar.gz tmp/esmerald-1.2.4.tar.gz --markdown 20230607/e/esmerald/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2023-06-07 11:08:46] INFO root fetch - processPackages [autogluon.core]: executing diffoscope
+[2023-06-07 11:08:46] INFO root fetch - processPackages [autogluon.core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.core-0.7.1b20230606.tar.gz tmp/autogluon.core-0.7.1b20230607.tar.gz --markdown 20230607/a/autogluon.core/0.7.1b20230606-0.7.1b20230607/diff.md --exclude *.pyd
+[2023-06-07 11:08:46] INFO root fetch - processPackages [autogluon.common]: executing diffoscope
+[2023-06-07 11:08:46] INFO root fetch - processPackages [autogluon.common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.common-0.7.1b20230606.tar.gz tmp/autogluon.common-0.7.1b20230607.tar.gz --markdown 20230607/a/autogluon.common/0.7.1b20230606-0.7.1b20230607/diff.md --exclude *.pyd
+[2023-06-07 11:08:46] INFO root fetch - processPackages [airbyte-cdk]: executing diffoscope
+[2023-06-07 11:08:46] INFO root fetch - processPackages [airbyte-cdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte-cdk-0.9.4.tar.gz tmp/airbyte-cdk-0.9.5.tar.gz --markdown 20230607/a/airbyte-cdk/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-06-07 11:08:46] INFO root fetch - processPackages [mobio-dedupe-sdk-test]: Downloading https://files.pythonhosted.org/packages/fb/55/bea5bcd8c73ef0540ea1f104c083c029da19c180d5e0975d46423db7c71c/mobio-dedupe-sdk-test-1.0.9.tar.gz
+[2023-06-07 11:08:46] INFO root fetch - processPackages [autogluon.tabular]: executing diffoscope
+[2023-06-07 11:08:46] INFO root fetch - processPackages [autogluon.tabular]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.tabular-0.7.1b20230606.tar.gz tmp/autogluon.tabular-0.7.1b20230607-py3-none-any.whl.zip --markdown 20230607/a/autogluon.tabular/0.7.1b20230606-0.7.1b20230607/diff.md --exclude *.pyd
+[2023-06-07 11:08:46] INFO root fetch - processPackages [mobio-dedupe-sdk-test]: executing diffoscope
+[2023-06-07 11:08:46] INFO root fetch - processPackages [mobio-dedupe-sdk-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mobio-dedupe-sdk-test-1.0.8.tar.gz tmp/mobio-dedupe-sdk-test-1.0.9.tar.gz --markdown 20230607/m/mobio-dedupe-sdk-test/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-07 11:08:48] INFO root fetch - processPackages [autogluon.tabular]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.tabular-0.7.1b20230606.tar.gz]
+[2023-06-07 11:08:48] INFO root fetch - processPackages [autogluon.tabular]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.tabular-0.7.1b20230607-py3-none-any.whl.zip]
+[2023-06-07 11:08:48] INFO root fetch - processPackages [autogluon.tabular]: Start processing: channel-box
+[2023-06-07 11:08:48] INFO root fetch - main [MainThread]: End processing [autogluon.tabular]: success
+[2023-06-07 11:08:48] INFO root fetch - processPackages [channel-box]: New version: [0.5.1.4] Old Version: [0.5.1.2]
+[2023-06-07 11:08:48] INFO root fetch - processPackages [channel-box]: Downloading https://files.pythonhosted.org/packages/48/69/a8bdfc5c7f8d49cac2d4c4571618c3cc05c68c958fcecf49fd3d193ffe66/channel_box-0.5.1.2-py3-none-any.whl
+[2023-06-07 11:08:48] INFO root fetch - processPackages [autogluon.common]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.common-0.7.1b20230606.tar.gz]
+[2023-06-07 11:08:48] INFO root fetch - processPackages [autogluon.common]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.common-0.7.1b20230607.tar.gz]
+[2023-06-07 11:08:48] INFO root fetch - processPackages [autogluon.common]: Start processing: pyprocessors-similar_segments
+[2023-06-07 11:08:48] INFO root fetch - main [MainThread]: End processing [autogluon.common]: success
+[2023-06-07 11:08:48] WARNING root fetch - processPackages [pyprocessors-similar_segments]: Skipping, unable to determine old version
+[2023-06-07 11:08:48] INFO root fetch - processPackages [pyprocessors-similar_segments]: Start processing: sqdconvert
+[2023-06-07 11:08:48] INFO root fetch - main [MainThread]: End processing [pyprocessors-similar_segments] error
+[2023-06-07 11:08:48] INFO root fetch - processPackages [autogluon.core]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.core-0.7.1b20230606.tar.gz]
+[2023-06-07 11:08:48] INFO root fetch - processPackages [autogluon.core]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.core-0.7.1b20230607.tar.gz]
+[2023-06-07 11:08:48] INFO root fetch - processPackages [autogluon.core]: Start processing: aiobastion
+[2023-06-07 11:08:48] INFO root fetch - main [MainThread]: End processing [autogluon.core]: success
+[2023-06-07 11:08:48] INFO root fetch - processPackages [computing-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/computing-toolbox-0.3.0.tar.gz]
+[2023-06-07 11:08:48] INFO root fetch - processPackages [computing-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/computing-toolbox-0.4.0.tar.gz]
+[2023-06-07 11:08:48] INFO root fetch - processPackages [computing-toolbox]: Start processing: cloudbandPy-romain.pilon
+[2023-06-07 11:08:48] INFO root fetch - main [MainThread]: End processing [computing-toolbox]: success
+[2023-06-07 11:08:49] INFO root fetch - processPackages [sqdconvert]: New version: [1.2.0] Old Version: [1.1.1]
+[2023-06-07 11:08:49] INFO root fetch - processPackages [channel-box]: Downloading https://files.pythonhosted.org/packages/17/06/4ae3e36cc9dfc79f54beaee91ff5a2cde294933e5d34a4ce54833269f4c9/channel_box-0.5.1.4-py3-none-any.whl
+[2023-06-07 11:08:49] INFO root fetch - processPackages [aiobastion]: New version: [0.0.9] Old Version: [0.0.6]
+[2023-06-07 11:08:49] WARNING root fetch - processPackages [cloudbandPy-romain.pilon]: Skipping, unable to determine old version
+[2023-06-07 11:08:49] INFO root fetch - main [MainThread]: End processing [cloudbandPy-romain.pilon] error
+[2023-06-07 11:08:49] INFO root fetch - processPackages [sqdconvert]: Downloading https://files.pythonhosted.org/packages/e9/fc/fcc6f32b716ec5fbcf2ff79195a155b37d6478517f24363e0575ee9122ee/sqdconvert-1.1.1.tar.gz
+[2023-06-07 11:08:49] INFO root fetch - processPackages [channel-box]: executing diffoscope
+[2023-06-07 11:08:49] INFO root fetch - processPackages [channel-box]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/channel_box-0.5.1.2-py3-none-any.whl.zip tmp/channel_box-0.5.1.4-py3-none-any.whl.zip --markdown 20230607/c/channel-box/0.5.1.2-0.5.1.4/diff.md --exclude *.pyd
+[2023-06-07 11:08:49] INFO root fetch - processPackages [aiobastion]: Downloading https://files.pythonhosted.org/packages/d0/3e/2c3dc0912f8434a7349e928d3805dca294b3c3bcfbd6f309cd231cdb6e07/aiobastion-0.0.6.tar.gz
+[2023-06-07 11:08:49] INFO root fetch - processPackages [autogluon.features]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.features-0.7.1b20230606.tar.gz]
+[2023-06-07 11:08:49] INFO root fetch - processPackages [autogluon.features]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.features-0.7.1b20230607.tar.gz]
+[2023-06-07 11:08:49] INFO root fetch - main [MainThread]: End processing [autogluon.features]: success
+[2023-06-07 11:08:49] INFO root fetch - processPackages [aiobastion]: Downloading https://files.pythonhosted.org/packages/e0/43/0274e9a4c677218c7c80e9b339e00e87ceff3a59f9a395f95890b53daee5/aiobastion-0.0.9.tar.gz
+[2023-06-07 11:08:49] INFO root fetch - processPackages [sqdconvert]: Downloading https://files.pythonhosted.org/packages/cc/9d/198a1f938036bc0f4cf626b02f973e9c1495a07a03dcfc3bc29162bc1ccb/sqdconvert-1.2.0.tar.gz
+[2023-06-07 11:08:49] INFO root fetch - processPackages [aiobastion]: executing diffoscope
+[2023-06-07 11:08:49] INFO root fetch - processPackages [aiobastion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiobastion-0.0.6.tar.gz tmp/aiobastion-0.0.9.tar.gz --markdown 20230607/a/aiobastion/0.0.6-0.0.9/diff.md --exclude *.pyd
+[2023-06-07 11:08:49] INFO root fetch - processPackages [sqdconvert]: executing diffoscope
+[2023-06-07 11:08:49] INFO root fetch - processPackages [sqdconvert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqdconvert-1.1.1.tar.gz tmp/sqdconvert-1.2.0.tar.gz --markdown 20230607/s/sqdconvert/1.1.1-1.2.0/diff.md --exclude *.pyd
+[2023-06-07 11:08:49] INFO root fetch - processPackages [airbyte-cdk]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-cdk-0.9.4.tar.gz]
+[2023-06-07 11:08:49] INFO root fetch - processPackages [airbyte-cdk]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-cdk-0.9.5.tar.gz]
+[2023-06-07 11:08:49] INFO root fetch - main [MainThread]: End processing [airbyte-cdk]: success
+[2023-06-07 11:08:50] INFO root fetch - processPackages [mobio-dedupe-sdk-test]: Remove: archive file [/home/abi/fetcher/tmp/mobio-dedupe-sdk-test-1.0.8.tar.gz]
+[2023-06-07 11:08:50] INFO root fetch - processPackages [mobio-dedupe-sdk-test]: Remove: archive file [/home/abi/fetcher/tmp/mobio-dedupe-sdk-test-1.0.9.tar.gz]
+[2023-06-07 11:08:50] INFO root fetch - main [MainThread]: End processing [mobio-dedupe-sdk-test]: success
+[2023-06-07 11:08:50] INFO root fetch - processPackages [autogluon.cloud]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.cloud-0.2.1b20230606.tar.gz]
+[2023-06-07 11:08:50] INFO root fetch - processPackages [autogluon.cloud]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.cloud-0.2.1b20230607.tar.gz]
+[2023-06-07 11:08:50] INFO root fetch - main [MainThread]: End processing [autogluon.cloud]: success
+[2023-06-07 11:08:50] INFO root fetch - processPackages [channel-box]: Remove: archive file [/home/abi/fetcher/tmp/channel_box-0.5.1.2-py3-none-any.whl.zip]
+[2023-06-07 11:08:50] INFO root fetch - processPackages [channel-box]: Remove: archive file [/home/abi/fetcher/tmp/channel_box-0.5.1.4-py3-none-any.whl.zip]
+[2023-06-07 11:08:50] INFO root fetch - main [MainThread]: End processing [channel-box]: success
+[2023-06-07 11:08:50] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip]
+[2023-06-07 11:08:50] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip]
+[2023-06-07 11:08:50] INFO root fetch - main [MainThread]: End processing [assisted-service-client]: success
+[2023-06-07 11:08:50] INFO root fetch - processPackages [esmerald]: Remove: archive file [/home/abi/fetcher/tmp/esmerald-1.2.3.tar.gz]
+[2023-06-07 11:08:50] INFO root fetch - processPackages [esmerald]: Remove: archive file [/home/abi/fetcher/tmp/esmerald-1.2.4.tar.gz]
+[2023-06-07 11:08:50] INFO root fetch - main [MainThread]: End processing [esmerald]: success
+[2023-06-07 11:08:51] INFO root fetch - processPackages [aiobastion]: Remove: archive file [/home/abi/fetcher/tmp/aiobastion-0.0.6.tar.gz]
+[2023-06-07 11:08:51] INFO root fetch - processPackages [aiobastion]: Remove: archive file [/home/abi/fetcher/tmp/aiobastion-0.0.9.tar.gz]
+[2023-06-07 11:08:51] INFO root fetch - main [MainThread]: End processing [aiobastion]: success
+[2023-06-07 11:08:51] INFO root fetch - processPackages [sqdconvert]: Remove: archive file [/home/abi/fetcher/tmp/sqdconvert-1.1.1.tar.gz]
+[2023-06-07 11:08:51] INFO root fetch - processPackages [sqdconvert]: Remove: archive file [/home/abi/fetcher/tmp/sqdconvert-1.2.0.tar.gz]
+[2023-06-07 11:08:51] INFO root fetch - main [MainThread]: End processing [sqdconvert]: success
+[2023-06-07 11:08:51] INFO root fetch - main [MainThread]: Store serial: [18405553]
