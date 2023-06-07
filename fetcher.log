@@ -19684,3 +19684,141 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-07 11:28:38] INFO root fetch - processPackages [idds-monitor]: Remove: archive file [/home/abi/fetcher/tmp/idds-monitor-1.2.9.tar.gz]
 [2023-06-07 11:28:38] INFO root fetch - main [MainThread]: End processing [idds-monitor]: success
 [2023-06-07 11:28:38] INFO root fetch - main [MainThread]: Store serial: [18405887]
+[2023-06-07 11:33:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18405887]
+[2023-06-07 11:33:48] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-07 11:33:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zillow-api-s
+[2023-06-07 11:33:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spaceone-core
+[2023-06-07 11:33:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nlp-service
+[2023-06-07 11:33:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tdnpathviz
+[2023-06-07 11:33:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: utopya
+[2023-06-07 11:33:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: emulsion
+[2023-06-07 11:33:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: im-swagger-spy
+[2023-06-07 11:33:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: xt-st-common
+[2023-06-07 11:33:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cf-deploy
+[2023-06-07 11:33:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: browserstack-local
+[2023-06-07 11:33:48] INFO root fetch - processPackages [emulsion]: New version: [1.3b1] Old Version: [1.2rc5]
+[2023-06-07 11:33:48] INFO root fetch - processPackages [zillow-api-s]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-07 11:33:48] INFO root fetch - processPackages [xt-st-common]: New version: [0.7.0] Old Version: [0.6.1]
+[2023-06-07 11:33:48] INFO root fetch - processPackages [utopya]: New version: [1.2.5] Old Version: [1.2.4]
+[2023-06-07 11:33:48] INFO root fetch - processPackages [nlp-service]: New version: [1.4.3] Old Version: [1.4.2]
+[2023-06-07 11:33:48] INFO root fetch - processPackages [spaceone-core]: New version: [1.9.7rc1] Old Version: [1.9.7.1]
+[2023-06-07 11:33:48] INFO root fetch - processPackages [browserstack-local]: New version: [1.2.5] Old Version: [1.2.4]
+[2023-06-07 11:33:48] INFO root fetch - processPackages [tdnpathviz]: New version: [0.1.2.7] Old Version: [0.1.2.6]
+[2023-06-07 11:33:48] INFO root fetch - processPackages [im-swagger-spy]: New version: [0.3.7] Old Version: [0.3.5]
+[2023-06-07 11:33:48] INFO root fetch - processPackages [cf-deploy]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-07 11:33:48] INFO root fetch - processPackages [xt-st-common]: Downloading https://files.pythonhosted.org/packages/73/50/de36ed99c801ac070c8e61aaa27abd98c3f4e7cf405333d98ba46314c4ed/xt_st_common-0.6.1.tar.gz
+[2023-06-07 11:33:48] INFO root fetch - processPackages [tdnpathviz]: Downloading https://files.pythonhosted.org/packages/47/62/092906dc9e1d0a2cbfd609419ea6c5b17bc01ee7ba63a752e5ab21bf4213/tdnpathviz-0.1.2.6-py3-none-any.whl
+[2023-06-07 11:33:48] INFO root fetch - processPackages [nlp-service]: Downloading https://files.pythonhosted.org/packages/7e/70/87398fb7fe9941b03595a441e26af9aa1fb1c31e8bac68d5f12a92e17dae/nlp_service-1.4.2.tar.gz
+[2023-06-07 11:33:48] INFO root fetch - processPackages [spaceone-core]: Downloading https://files.pythonhosted.org/packages/1f/6d/5cbc0264b2c1dd5f3ae609e7b61b5c5c8d54710e85e098c13db4552af976/spaceone_core-1.9.7.1-py3-none-any.whl
+[2023-06-07 11:33:48] INFO root fetch - processPackages [im-swagger-spy]: Downloading https://files.pythonhosted.org/packages/ee/38/045dbee7f6afd87b1c805ebbf69ac8d4b9da96e63fe6ebee41d0d2eefe37/im_swagger_spy-0.3.5.tar.gz
+[2023-06-07 11:33:48] INFO root fetch - processPackages [emulsion]: Downloading https://files.pythonhosted.org/packages/97/da/49a675c06e77039a728aa98e6fc418d71cbdffbd98d5bfd21eea6baada05/emulsion-1.2rc5.tar.gz
+[2023-06-07 11:33:48] INFO root fetch - processPackages [zillow-api-s]: Downloading https://files.pythonhosted.org/packages/b2/ac/bc756a0cd7a8c1789aba6125bffeaaa9908731636c066c73be931cf20ae6/zillow-api-s-1.0.0.tar.gz
+[2023-06-07 11:33:48] INFO root fetch - processPackages [cf-deploy]: Downloading https://files.pythonhosted.org/packages/5f/b4/80914e66b3d2421004e6153c7e82f50f6c194fd736ef183b090abbd5e798/cf_deploy-0.1.8.tar.gz
+[2023-06-07 11:33:48] INFO root fetch - processPackages [spaceone-core]: Downloading https://files.pythonhosted.org/packages/2f/7f/98bd3e0e1e14ec1a59e8d305c033978db48833658a8f1754c0458e77a3c4/spaceone_core-1.9.7rc1-py3-none-any.whl
+[2023-06-07 11:33:48] INFO root fetch - processPackages [utopya]: Downloading https://files.pythonhosted.org/packages/fe/b3/5710897645427c108f0a1a62081bf6e0712e7454e7c7ba7a945216fe0e65/utopya-1.2.4.tar.gz
+[2023-06-07 11:33:48] INFO root fetch - processPackages [browserstack-local]: Downloading https://files.pythonhosted.org/packages/0c/35/958e6c21d5878c8ea674ba44ec6677e6e09cef76a80000304aadccb0864a/browserstack-local-1.2.4.tar.gz
+[2023-06-07 11:33:48] INFO root fetch - processPackages [nlp-service]: Downloading https://files.pythonhosted.org/packages/cc/87/38201d53190152c5c91d6358972643322603fa7e22e217e921a5c79ac35d/nlp_service-1.4.3.tar.gz
+[2023-06-07 11:33:48] INFO root fetch - processPackages [spaceone-core]: executing diffoscope
+[2023-06-07 11:33:48] INFO root fetch - processPackages [spaceone-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone_core-1.9.7.1-py3-none-any.whl.zip tmp/spaceone_core-1.9.7rc1-py3-none-any.whl.zip --markdown 20230607/s/spaceone-core/1.9.7.1-1.9.7rc1/diff.md --exclude *.pyd
+[2023-06-07 11:33:48] INFO root fetch - processPackages [im-swagger-spy]: Downloading https://files.pythonhosted.org/packages/4c/57/a44ce77b8fcd8a49db8eb791590ce24d927871a943f6ed35f3debd9432d9/im_swagger_spy-0.3.7.tar.gz
+[2023-06-07 11:33:48] INFO root fetch - processPackages [tdnpathviz]: Downloading https://files.pythonhosted.org/packages/ae/6d/2cf356a10b8ef24e6a54863e3bf2edb9514c48ea8429d2d0074a2a151789/tdnpathviz-0.1.2.7-py3-none-any.whl
+[2023-06-07 11:33:48] INFO root fetch - processPackages [nlp-service]: executing diffoscope
+[2023-06-07 11:33:48] INFO root fetch - processPackages [nlp-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nlp_service-1.4.2.tar.gz tmp/nlp_service-1.4.3.tar.gz --markdown 20230607/n/nlp-service/1.4.2-1.4.3/diff.md --exclude *.pyd
+[2023-06-07 11:33:48] INFO root fetch - processPackages [im-swagger-spy]: executing diffoscope
+[2023-06-07 11:33:48] INFO root fetch - processPackages [im-swagger-spy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/im_swagger_spy-0.3.5.tar.gz tmp/im_swagger_spy-0.3.7.tar.gz --markdown 20230607/i/im-swagger-spy/0.3.5-0.3.7/diff.md --exclude *.pyd
+[2023-06-07 11:33:48] INFO root fetch - processPackages [tdnpathviz]: executing diffoscope
+[2023-06-07 11:33:48] INFO root fetch - processPackages [tdnpathviz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tdnpathviz-0.1.2.6-py3-none-any.whl.zip tmp/tdnpathviz-0.1.2.7-py3-none-any.whl.zip --markdown 20230607/t/tdnpathviz/0.1.2.6-0.1.2.7/diff.md --exclude *.pyd
+[2023-06-07 11:33:48] INFO root fetch - processPackages [xt-st-common]: Downloading https://files.pythonhosted.org/packages/ea/ab/a3e0554e8da5bc2d82e17b4d705d86e950beabb0b1783ffcdbcbb752359e/xt_st_common-0.7.0.tar.gz
+[2023-06-07 11:33:48] INFO root fetch - processPackages [browserstack-local]: Downloading https://files.pythonhosted.org/packages/6c/46/28ee1d103d779082a18b5806501a390c4f019f313a7e8f92c081014ea312/browserstack-local-1.2.5.tar.gz
+[2023-06-07 11:33:48] INFO root fetch - processPackages [xt-st-common]: executing diffoscope
+[2023-06-07 11:33:48] INFO root fetch - processPackages [xt-st-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xt_st_common-0.6.1.tar.gz tmp/xt_st_common-0.7.0.tar.gz --markdown 20230607/x/xt-st-common/0.6.1-0.7.0/diff.md --exclude *.pyd
+[2023-06-07 11:33:48] INFO root fetch - processPackages [emulsion]: Downloading https://files.pythonhosted.org/packages/98/99/a23cb4a05b2826983f2801c34c55023174c578c72b53e86e4c8906744ec7/emulsion-1.3beta1.tar.gz
+[2023-06-07 11:33:48] INFO root fetch - processPackages [zillow-api-s]: Downloading https://files.pythonhosted.org/packages/70/ef/2c37f437e1b18aa14a59705ca0863854d3e5cd643ad30fae8373a2c1c243/zillow-api-s-1.0.1.tar.gz
+[2023-06-07 11:33:48] INFO root fetch - processPackages [utopya]: Downloading https://files.pythonhosted.org/packages/28/93/b356eecf8c9927b79309373bc7da8cb3cd1a994edd779ee2e7ccef0a990f/utopya-1.2.5.tar.gz
+[2023-06-07 11:33:48] INFO root fetch - processPackages [cf-deploy]: Downloading https://files.pythonhosted.org/packages/e5/5f/c1080016400e67671af90cd9f789866f0ad8fb9d3464a30d3b7a9460b5f1/cf_deploy-0.1.9.tar.gz
+[2023-06-07 11:33:48] INFO root fetch - processPackages [browserstack-local]: executing diffoscope
+[2023-06-07 11:33:48] INFO root fetch - processPackages [browserstack-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/browserstack-local-1.2.4.tar.gz tmp/browserstack-local-1.2.5.tar.gz --markdown 20230607/b/browserstack-local/1.2.4-1.2.5/diff.md --exclude *.pyd
+[2023-06-07 11:33:48] INFO root fetch - processPackages [zillow-api-s]: executing diffoscope
+[2023-06-07 11:33:48] INFO root fetch - processPackages [zillow-api-s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zillow-api-s-1.0.0.tar.gz tmp/zillow-api-s-1.0.1.tar.gz --markdown 20230607/z/zillow-api-s/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-07 11:33:48] INFO root fetch - processPackages [utopya]: executing diffoscope
+[2023-06-07 11:33:48] INFO root fetch - processPackages [utopya]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/utopya-1.2.4.tar.gz tmp/utopya-1.2.5.tar.gz --markdown 20230607/u/utopya/1.2.4-1.2.5/diff.md --exclude *.pyd
+[2023-06-07 11:33:48] INFO root fetch - processPackages [emulsion]: executing diffoscope
+[2023-06-07 11:33:48] INFO root fetch - processPackages [emulsion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emulsion-1.2rc5.tar.gz tmp/emulsion-1.3beta1.tar.gz --markdown 20230607/e/emulsion/1.2rc5-1.3b1/diff.md --exclude *.pyd
+[2023-06-07 11:33:48] INFO root fetch - processPackages [cf-deploy]: executing diffoscope
+[2023-06-07 11:33:48] INFO root fetch - processPackages [cf-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cf_deploy-0.1.8.tar.gz tmp/cf_deploy-0.1.9.tar.gz --markdown 20230607/c/cf-deploy/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-07 11:33:50] INFO root fetch - processPackages [tdnpathviz]: Remove: archive file [/home/abi/fetcher/tmp/tdnpathviz-0.1.2.6-py3-none-any.whl.zip]
+[2023-06-07 11:33:50] INFO root fetch - processPackages [tdnpathviz]: Remove: archive file [/home/abi/fetcher/tmp/tdnpathviz-0.1.2.7-py3-none-any.whl.zip]
+[2023-06-07 11:33:50] INFO root fetch - processPackages [tdnpathviz]: Start processing: ebank
+[2023-06-07 11:33:50] INFO root fetch - main [MainThread]: End processing [tdnpathviz]: success
+[2023-06-07 11:33:50] INFO root fetch - processPackages [ebank]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-07 11:33:50] INFO root fetch - processPackages [browserstack-local]: Remove: archive file [/home/abi/fetcher/tmp/browserstack-local-1.2.4.tar.gz]
+[2023-06-07 11:33:50] INFO root fetch - processPackages [browserstack-local]: Remove: archive file [/home/abi/fetcher/tmp/browserstack-local-1.2.5.tar.gz]
+[2023-06-07 11:33:50] INFO root fetch - processPackages [browserstack-local]: Start processing: glean-sdk
+[2023-06-07 11:33:50] INFO root fetch - main [MainThread]: End processing [browserstack-local]: success
+[2023-06-07 11:33:50] INFO root fetch - processPackages [glean-sdk]: New version: [53.0.0] Old Version: [52.7.0]
+[2023-06-07 11:33:50] INFO root fetch - processPackages [ebank]: Downloading https://files.pythonhosted.org/packages/f4/bc/664cade24f593cd07e683a89d1ded11c507c248b4d86eac26262bb7dcae9/ebank-1.0.1.tar.gz
+[2023-06-07 11:33:50] INFO root fetch - processPackages [cf-deploy]: Remove: archive file [/home/abi/fetcher/tmp/cf_deploy-0.1.8.tar.gz]
+[2023-06-07 11:33:50] INFO root fetch - processPackages [cf-deploy]: Remove: archive file [/home/abi/fetcher/tmp/cf_deploy-0.1.9.tar.gz]
+[2023-06-07 11:33:50] INFO root fetch - processPackages [cf-deploy]: Start processing: proptables
+[2023-06-07 11:33:50] INFO root fetch - main [MainThread]: End processing [cf-deploy]: success
+[2023-06-07 11:33:50] INFO root fetch - processPackages [proptables]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-07 11:33:50] INFO root fetch - processPackages [zillow-api-s]: Remove: archive file [/home/abi/fetcher/tmp/zillow-api-s-1.0.0.tar.gz]
+[2023-06-07 11:33:50] INFO root fetch - processPackages [zillow-api-s]: Remove: archive file [/home/abi/fetcher/tmp/zillow-api-s-1.0.1.tar.gz]
+[2023-06-07 11:33:50] INFO root fetch - processPackages [zillow-api-s]: Start processing: psychoanalyze
+[2023-06-07 11:33:50] INFO root fetch - main [MainThread]: End processing [zillow-api-s]: success
+[2023-06-07 11:33:50] INFO root fetch - processPackages [psychoanalyze]: New version: [0.2.1] Old Version: [0.1.2]
+[2023-06-07 11:33:50] INFO root fetch - processPackages [glean-sdk]: Downloading https://files.pythonhosted.org/packages/de/b5/b96e6429b665e915d031eff8d8fee1e7805cc416d002f947e639c679c454/glean-sdk-52.7.0.tar.gz
+[2023-06-07 11:33:50] INFO root fetch - processPackages [psychoanalyze]: Downloading https://files.pythonhosted.org/packages/5e/01/c0434f4299dc2f338fece573d9ac2b1002cac8e0a58bf2702c944e6c55a4/psychoanalyze-0.1.2.tar.gz
+[2023-06-07 11:33:50] INFO root fetch - processPackages [nlp-service]: Remove: archive file [/home/abi/fetcher/tmp/nlp_service-1.4.2.tar.gz]
+[2023-06-07 11:33:50] INFO root fetch - processPackages [nlp-service]: Remove: archive file [/home/abi/fetcher/tmp/nlp_service-1.4.3.tar.gz]
+[2023-06-07 11:33:50] INFO root fetch - processPackages [nlp-service]: Start processing: UnityPy
+[2023-06-07 11:33:50] INFO root fetch - main [MainThread]: End processing [nlp-service]: success
+[2023-06-07 11:33:50] INFO root fetch - processPackages [ebank]: Downloading https://files.pythonhosted.org/packages/a4/16/a7f445efa603184de4db52aca1c2d192360d9b1e95e0f0da1604f1cd889d/ebank-1.0.2.tar.gz
+[2023-06-07 11:33:50] INFO root fetch - processPackages [im-swagger-spy]: Remove: archive file [/home/abi/fetcher/tmp/im_swagger_spy-0.3.5.tar.gz]
+[2023-06-07 11:33:50] INFO root fetch - processPackages [im-swagger-spy]: Remove: archive file [/home/abi/fetcher/tmp/im_swagger_spy-0.3.7.tar.gz]
+[2023-06-07 11:33:50] INFO root fetch - main [MainThread]: End processing [im-swagger-spy]: success
+[2023-06-07 11:33:50] INFO root fetch - processPackages [psychoanalyze]: Downloading https://files.pythonhosted.org/packages/61/25/ec6e23214f7f7f89c7d61474b21662c6005706dfce6bee5e591368e111db/psychoanalyze-0.2.1.tar.gz
+[2023-06-07 11:33:50] INFO root fetch - processPackages [proptables]: Downloading https://files.pythonhosted.org/packages/cf/56/2d7a3141f15b7633c0f5143040927877ed5e5425e81ff62719565caa1aee/proptables-0.0.2.tar.gz
+[2023-06-07 11:33:50] INFO root fetch - processPackages [psychoanalyze]: executing diffoscope
+[2023-06-07 11:33:50] INFO root fetch - processPackages [psychoanalyze]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psychoanalyze-0.1.2.tar.gz tmp/psychoanalyze-0.2.1.tar.gz --markdown 20230607/p/psychoanalyze/0.1.2-0.2.1/diff.md --exclude *.pyd
+[2023-06-07 11:33:50] INFO root fetch - processPackages [UnityPy]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-06-07 11:33:50] INFO root fetch - processPackages [spaceone-core]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_core-1.9.7.1-py3-none-any.whl.zip]
+[2023-06-07 11:33:50] INFO root fetch - processPackages [spaceone-core]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_core-1.9.7rc1-py3-none-any.whl.zip]
+[2023-06-07 11:33:50] INFO root fetch - main [MainThread]: End processing [spaceone-core]: success
+[2023-06-07 11:33:50] INFO root fetch - processPackages [proptables]: Downloading https://files.pythonhosted.org/packages/21/6b/ea1894d41b1d81f6eeca71620920738d8ce73f0caa9057434c56dd78629a/proptables-0.0.3.tar.gz
+[2023-06-07 11:33:50] INFO root fetch - processPackages [UnityPy]: Downloading https://files.pythonhosted.org/packages/f3/de/d7e485c609037e94fd2e03f9a700f09eccdddb3ef775fd406071a0eb3170/UnityPy-1.9.8.tar.gz
+[2023-06-07 11:33:50] INFO root fetch - processPackages [ebank]: executing diffoscope
+[2023-06-07 11:33:50] INFO root fetch - processPackages [ebank]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ebank-1.0.1.tar.gz tmp/ebank-1.0.2.tar.gz --markdown 20230607/e/ebank/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-07 11:33:51] INFO root fetch - processPackages [proptables]: executing diffoscope
+[2023-06-07 11:33:51] INFO root fetch - processPackages [proptables]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proptables-0.0.2.tar.gz tmp/proptables-0.0.3.tar.gz --markdown 20230607/p/proptables/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-07 11:33:51] INFO root fetch - processPackages [glean-sdk]: Downloading https://files.pythonhosted.org/packages/36/88/29eddd22a5ef2efaec705fc0ec21dd5a4881e667bf76ffb41a95e65f1eed/glean-sdk-53.0.0.tar.gz
+[2023-06-07 11:33:51] INFO root fetch - processPackages [UnityPy]: Downloading https://files.pythonhosted.org/packages/19/ce/6a509e60952f5a718ca96ff7a6ac1eb961a20ae5cb015bfd27592ba21eff/UnityPy-1.9.9.tar.gz
+[2023-06-07 11:33:51] INFO root fetch - processPackages [glean-sdk]: executing diffoscope
+[2023-06-07 11:33:51] INFO root fetch - processPackages [glean-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glean-sdk-52.7.0.tar.gz tmp/glean-sdk-53.0.0.tar.gz --markdown 20230607/g/glean-sdk/52.7.0-53.0.0/diff.md --exclude *.pyd
+[2023-06-07 11:33:51] INFO root fetch - processPackages [psychoanalyze]: Remove: archive file [/home/abi/fetcher/tmp/psychoanalyze-0.1.2.tar.gz]
+[2023-06-07 11:33:51] INFO root fetch - processPackages [psychoanalyze]: Remove: archive file [/home/abi/fetcher/tmp/psychoanalyze-0.2.1.tar.gz]
+[2023-06-07 11:33:51] INFO root fetch - main [MainThread]: End processing [psychoanalyze]: success
+[2023-06-07 11:33:51] INFO root fetch - processPackages [ebank]: Remove: archive file [/home/abi/fetcher/tmp/ebank-1.0.1.tar.gz]
+[2023-06-07 11:33:51] INFO root fetch - processPackages [ebank]: Remove: archive file [/home/abi/fetcher/tmp/ebank-1.0.2.tar.gz]
+[2023-06-07 11:33:51] INFO root fetch - main [MainThread]: End processing [ebank]: success
+[2023-06-07 11:33:52] INFO root fetch - processPackages [UnityPy]: executing diffoscope
+[2023-06-07 11:33:52] INFO root fetch - processPackages [UnityPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/UnityPy-1.9.8.tar.gz tmp/UnityPy-1.9.9.tar.gz --markdown 20230607/U/UnityPy/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-06-07 11:33:52] INFO root fetch - processPackages [proptables]: Remove: archive file [/home/abi/fetcher/tmp/proptables-0.0.2.tar.gz]
+[2023-06-07 11:33:52] INFO root fetch - processPackages [proptables]: Remove: archive file [/home/abi/fetcher/tmp/proptables-0.0.3.tar.gz]
+[2023-06-07 11:33:52] INFO root fetch - main [MainThread]: End processing [proptables]: success
+[2023-06-07 11:33:53] INFO root fetch - processPackages [utopya]: Remove: archive file [/home/abi/fetcher/tmp/utopya-1.2.4.tar.gz]
+[2023-06-07 11:33:53] INFO root fetch - processPackages [utopya]: Remove: archive file [/home/abi/fetcher/tmp/utopya-1.2.5.tar.gz]
+[2023-06-07 11:33:53] INFO root fetch - main [MainThread]: End processing [utopya]: success
+[2023-06-07 11:33:53] INFO root fetch - processPackages [xt-st-common]: Remove: archive file [/home/abi/fetcher/tmp/xt_st_common-0.6.1.tar.gz]
+[2023-06-07 11:33:53] INFO root fetch - processPackages [xt-st-common]: Remove: archive file [/home/abi/fetcher/tmp/xt_st_common-0.7.0.tar.gz]
+[2023-06-07 11:33:53] INFO root fetch - main [MainThread]: End processing [xt-st-common]: success
+[2023-06-07 11:33:53] INFO root fetch - processPackages [UnityPy]: Remove: archive file [/home/abi/fetcher/tmp/UnityPy-1.9.8.tar.gz]
+[2023-06-07 11:33:53] INFO root fetch - processPackages [UnityPy]: Remove: archive file [/home/abi/fetcher/tmp/UnityPy-1.9.9.tar.gz]
+[2023-06-07 11:33:53] INFO root fetch - main [MainThread]: End processing [UnityPy]: success
+[2023-06-07 11:33:55] INFO root fetch - processPackages [emulsion]: Remove: archive file [/home/abi/fetcher/tmp/emulsion-1.2rc5.tar.gz]
+[2023-06-07 11:33:55] INFO root fetch - processPackages [emulsion]: Remove: archive file [/home/abi/fetcher/tmp/emulsion-1.3beta1.tar.gz]
+[2023-06-07 11:33:55] INFO root fetch - main [MainThread]: End processing [emulsion]: success
+[2023-06-07 11:34:00] INFO root fetch - processPackages [glean-sdk]: Remove: archive file [/home/abi/fetcher/tmp/glean-sdk-52.7.0.tar.gz]
+[2023-06-07 11:34:00] INFO root fetch - processPackages [glean-sdk]: Remove: archive file [/home/abi/fetcher/tmp/glean-sdk-53.0.0.tar.gz]
+[2023-06-07 11:34:00] INFO root fetch - main [MainThread]: End processing [glean-sdk]: success
+[2023-06-07 11:34:00] INFO root fetch - main [MainThread]: Store serial: [18405953]
