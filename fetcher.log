@@ -12502,3 +12502,108 @@ AssertionError: tmp/odoo_addon_crm_lead_firstname-16.0.1.0.1-py3-none-any.whl.zi
 [2023-06-07 06:37:46] INFO root fetch - processPackages [pytest-localstack]: Remove: archive file [/home/abi/fetcher/tmp/pytest_localstack-0.6.1.tar.gz]
 [2023-06-07 06:37:46] INFO root fetch - main [MainThread]: End processing [pytest-localstack]: success
 [2023-06-07 06:37:46] INFO root fetch - main [MainThread]: Store serial: [18402732]
+[2023-06-07 06:42:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18402732]
+[2023-06-07 06:42:55] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-07 06:42:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: synonym-custom
+[2023-06-07 06:42:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: google-cloud-spanner
+[2023-06-07 06:42:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-project-template
+[2023-06-07 06:42:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-project-template-milestone
+[2023-06-07 06:42:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-project-wbs
+[2023-06-07 06:42:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: visuallayer
+[2023-06-07 06:42:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo14-addon-project-task-pull-request
+[2023-06-07 06:42:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: databend-py
+[2023-06-07 06:42:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo14-addon-project-timesheet-time-control-sale
+[2023-06-07 06:42:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lightwood
+[2023-06-07 06:42:55] INFO root fetch - processPackages [google-cloud-spanner]: New version: [3.9.0] Old Version: [3.8.0]
+[2023-06-07 06:42:55] INFO root fetch - processPackages [synonym-custom]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-07 06:42:55] INFO root fetch - processPackages [odoo14-addon-project-template-milestone]: New version: [14.0.1.0.1.dev8] Old Version: [14.0.1.0.1.dev6]
+[2023-06-07 06:42:55] INFO root fetch - processPackages [odoo14-addon-project-task-pull-request]: New version: [14.0.1.1.1.dev7] Old Version: [14.0.1.1.1.dev6]
+[2023-06-07 06:42:55] INFO root fetch - processPackages [odoo14-addon-project-template]: New version: [14.0.1.2.1.dev9] Old Version: [14.0.1.2.1.dev8]
+[2023-06-07 06:42:55] INFO root fetch - processPackages [databend-py]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-06-07 06:42:55] INFO root fetch - processPackages [odoo14-addon-project-wbs]: New version: [14.0.1.0.2.dev2] Old Version: [14.0.1.0.1.dev4]
+[2023-06-07 06:42:55] WARNING root fetch - processPackages [visuallayer]: Skipping, unable to determine old version
+[2023-06-07 06:42:55] INFO root fetch - processPackages [odoo14-addon-project-timesheet-time-control-sale]: New version: [14.0.1.0.1.dev8] Old Version: [14.0.1.0.1.dev6]
+[2023-06-07 06:42:55] INFO root fetch - processPackages [visuallayer]: Start processing: odoo14-addon-project-timeline
+[2023-06-07 06:42:55] INFO root fetch - main [MainThread]: End processing [visuallayer] error
+[2023-06-07 06:42:55] INFO root fetch - processPackages [lightwood]: New version: [23.5.1.1] Old Version: [23.5.1.0]
+[2023-06-07 06:42:55] INFO root fetch - processPackages [odoo14-addon-project-timeline]: New version: [14.0.1.4.1.dev9] Old Version: [14.0.1.4.1.dev8]
+[2023-06-07 06:42:55] INFO root fetch - processPackages [synonym-custom]: Downloading https://files.pythonhosted.org/packages/5b/79/0006692ed2dc79d9ab571cae95efd8217b3e365598de6e8b6018a6f97826/synonym_custom-0.0.3.tar.gz
+[2023-06-07 06:42:55] INFO root fetch - processPackages [google-cloud-spanner]: Downloading https://files.pythonhosted.org/packages/c0/2d/9383b183858aaf9f33a19f695d5db62abbd3750f41e5461f5d4dd68d2da2/google-cloud-spanner-3.8.0.tar.gz
+[2023-06-07 06:42:55] INFO root fetch - processPackages [databend-py]: Downloading https://files.pythonhosted.org/packages/6a/4b/4b0313375574e6cf43f94bf4356f00a87c84ccca57319124a4bc70d792d3/databend_py-0.4.3-py3-none-any.whl
+[2023-06-07 06:42:55] INFO root fetch - processPackages [odoo14-addon-project-task-pull-request]: Downloading https://files.pythonhosted.org/packages/91/e1/0019454f82d269a48cadd95eb07e77aac0da2ed7fcb8ad04c47eb98444ad/odoo14_addon_project_task_pull_request-14.0.1.1.1.dev6-py3-none-any.whl
+[2023-06-07 06:42:55] INFO root fetch - processPackages [odoo14-addon-project-template-milestone]: Downloading https://files.pythonhosted.org/packages/25/28/b2dcc23da3f48bb8c363940e8181670cc3d457f2aa775829548f7f4b50f2/odoo14_addon_project_template_milestone-14.0.1.0.1.dev6-py3-none-any.whl
+[2023-06-07 06:42:55] INFO root fetch - processPackages [lightwood]: Downloading https://files.pythonhosted.org/packages/2b/5a/5794ec286a0420ffbdee1b1ee03038cb3820bfef9420bbf299df0ce21e6d/lightwood-23.5.1.0.tar.gz
+[2023-06-07 06:42:55] INFO root fetch - processPackages [odoo14-addon-project-template]: Downloading https://files.pythonhosted.org/packages/95/23/f3da18b6c9001b7c6987920ebed987214e7b5031e4ebd511049a37ae899f/odoo14_addon_project_template-14.0.1.2.1.dev8-py3-none-any.whl
+[2023-06-07 06:42:55] INFO root fetch - processPackages [odoo14-addon-project-timeline]: Downloading https://files.pythonhosted.org/packages/2e/31/616e945019111bb0d964b5a8354d81ddcd7a4faea05f70221bcc78f973eb/odoo14_addon_project_timeline-14.0.1.4.1.dev8-py3-none-any.whl
+[2023-06-07 06:42:55] INFO root fetch - processPackages [odoo14-addon-project-wbs]: Downloading https://files.pythonhosted.org/packages/b2/34/2a9ab607b8a13aacc509fb1a32f0c1d44663a2d08d5b1f1563214bf23ea1/odoo14_addon_project_wbs-14.0.1.0.1.dev4-py3-none-any.whl
+[2023-06-07 06:42:55] INFO root fetch - processPackages [odoo14-addon-project-timesheet-time-control-sale]: Downloading https://files.pythonhosted.org/packages/4d/b0/4b60413883b35fb54337eff280a1b3db4a0a99d6d9adbdbf63e51dbd660a/odoo14_addon_project_timesheet_time_control_sale-14.0.1.0.1.dev6-py3-none-any.whl
+[2023-06-07 06:42:55] INFO root fetch - processPackages [databend-py]: Downloading https://files.pythonhosted.org/packages/7e/fb/56a7067130026270386d5aa7913fd86e1963a5d7c40d90cea9edf86741a7/databend-py-0.4.4.tar.gz
+[2023-06-07 06:42:55] INFO root fetch - processPackages [synonym-custom]: Downloading https://files.pythonhosted.org/packages/b7/c8/dd0319e35c8b5923d8eff1d5df5ba255e97a7c617033047e1228be43d0a3/synonym_custom-0.0.4.tar.gz
+[2023-06-07 06:42:55] INFO root fetch - processPackages [odoo14-addon-project-template-milestone]: Downloading https://files.pythonhosted.org/packages/bf/c0/1cd0a9ec66df7852b5f1e0fbcb94cb38cb3dc28676a68de8a7e144edb3e5/odoo14_addon_project_template_milestone-14.0.1.0.1.dev8-py3-none-any.whl
+[2023-06-07 06:42:56] INFO root fetch - processPackages [odoo14-addon-project-task-pull-request]: Downloading https://files.pythonhosted.org/packages/0c/a6/3c0822c9495233cf8642db1076581d55115b8a46d436c4b6cc93e6bf93a2/odoo14_addon_project_task_pull_request-14.0.1.1.1.dev7-py3-none-any.whl
+[2023-06-07 06:42:56] INFO root fetch - processPackages [lightwood]: Downloading https://files.pythonhosted.org/packages/b1/d7/a3dd9a206d2be1be7137f6f1f373d34660db09c73dd9c3df6ffa4bc44ef0/lightwood-23.5.1.1.tar.gz
+[2023-06-07 06:42:56] INFO root fetch - processPackages [odoo14-addon-project-wbs]: Downloading https://files.pythonhosted.org/packages/8c/71/1d7c724556c6f2a139d540dc91594901e80ad3d27180d4a0fd1c82ee4df0/odoo14_addon_project_wbs-14.0.1.0.2.dev2-py3-none-any.whl
+[2023-06-07 06:42:56] INFO root fetch - processPackages [odoo14-addon-project-timeline]: Downloading https://files.pythonhosted.org/packages/5a/b4/dcff6dd8b11433c464cf7908f6115e90483ceb3bd2aa8d52232c244194c3/odoo14_addon_project_timeline-14.0.1.4.1.dev9-py3-none-any.whl
+[2023-06-07 06:42:56] INFO root fetch - processPackages [databend-py]: executing diffoscope
+[2023-06-07 06:42:56] INFO root fetch - processPackages [databend-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/databend_py-0.4.3-py3-none-any.whl.zip tmp/databend-py-0.4.4.tar.gz --markdown 20230607/d/databend-py/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-06-07 06:42:56] INFO root fetch - processPackages [odoo14-addon-project-template-milestone]: executing diffoscope
+[2023-06-07 06:42:56] INFO root fetch - processPackages [odoo14-addon-project-template-milestone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_project_template_milestone-14.0.1.0.1.dev6-py3-none-any.whl.zip tmp/odoo14_addon_project_template_milestone-14.0.1.0.1.dev8-py3-none-any.whl.zip --markdown 20230607/o/odoo14-addon-project-template-milestone/14.0.1.0.1.dev6-14.0.1.0.1.dev8/diff.md --exclude *.pyd
+[2023-06-07 06:42:56] INFO root fetch - processPackages [synonym-custom]: executing diffoscope
+[2023-06-07 06:42:56] INFO root fetch - processPackages [google-cloud-spanner]: Downloading https://files.pythonhosted.org/packages/7f/af/852f011a0e2347701621b19205ec8b0037c7a76ce4c0705f0ee8e7788671/google-cloud-spanner-3.9.0.tar.gz
+[2023-06-07 06:42:56] INFO root fetch - processPackages [synonym-custom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synonym_custom-0.0.3.tar.gz tmp/synonym_custom-0.0.4.tar.gz --markdown 20230607/s/synonym-custom/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-07 06:42:56] INFO root fetch - processPackages [odoo14-addon-project-template]: Downloading https://files.pythonhosted.org/packages/cf/1f/5ab3e37349919276e464d36e73f6ed33cea91e48c5d1bfa2ebf46ed875f9/odoo14_addon_project_template-14.0.1.2.1.dev9-py3-none-any.whl
+[2023-06-07 06:42:56] INFO root fetch - processPackages [odoo14-addon-project-task-pull-request]: executing diffoscope
+[2023-06-07 06:42:56] INFO root fetch - processPackages [odoo14-addon-project-task-pull-request]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_project_task_pull_request-14.0.1.1.1.dev6-py3-none-any.whl.zip tmp/odoo14_addon_project_task_pull_request-14.0.1.1.1.dev7-py3-none-any.whl.zip --markdown 20230607/o/odoo14-addon-project-task-pull-request/14.0.1.1.1.dev6-14.0.1.1.1.dev7/diff.md --exclude *.pyd
+[2023-06-07 06:42:56] INFO root fetch - processPackages [odoo14-addon-project-timesheet-time-control-sale]: Downloading https://files.pythonhosted.org/packages/05/c7/96ee097f493c364c166a52289f8760c7d468013cdbf6ee1fb45890d92bbf/odoo14_addon_project_timesheet_time_control_sale-14.0.1.0.1.dev8-py3-none-any.whl
+[2023-06-07 06:42:56] INFO root fetch - processPackages [odoo14-addon-project-wbs]: executing diffoscope
+[2023-06-07 06:42:56] INFO root fetch - processPackages [odoo14-addon-project-wbs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_project_wbs-14.0.1.0.1.dev4-py3-none-any.whl.zip tmp/odoo14_addon_project_wbs-14.0.1.0.2.dev2-py3-none-any.whl.zip --markdown 20230607/o/odoo14-addon-project-wbs/14.0.1.0.1.dev4-14.0.1.0.2.dev2/diff.md --exclude *.pyd
+[2023-06-07 06:42:56] INFO root fetch - processPackages [lightwood]: executing diffoscope
+[2023-06-07 06:42:56] INFO root fetch - processPackages [lightwood]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightwood-23.5.1.0.tar.gz tmp/lightwood-23.5.1.1.tar.gz --markdown 20230607/l/lightwood/23.5.1.0-23.5.1.1/diff.md --exclude *.pyd
+[2023-06-07 06:42:56] INFO root fetch - processPackages [odoo14-addon-project-timeline]: executing diffoscope
+[2023-06-07 06:42:56] INFO root fetch - processPackages [odoo14-addon-project-timeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_project_timeline-14.0.1.4.1.dev8-py3-none-any.whl.zip tmp/odoo14_addon_project_timeline-14.0.1.4.1.dev9-py3-none-any.whl.zip --markdown 20230607/o/odoo14-addon-project-timeline/14.0.1.4.1.dev8-14.0.1.4.1.dev9/diff.md --exclude *.pyd
+[2023-06-07 06:42:56] INFO root fetch - processPackages [google-cloud-spanner]: executing diffoscope
+[2023-06-07 06:42:56] INFO root fetch - processPackages [google-cloud-spanner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-cloud-spanner-3.8.0.tar.gz tmp/google-cloud-spanner-3.9.0.tar.gz --markdown 20230607/g/google-cloud-spanner/3.8.0-3.9.0/diff.md --exclude *.pyd
+[2023-06-07 06:42:56] INFO root fetch - processPackages [odoo14-addon-project-template]: executing diffoscope
+[2023-06-07 06:42:56] INFO root fetch - processPackages [odoo14-addon-project-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_project_template-14.0.1.2.1.dev8-py3-none-any.whl.zip tmp/odoo14_addon_project_template-14.0.1.2.1.dev9-py3-none-any.whl.zip --markdown 20230607/o/odoo14-addon-project-template/14.0.1.2.1.dev8-14.0.1.2.1.dev9/diff.md --exclude *.pyd
+[2023-06-07 06:42:56] INFO root fetch - processPackages [odoo14-addon-project-timesheet-time-control-sale]: executing diffoscope
+[2023-06-07 06:42:56] INFO root fetch - processPackages [odoo14-addon-project-timesheet-time-control-sale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_project_timesheet_time_control_sale-14.0.1.0.1.dev6-py3-none-any.whl.zip tmp/odoo14_addon_project_timesheet_time_control_sale-14.0.1.0.1.dev8-py3-none-any.whl.zip --markdown 20230607/o/odoo14-addon-project-timesheet-time-control-sale/14.0.1.0.1.dev6-14.0.1.0.1.dev8/diff.md --exclude *.pyd
+[2023-06-07 06:42:57] INFO root fetch - processPackages [databend-py]: Remove: archive file [/home/abi/fetcher/tmp/databend_py-0.4.3-py3-none-any.whl.zip]
+[2023-06-07 06:42:57] INFO root fetch - processPackages [databend-py]: Remove: archive file [/home/abi/fetcher/tmp/databend-py-0.4.4.tar.gz]
+[2023-06-07 06:42:57] INFO root fetch - processPackages [databend-py]: Start processing: yog
+[2023-06-07 06:42:57] INFO root fetch - main [MainThread]: End processing [databend-py]: success
+[2023-06-07 06:42:57] INFO root fetch - processPackages [yog]: New version: [2.2.4] Old Version: [2.2.3]
+[2023-06-07 06:42:57] INFO root fetch - processPackages [yog]: Downloading https://files.pythonhosted.org/packages/0d/6b/210a1eacc9e05232ce66f86fd36ddfda9bf1d1c159001ef3c73d6a77acc0/yog-2.2.3.tar.gz
+[2023-06-07 06:42:57] INFO root fetch - processPackages [synonym-custom]: Remove: archive file [/home/abi/fetcher/tmp/synonym_custom-0.0.3.tar.gz]
+[2023-06-07 06:42:57] INFO root fetch - processPackages [synonym-custom]: Remove: archive file [/home/abi/fetcher/tmp/synonym_custom-0.0.4.tar.gz]
+[2023-06-07 06:42:57] INFO root fetch - main [MainThread]: End processing [synonym-custom]: success
+[2023-06-07 06:42:57] INFO root fetch - processPackages [odoo14-addon-project-template-milestone]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_project_template_milestone-14.0.1.0.1.dev6-py3-none-any.whl.zip]
+[2023-06-07 06:42:57] INFO root fetch - processPackages [odoo14-addon-project-template-milestone]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_project_template_milestone-14.0.1.0.1.dev8-py3-none-any.whl.zip]
+[2023-06-07 06:42:57] INFO root fetch - main [MainThread]: End processing [odoo14-addon-project-template-milestone]: success
+[2023-06-07 06:42:57] INFO root fetch - processPackages [yog]: Downloading https://files.pythonhosted.org/packages/8a/49/c781f4dd6f8f6d83896190456075fb4e485e7b2b233312fb769d131ee737/yog-2.2.4.tar.gz
+[2023-06-07 06:42:57] INFO root fetch - processPackages [odoo14-addon-project-wbs]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_project_wbs-14.0.1.0.1.dev4-py3-none-any.whl.zip]
+[2023-06-07 06:42:57] INFO root fetch - processPackages [odoo14-addon-project-wbs]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_project_wbs-14.0.1.0.2.dev2-py3-none-any.whl.zip]
+[2023-06-07 06:42:57] INFO root fetch - main [MainThread]: End processing [odoo14-addon-project-wbs]: success
+[2023-06-07 06:42:57] INFO root fetch - processPackages [yog]: executing diffoscope
+[2023-06-07 06:42:57] INFO root fetch - processPackages [yog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yog-2.2.3.tar.gz tmp/yog-2.2.4.tar.gz --markdown 20230607/y/yog/2.2.3-2.2.4/diff.md --exclude *.pyd
+[2023-06-07 06:42:57] INFO root fetch - processPackages [odoo14-addon-project-task-pull-request]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_project_task_pull_request-14.0.1.1.1.dev6-py3-none-any.whl.zip]
+[2023-06-07 06:42:57] INFO root fetch - processPackages [odoo14-addon-project-task-pull-request]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_project_task_pull_request-14.0.1.1.1.dev7-py3-none-any.whl.zip]
+[2023-06-07 06:42:57] INFO root fetch - main [MainThread]: End processing [odoo14-addon-project-task-pull-request]: success
+[2023-06-07 06:42:57] INFO root fetch - processPackages [odoo14-addon-project-timesheet-time-control-sale]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_project_timesheet_time_control_sale-14.0.1.0.1.dev6-py3-none-any.whl.zip]
+[2023-06-07 06:42:57] INFO root fetch - processPackages [odoo14-addon-project-timesheet-time-control-sale]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_project_timesheet_time_control_sale-14.0.1.0.1.dev8-py3-none-any.whl.zip]
+[2023-06-07 06:42:57] INFO root fetch - main [MainThread]: End processing [odoo14-addon-project-timesheet-time-control-sale]: success
+[2023-06-07 06:42:58] INFO root fetch - processPackages [odoo14-addon-project-timeline]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_project_timeline-14.0.1.4.1.dev8-py3-none-any.whl.zip]
+[2023-06-07 06:42:58] INFO root fetch - processPackages [odoo14-addon-project-timeline]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_project_timeline-14.0.1.4.1.dev9-py3-none-any.whl.zip]
+[2023-06-07 06:42:58] INFO root fetch - main [MainThread]: End processing [odoo14-addon-project-timeline]: success
+[2023-06-07 06:42:58] INFO root fetch - processPackages [odoo14-addon-project-template]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_project_template-14.0.1.2.1.dev8-py3-none-any.whl.zip]
+[2023-06-07 06:42:58] INFO root fetch - processPackages [odoo14-addon-project-template]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_project_template-14.0.1.2.1.dev9-py3-none-any.whl.zip]
+[2023-06-07 06:42:58] INFO root fetch - main [MainThread]: End processing [odoo14-addon-project-template]: success
+[2023-06-07 06:42:58] INFO root fetch - processPackages [yog]: Remove: archive file [/home/abi/fetcher/tmp/yog-2.2.3.tar.gz]
+[2023-06-07 06:42:58] INFO root fetch - processPackages [yog]: Remove: archive file [/home/abi/fetcher/tmp/yog-2.2.4.tar.gz]
+[2023-06-07 06:42:58] INFO root fetch - main [MainThread]: End processing [yog]: success
+[2023-06-07 06:42:59] INFO root fetch - processPackages [lightwood]: Remove: archive file [/home/abi/fetcher/tmp/lightwood-23.5.1.0.tar.gz]
+[2023-06-07 06:42:59] INFO root fetch - processPackages [lightwood]: Remove: archive file [/home/abi/fetcher/tmp/lightwood-23.5.1.1.tar.gz]
+[2023-06-07 06:42:59] INFO root fetch - main [MainThread]: End processing [lightwood]: success
+[2023-06-07 06:43:01] INFO root fetch - processPackages [google-cloud-spanner]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-spanner-3.8.0.tar.gz]
+[2023-06-07 06:43:01] INFO root fetch - processPackages [google-cloud-spanner]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-spanner-3.9.0.tar.gz]
+[2023-06-07 06:43:01] INFO root fetch - main [MainThread]: End processing [google-cloud-spanner]: success
+[2023-06-07 06:43:01] INFO root fetch - main [MainThread]: Store serial: [18402767]
