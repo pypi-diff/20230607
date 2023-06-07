@@ -10574,3 +10574,104 @@
 [2023-06-07 04:54:28] INFO root fetch - processPackages [abqpy]: Remove: archive file [/home/abi/fetcher/tmp/abqpy-2023.5.2.tar.gz]
 [2023-06-07 04:54:28] INFO root fetch - main [MainThread]: End processing [abqpy]: success
 [2023-06-07 04:54:28] INFO root fetch - main [MainThread]: Store serial: [18402082]
+[2023-06-07 04:59:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18402082]
+[2023-06-07 04:59:37] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-07 04:59:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: abqpy
+[2023-06-07 04:59:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: abqpy
+[2023-06-07 04:59:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: autotraders
+[2023-06-07 04:59:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: abqpy
+[2023-06-07 04:59:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: abqpy
+[2023-06-07 04:59:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: abqpy
+[2023-06-07 04:59:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyatp-buldkit
+[2023-06-07 04:59:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: abqpy
+[2023-06-07 04:59:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: abqpy
+[2023-06-07 04:59:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: areixio
+[2023-06-07 04:59:37] INFO root fetch - processPackages [abqpy]: New version: [2023.5.3] Old Version: [2023.5.2]
+[2023-06-07 04:59:37] INFO root fetch - processPackages [areixio]: New version: [0.2.9] Old Version: [0.2.81]
+[2023-06-07 04:59:37] INFO root fetch - processPackages [abqpy]: New version: [2023.5.3] Old Version: [2023.5.2]
+[2023-06-07 04:59:37] WARNING root fetch - processPackages [pyatp-buldkit]: Skipping, unable to determine old version
+[2023-06-07 04:59:37] INFO root fetch - processPackages [pyatp-buldkit]: Start processing: pyatp-buildkit
+[2023-06-07 04:59:37] INFO root fetch - main [MainThread]: End processing [pyatp-buldkit] error
+[2023-06-07 04:59:37] INFO root fetch - processPackages [abqpy]: New version: [2023.5.3] Old Version: [2023.5.2]
+[2023-06-07 04:59:37] INFO root fetch - processPackages [autotraders]: New version: [1.4.2] Old Version: [1.4.1]
+[2023-06-07 04:59:37] INFO root fetch - processPackages [abqpy]: New version: [2023.5.3] Old Version: [2023.5.2]
+[2023-06-07 04:59:37] WARNING root fetch - processPackages [pyatp-buildkit]: Skipping, unable to determine old version
+[2023-06-07 04:59:37] INFO root fetch - processPackages [pyatp-buildkit]: Start processing: odoo-addon-account-tax-unece
+[2023-06-07 04:59:37] INFO root fetch - main [MainThread]: End processing [pyatp-buildkit] error
+[2023-06-07 04:59:37] INFO root fetch - processPackages [abqpy]: New version: [2023.5.3] Old Version: [2023.5.2]
+[2023-06-07 04:59:37] INFO root fetch - processPackages [abqpy]: New version: [2023.5.3] Old Version: [2023.5.2]
+[2023-06-07 04:59:37] INFO root fetch - processPackages [abqpy]: New version: [2023.5.3] Old Version: [2023.5.2]
+[2023-06-07 04:59:37] INFO root fetch - processPackages [odoo-addon-account-tax-unece]: New version: [16.0.1.2.0.1] Old Version: [16.0.1.2.0]
+[2023-06-07 04:59:37] INFO root fetch - processPackages [abqpy]: Downloading https://files.pythonhosted.org/packages/8f/73/9ee79ba56edebe8f535bea0f880196acfbee09a607e596b6cef7f6c4b96b/abqpy-2023.5.2.tar.gz
+[2023-06-07 04:59:37] INFO root fetch - processPackages [abqpy]: Downloading https://files.pythonhosted.org/packages/8f/73/9ee79ba56edebe8f535bea0f880196acfbee09a607e596b6cef7f6c4b96b/abqpy-2023.5.2.tar.gz
+[2023-06-07 04:59:37] INFO root fetch - processPackages [abqpy]: Downloading https://files.pythonhosted.org/packages/8f/73/9ee79ba56edebe8f535bea0f880196acfbee09a607e596b6cef7f6c4b96b/abqpy-2023.5.2.tar.gz
+[2023-06-07 04:59:37] INFO root fetch - processPackages [odoo-addon-account-tax-unece]: Downloading https://files.pythonhosted.org/packages/b7/29/292d6a8acf6dbac115c938f6ee7d58c80e4e90973bb9bb00704fbe68bed0/odoo_addon_account_tax_unece-16.0.1.2.0-py3-none-any.whl
+[2023-06-07 04:59:37] INFO root fetch - processPackages [abqpy]: Downloading https://files.pythonhosted.org/packages/8f/73/9ee79ba56edebe8f535bea0f880196acfbee09a607e596b6cef7f6c4b96b/abqpy-2023.5.2.tar.gz
+[2023-06-07 04:59:37] INFO root fetch - processPackages [abqpy]: Downloading https://files.pythonhosted.org/packages/8f/73/9ee79ba56edebe8f535bea0f880196acfbee09a607e596b6cef7f6c4b96b/abqpy-2023.5.2.tar.gz
+[2023-06-07 04:59:37] INFO root fetch - processPackages [abqpy]: Downloading https://files.pythonhosted.org/packages/8f/73/9ee79ba56edebe8f535bea0f880196acfbee09a607e596b6cef7f6c4b96b/abqpy-2023.5.2.tar.gz
+[2023-06-07 04:59:37] INFO root fetch - processPackages [abqpy]: Downloading https://files.pythonhosted.org/packages/8f/73/9ee79ba56edebe8f535bea0f880196acfbee09a607e596b6cef7f6c4b96b/abqpy-2023.5.2.tar.gz
+[2023-06-07 04:59:37] INFO root fetch - processPackages [autotraders]: Downloading https://files.pythonhosted.org/packages/2b/49/68eb277744489520869d3abd057e5f5779b959e623400f5ffe5d2ee1df72/autotraders-1.4.1.tar.gz
+[2023-06-07 04:59:37] INFO root fetch - processPackages [areixio]: Downloading https://files.pythonhosted.org/packages/cf/0c/3a836d24344cc7dba12203019d6a01b4b6373048769967ce3e412d59bc6a/areixio-0.2.81.tar.gz
+[2023-06-07 04:59:38] INFO root fetch - processPackages [odoo-addon-account-tax-unece]: Downloading https://files.pythonhosted.org/packages/08/23/f66638ca0a84b3d533ecd07a35045196ff76a5e898aed010de434945c593/odoo_addon_account_tax_unece-16.0.1.2.0.1-py3-none-any.whl
+[2023-06-07 04:59:38] INFO root fetch - processPackages [autotraders]: Downloading https://files.pythonhosted.org/packages/ef/a5/5be9214c29c811cea62397c6cb6ae1a679b95fd5a1c168fb7048de58e05b/autotraders-1.4.2.tar.gz
+[2023-06-07 04:59:38] INFO root fetch - processPackages [autotraders]: executing diffoscope
+[2023-06-07 04:59:38] INFO root fetch - processPackages [autotraders]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autotraders-1.4.1.tar.gz tmp/autotraders-1.4.2.tar.gz --markdown 20230607/a/autotraders/1.4.1-1.4.2/diff.md --exclude *.pyd
+[2023-06-07 04:59:38] INFO root fetch - processPackages [odoo-addon-account-tax-unece]: executing diffoscope
+[2023-06-07 04:59:38] INFO root fetch - processPackages [odoo-addon-account-tax-unece]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_tax_unece-16.0.1.2.0-py3-none-any.whl.zip tmp/odoo_addon_account_tax_unece-16.0.1.2.0.1-py3-none-any.whl.zip --markdown 20230607/o/odoo-addon-account-tax-unece/16.0.1.2.0-16.0.1.2.0.1/diff.md --exclude *.pyd
+[2023-06-07 04:59:38] INFO root fetch - processPackages [abqpy]: Downloading https://files.pythonhosted.org/packages/74/5d/d80a690b524f6c9eadcebef4df8ad0b3ddac604eb003bdbbcdfeefc47cbd/abqpy-2023.5.3.tar.gz
+[2023-06-07 04:59:38] INFO root fetch - processPackages [abqpy]: Downloading https://files.pythonhosted.org/packages/74/5d/d80a690b524f6c9eadcebef4df8ad0b3ddac604eb003bdbbcdfeefc47cbd/abqpy-2023.5.3.tar.gz
+[2023-06-07 04:59:38] INFO root fetch - processPackages [abqpy]: Downloading https://files.pythonhosted.org/packages/74/5d/d80a690b524f6c9eadcebef4df8ad0b3ddac604eb003bdbbcdfeefc47cbd/abqpy-2023.5.3.tar.gz
+[2023-06-07 04:59:38] INFO root fetch - processPackages [abqpy]: executing diffoscope
+[2023-06-07 04:59:38] INFO root fetch - processPackages [abqpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abqpy-2023.5.2.tar.gz tmp/abqpy-2023.5.3.tar.gz --markdown 20230607/a/abqpy/2023.5.2-2023.5.3/diff.md --exclude *.pyd
+[2023-06-07 04:59:38] INFO root fetch - processPackages [abqpy]: executing diffoscope
+[2023-06-07 04:59:38] INFO root fetch - processPackages [abqpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abqpy-2023.5.2.tar.gz tmp/abqpy-2023.5.3.tar.gz --markdown 20230607/a/abqpy/2023.5.2-2023.5.3/diff.md --exclude *.pyd
+[2023-06-07 04:59:38] INFO root fetch - processPackages [abqpy]: executing diffoscope
+[2023-06-07 04:59:38] INFO root fetch - processPackages [abqpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abqpy-2023.5.2.tar.gz tmp/abqpy-2023.5.3.tar.gz --markdown 20230607/a/abqpy/2023.5.2-2023.5.3/diff.md --exclude *.pyd
+[2023-06-07 04:59:38] INFO root fetch - processPackages [abqpy]: executing diffoscope
+[2023-06-07 04:59:38] INFO root fetch - processPackages [abqpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abqpy-2023.5.2.tar.gz tmp/abqpy-2023.5.3.tar.gz --markdown 20230607/a/abqpy/2023.5.2-2023.5.3/diff.md --exclude *.pyd
+[2023-06-07 04:59:39] INFO root fetch - processPackages [areixio]: Downloading https://files.pythonhosted.org/packages/b6/2c/9db3134c3fd073a3fdfaf56d0fb236a19d3888fb5a806ebdfb891c5dc09b/areixio-0.2.9.tar.gz
+[2023-06-07 04:59:39] INFO root fetch - processPackages [abqpy]: executing diffoscope
+[2023-06-07 04:59:39] INFO root fetch - processPackages [abqpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abqpy-2023.5.2.tar.gz tmp/abqpy-2023.5.3.tar.gz --markdown 20230607/a/abqpy/2023.5.2-2023.5.3/diff.md --exclude *.pyd
+[2023-06-07 04:59:39] INFO root fetch - processPackages [abqpy]: executing diffoscope
+[2023-06-07 04:59:39] INFO root fetch - processPackages [abqpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abqpy-2023.5.2.tar.gz tmp/abqpy-2023.5.3.tar.gz --markdown 20230607/a/abqpy/2023.5.2-2023.5.3/diff.md --exclude *.pyd
+[2023-06-07 04:59:39] INFO root fetch - processPackages [abqpy]: executing diffoscope
+[2023-06-07 04:59:39] INFO root fetch - processPackages [abqpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abqpy-2023.5.2.tar.gz tmp/abqpy-2023.5.3.tar.gz --markdown 20230607/a/abqpy/2023.5.2-2023.5.3/diff.md --exclude *.pyd
+[2023-06-07 04:59:39] INFO root fetch - processPackages [areixio]: executing diffoscope
+[2023-06-07 04:59:39] INFO root fetch - processPackages [areixio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/areixio-0.2.81.tar.gz tmp/areixio-0.2.9.tar.gz --markdown 20230607/a/areixio/0.2.81-0.2.9/diff.md --exclude *.pyd
+[2023-06-07 04:59:39] INFO root fetch - processPackages [odoo-addon-account-tax-unece]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_tax_unece-16.0.1.2.0-py3-none-any.whl.zip]
+[2023-06-07 04:59:39] INFO root fetch - processPackages [odoo-addon-account-tax-unece]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_tax_unece-16.0.1.2.0.1-py3-none-any.whl.zip]
+[2023-06-07 04:59:39] INFO root fetch - processPackages [odoo-addon-account-tax-unece]: Start processing: odoo-addons-oca-community-data-files
+[2023-06-07 04:59:39] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-tax-unece]: success
+[2023-06-07 04:59:39] INFO root fetch - processPackages [odoo-addons-oca-community-data-files]: New version: [16.0.20230606.0] Old Version: [16.0.20230515.0]
+[2023-06-07 04:59:39] INFO root fetch - processPackages [odoo-addons-oca-community-data-files]: Downloading https://files.pythonhosted.org/packages/a6/0e/208fe1470c3b571034cd9a9d114743b8c804f6b2efc86c0be4810e891452/odoo_addons_oca_community_data_files-16.0.20230515.0-py3-none-any.whl
+[2023-06-07 04:59:40] INFO root fetch - processPackages [odoo-addons-oca-community-data-files]: Downloading https://files.pythonhosted.org/packages/13/7f/2c8a59deba24178131f91405d3ed4ced7683d194a335b719cbfe20e55fe8/odoo_addons_oca_community_data_files-16.0.20230606.0-py3-none-any.whl
+[2023-06-07 04:59:40] INFO root fetch - processPackages [autotraders]: Remove: archive file [/home/abi/fetcher/tmp/autotraders-1.4.1.tar.gz]
+[2023-06-07 04:59:40] INFO root fetch - processPackages [autotraders]: Remove: archive file [/home/abi/fetcher/tmp/autotraders-1.4.2.tar.gz]
+[2023-06-07 04:59:40] INFO root fetch - processPackages [autotraders]: Start processing: sui-brownie
+[2023-06-07 04:59:40] INFO root fetch - main [MainThread]: End processing [autotraders]: success
+[2023-06-07 04:59:40] INFO root fetch - processPackages [odoo-addons-oca-community-data-files]: executing diffoscope
+[2023-06-07 04:59:40] INFO root fetch - processPackages [odoo-addons-oca-community-data-files]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_community_data_files-16.0.20230515.0-py3-none-any.whl.zip tmp/odoo_addons_oca_community_data_files-16.0.20230606.0-py3-none-any.whl.zip --markdown 20230607/o/odoo-addons-oca-community-data-files/16.0.20230515.0-16.0.20230606.0/diff.md --exclude *.pyd
+[2023-06-07 04:59:40] INFO root fetch - processPackages [sui-brownie]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-06-07 04:59:40] INFO root fetch - processPackages [sui-brownie]: Downloading https://files.pythonhosted.org/packages/9c/9d/f49ebaa4be9ecf2efe9d386f2e919d3cde4a6f637f8c4c8dd0542d28e3f7/sui_brownie-1.0.4-py3-none-any.whl
+[2023-06-07 04:59:41] INFO root fetch - processPackages [sui-brownie]: Downloading https://files.pythonhosted.org/packages/de/d8/32dd67cfae810d9cdfcaf71400f0e46be8374186512659f5c432b3518be7/sui_brownie-1.0.5-py3-none-any.whl
+[2023-06-07 04:59:41] INFO root fetch - processPackages [sui-brownie]: executing diffoscope
+[2023-06-07 04:59:41] INFO root fetch - processPackages [sui-brownie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sui_brownie-1.0.4-py3-none-any.whl.zip tmp/sui_brownie-1.0.5-py3-none-any.whl.zip --markdown 20230607/s/sui-brownie/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-06-07 04:59:41] INFO root fetch - processPackages [odoo-addons-oca-community-data-files]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_community_data_files-16.0.20230515.0-py3-none-any.whl.zip]
+[2023-06-07 04:59:41] INFO root fetch - processPackages [odoo-addons-oca-community-data-files]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_community_data_files-16.0.20230606.0-py3-none-any.whl.zip]
+[2023-06-07 04:59:41] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-community-data-files]: success
+[2023-06-07 04:59:42] INFO root fetch - processPackages [sui-brownie]: Remove: archive file [/home/abi/fetcher/tmp/sui_brownie-1.0.4-py3-none-any.whl.zip]
+[2023-06-07 04:59:42] INFO root fetch - processPackages [sui-brownie]: Remove: archive file [/home/abi/fetcher/tmp/sui_brownie-1.0.5-py3-none-any.whl.zip]
+[2023-06-07 04:59:42] INFO root fetch - main [MainThread]: End processing [sui-brownie]: success
+[2023-06-07 04:59:53] INFO root fetch - processPackages [areixio]: Remove: archive file [/home/abi/fetcher/tmp/areixio-0.2.81.tar.gz]
+[2023-06-07 04:59:53] INFO root fetch - processPackages [areixio]: Remove: archive file [/home/abi/fetcher/tmp/areixio-0.2.9.tar.gz]
+[2023-06-07 04:59:53] INFO root fetch - main [MainThread]: End processing [areixio]: success
+[2023-06-07 05:00:08] INFO root fetch - processPackages [abqpy]: Remove: archive file [/home/abi/fetcher/tmp/abqpy-2023.5.2.tar.gz]
+[2023-06-07 05:00:08] INFO root fetch - processPackages [abqpy]: Remove: archive file [/home/abi/fetcher/tmp/abqpy-2023.5.3.tar.gz]
+[2023-06-07 05:00:08] INFO root fetch - main [MainThread]: End processing [abqpy]: success
+[2023-06-07 05:00:08] INFO root fetch - main [MainThread]: End processing [abqpy]: success
+[2023-06-07 05:00:08] INFO root fetch - main [MainThread]: End processing [abqpy]: success
+[2023-06-07 05:00:09] INFO root fetch - main [MainThread]: End processing [abqpy]: success
+[2023-06-07 05:00:09] INFO root fetch - main [MainThread]: End processing [abqpy]: success
+[2023-06-07 05:00:09] INFO root fetch - main [MainThread]: End processing [abqpy]: success
+[2023-06-07 05:00:10] INFO root fetch - main [MainThread]: End processing [abqpy]: success
+[2023-06-07 05:00:10] INFO root fetch - main [MainThread]: Store serial: [18402125]
