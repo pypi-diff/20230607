@@ -18843,3 +18843,147 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-07 10:58:15] ERROR root fetch - processPackages [circt]: Timeout during execution of pkgdiff
 [2023-06-07 10:58:15] INFO root fetch - main [MainThread]: End processing [circt] error
 [2023-06-07 10:58:15] INFO root fetch - main [MainThread]: Store serial: [18405420]
+[2023-06-07 11:03:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18405420]
+[2023-06-07 11:03:25] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-06-07 11:03:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dubborun
+[2023-06-07 11:03:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pynitrokey
+[2023-06-07 11:03:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: snekmate
+[2023-06-07 11:03:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyprocessors-similar_segments
+[2023-06-07 11:03:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flet-ivid-hks
+[2023-06-07 11:03:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-slick-reporting
+[2023-06-07 11:03:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: layerx-sdk-beta
+[2023-06-07 11:03:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: memorix-client-redis
+[2023-06-07 11:03:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lamini
+[2023-06-07 11:03:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pysequoia
+[2023-06-07 11:03:25] INFO root fetch - processPackages [pynitrokey]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-06-07 11:03:25] WARNING root fetch - processPackages [flet-ivid-hks]: Skipping, unable to determine old version
+[2023-06-07 11:03:25] INFO root fetch - processPackages [flet-ivid-hks]: Start processing: antchain-das
+[2023-06-07 11:03:25] INFO root fetch - main [MainThread]: End processing [flet-ivid-hks] error
+[2023-06-07 11:03:25] INFO root fetch - processPackages [snekmate]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-07 11:03:25] INFO root fetch - processPackages [layerx-sdk-beta]: New version: [1.0.9b2] Old Version: [1.0.9b1]
+[2023-06-07 11:03:25] WARNING root fetch - processPackages [pyprocessors-similar_segments]: Skipping, unable to determine old version
+[2023-06-07 11:03:25] INFO root fetch - processPackages [memorix-client-redis]: New version: [1.4.2] Old Version: [1.4.1]
+[2023-06-07 11:03:25] INFO root fetch - processPackages [pyprocessors-similar_segments]: Start processing: aeromaps
+[2023-06-07 11:03:25] INFO root fetch - main [MainThread]: End processing [pyprocessors-similar_segments] error
+[2023-06-07 11:03:25] INFO root fetch - processPackages [lamini]: New version: [0.0.17a3] Old Version: [0.0.17a2]
+[2023-06-07 11:03:25] INFO root fetch - processPackages [pysequoia]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-07 11:03:25] INFO root fetch - processPackages [antchain-das]: New version: [1.1.6] Old Version: [1.1.52]
+[2023-06-07 11:03:25] INFO root fetch - processPackages [django-slick-reporting]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-07 11:03:25] WARNING root fetch - processPackages [aeromaps]: Skipping, unable to determine old version
+[2023-06-07 11:03:25] INFO root fetch - processPackages [aeromaps]: Start processing: nonebot-plugin-game-collection
+[2023-06-07 11:03:25] INFO root fetch - main [MainThread]: End processing [aeromaps] error
+[2023-06-07 11:03:25] INFO root fetch - processPackages [nonebot-plugin-game-collection]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-06-07 11:03:25] INFO root fetch - processPackages [layerx-sdk-beta]: Downloading https://files.pythonhosted.org/packages/82/30/49db849a17663ef31174e31654b943efd6d652d8fead1d082f103f9ab59e/layerx-sdk-beta-1.0.9b1.tar.gz
+[2023-06-07 11:03:25] INFO root fetch - processPackages [lamini]: Downloading https://files.pythonhosted.org/packages/0a/03/d29ff3a90a75c85ab8869514a28d65400561ee9e617c66da8e9e09d5ce3e/lamini-0.0.17a2.tar.gz
+[2023-06-07 11:03:25] INFO root fetch - processPackages [memorix-client-redis]: Downloading https://files.pythonhosted.org/packages/1c/cc/a9c9ea67bf53804f52fee0031c10e8f5e61f3af18f41749afa06eca00f00/memorix_client_redis-1.4.1.tar.gz
+[2023-06-07 11:03:25] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Downloading https://files.pythonhosted.org/packages/f4/58/8a15540c38334bcd6c5c1cc93891f5a1bcb6e02b5c4a4fd34725c03f121e/nonebot_plugin_game_collection-2.1.8.tar.gz
+[2023-06-07 11:03:25] ERROR root fetch - processPackages [dubborun]: Unable to get metadata: No such project 'dubborun'
+[2023-06-07 11:03:25] INFO root fetch - processPackages [dubborun]: Start processing: nifigator
+[2023-06-07 11:03:25] INFO root fetch - main [MainThread]: End processing [dubborun] error
+[2023-06-07 11:03:25] INFO root fetch - processPackages [nifigator]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-07 11:03:25] INFO root fetch - processPackages [antchain-das]: Downloading https://files.pythonhosted.org/packages/0f/2a/c1ae7e6d8288af2ddf17b941cb108453d761be51fbb187fa6bd60f130181/antchain_das-1.1.52.tar.gz
+[2023-06-07 11:03:25] INFO root fetch - processPackages [pynitrokey]: Downloading https://files.pythonhosted.org/packages/27/9a/3544196275cdde534cb21b7561a786061257ae323761ef80781ad3332ff3/pynitrokey-0.4.8.tar.gz
+[2023-06-07 11:03:25] INFO root fetch - processPackages [snekmate]: Downloading https://files.pythonhosted.org/packages/e1/1b/efd5e8ee76f6b593399069c4e7d8c7f56272626342e851b0c69f041a8920/snekmate-0.0.1.tar.gz
+[2023-06-07 11:03:25] INFO root fetch - processPackages [django-slick-reporting]: Downloading https://files.pythonhosted.org/packages/5d/0d/4eae2b81fc34d12e20f0de7655ea11ea4a4cfcfb583fe29c1989c98d8810/django-slick-reporting-0.8.0.tar.gz
+[2023-06-07 11:03:25] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Downloading https://files.pythonhosted.org/packages/40/cf/c30d83f076e973f167bcff6080e47c06a5bee3c96e14111e663309004d8e/nonebot_plugin_game_collection-2.1.9.tar.gz
+[2023-06-07 11:03:25] INFO root fetch - processPackages [pysequoia]: Downloading https://files.pythonhosted.org/packages/f5/c7/a23c02f671946ab4d1c8e12b564caa0513f98e3bc2a8c856930adfe5a8c9/pysequoia-0.1.8.tar.gz
+[2023-06-07 11:03:25] INFO root fetch - processPackages [nifigator]: Downloading https://files.pythonhosted.org/packages/4c/35/3098a9b3a4efc2cf2c15fd4ee96ec100f31d5f7f347c6ef1ce64fab20d54/nifigator-0.1.7.tar.gz
+[2023-06-07 11:03:25] INFO root fetch - processPackages [layerx-sdk-beta]: Downloading https://files.pythonhosted.org/packages/80/17/9c39f674089d0687a6ebb4bb5cb263194817e74bbf02632c5b1f95ed63ed/layerx-sdk-beta-1.0.9b2.tar.gz
+[2023-06-07 11:03:25] INFO root fetch - processPackages [nonebot-plugin-game-collection]: executing diffoscope
+[2023-06-07 11:03:25] INFO root fetch - processPackages [nonebot-plugin-game-collection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_game_collection-2.1.8.tar.gz tmp/nonebot_plugin_game_collection-2.1.9.tar.gz --markdown 20230607/n/nonebot-plugin-game-collection/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-06-07 11:03:25] INFO root fetch - processPackages [lamini]: Downloading https://files.pythonhosted.org/packages/b6/d5/f29a1ba6562ffbe9a3f5598e097debfefd0a1a4a0b361fe759678771c2cd/lamini-0.0.17a3.tar.gz
+[2023-06-07 11:03:25] INFO root fetch - processPackages [memorix-client-redis]: Downloading https://files.pythonhosted.org/packages/96/70/855cbea2b940f87b9a61c5726410f5b71fa816f9254090cd27eda3bbbe46/memorix_client_redis-1.4.2.tar.gz
+[2023-06-07 11:03:25] INFO root fetch - processPackages [antchain-das]: Downloading https://files.pythonhosted.org/packages/03/f4/1f952e12e964abe29313d9437d8acfe7610a263b57f372ae21b8ce63fe08/antchain_das-1.1.6.tar.gz
+[2023-06-07 11:03:25] INFO root fetch - processPackages [memorix-client-redis]: executing diffoscope
+[2023-06-07 11:03:25] INFO root fetch - processPackages [memorix-client-redis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/memorix_client_redis-1.4.1.tar.gz tmp/memorix_client_redis-1.4.2.tar.gz --markdown 20230607/m/memorix-client-redis/1.4.1-1.4.2/diff.md --exclude *.pyd
+[2023-06-07 11:03:25] INFO root fetch - processPackages [layerx-sdk-beta]: executing diffoscope
+[2023-06-07 11:03:25] INFO root fetch - processPackages [layerx-sdk-beta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/layerx-sdk-beta-1.0.9b1.tar.gz tmp/layerx-sdk-beta-1.0.9b2.tar.gz --markdown 20230607/l/layerx-sdk-beta/1.0.9b1-1.0.9b2/diff.md --exclude *.pyd
+[2023-06-07 11:03:25] INFO root fetch - processPackages [lamini]: executing diffoscope
+[2023-06-07 11:03:25] INFO root fetch - processPackages [lamini]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lamini-0.0.17a2.tar.gz tmp/lamini-0.0.17a3.tar.gz --markdown 20230607/l/lamini/0.0.17a2-0.0.17a3/diff.md --exclude *.pyd
+[2023-06-07 11:03:25] INFO root fetch - processPackages [django-slick-reporting]: Downloading https://files.pythonhosted.org/packages/b2/54/2fdf1a651567ab89c524eb2cb7c571725d1d3f17cada23dccbd5a255a803/django-slick-reporting-0.9.0.tar.gz
+[2023-06-07 11:03:25] INFO root fetch - processPackages [nifigator]: Downloading https://files.pythonhosted.org/packages/e8/64/18ba6d4f91529a73fd40ca6aa7fa82a5b3dca25500c7cddec0d1fe74cdc3/nifigator-0.1.8-py2.py3-none-any.whl
+[2023-06-07 11:03:25] INFO root fetch - processPackages [django-slick-reporting]: executing diffoscope
+[2023-06-07 11:03:25] INFO root fetch - processPackages [django-slick-reporting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-slick-reporting-0.8.0.tar.gz tmp/django-slick-reporting-0.9.0.tar.gz --markdown 20230607/d/django-slick-reporting/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-07 11:03:25] INFO root fetch - processPackages [snekmate]: Downloading https://files.pythonhosted.org/packages/a8/a2/841fc23dc15357cfbcc6ea3d2069d34315153b176d009688358d4ef43bc0/snekmate-0.0.2.tar.gz
+[2023-06-07 11:03:26] INFO root fetch - processPackages [snekmate]: executing diffoscope
+[2023-06-07 11:03:26] INFO root fetch - processPackages [snekmate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snekmate-0.0.1.tar.gz tmp/snekmate-0.0.2.tar.gz --markdown 20230607/s/snekmate/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-07 11:03:26] INFO root fetch - processPackages [nifigator]: executing diffoscope
+[2023-06-07 11:03:26] INFO root fetch - processPackages [nifigator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nifigator-0.1.7.tar.gz tmp/nifigator-0.1.8-py2.py3-none-any.whl.zip --markdown 20230607/n/nifigator/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-07 11:03:26] INFO root fetch - processPackages [pynitrokey]: Downloading https://files.pythonhosted.org/packages/e3/cb/1adf2297f05e8b11220ce633278e09fdd30d6a18b66ab24720d5837bff00/pynitrokey-0.4.9.tar.gz
+[2023-06-07 11:03:26] INFO root fetch - processPackages [pynitrokey]: executing diffoscope
+[2023-06-07 11:03:26] INFO root fetch - processPackages [pynitrokey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynitrokey-0.4.8.tar.gz tmp/pynitrokey-0.4.9.tar.gz --markdown 20230607/p/pynitrokey/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-06-07 11:03:26] INFO root fetch - processPackages [antchain-das]: executing diffoscope
+[2023-06-07 11:03:26] INFO root fetch - processPackages [antchain-das]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_das-1.1.52.tar.gz tmp/antchain_das-1.1.6.tar.gz --markdown 20230607/a/antchain-das/1.1.52-1.1.6/diff.md --exclude *.pyd
+[2023-06-07 11:03:26] INFO root fetch - processPackages [pysequoia]: Downloading https://files.pythonhosted.org/packages/b3/dc/c34f78dd8e0d1f4d3bcf107cf71de5605bb888eca724e26217920c41dff6/pysequoia-0.1.9.tar.gz
+[2023-06-07 11:03:27] INFO root fetch - processPackages [memorix-client-redis]: Remove: archive file [/home/abi/fetcher/tmp/memorix_client_redis-1.4.1.tar.gz]
+[2023-06-07 11:03:27] INFO root fetch - processPackages [memorix-client-redis]: Remove: archive file [/home/abi/fetcher/tmp/memorix_client_redis-1.4.2.tar.gz]
+[2023-06-07 11:03:27] INFO root fetch - processPackages [memorix-client-redis]: Start processing: lrbenchmark
+[2023-06-07 11:03:27] INFO root fetch - main [MainThread]: End processing [memorix-client-redis]: success
+[2023-06-07 11:03:27] INFO root fetch - processPackages [lrbenchmark]: New version: [0.1.1] Old Version: [0.1]
+[2023-06-07 11:03:27] INFO root fetch - processPackages [nifigator]: Remove: archive file [/home/abi/fetcher/tmp/nifigator-0.1.7.tar.gz]
+[2023-06-07 11:03:27] INFO root fetch - processPackages [nifigator]: Remove: archive file [/home/abi/fetcher/tmp/nifigator-0.1.8-py2.py3-none-any.whl.zip]
+[2023-06-07 11:03:27] INFO root fetch - processPackages [nifigator]: Start processing: nice-sql
+[2023-06-07 11:03:27] INFO root fetch - main [MainThread]: End processing [nifigator]: success
+[2023-06-07 11:03:27] INFO root fetch - processPackages [nice-sql]: New version: [3.0.1] Old Version: [2.0.1]
+[2023-06-07 11:03:27] INFO root fetch - processPackages [django-slick-reporting]: Remove: archive file [/home/abi/fetcher/tmp/django-slick-reporting-0.8.0.tar.gz]
+[2023-06-07 11:03:27] INFO root fetch - processPackages [django-slick-reporting]: Remove: archive file [/home/abi/fetcher/tmp/django-slick-reporting-0.9.0.tar.gz]
+[2023-06-07 11:03:27] INFO root fetch - processPackages [django-slick-reporting]: Start processing: codezen
+[2023-06-07 11:03:27] INFO root fetch - main [MainThread]: End processing [django-slick-reporting]: success
+[2023-06-07 11:03:27] INFO root fetch - processPackages [lrbenchmark]: Downloading https://files.pythonhosted.org/packages/e3/f3/4fe7987c4c1bbf144a832fd752ee6d21a1da33a09d87798a7ffb4cad0b32/lrbenchmark-0.1.tar.gz
+[2023-06-07 11:03:27] INFO root fetch - processPackages [codezen]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-06-07 11:03:27] INFO root fetch - processPackages [lamini]: Remove: archive file [/home/abi/fetcher/tmp/lamini-0.0.17a2.tar.gz]
+[2023-06-07 11:03:27] INFO root fetch - processPackages [lamini]: Remove: archive file [/home/abi/fetcher/tmp/lamini-0.0.17a3.tar.gz]
+[2023-06-07 11:03:27] INFO root fetch - processPackages [lamini]: Start processing: gelatian
+[2023-06-07 11:03:27] INFO root fetch - main [MainThread]: End processing [lamini]: success
+[2023-06-07 11:03:27] WARNING root fetch - processPackages [gelatian]: Skipping, unable to determine old version
+[2023-06-07 11:03:27] INFO root fetch - processPackages [gelatian]: Start processing: twint-fork
+[2023-06-07 11:03:27] INFO root fetch - main [MainThread]: End processing [gelatian] error
+[2023-06-07 11:03:27] INFO root fetch - processPackages [nice-sql]: Downloading https://files.pythonhosted.org/packages/a1/a8/084ccd417fb11c3e85263ab735571a1d341b9b6ea9caae59877a0fd8a4da/nice-sql-2.0.1.tar.gz
+[2023-06-07 11:03:27] INFO root fetch - processPackages [antchain-das]: Remove: archive file [/home/abi/fetcher/tmp/antchain_das-1.1.52.tar.gz]
+[2023-06-07 11:03:27] INFO root fetch - processPackages [antchain-das]: Remove: archive file [/home/abi/fetcher/tmp/antchain_das-1.1.6.tar.gz]
+[2023-06-07 11:03:27] INFO root fetch - main [MainThread]: End processing [antchain-das]: success
+[2023-06-07 11:03:27] INFO root fetch - processPackages [twint-fork]: New version: [2.5.2] Old Version: [2.5.1]
+[2023-06-07 11:03:27] INFO root fetch - processPackages [codezen]: Downloading https://files.pythonhosted.org/packages/b9/bd/3f3e20a125f0f4495f6fbc56c318ed8c2ce21a5ad491a66e606654a03fef/codezen-0.1.1.tar.gz
+[2023-06-07 11:03:27] INFO root fetch - processPackages [snekmate]: Remove: archive file [/home/abi/fetcher/tmp/snekmate-0.0.1.tar.gz]
+[2023-06-07 11:03:27] INFO root fetch - processPackages [snekmate]: Remove: archive file [/home/abi/fetcher/tmp/snekmate-0.0.2.tar.gz]
+[2023-06-07 11:03:27] INFO root fetch - main [MainThread]: End processing [snekmate]: success
+[2023-06-07 11:03:27] INFO root fetch - processPackages [twint-fork]: Downloading https://files.pythonhosted.org/packages/8b/52/db279226e54539265e2a54bd23538f6db317247de9ae9faa52ee871480a7/twint_fork-2.5.1.tar.gz
+[2023-06-07 11:03:27] INFO root fetch - processPackages [lrbenchmark]: Downloading https://files.pythonhosted.org/packages/3a/7f/fb0c07bbc33bb4e91a780241bf6d38be1a0f7c4893ed18cf32f1ade5b939/lrbenchmark-0.1.1.tar.gz
+[2023-06-07 11:03:27] INFO root fetch - processPackages [nice-sql]: Downloading https://files.pythonhosted.org/packages/59/73/20f0d6ce53c16f84aa5c1eb35729efd754e1adb6a9ff4c2fee47aae528bc/nice-sql-3.0.1.tar.gz
+[2023-06-07 11:03:27] INFO root fetch - processPackages [lrbenchmark]: executing diffoscope
+[2023-06-07 11:03:27] INFO root fetch - processPackages [lrbenchmark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lrbenchmark-0.1.tar.gz tmp/lrbenchmark-0.1.1.tar.gz --markdown 20230607/l/lrbenchmark/0.1-0.1.1/diff.md --exclude *.pyd
+[2023-06-07 11:03:27] INFO root fetch - processPackages [nice-sql]: executing diffoscope
+[2023-06-07 11:03:27] INFO root fetch - processPackages [nice-sql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nice-sql-2.0.1.tar.gz tmp/nice-sql-3.0.1.tar.gz --markdown 20230607/n/nice-sql/2.0.1-3.0.1/diff.md --exclude *.pyd
+[2023-06-07 11:03:27] INFO root fetch - processPackages [pysequoia]: executing diffoscope
+[2023-06-07 11:03:27] INFO root fetch - processPackages [pysequoia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysequoia-0.1.8.tar.gz tmp/pysequoia-0.1.9.tar.gz --markdown 20230607/p/pysequoia/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-07 11:03:28] INFO root fetch - processPackages [codezen]: Downloading https://files.pythonhosted.org/packages/49/19/e411529d4db37f6296f63fafa0ed1e082ffe9ad180ba9afe0cc8d2250b2b/codezen-0.2.0.tar.gz
+[2023-06-07 11:03:28] INFO root fetch - processPackages [codezen]: executing diffoscope
+[2023-06-07 11:03:28] INFO root fetch - processPackages [codezen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codezen-0.1.1.tar.gz tmp/codezen-0.2.0.tar.gz --markdown 20230607/c/codezen/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-06-07 11:03:28] INFO root fetch - processPackages [twint-fork]: Downloading https://files.pythonhosted.org/packages/22/ea/c4ef0e97b4ae5a611a473e05893a149b8696b46404691a1b32a0647303a8/twint_fork-2.5.2.tar.gz
+[2023-06-07 11:03:28] INFO root fetch - processPackages [twint-fork]: executing diffoscope
+[2023-06-07 11:03:28] INFO root fetch - processPackages [twint-fork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twint_fork-2.5.1.tar.gz tmp/twint_fork-2.5.2.tar.gz --markdown 20230607/t/twint-fork/2.5.1-2.5.2/diff.md --exclude *.pyd
+[2023-06-07 11:03:28] INFO root fetch - processPackages [layerx-sdk-beta]: Remove: archive file [/home/abi/fetcher/tmp/layerx-sdk-beta-1.0.9b1.tar.gz]
+[2023-06-07 11:03:28] INFO root fetch - processPackages [layerx-sdk-beta]: Remove: archive file [/home/abi/fetcher/tmp/layerx-sdk-beta-1.0.9b2.tar.gz]
+[2023-06-07 11:03:28] INFO root fetch - main [MainThread]: End processing [layerx-sdk-beta]: success
+[2023-06-07 11:03:29] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_game_collection-2.1.8.tar.gz]
+[2023-06-07 11:03:29] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_game_collection-2.1.9.tar.gz]
+[2023-06-07 11:03:29] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-game-collection]: success
+[2023-06-07 11:03:29] INFO root fetch - processPackages [nice-sql]: Remove: archive file [/home/abi/fetcher/tmp/nice-sql-2.0.1.tar.gz]
+[2023-06-07 11:03:29] INFO root fetch - processPackages [nice-sql]: Remove: archive file [/home/abi/fetcher/tmp/nice-sql-3.0.1.tar.gz]
+[2023-06-07 11:03:29] INFO root fetch - main [MainThread]: End processing [nice-sql]: success
+[2023-06-07 11:03:29] INFO root fetch - processPackages [lrbenchmark]: Remove: archive file [/home/abi/fetcher/tmp/lrbenchmark-0.1.tar.gz]
+[2023-06-07 11:03:29] INFO root fetch - processPackages [lrbenchmark]: Remove: archive file [/home/abi/fetcher/tmp/lrbenchmark-0.1.1.tar.gz]
+[2023-06-07 11:03:29] INFO root fetch - main [MainThread]: End processing [lrbenchmark]: success
+[2023-06-07 11:03:29] INFO root fetch - processPackages [codezen]: Remove: archive file [/home/abi/fetcher/tmp/codezen-0.1.1.tar.gz]
+[2023-06-07 11:03:29] INFO root fetch - processPackages [codezen]: Remove: archive file [/home/abi/fetcher/tmp/codezen-0.2.0.tar.gz]
+[2023-06-07 11:03:29] INFO root fetch - main [MainThread]: End processing [codezen]: success
+[2023-06-07 11:03:29] INFO root fetch - processPackages [twint-fork]: Remove: archive file [/home/abi/fetcher/tmp/twint_fork-2.5.1.tar.gz]
+[2023-06-07 11:03:29] INFO root fetch - processPackages [twint-fork]: Remove: archive file [/home/abi/fetcher/tmp/twint_fork-2.5.2.tar.gz]
+[2023-06-07 11:03:29] INFO root fetch - main [MainThread]: End processing [twint-fork]: success
+[2023-06-07 11:03:31] INFO root fetch - processPackages [pynitrokey]: Remove: archive file [/home/abi/fetcher/tmp/pynitrokey-0.4.8.tar.gz]
+[2023-06-07 11:03:31] INFO root fetch - processPackages [pynitrokey]: Remove: archive file [/home/abi/fetcher/tmp/pynitrokey-0.4.9.tar.gz]
+[2023-06-07 11:03:31] INFO root fetch - main [MainThread]: End processing [pynitrokey]: success
+[2023-06-07 11:03:36] INFO root fetch - processPackages [pysequoia]: Remove: archive file [/home/abi/fetcher/tmp/pysequoia-0.1.8.tar.gz]
+[2023-06-07 11:03:36] INFO root fetch - processPackages [pysequoia]: Remove: archive file [/home/abi/fetcher/tmp/pysequoia-0.1.9.tar.gz]
+[2023-06-07 11:03:36] INFO root fetch - main [MainThread]: End processing [pysequoia]: success
+[2023-06-07 11:03:36] INFO root fetch - main [MainThread]: Store serial: [18405494]
