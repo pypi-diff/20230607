@@ -14357,3 +14357,123 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-06-07 08:27:08] INFO root fetch - processPackages [iLCDirac]: Remove: archive file [/home/abi/fetcher/tmp/iLCDirac-34.0.0a5.tar.gz]
 [2023-06-07 08:27:08] INFO root fetch - main [MainThread]: End processing [iLCDirac]: success
 [2023-06-07 08:27:08] INFO root fetch - main [MainThread]: Store serial: [18403519]
+[2023-06-07 08:32:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18403519]
+[2023-06-07 08:32:18] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-07 08:32:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: animage-data-sorter
+[2023-06-07 08:32:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mynacode
+[2023-06-07 08:32:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: starlette
+[2023-06-07 08:32:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: biliarchiver
+[2023-06-07 08:32:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ml-plugins
+[2023-06-07 08:32:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dartrig
+[2023-06-07 08:32:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: plaquette-unionfind
+[2023-06-07 08:32:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mynacode
+[2023-06-07 08:32:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: kubedeployer
+[2023-06-07 08:32:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: clickzetta-connector
+[2023-06-07 08:32:18] WARNING root fetch - processPackages [biliarchiver]: Skipping, unable to determine old version
+[2023-06-07 08:32:18] INFO root fetch - processPackages [animage-data-sorter]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-06-07 08:32:18] INFO root fetch - processPackages [starlette]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-07 08:32:18] INFO root fetch - processPackages [biliarchiver]: Start processing: homeassistant
+[2023-06-07 08:32:18] INFO root fetch - main [MainThread]: End processing [biliarchiver] error
+[2023-06-07 08:32:18] INFO root fetch - processPackages [plaquette-unionfind]: New version: [0.0.1a2] Old Version: [0.0.1a1]
+[2023-06-07 08:32:18] INFO root fetch - processPackages [clickzetta-connector]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-06-07 08:32:18] INFO root fetch - processPackages [mynacode]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-06-07 08:32:18] INFO root fetch - processPackages [dartrig]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-07 08:32:18] INFO root fetch - processPackages [ml-plugins]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-07 08:32:18] INFO root fetch - processPackages [kubedeployer]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-06-07 08:32:18] INFO root fetch - processPackages [mynacode]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-06-07 08:32:18] INFO root fetch - processPackages [homeassistant]: New version: [2023.6.0b6] Old Version: [2023.6.0b5]
+[2023-06-07 08:32:18] INFO root fetch - processPackages [clickzetta-connector]: Downloading https://files.pythonhosted.org/packages/72/d1/d65bb4b4077a404aa08b3a2615159873fac64bc9adabf42a5b45cb50f00b/clickzetta-connector-0.8.8.tar.gz
+[2023-06-07 08:32:18] INFO root fetch - processPackages [dartrig]: Downloading https://files.pythonhosted.org/packages/c3/a1/ecb0fc49702e70d469ceb63bbffe292a25022b72614b9921fb303fad5986/dartrig-0.1.8.tar.gz
+[2023-06-07 08:32:18] INFO root fetch - processPackages [ml-plugins]: Downloading https://files.pythonhosted.org/packages/8d/5c/d1b7c6f5a1a6cd777dac70d07efd117a8849579da78c5ed441b61f9f993f/ml_plugins-0.0.8.tar.gz
+[2023-06-07 08:32:18] INFO root fetch - processPackages [starlette]: Downloading https://files.pythonhosted.org/packages/3e/c6/88df156dc4ad2b9a3dba51c4b4e128309c2a60db7405df4567777f77bd0c/starlette-0.9.8.tar.gz
+[2023-06-07 08:32:18] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/1d/24/3d4ef0a0a267fb47bcbac68ff9b760a9b892095f2ee727874f0286d600c3/mynacode-1.0.98-py3-none-any.whl
+[2023-06-07 08:32:18] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/1d/24/3d4ef0a0a267fb47bcbac68ff9b760a9b892095f2ee727874f0286d600c3/mynacode-1.0.98-py3-none-any.whl
+[2023-06-07 08:32:18] INFO root fetch - processPackages [ml-plugins]: Downloading https://files.pythonhosted.org/packages/e7/7d/b6e0fbc63a7fba7e7f13092dbd6e0e235405c3a610a161dab84beb57f63e/ml_plugins-0.0.9.tar.gz
+[2023-06-07 08:32:18] INFO root fetch - processPackages [clickzetta-connector]: Downloading https://files.pythonhosted.org/packages/81/41/2c55796964b0e67291955e1856242db62fc8e6f14e179a50bf1c6296f067/clickzetta-connector-0.8.9.tar.gz
+[2023-06-07 08:32:18] INFO root fetch - processPackages [dartrig]: Downloading https://files.pythonhosted.org/packages/95/93/0003c3e63e809e98d18242999380721f577baec8ccf697071faca8e8b6ec/dartrig-0.1.9.tar.gz
+[2023-06-07 08:32:18] INFO root fetch - processPackages [plaquette-unionfind]: Downloading https://files.pythonhosted.org/packages/22/86/895ef01b24f6d4084e7b96ab54121184c64c801d503dc1e3ab537d2342b0/plaquette_unionfind-0.0.1a1-cp311-cp311-win_amd64.whl
+[2023-06-07 08:32:18] INFO root fetch - processPackages [homeassistant]: Downloading https://files.pythonhosted.org/packages/24/4c/2bea4c5577f7b2750290dfc59b4e4576c98b12c188e825d30b6802ba8ff1/homeassistant-2023.6.0b5.tar.gz
+[2023-06-07 08:32:18] INFO root fetch - processPackages [kubedeployer]: Downloading https://files.pythonhosted.org/packages/46/d1/e85027abc5c5facad2fbcbfd8fa3de4e7050ad15f6bc51228bfb8880686f/kubedeployer-1.1.0.tar.gz
+[2023-06-07 08:32:18] WARNING root fetch - processPackages [homeassistant]: Skipping package: exceeds size limit 14189505>=10485760
+[2023-06-07 08:32:18] INFO root fetch - processPackages [homeassistant]: Start processing: clickzetta-sqlalchemy
+[2023-06-07 08:32:18] INFO root fetch - main [MainThread]: End processing [homeassistant] error
+[2023-06-07 08:32:18] INFO root fetch - processPackages [ml-plugins]: executing diffoscope
+[2023-06-07 08:32:18] INFO root fetch - processPackages [ml-plugins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml_plugins-0.0.8.tar.gz tmp/ml_plugins-0.0.9.tar.gz --markdown 20230607/m/ml-plugins/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-07 08:32:18] INFO root fetch - processPackages [dartrig]: executing diffoscope
+[2023-06-07 08:32:18] INFO root fetch - processPackages [dartrig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dartrig-0.1.8.tar.gz tmp/dartrig-0.1.9.tar.gz --markdown 20230607/d/dartrig/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-07 08:32:18] INFO root fetch - processPackages [clickzetta-connector]: executing diffoscope
+[2023-06-07 08:32:18] INFO root fetch - processPackages [clickzetta-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clickzetta-connector-0.8.8.tar.gz tmp/clickzetta-connector-0.8.9.tar.gz --markdown 20230607/c/clickzetta-connector/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-06-07 08:32:18] INFO root fetch - processPackages [clickzetta-sqlalchemy]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-06-07 08:32:18] INFO root fetch - processPackages [clickzetta-sqlalchemy]: Downloading https://files.pythonhosted.org/packages/1e/c5/d4be8dcc2a67d1d955c84c09b0223b9977fd638ed0bf7d09cc2a752386cf/clickzetta-sqlalchemy-0.8.8.tar.gz
+[2023-06-07 08:32:18] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/38/32/362f7abef6d28b78afa03843fa2eadc7bb1454ef66bde894a08e281d5bfb/mynacode-1.0.99-py3-none-any.whl
+[2023-06-07 08:32:18] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/38/32/362f7abef6d28b78afa03843fa2eadc7bb1454ef66bde894a08e281d5bfb/mynacode-1.0.99-py3-none-any.whl
+[2023-06-07 08:32:18] INFO root fetch - processPackages [kubedeployer]: Downloading https://files.pythonhosted.org/packages/42/68/a76541c98bf2458458ea954ae35dbfc4fa0a3f918571369167c9cfd6ee18/kubedeployer-1.1.1.tar.gz
+[2023-06-07 08:32:18] INFO root fetch - processPackages [starlette]: Downloading https://files.pythonhosted.org/packages/99/67/9760b15bc6785a1d1575bd19f332a7b140f67d006e3aa1a0e3c83280b150/starlette-0.9.9.tar.gz
+[2023-06-07 08:32:18] INFO root fetch - processPackages [clickzetta-sqlalchemy]: Downloading https://files.pythonhosted.org/packages/05/6f/f31876ff58c9201594d988fd4bbd8a182a97a305a16842de419109e35005/clickzetta-sqlalchemy-0.8.9.tar.gz
+[2023-06-07 08:32:18] INFO root fetch - processPackages [mynacode]: executing diffoscope
+[2023-06-07 08:32:18] INFO root fetch - processPackages [mynacode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mynacode-1.0.98-py3-none-any.whl.zip tmp/mynacode-1.0.99-py3-none-any.whl.zip --markdown 20230607/m/mynacode/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-06-07 08:32:18] INFO root fetch - processPackages [mynacode]: executing diffoscope
+[2023-06-07 08:32:18] INFO root fetch - processPackages [mynacode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mynacode-1.0.98-py3-none-any.whl.zip tmp/mynacode-1.0.99-py3-none-any.whl.zip --markdown 20230607/m/mynacode/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-06-07 08:32:18] INFO root fetch - processPackages [starlette]: executing diffoscope
+[2023-06-07 08:32:18] INFO root fetch - processPackages [starlette]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/starlette-0.9.8.tar.gz tmp/starlette-0.9.9.tar.gz --markdown 20230607/s/starlette/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-07 08:32:18] INFO root fetch - processPackages [plaquette-unionfind]: Downloading https://files.pythonhosted.org/packages/21/09/ea006826120e555121bb9efbef7254f445bc1677c1bf34a020d5257acf58/plaquette_unionfind-0.0.1a2-cp311-cp311-win_amd64.whl
+[2023-06-07 08:32:18] INFO root fetch - processPackages [clickzetta-sqlalchemy]: executing diffoscope
+[2023-06-07 08:32:18] INFO root fetch - processPackages [clickzetta-sqlalchemy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clickzetta-sqlalchemy-0.8.8.tar.gz tmp/clickzetta-sqlalchemy-0.8.9.tar.gz --markdown 20230607/c/clickzetta-sqlalchemy/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-06-07 08:32:18] INFO root fetch - processPackages [kubedeployer]: executing diffoscope
+[2023-06-07 08:32:18] INFO root fetch - processPackages [kubedeployer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kubedeployer-1.1.0.tar.gz tmp/kubedeployer-1.1.1.tar.gz --markdown 20230607/k/kubedeployer/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-06-07 08:32:18] INFO root fetch - processPackages [animage-data-sorter]: Downloading https://files.pythonhosted.org/packages/2e/74/454f9136e921092a6bd8e1171a251490a39a992f12d14f59ab40d1302073/animage-data_sorter-1.0.0.tar.gz
+[2023-06-07 08:32:19] INFO root fetch - processPackages [plaquette-unionfind]: executing diffoscope
+[2023-06-07 08:32:19] INFO root fetch - processPackages [plaquette-unionfind]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plaquette_unionfind-0.0.1a1-cp311-cp311-win_amd64.whl.zip tmp/plaquette_unionfind-0.0.1a2-cp311-cp311-win_amd64.whl.zip --markdown 20230607/p/plaquette-unionfind/0.0.1a1-0.0.1a2/diff.md --exclude *.pyd
+[2023-06-07 08:32:19] INFO root fetch - processPackages [animage-data-sorter]: Downloading https://files.pythonhosted.org/packages/71/90/c1901e6ad38f349cce4bf6424656ab65869575a3a63490e00c6abb5005e2/animage-data_sorter-1.1.0.tar.gz
+[2023-06-07 08:32:19] INFO root fetch - processPackages [animage-data-sorter]: executing diffoscope
+[2023-06-07 08:32:19] INFO root fetch - processPackages [animage-data-sorter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/animage-data_sorter-1.0.0.tar.gz tmp/animage-data_sorter-1.1.0.tar.gz --markdown 20230607/a/animage-data-sorter/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-06-07 08:32:20] INFO root fetch - processPackages [ml-plugins]: Remove: archive file [/home/abi/fetcher/tmp/ml_plugins-0.0.8.tar.gz]
+[2023-06-07 08:32:20] INFO root fetch - processPackages [ml-plugins]: Remove: archive file [/home/abi/fetcher/tmp/ml_plugins-0.0.9.tar.gz]
+[2023-06-07 08:32:20] INFO root fetch - processPackages [ml-plugins]: Start processing: pyatp-buildkit
+[2023-06-07 08:32:20] INFO root fetch - main [MainThread]: End processing [ml-plugins]: success
+[2023-06-07 08:32:20] INFO root fetch - processPackages [pyatp-buildkit]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-06-07 08:32:20] INFO root fetch - processPackages [pyatp-buildkit]: Downloading https://files.pythonhosted.org/packages/a0/8e/4941662e8932cbc5c2874ea00b1c0bf5e1e48b2f562bad157c64c8c9c3da/pyatp_buildkit-1.1.2.tar.gz
+[2023-06-07 08:32:20] INFO root fetch - processPackages [dartrig]: Remove: archive file [/home/abi/fetcher/tmp/dartrig-0.1.8.tar.gz]
+[2023-06-07 08:32:20] INFO root fetch - processPackages [dartrig]: Remove: archive file [/home/abi/fetcher/tmp/dartrig-0.1.9.tar.gz]
+[2023-06-07 08:32:20] INFO root fetch - processPackages [dartrig]: Start processing: BaseDT
+[2023-06-07 08:32:20] INFO root fetch - main [MainThread]: End processing [dartrig]: success
+[2023-06-07 08:32:20] INFO root fetch - processPackages [mynacode]: Remove: archive file [/home/abi/fetcher/tmp/mynacode-1.0.98-py3-none-any.whl.zip]
+[2023-06-07 08:32:20] INFO root fetch - processPackages [mynacode]: Remove: archive file [/home/abi/fetcher/tmp/mynacode-1.0.99-py3-none-any.whl.zip]
+[2023-06-07 08:32:20] INFO root fetch - processPackages [mynacode]: Start processing: easy-spider-tool
+[2023-06-07 08:32:20] INFO root fetch - main [MainThread]: End processing [mynacode]: success
+[2023-06-07 08:32:20] INFO root fetch - processPackages [BaseDT]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-07 08:32:20] INFO root fetch - processPackages [pyatp-buildkit]: Downloading https://files.pythonhosted.org/packages/c4/f1/562dc1c07f7a2582e716d4a316d6d0a85456e54e24633858a8e28eef834e/pyatp_buildkit-1.1.3.tar.gz
+[2023-06-07 08:32:20] INFO root fetch - main [MainThread]: End processing [mynacode]: success
+[2023-06-07 08:32:20] ERROR root fetch - processPackages [easy-spider-tool]: Unable to get metadata: No such project 'easy-spider-tool'
+[2023-06-07 08:32:20] INFO root fetch - main [MainThread]: End processing [easy-spider-tool] error
+[2023-06-07 08:32:20] INFO root fetch - processPackages [pyatp-buildkit]: executing diffoscope
+[2023-06-07 08:32:20] INFO root fetch - processPackages [pyatp-buildkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyatp_buildkit-1.1.2.tar.gz tmp/pyatp_buildkit-1.1.3.tar.gz --markdown 20230607/p/pyatp-buildkit/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-06-07 08:32:20] INFO root fetch - processPackages [BaseDT]: Downloading https://files.pythonhosted.org/packages/34/74/976706d4dcb8a3f3e7e77e69ae3a07272fe40eb6727dc607e5140ede4da2/BaseDT-0.0.5.tar.gz
+[2023-06-07 08:32:20] INFO root fetch - processPackages [clickzetta-sqlalchemy]: Remove: archive file [/home/abi/fetcher/tmp/clickzetta-sqlalchemy-0.8.8.tar.gz]
+[2023-06-07 08:32:20] INFO root fetch - processPackages [clickzetta-sqlalchemy]: Remove: archive file [/home/abi/fetcher/tmp/clickzetta-sqlalchemy-0.8.9.tar.gz]
+[2023-06-07 08:32:20] INFO root fetch - main [MainThread]: End processing [clickzetta-sqlalchemy]: success
+[2023-06-07 08:32:20] INFO root fetch - processPackages [BaseDT]: Downloading https://files.pythonhosted.org/packages/53/2d/3975ab817b8997380be4db785ebdb68003e94d84c39d4a495705c1a0117b/BaseDT-0.0.6.tar.gz
+[2023-06-07 08:32:20] INFO root fetch - processPackages [BaseDT]: executing diffoscope
+[2023-06-07 08:32:20] INFO root fetch - processPackages [BaseDT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BaseDT-0.0.5.tar.gz tmp/BaseDT-0.0.6.tar.gz --markdown 20230607/B/BaseDT/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-07 08:32:20] INFO root fetch - processPackages [kubedeployer]: Remove: archive file [/home/abi/fetcher/tmp/kubedeployer-1.1.0.tar.gz]
+[2023-06-07 08:32:20] INFO root fetch - processPackages [kubedeployer]: Remove: archive file [/home/abi/fetcher/tmp/kubedeployer-1.1.1.tar.gz]
+[2023-06-07 08:32:20] INFO root fetch - main [MainThread]: End processing [kubedeployer]: success
+[2023-06-07 08:32:21] INFO root fetch - processPackages [starlette]: Remove: archive file [/home/abi/fetcher/tmp/starlette-0.9.8.tar.gz]
+[2023-06-07 08:32:21] INFO root fetch - processPackages [starlette]: Remove: archive file [/home/abi/fetcher/tmp/starlette-0.9.9.tar.gz]
+[2023-06-07 08:32:21] INFO root fetch - main [MainThread]: End processing [starlette]: success
+[2023-06-07 08:32:21] INFO root fetch - processPackages [pyatp-buildkit]: Remove: archive file [/home/abi/fetcher/tmp/pyatp_buildkit-1.1.2.tar.gz]
+[2023-06-07 08:32:21] INFO root fetch - processPackages [pyatp-buildkit]: Remove: archive file [/home/abi/fetcher/tmp/pyatp_buildkit-1.1.3.tar.gz]
+[2023-06-07 08:32:21] INFO root fetch - main [MainThread]: End processing [pyatp-buildkit]: success
+[2023-06-07 08:32:21] INFO root fetch - processPackages [animage-data-sorter]: Remove: archive file [/home/abi/fetcher/tmp/animage-data_sorter-1.0.0.tar.gz]
+[2023-06-07 08:32:21] INFO root fetch - processPackages [animage-data-sorter]: Remove: archive file [/home/abi/fetcher/tmp/animage-data_sorter-1.1.0.tar.gz]
+[2023-06-07 08:32:21] INFO root fetch - main [MainThread]: End processing [animage-data-sorter]: success
+[2023-06-07 08:32:21] INFO root fetch - processPackages [BaseDT]: Remove: archive file [/home/abi/fetcher/tmp/BaseDT-0.0.5.tar.gz]
+[2023-06-07 08:32:21] INFO root fetch - processPackages [BaseDT]: Remove: archive file [/home/abi/fetcher/tmp/BaseDT-0.0.6.tar.gz]
+[2023-06-07 08:32:21] INFO root fetch - main [MainThread]: End processing [BaseDT]: success
+[2023-06-07 08:32:23] INFO root fetch - processPackages [plaquette-unionfind]: Remove: archive file [/home/abi/fetcher/tmp/plaquette_unionfind-0.0.1a1-cp311-cp311-win_amd64.whl.zip]
+[2023-06-07 08:32:23] INFO root fetch - processPackages [plaquette-unionfind]: Remove: archive file [/home/abi/fetcher/tmp/plaquette_unionfind-0.0.1a2-cp311-cp311-win_amd64.whl.zip]
+[2023-06-07 08:32:23] INFO root fetch - main [MainThread]: End processing [plaquette-unionfind]: success
+[2023-06-07 08:33:12] INFO root fetch - processPackages [clickzetta-connector]: Remove: archive file [/home/abi/fetcher/tmp/clickzetta-connector-0.8.8.tar.gz]
+[2023-06-07 08:33:12] INFO root fetch - processPackages [clickzetta-connector]: Remove: archive file [/home/abi/fetcher/tmp/clickzetta-connector-0.8.9.tar.gz]
+[2023-06-07 08:33:12] INFO root fetch - main [MainThread]: End processing [clickzetta-connector]: success
+[2023-06-07 08:33:12] INFO root fetch - main [MainThread]: Store serial: [18403585]
