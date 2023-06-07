@@ -1,4 +1,4 @@
-# Comparing `tmp/sett_rs-0.3.0-cp39-none-win_amd64.whl.zip` & `tmp/sett_rs-0.4.0-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip`
+# Comparing `tmp/sett_rs-0.3.0-cp39-none-win_amd64.whl.zip` & `tmp/sett_rs-0.4.0-cp39-none-win_amd64.whl.zip`
 
 ## zipinfo {}
 
@@ -14,17 +14,17 @@
 --rwxr-xr-x  4.6 unx  8604160 b- defN 23-Apr-18 14:26 sett_rs/_sett_rs.cp39-win_amd64.pyd
 --rw-r--r--  4.6 unx      594 b- defN 23-Apr-18 14:26 sett_rs-0.3.0.dist-info/RECORD
 -8 files, 8612839 bytes uncompressed, 3592533 bytes compressed:  58.3%
-+Zip file size: 4408085 bytes, number of entries: 9
-+-rw-r--r--  4.6 unx     1754 b- defN 23-Jun-07 14:34 sett_rs-0.4.0.dist-info/METADATA
-+-rw-r--r--  4.6 unx      131 b- defN 23-Jun-07 14:34 sett_rs-0.4.0.dist-info/WHEEL
-+-rw-r--r--  4.6 unx     4933 b- defN 23-Jun-07 14:34 sett_rs/_sett_rs.pyi
-+-rw-r--r--  4.6 unx       81 b- defN 23-Jun-07 14:34 sett_rs/__init__.py
-+-rw-r--r--  4.6 unx        0 b- defN 23-Jun-07 14:34 sett_rs/py.typed
-+-rw-r--r--  4.6 unx      602 b- defN 23-Jun-07 14:34 sett_rs/cert.py
-+-rw-r--r--  4.6 unx      464 b- defN 23-Jun-07 14:34 sett_rs/workflow.py
-+-rwxr-xr-x  4.6 unx 10309616 b- defN 23-Jun-07 14:34 sett_rs/_sett_rs.cpython-311-aarch64-linux-gnu.so
-+-rw-r--r--  4.6 unx      684 b- defN 23-Jun-07 14:34 sett_rs-0.4.0.dist-info/RECORD
-+9 files, 10318265 bytes uncompressed, 4406921 bytes compressed:  57.3%
++Zip file size: 5137054 bytes, number of entries: 9
++-rw-r--r--  4.6 unx     1791 b- defN 23-Jun-07 14:49 sett_rs-0.4.0.dist-info/METADATA
++-rw-r--r--  4.6 unx       94 b- defN 23-Jun-07 14:49 sett_rs-0.4.0.dist-info/WHEEL
++-rw-r--r--  4.6 unx      629 b- defN 23-Jun-07 14:49 sett_rs/cert.py
++-rw-r--r--  4.6 unx        0 b- defN 23-Jun-07 14:49 sett_rs/py.typed
++-rw-r--r--  4.6 unx      487 b- defN 23-Jun-07 14:49 sett_rs/workflow.py
++-rw-r--r--  4.6 unx     5127 b- defN 23-Jun-07 14:49 sett_rs/_sett_rs.pyi
++-rw-r--r--  4.6 unx       84 b- defN 23-Jun-07 14:49 sett_rs/__init__.py
++-rwxr-xr-x  4.6 unx 12137472 b- defN 23-Jun-07 14:49 sett_rs/_sett_rs.cp39-win_amd64.pyd
++-rw-r--r--  4.6 unx      669 b- defN 23-Jun-07 14:49 sett_rs-0.4.0.dist-info/RECORD
++9 files, 12146353 bytes uncompressed, 5135918 bytes compressed:  57.7%
 ```
 
 ## zipnote {}
@@ -40,25 +40,22 @@
  Comment: 
  
 -Filename: sett_rs/pgp.py
-+Filename: sett_rs/_sett_rs.pyi
-+Comment: 
-+
-+Filename: sett_rs/__init__.py
++Filename: sett_rs/cert.py
  Comment: 
  
  Filename: sett_rs/py.typed
  Comment: 
  
--Filename: sett_rs/_sett_rs.pyi
-+Filename: sett_rs/cert.py
- Comment: 
- 
--Filename: sett_rs/__init__.py
 +Filename: sett_rs/workflow.py
++Comment: 
++
+ Filename: sett_rs/_sett_rs.pyi
  Comment: 
  
--Filename: sett_rs/_sett_rs.cp39-win_amd64.pyd
-+Filename: sett_rs/_sett_rs.cpython-311-aarch64-linux-gnu.so
+ Filename: sett_rs/__init__.py
+ Comment: 
+ 
+ Filename: sett_rs/_sett_rs.cp39-win_amd64.pyd
  Comment: 
  
 -Filename: sett_rs-0.3.0.dist-info/RECORD
@@ -71,175 +68,50 @@
 ## sett_rs/_sett_rs.pyi
 
 ```diff
-@@ -1,118 +1,194 @@
--"""Type hints (stub file) for the classes and functions exported from rust."""
--
--from datetime import datetime
--from enum import Enum
+@@ -1,30 +1,32 @@
+ """Type hints (stub file) for the classes and functions exported from rust."""
+ 
+ from datetime import datetime
+ from enum import Enum
 -from typing import Sequence, List, Optional, Callable, Any, Union
--
--class SftpOpts:
--    host: str
--    port: int
--    username: str
--    destination_dir: str
--    envelope_dir: Optional[str]
--    pkey: Optional[str]
--    pkey_password: Optional[str]
--    buf_size: Optional[int]
--
--    def __init__(
--        self,
--        host: str,
--        port: int,
--        username: str,
--        destination_dir: Optional[str] = None,
--        envelope_dir: Optional[str] = None,
--        pkey: Optional[str] = None,
--        pkey_password: Optional[str] = None,
--        buf_size: Optional[int] = None,
--    ) -> None: ...
--
--class S3Opts:
--    endpoint: str
--    bucket: str
--    region: str
--    profile: Optional[str]
--    access_key: Optional[str]
--    secret_key: Optional[str]
--    session_token: Optional[str]
--
--    def __init__(
--        self,
--        endpoint: str,
--        bucket: str,
--        region: str = "",
--        profile: Optional[str] = None,
--        access_key: Optional[str] = None,
--        secret_key: Optional[str] = None,
--        session_token: Optional[str] = None,
--    ) -> None: ...
--
--def transfer(
--    files: Sequence[str],
--    destination: Union[S3Opts, SftpOpts],
--    progress: Optional[Callable[[float], Any]] = None,
--    two_factor_callback: Optional[Callable[[], str]] = None,
--) -> None: ...
--def encrypt(
--    files: Sequence[str],
--    recipients: Sequence[str],
--    sender: Optional[str],
--    password: Optional[str],
--    dry_run: bool = False,
--    force: bool = False,
--    output: Optional[str] = None,
--    purpose: Optional[str] = None,
--    transfer_id: Optional[int] = None,
--    compression_level: Optional[int] = None,
--    max_cpu: Optional[int] = None,
--    progress: Optional[Callable[[float], Any]] = None,
--    remote: Union[S3Opts, SftpOpts, None] = None,
--    two_factor_callback: Optional[Callable[[], str]] = None,
--) -> Optional[str]: ...
--def decrypt(
--    file: str,
--    recipients: Sequence[str],
--    signer: Optional[str],
--    password: Optional[str],
--    dry_run: bool = False,
--    decrypt_only: bool = False,
--    output: Optional[str] = None,
--    max_cpu: Optional[int] = None,
--    progress: Optional[Callable[[float], Any]] = None,
--) -> Optional[str]: ...
--
--class KeyType(Enum):
--    Public: Any
--    Secret: Any
--
--class Validity(Enum):
--    Condemned: Any
--    Expired: Any
--    Invalid: Any
--    Revoked: Any
--    Unknown: Any
--    Valid: Any
--
--class UserID:
--    value: bytes
--    name: Optional[str]
--    email: Optional[str]
--    comment: Optional[str]
--
--class Key:
--    key_id: str
--    key_type: KeyType
--    fingerprint: str
--    length: Optional[int]
--    creation_date: datetime
--    expiration_date: Optional[datetime]
--    pub_key_algorithm: int
--    validity: Validity
--
--class Cert:
--    key_id: str
--    fingerprint: str
--    uids: List[UserID]
--    validity: Validity
--    keys: List[Key]
--
--def read_cert(src: bytes, end_relax: Optional[int]) -> Cert: ...
-+"""Type hints (stub file) for the classes and functions exported from rust."""
-+
-+from datetime import datetime
-+from enum import Enum
 +from typing import Any, Callable, List, Optional, Sequence, Union, Tuple
-+
-+class SftpOpts:
+ 
+ class SftpOpts:
 +    base_path: str
-+    host: str
-+    port: int
-+    username: str
-+    envelope_dir: Optional[str]
+     host: str
+     port: int
+     username: str
+-    destination_dir: str
+     envelope_dir: Optional[str]
 +    filename: Optional[str]
-+    pkey: Optional[str]
-+    pkey_password: Optional[str]
-+    buf_size: Optional[int]
-+
-+    def __init__(
-+        self,
+     pkey: Optional[str]
+     pkey_password: Optional[str]
+     buf_size: Optional[int]
+ 
+     def __init__(
+         self,
 +        base_path: str,
-+        host: str,
-+        port: int,
-+        username: str,
-+        envelope_dir: Optional[str] = None,
+         host: str,
+         port: int,
+         username: str,
+-        destination_dir: Optional[str] = None,
+         envelope_dir: Optional[str] = None,
 +        filename: Optional[str] = None,
-+        pkey: Optional[str] = None,
-+        pkey_password: Optional[str] = None,
-+        buf_size: Optional[int] = None,
-+    ) -> None: ...
-+
-+class S3Opts:
-+    endpoint: str
-+    bucket: str
-+    region: str
-+    profile: Optional[str]
-+    access_key: Optional[str]
-+    secret_key: Optional[str]
-+    session_token: Optional[str]
-+
-+    def __init__(
-+        self,
-+        endpoint: str,
-+        bucket: str,
-+        region: str = "",
-+        profile: Optional[str] = None,
-+        access_key: Optional[str] = None,
-+        secret_key: Optional[str] = None,
-+        session_token: Optional[str] = None,
-+    ) -> None: ...
-+
+         pkey: Optional[str] = None,
+         pkey_password: Optional[str] = None,
+         buf_size: Optional[int] = None,
+     ) -> None: ...
+ 
+ class S3Opts:
+     endpoint: str
+@@ -42,60 +44,115 @@
+         region: str = "",
+         profile: Optional[str] = None,
+         access_key: Optional[str] = None,
+         secret_key: Optional[str] = None,
+         session_token: Optional[str] = None,
+     ) -> None: ...
+ 
 +class CompressionAlgorithm(Enum):
 +    Stored: None
 +    Gzip: None
@@ -302,73 +174,97 @@
 +        password: Optional[str] = None,
 +    ) -> None: ...
 +
-+def transfer(
-+    files: Sequence[str],
-+    destination: Union[S3Opts, SftpOpts],
-+    progress: Optional[Callable[[float], Any]] = None,
-+    two_factor_callback: Optional[Callable[[], str]] = None,
-+) -> None: ...
-+def encrypt(
+ def transfer(
+     files: Sequence[str],
+     destination: Union[S3Opts, SftpOpts],
+     progress: Optional[Callable[[float], Any]] = None,
+     two_factor_callback: Optional[Callable[[], str]] = None,
+ ) -> None: ...
+ def encrypt(
+-    files: Sequence[str],
+-    recipients: Sequence[str],
+-    sender: Optional[str],
+-    password: Optional[str],
+-    dry_run: bool = False,
+-    force: bool = False,
+-    output: Optional[str] = None,
+-    purpose: Optional[str] = None,
+-    transfer_id: Optional[int] = None,
+-    compression_level: Optional[int] = None,
+-    max_cpu: Optional[int] = None,
 +    opts: EncryptOpts,
 +    destination: Union[SftpOpts, LocalOpts],
-+    progress: Optional[Callable[[float], Any]] = None,
-+    two_factor_callback: Optional[Callable[[], str]] = None,
-+) -> Optional[str]: ...
-+def decrypt(
+     progress: Optional[Callable[[float], Any]] = None,
+-    remote: Union[S3Opts, SftpOpts, None] = None,
+     two_factor_callback: Optional[Callable[[], str]] = None,
+ ) -> Optional[str]: ...
+ def decrypt(
+-    file: str,
+-    recipients: Sequence[str],
+-    signer: Optional[str],
+-    password: Optional[str],
+-    dry_run: bool = False,
+-    decrypt_only: bool = False,
+-    output: Optional[str] = None,
+-    max_cpu: Optional[int] = None,
 +    opts: DecryptOpts,
-+    progress: Optional[Callable[[float], Any]] = None,
-+) -> Optional[str]: ...
-+
-+class KeyType(Enum):
-+    Public: Any
-+    Secret: Any
-+
+     progress: Optional[Callable[[float], Any]] = None,
+ ) -> Optional[str]: ...
+ 
+ class KeyType(Enum):
+     Public: Any
+     Secret: Any
+ 
 +class CertType(Enum):
 +    Public: Any
 +    Secret: Any
 +
-+class Validity(Enum):
-+    Condemned: Any
-+    Expired: Any
-+    Invalid: Any
-+    Revoked: Any
-+    Unknown: Any
-+    Valid: Any
-+
+ class Validity(Enum):
+     Condemned: Any
+     Expired: Any
+     Invalid: Any
+     Revoked: Any
+     Unknown: Any
+     Valid: Any
+ 
 +class RevocationReason(Enum):
 +    Compromised: Any
 +    Superseded: Any
 +    Retired: Any
 +    Unspecified: Any
 +
-+class UserID:
-+    value: bytes
-+    name: Optional[str]
-+    email: Optional[str]
-+    comment: Optional[str]
-+
-+class Key:
-+    key_id: str
-+    key_type: KeyType
-+    fingerprint: str
-+    length: Optional[int]
-+    creation_date: datetime
-+    expiration_date: Optional[datetime]
-+    pub_key_algorithm: int
-+    validity: Validity
+ class UserID:
+     value: bytes
+     name: Optional[str]
+     email: Optional[str]
+     comment: Optional[str]
+ 
+ class Key:
+@@ -103,16 +160,35 @@
+     key_type: KeyType
+     fingerprint: str
+     length: Optional[int]
+     creation_date: datetime
+     expiration_date: Optional[datetime]
+     pub_key_algorithm: int
+     validity: Validity
 +    revocation_reason: Optional[List[str]]
-+
+ 
+-class Cert:
+-    key_id: str
 +class CertInfo:
 +    email: str
-+    fingerprint: str
+     fingerprint: str
 +    key_id: str
 +    keys: List[Key]
 +    primary_key: Key
 +    subkeys: List[Key]
 +    uid: Optional[UserID]
-+    uids: List[UserID]
-+    validity: Validity
-+
+     uids: List[UserID]
+     validity: Validity
+-    keys: List[Key]
+ 
+-def read_cert(src: bytes, end_relax: Optional[int]) -> Cert: ...
 +    @classmethod
 +    def from_bytes(cls, data: bytes, end_relax: Optional[int] = None) -> "CertInfo": ...
 +
@@ -398,19 +294,18 @@
 -    SftpOpts as SftpOpts,
 -)
 -from . import pgp as pgp
--
--__all__ = ["decrypt", "encrypt", "transfer", "pgp"]
 +from . import cert as cert, workflow as workflow
-+
+ 
+-__all__ = ["decrypt", "encrypt", "transfer", "pgp"]
 +__all__ = ["cert", "workflow"]
 ```
 
 ## Comparing `sett_rs-0.3.0.dist-info/METADATA` & `sett_rs-0.4.0.dist-info/METADATA`
 
- * *Files 17% similar despite different names*
+ * *Files 8% similar despite different names*
 
 ```diff
-@@ -1,53 +1,53 @@
+@@ -1,18 +1,18 @@
  Metadata-Version: 2.1
  Name: sett_rs
 -Version: 0.3.0
@@ -433,79 +328,8 @@
  Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
  Project-URL: Source Code, https://gitlab.com/biomedit/sett-rs
  
--# sett-rs Python bindings
--
--Building sett-rs Python bindings requires the
--[Rust toolchain](https://www.rust-lang.org/tools/install) and
--[maturin](https://github.com/PyO3/maturin).
--
--## Development
--
--Build and install directly in the current virtual env
--(run `maturin` in the directory where this `README.md` file is located).
--
--```shell
--maturin develop --release
--```
--
--Windows builds require non-default features.
--
--```shell
--maturin develop --release --no-default-features --features=crypto-cng
--```
--
--## Production
--
--See the GitLab CI file for the platform-specific instructions on building
--production-ready Python wheels.
--
--## Examples
--
--Transfer files over SFTP.
--
--```bash
--cd sett-rs/examples
--# Set up an sftp server for testing (public key authentication)
--docker run -v ${HOME}/.ssh/id_rsa.pub:/home/foo/.ssh/keys/id_rsa.pub:ro -p 2220:22 -d atmoz/sftp foo::1001::upload
--# Run speed test
--python speedtest.py
--```
-+# sett-rs Python bindings
-+
-+Building sett-rs Python bindings requires the
-+[Rust toolchain](https://www.rust-lang.org/tools/install) and
-+[maturin](https://github.com/PyO3/maturin).
-+
-+## Development
-+
-+Build and install directly in the current virtual env
-+(run `maturin` in the directory where this `README.md` file is located).
-+
-+```shell
-+maturin develop --release
-+```
-+
-+Windows builds require non-default features.
-+
-+```shell
-+maturin develop --release --no-default-features --features=crypto-cng
-+```
-+
-+## Production
-+
-+See the GitLab CI file for the platform-specific instructions on building
-+production-ready Python wheels.
-+
-+## Examples
-+
-+Transfer files over SFTP.
-+
-+```bash
-+cd sett-rs/examples
-+# Set up an sftp server for testing (public key authentication)
-+docker run -v ${HOME}/.ssh/id_rsa.pub:/home/foo/.ssh/keys/id_rsa.pub:ro -p 2220:22 -d atmoz/sftp foo::1001::upload
-+# Run speed test
-+python speedtest.py
-+```
+ # sett-rs Python bindings
+ 
+ Building sett-rs Python bindings requires the
 ```
 
