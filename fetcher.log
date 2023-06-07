@@ -9855,3 +9855,33 @@
 [2023-06-07 04:23:40] INFO root fetch - processPackages [prettyqt]: Remove: archive file [/home/abi/fetcher/tmp/prettyqt-1.9.2.tar.gz]
 [2023-06-07 04:23:40] INFO root fetch - main [MainThread]: End processing [prettyqt]: success
 [2023-06-07 04:23:40] INFO root fetch - main [MainThread]: Store serial: [18401823]
+[2023-06-07 04:28:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18401823]
+[2023-06-07 04:28:49] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-07 04:28:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yowasp-yosys
+[2023-06-07 04:28:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: argx
+[2023-06-07 04:28:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hkkang-utils
+[2023-06-07 04:28:49] INFO root fetch - processPackages [yowasp-yosys]: New version: [0.9.post5623.dev231] Old Version: [0.9.post5610.dev226]
+[2023-06-07 04:28:49] INFO root fetch - processPackages [hkkang-utils]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-06-07 04:28:49] INFO root fetch - processPackages [argx]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-06-07 04:28:49] INFO root fetch - processPackages [yowasp-yosys]: Downloading https://files.pythonhosted.org/packages/d9/10/e7c660588919726a2a41c8d346d4509ae1048b18dd3668a5a08e26ded384/yowasp_yosys-0.9.post5610.dev226-py3-none-any.whl
+[2023-06-07 04:28:49] INFO root fetch - processPackages [hkkang-utils]: Downloading https://files.pythonhosted.org/packages/f2/fc/a78ee8a198382a21731d6107ff35075dfe94a38e16ea80b5ab23dddd8a90/hkkang_utils-0.1.98.tar.gz
+[2023-06-07 04:28:49] INFO root fetch - processPackages [argx]: Downloading https://files.pythonhosted.org/packages/af/21/8d1b0dd598ef7bcf10811d796b20516f054217b8a8c7ddd5454c3946a068/argx-0.2.6.tar.gz
+[2023-06-07 04:28:50] INFO root fetch - processPackages [hkkang-utils]: Downloading https://files.pythonhosted.org/packages/11/64/d0e10937e4b2746e395088c93accb45f4d2c831d9da3dead391624e95fe9/hkkang_utils-0.1.99.tar.gz
+[2023-06-07 04:28:50] INFO root fetch - processPackages [argx]: Downloading https://files.pythonhosted.org/packages/16/82/c9fcea6c878806e3741698c26d8231b8f178f83a840a5389bfc1b9a1348f/argx-0.2.7.tar.gz
+[2023-06-07 04:28:50] INFO root fetch - processPackages [hkkang-utils]: executing diffoscope
+[2023-06-07 04:28:50] INFO root fetch - processPackages [hkkang-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hkkang_utils-0.1.98.tar.gz tmp/hkkang_utils-0.1.99.tar.gz --markdown 20230607/h/hkkang-utils/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-06-07 04:28:50] INFO root fetch - processPackages [argx]: executing diffoscope
+[2023-06-07 04:28:50] INFO root fetch - processPackages [argx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/argx-0.2.6.tar.gz tmp/argx-0.2.7.tar.gz --markdown 20230607/a/argx/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-06-07 04:28:51] INFO root fetch - processPackages [argx]: Remove: archive file [/home/abi/fetcher/tmp/argx-0.2.6.tar.gz]
+[2023-06-07 04:28:51] INFO root fetch - processPackages [argx]: Remove: archive file [/home/abi/fetcher/tmp/argx-0.2.7.tar.gz]
+[2023-06-07 04:28:51] INFO root fetch - main [MainThread]: End processing [argx]: success
+[2023-06-07 04:28:51] INFO root fetch - processPackages [hkkang-utils]: Remove: archive file [/home/abi/fetcher/tmp/hkkang_utils-0.1.98.tar.gz]
+[2023-06-07 04:28:51] INFO root fetch - processPackages [hkkang-utils]: Remove: archive file [/home/abi/fetcher/tmp/hkkang_utils-0.1.99.tar.gz]
+[2023-06-07 04:28:51] INFO root fetch - main [MainThread]: End processing [hkkang-utils]: success
+[2023-06-07 04:28:52] INFO root fetch - processPackages [yowasp-yosys]: Downloading https://files.pythonhosted.org/packages/35/c4/b4e64452f262989908f22d3e1fff557841f6182c69b887c4f6508b655418/yowasp_yosys-0.9.post5623.dev231-py3-none-any.whl
+[2023-06-07 04:28:54] INFO root fetch - processPackages [yowasp-yosys]: executing diffoscope
+[2023-06-07 04:28:54] INFO root fetch - processPackages [yowasp-yosys]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yowasp_yosys-0.9.post5610.dev226-py3-none-any.whl.zip tmp/yowasp_yosys-0.9.post5623.dev231-py3-none-any.whl.zip --markdown 20230607/y/yowasp-yosys/0.9.post5610.dev226-0.9.post5623.dev231/diff.md --exclude *.pyd
+[2023-06-07 04:29:55] INFO root fetch - processPackages [yowasp-yosys]: Remove: archive file [/home/abi/fetcher/tmp/yowasp_yosys-0.9.post5610.dev226-py3-none-any.whl.zip]
+[2023-06-07 04:29:55] INFO root fetch - processPackages [yowasp-yosys]: Remove: archive file [/home/abi/fetcher/tmp/yowasp_yosys-0.9.post5623.dev231-py3-none-any.whl.zip]
+[2023-06-07 04:29:55] INFO root fetch - main [MainThread]: End processing [yowasp-yosys]: success
+[2023-06-07 04:29:55] INFO root fetch - main [MainThread]: Store serial: [18401833]
