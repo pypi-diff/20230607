@@ -22250,3 +22250,104 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-06-07 13:28:57] INFO root fetch - processPackages [rbatools]: Remove: archive file [/home/abi/fetcher/tmp/rbatools-1.0.3.tar.gz]
 [2023-06-07 13:28:57] INFO root fetch - main [MainThread]: End processing [rbatools]: success
 [2023-06-07 13:28:57] INFO root fetch - main [MainThread]: Store serial: [18407115]
+[2023-06-07 13:34:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18407115]
+[2023-06-07 13:34:07] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-07 13:34:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: AutoWSGR
+[2023-06-07 13:34:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pfizer-components
+[2023-06-07 13:34:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: invenio-rdm-records
+[2023-06-07 13:34:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: autocti
+[2023-06-07 13:34:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bigdl-nano
+[2023-06-07 13:34:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bigdl-chronos
+[2023-06-07 13:34:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: agxBrick
+[2023-06-07 13:34:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pydash2hls
+[2023-06-07 13:34:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bigdl-serving
+[2023-06-07 13:34:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: upgini
+[2023-06-07 13:34:07] INFO root fetch - processPackages [pfizer-components]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-06-07 13:34:07] WARNING root fetch - processPackages [agxBrick]: Skipping, unable to determine old version
+[2023-06-07 13:34:07] INFO root fetch - processPackages [agxBrick]: Start processing: odoo-addon-l10n-es-ticketbai
+[2023-06-07 13:34:07] INFO root fetch - main [MainThread]: End processing [agxBrick] error
+[2023-06-07 13:34:07] INFO root fetch - processPackages [AutoWSGR]: New version: [0.2.0] Old Version: [0.0.9]
+[2023-06-07 13:34:07] INFO root fetch - processPackages [autocti]: New version: [2023.7.7.3] Old Version: [2023.1.15.1]
+[2023-06-07 13:34:07] INFO root fetch - processPackages [invenio-rdm-records]: New version: [4.3.0] Old Version: [4.2.5]
+[2023-06-07 13:34:07] INFO root fetch - processPackages [bigdl-chronos]: New version: [2.4.0b20230607] Old Version: [2.4.0b20230606]
+[2023-06-07 13:34:07] INFO root fetch - processPackages [pydash2hls]: New version: [2.1.5] Old Version: [2.1.4]
+[2023-06-07 13:34:07] INFO root fetch - processPackages [upgini]: New version: [1.1.99] Old Version: [1.1.98]
+[2023-06-07 13:34:07] INFO root fetch - processPackages [odoo-addon-l10n-es-ticketbai]: New version: [16.0.1.0.6] Old Version: [16.0.1.0.5.1]
+[2023-06-07 13:34:07] INFO root fetch - processPackages [bigdl-serving]: New version: [2.4.0b20230607] Old Version: [2.4.0b20230606]
+[2023-06-07 13:34:07] INFO root fetch - processPackages [bigdl-nano]: New version: [2.4.0b20230607] Old Version: [2.4.0b20230606]
+[2023-06-07 13:34:07] INFO root fetch - processPackages [pfizer-components]: Downloading https://files.pythonhosted.org/packages/b5/95/11cf67b96ed2060b460ddb9777d3bee218f98b29bd0fc3b7d8d7482ff12a/pfizer_components-0.0.9-py3-none-any.whl
+[2023-06-07 13:34:07] INFO root fetch - processPackages [autocti]: Downloading https://files.pythonhosted.org/packages/28/78/d789d4dbf093e6eda5c545ed66343d6326f0033bffe8d823007608bd0525/autocti-2023.1.15.1.tar.gz
+[2023-06-07 13:34:08] INFO root fetch - processPackages [upgini]: Downloading https://files.pythonhosted.org/packages/59/79/dc47448e0c68a4e00d9d0b7f4c640207fa605fe48cdc53e30221037a1962/upgini-1.1.98.tar.gz
+[2023-06-07 13:34:08] INFO root fetch - processPackages [pydash2hls]: Downloading https://files.pythonhosted.org/packages/a4/55/30d09fd58a5e689d33216f2e7df9c6c4f44216f6e9441a5082bf0e901f63/pydash2hls-2.1.4.tar.gz
+[2023-06-07 13:34:08] INFO root fetch - processPackages [odoo-addon-l10n-es-ticketbai]: Downloading https://files.pythonhosted.org/packages/2f/f8/cfca44180087c52c0628173c288638270615f167088c3559522a3c52db80/odoo_addon_l10n_es_ticketbai-16.0.1.0.5.1-py3-none-any.whl
+[2023-06-07 13:34:08] INFO root fetch - processPackages [AutoWSGR]: Downloading https://files.pythonhosted.org/packages/0c/34/d22786f131a5ed56f4f6696e8903c6d544468a64d19f1cab76603cdb6b3b/AutoWSGR-0.0.9.tar.gz
+[2023-06-07 13:34:08] WARNING root fetch - processPackages [AutoWSGR]: Skipping package: exceeds size limit 26957176>=10485760
+[2023-06-07 13:34:08] INFO root fetch - processPackages [AutoWSGR]: Start processing: servicefoundry
+[2023-06-07 13:34:08] INFO root fetch - main [MainThread]: End processing [AutoWSGR] error
+[2023-06-07 13:34:08] INFO root fetch - processPackages [bigdl-chronos]: Downloading https://files.pythonhosted.org/packages/b5/88/581771696d06a8d6f8f490ba7547a66e78d0f1c111dc6f0aedcaf8a156c7/bigdl_chronos-2.4.0b20230606-py3-none-win_amd64.whl
+[2023-06-07 13:34:08] INFO root fetch - processPackages [invenio-rdm-records]: Downloading https://files.pythonhosted.org/packages/13/41/958de99c38a3f358bad8ad20e0eb6ba0605d3c235bf7ea8f0b1650a6b39e/invenio-rdm-records-4.2.5.tar.gz
+[2023-06-07 13:34:08] INFO root fetch - processPackages [servicefoundry]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-06-07 13:34:08] INFO root fetch - processPackages [bigdl-serving]: Downloading https://files.pythonhosted.org/packages/80/3f/e5f642517cf0c26f4d5064cc106a74e5e86a8dde8c24fa2871743b0e3707/bigdl_serving-2.4.0b20230606-py2.py3-none-any.whl
+[2023-06-07 13:34:08] INFO root fetch - processPackages [bigdl-nano]: Downloading https://files.pythonhosted.org/packages/6a/54/90f7bc658b65b033253b982c262eab9b47b81248713ffb346adfa7e8bf46/bigdl_nano-2.4.0b20230606-py3-none-win_amd64.whl
+[2023-06-07 13:34:08] INFO root fetch - processPackages [upgini]: Downloading https://files.pythonhosted.org/packages/32/f1/1df90a6a856d855308ddf057a7b8cdad7dbcafb6230f0592bbff90f929fd/upgini-1.1.99.tar.gz
+[2023-06-07 13:34:08] INFO root fetch - processPackages [pydash2hls]: Downloading https://files.pythonhosted.org/packages/e9/91/cfc843a241c1a278ecbfd6a4aa37fdfed7428d9bcf18260d0960b8ed08ea/pydash2hls-2.1.5.tar.gz
+[2023-06-07 13:34:08] INFO root fetch - processPackages [autocti]: Downloading https://files.pythonhosted.org/packages/3a/b9/113da64c93daf83d859befad5954a28f7bca1e2a74f94353cdfa6fbc04d1/autocti-2023.7.7.3.tar.gz
+[2023-06-07 13:34:08] INFO root fetch - processPackages [pfizer-components]: Downloading https://files.pythonhosted.org/packages/d3/9b/4f4daa23e2db3765f230788c2fa6705f2fb9cfcfe27b1a2e05e7433b3f40/pfizer_components-0.1.0-py3-none-any.whl
+[2023-06-07 13:34:08] INFO root fetch - processPackages [odoo-addon-l10n-es-ticketbai]: Downloading https://files.pythonhosted.org/packages/ce/88/2ad7b6772ec353b4c5b75f9816ba72abb256f3a2f5a352749c7d4ade8c18/odoo_addon_l10n_es_ticketbai-16.0.1.0.6-py3-none-any.whl
+[2023-06-07 13:34:08] INFO root fetch - processPackages [upgini]: executing diffoscope
+[2023-06-07 13:34:08] INFO root fetch - processPackages [upgini]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upgini-1.1.98.tar.gz tmp/upgini-1.1.99.tar.gz --markdown 20230607/u/upgini/1.1.98-1.1.99/diff.md --exclude *.pyd
+[2023-06-07 13:34:08] INFO root fetch - processPackages [pydash2hls]: executing diffoscope
+[2023-06-07 13:34:08] INFO root fetch - processPackages [pydash2hls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydash2hls-2.1.4.tar.gz tmp/pydash2hls-2.1.5.tar.gz --markdown 20230607/p/pydash2hls/2.1.4-2.1.5/diff.md --exclude *.pyd
+[2023-06-07 13:34:08] INFO root fetch - processPackages [servicefoundry]: Downloading https://files.pythonhosted.org/packages/47/72/1b5da22343a7bd0a855b62a717c354bba5583d489cb07a6790f5ec076bcb/servicefoundry-0.9.4.tar.gz
+[2023-06-07 13:34:08] INFO root fetch - processPackages [bigdl-chronos]: Downloading https://files.pythonhosted.org/packages/5c/5d/4597bde41e0c770eed9838877dbf50fe705b7b109d7b80383b3d2d017fc3/bigdl_chronos-2.4.0b20230607-py3-none-win_amd64.whl
+[2023-06-07 13:34:08] INFO root fetch - processPackages [invenio-rdm-records]: Downloading https://files.pythonhosted.org/packages/81/b2/af419e7a39e8c6f3f881d2e6bbd7e6e37711cf3b08912cfc700328902159/invenio-rdm-records-4.3.0.tar.gz
+[2023-06-07 13:34:08] INFO root fetch - processPackages [autocti]: executing diffoscope
+[2023-06-07 13:34:08] INFO root fetch - processPackages [bigdl-serving]: Downloading https://files.pythonhosted.org/packages/93/2f/12de75c64147b6e7f7af3c59ec677300b4c3ad6f7af88f22dfe7910f417e/bigdl_serving-2.4.0b20230607-py2.py3-none-any.whl
+[2023-06-07 13:34:08] INFO root fetch - processPackages [autocti]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autocti-2023.1.15.1.tar.gz tmp/autocti-2023.7.7.3.tar.gz --markdown 20230607/a/autocti/2023.1.15.1-2023.7.7.3/diff.md --exclude *.pyd
+[2023-06-07 13:34:08] INFO root fetch - processPackages [odoo-addon-l10n-es-ticketbai]: executing diffoscope
+[2023-06-07 13:34:08] INFO root fetch - processPackages [odoo-addon-l10n-es-ticketbai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_ticketbai-16.0.1.0.5.1-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_ticketbai-16.0.1.0.6-py3-none-any.whl.zip --markdown 20230607/o/odoo-addon-l10n-es-ticketbai/16.0.1.0.5.1-16.0.1.0.6/diff.md --exclude *.pyd
+[2023-06-07 13:34:08] INFO root fetch - processPackages [pfizer-components]: executing diffoscope
+[2023-06-07 13:34:08] INFO root fetch - processPackages [pfizer-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pfizer_components-0.0.9-py3-none-any.whl.zip tmp/pfizer_components-0.1.0-py3-none-any.whl.zip --markdown 20230607/p/pfizer-components/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-06-07 13:34:08] INFO root fetch - processPackages [bigdl-nano]: Downloading https://files.pythonhosted.org/packages/ae/2f/aab566b5ad709521ac78bdee72a041bfeec2d21c8746590993cf8eb471c6/bigdl_nano-2.4.0b20230607-py3-none-win_amd64.whl
+[2023-06-07 13:34:08] INFO root fetch - processPackages [invenio-rdm-records]: executing diffoscope
+[2023-06-07 13:34:08] INFO root fetch - processPackages [invenio-rdm-records]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-rdm-records-4.2.5.tar.gz tmp/invenio-rdm-records-4.3.0.tar.gz --markdown 20230607/i/invenio-rdm-records/4.2.5-4.3.0/diff.md --exclude *.pyd
+[2023-06-07 13:34:08] INFO root fetch - processPackages [bigdl-chronos]: executing diffoscope
+[2023-06-07 13:34:08] INFO root fetch - processPackages [bigdl-chronos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos-2.4.0b20230606-py3-none-win_amd64.whl.zip tmp/bigdl_chronos-2.4.0b20230607-py3-none-win_amd64.whl.zip --markdown 20230607/b/bigdl-chronos/2.4.0b20230606-2.4.0b20230607/diff.md --exclude *.pyd
+[2023-06-07 13:34:08] INFO root fetch - processPackages [bigdl-serving]: executing diffoscope
+[2023-06-07 13:34:08] INFO root fetch - processPackages [bigdl-serving]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_serving-2.4.0b20230606-py2.py3-none-any.whl.zip tmp/bigdl_serving-2.4.0b20230607-py2.py3-none-any.whl.zip --markdown 20230607/b/bigdl-serving/2.4.0b20230606-2.4.0b20230607/diff.md --exclude *.pyd
+[2023-06-07 13:34:08] INFO root fetch - processPackages [servicefoundry]: Downloading https://files.pythonhosted.org/packages/57/18/4742461e2b48248cf39966ed485a2f2b3c50dbd3cfc99afaf0dd20c43acf/servicefoundry-0.9.5.tar.gz
+[2023-06-07 13:34:08] INFO root fetch - processPackages [servicefoundry]: executing diffoscope
+[2023-06-07 13:34:08] INFO root fetch - processPackages [servicefoundry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/servicefoundry-0.9.4.tar.gz tmp/servicefoundry-0.9.5.tar.gz --markdown 20230607/s/servicefoundry/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-06-07 13:34:08] INFO root fetch - processPackages [bigdl-nano]: executing diffoscope
+[2023-06-07 13:34:08] INFO root fetch - processPackages [bigdl-nano]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_nano-2.4.0b20230606-py3-none-win_amd64.whl.zip tmp/bigdl_nano-2.4.0b20230607-py3-none-win_amd64.whl.zip --markdown 20230607/b/bigdl-nano/2.4.0b20230606-2.4.0b20230607/diff.md --exclude *.pyd
+[2023-06-07 13:34:10] INFO root fetch - processPackages [pydash2hls]: Remove: archive file [/home/abi/fetcher/tmp/pydash2hls-2.1.4.tar.gz]
+[2023-06-07 13:34:10] INFO root fetch - processPackages [pydash2hls]: Remove: archive file [/home/abi/fetcher/tmp/pydash2hls-2.1.5.tar.gz]
+[2023-06-07 13:34:10] INFO root fetch - main [MainThread]: End processing [pydash2hls]: success
+[2023-06-07 13:34:10] INFO root fetch - processPackages [bigdl-serving]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_serving-2.4.0b20230606-py2.py3-none-any.whl.zip]
+[2023-06-07 13:34:10] INFO root fetch - processPackages [bigdl-serving]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_serving-2.4.0b20230607-py2.py3-none-any.whl.zip]
+[2023-06-07 13:34:10] INFO root fetch - main [MainThread]: End processing [bigdl-serving]: success
+[2023-06-07 13:34:10] INFO root fetch - processPackages [pfizer-components]: Remove: archive file [/home/abi/fetcher/tmp/pfizer_components-0.0.9-py3-none-any.whl.zip]
+[2023-06-07 13:34:10] INFO root fetch - processPackages [pfizer-components]: Remove: archive file [/home/abi/fetcher/tmp/pfizer_components-0.1.0-py3-none-any.whl.zip]
+[2023-06-07 13:34:10] INFO root fetch - main [MainThread]: End processing [pfizer-components]: success
+[2023-06-07 13:34:10] INFO root fetch - processPackages [odoo-addon-l10n-es-ticketbai]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_ticketbai-16.0.1.0.5.1-py3-none-any.whl.zip]
+[2023-06-07 13:34:10] INFO root fetch - processPackages [odoo-addon-l10n-es-ticketbai]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_ticketbai-16.0.1.0.6-py3-none-any.whl.zip]
+[2023-06-07 13:34:10] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-ticketbai]: success
+[2023-06-07 13:34:11] INFO root fetch - processPackages [servicefoundry]: Remove: archive file [/home/abi/fetcher/tmp/servicefoundry-0.9.4.tar.gz]
+[2023-06-07 13:34:11] INFO root fetch - processPackages [servicefoundry]: Remove: archive file [/home/abi/fetcher/tmp/servicefoundry-0.9.5.tar.gz]
+[2023-06-07 13:34:11] INFO root fetch - main [MainThread]: End processing [servicefoundry]: success
+[2023-06-07 13:34:11] INFO root fetch - processPackages [bigdl-chronos]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos-2.4.0b20230606-py3-none-win_amd64.whl.zip]
+[2023-06-07 13:34:11] INFO root fetch - processPackages [bigdl-chronos]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos-2.4.0b20230607-py3-none-win_amd64.whl.zip]
+[2023-06-07 13:34:11] INFO root fetch - main [MainThread]: End processing [bigdl-chronos]: success
+[2023-06-07 13:34:11] INFO root fetch - processPackages [upgini]: Remove: archive file [/home/abi/fetcher/tmp/upgini-1.1.98.tar.gz]
+[2023-06-07 13:34:11] INFO root fetch - processPackages [upgini]: Remove: archive file [/home/abi/fetcher/tmp/upgini-1.1.99.tar.gz]
+[2023-06-07 13:34:11] INFO root fetch - main [MainThread]: End processing [upgini]: success
+[2023-06-07 13:34:12] INFO root fetch - processPackages [bigdl-nano]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_nano-2.4.0b20230606-py3-none-win_amd64.whl.zip]
+[2023-06-07 13:34:12] INFO root fetch - processPackages [bigdl-nano]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_nano-2.4.0b20230607-py3-none-win_amd64.whl.zip]
+[2023-06-07 13:34:12] INFO root fetch - main [MainThread]: End processing [bigdl-nano]: success
+[2023-06-07 13:34:13] INFO root fetch - processPackages [autocti]: Remove: archive file [/home/abi/fetcher/tmp/autocti-2023.1.15.1.tar.gz]
+[2023-06-07 13:34:13] INFO root fetch - processPackages [autocti]: Remove: archive file [/home/abi/fetcher/tmp/autocti-2023.7.7.3.tar.gz]
+[2023-06-07 13:34:13] INFO root fetch - main [MainThread]: End processing [autocti]: success
+[2023-06-07 13:34:19] INFO root fetch - processPackages [invenio-rdm-records]: Remove: archive file [/home/abi/fetcher/tmp/invenio-rdm-records-4.2.5.tar.gz]
+[2023-06-07 13:34:19] INFO root fetch - processPackages [invenio-rdm-records]: Remove: archive file [/home/abi/fetcher/tmp/invenio-rdm-records-4.3.0.tar.gz]
+[2023-06-07 13:34:19] INFO root fetch - main [MainThread]: End processing [invenio-rdm-records]: success
+[2023-06-07 13:34:19] INFO root fetch - main [MainThread]: Store serial: [18407154]
