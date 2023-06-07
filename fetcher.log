@@ -12243,3 +12243,75 @@ AssertionError: tmp/odoo_addon_crm_lead_firstname-16.0.1.0.1-py3-none-any.whl.zi
 [2023-06-07 06:21:14] INFO root fetch - processPackages [spaceone-inventory]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_inventory-1.9.7rc1-py3-none-any.whl.zip]
 [2023-06-07 06:21:14] INFO root fetch - main [MainThread]: End processing [spaceone-inventory]: success
 [2023-06-07 06:21:14] INFO root fetch - main [MainThread]: Store serial: [18402602]
+[2023-06-07 06:26:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18402602]
+[2023-06-07 06:26:23] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-07 06:26:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spaceone-inventory
+[2023-06-07 06:26:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cellxgene-census
+[2023-06-07 06:26:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mysqlx
+[2023-06-07 06:26:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: quickstart-vdk
+[2023-06-07 06:26:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addons-oca-operating-unit
+[2023-06-07 06:26:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: findu
+[2023-06-07 06:26:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kubedeployer
+[2023-06-07 06:26:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pydtk
+[2023-06-07 06:26:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: utnamtte
+[2023-06-07 06:26:23] INFO root fetch - processPackages [cellxgene-census]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-06-07 06:26:23] INFO root fetch - processPackages [findu]: New version: [0.0.11] Old Version: [0.0.10]
+[2023-06-07 06:26:23] INFO root fetch - processPackages [spaceone-inventory]: New version: [1.9.7rc1] Old Version: [1.9.7.3]
+[2023-06-07 06:26:23] INFO root fetch - processPackages [mysqlx]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-06-07 06:26:23] WARNING root fetch - processPackages [kubedeployer]: Skipping, unable to determine old version
+[2023-06-07 06:26:23] INFO root fetch - processPackages [pydtk]: New version: [0.2.9] Old Version: [0.2.7]
+[2023-06-07 06:26:23] INFO root fetch - main [MainThread]: End processing [kubedeployer] error
+[2023-06-07 06:26:23] WARNING root fetch - processPackages [utnamtte]: Skipping, unable to determine old version
+[2023-06-07 06:26:23] INFO root fetch - main [MainThread]: End processing [utnamtte] error
+[2023-06-07 06:26:23] INFO root fetch - processPackages [odoo-addons-oca-operating-unit]: New version: [16.0.20230605.0] Old Version: [16.0.20230412.0]
+[2023-06-07 06:26:23] INFO root fetch - processPackages [quickstart-vdk]: New version: [0.2.891782372.dev11189] Old Version: [0.2.890381373.dev11124]
+[2023-06-07 06:26:23] INFO root fetch - processPackages [odoo-addons-oca-operating-unit]: Downloading https://files.pythonhosted.org/packages/d4/75/4e6dc4e4229eaf1ceb3f94112e231d1c76033caea05029f5da522ce01af1/odoo_addons_oca_operating_unit-16.0.20230412.0-py3-none-any.whl
+[2023-06-07 06:26:23] INFO root fetch - processPackages [spaceone-inventory]: Downloading https://files.pythonhosted.org/packages/a9/82/c593d30951fa8a48a0777598d6512a6f1c3d737ee4831063408619868fff/spaceone_inventory-1.9.7.3-py3-none-any.whl
+[2023-06-07 06:26:23] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/c4/6c/e3ea54d69174dd312820a1192e5025fe52b6fe45fa4737a372f7926586c6/quickstart-vdk-0.2.890381373.dev11124.tar.gz
+[2023-06-07 06:26:23] INFO root fetch - processPackages [mysqlx]: Downloading https://files.pythonhosted.org/packages/3c/5d/bcbaa83d274493e77df698d5ce0fcca186c4dcda7419f83b59117e56394b/mysqlx-1.1.8.tar.gz
+[2023-06-07 06:26:23] INFO root fetch - processPackages [findu]: Downloading https://files.pythonhosted.org/packages/c6/bf/e18646173de4a985cd9adc30e0c2bfec35a23dcf8306997641d0de0e05fc/findu-0.0.10.tar.gz
+[2023-06-07 06:26:24] INFO root fetch - processPackages [cellxgene-census]: Downloading https://files.pythonhosted.org/packages/24/30/626e205f508a0ecbe20491a3ec94081ab0cd7f9e52b0e36e4e6cdb3f24e0/cellxgene_census-1.1.0.tar.gz
+[2023-06-07 06:26:24] INFO root fetch - processPackages [odoo-addons-oca-operating-unit]: Downloading https://files.pythonhosted.org/packages/66/ec/53d7027c4000ae985cb73eb18e08a82bbdcf666cee81f732f9ccbe46f856/odoo_addons_oca_operating_unit-16.0.20230605.0-py3-none-any.whl
+[2023-06-07 06:26:24] INFO root fetch - processPackages [pydtk]: Downloading https://files.pythonhosted.org/packages/de/44/e4b8617d088b064e35b9cac64055a3d2acdf325b6624a89f09e8aadd71ee/pydtk-0.2.7.tar.gz
+[2023-06-07 06:26:24] INFO root fetch - processPackages [odoo-addons-oca-operating-unit]: executing diffoscope
+[2023-06-07 06:26:24] INFO root fetch - processPackages [odoo-addons-oca-operating-unit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_operating_unit-16.0.20230412.0-py3-none-any.whl.zip tmp/odoo_addons_oca_operating_unit-16.0.20230605.0-py3-none-any.whl.zip --markdown 20230607/o/odoo-addons-oca-operating-unit/16.0.20230412.0-16.0.20230605.0/diff.md --exclude *.pyd
+[2023-06-07 06:26:24] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/39/c0/0f9c0663b886b796678b727d41ca569c16c7eba469b05da717efc65083d2/quickstart-vdk-0.2.891782372.dev11189.tar.gz
+[2023-06-07 06:26:24] INFO root fetch - processPackages [spaceone-inventory]: Downloading https://files.pythonhosted.org/packages/8b/3e/9b66d8ee4c516bd667673a5577cc4743104de117a9cf1693532b741e45c4/spaceone_inventory-1.9.7rc1-py3-none-any.whl
+[2023-06-07 06:26:24] INFO root fetch - processPackages [mysqlx]: Downloading https://files.pythonhosted.org/packages/18/62/85c1a508d814eab29224bb3691c7c858e210932280c8c2f7c15db897f364/mysqlx-1.1.9.tar.gz
+[2023-06-07 06:26:24] INFO root fetch - processPackages [findu]: Downloading https://files.pythonhosted.org/packages/02/c4/fed665060a0798a9d6d3bec91f7be1057a8e3cf8e4cc990dfdfeda2f71b1/findu-0.0.11.tar.gz
+[2023-06-07 06:26:24] INFO root fetch - processPackages [cellxgene-census]: Downloading https://files.pythonhosted.org/packages/38/f6/72d394e733c67a701cc2db3a377e84b88e66758baa7a4af42cdcd43437c6/cellxgene_census-1.2.0.tar.gz
+[2023-06-07 06:26:24] INFO root fetch - processPackages [mysqlx]: executing diffoscope
+[2023-06-07 06:26:24] INFO root fetch - processPackages [mysqlx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mysqlx-1.1.8.tar.gz tmp/mysqlx-1.1.9.tar.gz --markdown 20230607/m/mysqlx/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-06-07 06:26:24] INFO root fetch - processPackages [findu]: executing diffoscope
+[2023-06-07 06:26:24] INFO root fetch - processPackages [findu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/findu-0.0.10.tar.gz tmp/findu-0.0.11.tar.gz --markdown 20230607/f/findu/0.0.10-0.0.11/diff.md --exclude *.pyd
+[2023-06-07 06:26:24] INFO root fetch - processPackages [cellxgene-census]: executing diffoscope
+[2023-06-07 06:26:24] INFO root fetch - processPackages [cellxgene-census]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellxgene_census-1.1.0.tar.gz tmp/cellxgene_census-1.2.0.tar.gz --markdown 20230607/c/cellxgene-census/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-06-07 06:26:24] INFO root fetch - processPackages [quickstart-vdk]: executing diffoscope
+[2023-06-07 06:26:24] INFO root fetch - processPackages [quickstart-vdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickstart-vdk-0.2.890381373.dev11124.tar.gz tmp/quickstart-vdk-0.2.891782372.dev11189.tar.gz --markdown 20230607/q/quickstart-vdk/0.2.890381373.dev11124-0.2.891782372.dev11189/diff.md --exclude *.pyd
+[2023-06-07 06:26:24] INFO root fetch - processPackages [pydtk]: Downloading https://files.pythonhosted.org/packages/90/99/3f17267af6d0352076f90a51c651ed7a2c03351d6681b6093427f1db8ae3/pydtk-0.2.9.tar.gz
+[2023-06-07 06:26:24] INFO root fetch - processPackages [pydtk]: executing diffoscope
+[2023-06-07 06:26:24] INFO root fetch - processPackages [pydtk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydtk-0.2.7.tar.gz tmp/pydtk-0.2.9.tar.gz --markdown 20230607/p/pydtk/0.2.7-0.2.9/diff.md --exclude *.pyd
+[2023-06-07 06:26:24] INFO root fetch - processPackages [spaceone-inventory]: executing diffoscope
+[2023-06-07 06:26:24] INFO root fetch - processPackages [spaceone-inventory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone_inventory-1.9.7.3-py3-none-any.whl.zip tmp/spaceone_inventory-1.9.7rc1-py3-none-any.whl.zip --markdown 20230607/s/spaceone-inventory/1.9.7.3-1.9.7rc1/diff.md --exclude *.pyd
+[2023-06-07 06:26:25] INFO root fetch - processPackages [odoo-addons-oca-operating-unit]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_operating_unit-16.0.20230412.0-py3-none-any.whl.zip]
+[2023-06-07 06:26:25] INFO root fetch - processPackages [odoo-addons-oca-operating-unit]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_operating_unit-16.0.20230605.0-py3-none-any.whl.zip]
+[2023-06-07 06:26:25] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-operating-unit]: success
+[2023-06-07 06:26:25] INFO root fetch - processPackages [mysqlx]: Remove: archive file [/home/abi/fetcher/tmp/mysqlx-1.1.8.tar.gz]
+[2023-06-07 06:26:25] INFO root fetch - processPackages [mysqlx]: Remove: archive file [/home/abi/fetcher/tmp/mysqlx-1.1.9.tar.gz]
+[2023-06-07 06:26:25] INFO root fetch - main [MainThread]: End processing [mysqlx]: success
+[2023-06-07 06:26:25] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.890381373.dev11124.tar.gz]
+[2023-06-07 06:26:25] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.891782372.dev11189.tar.gz]
+[2023-06-07 06:26:25] INFO root fetch - main [MainThread]: End processing [quickstart-vdk]: success
+[2023-06-07 06:26:25] INFO root fetch - processPackages [cellxgene-census]: Remove: archive file [/home/abi/fetcher/tmp/cellxgene_census-1.1.0.tar.gz]
+[2023-06-07 06:26:25] INFO root fetch - processPackages [cellxgene-census]: Remove: archive file [/home/abi/fetcher/tmp/cellxgene_census-1.2.0.tar.gz]
+[2023-06-07 06:26:25] INFO root fetch - main [MainThread]: End processing [cellxgene-census]: success
+[2023-06-07 06:26:25] INFO root fetch - processPackages [findu]: Remove: archive file [/home/abi/fetcher/tmp/findu-0.0.10.tar.gz]
+[2023-06-07 06:26:25] INFO root fetch - processPackages [findu]: Remove: archive file [/home/abi/fetcher/tmp/findu-0.0.11.tar.gz]
+[2023-06-07 06:26:25] INFO root fetch - main [MainThread]: End processing [findu]: success
+[2023-06-07 06:26:26] INFO root fetch - processPackages [spaceone-inventory]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_inventory-1.9.7.3-py3-none-any.whl.zip]
+[2023-06-07 06:26:26] INFO root fetch - processPackages [spaceone-inventory]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_inventory-1.9.7rc1-py3-none-any.whl.zip]
+[2023-06-07 06:26:26] INFO root fetch - main [MainThread]: End processing [spaceone-inventory]: success
+[2023-06-07 06:26:27] INFO root fetch - processPackages [pydtk]: Remove: archive file [/home/abi/fetcher/tmp/pydtk-0.2.7.tar.gz]
+[2023-06-07 06:26:27] INFO root fetch - processPackages [pydtk]: Remove: archive file [/home/abi/fetcher/tmp/pydtk-0.2.9.tar.gz]
+[2023-06-07 06:26:27] INFO root fetch - main [MainThread]: End processing [pydtk]: success
+[2023-06-07 06:26:27] INFO root fetch - main [MainThread]: Store serial: [18402629]
