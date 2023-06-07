@@ -21945,3 +21945,308 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-07 13:23:33] INFO root fetch - processPackages [tensorflow-metal]: Remove: archive file [/home/abi/fetcher/tmp/tensorflow_metal-1.0.0-cp39-cp39-macosx_12_0_x86_64.whl.zip]
 [2023-06-07 13:23:33] INFO root fetch - main [MainThread]: End processing [tensorflow-metal]: success
 [2023-06-07 13:23:33] INFO root fetch - main [MainThread]: Store serial: [18407026]
+[2023-06-07 13:28:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18407026]
+[2023-06-07 13:28:47] INFO root fetch - main [MainThread]: Found 27 changed packages
+[2023-06-07 13:28:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tensordict-nightly
+[2023-06-07 13:28:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: torchrl-nightly
+[2023-06-07 13:28:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cm-two
+[2023-06-07 13:28:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rustworkx
+[2023-06-07 13:28:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rbatools
+[2023-06-07 13:28:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: iboxstacksops
+[2023-06-07 13:28:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: graphsdk
+[2023-06-07 13:28:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tkwant
+[2023-06-07 13:28:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: docstruct
+[2023-06-07 13:28:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: torchserve-nightly
+[2023-06-07 13:28:47] INFO root fetch - processPackages [rbatools]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-07 13:28:47] INFO root fetch - processPackages [iboxstacksops]: New version: [0.8.0] Old Version: [0.7.9]
+[2023-06-07 13:28:47] INFO root fetch - processPackages [graphsdk]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-07 13:28:47] INFO root fetch - processPackages [rustworkx]: New version: [0.13.0] Old Version: [0.12.1]
+[2023-06-07 13:28:47] INFO root fetch - processPackages [docstruct]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-07 13:28:47] INFO root fetch - processPackages [cm-two]: New version: [2.3.31] Old Version: [2.3.3]
+[2023-06-07 13:28:47] INFO root fetch - processPackages [tkwant]: New version: [1.1.0rc2] Old Version: [1.1.0]
+[2023-06-07 13:28:47] INFO root fetch - processPackages [docstruct]: Downloading https://files.pythonhosted.org/packages/b6/dd/ef382a3ef2f781e571fa44b24e715c99a80570ce64432ea7959058098147/docstruct-1.0.8.tar.gz
+[2023-06-07 13:28:47] INFO root fetch - processPackages [torchserve-nightly]: New version: [2023.6.7] Old Version: [2023.6.6]
+[2023-06-07 13:28:47] INFO root fetch - processPackages [tensordict-nightly]: New version: [2023.6.7] Old Version: [2023.6.6]
+[2023-06-07 13:28:47] INFO root fetch - processPackages [rustworkx]: Downloading https://files.pythonhosted.org/packages/17/e6/924967efd523c0bfed2868b62c334a3339f21fba0ac4b447089731312159/rustworkx-0.12.1.tar.gz
+[2023-06-07 13:28:47] INFO root fetch - processPackages [iboxstacksops]: Downloading https://files.pythonhosted.org/packages/4f/52/1cf14a0b8eea79dba0f8dec5ea0e188cbef465f8ac4ef1761ebcaaf3f1c2/iboxstacksops-0.7.9.tar.gz
+[2023-06-07 13:28:47] INFO root fetch - processPackages [rbatools]: Downloading https://files.pythonhosted.org/packages/c5/fd/7e9cedb1fc29a231d14815f0f1739e9a020fb0bcd781db0a84950049e541/rbatools-1.0.2.tar.gz
+[2023-06-07 13:28:47] INFO root fetch - processPackages [graphsdk]: Downloading https://files.pythonhosted.org/packages/2b/d2/9a5b704487f99e078f579814cd45a57e73226aee92521d03ca417baadab6/graphsdk-1.0.0.tar.gz
+[2023-06-07 13:28:47] INFO root fetch - processPackages [tkwant]: Downloading https://files.pythonhosted.org/packages/42/95/67af40c084e4bc4fbf240b68d3b0faf0b3388e8a476437373635bf0eb821/tkwant-1.1.0.tar.gz
+[2023-06-07 13:28:47] INFO root fetch - processPackages [docstruct]: Downloading https://files.pythonhosted.org/packages/67/cc/bf46d160e67c20e24bc07a7e2fa460e37f75a31caefaaab0b2d53bc678b2/docstruct-1.0.9.tar.gz
+[2023-06-07 13:28:47] INFO root fetch - processPackages [torchserve-nightly]: Downloading https://files.pythonhosted.org/packages/26/88/bbd8071595fd7f9ec96572349e3fbd37c91b60f8144985765c4fc010918e/torchserve_nightly-2023.6.6-py3-none-any.whl
+[2023-06-07 13:28:47] INFO root fetch - processPackages [tensordict-nightly]: Downloading https://files.pythonhosted.org/packages/8d/63/605ebd4743c80b0a5f396e1ec5ccb35d7025e06fa7558c266defd194ba50/tensordict_nightly-2023.6.6-py39-none-any.whl
+[2023-06-07 13:28:47] INFO root fetch - processPackages [docstruct]: executing diffoscope
+[2023-06-07 13:28:47] INFO root fetch - processPackages [docstruct]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docstruct-1.0.8.tar.gz tmp/docstruct-1.0.9.tar.gz --markdown 20230607/d/docstruct/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-07 13:28:47] WARNING root fetch - processPackages [torchserve-nightly]: Skipping package: exceeds size limit 23719654>=10485760
+[2023-06-07 13:28:47] INFO root fetch - processPackages [torchserve-nightly]: Start processing: torch-model-archiver-nightly
+[2023-06-07 13:28:47] INFO root fetch - main [MainThread]: End processing [torchserve-nightly] error
+[2023-06-07 13:28:47] INFO root fetch - processPackages [cm-two]: Downloading https://files.pythonhosted.org/packages/06/86/b7006c66a2c59418f99e2b6db83bc46197a1ef2ae615c21e742f376f4910/cm_two-2.3.31-py3-none-any.whl
+[2023-06-07 13:28:47] INFO root fetch - processPackages [torchrl-nightly]: New version: [2023.6.7] Old Version: [2023.6.6]
+[2023-06-07 13:28:47] INFO root fetch - processPackages [rustworkx]: Downloading https://files.pythonhosted.org/packages/8c/2d/01c54edac6fb0935d59f301f96f7b782282d3b3fdab75ef684194db65bc7/rustworkx-0.13.0-cp39-cp39-win_amd64.whl
+[2023-06-07 13:28:47] INFO root fetch - processPackages [torch-model-archiver-nightly]: New version: [2023.6.6] Old Version: [2023.6.5]
+[2023-06-07 13:28:47] INFO root fetch - processPackages [graphsdk]: Downloading https://files.pythonhosted.org/packages/01/47/9410a8edb5bc264c724dc1745eccb9174c8e16bc18bf51caf823b53211c4/graphsdk-1.0.1.tar.gz
+[2023-06-07 13:28:47] INFO root fetch - processPackages [iboxstacksops]: Downloading https://files.pythonhosted.org/packages/41/ff/a945e717ec3e0c9b24db3d108316bd97040126177e9fec508055ea1418c6/iboxstacksops-0.8.0.tar.gz
+[2023-06-07 13:28:47] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/b4/b3/7fb881cb71f324cbad777bd3ef0e72fb58d404014067ee5ec3e9e7e10858/torch_model_archiver_nightly-2023.6.5-py3-none-any.whl
+[2023-06-07 13:28:48] INFO root fetch - processPackages [tkwant]: Downloading https://files.pythonhosted.org/packages/d4/2a/1170d4857fe10f986845a154eadeea4c1cd7ba0a3e1f59cb655e7a34ff28/tkwant-1.1.0rc2.tar.gz
+[2023-06-07 13:28:48] INFO root fetch - processPackages [graphsdk]: executing diffoscope
+[2023-06-07 13:28:48] INFO root fetch - processPackages [graphsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphsdk-1.0.0.tar.gz tmp/graphsdk-1.0.1.tar.gz --markdown 20230607/g/graphsdk/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-07 13:28:48] INFO root fetch - processPackages [cm-two]: executing diffoscope
+[2023-06-07 13:28:48] INFO root fetch - processPackages [cm-two]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cm_two-2.3.3-py3-none-any.whl.zip tmp/cm_two-2.3.31-py3-none-any.whl.zip --markdown 20230607/c/cm-two/2.3.3-2.3.31/diff.md --exclude *.pyd
+[2023-06-07 13:28:48] INFO root fetch - processPackages [iboxstacksops]: executing diffoscope
+[2023-06-07 13:28:48] INFO root fetch - processPackages [iboxstacksops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iboxstacksops-0.7.9.tar.gz tmp/iboxstacksops-0.8.0.tar.gz --markdown 20230607/i/iboxstacksops/0.7.9-0.8.0/diff.md --exclude *.pyd
+[2023-06-07 13:28:48] INFO root fetch - processPackages [rustworkx]: executing diffoscope
+[2023-06-07 13:28:48] INFO root fetch - processPackages [rustworkx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rustworkx-0.12.1.tar.gz tmp/rustworkx-0.13.0-cp39-cp39-win_amd64.whl.zip --markdown 20230607/r/rustworkx/0.12.1-0.13.0/diff.md --exclude *.pyd
+[2023-06-07 13:28:48] INFO root fetch - processPackages [torchrl-nightly]: Downloading https://files.pythonhosted.org/packages/d3/bb/6370c53ad77bbd9fe531f703103bdb7e533a15bdc90c2c0dcdc197a0595a/torchrl_nightly-2023.6.6-cp39-cp39-win_amd64.whl
+[2023-06-07 13:28:48] INFO root fetch - processPackages [tensordict-nightly]: Downloading https://files.pythonhosted.org/packages/ff/30/b32844a10951d90914392dfbcca8636b98e17cce1cde26587f3389a428a0/tensordict_nightly-2023.6.7-py39-none-any.whl
+[2023-06-07 13:28:48] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/9d/da/95ab87c69d5ef1050ce959bd669f0b0d55874b84c61c84b1b208bf6f8476/torch_model_archiver_nightly-2023.6.6-py3-none-any.whl
+[2023-06-07 13:28:48] INFO root fetch - processPackages [tensordict-nightly]: executing diffoscope
+[2023-06-07 13:28:48] INFO root fetch - processPackages [tensordict-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensordict_nightly-2023.6.6-py39-none-any.whl.zip tmp/tensordict_nightly-2023.6.7-py39-none-any.whl.zip --markdown 20230607/t/tensordict-nightly/2023.6.6-2023.6.7/diff.md --exclude *.pyd
+[2023-06-07 13:28:48] INFO root fetch - processPackages [torch-model-archiver-nightly]: executing diffoscope
+[2023-06-07 13:28:48] INFO root fetch - processPackages [torch-model-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_archiver_nightly-2023.6.5-py3-none-any.whl.zip tmp/torch_model_archiver_nightly-2023.6.6-py3-none-any.whl.zip --markdown 20230607/t/torch-model-archiver-nightly/2023.6.5-2023.6.6/diff.md --exclude *.pyd
+[2023-06-07 13:28:48] INFO root fetch - processPackages [tkwant]: executing diffoscope
+[2023-06-07 13:28:48] INFO root fetch - processPackages [tkwant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tkwant-1.1.0.tar.gz tmp/tkwant-1.1.0rc2.tar.gz --markdown 20230607/t/tkwant/1.1.0-1.1.0rc2/diff.md --exclude *.pyd
+[2023-06-07 13:28:48] INFO root fetch - processPackages [rbatools]: Downloading https://files.pythonhosted.org/packages/74/ec/2403b2343c6cc4c3d24c27b96b31a15414c44635e9ad8576697e5e91cc37/rbatools-1.0.3.tar.gz
+[2023-06-07 13:28:48] INFO root fetch - processPackages [torchrl-nightly]: Downloading https://files.pythonhosted.org/packages/b1/41/99caa9dd99353e8bd595da59612f34a2e19d397181ca395d7c474db4d63b/torchrl_nightly-2023.6.7-cp39-cp39-manylinux1_x86_64.whl
+[2023-06-07 13:28:48] INFO root fetch - processPackages [rbatools]: executing diffoscope
+[2023-06-07 13:28:48] INFO root fetch - processPackages [rbatools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rbatools-1.0.2.tar.gz tmp/rbatools-1.0.3.tar.gz --markdown 20230607/r/rbatools/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-07 13:28:49] INFO root fetch - processPackages [docstruct]: Remove: archive file [/home/abi/fetcher/tmp/docstruct-1.0.8.tar.gz]
+[2023-06-07 13:28:49] INFO root fetch - processPackages [docstruct]: Remove: archive file [/home/abi/fetcher/tmp/docstruct-1.0.9.tar.gz]
+[2023-06-07 13:28:49] INFO root fetch - processPackages [docstruct]: Start processing: torch-workflow-archiver-nightly
+[2023-06-07 13:28:49] INFO root fetch - main [MainThread]: End processing [docstruct]: success
+[2023-06-07 13:28:49] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: New version: [2023.6.6] Old Version: [2023.6.5]
+[2023-06-07 13:28:49] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/63/ad/bdc739870478651dab3b93343e7562e8838e6c0c8b14b0d0eaa781583468/torch_workflow_archiver_nightly-2023.6.5-py3-none-any.whl
+[2023-06-07 13:28:49] INFO root fetch - processPackages [graphsdk]: Remove: archive file [/home/abi/fetcher/tmp/graphsdk-1.0.0.tar.gz]
+[2023-06-07 13:28:49] INFO root fetch - processPackages [graphsdk]: Remove: archive file [/home/abi/fetcher/tmp/graphsdk-1.0.1.tar.gz]
+[2023-06-07 13:28:49] INFO root fetch - processPackages [graphsdk]: Start processing: swh.loader.core
+[2023-06-07 13:28:49] INFO root fetch - main [MainThread]: End processing [graphsdk]: success
+[2023-06-07 13:28:49] INFO root fetch - processPackages [swh.loader.core]: New version: [5.7.0] Old Version: [5.6.0]
+[2023-06-07 13:28:49] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/ee/df/6913f8928a085929c483c8390fa90520da8f8ea697363028ca2e6805ae81/torch_workflow_archiver_nightly-2023.6.6-py3-none-any.whl
+[2023-06-07 13:28:49] ERROR root fetch - processPackages [cm-two]: Diffoscope failed: Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid continuation byte
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 252, in compare_details
+    differences.extend(zipinfo_differences(self, other))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 127, in zipinfo_differences
+    zipinfo = Difference.from_operation(Zipinfo, file.path, other.path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid continuation byte
+
+[2023-06-07 13:28:49] INFO root fetch - processPackages [cm-two]: Start processing: resolwe
+[2023-06-07 13:28:49] INFO root fetch - main [MainThread]: End processing [cm-two] error
+[2023-06-07 13:28:49] INFO root fetch - processPackages [resolwe]: New version: [9.0.0a4] Old Version: [9.0.0a3]
+[2023-06-07 13:28:49] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: executing diffoscope
+[2023-06-07 13:28:49] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_workflow_archiver_nightly-2023.6.5-py3-none-any.whl.zip tmp/torch_workflow_archiver_nightly-2023.6.6-py3-none-any.whl.zip --markdown 20230607/t/torch-workflow-archiver-nightly/2023.6.5-2023.6.6/diff.md --exclude *.pyd
+[2023-06-07 13:28:50] INFO root fetch - processPackages [resolwe]: Downloading https://files.pythonhosted.org/packages/27/39/5a1ef83e99306588743d0a561a08a825b4383fd5d466c4f3c8fa59dbdbdd/resolwe-9.0.0a3.tar.gz
+[2023-06-07 13:28:50] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2023.6.5-py3-none-any.whl.zip]
+[2023-06-07 13:28:50] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2023.6.6-py3-none-any.whl.zip]
+[2023-06-07 13:28:50] INFO root fetch - processPackages [torch-model-archiver-nightly]: Start processing: gosper
+[2023-06-07 13:28:50] INFO root fetch - main [MainThread]: End processing [torch-model-archiver-nightly]: success
+[2023-06-07 13:28:50] INFO root fetch - processPackages [swh.loader.core]: Downloading https://files.pythonhosted.org/packages/b8/16/1a8781466262497bd14d1537d321de1009344b3b04616a1664c2640f729c/swh.loader.core-5.6.0.tar.gz
+[2023-06-07 13:28:50] WARNING root fetch - processPackages [gosper]: Skipping, unable to determine old version
+[2023-06-07 13:28:50] INFO root fetch - processPackages [gosper]: Start processing: ocrd
+[2023-06-07 13:28:50] INFO root fetch - main [MainThread]: End processing [gosper] error
+[2023-06-07 13:28:50] INFO root fetch - processPackages [torchrl-nightly]: executing diffoscope
+[2023-06-07 13:28:50] INFO root fetch - processPackages [torchrl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchrl_nightly-2023.6.6-cp39-cp39-win_amd64.whl.zip tmp/torchrl_nightly-2023.6.7-cp39-cp39-manylinux1_x86_64.whl.zip --markdown 20230607/t/torchrl-nightly/2023.6.6-2023.6.7/diff.md --exclude *.pyd
+[2023-06-07 13:28:50] WARNING root fetch - processPackages [swh.loader.core]: Skipping package: exceeds size limit 11118639>=10485760
+[2023-06-07 13:28:50] INFO root fetch - processPackages [swh.loader.core]: Start processing: ocrd-modelfactory
+[2023-06-07 13:28:50] INFO root fetch - main [MainThread]: End processing [swh.loader.core] error
+[2023-06-07 13:28:50] INFO root fetch - processPackages [ocrd]: New version: [2.9.0] Old Version: [2.8.3]
+[2023-06-07 13:28:50] INFO root fetch - processPackages [ocrd-modelfactory]: New version: [2.9.0] Old Version: [2.8.3]
+[2023-06-07 13:28:50] INFO root fetch - processPackages [tensordict-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensordict_nightly-2023.6.6-py39-none-any.whl.zip]
+[2023-06-07 13:28:50] INFO root fetch - processPackages [tensordict-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensordict_nightly-2023.6.7-py39-none-any.whl.zip]
+[2023-06-07 13:28:50] INFO root fetch - processPackages [tensordict-nightly]: Start processing: ocrd-models
+[2023-06-07 13:28:50] INFO root fetch - main [MainThread]: End processing [tensordict-nightly]: success
+[2023-06-07 13:28:50] INFO root fetch - processPackages [resolwe]: Downloading https://files.pythonhosted.org/packages/ca/ce/736f65f5bdceb20af592eebc6fdff8968ca39d39f2fa9bbbcb62c64ee673/resolwe-9.0.0a4.tar.gz
+[2023-06-07 13:28:50] INFO root fetch - processPackages [ocrd-models]: New version: [2.9.0] Old Version: [2.8.3]
+[2023-06-07 13:28:50] INFO root fetch - processPackages [iboxstacksops]: Remove: archive file [/home/abi/fetcher/tmp/iboxstacksops-0.7.9.tar.gz]
+[2023-06-07 13:28:50] INFO root fetch - processPackages [iboxstacksops]: Remove: archive file [/home/abi/fetcher/tmp/iboxstacksops-0.8.0.tar.gz]
+[2023-06-07 13:28:50] INFO root fetch - processPackages [iboxstacksops]: Start processing: ocrd-network
+[2023-06-07 13:28:50] INFO root fetch - main [MainThread]: End processing [iboxstacksops]: success
+[2023-06-07 13:28:50] INFO root fetch - processPackages [resolwe]: executing diffoscope
+[2023-06-07 13:28:50] INFO root fetch - processPackages [resolwe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resolwe-9.0.0a3.tar.gz tmp/resolwe-9.0.0a4.tar.gz --markdown 20230607/r/resolwe/9.0.0a3-9.0.0a4/diff.md --exclude *.pyd
+[2023-06-07 13:28:50] INFO root fetch - processPackages [ocrd-network]: New version: [2.51.0] Old Version: [2.50.0]
+[2023-06-07 13:28:50] INFO root fetch - processPackages [ocrd]: Downloading https://files.pythonhosted.org/packages/67/00/b5d22c09fa4c5b275c14a409b4fc8bb6d012f9d7747282253777a33d2fb1/ocrd-2.8.3.tar.gz
+[2023-06-07 13:28:50] INFO root fetch - processPackages [ocrd-modelfactory]: Downloading https://files.pythonhosted.org/packages/85/c5/54254305db3920156a98f3337c193cbf2c59f57cae21eae11927e733b4eb/ocrd_modelfactory-2.8.3.tar.gz
+[2023-06-07 13:28:50] INFO root fetch - processPackages [ocrd-models]: Downloading https://files.pythonhosted.org/packages/d6/b1/376582d715216b1a2f0c0e91b4f80d752410fe188ca494273a14bd915a41/ocrd_models-2.8.3.tar.gz
+[2023-06-07 13:28:50] INFO root fetch - processPackages [ocrd-network]: Downloading https://files.pythonhosted.org/packages/07/6e/94d6771036c02ed7e74cc4fe845b287b6df9f3aaebeb70a10eacae9f9ad2/ocrd_network-2.50.0.tar.gz
+[2023-06-07 13:28:50] INFO root fetch - processPackages [ocrd]: Downloading https://files.pythonhosted.org/packages/ae/ba/d74b80333a85ed09eb382fd89167250bf86f269c26539ad22be6da11c85d/ocrd-2.9.0.tar.gz
+[2023-06-07 13:28:50] INFO root fetch - processPackages [ocrd-modelfactory]: Downloading https://files.pythonhosted.org/packages/57/f3/e199d127e0b9a2b9cc7d44c28e924bef6b1c74b4d94b156c33554b7f4d76/ocrd_modelfactory-2.9.0.tar.gz
+[2023-06-07 13:28:50] INFO root fetch - processPackages [ocrd]: executing diffoscope
+[2023-06-07 13:28:50] INFO root fetch - processPackages [ocrd-modelfactory]: executing diffoscope
+[2023-06-07 13:28:50] INFO root fetch - processPackages [ocrd-models]: Downloading https://files.pythonhosted.org/packages/26/1c/aeeb1e2e34015c3d3d20873fc8dc49a03b934a4ff3dc079638e381d727c6/ocrd_models-2.9.0.tar.gz
+[2023-06-07 13:28:50] INFO root fetch - processPackages [ocrd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ocrd-2.8.3.tar.gz tmp/ocrd-2.9.0.tar.gz --markdown 20230607/o/ocrd/2.8.3-2.9.0/diff.md --exclude *.pyd
+[2023-06-07 13:28:50] INFO root fetch - processPackages [ocrd-modelfactory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ocrd_modelfactory-2.8.3.tar.gz tmp/ocrd_modelfactory-2.9.0.tar.gz --markdown 20230607/o/ocrd-modelfactory/2.8.3-2.9.0/diff.md --exclude *.pyd
+[2023-06-07 13:28:50] INFO root fetch - processPackages [ocrd-network]: Downloading https://files.pythonhosted.org/packages/ea/3c/21995080a336cc8891c0c1e7e85cef9611cd628712651382512bcf12045b/ocrd_network-2.51.0.tar.gz
+[2023-06-07 13:28:50] INFO root fetch - processPackages [ocrd-models]: executing diffoscope
+[2023-06-07 13:28:50] INFO root fetch - processPackages [ocrd-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ocrd_models-2.8.3.tar.gz tmp/ocrd_models-2.9.0.tar.gz --markdown 20230607/o/ocrd-models/2.8.3-2.9.0/diff.md --exclude *.pyd
+[2023-06-07 13:28:50] INFO root fetch - processPackages [ocrd-network]: executing diffoscope
+[2023-06-07 13:28:50] INFO root fetch - processPackages [ocrd-network]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ocrd_network-2.50.0.tar.gz tmp/ocrd_network-2.51.0.tar.gz --markdown 20230607/o/ocrd-network/2.50.0-2.51.0/diff.md --exclude *.pyd
+[2023-06-07 13:28:51] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2023.6.5-py3-none-any.whl.zip]
+[2023-06-07 13:28:51] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2023.6.6-py3-none-any.whl.zip]
+[2023-06-07 13:28:51] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Start processing: lupin-grognard
+[2023-06-07 13:28:51] INFO root fetch - main [MainThread]: End processing [torch-workflow-archiver-nightly]: success
+[2023-06-07 13:28:51] INFO root fetch - processPackages [lupin-grognard]: New version: [1.9.0] Old Version: [1.7.0]
+[2023-06-07 13:28:51] INFO root fetch - processPackages [lupin-grognard]: Downloading https://files.pythonhosted.org/packages/26/b3/9a961658affd6954a57ec000b5ea89912c12beb41382bb262947475dfbd6/lupin-grognard-1.7.0.tar.gz
+[2023-06-07 13:28:51] INFO root fetch - processPackages [tkwant]: Remove: archive file [/home/abi/fetcher/tmp/tkwant-1.1.0.tar.gz]
+[2023-06-07 13:28:51] INFO root fetch - processPackages [tkwant]: Remove: archive file [/home/abi/fetcher/tmp/tkwant-1.1.0rc2.tar.gz]
+[2023-06-07 13:28:51] INFO root fetch - processPackages [tkwant]: Start processing: ocrd-utils
+[2023-06-07 13:28:51] INFO root fetch - main [MainThread]: End processing [tkwant]: success
+[2023-06-07 13:28:51] INFO root fetch - processPackages [ocrd-utils]: New version: [2.9.0] Old Version: [2.8.3]
+[2023-06-07 13:28:51] INFO root fetch - processPackages [lupin-grognard]: Downloading https://files.pythonhosted.org/packages/63/f4/2df11a5aed46a791c22609c2233d309499d655d76697dd2980b8e739d68b/lupin-grognard-1.9.0.tar.gz
+[2023-06-07 13:28:51] INFO root fetch - processPackages [lupin-grognard]: executing diffoscope
+[2023-06-07 13:28:51] INFO root fetch - processPackages [lupin-grognard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lupin-grognard-1.7.0.tar.gz tmp/lupin-grognard-1.9.0.tar.gz --markdown 20230607/l/lupin-grognard/1.7.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-07 13:28:51] INFO root fetch - processPackages [ocrd-utils]: Downloading https://files.pythonhosted.org/packages/e7/b4/2b5ba2b0c5809f28a405636b5ac22a23b0a08147f95fb9c9feb2631047ab/ocrd_utils-2.8.3.tar.gz
+[2023-06-07 13:28:52] INFO root fetch - processPackages [ocrd-utils]: Downloading https://files.pythonhosted.org/packages/41/b2/1ff2249600713d77484f71ae72ce1d74a7f872c00d995c68b0f7347e8240/ocrd_utils-2.9.0.tar.gz
+[2023-06-07 13:28:52] INFO root fetch - processPackages [ocrd-modelfactory]: Remove: archive file [/home/abi/fetcher/tmp/ocrd_modelfactory-2.8.3.tar.gz]
+[2023-06-07 13:28:52] INFO root fetch - processPackages [ocrd-modelfactory]: Remove: archive file [/home/abi/fetcher/tmp/ocrd_modelfactory-2.9.0.tar.gz]
+[2023-06-07 13:28:52] INFO root fetch - processPackages [ocrd-modelfactory]: Start processing: pydae
+[2023-06-07 13:28:52] INFO root fetch - main [MainThread]: End processing [ocrd-modelfactory]: success
+[2023-06-07 13:28:52] INFO root fetch - processPackages [ocrd-utils]: executing diffoscope
+[2023-06-07 13:28:52] INFO root fetch - processPackages [ocrd-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ocrd_utils-2.8.3.tar.gz tmp/ocrd_utils-2.9.0.tar.gz --markdown 20230607/o/ocrd-utils/2.8.3-2.9.0/diff.md --exclude *.pyd
+[2023-06-07 13:28:52] INFO root fetch - processPackages [pydae]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-07 13:28:52] INFO root fetch - processPackages [pydae]: Downloading https://files.pythonhosted.org/packages/7d/df/18fbeeac68b8076a40737405fc9638efb381a7dae1ccdfa520fe3810b1cd/pydae-0.8.0.tar.gz
+[2023-06-07 13:28:52] WARNING root fetch - processPackages [pydae]: Skipping package: exceeds size limit 76279170>=10485760
+[2023-06-07 13:28:52] INFO root fetch - processPackages [pydae]: Start processing: ocrd-validators
+[2023-06-07 13:28:52] INFO root fetch - main [MainThread]: End processing [pydae] error
+[2023-06-07 13:28:52] INFO root fetch - processPackages [ocrd-validators]: New version: [2.9.0] Old Version: [2.8.3]
+[2023-06-07 13:28:52] INFO root fetch - processPackages [ocrd-models]: Remove: archive file [/home/abi/fetcher/tmp/ocrd_models-2.8.3.tar.gz]
+[2023-06-07 13:28:52] INFO root fetch - processPackages [ocrd-models]: Remove: archive file [/home/abi/fetcher/tmp/ocrd_models-2.9.0.tar.gz]
+[2023-06-07 13:28:52] INFO root fetch - processPackages [ocrd-models]: Start processing: qworker
+[2023-06-07 13:28:52] INFO root fetch - main [MainThread]: End processing [ocrd-models]: success
+[2023-06-07 13:28:52] INFO root fetch - processPackages [qworker]: New version: [1.8.4] Old Version: [1.8.3]
+[2023-06-07 13:28:52] INFO root fetch - processPackages [qworker]: Downloading https://files.pythonhosted.org/packages/0d/7e/9168fbccba7d0ab57b3de008b68f52f071725ab15f0b8dea6cb926c1c8c1/qworker-1.8.3-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-07 13:28:52] INFO root fetch - processPackages [ocrd-validators]: Downloading https://files.pythonhosted.org/packages/3b/80/ee5e798f3c3210abd2923191fb31fca0be78b056944deda58ac3954ab58e/ocrd_validators-2.8.3.tar.gz
+[2023-06-07 13:28:52] INFO root fetch - processPackages [ocrd]: Remove: archive file [/home/abi/fetcher/tmp/ocrd-2.8.3.tar.gz]
+[2023-06-07 13:28:52] INFO root fetch - processPackages [ocrd]: Remove: archive file [/home/abi/fetcher/tmp/ocrd-2.9.0.tar.gz]
+[2023-06-07 13:28:52] INFO root fetch - processPackages [ocrd]: Start processing: pyevr
+[2023-06-07 13:28:52] INFO root fetch - main [MainThread]: End processing [ocrd]: success
+[2023-06-07 13:28:52] INFO root fetch - processPackages [pyevr]: New version: [0.6.0.dev1] Old Version: [0.5.3.dev1]
+[2023-06-07 13:28:52] INFO root fetch - processPackages [qworker]: Downloading https://files.pythonhosted.org/packages/c3/85/6ce7683e3a441e02bfb707c06f57a6cd6065c1d49ac1438360c7d38762a7/qworker-1.8.4-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-07 13:28:52] INFO root fetch - processPackages [pyevr]: Downloading https://files.pythonhosted.org/packages/34/69/4c13626c5ea76cb3a8a4feed0613e13b891e0380401ba8a5ab3428500395/pyevr-0.5.3.dev1.tar.gz
+[2023-06-07 13:28:52] INFO root fetch - processPackages [rustworkx]: Remove: archive file [/home/abi/fetcher/tmp/rustworkx-0.12.1.tar.gz]
+[2023-06-07 13:28:52] INFO root fetch - processPackages [rustworkx]: Remove: archive file [/home/abi/fetcher/tmp/rustworkx-0.13.0-cp39-cp39-win_amd64.whl.zip]
+[2023-06-07 13:28:52] INFO root fetch - processPackages [rustworkx]: Start processing: torchrec-nightly
+[2023-06-07 13:28:52] INFO root fetch - main [MainThread]: End processing [rustworkx]: success
+[2023-06-07 13:28:52] INFO root fetch - processPackages [ocrd-network]: Remove: archive file [/home/abi/fetcher/tmp/ocrd_network-2.50.0.tar.gz]
+[2023-06-07 13:28:52] INFO root fetch - processPackages [ocrd-network]: Remove: archive file [/home/abi/fetcher/tmp/ocrd_network-2.51.0.tar.gz]
+[2023-06-07 13:28:52] INFO root fetch - processPackages [ocrd-network]: Start processing: pubmed-lib
+[2023-06-07 13:28:52] INFO root fetch - main [MainThread]: End processing [ocrd-network]: success
+[2023-06-07 13:28:52] INFO root fetch - processPackages [torchrec-nightly]: New version: [2023.6.6] Old Version: [2023.6.5]
+[2023-06-07 13:28:52] INFO root fetch - processPackages [qworker]: executing diffoscope
+[2023-06-07 13:28:52] INFO root fetch - processPackages [qworker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qworker-1.8.3-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/qworker-1.8.4-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230607/q/qworker/1.8.3-1.8.4/diff.md --exclude *.pyd
+[2023-06-07 13:28:52] WARNING root fetch - processPackages [pubmed-lib]: Skipping, unable to determine old version
+[2023-06-07 13:28:52] INFO root fetch - main [MainThread]: End processing [pubmed-lib] error
+[2023-06-07 13:28:52] INFO root fetch - processPackages [pyevr]: Downloading https://files.pythonhosted.org/packages/41/63/795d56ae8aa4ef9b81f2147086d1558b7eb9c11cc3d0158c99990949eaf1/pyevr-0.6.0.dev1.tar.gz
+[2023-06-07 13:28:52] INFO root fetch - processPackages [ocrd-validators]: Downloading https://files.pythonhosted.org/packages/63/cf/9728dd356498db57ac7e7b07816572715ad39bddf6efe7de2ef96b615e66/ocrd_validators-2.9.0.tar.gz
+[2023-06-07 13:28:52] INFO root fetch - processPackages [torchrec-nightly]: Downloading https://files.pythonhosted.org/packages/23/a5/27753592f59aafbb750cd9cb78bb36bda2dcaaea5bcb7110e8b300c03981/torchrec_nightly-2023.6.5-py39-none-any.whl
+[2023-06-07 13:28:52] INFO root fetch - processPackages [pyevr]: executing diffoscope
+[2023-06-07 13:28:52] INFO root fetch - processPackages [pyevr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyevr-0.5.3.dev1.tar.gz tmp/pyevr-0.6.0.dev1.tar.gz --markdown 20230607/p/pyevr/0.5.3.dev1-0.6.0.dev1/diff.md --exclude *.pyd
+[2023-06-07 13:28:53] INFO root fetch - processPackages [ocrd-validators]: executing diffoscope
+[2023-06-07 13:28:53] INFO root fetch - processPackages [ocrd-validators]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ocrd_validators-2.8.3.tar.gz tmp/ocrd_validators-2.9.0.tar.gz --markdown 20230607/o/ocrd-validators/2.8.3-2.9.0/diff.md --exclude *.pyd
+[2023-06-07 13:28:53] INFO root fetch - processPackages [lupin-grognard]: Remove: archive file [/home/abi/fetcher/tmp/lupin-grognard-1.7.0.tar.gz]
+[2023-06-07 13:28:53] INFO root fetch - processPackages [lupin-grognard]: Remove: archive file [/home/abi/fetcher/tmp/lupin-grognard-1.9.0.tar.gz]
+[2023-06-07 13:28:53] INFO root fetch - main [MainThread]: End processing [lupin-grognard]: success
+[2023-06-07 13:28:53] INFO root fetch - processPackages [torchrec-nightly]: Downloading https://files.pythonhosted.org/packages/f1/e1/aee07b31c4f7edda78dc5f92d2ffe157f44aa9dbe7ffda4652e934b3d50a/torchrec_nightly-2023.6.6-py39-none-any.whl
+[2023-06-07 13:28:53] INFO root fetch - processPackages [torchrec-nightly]: executing diffoscope
+[2023-06-07 13:28:53] INFO root fetch - processPackages [torchrec-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchrec_nightly-2023.6.5-py39-none-any.whl.zip tmp/torchrec_nightly-2023.6.6-py39-none-any.whl.zip --markdown 20230607/t/torchrec-nightly/2023.6.5-2023.6.6/diff.md --exclude *.pyd
+[2023-06-07 13:28:53] INFO root fetch - processPackages [ocrd-utils]: Remove: archive file [/home/abi/fetcher/tmp/ocrd_utils-2.8.3.tar.gz]
+[2023-06-07 13:28:53] INFO root fetch - processPackages [ocrd-utils]: Remove: archive file [/home/abi/fetcher/tmp/ocrd_utils-2.9.0.tar.gz]
+[2023-06-07 13:28:53] INFO root fetch - main [MainThread]: End processing [ocrd-utils]: success
+[2023-06-07 13:28:54] INFO root fetch - processPackages [ocrd-validators]: Remove: archive file [/home/abi/fetcher/tmp/ocrd_validators-2.8.3.tar.gz]
+[2023-06-07 13:28:54] INFO root fetch - processPackages [ocrd-validators]: Remove: archive file [/home/abi/fetcher/tmp/ocrd_validators-2.9.0.tar.gz]
+[2023-06-07 13:28:54] INFO root fetch - main [MainThread]: End processing [ocrd-validators]: success
+[2023-06-07 13:28:55] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2023.6.6-cp39-cp39-win_amd64.whl.zip]
+[2023-06-07 13:28:55] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2023.6.7-cp39-cp39-manylinux1_x86_64.whl.zip]
+[2023-06-07 13:28:55] INFO root fetch - main [MainThread]: End processing [torchrl-nightly]: success
+[2023-06-07 13:28:55] INFO root fetch - processPackages [qworker]: Remove: archive file [/home/abi/fetcher/tmp/qworker-1.8.3-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-07 13:28:55] INFO root fetch - processPackages [qworker]: Remove: archive file [/home/abi/fetcher/tmp/qworker-1.8.4-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-07 13:28:55] INFO root fetch - main [MainThread]: End processing [qworker]: success
+[2023-06-07 13:28:55] INFO root fetch - processPackages [torchrec-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrec_nightly-2023.6.5-py39-none-any.whl.zip]
+[2023-06-07 13:28:55] INFO root fetch - processPackages [torchrec-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrec_nightly-2023.6.6-py39-none-any.whl.zip]
+[2023-06-07 13:28:55] INFO root fetch - main [MainThread]: End processing [torchrec-nightly]: success
+[2023-06-07 13:28:57] INFO root fetch - processPackages [pyevr]: Remove: archive file [/home/abi/fetcher/tmp/pyevr-0.5.3.dev1.tar.gz]
+[2023-06-07 13:28:57] INFO root fetch - processPackages [pyevr]: Remove: archive file [/home/abi/fetcher/tmp/pyevr-0.6.0.dev1.tar.gz]
+[2023-06-07 13:28:57] INFO root fetch - main [MainThread]: End processing [pyevr]: success
+[2023-06-07 13:28:57] INFO root fetch - processPackages [resolwe]: Remove: archive file [/home/abi/fetcher/tmp/resolwe-9.0.0a3.tar.gz]
+[2023-06-07 13:28:57] INFO root fetch - processPackages [resolwe]: Remove: archive file [/home/abi/fetcher/tmp/resolwe-9.0.0a4.tar.gz]
+[2023-06-07 13:28:57] INFO root fetch - main [MainThread]: End processing [resolwe]: success
+[2023-06-07 13:28:57] INFO root fetch - processPackages [rbatools]: Remove: archive file [/home/abi/fetcher/tmp/rbatools-1.0.2.tar.gz]
+[2023-06-07 13:28:57] INFO root fetch - processPackages [rbatools]: Remove: archive file [/home/abi/fetcher/tmp/rbatools-1.0.3.tar.gz]
+[2023-06-07 13:28:57] INFO root fetch - main [MainThread]: End processing [rbatools]: success
+[2023-06-07 13:28:57] INFO root fetch - main [MainThread]: Store serial: [18407115]
