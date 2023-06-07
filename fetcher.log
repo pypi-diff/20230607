@@ -13752,3 +13752,75 @@ AssertionError: tmp/odoo_addon_crm_lead_firstname-16.0.1.0.1-py3-none-any.whl.zi
 [2023-06-07 07:59:41] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306070557-py3-none-any.whl.zip]
 [2023-06-07 07:59:41] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-06-07 07:59:41] INFO root fetch - main [MainThread]: Store serial: [18403268]
+[2023-06-07 08:04:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18403268]
+[2023-06-07 08:04:50] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-07 08:04:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-all-in-one-accessibility
+[2023-06-07 08:04:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flybirds
+[2023-06-07 08:04:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cfg-argparser
+[2023-06-07 08:04:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kcli
+[2023-06-07 08:04:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tortoise-orm-stubs
+[2023-06-07 08:04:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pytest-reports
+[2023-06-07 08:04:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kfish
+[2023-06-07 08:04:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: qlapi-nrsdk
+[2023-06-07 08:04:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ruuvitag-ble
+[2023-06-07 08:04:50] WARNING root fetch - processPackages [django-all-in-one-accessibility]: Skipping, unable to determine old version
+[2023-06-07 08:04:50] INFO root fetch - main [MainThread]: End processing [django-all-in-one-accessibility] error
+[2023-06-07 08:04:50] INFO root fetch - processPackages [flybirds]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-06-07 08:04:50] INFO root fetch - processPackages [qlapi-nrsdk]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-07 08:04:50] WARNING root fetch - processPackages [pytest-reports]: Skipping, unable to determine old version
+[2023-06-07 08:04:50] INFO root fetch - main [MainThread]: End processing [pytest-reports] error
+[2023-06-07 08:04:50] INFO root fetch - processPackages [cfg-argparser]: New version: [1.2.0] Old Version: [1.1.5]
+[2023-06-07 08:04:50] INFO root fetch - processPackages [kfish]: New version: [99.0.202306070603] Old Version: [99.0.202306070559]
+[2023-06-07 08:04:50] INFO root fetch - processPackages [ruuvitag-ble]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-07 08:04:50] INFO root fetch - processPackages [tortoise-orm-stubs]: New version: [1.0.0] Old Version: [0.4.3]
+[2023-06-07 08:04:50] INFO root fetch - processPackages [kcli]: New version: [99.0.202306070600] Old Version: [99.0.202306070557]
+[2023-06-07 08:04:50] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/e0/4d/c779cf6f2e1f00d4c8cb38646711631e146b6f23decdd1fdedc1fb203f6f/kcli-99.0.202306070557-py3-none-any.whl
+[2023-06-07 08:04:50] INFO root fetch - processPackages [tortoise-orm-stubs]: Downloading https://files.pythonhosted.org/packages/68/6d/2c80eea4f7e033c3cd60efd1d2a327161fa14d5c52e383bfd7fed3ca0dc4/tortoise_orm_stubs-0.4.3.tar.gz
+[2023-06-07 08:04:50] INFO root fetch - processPackages [qlapi-nrsdk]: Downloading https://files.pythonhosted.org/packages/13/d7/e9877a8161ce8b9403372c8ffa3dbf682f46a1f9bba9099bd9b87ff856d0/qlapi_nrsdk-0.1.3.tar.gz
+[2023-06-07 08:04:50] INFO root fetch - processPackages [cfg-argparser]: Downloading https://files.pythonhosted.org/packages/99/e0/d8c7eee981b641d911c303b8acd1729113763ff4ec7870c9f0f76fed9db0/cfg-argparser-1.1.5.tar.gz
+[2023-06-07 08:04:50] INFO root fetch - processPackages [ruuvitag-ble]: Downloading https://files.pythonhosted.org/packages/82/ef/aecf48c069c36a9055954e5c9643d926290163f8ac3c54a71856ff1891a6/ruuvitag_ble-0.1.1.tar.gz
+[2023-06-07 08:04:50] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/60/c4/f56fea944745f43efc18fad57355ab8f9d0a7046a35fc8d3d98afe11eca8/kfish-99.0.202306070559-py3-none-any.whl
+[2023-06-07 08:04:50] INFO root fetch - processPackages [flybirds]: Downloading https://files.pythonhosted.org/packages/72/3b/b39c30edcf01ed02ec7693fee44dca4ab577c44d5521dcf472e22328cbae/flybirds-0.5.8.tar.gz
+[2023-06-07 08:04:50] INFO root fetch - processPackages [tortoise-orm-stubs]: Downloading https://files.pythonhosted.org/packages/bc/66/71aec651ce393a94676c7e5d48c0f2dfaf7e226bfee982905f4fc3a6a13b/tortoise_orm_stubs-1.0.0.tar.gz
+[2023-06-07 08:04:50] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/ff/99/61c3565d291d0ffc37afc58e6bec2f275d6b7bca5d5a8b0c35b092e3f4d4/kcli-99.0.202306070600-py3-none-any.whl
+[2023-06-07 08:04:51] INFO root fetch - processPackages [ruuvitag-ble]: Downloading https://files.pythonhosted.org/packages/f0/fd/724d7ed9681657c457a6f73ea38f43b1b89996baf235125423483b2ba10e/ruuvitag_ble-0.1.2.tar.gz
+[2023-06-07 08:04:51] INFO root fetch - processPackages [tortoise-orm-stubs]: executing diffoscope
+[2023-06-07 08:04:51] INFO root fetch - processPackages [tortoise-orm-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tortoise_orm_stubs-0.4.3.tar.gz tmp/tortoise_orm_stubs-1.0.0.tar.gz --markdown 20230607/t/tortoise-orm-stubs/0.4.3-1.0.0/diff.md --exclude *.pyd
+[2023-06-07 08:04:51] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/77/21/4c8289d97eb9397ad19c8bcdde6fde7d0c3af47e465605a0bb57e5913db8/kfish-99.0.202306070603-py3-none-any.whl
+[2023-06-07 08:04:51] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-06-07 08:04:51] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202306070557-py3-none-any.whl.zip tmp/kcli-99.0.202306070600-py3-none-any.whl.zip --markdown 20230607/k/kcli/99.0.202306070557-99.0.202306070600/diff.md --exclude *.pyd
+[2023-06-07 08:04:51] INFO root fetch - processPackages [cfg-argparser]: Downloading https://files.pythonhosted.org/packages/2f/6e/c9b205f88ebe3ff8b4ad3b99853643d7b97b8626ac47ca98142df542c828/cfg-argparser-1.2.0.tar.gz
+[2023-06-07 08:04:51] INFO root fetch - processPackages [qlapi-nrsdk]: Downloading https://files.pythonhosted.org/packages/29/ee/9b9760118a58af60f4b708d93172aca198289f5e9e83fe419757cbdc4053/qlapi_nrsdk-0.1.4.tar.gz
+[2023-06-07 08:04:51] INFO root fetch - processPackages [ruuvitag-ble]: executing diffoscope
+[2023-06-07 08:04:51] INFO root fetch - processPackages [ruuvitag-ble]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ruuvitag_ble-0.1.1.tar.gz tmp/ruuvitag_ble-0.1.2.tar.gz --markdown 20230607/r/ruuvitag-ble/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-07 08:04:51] INFO root fetch - processPackages [cfg-argparser]: executing diffoscope
+[2023-06-07 08:04:51] INFO root fetch - processPackages [cfg-argparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cfg-argparser-1.1.5.tar.gz tmp/cfg-argparser-1.2.0.tar.gz --markdown 20230607/c/cfg-argparser/1.1.5-1.2.0/diff.md --exclude *.pyd
+[2023-06-07 08:04:51] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-06-07 08:04:51] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202306070559-py3-none-any.whl.zip tmp/kfish-99.0.202306070603-py3-none-any.whl.zip --markdown 20230607/k/kfish/99.0.202306070559-99.0.202306070603/diff.md --exclude *.pyd
+[2023-06-07 08:04:51] INFO root fetch - processPackages [qlapi-nrsdk]: executing diffoscope
+[2023-06-07 08:04:51] INFO root fetch - processPackages [qlapi-nrsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qlapi_nrsdk-0.1.3.tar.gz tmp/qlapi_nrsdk-0.1.4.tar.gz --markdown 20230607/q/qlapi-nrsdk/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-07 08:04:51] INFO root fetch - processPackages [flybirds]: Downloading https://files.pythonhosted.org/packages/53/d5/0e0f9d20cf54722f1f8207f718e8fd6002a83a4db75699261b0b0fcf4e25/flybirds-0.5.9.tar.gz
+[2023-06-07 08:04:51] INFO root fetch - processPackages [flybirds]: executing diffoscope
+[2023-06-07 08:04:51] INFO root fetch - processPackages [flybirds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flybirds-0.5.8.tar.gz tmp/flybirds-0.5.9.tar.gz --markdown 20230607/f/flybirds/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-06-07 08:04:52] INFO root fetch - processPackages [tortoise-orm-stubs]: Remove: archive file [/home/abi/fetcher/tmp/tortoise_orm_stubs-0.4.3.tar.gz]
+[2023-06-07 08:04:52] INFO root fetch - processPackages [tortoise-orm-stubs]: Remove: archive file [/home/abi/fetcher/tmp/tortoise_orm_stubs-1.0.0.tar.gz]
+[2023-06-07 08:04:52] INFO root fetch - main [MainThread]: End processing [tortoise-orm-stubs]: success
+[2023-06-07 08:04:52] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306070559-py3-none-any.whl.zip]
+[2023-06-07 08:04:52] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306070603-py3-none-any.whl.zip]
+[2023-06-07 08:04:52] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-06-07 08:04:52] INFO root fetch - processPackages [ruuvitag-ble]: Remove: archive file [/home/abi/fetcher/tmp/ruuvitag_ble-0.1.1.tar.gz]
+[2023-06-07 08:04:52] INFO root fetch - processPackages [ruuvitag-ble]: Remove: archive file [/home/abi/fetcher/tmp/ruuvitag_ble-0.1.2.tar.gz]
+[2023-06-07 08:04:52] INFO root fetch - main [MainThread]: End processing [ruuvitag-ble]: success
+[2023-06-07 08:04:52] INFO root fetch - processPackages [cfg-argparser]: Remove: archive file [/home/abi/fetcher/tmp/cfg-argparser-1.1.5.tar.gz]
+[2023-06-07 08:04:52] INFO root fetch - processPackages [cfg-argparser]: Remove: archive file [/home/abi/fetcher/tmp/cfg-argparser-1.2.0.tar.gz]
+[2023-06-07 08:04:52] INFO root fetch - main [MainThread]: End processing [cfg-argparser]: success
+[2023-06-07 08:05:00] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306070557-py3-none-any.whl.zip]
+[2023-06-07 08:05:00] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306070600-py3-none-any.whl.zip]
+[2023-06-07 08:05:00] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-06-07 08:05:00] INFO root fetch - processPackages [qlapi-nrsdk]: Remove: archive file [/home/abi/fetcher/tmp/qlapi_nrsdk-0.1.3.tar.gz]
+[2023-06-07 08:05:00] INFO root fetch - processPackages [qlapi-nrsdk]: Remove: archive file [/home/abi/fetcher/tmp/qlapi_nrsdk-0.1.4.tar.gz]
+[2023-06-07 08:05:00] INFO root fetch - main [MainThread]: End processing [qlapi-nrsdk]: success
+[2023-06-07 08:05:23] INFO root fetch - processPackages [flybirds]: Remove: archive file [/home/abi/fetcher/tmp/flybirds-0.5.8.tar.gz]
+[2023-06-07 08:05:23] INFO root fetch - processPackages [flybirds]: Remove: archive file [/home/abi/fetcher/tmp/flybirds-0.5.9.tar.gz]
+[2023-06-07 08:05:23] INFO root fetch - main [MainThread]: End processing [flybirds]: success
+[2023-06-07 08:05:23] INFO root fetch - main [MainThread]: Store serial: [18403306]
