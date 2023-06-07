@@ -20564,3 +20564,128 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-07 12:06:17] INFO root fetch - processPackages [cloud-governance]: Remove: archive file [/home/abi/fetcher/tmp/cloud-governance-1.1.99.tar.gz]
 [2023-06-07 12:06:17] INFO root fetch - main [MainThread]: End processing [cloud-governance]: success
 [2023-06-07 12:06:17] INFO root fetch - main [MainThread]: Store serial: [18406302]
+[2023-06-07 12:11:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18406302]
+[2023-06-07 12:11:27] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-06-07 12:11:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: autolens
+[2023-06-07 12:11:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: locationsharinglib
+[2023-06-07 12:11:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-hr-employee-birthday-mail
+[2023-06-07 12:11:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: autocti
+[2023-06-07 12:11:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: udl-vis
+[2023-06-07 12:11:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: halfapi
+[2023-06-07 12:11:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: th2-grpc-lw-data-provider
+[2023-06-07 12:11:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dve-lumipy-preview
+[2023-06-07 12:11:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bionty
+[2023-06-07 12:11:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo14-addon-delivery-mrw
+[2023-06-07 12:11:27] WARNING root fetch - processPackages [odoo14-addon-hr-employee-birthday-mail]: Skipping, unable to determine old version
+[2023-06-07 12:11:27] INFO root fetch - processPackages [odoo14-addon-hr-employee-birthday-mail]: Start processing: artus
+[2023-06-07 12:11:27] INFO root fetch - main [MainThread]: End processing [odoo14-addon-hr-employee-birthday-mail] error
+[2023-06-07 12:11:27] INFO root fetch - processPackages [locationsharinglib]: New version: [5.0.2] Old Version: [5.0.1]
+[2023-06-07 12:11:27] WARNING root fetch - processPackages [udl-vis]: Skipping, unable to determine old version
+[2023-06-07 12:11:27] INFO root fetch - processPackages [udl-vis]: Start processing: plumpy
+[2023-06-07 12:11:27] INFO root fetch - main [MainThread]: End processing [udl-vis] error
+[2023-06-07 12:11:27] INFO root fetch - processPackages [dve-lumipy-preview]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-06-07 12:11:27] INFO root fetch - processPackages [halfapi]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-06-07 12:11:27] INFO root fetch - processPackages [odoo14-addon-delivery-mrw]: New version: [14.0.1.1.2] Old Version: [14.0.1.1.1.dev1]
+[2023-06-07 12:11:27] INFO root fetch - processPackages [autocti]: New version: [2023.7.7.2] Old Version: [2023.1.15.1]
+[2023-06-07 12:11:27] INFO root fetch - processPackages [bionty]: New version: [0.9.0rc1] Old Version: [0.9.0]
+[2023-06-07 12:11:27] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: New version: [2.1.0.dev3871883101] Old Version: [2.0.0.dev5198672099]
+[2023-06-07 12:11:27] WARNING root fetch - processPackages [artus]: Skipping, unable to determine old version
+[2023-06-07 12:11:27] INFO root fetch - processPackages [artus]: Start processing: pancollection
+[2023-06-07 12:11:27] INFO root fetch - main [MainThread]: End processing [artus] error
+[2023-06-07 12:11:27] INFO root fetch - processPackages [autolens]: New version: [2023.7.7.2] Old Version: [2023.3.27.1]
+[2023-06-07 12:11:27] INFO root fetch - processPackages [plumpy]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-07 12:11:27] WARNING root fetch - processPackages [pancollection]: Skipping, unable to determine old version
+[2023-06-07 12:11:27] INFO root fetch - processPackages [pancollection]: Start processing: dm-reverb-nightly
+[2023-06-07 12:11:27] INFO root fetch - main [MainThread]: End processing [pancollection] error
+[2023-06-07 12:11:27] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Downloading https://files.pythonhosted.org/packages/8d/12/1cbf27b0feef70918cdf8e2c513bc3d1506791550cd3fe3cc6195464058f/th2_grpc_lw_data_provider-2.0.0.dev5198672099.tar.gz
+[2023-06-07 12:11:27] WARNING root fetch - processPackages [plumpy]: fallback to get urls: [0.9.0]
+[2023-06-07 12:11:27] INFO root fetch - processPackages [autolens]: Downloading https://files.pythonhosted.org/packages/31/2f/35bd336434fbbdb5df8968b9a8d0b5d0100b6922ccd31f99f532dc237aa7/autolens-2023.3.27.1.tar.gz
+[2023-06-07 12:11:27] WARNING root fetch - processPackages [plumpy]: None
+[2023-06-07 12:11:27] INFO root fetch - processPackages [locationsharinglib]: Downloading https://files.pythonhosted.org/packages/56/c1/daf72897369928a051b37a61bd8df1e8990a36a0edd305b75344194aa144/locationsharinglib-5.0.1.tar.gz
+[2023-06-07 12:11:27] INFO root fetch - processPackages [halfapi]: Downloading https://files.pythonhosted.org/packages/b4/e3/c47e9037ab35f8311815c7b553663e31a0e9a1bc11289048c29c244c18b5/halfapi-0.6.8.tar.gz
+[2023-06-07 12:11:27] INFO root fetch - processPackages [odoo14-addon-delivery-mrw]: Downloading https://files.pythonhosted.org/packages/11/0f/132aa579854bba612c0837cd1516bc8466fdd50f1e6c80e9c823afa8b5ae/odoo14_addon_delivery_mrw-14.0.1.1.1.dev1-py3-none-any.whl
+[2023-06-07 12:11:27] INFO root fetch - processPackages [dm-reverb-nightly]: New version: [0.9.0.dev20221207] Old Version: [0.9.0.dev20221206]
+[2023-06-07 12:11:27] INFO root fetch - processPackages [dve-lumipy-preview]: Downloading https://files.pythonhosted.org/packages/53/1b/b95ae9f1ee0d70add76cdadfbc66a40e9a2c285b2ea88f903954b90ef30e/dve_lumipy_preview-0.1.98-py3-none-any.whl
+[2023-06-07 12:11:27] WARNING root fetch - processPackages [plumpy]: None
+[2023-06-07 12:11:27] INFO root fetch - processPackages [bionty]: Downloading https://files.pythonhosted.org/packages/99/96/56b5f6e7d406917b173d9b761f4b2ff41b68d375105fe40b9b23131b295d/bionty-0.9.0.tar.gz
+[2023-06-07 12:11:27] INFO root fetch - processPackages [autocti]: Downloading https://files.pythonhosted.org/packages/28/78/d789d4dbf093e6eda5c545ed66343d6326f0033bffe8d823007608bd0525/autocti-2023.1.15.1.tar.gz
+[2023-06-07 12:11:27] WARNING root fetch - processPackages [plumpy]: unable to get url for both version [0.9.0]
+[2023-06-07 12:11:27] WARNING root fetch - processPackages [plumpy]: None
+[2023-06-07 12:11:27] INFO root fetch - processPackages [plumpy]: Start processing: tenyks-cli
+[2023-06-07 12:11:27] INFO root fetch - main [MainThread]: End processing [plumpy] error
+[2023-06-07 12:11:27] INFO root fetch - processPackages [tenyks-cli]: New version: [0.2.45] Old Version: [0.2.44]
+[2023-06-07 12:11:27] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Downloading https://files.pythonhosted.org/packages/b8/71/939eea7287068082732ec066dc1b9af347f7ee06c935058691236acf7459/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz
+[2023-06-07 12:11:27] INFO root fetch - processPackages [dm-reverb-nightly]: Downloading https://files.pythonhosted.org/packages/b4/60/e92fdb2c772dd865b56f7c50bfc1c4bffe5431b4007700cd760900e7aaf2/dm_reverb_nightly-0.9.0.dev20221206-cp39-cp39-manylinux2014_x86_64.whl
+[2023-06-07 12:11:27] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: executing diffoscope
+[2023-06-07 12:11:27] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_grpc_lw_data_provider-2.0.0.dev5198672099.tar.gz tmp/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz --markdown 20230607/t/th2-grpc-lw-data-provider/2.0.0.dev5198672099-2.1.0.dev3871883101/diff.md --exclude *.pyd
+[2023-06-07 12:11:27] INFO root fetch - processPackages [odoo14-addon-delivery-mrw]: Downloading https://files.pythonhosted.org/packages/1c/02/6059d3de8165317fd5c5f8429c4fe881a1efe67fd0019d422bdf2a7dd13f/odoo14_addon_delivery_mrw-14.0.1.1.2-py3-none-any.whl
+[2023-06-07 12:11:27] INFO root fetch - processPackages [locationsharinglib]: Downloading https://files.pythonhosted.org/packages/cd/69/e2140e7381ed6f7817842d2a14934ca2b646a8d7ed3b4721b9e93d8b829b/locationsharinglib-5.0.2.tar.gz
+[2023-06-07 12:11:27] INFO root fetch - processPackages [odoo14-addon-delivery-mrw]: executing diffoscope
+[2023-06-07 12:11:27] INFO root fetch - processPackages [odoo14-addon-delivery-mrw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_delivery_mrw-14.0.1.1.1.dev1-py3-none-any.whl.zip tmp/odoo14_addon_delivery_mrw-14.0.1.1.2-py3-none-any.whl.zip --markdown 20230607/o/odoo14-addon-delivery-mrw/14.0.1.1.1.dev1-14.0.1.1.2/diff.md --exclude *.pyd
+[2023-06-07 12:11:27] INFO root fetch - processPackages [autocti]: Downloading https://files.pythonhosted.org/packages/90/bd/0ac6e2fc33148c33d897fab9e7132e56b70dc0002a55e7a1e2634ef571b0/autocti-2023.7.7.2.tar.gz
+[2023-06-07 12:11:27] INFO root fetch - processPackages [locationsharinglib]: executing diffoscope
+[2023-06-07 12:11:27] INFO root fetch - processPackages [locationsharinglib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/locationsharinglib-5.0.1.tar.gz tmp/locationsharinglib-5.0.2.tar.gz --markdown 20230607/l/locationsharinglib/5.0.1-5.0.2/diff.md --exclude *.pyd
+[2023-06-07 12:11:27] INFO root fetch - processPackages [dve-lumipy-preview]: Downloading https://files.pythonhosted.org/packages/3e/79/4e5e14a533ef4877c17c99900bbdc73daee3c1499e43275f026447166ab0/dve_lumipy_preview-0.1.99-py3-none-any.whl
+[2023-06-07 12:11:27] INFO root fetch - processPackages [tenyks-cli]: Downloading https://files.pythonhosted.org/packages/02/29/9354d94f16efece04cd75d22ddd3777c56dd01a03be4918b45f544cf014c/tenyks-cli-0.2.44.tar.gz
+[2023-06-07 12:11:28] INFO root fetch - processPackages [dve-lumipy-preview]: executing diffoscope
+[2023-06-07 12:11:28] INFO root fetch - processPackages [dve-lumipy-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dve_lumipy_preview-0.1.98-py3-none-any.whl.zip tmp/dve_lumipy_preview-0.1.99-py3-none-any.whl.zip --markdown 20230607/d/dve-lumipy-preview/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-06-07 12:11:28] INFO root fetch - processPackages [tenyks-cli]: Downloading https://files.pythonhosted.org/packages/03/04/ebe0abccd303cb2bf06f9df6b892a64c9a2f20ce2b551b24552643ddce39/tenyks-cli-0.2.45.tar.gz
+[2023-06-07 12:11:28] INFO root fetch - processPackages [bionty]: Downloading https://files.pythonhosted.org/packages/f4/01/3a99104d9a37cf7fbdae5c733cec97f252f8eb35f5553cd253a05edf8420/bionty-0.9.0rc1.tar.gz
+[2023-06-07 12:11:28] INFO root fetch - processPackages [tenyks-cli]: executing diffoscope
+[2023-06-07 12:11:28] INFO root fetch - processPackages [tenyks-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tenyks-cli-0.2.44.tar.gz tmp/tenyks-cli-0.2.45.tar.gz --markdown 20230607/t/tenyks-cli/0.2.44-0.2.45/diff.md --exclude *.pyd
+[2023-06-07 12:11:28] INFO root fetch - processPackages [halfapi]: Downloading https://files.pythonhosted.org/packages/e9/1e/904a3afe317948b48deb8f04eb83299c17f694f5829a0fff32e584cd3c50/halfapi-0.6.9.tar.gz
+[2023-06-07 12:11:28] INFO root fetch - processPackages [bionty]: executing diffoscope
+[2023-06-07 12:11:28] INFO root fetch - processPackages [bionty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bionty-0.9.0.tar.gz tmp/bionty-0.9.0rc1.tar.gz --markdown 20230607/b/bionty/0.9.0-0.9.0rc1/diff.md --exclude *.pyd
+[2023-06-07 12:11:28] INFO root fetch - processPackages [autocti]: executing diffoscope
+[2023-06-07 12:11:28] INFO root fetch - processPackages [autocti]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autocti-2023.1.15.1.tar.gz tmp/autocti-2023.7.7.2.tar.gz --markdown 20230607/a/autocti/2023.1.15.1-2023.7.7.2/diff.md --exclude *.pyd
+[2023-06-07 12:11:28] INFO root fetch - processPackages [halfapi]: executing diffoscope
+[2023-06-07 12:11:28] INFO root fetch - processPackages [halfapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/halfapi-0.6.8.tar.gz tmp/halfapi-0.6.9.tar.gz --markdown 20230607/h/halfapi/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-06-07 12:11:29] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_lw_data_provider-2.0.0.dev5198672099.tar.gz]
+[2023-06-07 12:11:29] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz]
+[2023-06-07 12:11:29] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Start processing: dataqualityx
+[2023-06-07 12:11:29] INFO root fetch - main [MainThread]: End processing [th2-grpc-lw-data-provider]: success
+[2023-06-07 12:11:29] WARNING root fetch - processPackages [dataqualityx]: Skipping, unable to determine old version
+[2023-06-07 12:11:29] INFO root fetch - processPackages [dataqualityx]: Start processing: pyobsplot
+[2023-06-07 12:11:29] INFO root fetch - main [MainThread]: End processing [dataqualityx] error
+[2023-06-07 12:11:29] INFO root fetch - processPackages [dm-reverb-nightly]: Downloading https://files.pythonhosted.org/packages/07/ba/e9ef4e61b606a17814023d4b0a99ebf04f48787449f89134eb770db70591/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl
+[2023-06-07 12:11:29] INFO root fetch - processPackages [odoo14-addon-delivery-mrw]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_delivery_mrw-14.0.1.1.1.dev1-py3-none-any.whl.zip]
+[2023-06-07 12:11:29] INFO root fetch - processPackages [odoo14-addon-delivery-mrw]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_delivery_mrw-14.0.1.1.2-py3-none-any.whl.zip]
+[2023-06-07 12:11:29] INFO root fetch - main [MainThread]: End processing [odoo14-addon-delivery-mrw]: success
+[2023-06-07 12:11:29] INFO root fetch - processPackages [pyobsplot]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-06-07 12:11:29] INFO root fetch - processPackages [autolens]: Downloading https://files.pythonhosted.org/packages/b7/b7/2d3f84922685179c56eaa6ccbbc39cf52a3c6de7fe44d119ee1eb919894f/autolens-2023.7.7.2.tar.gz
+[2023-06-07 12:11:29] INFO root fetch - processPackages [dm-reverb-nightly]: executing diffoscope
+[2023-06-07 12:11:29] INFO root fetch - processPackages [dm-reverb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dm_reverb_nightly-0.9.0.dev20221206-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230607/d/dm-reverb-nightly/0.9.0.dev20221206-0.9.0.dev20221207/diff.md --exclude *.pyd
+[2023-06-07 12:11:29] INFO root fetch - processPackages [autolens]: executing diffoscope
+[2023-06-07 12:11:29] INFO root fetch - processPackages [autolens]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autolens-2023.3.27.1.tar.gz tmp/autolens-2023.7.7.2.tar.gz --markdown 20230607/a/autolens/2023.3.27.1-2023.7.7.2/diff.md --exclude *.pyd
+[2023-06-07 12:11:29] INFO root fetch - processPackages [pyobsplot]: Downloading https://files.pythonhosted.org/packages/9a/89/77d1c9fd005045dd9bb81ff19b0663b060ccc110a180a9296531991b2bf2/pyobsplot-0.3.4.tar.gz
+[2023-06-07 12:11:29] INFO root fetch - processPackages [tenyks-cli]: Remove: archive file [/home/abi/fetcher/tmp/tenyks-cli-0.2.44.tar.gz]
+[2023-06-07 12:11:29] INFO root fetch - processPackages [tenyks-cli]: Remove: archive file [/home/abi/fetcher/tmp/tenyks-cli-0.2.45.tar.gz]
+[2023-06-07 12:11:29] INFO root fetch - main [MainThread]: End processing [tenyks-cli]: success
+[2023-06-07 12:11:30] INFO root fetch - processPackages [pyobsplot]: Downloading https://files.pythonhosted.org/packages/e2/76/5aabfddf8191cb2457cb74f3e7f7a733db2ca7710fa471a1ddbeb7d0a7c0/pyobsplot-0.3.5.tar.gz
+[2023-06-07 12:11:30] INFO root fetch - processPackages [locationsharinglib]: Remove: archive file [/home/abi/fetcher/tmp/locationsharinglib-5.0.1.tar.gz]
+[2023-06-07 12:11:30] INFO root fetch - processPackages [locationsharinglib]: Remove: archive file [/home/abi/fetcher/tmp/locationsharinglib-5.0.2.tar.gz]
+[2023-06-07 12:11:30] INFO root fetch - main [MainThread]: End processing [locationsharinglib]: success
+[2023-06-07 12:11:30] INFO root fetch - processPackages [pyobsplot]: executing diffoscope
+[2023-06-07 12:11:30] INFO root fetch - processPackages [pyobsplot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyobsplot-0.3.4.tar.gz tmp/pyobsplot-0.3.5.tar.gz --markdown 20230607/p/pyobsplot/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-06-07 12:11:30] INFO root fetch - processPackages [dve-lumipy-preview]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_preview-0.1.98-py3-none-any.whl.zip]
+[2023-06-07 12:11:30] INFO root fetch - processPackages [dve-lumipy-preview]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_preview-0.1.99-py3-none-any.whl.zip]
+[2023-06-07 12:11:30] INFO root fetch - main [MainThread]: End processing [dve-lumipy-preview]: success
+[2023-06-07 12:11:30] INFO root fetch - processPackages [halfapi]: Remove: archive file [/home/abi/fetcher/tmp/halfapi-0.6.8.tar.gz]
+[2023-06-07 12:11:30] INFO root fetch - processPackages [halfapi]: Remove: archive file [/home/abi/fetcher/tmp/halfapi-0.6.9.tar.gz]
+[2023-06-07 12:11:30] INFO root fetch - main [MainThread]: End processing [halfapi]: success
+[2023-06-07 12:11:30] INFO root fetch - processPackages [bionty]: Remove: archive file [/home/abi/fetcher/tmp/bionty-0.9.0.tar.gz]
+[2023-06-07 12:11:30] INFO root fetch - processPackages [bionty]: Remove: archive file [/home/abi/fetcher/tmp/bionty-0.9.0rc1.tar.gz]
+[2023-06-07 12:11:30] INFO root fetch - main [MainThread]: End processing [bionty]: success
+[2023-06-07 12:11:32] INFO root fetch - processPackages [autocti]: Remove: archive file [/home/abi/fetcher/tmp/autocti-2023.1.15.1.tar.gz]
+[2023-06-07 12:11:32] INFO root fetch - processPackages [autocti]: Remove: archive file [/home/abi/fetcher/tmp/autocti-2023.7.7.2.tar.gz]
+[2023-06-07 12:11:32] INFO root fetch - main [MainThread]: End processing [autocti]: success
+[2023-06-07 12:11:33] INFO root fetch - processPackages [autolens]: Remove: archive file [/home/abi/fetcher/tmp/autolens-2023.3.27.1.tar.gz]
+[2023-06-07 12:11:33] INFO root fetch - processPackages [autolens]: Remove: archive file [/home/abi/fetcher/tmp/autolens-2023.7.7.2.tar.gz]
+[2023-06-07 12:11:33] INFO root fetch - main [MainThread]: End processing [autolens]: success
+[2023-06-07 12:11:43] INFO root fetch - processPackages [pyobsplot]: Remove: archive file [/home/abi/fetcher/tmp/pyobsplot-0.3.4.tar.gz]
+[2023-06-07 12:11:43] INFO root fetch - processPackages [pyobsplot]: Remove: archive file [/home/abi/fetcher/tmp/pyobsplot-0.3.5.tar.gz]
+[2023-06-07 12:11:43] INFO root fetch - main [MainThread]: End processing [pyobsplot]: success
+[2023-06-07 12:12:24] INFO root fetch - processPackages [dm-reverb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/dm_reverb_nightly-0.9.0.dev20221206-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-06-07 12:12:24] INFO root fetch - processPackages [dm-reverb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-06-07 12:12:24] INFO root fetch - main [MainThread]: End processing [dm-reverb-nightly]: success
+[2023-06-07 12:12:24] INFO root fetch - main [MainThread]: Store serial: [18406383]
