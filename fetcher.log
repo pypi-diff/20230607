@@ -20097,3 +20097,119 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-07 11:45:05] INFO root fetch - processPackages [langflow]: Remove: archive file [/home/abi/fetcher/tmp/langflow-0.0.84.tar.gz]
 [2023-06-07 11:45:05] INFO root fetch - main [MainThread]: End processing [langflow]: success
 [2023-06-07 11:45:05] INFO root fetch - main [MainThread]: Store serial: [18406118]
+[2023-06-07 11:50:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18406118]
+[2023-06-07 11:50:14] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-07 11:50:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: discord-advert-framework
+[2023-06-07 11:50:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gaitmap
+[2023-06-07 11:50:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nonebot-plugin-sky
+[2023-06-07 11:50:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: FlashGBX
+[2023-06-07 11:50:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: trl
+[2023-06-07 11:50:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spPersist
+[2023-06-07 11:50:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: autoarray
+[2023-06-07 11:50:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gaitmap-mad
+[2023-06-07 11:50:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: autogalaxy
+[2023-06-07 11:50:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pybiolib
+[2023-06-07 11:50:14] INFO root fetch - processPackages [discord-advert-framework]: New version: [2.8.3] Old Version: [2.8.2]
+[2023-06-07 11:50:14] WARNING root fetch - processPackages [gaitmap-mad]: Skipping, unable to determine old version
+[2023-06-07 11:50:14] INFO root fetch - processPackages [gaitmap-mad]: Start processing: bingads
+[2023-06-07 11:50:14] INFO root fetch - main [MainThread]: End processing [gaitmap-mad] error
+[2023-06-07 11:50:14] INFO root fetch - processPackages [autogalaxy]: New version: [2023.7.7.1] Old Version: [2023.3.27.1]
+[2023-06-07 11:50:14] INFO root fetch - processPackages [trl]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-06-07 11:50:14] WARNING root fetch - processPackages [gaitmap]: Skipping, unable to determine old version
+[2023-06-07 11:50:14] INFO root fetch - processPackages [gaitmap]: Start processing: fairbench
+[2023-06-07 11:50:14] INFO root fetch - processPackages [spPersist]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-06-07 11:50:14] INFO root fetch - main [MainThread]: End processing [gaitmap] error
+[2023-06-07 11:50:14] INFO root fetch - processPackages [FlashGBX]: New version: [3.9] Old Version: [3.8]
+[2023-06-07 11:50:14] INFO root fetch - processPackages [nonebot-plugin-sky]: New version: [2.2.9.post1] Old Version: [2.2.9]
+[2023-06-07 11:50:14] INFO root fetch - processPackages [autoarray]: New version: [2023.7.7.1] Old Version: [2023.3.27.1]
+[2023-06-07 11:50:14] INFO root fetch - processPackages [bingads]: New version: [9.3.4] Old Version: [9.3.3]
+[2023-06-07 11:50:14] INFO root fetch - processPackages [pybiolib]: New version: [1.1.971] Old Version: [1.1.968]
+[2023-06-07 11:50:14] INFO root fetch - processPackages [fairbench]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-06-07 11:50:14] INFO root fetch - processPackages [trl]: Downloading https://files.pythonhosted.org/packages/34/d3/0186c3408e6ab76dc217b1366f3c929d48717435370838213cf1714510ef/trl-0.4.1.tar.gz
+[2023-06-07 11:50:14] INFO root fetch - processPackages [spPersist]: Downloading https://files.pythonhosted.org/packages/0f/f1/462ac0341e1efd982afc8ea573a22c045e2c4bb8dde732174970b1f347cc/spPersist-0.2.2.tar.gz
+[2023-06-07 11:50:14] INFO root fetch - processPackages [pybiolib]: Downloading https://files.pythonhosted.org/packages/ff/f1/b8629876c153149973770f81eff145b70e65837b25cd4cb8f9cc0309d56d/pybiolib-1.1.968.tar.gz
+[2023-06-07 11:50:14] INFO root fetch - processPackages [nonebot-plugin-sky]: Downloading https://files.pythonhosted.org/packages/a2/c4/c8bd8866838ff6cd531b7c7875a10692087ad5ce3d7753669e38537cab65/nonebot-plugin-sky-2.2.9.tar.gz
+[2023-06-07 11:50:14] INFO root fetch - processPackages [fairbench]: Downloading https://files.pythonhosted.org/packages/63/78/ebf6c5a46d1ba1b053b4fdeebf6313bc69d83ca02a6ed4429538e7e4eea4/fairbench-0.2.4-py3-none-any.whl
+[2023-06-07 11:50:14] INFO root fetch - processPackages [autogalaxy]: Downloading https://files.pythonhosted.org/packages/c2/8e/13a3295d8ea7c4f6ee6e04aea9eb1f43b7a41eaa13a75bec9d6d858b0263/autogalaxy-2023.3.27.1.tar.gz
+[2023-06-07 11:50:14] INFO root fetch - processPackages [discord-advert-framework]: Downloading https://files.pythonhosted.org/packages/04/3d/6625a784920d27e6470c4f9cf6dc2934fcc032f64d36dcbf344b44ad4eb4/discord-advert-framework-2.8.2.tar.gz
+[2023-06-07 11:50:14] INFO root fetch - processPackages [FlashGBX]: Downloading https://files.pythonhosted.org/packages/ee/5a/a2eb33ad2508c9cb01b5b61a4b0a7a9188fcf55009ccaa61a5fca3fc46e8/FlashGBX-3.8.tar.gz
+[2023-06-07 11:50:14] WARNING root fetch - processPackages [discord-advert-framework]: Skipping package: exceeds size limit 18343975>=10485760
+[2023-06-07 11:50:14] INFO root fetch - processPackages [discord-advert-framework]: Start processing: wikitexthtml
+[2023-06-07 11:50:14] INFO root fetch - main [MainThread]: End processing [discord-advert-framework] error
+[2023-06-07 11:50:14] INFO root fetch - processPackages [bingads]: Downloading https://files.pythonhosted.org/packages/44/36/ff004800ab37d2c93587776b6fdc9947ee284f0b1138fbe77bfdc0850310/bingads-9.3.3.zip
+[2023-06-07 11:50:14] INFO root fetch - processPackages [autoarray]: Downloading https://files.pythonhosted.org/packages/dc/f3/07272e3b1dd5b0a8ba9bf8fc5fdc75e0a6ca4c1392310fc86d9fc93f6ac6/autoarray-2023.3.27.1.tar.gz
+[2023-06-07 11:50:14] INFO root fetch - processPackages [nonebot-plugin-sky]: Downloading https://files.pythonhosted.org/packages/f2/09/52a7fd843dfcee3bc994606a6d94baf85d1921205fd8d0c5408c37f6d104/nonebot-plugin-sky-2.2.9.post1.tar.gz
+[2023-06-07 11:50:14] INFO root fetch - processPackages [spPersist]: Downloading https://files.pythonhosted.org/packages/72/7a/0f2ee7ec76ff85851a040d77c9bba8b4f2aba89fc8c32d139a57edc5f1d3/spPersist-0.2.3.tar.gz
+[2023-06-07 11:50:14] INFO root fetch - processPackages [pybiolib]: Downloading https://files.pythonhosted.org/packages/16/81/b84faee034cf9ec8f863611749b5efbe046622f02fcd690d01f2f5bb132d/pybiolib-1.1.971.tar.gz
+[2023-06-07 11:50:14] INFO root fetch - processPackages [wikitexthtml]: New version: [1.2.0] Old Version: [1.1.2]
+[2023-06-07 11:50:14] INFO root fetch - processPackages [fairbench]: Downloading https://files.pythonhosted.org/packages/4b/d4/09ed5bb7b7cabbe89b10e28ca268e2bb202991f5b94be93ddd8fbc88f167/fairbench-0.2.5-py3-none-any.whl
+[2023-06-07 11:50:15] INFO root fetch - processPackages [trl]: Downloading https://files.pythonhosted.org/packages/d8/03/ce40d6497ae8c2269e733879d97bd894027607fab15a64c662b9a1617441/trl-0.4.2-py3-none-any.whl
+[2023-06-07 11:50:15] INFO root fetch - processPackages [spPersist]: executing diffoscope
+[2023-06-07 11:50:15] INFO root fetch - processPackages [spPersist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spPersist-0.2.2.tar.gz tmp/spPersist-0.2.3.tar.gz --markdown 20230607/s/spPersist/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-06-07 11:50:15] INFO root fetch - processPackages [fairbench]: executing diffoscope
+[2023-06-07 11:50:15] INFO root fetch - processPackages [fairbench]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fairbench-0.2.4-py3-none-any.whl.zip tmp/fairbench-0.2.5-py3-none-any.whl.zip --markdown 20230607/f/fairbench/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-06-07 11:50:15] INFO root fetch - processPackages [autogalaxy]: Downloading https://files.pythonhosted.org/packages/d5/b8/c66839a3ad8f2f83ea28a4271b4b271747b1927ce0649f29288c0fcd369e/autogalaxy-2023.7.7.1.tar.gz
+[2023-06-07 11:50:15] INFO root fetch - processPackages [trl]: executing diffoscope
+[2023-06-07 11:50:15] INFO root fetch - processPackages [trl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trl-0.4.1.tar.gz tmp/trl-0.4.2-py3-none-any.whl.zip --markdown 20230607/t/trl/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-06-07 11:50:15] INFO root fetch - processPackages [pybiolib]: executing diffoscope
+[2023-06-07 11:50:15] INFO root fetch - processPackages [pybiolib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybiolib-1.1.968.tar.gz tmp/pybiolib-1.1.971.tar.gz --markdown 20230607/p/pybiolib/1.1.968-1.1.971/diff.md --exclude *.pyd
+[2023-06-07 11:50:15] INFO root fetch - processPackages [wikitexthtml]: Downloading https://files.pythonhosted.org/packages/18/a2/c28c1c93821a229ec89dd893aa3ad2c782a4febde35a713075b87179f499/wikitexthtml-1.1.2.tar.gz
+[2023-06-07 11:50:15] INFO root fetch - processPackages [FlashGBX]: Downloading https://files.pythonhosted.org/packages/c8/72/acefb62dbeece66c9b1dd593f90453843a08169b426de937d96a24dd1242/FlashGBX-3.9.tar.gz
+[2023-06-07 11:50:15] INFO root fetch - processPackages [autoarray]: Downloading https://files.pythonhosted.org/packages/92/33/aca1fcf0714efe4aaec61c0328766a3f5997918708647967bbcf93e2e8b7/autoarray-2023.7.7.1.tar.gz
+[2023-06-07 11:50:15] INFO root fetch - processPackages [nonebot-plugin-sky]: executing diffoscope
+[2023-06-07 11:50:15] INFO root fetch - processPackages [nonebot-plugin-sky]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-sky-2.2.9.tar.gz tmp/nonebot-plugin-sky-2.2.9.post1.tar.gz --markdown 20230607/n/nonebot-plugin-sky/2.2.9-2.2.9.post1/diff.md --exclude *.pyd
+[2023-06-07 11:50:15] INFO root fetch - processPackages [bingads]: Downloading https://files.pythonhosted.org/packages/98/94/6d692054faca42836f40f4dd6e2a282d3a83c1fe68ad58e341a5219541c5/bingads-9.3.4.zip
+[2023-06-07 11:50:15] INFO root fetch - processPackages [autogalaxy]: executing diffoscope
+[2023-06-07 11:50:15] INFO root fetch - processPackages [autogalaxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogalaxy-2023.3.27.1.tar.gz tmp/autogalaxy-2023.7.7.1.tar.gz --markdown 20230607/a/autogalaxy/2023.3.27.1-2023.7.7.1/diff.md --exclude *.pyd
+[2023-06-07 11:50:15] INFO root fetch - processPackages [FlashGBX]: executing diffoscope
+[2023-06-07 11:50:15] INFO root fetch - processPackages [FlashGBX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FlashGBX-3.8.tar.gz tmp/FlashGBX-3.9.tar.gz --markdown 20230607/F/FlashGBX/3.8-3.9/diff.md --exclude *.pyd
+[2023-06-07 11:50:15] INFO root fetch - processPackages [autoarray]: executing diffoscope
+[2023-06-07 11:50:15] INFO root fetch - processPackages [autoarray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autoarray-2023.3.27.1.tar.gz tmp/autoarray-2023.7.7.1.tar.gz --markdown 20230607/a/autoarray/2023.3.27.1-2023.7.7.1/diff.md --exclude *.pyd
+[2023-06-07 11:50:15] INFO root fetch - processPackages [bingads]: executing diffoscope
+[2023-06-07 11:50:15] INFO root fetch - processPackages [bingads]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bingads-9.3.3.zip tmp/bingads-9.3.4.zip --markdown 20230607/b/bingads/9.3.3-9.3.4/diff.md --exclude *.pyd
+[2023-06-07 11:50:15] INFO root fetch - processPackages [wikitexthtml]: Downloading https://files.pythonhosted.org/packages/c0/da/2936fc340c89c762550636e78beaed1845acfd636286e5bcce84df509075/wikitexthtml-1.2.0.tar.gz
+[2023-06-07 11:50:15] INFO root fetch - processPackages [wikitexthtml]: executing diffoscope
+[2023-06-07 11:50:15] INFO root fetch - processPackages [wikitexthtml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wikitexthtml-1.1.2.tar.gz tmp/wikitexthtml-1.2.0.tar.gz --markdown 20230607/w/wikitexthtml/1.1.2-1.2.0/diff.md --exclude *.pyd
+[2023-06-07 11:50:16] INFO root fetch - processPackages [fairbench]: Remove: archive file [/home/abi/fetcher/tmp/fairbench-0.2.4-py3-none-any.whl.zip]
+[2023-06-07 11:50:16] INFO root fetch - processPackages [fairbench]: Remove: archive file [/home/abi/fetcher/tmp/fairbench-0.2.5-py3-none-any.whl.zip]
+[2023-06-07 11:50:16] INFO root fetch - processPackages [fairbench]: Start processing: grpc-protoc-annotations
+[2023-06-07 11:50:16] INFO root fetch - main [MainThread]: End processing [fairbench]: success
+[2023-06-07 11:50:17] INFO root fetch - processPackages [spPersist]: Remove: archive file [/home/abi/fetcher/tmp/spPersist-0.2.2.tar.gz]
+[2023-06-07 11:50:17] INFO root fetch - processPackages [spPersist]: Remove: archive file [/home/abi/fetcher/tmp/spPersist-0.2.3.tar.gz]
+[2023-06-07 11:50:17] INFO root fetch - processPackages [spPersist]: Start processing: bunkatopics
+[2023-06-07 11:50:17] INFO root fetch - main [MainThread]: End processing [spPersist]: success
+[2023-06-07 11:50:17] INFO root fetch - processPackages [bunkatopics]: New version: [0.8] Old Version: [0.7]
+[2023-06-07 11:50:17] WARNING root fetch - processPackages [grpc-protoc-annotations]: Skipping, unable to determine old version
+[2023-06-07 11:50:17] INFO root fetch - main [MainThread]: End processing [grpc-protoc-annotations] error
+[2023-06-07 11:50:17] INFO root fetch - processPackages [bunkatopics]: Downloading https://files.pythonhosted.org/packages/ce/83/0a81009cd90884907a7dbf000b4620f61107e6d19af91c4e93aebf7e7a74/bunkatopics-0.7.tar.gz
+[2023-06-07 11:50:17] INFO root fetch - processPackages [trl]: Remove: archive file [/home/abi/fetcher/tmp/trl-0.4.1.tar.gz]
+[2023-06-07 11:50:17] INFO root fetch - processPackages [trl]: Remove: archive file [/home/abi/fetcher/tmp/trl-0.4.2-py3-none-any.whl.zip]
+[2023-06-07 11:50:17] INFO root fetch - main [MainThread]: End processing [trl]: success
+[2023-06-07 11:50:17] INFO root fetch - processPackages [bunkatopics]: Downloading https://files.pythonhosted.org/packages/ed/00/7a7a8067e7f169270993b124c983baf04df5e80eee002825a77288b3f886/bunkatopics-0.8.tar.gz
+[2023-06-07 11:50:17] INFO root fetch - processPackages [bunkatopics]: executing diffoscope
+[2023-06-07 11:50:17] INFO root fetch - processPackages [bunkatopics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bunkatopics-0.7.tar.gz tmp/bunkatopics-0.8.tar.gz --markdown 20230607/b/bunkatopics/0.7-0.8/diff.md --exclude *.pyd
+[2023-06-07 11:50:17] INFO root fetch - processPackages [wikitexthtml]: Remove: archive file [/home/abi/fetcher/tmp/wikitexthtml-1.1.2.tar.gz]
+[2023-06-07 11:50:17] INFO root fetch - processPackages [wikitexthtml]: Remove: archive file [/home/abi/fetcher/tmp/wikitexthtml-1.2.0.tar.gz]
+[2023-06-07 11:50:17] INFO root fetch - main [MainThread]: End processing [wikitexthtml]: success
+[2023-06-07 11:50:18] INFO root fetch - processPackages [bingads]: Remove: archive file [/home/abi/fetcher/tmp/bingads-9.3.3.zip]
+[2023-06-07 11:50:18] INFO root fetch - processPackages [bingads]: Remove: archive file [/home/abi/fetcher/tmp/bingads-9.3.4.zip]
+[2023-06-07 11:50:18] INFO root fetch - main [MainThread]: End processing [bingads]: success
+[2023-06-07 11:50:18] INFO root fetch - processPackages [FlashGBX]: Remove: archive file [/home/abi/fetcher/tmp/FlashGBX-3.8.tar.gz]
+[2023-06-07 11:50:18] INFO root fetch - processPackages [FlashGBX]: Remove: archive file [/home/abi/fetcher/tmp/FlashGBX-3.9.tar.gz]
+[2023-06-07 11:50:18] INFO root fetch - main [MainThread]: End processing [FlashGBX]: success
+[2023-06-07 11:50:18] INFO root fetch - processPackages [pybiolib]: Remove: archive file [/home/abi/fetcher/tmp/pybiolib-1.1.968.tar.gz]
+[2023-06-07 11:50:18] INFO root fetch - processPackages [pybiolib]: Remove: archive file [/home/abi/fetcher/tmp/pybiolib-1.1.971.tar.gz]
+[2023-06-07 11:50:18] INFO root fetch - main [MainThread]: End processing [pybiolib]: success
+[2023-06-07 11:50:18] INFO root fetch - processPackages [bunkatopics]: Remove: archive file [/home/abi/fetcher/tmp/bunkatopics-0.7.tar.gz]
+[2023-06-07 11:50:18] INFO root fetch - processPackages [bunkatopics]: Remove: archive file [/home/abi/fetcher/tmp/bunkatopics-0.8.tar.gz]
+[2023-06-07 11:50:18] INFO root fetch - main [MainThread]: End processing [bunkatopics]: success
+[2023-06-07 11:50:20] INFO root fetch - processPackages [nonebot-plugin-sky]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-sky-2.2.9.tar.gz]
+[2023-06-07 11:50:20] INFO root fetch - processPackages [nonebot-plugin-sky]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-sky-2.2.9.post1.tar.gz]
+[2023-06-07 11:50:20] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-sky]: success
+[2023-06-07 11:50:21] INFO root fetch - processPackages [autoarray]: Remove: archive file [/home/abi/fetcher/tmp/autoarray-2023.3.27.1.tar.gz]
+[2023-06-07 11:50:21] INFO root fetch - processPackages [autoarray]: Remove: archive file [/home/abi/fetcher/tmp/autoarray-2023.7.7.1.tar.gz]
+[2023-06-07 11:50:21] INFO root fetch - main [MainThread]: End processing [autoarray]: success
+[2023-06-07 11:50:25] INFO root fetch - processPackages [autogalaxy]: Remove: archive file [/home/abi/fetcher/tmp/autogalaxy-2023.3.27.1.tar.gz]
+[2023-06-07 11:50:25] INFO root fetch - processPackages [autogalaxy]: Remove: archive file [/home/abi/fetcher/tmp/autogalaxy-2023.7.7.1.tar.gz]
+[2023-06-07 11:50:25] INFO root fetch - main [MainThread]: End processing [autogalaxy]: success
+[2023-06-07 11:50:25] INFO root fetch - main [MainThread]: Store serial: [18406186]
