@@ -13585,3 +13585,20 @@ AssertionError: tmp/odoo_addon_crm_lead_firstname-16.0.1.0.1-py3-none-any.whl.zi
 [2023-06-07 07:43:59] INFO root fetch - processPackages [metricflow]: Remove: archive file [/home/abi/fetcher/tmp/metricflow-0.93.0.tar.gz]
 [2023-06-07 07:43:59] INFO root fetch - main [MainThread]: End processing [metricflow]: success
 [2023-06-07 07:43:59] INFO root fetch - main [MainThread]: Store serial: [18403191]
+[2023-06-07 07:49:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18403191]
+[2023-06-07 07:49:08] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-06-07 07:49:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gefpy
+[2023-06-07 07:49:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aioesphomeapi
+[2023-06-07 07:49:08] INFO root fetch - processPackages [aioesphomeapi]: New version: [9.1.5] Old Version: [9.1.4]
+[2023-06-07 07:49:08] INFO root fetch - processPackages [gefpy]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-06-07 07:49:09] INFO root fetch - processPackages [aioesphomeapi]: Downloading https://files.pythonhosted.org/packages/62/7f/d2cc3b95dfe936bbad8f3956f274147389d6625de031d1105261491bffd9/aioesphomeapi-9.1.4.tar.gz
+[2023-06-07 07:49:09] INFO root fetch - processPackages [gefpy]: Downloading https://files.pythonhosted.org/packages/41/d5/24e7698e63e60ced965283a80d676ed4b0d1b15555fb702520831f04ea27/gefpy-0.6.8-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-07 07:49:09] WARNING root fetch - processPackages [gefpy]: Skipping package: exceeds size limit 30509572>=10485760
+[2023-06-07 07:49:09] INFO root fetch - main [MainThread]: End processing [gefpy] error
+[2023-06-07 07:49:09] INFO root fetch - processPackages [aioesphomeapi]: Downloading https://files.pythonhosted.org/packages/95/57/381c894380ec58a8c891a923696dc0d97d7af266921f326f942ec3332685/aioesphomeapi-9.1.5.tar.gz
+[2023-06-07 07:49:09] INFO root fetch - processPackages [aioesphomeapi]: executing diffoscope
+[2023-06-07 07:49:09] INFO root fetch - processPackages [aioesphomeapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioesphomeapi-9.1.4.tar.gz tmp/aioesphomeapi-9.1.5.tar.gz --markdown 20230607/a/aioesphomeapi/9.1.4-9.1.5/diff.md --exclude *.pyd
+[2023-06-07 07:49:10] INFO root fetch - processPackages [aioesphomeapi]: Remove: archive file [/home/abi/fetcher/tmp/aioesphomeapi-9.1.4.tar.gz]
+[2023-06-07 07:49:10] INFO root fetch - processPackages [aioesphomeapi]: Remove: archive file [/home/abi/fetcher/tmp/aioesphomeapi-9.1.5.tar.gz]
+[2023-06-07 07:49:10] INFO root fetch - main [MainThread]: End processing [aioesphomeapi]: success
+[2023-06-07 07:49:10] INFO root fetch - main [MainThread]: Store serial: [18403212]
