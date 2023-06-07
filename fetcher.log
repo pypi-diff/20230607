@@ -20689,3 +20689,96 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-07 12:12:24] INFO root fetch - processPackages [dm-reverb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl.zip]
 [2023-06-07 12:12:24] INFO root fetch - main [MainThread]: End processing [dm-reverb-nightly]: success
 [2023-06-07 12:12:24] INFO root fetch - main [MainThread]: Store serial: [18406383]
+[2023-06-07 12:17:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18406383]
+[2023-06-07 12:17:34] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-07 12:17:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spiderYdb
+[2023-06-07 12:17:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aiostorage-orm
+[2023-06-07 12:17:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: miniscutil
+[2023-06-07 12:17:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: luminesce-sdk-preview
+[2023-06-07 12:17:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: graphsdk
+[2023-06-07 12:17:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: storage-orm
+[2023-06-07 12:17:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sphinxcontrib-katex
+[2023-06-07 12:17:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jupyterlab-liveupdate
+[2023-06-07 12:17:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: extendable-pydantic
+[2023-06-07 12:17:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: osint-python-starter-service
+[2023-06-07 12:17:34] WARNING root fetch - processPackages [graphsdk]: Skipping, unable to determine old version
+[2023-06-07 12:17:34] INFO root fetch - processPackages [graphsdk]: Start processing: longbridge
+[2023-06-07 12:17:34] INFO root fetch - main [MainThread]: End processing [graphsdk] error
+[2023-06-07 12:17:34] INFO root fetch - processPackages [miniscutil]: New version: [0.2.9] Old Version: [0.2.7]
+[2023-06-07 12:17:34] INFO root fetch - processPackages [storage-orm]: New version: [1.4.2] Old Version: [1.4.1]
+[2023-06-07 12:17:34] INFO root fetch - processPackages [spiderYdb]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-07 12:17:34] INFO root fetch - processPackages [aiostorage-orm]: New version: [1.4.2] Old Version: [1.4.1]
+[2023-06-07 12:17:34] INFO root fetch - processPackages [luminesce-sdk-preview]: New version: [1.9.92] Old Version: [1.9.88]
+[2023-06-07 12:17:34] WARNING root fetch - processPackages [jupyterlab-liveupdate]: Skipping, unable to determine old version
+[2023-06-07 12:17:34] INFO root fetch - processPackages [jupyterlab-liveupdate]: Start processing: junit-to-md-py
+[2023-06-07 12:17:34] INFO root fetch - main [MainThread]: End processing [jupyterlab-liveupdate] error
+[2023-06-07 12:17:34] INFO root fetch - processPackages [sphinxcontrib-katex]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-06-07 12:17:34] INFO root fetch - processPackages [osint-python-starter-service]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-06-07 12:17:34] INFO root fetch - processPackages [extendable-pydantic]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-07 12:17:34] INFO root fetch - processPackages [longbridge]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-07 12:17:34] INFO root fetch - processPackages [miniscutil]: Downloading https://files.pythonhosted.org/packages/65/33/369c90792f6567d666e0679e546988583b5cc5178b093bfadfaf334a634e/miniscutil-0.2.7.tar.gz
+[2023-06-07 12:17:34] INFO root fetch - processPackages [storage-orm]: Downloading https://files.pythonhosted.org/packages/64/a6/25d1a086b52fcf7adceb1a82e7662d7dae3fd6b8827ee05fbb19b922b30c/storage_orm-1.4.1.tar.gz
+[2023-06-07 12:17:34] INFO root fetch - processPackages [aiostorage-orm]: Downloading https://files.pythonhosted.org/packages/76/59/f6dda6b9262f8d9a225f7919f0040d8e15ccb55e4a6ecba4a737e43c91a4/aiostorage_orm-1.4.1.tar.gz
+[2023-06-07 12:17:34] INFO root fetch - processPackages [longbridge]: Downloading https://files.pythonhosted.org/packages/d1/a4/ddaf2c4051c174e664afcac3c6960fe3c243ee5221bbb2b7cf034444d64f/longbridge-0.2.8.tar.gz
+[2023-06-07 12:17:34] INFO root fetch - processPackages [spiderYdb]: Downloading https://files.pythonhosted.org/packages/e0/4a/96e1c84e7b452d0ae6bba0f4ed6f342d601205bd48989be284d7e541abcf/spiderYdb-0.1.8-py3-none-any.whl
+[2023-06-07 12:17:34] INFO root fetch - processPackages [extendable-pydantic]: Downloading https://files.pythonhosted.org/packages/23/97/aff5beaf1345e6182d19c922ce817f791d3ca86a18601f5b33d355afeeb3/extendable_pydantic-0.0.3.tar.gz
+[2023-06-07 12:17:34] INFO root fetch - processPackages [miniscutil]: Downloading https://files.pythonhosted.org/packages/d1/19/dacb657006ddcaf384265c79f7e1bdcd883941324f10f3e39d2d2593c382/miniscutil-0.2.9.tar.gz
+[2023-06-07 12:17:34] INFO root fetch - processPackages [luminesce-sdk-preview]: Downloading https://files.pythonhosted.org/packages/d3/7b/a9c3e829fb03ae79379224fe34adb99d80c6dbfc5f00ccc44cf429d34f61/luminesce-sdk-preview-1.9.88.tar.gz
+[2023-06-07 12:17:34] WARNING root fetch - processPackages [junit-to-md-py]: Skipping, unable to determine old version
+[2023-06-07 12:17:34] INFO root fetch - main [MainThread]: End processing [junit-to-md-py] error
+[2023-06-07 12:17:34] INFO root fetch - processPackages [sphinxcontrib-katex]: Downloading https://files.pythonhosted.org/packages/a3/57/0828834589425a73885f6404512780950d7821801401c0af173de1012fca/sphinxcontrib-katex-0.9.4.tar.gz
+[2023-06-07 12:17:34] INFO root fetch - processPackages [osint-python-starter-service]: Downloading https://files.pythonhosted.org/packages/1b/40/16d7b3d95be37e57b362e306f2a4cd78df5ef3fe7287ec5d580ecb58de6c/osint-python-starter-service-2.0.8.tar.gz
+[2023-06-07 12:17:34] INFO root fetch - processPackages [aiostorage-orm]: Downloading https://files.pythonhosted.org/packages/df/6a/d10a68ffe372592963edd3f7a4352cda79bc70fbd4420ab1ac25e16fcbf3/aiostorage_orm-1.4.2.tar.gz
+[2023-06-07 12:17:34] INFO root fetch - processPackages [miniscutil]: executing diffoscope
+[2023-06-07 12:17:34] INFO root fetch - processPackages [miniscutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miniscutil-0.2.7.tar.gz tmp/miniscutil-0.2.9.tar.gz --markdown 20230607/m/miniscutil/0.2.7-0.2.9/diff.md --exclude *.pyd
+[2023-06-07 12:17:34] INFO root fetch - processPackages [storage-orm]: Downloading https://files.pythonhosted.org/packages/e2/cc/5c0f61f14097f4d5d9c2f185e4bdfd5d2f5a7419b905dbbe8c06b4ed4bd6/storage_orm-1.4.2.tar.gz
+[2023-06-07 12:17:35] INFO root fetch - processPackages [storage-orm]: executing diffoscope
+[2023-06-07 12:17:35] INFO root fetch - processPackages [storage-orm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/storage_orm-1.4.1.tar.gz tmp/storage_orm-1.4.2.tar.gz --markdown 20230607/s/storage-orm/1.4.1-1.4.2/diff.md --exclude *.pyd
+[2023-06-07 12:17:35] INFO root fetch - processPackages [longbridge]: Downloading https://files.pythonhosted.org/packages/24/92/5ff3d6963889e844b0de3a7c2b3b92073bb9ecaf124bec5d587b033424e0/longbridge-0.2.9.tar.gz
+[2023-06-07 12:17:35] INFO root fetch - processPackages [aiostorage-orm]: executing diffoscope
+[2023-06-07 12:17:35] INFO root fetch - processPackages [aiostorage-orm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiostorage_orm-1.4.1.tar.gz tmp/aiostorage_orm-1.4.2.tar.gz --markdown 20230607/a/aiostorage-orm/1.4.1-1.4.2/diff.md --exclude *.pyd
+[2023-06-07 12:17:35] INFO root fetch - processPackages [osint-python-starter-service]: Downloading https://files.pythonhosted.org/packages/81/41/8c2842953c8cccf946bba5338293256ab666b75608c78a3dc1ec4437543d/osint-python-starter-service-2.0.9.tar.gz
+[2023-06-07 12:17:35] INFO root fetch - processPackages [extendable-pydantic]: Downloading https://files.pythonhosted.org/packages/de/cd/6578fa6861c4c502be0fa6475380a7fe3eb8d005fab7cea6b6a0a1867e97/extendable_pydantic-0.0.4.tar.gz
+[2023-06-07 12:17:35] INFO root fetch - processPackages [spiderYdb]: Downloading https://files.pythonhosted.org/packages/12/6b/82bc6b375e7acfe2112d16b6666a5e336ce876131a289c4456d0dfb79a18/spiderYdb-0.1.9-py3-none-any.whl
+[2023-06-07 12:17:35] INFO root fetch - processPackages [longbridge]: executing diffoscope
+[2023-06-07 12:17:35] INFO root fetch - processPackages [longbridge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/longbridge-0.2.8.tar.gz tmp/longbridge-0.2.9.tar.gz --markdown 20230607/l/longbridge/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-07 12:17:35] INFO root fetch - processPackages [luminesce-sdk-preview]: Downloading https://files.pythonhosted.org/packages/b4/a1/29e30342ad6b0ee5f31f57c9ebeee25c12a4805f3f972e1908bf31abd599/luminesce-sdk-preview-1.9.92.tar.gz
+[2023-06-07 12:17:35] INFO root fetch - processPackages [sphinxcontrib-katex]: Downloading https://files.pythonhosted.org/packages/ea/21/f10ba84172c43e2e0f2fc37f2514e914c399932acb0a4303096a55fedcaf/sphinxcontrib-katex-0.9.5.tar.gz
+[2023-06-07 12:17:35] INFO root fetch - processPackages [extendable-pydantic]: executing diffoscope
+[2023-06-07 12:17:35] INFO root fetch - processPackages [extendable-pydantic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/extendable_pydantic-0.0.3.tar.gz tmp/extendable_pydantic-0.0.4.tar.gz --markdown 20230607/e/extendable-pydantic/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-07 12:17:35] INFO root fetch - processPackages [luminesce-sdk-preview]: executing diffoscope
+[2023-06-07 12:17:35] INFO root fetch - processPackages [luminesce-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/luminesce-sdk-preview-1.9.88.tar.gz tmp/luminesce-sdk-preview-1.9.92.tar.gz --markdown 20230607/l/luminesce-sdk-preview/1.9.88-1.9.92/diff.md --exclude *.pyd
+[2023-06-07 12:17:35] INFO root fetch - processPackages [osint-python-starter-service]: executing diffoscope
+[2023-06-07 12:17:35] INFO root fetch - processPackages [osint-python-starter-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osint-python-starter-service-2.0.8.tar.gz tmp/osint-python-starter-service-2.0.9.tar.gz --markdown 20230607/o/osint-python-starter-service/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-06-07 12:17:35] INFO root fetch - processPackages [sphinxcontrib-katex]: executing diffoscope
+[2023-06-07 12:17:35] INFO root fetch - processPackages [sphinxcontrib-katex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinxcontrib-katex-0.9.4.tar.gz tmp/sphinxcontrib-katex-0.9.5.tar.gz --markdown 20230607/s/sphinxcontrib-katex/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-06-07 12:17:35] INFO root fetch - processPackages [spiderYdb]: executing diffoscope
+[2023-06-07 12:17:35] INFO root fetch - processPackages [spiderYdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spiderYdb-0.1.8-py3-none-any.whl.zip tmp/spiderYdb-0.1.9-py3-none-any.whl.zip --markdown 20230607/s/spiderYdb/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-07 12:17:36] INFO root fetch - processPackages [aiostorage-orm]: Remove: archive file [/home/abi/fetcher/tmp/aiostorage_orm-1.4.1.tar.gz]
+[2023-06-07 12:17:36] INFO root fetch - processPackages [aiostorage-orm]: Remove: archive file [/home/abi/fetcher/tmp/aiostorage_orm-1.4.2.tar.gz]
+[2023-06-07 12:17:36] INFO root fetch - main [MainThread]: End processing [aiostorage-orm]: success
+[2023-06-07 12:17:36] INFO root fetch - processPackages [extendable-pydantic]: Remove: archive file [/home/abi/fetcher/tmp/extendable_pydantic-0.0.3.tar.gz]
+[2023-06-07 12:17:36] INFO root fetch - processPackages [extendable-pydantic]: Remove: archive file [/home/abi/fetcher/tmp/extendable_pydantic-0.0.4.tar.gz]
+[2023-06-07 12:17:36] INFO root fetch - main [MainThread]: End processing [extendable-pydantic]: success
+[2023-06-07 12:17:36] INFO root fetch - processPackages [storage-orm]: Remove: archive file [/home/abi/fetcher/tmp/storage_orm-1.4.1.tar.gz]
+[2023-06-07 12:17:36] INFO root fetch - processPackages [storage-orm]: Remove: archive file [/home/abi/fetcher/tmp/storage_orm-1.4.2.tar.gz]
+[2023-06-07 12:17:36] INFO root fetch - main [MainThread]: End processing [storage-orm]: success
+[2023-06-07 12:17:37] INFO root fetch - processPackages [spiderYdb]: Remove: archive file [/home/abi/fetcher/tmp/spiderYdb-0.1.8-py3-none-any.whl.zip]
+[2023-06-07 12:17:37] INFO root fetch - processPackages [spiderYdb]: Remove: archive file [/home/abi/fetcher/tmp/spiderYdb-0.1.9-py3-none-any.whl.zip]
+[2023-06-07 12:17:37] INFO root fetch - main [MainThread]: End processing [spiderYdb]: success
+[2023-06-07 12:17:37] INFO root fetch - processPackages [miniscutil]: Remove: archive file [/home/abi/fetcher/tmp/miniscutil-0.2.7.tar.gz]
+[2023-06-07 12:17:37] INFO root fetch - processPackages [miniscutil]: Remove: archive file [/home/abi/fetcher/tmp/miniscutil-0.2.9.tar.gz]
+[2023-06-07 12:17:37] INFO root fetch - main [MainThread]: End processing [miniscutil]: success
+[2023-06-07 12:17:37] INFO root fetch - processPackages [osint-python-starter-service]: Remove: archive file [/home/abi/fetcher/tmp/osint-python-starter-service-2.0.8.tar.gz]
+[2023-06-07 12:17:37] INFO root fetch - processPackages [osint-python-starter-service]: Remove: archive file [/home/abi/fetcher/tmp/osint-python-starter-service-2.0.9.tar.gz]
+[2023-06-07 12:17:37] INFO root fetch - main [MainThread]: End processing [osint-python-starter-service]: success
+[2023-06-07 12:17:38] INFO root fetch - processPackages [luminesce-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/luminesce-sdk-preview-1.9.88.tar.gz]
+[2023-06-07 12:17:38] INFO root fetch - processPackages [luminesce-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/luminesce-sdk-preview-1.9.92.tar.gz]
+[2023-06-07 12:17:38] INFO root fetch - main [MainThread]: End processing [luminesce-sdk-preview]: success
+[2023-06-07 12:17:39] INFO root fetch - processPackages [longbridge]: Remove: archive file [/home/abi/fetcher/tmp/longbridge-0.2.8.tar.gz]
+[2023-06-07 12:17:39] INFO root fetch - processPackages [longbridge]: Remove: archive file [/home/abi/fetcher/tmp/longbridge-0.2.9.tar.gz]
+[2023-06-07 12:17:39] INFO root fetch - main [MainThread]: End processing [longbridge]: success
+[2023-06-07 12:17:40] INFO root fetch - processPackages [sphinxcontrib-katex]: Remove: archive file [/home/abi/fetcher/tmp/sphinxcontrib-katex-0.9.4.tar.gz]
+[2023-06-07 12:17:40] INFO root fetch - processPackages [sphinxcontrib-katex]: Remove: archive file [/home/abi/fetcher/tmp/sphinxcontrib-katex-0.9.5.tar.gz]
+[2023-06-07 12:17:40] INFO root fetch - main [MainThread]: End processing [sphinxcontrib-katex]: success
+[2023-06-07 12:17:40] INFO root fetch - main [MainThread]: Store serial: [18406458]
