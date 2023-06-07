@@ -13051,3 +13051,130 @@ AssertionError: tmp/odoo_addon_crm_lead_firstname-16.0.1.0.1-py3-none-any.whl.zi
 [2023-06-07 07:12:37] ERROR root fetch - processPackages [multi-model-server]: Timeout during execution of pkgdiff
 [2023-06-07 07:12:37] INFO root fetch - main [MainThread]: End processing [multi-model-server] error
 [2023-06-07 07:12:37] INFO root fetch - main [MainThread]: Store serial: [18402979]
+[2023-06-07 07:17:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18402979]
+[2023-06-07 07:17:46] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-07 07:17:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pythonic-toolbox
+[2023-06-07 07:17:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: EnToFa
+[2023-06-07 07:17:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: FiniteDiffX
+[2023-06-07 07:17:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: neuroshape
+[2023-06-07 07:17:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: neuroshape
+[2023-06-07 07:17:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: findu
+[2023-06-07 07:17:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: xia-engine
+[2023-06-07 07:17:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ml-plugins
+[2023-06-07 07:17:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: unmarkd
+[2023-06-07 07:17:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: onnx2tf
+[2023-06-07 07:17:46] INFO root fetch - processPackages [FiniteDiffX]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-07 07:17:46] INFO root fetch - processPackages [pythonic-toolbox]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-06-07 07:17:46] INFO root fetch - processPackages [findu]: New version: [0.0.19] Old Version: [0.0.18]
+[2023-06-07 07:17:46] INFO root fetch - processPackages [neuroshape]: New version: [0.0.3] Old Version: [0.0.1]
+[2023-06-07 07:17:46] INFO root fetch - processPackages [EnToFa]: New version: [1.4.2] Old Version: [1.4.1]
+[2023-06-07 07:17:46] INFO root fetch - processPackages [neuroshape]: New version: [0.0.3] Old Version: [0.0.1]
+[2023-06-07 07:17:46] INFO root fetch - processPackages [unmarkd]: New version: [1.0.0] Old Version: [0.1.9]
+[2023-06-07 07:17:46] INFO root fetch - processPackages [ml-plugins]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-07 07:17:46] INFO root fetch - processPackages [xia-engine]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-06-07 07:17:46] INFO root fetch - processPackages [onnx2tf]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-06-07 07:17:46] INFO root fetch - processPackages [ml-plugins]: Downloading https://files.pythonhosted.org/packages/8d/5c/d1b7c6f5a1a6cd777dac70d07efd117a8849579da78c5ed441b61f9f993f/ml_plugins-0.0.8.tar.gz
+[2023-06-07 07:17:46] INFO root fetch - processPackages [onnx2tf]: Downloading https://files.pythonhosted.org/packages/6f/b3/519ee148592d2531639c5f3c1434df000ecf2c24a5b55b61cba8fd4767f9/onnx2tf-1.9.8.tar.gz
+[2023-06-07 07:17:46] INFO root fetch - processPackages [neuroshape]: Downloading https://files.pythonhosted.org/packages/ef/6e/5efd843574d256b495046d6a3e40f7f52c82d943c3054d8dfa8e8e2c61a9/neuroshape-0.0.1-py3.7-macosx-10.9-x86_64.egg
+[2023-06-07 07:17:46] INFO root fetch - processPackages [neuroshape]: Downloading https://files.pythonhosted.org/packages/ef/6e/5efd843574d256b495046d6a3e40f7f52c82d943c3054d8dfa8e8e2c61a9/neuroshape-0.0.1-py3.7-macosx-10.9-x86_64.egg
+[2023-06-07 07:17:46] INFO root fetch - processPackages [findu]: Downloading https://files.pythonhosted.org/packages/b5/fa/c738ae1e829bd509c2b16556e9d6a33e0597d48226075078958487208558/findu-0.0.18.tar.gz
+[2023-06-07 07:17:46] INFO root fetch - processPackages [EnToFa]: Downloading https://files.pythonhosted.org/packages/76/46/66b1dfae73332394b89c6172c7a11b527784323f1829eadafa855fb03045/EnToFa-1.4.1.tar.gz
+[2023-06-07 07:17:46] INFO root fetch - processPackages [FiniteDiffX]: Downloading https://files.pythonhosted.org/packages/30/0a/fd13e47d32d3d3cd7b597da099ca6feff7014b548c64efc7356fb50fe606/FiniteDiffX-0.0.3.tar.gz
+[2023-06-07 07:17:46] INFO root fetch - processPackages [pythonic-toolbox]: Downloading https://files.pythonhosted.org/packages/a2/bd/c0b2ffe6a6bb501361e537941e9720f39beabeb67c754410e2c4100b8784/pythonic-toolbox-1.1.8.tar.gz
+[2023-06-07 07:17:46] INFO root fetch - processPackages [xia-engine]: Downloading https://files.pythonhosted.org/packages/9f/92/80041b4c67acbbf90ed04bf292d59f0ce014dc89862a7f0abda6cfaa02b3/xia_engine-0.8.8-cp39-none-win_amd64.whl
+[2023-06-07 07:17:46] INFO root fetch - processPackages [unmarkd]: Downloading https://files.pythonhosted.org/packages/33/9e/6d6b18b09da603b4a0de50fefcd7cc700d7b0b83534512991b02de2b60e6/unmarkd-0.1.9.tar.gz
+[2023-06-07 07:17:46] INFO root fetch - processPackages [ml-plugins]: Downloading https://files.pythonhosted.org/packages/e7/7d/b6e0fbc63a7fba7e7f13092dbd6e0e235405c3a610a161dab84beb57f63e/ml_plugins-0.0.9.tar.gz
+[2023-06-07 07:17:47] INFO root fetch - processPackages [onnx2tf]: Downloading https://files.pythonhosted.org/packages/0e/df/e0c6978b06db6c5c04de100ecbe0bbb281caed31c4dd88663e61e36ca571/onnx2tf-1.9.9.tar.gz
+[2023-06-07 07:17:47] INFO root fetch - processPackages [neuroshape]: Downloading https://files.pythonhosted.org/packages/77/cf/7d39bf2aa807bcae3802b62238c750d90e6eb8694c5b391551f533856647/neuroshape-0.0.3.tar.gz
+[2023-06-07 07:17:47] INFO root fetch - processPackages [ml-plugins]: executing diffoscope
+[2023-06-07 07:17:47] INFO root fetch - processPackages [ml-plugins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml_plugins-0.0.8.tar.gz tmp/ml_plugins-0.0.9.tar.gz --markdown 20230607/m/ml-plugins/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-07 07:17:47] INFO root fetch - processPackages [neuroshape]: Downloading https://files.pythonhosted.org/packages/77/cf/7d39bf2aa807bcae3802b62238c750d90e6eb8694c5b391551f533856647/neuroshape-0.0.3.tar.gz
+[2023-06-07 07:17:47] INFO root fetch - processPackages [findu]: Downloading https://files.pythonhosted.org/packages/49/33/bb0fd1e7e64661a5e586a4493736ca1b24842a4091f6f80ba16f0ed95409/findu-0.0.19.tar.gz
+[2023-06-07 07:17:47] INFO root fetch - processPackages [EnToFa]: Downloading https://files.pythonhosted.org/packages/67/f3/1163b944cfb24260c6b2bb8c8e7a50d425c7c38f98345193cd0aa34a46ab/EnToFa-1.4.2.tar.gz
+[2023-06-07 07:17:47] INFO root fetch - processPackages [onnx2tf]: executing diffoscope
+[2023-06-07 07:17:47] INFO root fetch - processPackages [onnx2tf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnx2tf-1.9.8.tar.gz tmp/onnx2tf-1.9.9.tar.gz --markdown 20230607/o/onnx2tf/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-06-07 07:17:47] INFO root fetch - processPackages [FiniteDiffX]: Downloading https://files.pythonhosted.org/packages/4a/bc/58305049787a2692d415098e0fabfe178c189102c3228a5efb0ff398d3c8/FiniteDiffX-0.0.4.tar.gz
+[2023-06-07 07:17:47] INFO root fetch - processPackages [unmarkd]: Downloading https://files.pythonhosted.org/packages/03/a1/ee37dc08030ebde46955bde5acc84623a68682081cb6b01d6e0d5a180855/unmarkd-1.0.0.tar.gz
+[2023-06-07 07:17:47] INFO root fetch - processPackages [FiniteDiffX]: executing diffoscope
+[2023-06-07 07:17:47] INFO root fetch - processPackages [FiniteDiffX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FiniteDiffX-0.0.3.tar.gz tmp/FiniteDiffX-0.0.4.tar.gz --markdown 20230607/F/FiniteDiffX/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-07 07:17:47] INFO root fetch - processPackages [neuroshape]: executing diffoscope
+[2023-06-07 07:17:47] INFO root fetch - processPackages [neuroshape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neuroshape-0.0.1-py3.7-macosx-10.9-x86_64.egg tmp/neuroshape-0.0.3.tar.gz --markdown 20230607/n/neuroshape/0.0.1-0.0.3/diff.md --exclude *.pyd
+[2023-06-07 07:17:47] INFO root fetch - processPackages [neuroshape]: executing diffoscope
+[2023-06-07 07:17:47] INFO root fetch - processPackages [neuroshape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neuroshape-0.0.1-py3.7-macosx-10.9-x86_64.egg tmp/neuroshape-0.0.3.tar.gz --markdown 20230607/n/neuroshape/0.0.1-0.0.3/diff.md --exclude *.pyd
+[2023-06-07 07:17:47] INFO root fetch - processPackages [EnToFa]: executing diffoscope
+[2023-06-07 07:17:47] INFO root fetch - processPackages [EnToFa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EnToFa-1.4.1.tar.gz tmp/EnToFa-1.4.2.tar.gz --markdown 20230607/E/EnToFa/1.4.1-1.4.2/diff.md --exclude *.pyd
+[2023-06-07 07:17:47] INFO root fetch - processPackages [pythonic-toolbox]: Downloading https://files.pythonhosted.org/packages/53/a4/6593e019d00f0258334b74d99ea09ea6cdb6187bdd14147c7b2f36515363/pythonic-toolbox-1.1.9.tar.gz
+[2023-06-07 07:17:47] INFO root fetch - processPackages [findu]: executing diffoscope
+[2023-06-07 07:17:47] INFO root fetch - processPackages [findu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/findu-0.0.18.tar.gz tmp/findu-0.0.19.tar.gz --markdown 20230607/f/findu/0.0.18-0.0.19/diff.md --exclude *.pyd
+[2023-06-07 07:17:47] INFO root fetch - processPackages [unmarkd]: executing diffoscope
+[2023-06-07 07:17:47] INFO root fetch - processPackages [unmarkd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unmarkd-0.1.9.tar.gz tmp/unmarkd-1.0.0.tar.gz --markdown 20230607/u/unmarkd/0.1.9-1.0.0/diff.md --exclude *.pyd
+[2023-06-07 07:17:47] INFO root fetch - processPackages [xia-engine]: Downloading https://files.pythonhosted.org/packages/02/d1/b8319143e6d2753c5c16b4ef1c4205148fb75b6883f79daa8d4fa2c1d8c0/xia_engine-0.8.9-cp39-none-win_amd64.whl
+[2023-06-07 07:17:48] INFO root fetch - processPackages [pythonic-toolbox]: executing diffoscope
+[2023-06-07 07:17:48] INFO root fetch - processPackages [pythonic-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythonic-toolbox-1.1.8.tar.gz tmp/pythonic-toolbox-1.1.9.tar.gz --markdown 20230607/p/pythonic-toolbox/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-06-07 07:17:48] INFO root fetch - processPackages [ml-plugins]: Remove: archive file [/home/abi/fetcher/tmp/ml_plugins-0.0.8.tar.gz]
+[2023-06-07 07:17:48] INFO root fetch - processPackages [ml-plugins]: Remove: archive file [/home/abi/fetcher/tmp/ml_plugins-0.0.9.tar.gz]
+[2023-06-07 07:17:48] INFO root fetch - processPackages [ml-plugins]: Start processing: mynacode
+[2023-06-07 07:17:48] INFO root fetch - main [MainThread]: End processing [ml-plugins]: success
+[2023-06-07 07:17:48] INFO root fetch - processPackages [mynacode]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-06-07 07:17:48] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/1d/24/3d4ef0a0a267fb47bcbac68ff9b760a9b892095f2ee727874f0286d600c3/mynacode-1.0.98-py3-none-any.whl
+[2023-06-07 07:17:48] INFO root fetch - processPackages [xia-engine]: executing diffoscope
+[2023-06-07 07:17:48] INFO root fetch - processPackages [xia-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_engine-0.8.8-cp39-none-win_amd64.whl.zip tmp/xia_engine-0.8.9-cp39-none-win_amd64.whl.zip --markdown 20230607/x/xia-engine/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-06-07 07:17:48] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/38/32/362f7abef6d28b78afa03843fa2eadc7bb1454ef66bde894a08e281d5bfb/mynacode-1.0.99-py3-none-any.whl
+[2023-06-07 07:17:48] INFO root fetch - processPackages [neuroshape]: Remove: archive file [/home/abi/fetcher/tmp/neuroshape-0.0.1-py3.7-macosx-10.9-x86_64.egg]
+[2023-06-07 07:17:48] INFO root fetch - processPackages [neuroshape]: Remove: archive file [/home/abi/fetcher/tmp/neuroshape-0.0.3.tar.gz]
+[2023-06-07 07:17:48] INFO root fetch - processPackages [neuroshape]: Start processing: tap-pipedrive
+[2023-06-07 07:17:48] INFO root fetch - main [MainThread]: End processing [neuroshape]: success
+[2023-06-07 07:17:48] INFO root fetch - processPackages [tap-pipedrive]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-06-07 07:17:48] INFO root fetch - processPackages [neuroshape]: Start processing: pympipool
+[2023-06-07 07:17:48] INFO root fetch - main [MainThread]: End processing [neuroshape]: success
+[2023-06-07 07:17:48] INFO root fetch - processPackages [pympipool]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-06-07 07:17:48] INFO root fetch - processPackages [mynacode]: executing diffoscope
+[2023-06-07 07:17:48] INFO root fetch - processPackages [mynacode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mynacode-1.0.98-py3-none-any.whl.zip tmp/mynacode-1.0.99-py3-none-any.whl.zip --markdown 20230607/m/mynacode/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-06-07 07:17:48] INFO root fetch - processPackages [EnToFa]: Remove: archive file [/home/abi/fetcher/tmp/EnToFa-1.4.1.tar.gz]
+[2023-06-07 07:17:48] INFO root fetch - processPackages [EnToFa]: Remove: archive file [/home/abi/fetcher/tmp/EnToFa-1.4.2.tar.gz]
+[2023-06-07 07:17:48] INFO root fetch - processPackages [EnToFa]: Start processing: omnisoot
+[2023-06-07 07:17:48] INFO root fetch - main [MainThread]: End processing [EnToFa]: success
+[2023-06-07 07:17:48] INFO root fetch - processPackages [pympipool]: Downloading https://files.pythonhosted.org/packages/d7/da/8e82df23156a4d4ebf6eeb6d39bede4893f1d28c5ce7538f90030d9a6bc4/pympipool-0.4.1.tar.gz
+[2023-06-07 07:17:48] INFO root fetch - processPackages [omnisoot]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-07 07:17:48] INFO root fetch - processPackages [tap-pipedrive]: Downloading https://files.pythonhosted.org/packages/d0/78/6869c5d1abb270c0081dab6154b19aa43b66bc47f7e5532878e9bfd1a2a6/tap-pipedrive-1.2.0.tar.gz
+[2023-06-07 07:17:48] INFO root fetch - processPackages [unmarkd]: Remove: archive file [/home/abi/fetcher/tmp/unmarkd-0.1.9.tar.gz]
+[2023-06-07 07:17:48] INFO root fetch - processPackages [unmarkd]: Remove: archive file [/home/abi/fetcher/tmp/unmarkd-1.0.0.tar.gz]
+[2023-06-07 07:17:48] INFO root fetch - main [MainThread]: End processing [unmarkd]: success
+[2023-06-07 07:17:49] INFO root fetch - processPackages [omnisoot]: Downloading https://files.pythonhosted.org/packages/06/1b/ec981b818d0db041a7462b14c2d38c9935ac96718286ccbbddd5e60bbc50/omnisoot-0.1.1-cp39-cp39-win_amd64.whl
+[2023-06-07 07:17:49] INFO root fetch - processPackages [pympipool]: Downloading https://files.pythonhosted.org/packages/8d/cd/d0f25d1345fe454174413e5757a27a7f0828d1b336f24081aaad6521739a/pympipool-0.4.2.tar.gz
+[2023-06-07 07:17:49] INFO root fetch - processPackages [tap-pipedrive]: Downloading https://files.pythonhosted.org/packages/b2/04/68b6affa04e70cf03746980b7bf5f0a3750de1f05a780bc6b60be2dad9e3/tap-pipedrive-1.2.1.tar.gz
+[2023-06-07 07:17:49] INFO root fetch - processPackages [FiniteDiffX]: Remove: archive file [/home/abi/fetcher/tmp/FiniteDiffX-0.0.3.tar.gz]
+[2023-06-07 07:17:49] INFO root fetch - processPackages [FiniteDiffX]: Remove: archive file [/home/abi/fetcher/tmp/FiniteDiffX-0.0.4.tar.gz]
+[2023-06-07 07:17:49] INFO root fetch - main [MainThread]: End processing [FiniteDiffX]: success
+[2023-06-07 07:17:49] INFO root fetch - processPackages [tap-pipedrive]: executing diffoscope
+[2023-06-07 07:17:49] INFO root fetch - processPackages [tap-pipedrive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tap-pipedrive-1.2.0.tar.gz tmp/tap-pipedrive-1.2.1.tar.gz --markdown 20230607/t/tap-pipedrive/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-06-07 07:17:49] INFO root fetch - processPackages [pympipool]: executing diffoscope
+[2023-06-07 07:17:49] INFO root fetch - processPackages [pympipool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pympipool-0.4.1.tar.gz tmp/pympipool-0.4.2.tar.gz --markdown 20230607/p/pympipool/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-06-07 07:17:49] INFO root fetch - processPackages [pythonic-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/pythonic-toolbox-1.1.8.tar.gz]
+[2023-06-07 07:17:49] INFO root fetch - processPackages [pythonic-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/pythonic-toolbox-1.1.9.tar.gz]
+[2023-06-07 07:17:49] INFO root fetch - main [MainThread]: End processing [pythonic-toolbox]: success
+[2023-06-07 07:17:49] INFO root fetch - processPackages [findu]: Remove: archive file [/home/abi/fetcher/tmp/findu-0.0.18.tar.gz]
+[2023-06-07 07:17:49] INFO root fetch - processPackages [findu]: Remove: archive file [/home/abi/fetcher/tmp/findu-0.0.19.tar.gz]
+[2023-06-07 07:17:49] INFO root fetch - main [MainThread]: End processing [findu]: success
+[2023-06-07 07:17:49] INFO root fetch - processPackages [omnisoot]: Downloading https://files.pythonhosted.org/packages/8e/f9/d9427ac7023ae47eb2bdf82fc57e50cdeae74c8242f2b22a149b28e1a9ac/omnisoot-0.1.2-cp39-cp39-win_amd64.whl
+[2023-06-07 07:17:49] INFO root fetch - processPackages [xia-engine]: Remove: archive file [/home/abi/fetcher/tmp/xia_engine-0.8.8-cp39-none-win_amd64.whl.zip]
+[2023-06-07 07:17:49] INFO root fetch - processPackages [xia-engine]: Remove: archive file [/home/abi/fetcher/tmp/xia_engine-0.8.9-cp39-none-win_amd64.whl.zip]
+[2023-06-07 07:17:49] INFO root fetch - main [MainThread]: End processing [xia-engine]: success
+[2023-06-07 07:17:50] INFO root fetch - processPackages [onnx2tf]: Remove: archive file [/home/abi/fetcher/tmp/onnx2tf-1.9.8.tar.gz]
+[2023-06-07 07:17:50] INFO root fetch - processPackages [onnx2tf]: Remove: archive file [/home/abi/fetcher/tmp/onnx2tf-1.9.9.tar.gz]
+[2023-06-07 07:17:50] INFO root fetch - main [MainThread]: End processing [onnx2tf]: success
+[2023-06-07 07:17:50] INFO root fetch - processPackages [mynacode]: Remove: archive file [/home/abi/fetcher/tmp/mynacode-1.0.98-py3-none-any.whl.zip]
+[2023-06-07 07:17:50] INFO root fetch - processPackages [mynacode]: Remove: archive file [/home/abi/fetcher/tmp/mynacode-1.0.99-py3-none-any.whl.zip]
+[2023-06-07 07:17:50] INFO root fetch - main [MainThread]: End processing [mynacode]: success
+[2023-06-07 07:17:50] INFO root fetch - processPackages [omnisoot]: executing diffoscope
+[2023-06-07 07:17:50] INFO root fetch - processPackages [omnisoot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnisoot-0.1.1-cp39-cp39-win_amd64.whl.zip tmp/omnisoot-0.1.2-cp39-cp39-win_amd64.whl.zip --markdown 20230607/o/omnisoot/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-07 07:17:50] INFO root fetch - processPackages [tap-pipedrive]: Remove: archive file [/home/abi/fetcher/tmp/tap-pipedrive-1.2.0.tar.gz]
+[2023-06-07 07:17:50] INFO root fetch - processPackages [tap-pipedrive]: Remove: archive file [/home/abi/fetcher/tmp/tap-pipedrive-1.2.1.tar.gz]
+[2023-06-07 07:17:50] INFO root fetch - main [MainThread]: End processing [tap-pipedrive]: success
+[2023-06-07 07:17:50] INFO root fetch - processPackages [pympipool]: Remove: archive file [/home/abi/fetcher/tmp/pympipool-0.4.1.tar.gz]
+[2023-06-07 07:17:50] INFO root fetch - processPackages [pympipool]: Remove: archive file [/home/abi/fetcher/tmp/pympipool-0.4.2.tar.gz]
+[2023-06-07 07:17:50] INFO root fetch - main [MainThread]: End processing [pympipool]: success
+[2023-06-07 07:17:51] INFO root fetch - processPackages [omnisoot]: Remove: archive file [/home/abi/fetcher/tmp/omnisoot-0.1.1-cp39-cp39-win_amd64.whl.zip]
+[2023-06-07 07:17:51] INFO root fetch - processPackages [omnisoot]: Remove: archive file [/home/abi/fetcher/tmp/omnisoot-0.1.2-cp39-cp39-win_amd64.whl.zip]
+[2023-06-07 07:17:51] INFO root fetch - main [MainThread]: End processing [omnisoot]: success
+[2023-06-07 07:17:51] INFO root fetch - main [MainThread]: Store serial: [18403031]
