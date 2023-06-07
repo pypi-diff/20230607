@@ -13926,3 +13926,171 @@ AssertionError: tmp/odoo_addon_crm_lead_firstname-16.0.1.0.1-py3-none-any.whl.zi
 [2023-06-07 08:10:43] INFO root fetch - processPackages [dvc]: Remove: archive file [/home/abi/fetcher/tmp/dvc-3.0.0a2.tar.gz]
 [2023-06-07 08:10:43] INFO root fetch - main [MainThread]: End processing [dvc]: success
 [2023-06-07 08:10:43] INFO root fetch - main [MainThread]: Store serial: [18403378]
+[2023-06-07 08:15:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18403378]
+[2023-06-07 08:15:53] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-07 08:15:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pynut3
+[2023-06-07 08:15:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: easy-configer
+[2023-06-07 08:15:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: TINTOlib
+[2023-06-07 08:15:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nrsdk
+[2023-06-07 08:15:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mdopt
+[2023-06-07 08:15:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sextant
+[2023-06-07 08:15:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: psychoanalyze
+[2023-06-07 08:15:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dartrig
+[2023-06-07 08:15:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dongwha-datalab
+[2023-06-07 08:15:53] INFO root fetch - processPackages [mdopt]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-06-07 08:15:53] INFO root fetch - processPackages [psychoanalyze]: New version: [0.2.1] Old Version: [0.1.2]
+[2023-06-07 08:15:53] INFO root fetch - processPackages [nrsdk]: New version: [1.1.1.3] Old Version: [1.1.1.2]
+[2023-06-07 08:15:53] INFO root fetch - processPackages [dartrig]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-07 08:15:53] INFO root fetch - processPackages [pynut3]: New version: [1.4.2] Old Version: [1.4.1]
+[2023-06-07 08:15:53] INFO root fetch - processPackages [sextant]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-06-07 08:15:53] INFO root fetch - processPackages [TINTOlib]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-07 08:15:53] INFO root fetch - processPackages [easy-configer]: New version: [2.1.1] Old Version: [2.1.0]
+[2023-06-07 08:15:53] INFO root fetch - processPackages [mdopt]: Downloading https://files.pythonhosted.org/packages/df/b3/309ff65e475fc94d7e8118549ac0a0116c3367bde918b0da328ca14858fa/mdopt-0.4.0.tar.gz
+[2023-06-07 08:15:53] INFO root fetch - processPackages [easy-configer]: Downloading https://files.pythonhosted.org/packages/3c/1c/bfc8cd686798f9427374998e7d72ba9d712d3d7e67ed49593e7ed83fb7cf/easy_configer-2.1.0.tar.gz
+[2023-06-07 08:15:53] INFO root fetch - processPackages [dongwha-datalab]: New version: [0.0.0.16] Old Version: [0.0.0.15]
+[2023-06-07 08:15:53] INFO root fetch - processPackages [nrsdk]: Downloading https://files.pythonhosted.org/packages/e9/3d/709d180fd9073538d70e794a8644913a0abb6179a35ea4bfc51dcf8d801b/nrsdk-1.1.1.2.tar.gz
+[2023-06-07 08:15:53] INFO root fetch - processPackages [psychoanalyze]: Downloading https://files.pythonhosted.org/packages/5e/01/c0434f4299dc2f338fece573d9ac2b1002cac8e0a58bf2702c944e6c55a4/psychoanalyze-0.1.2.tar.gz
+[2023-06-07 08:15:53] INFO root fetch - processPackages [dartrig]: Downloading https://files.pythonhosted.org/packages/c3/a1/ecb0fc49702e70d469ceb63bbffe292a25022b72614b9921fb303fad5986/dartrig-0.1.8.tar.gz
+[2023-06-07 08:15:53] INFO root fetch - processPackages [pynut3]: Downloading https://files.pythonhosted.org/packages/6c/ed/25df8745a0c073da1f6a379acedb8e541b6e905e33d3f17568824f4928fc/pynut3-1.4.1.tar.gz
+[2023-06-07 08:15:53] INFO root fetch - processPackages [TINTOlib]: Downloading https://files.pythonhosted.org/packages/3e/76/eb31185c56c1f5eb001c922f4e9c18728505958453a7117b060bb8d6c93c/tintolib-0.0.7.tar.gz
+[2023-06-07 08:15:53] INFO root fetch - processPackages [sextant]: Downloading https://files.pythonhosted.org/packages/14/4a/ae38d87ce01af112dedbc776792ff0a776ef49587e6b9a2100376aaaf81c/sextant-0.3.0.tar.gz
+[2023-06-07 08:15:53] INFO root fetch - processPackages [dongwha-datalab]: Downloading https://files.pythonhosted.org/packages/b3/48/f47dffea80f1cc51f6d0d15c572f66ec6dc920a6e177d643d7e5613933b5/dongwha_datalab-0.0.0.15-py3-none-any.whl
+[2023-06-07 08:15:53] INFO root fetch - processPackages [easy-configer]: Downloading https://files.pythonhosted.org/packages/03/1a/c8fb6ff9c8926941d43b63c97ba34083579dcfcce9f639c1837386811919/easy_configer-2.1.1.tar.gz
+[2023-06-07 08:15:53] INFO root fetch - processPackages [mdopt]: Downloading https://files.pythonhosted.org/packages/e7/1e/91e91fe0cd08b2bc2b2093490627cd7ea534b604f8c3d991d809aa1900e2/mdopt-0.5.0.tar.gz
+[2023-06-07 08:15:54] INFO root fetch - processPackages [easy-configer]: executing diffoscope
+[2023-06-07 08:15:54] INFO root fetch - processPackages [easy-configer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy_configer-2.1.0.tar.gz tmp/easy_configer-2.1.1.tar.gz --markdown 20230607/e/easy-configer/2.1.0-2.1.1/diff.md --exclude *.pyd
+[2023-06-07 08:15:54] INFO root fetch - processPackages [mdopt]: executing diffoscope
+[2023-06-07 08:15:54] INFO root fetch - processPackages [mdopt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mdopt-0.4.0.tar.gz tmp/mdopt-0.5.0.tar.gz --markdown 20230607/m/mdopt/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-06-07 08:15:54] INFO root fetch - processPackages [nrsdk]: Downloading https://files.pythonhosted.org/packages/69/a5/a2882c33281e23683e29e5fbda55e4026b8ce109dc753a10537d5de44fd3/nrsdk-1.1.1.3.tar.gz
+[2023-06-07 08:15:54] INFO root fetch - processPackages [dartrig]: Downloading https://files.pythonhosted.org/packages/95/93/0003c3e63e809e98d18242999380721f577baec8ccf697071faca8e8b6ec/dartrig-0.1.9.tar.gz
+[2023-06-07 08:15:54] INFO root fetch - processPackages [psychoanalyze]: Downloading https://files.pythonhosted.org/packages/61/25/ec6e23214f7f7f89c7d61474b21662c6005706dfce6bee5e591368e111db/psychoanalyze-0.2.1.tar.gz
+[2023-06-07 08:15:54] INFO root fetch - processPackages [dartrig]: executing diffoscope
+[2023-06-07 08:15:54] INFO root fetch - processPackages [dartrig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dartrig-0.1.8.tar.gz tmp/dartrig-0.1.9.tar.gz --markdown 20230607/d/dartrig/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-07 08:15:54] INFO root fetch - processPackages [nrsdk]: executing diffoscope
+[2023-06-07 08:15:54] INFO root fetch - processPackages [nrsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nrsdk-1.1.1.2.tar.gz tmp/nrsdk-1.1.1.3.tar.gz --markdown 20230607/n/nrsdk/1.1.1.2-1.1.1.3/diff.md --exclude *.pyd
+[2023-06-07 08:15:54] INFO root fetch - processPackages [pynut3]: Downloading https://files.pythonhosted.org/packages/89/45/c5e4df6be6c0394c04cd264cb3ab98e1a12de8ea8d6eb87c887a37500523/pynut3-1.4.2.tar.gz
+[2023-06-07 08:15:54] INFO root fetch - processPackages [psychoanalyze]: executing diffoscope
+[2023-06-07 08:15:54] INFO root fetch - processPackages [psychoanalyze]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psychoanalyze-0.1.2.tar.gz tmp/psychoanalyze-0.2.1.tar.gz --markdown 20230607/p/psychoanalyze/0.1.2-0.2.1/diff.md --exclude *.pyd
+[2023-06-07 08:15:54] INFO root fetch - processPackages [sextant]: Downloading https://files.pythonhosted.org/packages/36/b9/3564a8eff925f9eb8c8050a674deb6a6628ed10b235fe80241833089bd2c/sextant-0.4.0.tar.gz
+[2023-06-07 08:15:54] INFO root fetch - processPackages [pynut3]: executing diffoscope
+[2023-06-07 08:15:54] INFO root fetch - processPackages [pynut3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynut3-1.4.1.tar.gz tmp/pynut3-1.4.2.tar.gz --markdown 20230607/p/pynut3/1.4.1-1.4.2/diff.md --exclude *.pyd
+[2023-06-07 08:15:54] INFO root fetch - processPackages [dongwha-datalab]: Downloading https://files.pythonhosted.org/packages/32/fe/1ec8aab8cbf38f56f2630595428fa06c2731d0370e9b43a8068b88ec81e0/dongwha_datalab-0.0.0.16-py3-none-any.whl
+[2023-06-07 08:15:54] INFO root fetch - processPackages [sextant]: executing diffoscope
+[2023-06-07 08:15:54] INFO root fetch - processPackages [sextant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sextant-0.3.0.tar.gz tmp/sextant-0.4.0.tar.gz --markdown 20230607/s/sextant/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-06-07 08:15:54] INFO root fetch - processPackages [dongwha-datalab]: executing diffoscope
+[2023-06-07 08:15:54] INFO root fetch - processPackages [dongwha-datalab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dongwha_datalab-0.0.0.15-py3-none-any.whl.zip tmp/dongwha_datalab-0.0.0.16-py3-none-any.whl.zip --markdown 20230607/d/dongwha-datalab/0.0.0.15-0.0.0.16/diff.md --exclude *.pyd
+[2023-06-07 08:15:55] INFO root fetch - processPackages [easy-configer]: Remove: archive file [/home/abi/fetcher/tmp/easy_configer-2.1.0.tar.gz]
+[2023-06-07 08:15:55] INFO root fetch - processPackages [easy-configer]: Remove: archive file [/home/abi/fetcher/tmp/easy_configer-2.1.1.tar.gz]
+[2023-06-07 08:15:55] INFO root fetch - main [MainThread]: End processing [easy-configer]: success
+[2023-06-07 08:15:55] INFO root fetch - processPackages [TINTOlib]: Downloading https://files.pythonhosted.org/packages/88/66/5ff78a7354d96c5cb6040119eab2be915cdf9e9570f5bf18b1c2dba81c64/tintolib-0.0.8.tar.gz
+[2023-06-07 08:15:55] INFO root fetch - processPackages [dartrig]: Remove: archive file [/home/abi/fetcher/tmp/dartrig-0.1.8.tar.gz]
+[2023-06-07 08:15:55] INFO root fetch - processPackages [dartrig]: Remove: archive file [/home/abi/fetcher/tmp/dartrig-0.1.9.tar.gz]
+[2023-06-07 08:15:55] INFO root fetch - main [MainThread]: End processing [dartrig]: success
+[2023-06-07 08:15:55] INFO root fetch - processPackages [mdopt]: Remove: archive file [/home/abi/fetcher/tmp/mdopt-0.4.0.tar.gz]
+[2023-06-07 08:15:55] INFO root fetch - processPackages [mdopt]: Remove: archive file [/home/abi/fetcher/tmp/mdopt-0.5.0.tar.gz]
+[2023-06-07 08:15:55] INFO root fetch - main [MainThread]: End processing [mdopt]: success
+[2023-06-07 08:15:55] INFO root fetch - processPackages [TINTOlib]: executing diffoscope
+[2023-06-07 08:15:55] INFO root fetch - processPackages [TINTOlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tintolib-0.0.7.tar.gz tmp/tintolib-0.0.8.tar.gz --markdown 20230607/T/TINTOlib/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-07 08:15:55] INFO root fetch - processPackages [psychoanalyze]: Remove: archive file [/home/abi/fetcher/tmp/psychoanalyze-0.1.2.tar.gz]
+[2023-06-07 08:15:55] INFO root fetch - processPackages [psychoanalyze]: Remove: archive file [/home/abi/fetcher/tmp/psychoanalyze-0.2.1.tar.gz]
+[2023-06-07 08:15:55] INFO root fetch - main [MainThread]: End processing [psychoanalyze]: success
+[2023-06-07 08:15:55] INFO root fetch - processPackages [pynut3]: Remove: archive file [/home/abi/fetcher/tmp/pynut3-1.4.1.tar.gz]
+[2023-06-07 08:15:55] INFO root fetch - processPackages [pynut3]: Remove: archive file [/home/abi/fetcher/tmp/pynut3-1.4.2.tar.gz]
+[2023-06-07 08:15:55] INFO root fetch - main [MainThread]: End processing [pynut3]: success
+[2023-06-07 08:15:55] ERROR root fetch - processPackages [dongwha-datalab]: Diffoscope failed: Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid start byte
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 252, in compare_details
+    differences.extend(zipinfo_differences(self, other))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 127, in zipinfo_differences
+    zipinfo = Difference.from_operation(Zipinfo, file.path, other.path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid start byte
+
+[2023-06-07 08:15:55] INFO root fetch - main [MainThread]: End processing [dongwha-datalab] error
+[2023-06-07 08:15:55] INFO root fetch - processPackages [nrsdk]: Remove: archive file [/home/abi/fetcher/tmp/nrsdk-1.1.1.2.tar.gz]
+[2023-06-07 08:15:55] INFO root fetch - processPackages [nrsdk]: Remove: archive file [/home/abi/fetcher/tmp/nrsdk-1.1.1.3.tar.gz]
+[2023-06-07 08:15:55] INFO root fetch - main [MainThread]: End processing [nrsdk]: success
+[2023-06-07 08:15:56] INFO root fetch - processPackages [sextant]: Remove: archive file [/home/abi/fetcher/tmp/sextant-0.3.0.tar.gz]
+[2023-06-07 08:15:56] INFO root fetch - processPackages [sextant]: Remove: archive file [/home/abi/fetcher/tmp/sextant-0.4.0.tar.gz]
+[2023-06-07 08:15:56] INFO root fetch - main [MainThread]: End processing [sextant]: success
+[2023-06-07 08:16:35] INFO root fetch - processPackages [TINTOlib]: Remove: archive file [/home/abi/fetcher/tmp/tintolib-0.0.7.tar.gz]
+[2023-06-07 08:16:35] INFO root fetch - processPackages [TINTOlib]: Remove: archive file [/home/abi/fetcher/tmp/tintolib-0.0.8.tar.gz]
+[2023-06-07 08:16:35] INFO root fetch - main [MainThread]: End processing [TINTOlib]: success
+[2023-06-07 08:16:35] INFO root fetch - main [MainThread]: Store serial: [18403407]
