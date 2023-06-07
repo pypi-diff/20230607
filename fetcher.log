@@ -15436,3 +15436,96 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-06-07 09:21:30] INFO root fetch - processPackages [cirq-core]: Remove: archive file [/home/abi/fetcher/tmp/cirq_core-1.2.0.dev20230607071734-py3-none-any.whl.zip]
 [2023-06-07 09:21:30] INFO root fetch - main [MainThread]: End processing [cirq-core]: success
 [2023-06-07 09:21:30] INFO root fetch - main [MainThread]: Store serial: [18404005]
+[2023-06-07 09:26:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18404005]
+[2023-06-07 09:26:39] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-07 09:26:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyobjc-core
+[2023-06-07 09:26:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kubedeployer
+[2023-06-07 09:26:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: monotonic-nn
+[2023-06-07 09:26:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pytk-net
+[2023-06-07 09:26:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aquarium-python-api
+[2023-06-07 09:26:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: KitronikPicoZIP96
+[2023-06-07 09:26:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hestia-earth-validation
+[2023-06-07 09:26:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: paquete-de-prueba
+[2023-06-07 09:26:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lazysdk
+[2023-06-07 09:26:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cognite-robotics-sdk
+[2023-06-07 09:26:39] INFO root fetch - processPackages [monotonic-nn]: New version: [0.3.1rc2] Old Version: [0.3.1rc1]
+[2023-06-07 09:26:39] INFO root fetch - processPackages [pytk-net]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-07 09:26:39] INFO root fetch - processPackages [kubedeployer]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-06-07 09:26:39] INFO root fetch - processPackages [pyobjc-core]: New version: [9.2] Old Version: [9.1b1]
+[2023-06-07 09:26:39] INFO root fetch - processPackages [lazysdk]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-07 09:26:39] INFO root fetch - processPackages [monotonic-nn]: Downloading https://files.pythonhosted.org/packages/00/8c/496ffbfe0ce2997798fdb59bf19aafbe4af50cede41e2adfdfc670e86dce/monotonic-nn-0.3.1rc1.tar.gz
+[2023-06-07 09:26:39] INFO root fetch - processPackages [lazysdk]: Downloading https://files.pythonhosted.org/packages/47/7c/0ed7f2c8cda4e0d71dc1c3f67b032cc9bb937d88e26eca6217574b67a3b9/lazysdk-0.1.1.tar.gz
+[2023-06-07 09:26:39] INFO root fetch - processPackages [kubedeployer]: Downloading https://files.pythonhosted.org/packages/42/68/a76541c98bf2458458ea954ae35dbfc4fa0a3f918571369167c9cfd6ee18/kubedeployer-1.1.1.tar.gz
+[2023-06-07 09:26:39] WARNING root fetch - processPackages [KitronikPicoZIP96]: Skipping, unable to determine old version
+[2023-06-07 09:26:39] INFO root fetch - processPackages [KitronikPicoZIP96]: Start processing: biliarchiver
+[2023-06-07 09:26:39] INFO root fetch - main [MainThread]: End processing [KitronikPicoZIP96] error
+[2023-06-07 09:26:39] INFO root fetch - processPackages [hestia-earth-validation]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-06-07 09:26:39] INFO root fetch - processPackages [aquarium-python-api]: New version: [2.0.5] Old Version: [2.0.4]
+[2023-06-07 09:26:39] WARNING root fetch - processPackages [paquete-de-prueba]: Skipping, unable to determine old version
+[2023-06-07 09:26:39] INFO root fetch - processPackages [paquete-de-prueba]: Start processing: composabl-dev
+[2023-06-07 09:26:39] INFO root fetch - main [MainThread]: End processing [paquete-de-prueba] error
+[2023-06-07 09:26:39] INFO root fetch - processPackages [cognite-robotics-sdk]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-07 09:26:39] WARNING root fetch - processPackages [biliarchiver]: Skipping, unable to determine old version
+[2023-06-07 09:26:39] INFO root fetch - main [MainThread]: End processing [biliarchiver] error
+[2023-06-07 09:26:39] INFO root fetch - processPackages [pytk-net]: Downloading https://files.pythonhosted.org/packages/fd/ca/2449f0ac4ae1e325a334bd3af99dc5aa87bea2f2c0e7722ab8d0780220e7/pytk_net-0.0.1.tar.gz
+[2023-06-07 09:26:39] INFO root fetch - processPackages [pyobjc-core]: Downloading https://files.pythonhosted.org/packages/44/22/b8bbd33eda4ce6e9a6588404179a6848fa67f1ccc4deda896809b63a651a/pyobjc-core-9.1b1.tar.gz
+[2023-06-07 09:26:39] INFO root fetch - processPackages [monotonic-nn]: Downloading https://files.pythonhosted.org/packages/2d/52/5ec2f8e4ab7173432fc9656029071cf6ab63b0dea439ecd11dd7867b7d10/monotonic-nn-0.3.1rc2.tar.gz
+[2023-06-07 09:26:39] INFO root fetch - processPackages [hestia-earth-validation]: Downloading https://files.pythonhosted.org/packages/33/b1/1105a4e61f23c309958db8eb0a5c59b945e3291d912a253970b1cdb90f73/hestia-earth-validation-0.9.2.tar.gz
+[2023-06-07 09:26:39] INFO root fetch - processPackages [kubedeployer]: Downloading https://files.pythonhosted.org/packages/13/de/3cbbdc9b79b86de3d5c6a6eee441d84fe31a81685743b96ed1143489aee1/kubedeployer-1.1.2.tar.gz
+[2023-06-07 09:26:39] INFO root fetch - processPackages [aquarium-python-api]: Downloading https://files.pythonhosted.org/packages/c0/53/798ae37e5ff86bb15bec70324f39ff97fbe205d564cee45f48211b169f37/aquarium-python-api-2.0.4.tar.gz
+[2023-06-07 09:26:39] INFO root fetch - processPackages [cognite-robotics-sdk]: Downloading https://files.pythonhosted.org/packages/22/9f/b43149441ce608a0c980fbdfe91eb3a068617fa715e8dc61dfb13b5f1641/cognite_robotics_sdk-0.1.7.tar.gz
+[2023-06-07 09:26:39] INFO root fetch - processPackages [composabl-dev]: New version: [0.2.1.dev8] Old Version: [0.1.1.dev4]
+[2023-06-07 09:26:39] INFO root fetch - processPackages [pytk-net]: Downloading https://files.pythonhosted.org/packages/c5/90/a263e79c8956f8479a6020bbf68125e4123466929ff9a80cdfeb7e9d40b1/pytk_net-0.0.2.tar.gz
+[2023-06-07 09:26:39] INFO root fetch - processPackages [kubedeployer]: executing diffoscope
+[2023-06-07 09:26:39] INFO root fetch - processPackages [kubedeployer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kubedeployer-1.1.1.tar.gz tmp/kubedeployer-1.1.2.tar.gz --markdown 20230607/k/kubedeployer/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-06-07 09:26:39] INFO root fetch - processPackages [lazysdk]: Downloading https://files.pythonhosted.org/packages/86/93/31d5cf547b25dbe42094c890a6464045b5f4ca0ca0e7f1e6577640e3a626/lazysdk-0.1.2.tar.gz
+[2023-06-07 09:26:39] INFO root fetch - processPackages [pyobjc-core]: Downloading https://files.pythonhosted.org/packages/81/49/766832436ba1f992328d6048145a1aaec11f677f1e53e0de658a2b627562/pyobjc_core-9.2-cp311-cp311-macosx_10_9_universal2.whl
+[2023-06-07 09:26:39] INFO root fetch - processPackages [pytk-net]: executing diffoscope
+[2023-06-07 09:26:39] INFO root fetch - processPackages [pytk-net]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytk_net-0.0.1.tar.gz tmp/pytk_net-0.0.2.tar.gz --markdown 20230607/p/pytk-net/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-07 09:26:39] INFO root fetch - processPackages [monotonic-nn]: executing diffoscope
+[2023-06-07 09:26:39] INFO root fetch - processPackages [monotonic-nn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monotonic-nn-0.3.1rc1.tar.gz tmp/monotonic-nn-0.3.1rc2.tar.gz --markdown 20230607/m/monotonic-nn/0.3.1rc1-0.3.1rc2/diff.md --exclude *.pyd
+[2023-06-07 09:26:39] INFO root fetch - processPackages [lazysdk]: executing diffoscope
+[2023-06-07 09:26:39] INFO root fetch - processPackages [lazysdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazysdk-0.1.1.tar.gz tmp/lazysdk-0.1.2.tar.gz --markdown 20230607/l/lazysdk/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-07 09:26:39] INFO root fetch - processPackages [aquarium-python-api]: Downloading https://files.pythonhosted.org/packages/d1/94/bbff59548584aca61c96eef6b5ff26e029206dcca4b8a88b66a7a8488fb8/aquarium-python-api-2.0.5.tar.gz
+[2023-06-07 09:26:39] INFO root fetch - processPackages [composabl-dev]: Downloading https://files.pythonhosted.org/packages/25/94/5191ab8e32dddb7241ec7df4c07623c6fc35c605f0983725e5685f8ebabb/composabl_dev-0.1.1.dev4-cp38-cp38-manylinux_2_35_x86_64.whl
+[2023-06-07 09:26:39] INFO root fetch - processPackages [pyobjc-core]: executing diffoscope
+[2023-06-07 09:26:39] INFO root fetch - processPackages [pyobjc-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyobjc-core-9.1b1.tar.gz tmp/pyobjc_core-9.2-cp311-cp311-macosx_10_9_universal2.whl.zip --markdown 20230607/p/pyobjc-core/9.1b1-9.2/diff.md --exclude *.pyd
+[2023-06-07 09:26:39] INFO root fetch - processPackages [cognite-robotics-sdk]: Downloading https://files.pythonhosted.org/packages/23/b0/183b6b161ff5b4b71ec6396ffc0cbc4f8dbf3223d8ee1b9bb7e6457bbb00/cognite_robotics_sdk-0.1.8.tar.gz
+[2023-06-07 09:26:39] INFO root fetch - processPackages [hestia-earth-validation]: Downloading https://files.pythonhosted.org/packages/b0/45/d5ba27a9ee459bf387b017277d998197192c37d8374146ae34a294f8a0af/hestia-earth-validation-0.9.3.tar.gz
+[2023-06-07 09:26:39] INFO root fetch - processPackages [aquarium-python-api]: executing diffoscope
+[2023-06-07 09:26:39] INFO root fetch - processPackages [aquarium-python-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aquarium-python-api-2.0.4.tar.gz tmp/aquarium-python-api-2.0.5.tar.gz --markdown 20230607/a/aquarium-python-api/2.0.4-2.0.5/diff.md --exclude *.pyd
+[2023-06-07 09:26:39] INFO root fetch - processPackages [cognite-robotics-sdk]: executing diffoscope
+[2023-06-07 09:26:39] INFO root fetch - processPackages [cognite-robotics-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_robotics_sdk-0.1.7.tar.gz tmp/cognite_robotics_sdk-0.1.8.tar.gz --markdown 20230607/c/cognite-robotics-sdk/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-07 09:26:39] INFO root fetch - processPackages [hestia-earth-validation]: executing diffoscope
+[2023-06-07 09:26:39] INFO root fetch - processPackages [hestia-earth-validation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hestia-earth-validation-0.9.2.tar.gz tmp/hestia-earth-validation-0.9.3.tar.gz --markdown 20230607/h/hestia-earth-validation/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-06-07 09:26:40] INFO root fetch - processPackages [pytk-net]: Remove: archive file [/home/abi/fetcher/tmp/pytk_net-0.0.1.tar.gz]
+[2023-06-07 09:26:40] INFO root fetch - processPackages [pytk-net]: Remove: archive file [/home/abi/fetcher/tmp/pytk_net-0.0.2.tar.gz]
+[2023-06-07 09:26:40] INFO root fetch - main [MainThread]: End processing [pytk-net]: success
+[2023-06-07 09:26:40] INFO root fetch - processPackages [lazysdk]: Remove: archive file [/home/abi/fetcher/tmp/lazysdk-0.1.1.tar.gz]
+[2023-06-07 09:26:40] INFO root fetch - processPackages [lazysdk]: Remove: archive file [/home/abi/fetcher/tmp/lazysdk-0.1.2.tar.gz]
+[2023-06-07 09:26:40] INFO root fetch - main [MainThread]: End processing [lazysdk]: success
+[2023-06-07 09:26:40] INFO root fetch - processPackages [monotonic-nn]: Remove: archive file [/home/abi/fetcher/tmp/monotonic-nn-0.3.1rc1.tar.gz]
+[2023-06-07 09:26:40] INFO root fetch - processPackages [monotonic-nn]: Remove: archive file [/home/abi/fetcher/tmp/monotonic-nn-0.3.1rc2.tar.gz]
+[2023-06-07 09:26:40] INFO root fetch - main [MainThread]: End processing [monotonic-nn]: success
+[2023-06-07 09:26:41] INFO root fetch - processPackages [composabl-dev]: Downloading https://files.pythonhosted.org/packages/96/cc/413e4e891af6555b1bb987746112df35a8e03d0207a45270191504b37e72/composabl_dev-0.2.1.dev8-cp38-cp38-macosx_11_0_arm64.whl
+[2023-06-07 09:26:41] INFO root fetch - processPackages [aquarium-python-api]: Remove: archive file [/home/abi/fetcher/tmp/aquarium-python-api-2.0.4.tar.gz]
+[2023-06-07 09:26:41] INFO root fetch - processPackages [aquarium-python-api]: Remove: archive file [/home/abi/fetcher/tmp/aquarium-python-api-2.0.5.tar.gz]
+[2023-06-07 09:26:41] INFO root fetch - main [MainThread]: End processing [aquarium-python-api]: success
+[2023-06-07 09:26:41] INFO root fetch - processPackages [hestia-earth-validation]: Remove: archive file [/home/abi/fetcher/tmp/hestia-earth-validation-0.9.2.tar.gz]
+[2023-06-07 09:26:41] INFO root fetch - processPackages [hestia-earth-validation]: Remove: archive file [/home/abi/fetcher/tmp/hestia-earth-validation-0.9.3.tar.gz]
+[2023-06-07 09:26:41] INFO root fetch - main [MainThread]: End processing [hestia-earth-validation]: success
+[2023-06-07 09:26:41] INFO root fetch - processPackages [kubedeployer]: Remove: archive file [/home/abi/fetcher/tmp/kubedeployer-1.1.1.tar.gz]
+[2023-06-07 09:26:41] INFO root fetch - processPackages [kubedeployer]: Remove: archive file [/home/abi/fetcher/tmp/kubedeployer-1.1.2.tar.gz]
+[2023-06-07 09:26:41] INFO root fetch - main [MainThread]: End processing [kubedeployer]: success
+[2023-06-07 09:26:42] INFO root fetch - processPackages [composabl-dev]: executing diffoscope
+[2023-06-07 09:26:42] INFO root fetch - processPackages [composabl-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composabl_dev-0.1.1.dev4-cp38-cp38-manylinux_2_35_x86_64.whl.zip tmp/composabl_dev-0.2.1.dev8-cp38-cp38-macosx_11_0_arm64.whl.zip --markdown 20230607/c/composabl-dev/0.1.1.dev4-0.2.1.dev8/diff.md --exclude *.pyd
+[2023-06-07 09:26:42] INFO root fetch - processPackages [pyobjc-core]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-core-9.1b1.tar.gz]
+[2023-06-07 09:26:42] INFO root fetch - processPackages [pyobjc-core]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc_core-9.2-cp311-cp311-macosx_10_9_universal2.whl.zip]
+[2023-06-07 09:26:42] INFO root fetch - main [MainThread]: End processing [pyobjc-core]: success
+[2023-06-07 09:26:43] INFO root fetch - processPackages [cognite-robotics-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cognite_robotics_sdk-0.1.7.tar.gz]
+[2023-06-07 09:26:43] INFO root fetch - processPackages [cognite-robotics-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cognite_robotics_sdk-0.1.8.tar.gz]
+[2023-06-07 09:26:43] INFO root fetch - main [MainThread]: End processing [cognite-robotics-sdk]: success
+[2023-06-07 09:26:44] INFO root fetch - processPackages [composabl-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_dev-0.1.1.dev4-cp38-cp38-manylinux_2_35_x86_64.whl.zip]
+[2023-06-07 09:26:44] INFO root fetch - processPackages [composabl-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_dev-0.2.1.dev8-cp38-cp38-macosx_11_0_arm64.whl.zip]
+[2023-06-07 09:26:44] INFO root fetch - main [MainThread]: End processing [composabl-dev]: success
+[2023-06-07 09:26:44] INFO root fetch - main [MainThread]: Store serial: [18404047]
