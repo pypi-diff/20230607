@@ -14690,3 +14690,135 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-06-07 08:49:25] INFO root fetch - processPackages [stim]: Remove: archive file [/home/abi/fetcher/tmp/stim-1.9.dev1657429876.tar.gz]
 [2023-06-07 08:49:25] INFO root fetch - main [MainThread]: End processing [stim]: success
 [2023-06-07 08:49:25] INFO root fetch - main [MainThread]: Store serial: [18403692]
+[2023-06-07 08:54:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18403692]
+[2023-06-07 08:54:35] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-07 08:54:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: modelon-impact-client
+[2023-06-07 08:54:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: readlog
+[2023-06-07 08:54:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mfhpo-simulator
+[2023-06-07 08:54:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: glassesValidator
+[2023-06-07 08:54:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: amazon-ad-sdk
+[2023-06-07 08:54:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: alibabacloud-umeng-apm20220214-py2
+[2023-06-07 08:54:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: MT-PY-NotificationPush
+[2023-06-07 08:54:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: alibabacloud-umeng-apm20220214
+[2023-06-07 08:54:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nlu-tmp
+[2023-06-07 08:54:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lazyearth
+[2023-06-07 08:54:35] INFO root fetch - processPackages [mfhpo-simulator]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-07 08:54:35] INFO root fetch - processPackages [readlog]: New version: [1.1.7] Old Version: [1.1.6]
+[2023-06-07 08:54:35] INFO root fetch - processPackages [alibabacloud-umeng-apm20220214-py2]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-07 08:54:35] INFO root fetch - processPackages [modelon-impact-client]: New version: [3.0.0.dev9] Old Version: [3.0.0.dev8]
+[2023-06-07 08:54:35] INFO root fetch - processPackages [amazon-ad-sdk]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-06-07 08:54:35] WARNING root fetch - processPackages [MT-PY-NotificationPush]: Skipping, unable to determine old version
+[2023-06-07 08:54:35] INFO root fetch - processPackages [MT-PY-NotificationPush]: Start processing: OpihiExarata
+[2023-06-07 08:54:35] INFO root fetch - processPackages [glassesValidator]: New version: [1.0.0] Old Version: [0.11.2]
+[2023-06-07 08:54:35] INFO root fetch - main [MainThread]: End processing [MT-PY-NotificationPush] error
+[2023-06-07 08:54:35] INFO root fetch - processPackages [lazyearth]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-06-07 08:54:35] INFO root fetch - processPackages [alibabacloud-umeng-apm20220214]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-07 08:54:35] INFO root fetch - processPackages [nlu-tmp]: New version: [4.5.0rc5] Old Version: [4.3.0rc7]
+[2023-06-07 08:54:35] INFO root fetch - processPackages [OpihiExarata]: New version: [2023.6.7] Old Version: [2023.6.1]
+[2023-06-07 08:54:35] INFO root fetch - processPackages [readlog]: Downloading https://files.pythonhosted.org/packages/29/5d/e5a284ad1ff420db22e00180b2b7832a1efec93e5510952247dd215c4c18/readlog-1.1.6.tar.gz
+[2023-06-07 08:54:35] INFO root fetch - processPackages [modelon-impact-client]: Downloading https://files.pythonhosted.org/packages/36/b4/452920b23dc5fce52f2d517cc942c5d5772022ddd6efdd2f337fe1b61977/modelon_impact_client-3.0.0.dev8.tar.gz
+[2023-06-07 08:54:35] INFO root fetch - processPackages [alibabacloud-umeng-apm20220214]: Downloading https://files.pythonhosted.org/packages/7b/57/fe49153e16e56ba2e328f1961ea974c488fec166116a1eb2b17aa7dc1087/alibabacloud_umeng-apm20220214-1.0.3.tar.gz
+[2023-06-07 08:54:35] INFO root fetch - processPackages [mfhpo-simulator]: Downloading https://files.pythonhosted.org/packages/bc/c1/57224922e0b7cd623965d984df24c5ed0bc9ecc971b678dca828c8ac118c/mfhpo_simulator-1.0.0-py3-none-any.whl
+[2023-06-07 08:54:35] INFO root fetch - processPackages [alibabacloud-umeng-apm20220214-py2]: Downloading https://files.pythonhosted.org/packages/85/da/a86f9ac940a6ebc8f902020131d9934d702837d14f06b8e4d33de9f9f454/alibabacloud_umeng-apm20220214_py2-1.0.3.tar.gz
+[2023-06-07 08:54:35] INFO root fetch - processPackages [OpihiExarata]: Downloading https://files.pythonhosted.org/packages/e4/a9/e759b4bf3da86a80800f1b64497279b60ef0867cea3c4f99997b0c4dbead/OpihiExarata-2023.6.1.tar.gz
+[2023-06-07 08:54:35] INFO root fetch - processPackages [amazon-ad-sdk]: Downloading https://files.pythonhosted.org/packages/c9/42/88f0835051719eeb7d9fabb939fa7266e75ac994b6058a6c6a0720c7578e/amazon_ad_sdk-0.2.5.tar.gz
+[2023-06-07 08:54:35] INFO root fetch - processPackages [glassesValidator]: Downloading https://files.pythonhosted.org/packages/b7/57/18a19858c7bbde8539c27c99d1288434f4bc7c7e0109b703e6c5ad48942a/glassesValidator-0.11.2.tar.gz
+[2023-06-07 08:54:35] INFO root fetch - processPackages [lazyearth]: Downloading https://files.pythonhosted.org/packages/d9/c7/af1d2c78694d1c93c56f540f2905e5ba84ce2e701c057e6ed55b4a5924bd/lazyearth-1.0.7.tar.gz
+[2023-06-07 08:54:35] INFO root fetch - processPackages [nlu-tmp]: Downloading https://files.pythonhosted.org/packages/bd/11/14e625783fe7ad67703a0bf4b117146a7babdc18925e270cf0e2af5baa65/nlu_tmp-4.3.0rc7.tar.gz
+[2023-06-07 08:54:35] INFO root fetch - processPackages [alibabacloud-umeng-apm20220214]: Downloading https://files.pythonhosted.org/packages/65/0c/ff75da2c00518532659faa7e0dd84975519bcb5ddae524df66a0d16f8da0/alibabacloud_umeng-apm20220214-1.0.4.tar.gz
+[2023-06-07 08:54:35] INFO root fetch - processPackages [alibabacloud-umeng-apm20220214-py2]: Downloading https://files.pythonhosted.org/packages/c4/5a/712fb112e508c5bd5fbb8d79d2997afea7aa49e6ff2a06457fd7e862d8a2/alibabacloud_umeng-apm20220214_py2-1.0.4.tar.gz
+[2023-06-07 08:54:35] INFO root fetch - processPackages [mfhpo-simulator]: Downloading https://files.pythonhosted.org/packages/c5/a6/a0cd50943ef7ba53ed7260a3aa14c7fc55aa82424679a008d3b6c12c2999/mfhpo_simulator-1.0.1-py3-none-any.whl
+[2023-06-07 08:54:35] INFO root fetch - processPackages [readlog]: Downloading https://files.pythonhosted.org/packages/c8/55/6a2a79e2ee910fed41d61e957df46f7012e8a58b17d4828441e6cba0325b/readlog-1.1.7.tar.gz
+[2023-06-07 08:54:35] INFO root fetch - processPackages [modelon-impact-client]: Downloading https://files.pythonhosted.org/packages/4a/46/39f10d958eb7e1d3b6b332803f3e61b95fe2d424c01272f00a98cf4ec411/modelon_impact_client-3.0.0.dev9.tar.gz
+[2023-06-07 08:54:35] INFO root fetch - processPackages [alibabacloud-umeng-apm20220214-py2]: executing diffoscope
+[2023-06-07 08:54:35] INFO root fetch - processPackages [alibabacloud-umeng-apm20220214-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_umeng-apm20220214_py2-1.0.3.tar.gz tmp/alibabacloud_umeng-apm20220214_py2-1.0.4.tar.gz --markdown 20230607/a/alibabacloud-umeng-apm20220214-py2/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-07 08:54:35] INFO root fetch - processPackages [amazon-ad-sdk]: Downloading https://files.pythonhosted.org/packages/ac/bc/d44d3e74a23487dcd99e95788bd4861fb45d7d6757dd7b54346a4f8c11d9/amazon_ad_sdk-0.2.6.tar.gz
+[2023-06-07 08:54:35] INFO root fetch - processPackages [alibabacloud-umeng-apm20220214]: executing diffoscope
+[2023-06-07 08:54:35] INFO root fetch - processPackages [alibabacloud-umeng-apm20220214]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_umeng-apm20220214-1.0.3.tar.gz tmp/alibabacloud_umeng-apm20220214-1.0.4.tar.gz --markdown 20230607/a/alibabacloud-umeng-apm20220214/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-07 08:54:35] INFO root fetch - processPackages [lazyearth]: Downloading https://files.pythonhosted.org/packages/57/a4/1f336b2de35597565a2417d8be51639317ff136edaf8e169f5f0828f24fc/lazyearth-1.0.8.tar.gz
+[2023-06-07 08:54:35] INFO root fetch - processPackages [mfhpo-simulator]: executing diffoscope
+[2023-06-07 08:54:35] INFO root fetch - processPackages [mfhpo-simulator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mfhpo_simulator-1.0.0-py3-none-any.whl.zip tmp/mfhpo_simulator-1.0.1-py3-none-any.whl.zip --markdown 20230607/m/mfhpo-simulator/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-07 08:54:35] INFO root fetch - processPackages [readlog]: executing diffoscope
+[2023-06-07 08:54:35] INFO root fetch - processPackages [readlog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/readlog-1.1.6.tar.gz tmp/readlog-1.1.7.tar.gz --markdown 20230607/r/readlog/1.1.6-1.1.7/diff.md --exclude *.pyd
+[2023-06-07 08:54:35] INFO root fetch - processPackages [OpihiExarata]: Downloading https://files.pythonhosted.org/packages/7d/4f/2d78e09338c7644ed63df4e060a19c5a759f8cf050ffe700850c4a24db51/OpihiExarata-2023.6.7.tar.gz
+[2023-06-07 08:54:35] INFO root fetch - processPackages [glassesValidator]: Downloading https://files.pythonhosted.org/packages/ee/65/f5e8a6e9309f146d9359386ffd3d372467a3b0472c1d00adb3709f3bca96/glassesValidator-1.0.0.tar.gz
+[2023-06-07 08:54:35] INFO root fetch - processPackages [modelon-impact-client]: executing diffoscope
+[2023-06-07 08:54:35] INFO root fetch - processPackages [modelon-impact-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelon_impact_client-3.0.0.dev8.tar.gz tmp/modelon_impact_client-3.0.0.dev9.tar.gz --markdown 20230607/m/modelon-impact-client/3.0.0.dev8-3.0.0.dev9/diff.md --exclude *.pyd
+[2023-06-07 08:54:35] INFO root fetch - processPackages [amazon-ad-sdk]: executing diffoscope
+[2023-06-07 08:54:35] INFO root fetch - processPackages [amazon-ad-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amazon_ad_sdk-0.2.5.tar.gz tmp/amazon_ad_sdk-0.2.6.tar.gz --markdown 20230607/a/amazon-ad-sdk/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-06-07 08:54:35] INFO root fetch - processPackages [lazyearth]: executing diffoscope
+[2023-06-07 08:54:35] INFO root fetch - processPackages [lazyearth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazyearth-1.0.7.tar.gz tmp/lazyearth-1.0.8.tar.gz --markdown 20230607/l/lazyearth/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-06-07 08:54:36] INFO root fetch - processPackages [nlu-tmp]: Downloading https://files.pythonhosted.org/packages/20/dc/eef9a12f5dd345158da3b1fd8ebd6a81b114418bd7734bf441aabd0121d3/nlu_tmp-4.5.0rc5.tar.gz
+[2023-06-07 08:54:36] INFO root fetch - processPackages [OpihiExarata]: executing diffoscope
+[2023-06-07 08:54:36] INFO root fetch - processPackages [OpihiExarata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpihiExarata-2023.6.1.tar.gz tmp/OpihiExarata-2023.6.7.tar.gz --markdown 20230607/O/OpihiExarata/2023.6.1-2023.6.7/diff.md --exclude *.pyd
+[2023-06-07 08:54:36] INFO root fetch - processPackages [glassesValidator]: executing diffoscope
+[2023-06-07 08:54:36] INFO root fetch - processPackages [glassesValidator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glassesValidator-0.11.2.tar.gz tmp/glassesValidator-1.0.0.tar.gz --markdown 20230607/g/glassesValidator/0.11.2-1.0.0/diff.md --exclude *.pyd
+[2023-06-07 08:54:36] INFO root fetch - processPackages [nlu-tmp]: executing diffoscope
+[2023-06-07 08:54:36] INFO root fetch - processPackages [nlu-tmp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nlu_tmp-4.3.0rc7.tar.gz tmp/nlu_tmp-4.5.0rc5.tar.gz --markdown 20230607/n/nlu-tmp/4.3.0rc7-4.5.0rc5/diff.md --exclude *.pyd
+[2023-06-07 08:54:37] INFO root fetch - processPackages [mfhpo-simulator]: Remove: archive file [/home/abi/fetcher/tmp/mfhpo_simulator-1.0.0-py3-none-any.whl.zip]
+[2023-06-07 08:54:37] INFO root fetch - processPackages [mfhpo-simulator]: Remove: archive file [/home/abi/fetcher/tmp/mfhpo_simulator-1.0.1-py3-none-any.whl.zip]
+[2023-06-07 08:54:37] INFO root fetch - processPackages [mfhpo-simulator]: Start processing: weave-py-api
+[2023-06-07 08:54:37] INFO root fetch - main [MainThread]: End processing [mfhpo-simulator]: success
+[2023-06-07 08:54:37] INFO root fetch - processPackages [weave-py-api]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-06-07 08:54:37] INFO root fetch - processPackages [alibabacloud-umeng-apm20220214]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_umeng-apm20220214-1.0.3.tar.gz]
+[2023-06-07 08:54:37] INFO root fetch - processPackages [alibabacloud-umeng-apm20220214]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_umeng-apm20220214-1.0.4.tar.gz]
+[2023-06-07 08:54:37] INFO root fetch - processPackages [alibabacloud-umeng-apm20220214]: Start processing: qontract-reconcile
+[2023-06-07 08:54:37] INFO root fetch - main [MainThread]: End processing [alibabacloud-umeng-apm20220214]: success
+[2023-06-07 08:54:37] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-06-07 08:54:37] INFO root fetch - processPackages [alibabacloud-umeng-apm20220214-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_umeng-apm20220214_py2-1.0.3.tar.gz]
+[2023-06-07 08:54:37] INFO root fetch - processPackages [alibabacloud-umeng-apm20220214-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_umeng-apm20220214_py2-1.0.4.tar.gz]
+[2023-06-07 08:54:37] INFO root fetch - processPackages [alibabacloud-umeng-apm20220214-py2]: Start processing: alienpy
+[2023-06-07 08:54:37] INFO root fetch - main [MainThread]: End processing [alibabacloud-umeng-apm20220214-py2]: success
+[2023-06-07 08:54:37] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2023-06-07 08:54:37] INFO root fetch - processPackages [weave-py-api]: Downloading https://files.pythonhosted.org/packages/7b/50/adc1b13559d64be4d60634a2cca684ded043979d93d09823a28bd466ea8e/weave-py-api-1.0.0.tar.gz
+[2023-06-07 08:54:37] INFO root fetch - processPackages [alienpy]: New version: [1.5.1] Old Version: [1.5.0]
+[2023-06-07 08:54:37] INFO root fetch - processPackages [modelon-impact-client]: Remove: archive file [/home/abi/fetcher/tmp/modelon_impact_client-3.0.0.dev8.tar.gz]
+[2023-06-07 08:54:37] INFO root fetch - processPackages [modelon-impact-client]: Remove: archive file [/home/abi/fetcher/tmp/modelon_impact_client-3.0.0.dev9.tar.gz]
+[2023-06-07 08:54:37] INFO root fetch - processPackages [modelon-impact-client]: Start processing: formalmath
+[2023-06-07 08:54:37] INFO root fetch - main [MainThread]: End processing [modelon-impact-client]: success
+[2023-06-07 08:54:37] INFO root fetch - processPackages [formalmath]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-07 08:54:37] INFO root fetch - processPackages [formalmath]: Downloading https://files.pythonhosted.org/packages/67/b7/29bee3212ca9f81da964d6fbfe0b3d60917b147e7a32beb87142085451ed/formalmath-0.0.3.tar.gz
+[2023-06-07 08:54:37] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2023-06-07 08:54:37] INFO root fetch - processPackages [alienpy]: Downloading https://files.pythonhosted.org/packages/d5/65/6463a791fc1daf11eab4c28fbcca38abbf6fbf5c5944631545d046f453bd/alienpy-1.5.0.tar.gz
+[2023-06-07 08:54:37] INFO root fetch - processPackages [lazyearth]: Remove: archive file [/home/abi/fetcher/tmp/lazyearth-1.0.7.tar.gz]
+[2023-06-07 08:54:37] INFO root fetch - processPackages [lazyearth]: Remove: archive file [/home/abi/fetcher/tmp/lazyearth-1.0.8.tar.gz]
+[2023-06-07 08:54:37] INFO root fetch - main [MainThread]: End processing [lazyearth]: success
+[2023-06-07 08:54:37] INFO root fetch - processPackages [formalmath]: Downloading https://files.pythonhosted.org/packages/01/ac/014eb9252a21da6b0fb5e5aa287ff897ba6ccaa6a5635397e8a645521bbc/formalmath-0.0.4.tar.gz
+[2023-06-07 08:54:38] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-06-07 08:54:38] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230607/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-06-07 08:54:38] INFO root fetch - processPackages [weave-py-api]: Downloading https://files.pythonhosted.org/packages/4a/c4/d24106aea0409479cb08b0967732b3180ef45e10c1035d40c4b940831f59/weave-py-api-1.1.0.tar.gz
+[2023-06-07 08:54:38] INFO root fetch - processPackages [formalmath]: executing diffoscope
+[2023-06-07 08:54:38] INFO root fetch - processPackages [formalmath]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/formalmath-0.0.3.tar.gz tmp/formalmath-0.0.4.tar.gz --markdown 20230607/f/formalmath/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-07 08:54:38] INFO root fetch - processPackages [weave-py-api]: executing diffoscope
+[2023-06-07 08:54:38] INFO root fetch - processPackages [weave-py-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weave-py-api-1.0.0.tar.gz tmp/weave-py-api-1.1.0.tar.gz --markdown 20230607/w/weave-py-api/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-06-07 08:54:38] INFO root fetch - processPackages [alienpy]: Downloading https://files.pythonhosted.org/packages/c8/46/b0fec0d0985b301866a84266bbfa923a6b4c55727bce09a6cdfa35fc0c0a/alienpy-1.5.1.tar.gz
+[2023-06-07 08:54:38] INFO root fetch - processPackages [amazon-ad-sdk]: Remove: archive file [/home/abi/fetcher/tmp/amazon_ad_sdk-0.2.5.tar.gz]
+[2023-06-07 08:54:38] INFO root fetch - processPackages [amazon-ad-sdk]: Remove: archive file [/home/abi/fetcher/tmp/amazon_ad_sdk-0.2.6.tar.gz]
+[2023-06-07 08:54:38] INFO root fetch - main [MainThread]: End processing [amazon-ad-sdk]: success
+[2023-06-07 08:54:38] INFO root fetch - processPackages [alienpy]: executing diffoscope
+[2023-06-07 08:54:38] INFO root fetch - processPackages [alienpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alienpy-1.5.0.tar.gz tmp/alienpy-1.5.1.tar.gz --markdown 20230607/a/alienpy/1.5.0-1.5.1/diff.md --exclude *.pyd
+[2023-06-07 08:54:39] INFO root fetch - processPackages [readlog]: Remove: archive file [/home/abi/fetcher/tmp/readlog-1.1.6.tar.gz]
+[2023-06-07 08:54:39] INFO root fetch - processPackages [readlog]: Remove: archive file [/home/abi/fetcher/tmp/readlog-1.1.7.tar.gz]
+[2023-06-07 08:54:39] INFO root fetch - main [MainThread]: End processing [readlog]: success
+[2023-06-07 08:54:39] INFO root fetch - processPackages [formalmath]: Remove: archive file [/home/abi/fetcher/tmp/formalmath-0.0.3.tar.gz]
+[2023-06-07 08:54:39] INFO root fetch - processPackages [formalmath]: Remove: archive file [/home/abi/fetcher/tmp/formalmath-0.0.4.tar.gz]
+[2023-06-07 08:54:39] INFO root fetch - main [MainThread]: End processing [formalmath]: success
+[2023-06-07 08:54:39] INFO root fetch - processPackages [weave-py-api]: Remove: archive file [/home/abi/fetcher/tmp/weave-py-api-1.0.0.tar.gz]
+[2023-06-07 08:54:39] INFO root fetch - processPackages [weave-py-api]: Remove: archive file [/home/abi/fetcher/tmp/weave-py-api-1.1.0.tar.gz]
+[2023-06-07 08:54:39] INFO root fetch - main [MainThread]: End processing [weave-py-api]: success
+[2023-06-07 08:54:39] INFO root fetch - processPackages [alienpy]: Remove: archive file [/home/abi/fetcher/tmp/alienpy-1.5.0.tar.gz]
+[2023-06-07 08:54:39] INFO root fetch - processPackages [alienpy]: Remove: archive file [/home/abi/fetcher/tmp/alienpy-1.5.1.tar.gz]
+[2023-06-07 08:54:39] INFO root fetch - main [MainThread]: End processing [alienpy]: success
+[2023-06-07 08:54:41] INFO root fetch - processPackages [glassesValidator]: Remove: archive file [/home/abi/fetcher/tmp/glassesValidator-0.11.2.tar.gz]
+[2023-06-07 08:54:41] INFO root fetch - processPackages [glassesValidator]: Remove: archive file [/home/abi/fetcher/tmp/glassesValidator-1.0.0.tar.gz]
+[2023-06-07 08:54:41] INFO root fetch - main [MainThread]: End processing [glassesValidator]: success
+[2023-06-07 08:54:41] INFO root fetch - processPackages [OpihiExarata]: Remove: archive file [/home/abi/fetcher/tmp/OpihiExarata-2023.6.1.tar.gz]
+[2023-06-07 08:54:41] INFO root fetch - processPackages [OpihiExarata]: Remove: archive file [/home/abi/fetcher/tmp/OpihiExarata-2023.6.7.tar.gz]
+[2023-06-07 08:54:41] INFO root fetch - main [MainThread]: End processing [OpihiExarata]: success
+[2023-06-07 08:54:43] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2023-06-07 08:54:43] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2023-06-07 08:54:43] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-06-07 08:54:45] INFO root fetch - processPackages [nlu-tmp]: Remove: archive file [/home/abi/fetcher/tmp/nlu_tmp-4.3.0rc7.tar.gz]
+[2023-06-07 08:54:45] INFO root fetch - processPackages [nlu-tmp]: Remove: archive file [/home/abi/fetcher/tmp/nlu_tmp-4.5.0rc5.tar.gz]
+[2023-06-07 08:54:45] INFO root fetch - main [MainThread]: End processing [nlu-tmp]: success
+[2023-06-07 08:54:45] INFO root fetch - main [MainThread]: Store serial: [18403738]
