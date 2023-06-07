@@ -14094,3 +14094,90 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-06-07 08:16:35] INFO root fetch - processPackages [TINTOlib]: Remove: archive file [/home/abi/fetcher/tmp/tintolib-0.0.8.tar.gz]
 [2023-06-07 08:16:35] INFO root fetch - main [MainThread]: End processing [TINTOlib]: success
 [2023-06-07 08:16:35] INFO root fetch - main [MainThread]: Store serial: [18403407]
+[2023-06-07 08:21:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18403407]
+[2023-06-07 08:21:44] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-07 08:21:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pypcapkit
+[2023-06-07 08:21:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: trsfile
+[2023-06-07 08:21:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: types-inifile
+[2023-06-07 08:21:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: irisml-tasks-transformers
+[2023-06-07 08:21:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pretext
+[2023-06-07 08:21:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: upgini
+[2023-06-07 08:21:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dotscanner
+[2023-06-07 08:21:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hagworm
+[2023-06-07 08:21:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fusion-platform-python-sdk
+[2023-06-07 08:21:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nsqdriver
+[2023-06-07 08:21:44] INFO root fetch - processPackages [fusion-platform-python-sdk]: New version: [1.7.1] Old Version: [1.6.9]
+[2023-06-07 08:21:44] INFO root fetch - processPackages [pypcapkit]: New version: [1.0.2.post3] Old Version: [1.0.2.post2]
+[2023-06-07 08:21:44] INFO root fetch - processPackages [nsqdriver]: New version: [0.3.0] Old Version: [0.2.7]
+[2023-06-07 08:21:44] INFO root fetch - processPackages [trsfile]: New version: [2.2.0] Old Version: [2.1.0]
+[2023-06-07 08:21:44] INFO root fetch - processPackages [irisml-tasks-transformers]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-07 08:21:44] INFO root fetch - processPackages [dotscanner]: New version: [1.3.4] Old Version: [1.3.3]
+[2023-06-07 08:21:44] INFO root fetch - processPackages [pretext]: New version: [1.6.1.dev20230607] Old Version: [1.6.1.dev20230606]
+[2023-06-07 08:21:44] INFO root fetch - processPackages [upgini]: New version: [1.1.99] Old Version: [1.1.98]
+[2023-06-07 08:21:44] INFO root fetch - processPackages [hagworm]: New version: [5.5.8] Old Version: [5.5.7]
+[2023-06-07 08:21:44] INFO root fetch - processPackages [dotscanner]: Downloading https://files.pythonhosted.org/packages/6d/20/626c79c1b6b571bf9d963964813a96144b86843e09bcc4bc50bf66ea7e7b/dotscanner-1.3.3.tar.gz
+[2023-06-07 08:21:44] WARNING root fetch - processPackages [types-inifile]: Skipping, unable to determine old version
+[2023-06-07 08:21:44] INFO root fetch - main [MainThread]: End processing [types-inifile] error
+[2023-06-07 08:21:44] INFO root fetch - processPackages [upgini]: Downloading https://files.pythonhosted.org/packages/59/79/dc47448e0c68a4e00d9d0b7f4c640207fa605fe48cdc53e30221037a1962/upgini-1.1.98.tar.gz
+[2023-06-07 08:21:44] INFO root fetch - processPackages [nsqdriver]: Downloading https://files.pythonhosted.org/packages/d6/95/2244c3fe8d6fff3d28f8780a85dd30b1172142805ec4cabc375abeff89e0/nsqdriver-0.2.7.tar.gz
+[2023-06-07 08:21:44] INFO root fetch - processPackages [fusion-platform-python-sdk]: Downloading https://files.pythonhosted.org/packages/e9/a4/26415d05cf71df8f04f7d59fc5019d66cd72d8560ce583880c7bb24e93f6/fusion-platform-python-sdk-1.6.9.tar.gz
+[2023-06-07 08:21:44] INFO root fetch - processPackages [hagworm]: Downloading https://files.pythonhosted.org/packages/29/55/28f405b717be7ff19bad769415b5893ed136b66e4a39c255b19d95501b53/hagworm-5.5.7.tar.gz
+[2023-06-07 08:21:44] INFO root fetch - processPackages [pypcapkit]: Downloading https://files.pythonhosted.org/packages/02/6a/6613b4073959915875c635087282feff307a8b013b12490f5e5cbeb2047a/pypcapkit-1.0.2.post2.tar.gz
+[2023-06-07 08:21:44] INFO root fetch - processPackages [trsfile]: Downloading https://files.pythonhosted.org/packages/39/58/0de7e2f43b3d3133e75dc7a621d8aa898e27ed7cc4c4059c8cc041cdafcb/trsfile-2.1.0.tar.gz
+[2023-06-07 08:21:44] INFO root fetch - processPackages [irisml-tasks-transformers]: Downloading https://files.pythonhosted.org/packages/88/d9/39d9ff6d0cefc10a6fc13b67eaa7be100ff9cdc58a0685000a07d83b4f48/irisml-tasks-transformers-0.0.1.tar.gz
+[2023-06-07 08:21:44] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/39/27/1a87231fb7f1cbbbaebef51766c9dd05491b11bfcfc977a92845dcee646e/pretext-1.6.1.dev20230606.tar.gz
+[2023-06-07 08:21:44] INFO root fetch - processPackages [upgini]: Downloading https://files.pythonhosted.org/packages/32/f1/1df90a6a856d855308ddf057a7b8cdad7dbcafb6230f0592bbff90f929fd/upgini-1.1.99.tar.gz
+[2023-06-07 08:21:44] INFO root fetch - processPackages [dotscanner]: Downloading https://files.pythonhosted.org/packages/78/84/ed27a9bcd9913fab7356813405b889be3ca0ca54efca2c5f9dff9bfdfe54/dotscanner-1.3.4.tar.gz
+[2023-06-07 08:21:44] INFO root fetch - processPackages [upgini]: executing diffoscope
+[2023-06-07 08:21:44] INFO root fetch - processPackages [upgini]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upgini-1.1.98.tar.gz tmp/upgini-1.1.99.tar.gz --markdown 20230607/u/upgini/1.1.98-1.1.99/diff.md --exclude *.pyd
+[2023-06-07 08:21:45] INFO root fetch - processPackages [nsqdriver]: Downloading https://files.pythonhosted.org/packages/f6/61/94c382c6fd831ab2dc6947877fe274dfecb447456760288df397324cbfb0/nsqdriver-0.3.0.tar.gz
+[2023-06-07 08:21:45] INFO root fetch - processPackages [hagworm]: Downloading https://files.pythonhosted.org/packages/e6/ec/6e3034e361e8552c67c851dc0ab19f1145b3bfb0a2a50928eddfdc98c4ab/hagworm-5.5.8.tar.gz
+[2023-06-07 08:21:45] INFO root fetch - processPackages [dotscanner]: executing diffoscope
+[2023-06-07 08:21:45] INFO root fetch - processPackages [dotscanner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dotscanner-1.3.3.tar.gz tmp/dotscanner-1.3.4.tar.gz --markdown 20230607/d/dotscanner/1.3.3-1.3.4/diff.md --exclude *.pyd
+[2023-06-07 08:21:45] INFO root fetch - processPackages [irisml-tasks-transformers]: Downloading https://files.pythonhosted.org/packages/f8/35/d3b76dc609668b6b79fbe1758d5b19b442a0b6134a0d4b7fb507b1ac5f49/irisml-tasks-transformers-0.0.2.tar.gz
+[2023-06-07 08:21:45] INFO root fetch - processPackages [pypcapkit]: Downloading https://files.pythonhosted.org/packages/51/6d/25d4e41315ab24409164b3c65772ef4406c43084135edbd02334993d972e/pypcapkit-1.0.2.post3.tar.gz
+[2023-06-07 08:21:45] INFO root fetch - processPackages [trsfile]: Downloading https://files.pythonhosted.org/packages/c5/4e/173fae5c20ca85334095588f8c74e2e518cb20e81a7b9c76d616e3f5ff96/trsfile-2.2.0.tar.gz
+[2023-06-07 08:21:45] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/07/dc/f30320ed66c67f0965bf39d7fdf289c3a420250296c63d183724e15f6a4c/pretext-1.6.1.dev20230607.tar.gz
+[2023-06-07 08:21:45] INFO root fetch - processPackages [fusion-platform-python-sdk]: Downloading https://files.pythonhosted.org/packages/d3/64/d46fcd2704a1a9bd32e9e8af302fee07ae69cd015ba18c31d67c37e67b39/fusion-platform-python-sdk-1.7.1.tar.gz
+[2023-06-07 08:21:45] INFO root fetch - processPackages [nsqdriver]: executing diffoscope
+[2023-06-07 08:21:45] INFO root fetch - processPackages [nsqdriver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nsqdriver-0.2.7.tar.gz tmp/nsqdriver-0.3.0.tar.gz --markdown 20230607/n/nsqdriver/0.2.7-0.3.0/diff.md --exclude *.pyd
+[2023-06-07 08:21:45] INFO root fetch - processPackages [irisml-tasks-transformers]: executing diffoscope
+[2023-06-07 08:21:45] INFO root fetch - processPackages [irisml-tasks-transformers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irisml-tasks-transformers-0.0.1.tar.gz tmp/irisml-tasks-transformers-0.0.2.tar.gz --markdown 20230607/i/irisml-tasks-transformers/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-07 08:21:45] INFO root fetch - processPackages [hagworm]: executing diffoscope
+[2023-06-07 08:21:45] INFO root fetch - processPackages [hagworm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hagworm-5.5.7.tar.gz tmp/hagworm-5.5.8.tar.gz --markdown 20230607/h/hagworm/5.5.7-5.5.8/diff.md --exclude *.pyd
+[2023-06-07 08:21:45] INFO root fetch - processPackages [trsfile]: executing diffoscope
+[2023-06-07 08:21:45] INFO root fetch - processPackages [trsfile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trsfile-2.1.0.tar.gz tmp/trsfile-2.2.0.tar.gz --markdown 20230607/t/trsfile/2.1.0-2.2.0/diff.md --exclude *.pyd
+[2023-06-07 08:21:45] INFO root fetch - processPackages [fusion-platform-python-sdk]: executing diffoscope
+[2023-06-07 08:21:45] INFO root fetch - processPackages [fusion-platform-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fusion-platform-python-sdk-1.6.9.tar.gz tmp/fusion-platform-python-sdk-1.7.1.tar.gz --markdown 20230607/f/fusion-platform-python-sdk/1.6.9-1.7.1/diff.md --exclude *.pyd
+[2023-06-07 08:21:45] INFO root fetch - processPackages [pypcapkit]: executing diffoscope
+[2023-06-07 08:21:45] INFO root fetch - processPackages [pypcapkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypcapkit-1.0.2.post2.tar.gz tmp/pypcapkit-1.0.2.post3.tar.gz --markdown 20230607/p/pypcapkit/1.0.2.post2-1.0.2.post3/diff.md --exclude *.pyd
+[2023-06-07 08:21:45] INFO root fetch - processPackages [pretext]: executing diffoscope
+[2023-06-07 08:21:45] INFO root fetch - processPackages [pretext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pretext-1.6.1.dev20230606.tar.gz tmp/pretext-1.6.1.dev20230607.tar.gz --markdown 20230607/p/pretext/1.6.1.dev20230606-1.6.1.dev20230607/diff.md --exclude *.pyd
+[2023-06-07 08:21:46] INFO root fetch - processPackages [irisml-tasks-transformers]: Remove: archive file [/home/abi/fetcher/tmp/irisml-tasks-transformers-0.0.1.tar.gz]
+[2023-06-07 08:21:46] INFO root fetch - processPackages [irisml-tasks-transformers]: Remove: archive file [/home/abi/fetcher/tmp/irisml-tasks-transformers-0.0.2.tar.gz]
+[2023-06-07 08:21:46] INFO root fetch - main [MainThread]: End processing [irisml-tasks-transformers]: success
+[2023-06-07 08:21:46] INFO root fetch - processPackages [nsqdriver]: Remove: archive file [/home/abi/fetcher/tmp/nsqdriver-0.2.7.tar.gz]
+[2023-06-07 08:21:46] INFO root fetch - processPackages [nsqdriver]: Remove: archive file [/home/abi/fetcher/tmp/nsqdriver-0.3.0.tar.gz]
+[2023-06-07 08:21:46] INFO root fetch - main [MainThread]: End processing [nsqdriver]: success
+[2023-06-07 08:21:46] INFO root fetch - processPackages [fusion-platform-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/fusion-platform-python-sdk-1.6.9.tar.gz]
+[2023-06-07 08:21:46] INFO root fetch - processPackages [fusion-platform-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/fusion-platform-python-sdk-1.7.1.tar.gz]
+[2023-06-07 08:21:46] INFO root fetch - main [MainThread]: End processing [fusion-platform-python-sdk]: success
+[2023-06-07 08:21:47] INFO root fetch - processPackages [dotscanner]: Remove: archive file [/home/abi/fetcher/tmp/dotscanner-1.3.3.tar.gz]
+[2023-06-07 08:21:47] INFO root fetch - processPackages [dotscanner]: Remove: archive file [/home/abi/fetcher/tmp/dotscanner-1.3.4.tar.gz]
+[2023-06-07 08:21:47] INFO root fetch - main [MainThread]: End processing [dotscanner]: success
+[2023-06-07 08:21:47] INFO root fetch - processPackages [upgini]: Remove: archive file [/home/abi/fetcher/tmp/upgini-1.1.98.tar.gz]
+[2023-06-07 08:21:47] INFO root fetch - processPackages [upgini]: Remove: archive file [/home/abi/fetcher/tmp/upgini-1.1.99.tar.gz]
+[2023-06-07 08:21:47] INFO root fetch - main [MainThread]: End processing [upgini]: success
+[2023-06-07 08:21:47] INFO root fetch - processPackages [trsfile]: Remove: archive file [/home/abi/fetcher/tmp/trsfile-2.1.0.tar.gz]
+[2023-06-07 08:21:47] INFO root fetch - processPackages [trsfile]: Remove: archive file [/home/abi/fetcher/tmp/trsfile-2.2.0.tar.gz]
+[2023-06-07 08:21:47] INFO root fetch - main [MainThread]: End processing [trsfile]: success
+[2023-06-07 08:21:48] INFO root fetch - processPackages [hagworm]: Remove: archive file [/home/abi/fetcher/tmp/hagworm-5.5.7.tar.gz]
+[2023-06-07 08:21:48] INFO root fetch - processPackages [hagworm]: Remove: archive file [/home/abi/fetcher/tmp/hagworm-5.5.8.tar.gz]
+[2023-06-07 08:21:48] INFO root fetch - main [MainThread]: End processing [hagworm]: success
+[2023-06-07 08:21:49] INFO root fetch - processPackages [pypcapkit]: Remove: archive file [/home/abi/fetcher/tmp/pypcapkit-1.0.2.post2.tar.gz]
+[2023-06-07 08:21:49] INFO root fetch - processPackages [pypcapkit]: Remove: archive file [/home/abi/fetcher/tmp/pypcapkit-1.0.2.post3.tar.gz]
+[2023-06-07 08:21:49] INFO root fetch - main [MainThread]: End processing [pypcapkit]: success
+[2023-06-07 08:21:49] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-1.6.1.dev20230606.tar.gz]
+[2023-06-07 08:21:49] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-1.6.1.dev20230607.tar.gz]
+[2023-06-07 08:21:49] INFO root fetch - main [MainThread]: End processing [pretext]: success
+[2023-06-07 08:21:49] INFO root fetch - main [MainThread]: Store serial: [18403449]
