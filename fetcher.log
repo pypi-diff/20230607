@@ -5798,3 +5798,63 @@
 [2023-06-07 03:22:29] INFO root fetch - processPackages [cdk-hugo-deploy]: Remove: archive file [/home/abi/fetcher/tmp/cdk-hugo-deploy-0.0.99.tar.gz]
 [2023-06-07 03:22:29] INFO root fetch - main [MainThread]: End processing [cdk-hugo-deploy]: success
 [2023-06-07 03:22:29] INFO root fetch - main [MainThread]: Store serial: [18400340]
+[2023-06-07 03:27:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18400340]
+[2023-06-07 03:27:43] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-07 03:27:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-sops-secrets
+[2023-06-07 03:27:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spaceone-core
+[2023-06-07 03:27:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: opinionx
+[2023-06-07 03:27:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: matrixlib-jfj
+[2023-06-07 03:27:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pepperize.cdk-organizations
+[2023-06-07 03:27:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: m2w
+[2023-06-07 03:27:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: langchain-visualizer
+[2023-06-07 03:27:43] INFO root fetch - processPackages [opinionx]: New version: [0.0.2] Old Version: [0.0.1a5]
+[2023-06-07 03:27:43] INFO root fetch - processPackages [m2w]: New version: [2.5.7] Old Version: [2.5.6]
+[2023-06-07 03:27:43] WARNING root fetch - processPackages [matrixlib-jfj]: Skipping, unable to determine old version
+[2023-06-07 03:27:43] INFO root fetch - main [MainThread]: End processing [matrixlib-jfj] error
+[2023-06-07 03:27:43] INFO root fetch - processPackages [cdk-sops-secrets]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-06-07 03:27:43] INFO root fetch - processPackages [spaceone-core]: New version: [1.9.7rc1] Old Version: [1.9.7.1]
+[2023-06-07 03:27:43] INFO root fetch - processPackages [pepperize.cdk-organizations]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-06-07 03:27:43] INFO root fetch - processPackages [m2w]: Downloading https://files.pythonhosted.org/packages/b8/b9/c76e04a5639d4fba03c47ecb772ade94e191f0ecf2c580f39022a9f19935/m2w-2.5.6.tar.gz
+[2023-06-07 03:27:44] INFO root fetch - processPackages [langchain-visualizer]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-07 03:27:44] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/c4/ec/fa2c14031b7b9ce22e4b044c652dd13a1a81769141fcd90e55c9eeb24d66/pepperize.cdk-organizations-0.7.98.tar.gz
+[2023-06-07 03:27:44] INFO root fetch - processPackages [opinionx]: Downloading https://files.pythonhosted.org/packages/31/2c/31629ca4ad720a08d74922c48cf9260cc16a95631e4799d2409fa60b2abf/opinionx-0.0.1a5.tar.gz
+[2023-06-07 03:27:44] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/e2/8d/e29915f1e26b1a9d52bb33bc0abeaa259422cbc8e7fb8d8031fb9d7855e5/cdk-sops-secrets-1.2.98.tar.gz
+[2023-06-07 03:27:44] INFO root fetch - processPackages [spaceone-core]: Downloading https://files.pythonhosted.org/packages/1f/6d/5cbc0264b2c1dd5f3ae609e7b61b5c5c8d54710e85e098c13db4552af976/spaceone_core-1.9.7.1-py3-none-any.whl
+[2023-06-07 03:27:44] INFO root fetch - processPackages [langchain-visualizer]: Downloading https://files.pythonhosted.org/packages/46/10/50d74f58550ffe5eca61ea43df7e98b776b69381027b0311ee3754767bf4/langchain_visualizer-0.0.8.tar.gz
+[2023-06-07 03:27:44] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/12/45/1106cc30844f7f4d96f7898a6ef3647d24a597c297bab995920a5915750e/pepperize.cdk-organizations-0.7.99.tar.gz
+[2023-06-07 03:27:44] INFO root fetch - processPackages [m2w]: Downloading https://files.pythonhosted.org/packages/90/a9/1a88bbfbd11c0b8a94f0cb422808804d1b8b96524598fa5bd2c576e6004e/m2w-2.5.7.tar.gz
+[2023-06-07 03:27:44] INFO root fetch - processPackages [opinionx]: Downloading https://files.pythonhosted.org/packages/4b/46/69fa1d446c82fcc9769242aa94b2059eb3dd07cc9f3b010b2151cd20e5c0/opinionx-0.0.2.tar.gz
+[2023-06-07 03:27:44] INFO root fetch - processPackages [pepperize.cdk-organizations]: executing diffoscope
+[2023-06-07 03:27:44] INFO root fetch - processPackages [pepperize.cdk-organizations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-organizations-0.7.98.tar.gz tmp/pepperize.cdk-organizations-0.7.99.tar.gz --markdown 20230607/p/pepperize.cdk-organizations/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-06-07 03:27:44] INFO root fetch - processPackages [opinionx]: executing diffoscope
+[2023-06-07 03:27:44] INFO root fetch - processPackages [opinionx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opinionx-0.0.1a5.tar.gz tmp/opinionx-0.0.2.tar.gz --markdown 20230607/o/opinionx/0.0.1a5-0.0.2/diff.md --exclude *.pyd
+[2023-06-07 03:27:44] INFO root fetch - processPackages [m2w]: executing diffoscope
+[2023-06-07 03:27:44] INFO root fetch - processPackages [m2w]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/m2w-2.5.6.tar.gz tmp/m2w-2.5.7.tar.gz --markdown 20230607/m/m2w/2.5.6-2.5.7/diff.md --exclude *.pyd
+[2023-06-07 03:27:44] INFO root fetch - processPackages [spaceone-core]: Downloading https://files.pythonhosted.org/packages/2f/7f/98bd3e0e1e14ec1a59e8d305c033978db48833658a8f1754c0458e77a3c4/spaceone_core-1.9.7rc1-py3-none-any.whl
+[2023-06-07 03:27:44] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/10/33/e08c5e7bb6d5b198c75b53cba42224da6ac877f65fd4a4343fecdad9a93e/cdk-sops-secrets-1.2.99.tar.gz
+[2023-06-07 03:27:44] INFO root fetch - processPackages [spaceone-core]: executing diffoscope
+[2023-06-07 03:27:44] INFO root fetch - processPackages [spaceone-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone_core-1.9.7.1-py3-none-any.whl.zip tmp/spaceone_core-1.9.7rc1-py3-none-any.whl.zip --markdown 20230607/s/spaceone-core/1.9.7.1-1.9.7rc1/diff.md --exclude *.pyd
+[2023-06-07 03:27:44] INFO root fetch - processPackages [langchain-visualizer]: Downloading https://files.pythonhosted.org/packages/cb/63/161612739a89467e0de9234ac5cae8c9eabeae5a5d9e53e7fc8469dde38e/langchain_visualizer-0.0.9.tar.gz
+[2023-06-07 03:27:44] INFO root fetch - processPackages [langchain-visualizer]: executing diffoscope
+[2023-06-07 03:27:44] INFO root fetch - processPackages [langchain-visualizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_visualizer-0.0.8.tar.gz tmp/langchain_visualizer-0.0.9.tar.gz --markdown 20230607/l/langchain-visualizer/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-07 03:27:44] INFO root fetch - processPackages [cdk-sops-secrets]: executing diffoscope
+[2023-06-07 03:27:44] INFO root fetch - processPackages [cdk-sops-secrets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sops-secrets-1.2.98.tar.gz tmp/cdk-sops-secrets-1.2.99.tar.gz --markdown 20230607/c/cdk-sops-secrets/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-06-07 03:27:45] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.98.tar.gz]
+[2023-06-07 03:27:45] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.99.tar.gz]
+[2023-06-07 03:27:45] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-organizations]: success
+[2023-06-07 03:27:45] INFO root fetch - processPackages [m2w]: Remove: archive file [/home/abi/fetcher/tmp/m2w-2.5.6.tar.gz]
+[2023-06-07 03:27:45] INFO root fetch - processPackages [m2w]: Remove: archive file [/home/abi/fetcher/tmp/m2w-2.5.7.tar.gz]
+[2023-06-07 03:27:45] INFO root fetch - main [MainThread]: End processing [m2w]: success
+[2023-06-07 03:27:45] INFO root fetch - processPackages [opinionx]: Remove: archive file [/home/abi/fetcher/tmp/opinionx-0.0.1a5.tar.gz]
+[2023-06-07 03:27:45] INFO root fetch - processPackages [opinionx]: Remove: archive file [/home/abi/fetcher/tmp/opinionx-0.0.2.tar.gz]
+[2023-06-07 03:27:45] INFO root fetch - main [MainThread]: End processing [opinionx]: success
+[2023-06-07 03:27:46] INFO root fetch - processPackages [langchain-visualizer]: Remove: archive file [/home/abi/fetcher/tmp/langchain_visualizer-0.0.8.tar.gz]
+[2023-06-07 03:27:46] INFO root fetch - processPackages [langchain-visualizer]: Remove: archive file [/home/abi/fetcher/tmp/langchain_visualizer-0.0.9.tar.gz]
+[2023-06-07 03:27:46] INFO root fetch - main [MainThread]: End processing [langchain-visualizer]: success
+[2023-06-07 03:27:46] INFO root fetch - processPackages [spaceone-core]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_core-1.9.7.1-py3-none-any.whl.zip]
+[2023-06-07 03:27:46] INFO root fetch - processPackages [spaceone-core]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_core-1.9.7rc1-py3-none-any.whl.zip]
+[2023-06-07 03:27:46] INFO root fetch - main [MainThread]: End processing [spaceone-core]: success
+[2023-06-07 03:27:46] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.98.tar.gz]
+[2023-06-07 03:27:46] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.99.tar.gz]
+[2023-06-07 03:27:46] INFO root fetch - main [MainThread]: End processing [cdk-sops-secrets]: success
+[2023-06-07 03:27:46] INFO root fetch - main [MainThread]: Store serial: [18400361]
