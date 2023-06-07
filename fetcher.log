@@ -11490,3 +11490,164 @@ AssertionError: tmp/odoo_addon_crm_lead_firstname-16.0.1.0.1-py3-none-any.whl.zi
 [2023-06-07 05:34:02] INFO root fetch - processPackages [sample-metadata]: Remove: archive file [/home/abi/fetcher/tmp/sample_metadata-5.7.2.tar.gz]
 [2023-06-07 05:34:02] INFO root fetch - main [MainThread]: End processing [sample-metadata]: success
 [2023-06-07 05:34:02] INFO root fetch - main [MainThread]: Store serial: [18402348]
+[2023-06-07 05:39:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18402348]
+[2023-06-07 05:39:11] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-06-07 05:39:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fusion-engine-client
+[2023-06-07 05:39:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PySupercell
+[2023-06-07 05:39:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aaz-dev
+[2023-06-07 05:39:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ml-pretrained
+[2023-06-07 05:39:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: leosatpy
+[2023-06-07 05:39:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mlplatformutils
+[2023-06-07 05:39:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo9-addon-document-page-approval
+[2023-06-07 05:39:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dbt-clickzetta
+[2023-06-07 05:39:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo12-addon-document-page-approval
+[2023-06-07 05:39:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo13-addon-document-page-approval
+[2023-06-07 05:39:11] INFO root fetch - processPackages [leosatpy]: New version: [0.1.6] Old Version: [0.1.1]
+[2023-06-07 05:39:11] INFO root fetch - processPackages [PySupercell]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-07 05:39:11] INFO root fetch - processPackages [fusion-engine-client]: New version: [1.20.0rc2] Old Version: [1.20.0rc1]
+[2023-06-07 05:39:11] INFO root fetch - processPackages [ml-pretrained]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-07 05:39:11] INFO root fetch - processPackages [mlplatformutils]: New version: [0.9.1.2] Old Version: [0.9.1.1]
+[2023-06-07 05:39:11] INFO root fetch - processPackages [odoo12-addon-document-page-approval]: New version: [12.0.1.0.5.99.dev3] Old Version: [12.0.1.0.5.99.dev2]
+[2023-06-07 05:39:11] INFO root fetch - processPackages [aaz-dev]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-06-07 05:39:11] INFO root fetch - processPackages [dbt-clickzetta]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-07 05:39:11] INFO root fetch - processPackages [odoo13-addon-document-page-approval]: New version: [13.0.1.3.2.dev3] Old Version: [13.0.1.3.2.dev2]
+[2023-06-07 05:39:11] INFO root fetch - processPackages [odoo9-addon-document-page-approval]: New version: [9.0.2.1.0.99.dev9] Old Version: [9.0.2.1.0.99.dev8]
+[2023-06-07 05:39:11] INFO root fetch - processPackages [PySupercell]: Downloading https://files.pythonhosted.org/packages/73/4e/a80df8b529fe378bfa915eadf594310c1cb8a7b17a048daa10a89dd78108/PySupercell-0.0.8.tar.gz
+[2023-06-07 05:39:11] INFO root fetch - processPackages [dbt-clickzetta]: Downloading https://files.pythonhosted.org/packages/09/f0/5a413293e92b4ca0d7431450a7218700efac779c0ce2a94f2b8d575440f2/dbt-clickzetta-0.2.8.tar.gz
+[2023-06-07 05:39:11] INFO root fetch - processPackages [ml-pretrained]: Downloading https://files.pythonhosted.org/packages/a0/eb/e6fe6df49721b7728afd6cdbd71b10ca1bd1386a7ddaea40bf1609f649a2/ml-pretrained-0.0.6.tar.gz
+[2023-06-07 05:39:11] INFO root fetch - processPackages [dbt-clickzetta]: Downloading https://files.pythonhosted.org/packages/c1/14/85271f2139ff454c5ff9bcefec81d708e59f4ed0230702dafe1a5b557869/dbt-clickzetta-0.2.9.tar.gz
+[2023-06-07 05:39:11] INFO root fetch - processPackages [aaz-dev]: Downloading https://files.pythonhosted.org/packages/f4/78/cbf569ae20cc7dafa3f489ee70b01cffd87a36174605192b213b01abc4c6/aaz-dev-1.3.0.tar.gz
+[2023-06-07 05:39:11] INFO root fetch - processPackages [leosatpy]: Downloading https://files.pythonhosted.org/packages/5b/d9/6201bc8192d77b9459d7fb4abe15bc446e273063b858072c4c2131c63e28/leosatpy-0.1.1.tar.gz
+[2023-06-07 05:39:11] INFO root fetch - processPackages [mlplatformutils]: Downloading https://files.pythonhosted.org/packages/bd/13/3816a5fde7d99d30c0fd8017b480353fbf1576069923fc2777660d7f70c3/mlplatformutils-0.9.1.1.tar.gz
+[2023-06-07 05:39:11] INFO root fetch - processPackages [PySupercell]: Downloading https://files.pythonhosted.org/packages/05/fc/bbd7e619a558fdf0bd7212a442d3b95393f161f9be0183eb9c2dad9cc8e5/PySupercell-0.0.9.tar.gz
+[2023-06-07 05:39:11] INFO root fetch - processPackages [fusion-engine-client]: Downloading https://files.pythonhosted.org/packages/c0/bd/ed4dfc2ba868b904164b90dc0ded0647a2570a37ac773115dcb17818dc5d/fusion-engine-client-1.20.0rc1.tar.gz
+[2023-06-07 05:39:11] INFO root fetch - processPackages [dbt-clickzetta]: executing diffoscope
+[2023-06-07 05:39:11] INFO root fetch - processPackages [dbt-clickzetta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-clickzetta-0.2.8.tar.gz tmp/dbt-clickzetta-0.2.9.tar.gz --markdown 20230607/d/dbt-clickzetta/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-07 05:39:11] INFO root fetch - processPackages [odoo13-addon-document-page-approval]: Downloading https://files.pythonhosted.org/packages/24/74/d8719a523c74d5ac203cf75b7fce53ecfa00b073769ec0f4e4c09fc8ba4a/odoo13_addon_document_page_approval-13.0.1.3.2.dev2-py3-none-any.whl
+[2023-06-07 05:39:11] INFO root fetch - processPackages [odoo12-addon-document-page-approval]: Downloading https://files.pythonhosted.org/packages/36/87/81874e18e1f985f30c85784410a220fa81ee733960bddaabeb70e1b8098f/odoo12_addon_document_page_approval-12.0.1.0.5.99.dev2-py3-none-any.whl
+[2023-06-07 05:39:11] INFO root fetch - processPackages [odoo9-addon-document-page-approval]: Downloading https://files.pythonhosted.org/packages/09/6c/8a3f3cc7114c73358a74a42f4312dff9d115e3f44ef5e22f025edbe5f023/odoo9_addon_document_page_approval-9.0.2.1.0.99.dev8-py2-none-any.whl
+[2023-06-07 05:39:11] INFO root fetch - processPackages [PySupercell]: executing diffoscope
+[2023-06-07 05:39:11] INFO root fetch - processPackages [PySupercell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySupercell-0.0.8.tar.gz tmp/PySupercell-0.0.9.tar.gz --markdown 20230607/P/PySupercell/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-07 05:39:11] INFO root fetch - processPackages [ml-pretrained]: Downloading https://files.pythonhosted.org/packages/06/bf/09fb73837d4a2214fe36f473b43bb59820dd3be33e5a0f84310e624f527b/ml-pretrained-0.0.7.tar.gz
+[2023-06-07 05:39:11] INFO root fetch - processPackages [ml-pretrained]: executing diffoscope
+[2023-06-07 05:39:11] INFO root fetch - processPackages [ml-pretrained]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml-pretrained-0.0.6.tar.gz tmp/ml-pretrained-0.0.7.tar.gz --markdown 20230607/m/ml-pretrained/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-07 05:39:11] INFO root fetch - processPackages [mlplatformutils]: Downloading https://files.pythonhosted.org/packages/2a/8c/21622d293ef6d090af1627d8ee784b188f9fc2076c206055543bcff91a28/mlplatformutils-0.9.1.2.tar.gz
+[2023-06-07 05:39:11] INFO root fetch - processPackages [mlplatformutils]: executing diffoscope
+[2023-06-07 05:39:11] INFO root fetch - processPackages [mlplatformutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlplatformutils-0.9.1.1.tar.gz tmp/mlplatformutils-0.9.1.2.tar.gz --markdown 20230607/m/mlplatformutils/0.9.1.1-0.9.1.2/diff.md --exclude *.pyd
+[2023-06-07 05:39:11] INFO root fetch - processPackages [fusion-engine-client]: Downloading https://files.pythonhosted.org/packages/d2/02/7ef2b4f3bda4e64751922ae719787cfb7f594e890e9a64c806401732e8d4/fusion-engine-client-1.20.0rc2.tar.gz
+[2023-06-07 05:39:11] INFO root fetch - processPackages [leosatpy]: Downloading https://files.pythonhosted.org/packages/7e/bf/3cd96b2240353df0cb3ed2a98584f661179126d025e88f1b409301a45f24/leosatpy-0.1.6.tar.gz
+[2023-06-07 05:39:11] INFO root fetch - processPackages [odoo12-addon-document-page-approval]: Downloading https://files.pythonhosted.org/packages/fb/9b/779b0d76a5aa2a195fcb4969933b868448282aea24eb627707407c9a1b1d/odoo12_addon_document_page_approval-12.0.1.0.5.99.dev3-py3-none-any.whl
+[2023-06-07 05:39:11] INFO root fetch - processPackages [odoo13-addon-document-page-approval]: Downloading https://files.pythonhosted.org/packages/46/8c/d29df50b2f1de854d2f3de5e0c094a598d35795e0342a86bd79faa640536/odoo13_addon_document_page_approval-13.0.1.3.2.dev3-py3-none-any.whl
+[2023-06-07 05:39:11] INFO root fetch - processPackages [leosatpy]: executing diffoscope
+[2023-06-07 05:39:11] INFO root fetch - processPackages [leosatpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leosatpy-0.1.1.tar.gz tmp/leosatpy-0.1.6.tar.gz --markdown 20230607/l/leosatpy/0.1.1-0.1.6/diff.md --exclude *.pyd
+[2023-06-07 05:39:11] INFO root fetch - processPackages [odoo9-addon-document-page-approval]: Downloading https://files.pythonhosted.org/packages/70/a9/6beb001b7d6124e044248a4130a4080e8341627f7ed83b9511cf55f0cb2b/odoo9_addon_document_page_approval-9.0.2.1.0.99.dev9-py2-none-any.whl
+[2023-06-07 05:39:11] INFO root fetch - processPackages [aaz-dev]: Downloading https://files.pythonhosted.org/packages/2a/74/ca8643d960ec96757b26d0ff2ff7939f9a269abc7737c2d9f3fa1f3917c9/aaz-dev-1.3.1.tar.gz
+[2023-06-07 05:39:11] INFO root fetch - processPackages [fusion-engine-client]: executing diffoscope
+[2023-06-07 05:39:11] INFO root fetch - processPackages [fusion-engine-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fusion-engine-client-1.20.0rc1.tar.gz tmp/fusion-engine-client-1.20.0rc2.tar.gz --markdown 20230607/f/fusion-engine-client/1.20.0rc1-1.20.0rc2/diff.md --exclude *.pyd
+[2023-06-07 05:39:11] INFO root fetch - processPackages [aaz-dev]: executing diffoscope
+[2023-06-07 05:39:11] INFO root fetch - processPackages [aaz-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aaz-dev-1.3.0.tar.gz tmp/aaz-dev-1.3.1.tar.gz --markdown 20230607/a/aaz-dev/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-06-07 05:39:11] INFO root fetch - processPackages [odoo13-addon-document-page-approval]: executing diffoscope
+[2023-06-07 05:39:11] INFO root fetch - processPackages [odoo13-addon-document-page-approval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_document_page_approval-13.0.1.3.2.dev2-py3-none-any.whl.zip tmp/odoo13_addon_document_page_approval-13.0.1.3.2.dev3-py3-none-any.whl.zip --markdown 20230607/o/odoo13-addon-document-page-approval/13.0.1.3.2.dev2-13.0.1.3.2.dev3/diff.md --exclude *.pyd
+[2023-06-07 05:39:11] INFO root fetch - processPackages [odoo12-addon-document-page-approval]: executing diffoscope
+[2023-06-07 05:39:11] INFO root fetch - processPackages [odoo12-addon-document-page-approval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_document_page_approval-12.0.1.0.5.99.dev2-py3-none-any.whl.zip tmp/odoo12_addon_document_page_approval-12.0.1.0.5.99.dev3-py3-none-any.whl.zip --markdown 20230607/o/odoo12-addon-document-page-approval/12.0.1.0.5.99.dev2-12.0.1.0.5.99.dev3/diff.md --exclude *.pyd
+[2023-06-07 05:39:11] INFO root fetch - processPackages [odoo9-addon-document-page-approval]: executing diffoscope
+[2023-06-07 05:39:11] INFO root fetch - processPackages [odoo9-addon-document-page-approval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo9_addon_document_page_approval-9.0.2.1.0.99.dev8-py2-none-any.whl.zip tmp/odoo9_addon_document_page_approval-9.0.2.1.0.99.dev9-py2-none-any.whl.zip --markdown 20230607/o/odoo9-addon-document-page-approval/9.0.2.1.0.99.dev8-9.0.2.1.0.99.dev9/diff.md --exclude *.pyd
+[2023-06-07 05:39:12] INFO root fetch - processPackages [dbt-clickzetta]: Remove: archive file [/home/abi/fetcher/tmp/dbt-clickzetta-0.2.8.tar.gz]
+[2023-06-07 05:39:12] INFO root fetch - processPackages [dbt-clickzetta]: Remove: archive file [/home/abi/fetcher/tmp/dbt-clickzetta-0.2.9.tar.gz]
+[2023-06-07 05:39:12] INFO root fetch - processPackages [dbt-clickzetta]: Start processing: libretrofuzz
+[2023-06-07 05:39:12] INFO root fetch - main [MainThread]: End processing [dbt-clickzetta]: success
+[2023-06-07 05:39:12] INFO root fetch - processPackages [libretrofuzz]: New version: [2.9.7] Old Version: [2.9.6]
+[2023-06-07 05:39:12] INFO root fetch - processPackages [ml-pretrained]: Remove: archive file [/home/abi/fetcher/tmp/ml-pretrained-0.0.6.tar.gz]
+[2023-06-07 05:39:12] INFO root fetch - processPackages [ml-pretrained]: Remove: archive file [/home/abi/fetcher/tmp/ml-pretrained-0.0.7.tar.gz]
+[2023-06-07 05:39:12] INFO root fetch - processPackages [ml-pretrained]: Start processing: odoo14-addon-document-page-approval
+[2023-06-07 05:39:12] INFO root fetch - main [MainThread]: End processing [ml-pretrained]: success
+[2023-06-07 05:39:12] INFO root fetch - processPackages [odoo14-addon-document-page-approval]: New version: [14.0.1.0.3.dev3] Old Version: [14.0.1.0.3.dev2]
+[2023-06-07 05:39:12] INFO root fetch - processPackages [libretrofuzz]: Downloading https://files.pythonhosted.org/packages/b5/b5/edf978c8607bcea8734472a9a0277ac70cc96f78bc3c9c63e7a04ec88d5f/libretrofuzz-2.9.6.tar.gz
+[2023-06-07 05:39:13] INFO root fetch - processPackages [odoo14-addon-document-page-approval]: Downloading https://files.pythonhosted.org/packages/74/0a/c8419d81955e564adc588b9f202fc47be49d08f359ce54ae9684f7fc88f1/odoo14_addon_document_page_approval-14.0.1.0.3.dev2-py3-none-any.whl
+[2023-06-07 05:39:13] INFO root fetch - processPackages [PySupercell]: Remove: archive file [/home/abi/fetcher/tmp/PySupercell-0.0.8.tar.gz]
+[2023-06-07 05:39:13] INFO root fetch - processPackages [PySupercell]: Remove: archive file [/home/abi/fetcher/tmp/PySupercell-0.0.9.tar.gz]
+[2023-06-07 05:39:13] INFO root fetch - processPackages [PySupercell]: Start processing: odoo-addon-document-page-approval
+[2023-06-07 05:39:13] INFO root fetch - main [MainThread]: End processing [PySupercell]: success
+[2023-06-07 05:39:13] INFO root fetch - processPackages [odoo-addon-document-page-approval]: New version: [16.0.1.1.0.8] Old Version: [16.0.1.1.0.6]
+[2023-06-07 05:39:13] INFO root fetch - processPackages [odoo-addon-document-page-approval]: Downloading https://files.pythonhosted.org/packages/14/4d/3de37eeabfa777c575d1f1e12225be97cd5b4b45a6613191b47da922a53d/odoo_addon_document_page_approval-16.0.1.1.0.6-py3-none-any.whl
+[2023-06-07 05:39:13] INFO root fetch - processPackages [libretrofuzz]: Downloading https://files.pythonhosted.org/packages/c4/93/c8b2c2f87b198d18a0292dcaad108ee4c654dc1c014e301b2e96be814d5f/libretrofuzz-2.9.7.tar.gz
+[2023-06-07 05:39:13] INFO root fetch - processPackages [mlplatformutils]: Remove: archive file [/home/abi/fetcher/tmp/mlplatformutils-0.9.1.1.tar.gz]
+[2023-06-07 05:39:13] INFO root fetch - processPackages [mlplatformutils]: Remove: archive file [/home/abi/fetcher/tmp/mlplatformutils-0.9.1.2.tar.gz]
+[2023-06-07 05:39:13] INFO root fetch - processPackages [mlplatformutils]: Start processing: PySupercell
+[2023-06-07 05:39:13] INFO root fetch - main [MainThread]: End processing [mlplatformutils]: success
+[2023-06-07 05:39:13] INFO root fetch - processPackages [PySupercell]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-07 05:39:13] INFO root fetch - processPackages [libretrofuzz]: executing diffoscope
+[2023-06-07 05:39:13] INFO root fetch - processPackages [libretrofuzz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libretrofuzz-2.9.6.tar.gz tmp/libretrofuzz-2.9.7.tar.gz --markdown 20230607/l/libretrofuzz/2.9.6-2.9.7/diff.md --exclude *.pyd
+[2023-06-07 05:39:13] INFO root fetch - processPackages [PySupercell]: Downloading https://files.pythonhosted.org/packages/73/4e/a80df8b529fe378bfa915eadf594310c1cb8a7b17a048daa10a89dd78108/PySupercell-0.0.8.tar.gz
+[2023-06-07 05:39:13] INFO root fetch - processPackages [odoo-addon-document-page-approval]: Downloading https://files.pythonhosted.org/packages/dc/19/bf57f9d9f013567d5516832d7582e5886f7030a62c54489270948eb95bd1/odoo_addon_document_page_approval-16.0.1.1.0.8-py3-none-any.whl
+[2023-06-07 05:39:13] INFO root fetch - processPackages [PySupercell]: Downloading https://files.pythonhosted.org/packages/05/fc/bbd7e619a558fdf0bd7212a442d3b95393f161f9be0183eb9c2dad9cc8e5/PySupercell-0.0.9.tar.gz
+[2023-06-07 05:39:13] INFO root fetch - processPackages [odoo-addon-document-page-approval]: executing diffoscope
+[2023-06-07 05:39:13] INFO root fetch - processPackages [odoo-addon-document-page-approval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_document_page_approval-16.0.1.1.0.6-py3-none-any.whl.zip tmp/odoo_addon_document_page_approval-16.0.1.1.0.8-py3-none-any.whl.zip --markdown 20230607/o/odoo-addon-document-page-approval/16.0.1.1.0.6-16.0.1.1.0.8/diff.md --exclude *.pyd
+[2023-06-07 05:39:13] INFO root fetch - processPackages [PySupercell]: executing diffoscope
+[2023-06-07 05:39:13] INFO root fetch - processPackages [PySupercell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySupercell-0.0.8.tar.gz tmp/PySupercell-0.0.9.tar.gz --markdown 20230607/P/PySupercell/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-07 05:39:13] INFO root fetch - processPackages [fusion-engine-client]: Remove: archive file [/home/abi/fetcher/tmp/fusion-engine-client-1.20.0rc1.tar.gz]
+[2023-06-07 05:39:13] INFO root fetch - processPackages [fusion-engine-client]: Remove: archive file [/home/abi/fetcher/tmp/fusion-engine-client-1.20.0rc2.tar.gz]
+[2023-06-07 05:39:13] INFO root fetch - processPackages [fusion-engine-client]: Start processing: odoo-addon-document-page-approval
+[2023-06-07 05:39:13] INFO root fetch - main [MainThread]: End processing [fusion-engine-client]: success
+[2023-06-07 05:39:13] INFO root fetch - processPackages [odoo-addon-document-page-approval]: New version: [16.0.1.1.0.8] Old Version: [16.0.1.1.0.6]
+[2023-06-07 05:39:13] INFO root fetch - processPackages [odoo-addon-document-page-approval]: executing diffoscope
+[2023-06-07 05:39:13] INFO root fetch - processPackages [odoo-addon-document-page-approval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_document_page_approval-16.0.1.1.0.6-py3-none-any.whl.zip tmp/odoo_addon_document_page_approval-16.0.1.1.0.8-py3-none-any.whl.zip --markdown 20230607/o/odoo-addon-document-page-approval/16.0.1.1.0.6-16.0.1.1.0.8/diff.md --exclude *.pyd
+[2023-06-07 05:39:13] INFO root fetch - processPackages [odoo14-addon-document-page-approval]: Downloading https://files.pythonhosted.org/packages/f0/1b/b6d2b9a9dc6e1b57a985b4770350e170a6cd05f02fe47458a40284f41862/odoo14_addon_document_page_approval-14.0.1.0.3.dev3-py3-none-any.whl
+[2023-06-07 05:39:13] INFO root fetch - processPackages [odoo13-addon-document-page-approval]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_document_page_approval-13.0.1.3.2.dev2-py3-none-any.whl.zip]
+[2023-06-07 05:39:13] INFO root fetch - processPackages [odoo13-addon-document-page-approval]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_document_page_approval-13.0.1.3.2.dev3-py3-none-any.whl.zip]
+[2023-06-07 05:39:13] INFO root fetch - processPackages [odoo13-addon-document-page-approval]: Start processing: pandasgwas
+[2023-06-07 05:39:13] INFO root fetch - main [MainThread]: End processing [odoo13-addon-document-page-approval]: success
+[2023-06-07 05:39:13] INFO root fetch - processPackages [odoo14-addon-document-page-approval]: executing diffoscope
+[2023-06-07 05:39:13] INFO root fetch - processPackages [odoo14-addon-document-page-approval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_document_page_approval-14.0.1.0.3.dev2-py3-none-any.whl.zip tmp/odoo14_addon_document_page_approval-14.0.1.0.3.dev3-py3-none-any.whl.zip --markdown 20230607/o/odoo14-addon-document-page-approval/14.0.1.0.3.dev2-14.0.1.0.3.dev3/diff.md --exclude *.pyd
+[2023-06-07 05:39:13] INFO root fetch - processPackages [pandasgwas]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-06-07 05:39:14] INFO root fetch - processPackages [odoo12-addon-document-page-approval]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_document_page_approval-12.0.1.0.5.99.dev2-py3-none-any.whl.zip]
+[2023-06-07 05:39:14] INFO root fetch - processPackages [odoo12-addon-document-page-approval]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_document_page_approval-12.0.1.0.5.99.dev3-py3-none-any.whl.zip]
+[2023-06-07 05:39:14] INFO root fetch - processPackages [odoo12-addon-document-page-approval]: Start processing: odoo-addon-document-page
+[2023-06-07 05:39:14] INFO root fetch - main [MainThread]: End processing [odoo12-addon-document-page-approval]: success
+[2023-06-07 05:39:14] INFO root fetch - processPackages [odoo-addon-document-page]: New version: [16.0.1.1.0.8] Old Version: [16.0.1.1.0.7]
+[2023-06-07 05:39:14] INFO root fetch - processPackages [odoo9-addon-document-page-approval]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_document_page_approval-9.0.2.1.0.99.dev8-py2-none-any.whl.zip]
+[2023-06-07 05:39:14] INFO root fetch - processPackages [odoo9-addon-document-page-approval]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_document_page_approval-9.0.2.1.0.99.dev9-py2-none-any.whl.zip]
+[2023-06-07 05:39:14] INFO root fetch - processPackages [odoo9-addon-document-page-approval]: Start processing: vtiger-cloudsdk-restapi
+[2023-06-07 05:39:14] INFO root fetch - main [MainThread]: End processing [odoo9-addon-document-page-approval]: success
+[2023-06-07 05:39:14] INFO root fetch - processPackages [odoo-addon-document-page]: Downloading https://files.pythonhosted.org/packages/2f/d1/e563c7492448f0a0762a3df564cc76509b4d595e9b9ee0254d8c18f310d6/odoo_addon_document_page-16.0.1.1.0.7-py3-none-any.whl
+[2023-06-07 05:39:14] INFO root fetch - processPackages [pandasgwas]: Downloading https://files.pythonhosted.org/packages/a1/9b/cd46b69b121a04f9f9b010de38d395f6375d00f0a635bae14264bc75b60f/pandasgwas-1.0.0.tar.gz
+[2023-06-07 05:39:14] INFO root fetch - processPackages [vtiger-cloudsdk-restapi]: New version: [1.2] Old Version: [1.1]
+[2023-06-07 05:39:14] INFO root fetch - processPackages [vtiger-cloudsdk-restapi]: Downloading https://files.pythonhosted.org/packages/a5/0f/3d83cc7fc9e438b64834f836d4535498f482d771f446da3055685c530cad/vtiger_cloudsdk_restapi-1.1.tar.gz
+[2023-06-07 05:39:14] INFO root fetch - processPackages [vtiger-cloudsdk-restapi]: Downloading https://files.pythonhosted.org/packages/35/65/35aa23fd888bbede65d092102a333bd842d745206d379ae6e6c3df52ab52/vtiger_cloudsdk_restapi-1.2.tar.gz
+[2023-06-07 05:39:14] INFO root fetch - processPackages [vtiger-cloudsdk-restapi]: executing diffoscope
+[2023-06-07 05:39:14] INFO root fetch - processPackages [vtiger-cloudsdk-restapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vtiger_cloudsdk_restapi-1.1.tar.gz tmp/vtiger_cloudsdk_restapi-1.2.tar.gz --markdown 20230607/v/vtiger-cloudsdk-restapi/1.1-1.2/diff.md --exclude *.pyd
+[2023-06-07 05:39:14] INFO root fetch - processPackages [odoo-addon-document-page]: Downloading https://files.pythonhosted.org/packages/58/76/9fbca08728bd9c34da76e88a217087c03890c5a1a3b12381575c6ca5a725/odoo_addon_document_page-16.0.1.1.0.8-py3-none-any.whl
+[2023-06-07 05:39:14] INFO root fetch - processPackages [libretrofuzz]: Remove: archive file [/home/abi/fetcher/tmp/libretrofuzz-2.9.6.tar.gz]
+[2023-06-07 05:39:14] INFO root fetch - processPackages [libretrofuzz]: Remove: archive file [/home/abi/fetcher/tmp/libretrofuzz-2.9.7.tar.gz]
+[2023-06-07 05:39:14] INFO root fetch - main [MainThread]: End processing [libretrofuzz]: success
+[2023-06-07 05:39:14] INFO root fetch - processPackages [pandasgwas]: Downloading https://files.pythonhosted.org/packages/84/d7/782e5e138c3cf67b1292113d664300880a87ccc582a22be26adcf63ded82/pandasgwas-1.1.0.tar.gz
+[2023-06-07 05:39:14] INFO root fetch - processPackages [pandasgwas]: executing diffoscope
+[2023-06-07 05:39:14] INFO root fetch - processPackages [pandasgwas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandasgwas-1.0.0.tar.gz tmp/pandasgwas-1.1.0.tar.gz --markdown 20230607/p/pandasgwas/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-06-07 05:39:14] INFO root fetch - processPackages [odoo-addon-document-page]: executing diffoscope
+[2023-06-07 05:39:14] INFO root fetch - processPackages [odoo-addon-document-page]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_document_page-16.0.1.1.0.7-py3-none-any.whl.zip tmp/odoo_addon_document_page-16.0.1.1.0.8-py3-none-any.whl.zip --markdown 20230607/o/odoo-addon-document-page/16.0.1.1.0.7-16.0.1.1.0.8/diff.md --exclude *.pyd
+[2023-06-07 05:39:14] INFO root fetch - processPackages [PySupercell]: Remove: archive file [/home/abi/fetcher/tmp/PySupercell-0.0.8.tar.gz]
+[2023-06-07 05:39:14] INFO root fetch - processPackages [PySupercell]: Remove: archive file [/home/abi/fetcher/tmp/PySupercell-0.0.9.tar.gz]
+[2023-06-07 05:39:14] INFO root fetch - main [MainThread]: End processing [PySupercell]: success
+[2023-06-07 05:39:14] INFO root fetch - processPackages [leosatpy]: Remove: archive file [/home/abi/fetcher/tmp/leosatpy-0.1.1.tar.gz]
+[2023-06-07 05:39:14] INFO root fetch - processPackages [leosatpy]: Remove: archive file [/home/abi/fetcher/tmp/leosatpy-0.1.6.tar.gz]
+[2023-06-07 05:39:14] INFO root fetch - main [MainThread]: End processing [leosatpy]: success
+[2023-06-07 05:39:15] INFO root fetch - processPackages [odoo-addon-document-page-approval]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_document_page_approval-16.0.1.1.0.6-py3-none-any.whl.zip]
+[2023-06-07 05:39:15] INFO root fetch - processPackages [odoo-addon-document-page-approval]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_document_page_approval-16.0.1.1.0.8-py3-none-any.whl.zip]
+[2023-06-07 05:39:15] INFO root fetch - main [MainThread]: End processing [odoo-addon-document-page-approval]: success
+[2023-06-07 05:39:15] INFO root fetch - main [MainThread]: End processing [odoo-addon-document-page-approval]: success
+[2023-06-07 05:39:15] INFO root fetch - processPackages [vtiger-cloudsdk-restapi]: Remove: archive file [/home/abi/fetcher/tmp/vtiger_cloudsdk_restapi-1.1.tar.gz]
+[2023-06-07 05:39:15] INFO root fetch - processPackages [vtiger-cloudsdk-restapi]: Remove: archive file [/home/abi/fetcher/tmp/vtiger_cloudsdk_restapi-1.2.tar.gz]
+[2023-06-07 05:39:15] INFO root fetch - main [MainThread]: End processing [vtiger-cloudsdk-restapi]: success
+[2023-06-07 05:39:15] INFO root fetch - processPackages [odoo14-addon-document-page-approval]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_document_page_approval-14.0.1.0.3.dev2-py3-none-any.whl.zip]
+[2023-06-07 05:39:15] INFO root fetch - processPackages [odoo14-addon-document-page-approval]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_document_page_approval-14.0.1.0.3.dev3-py3-none-any.whl.zip]
+[2023-06-07 05:39:15] INFO root fetch - main [MainThread]: End processing [odoo14-addon-document-page-approval]: success
+[2023-06-07 05:39:16] INFO root fetch - processPackages [pandasgwas]: Remove: archive file [/home/abi/fetcher/tmp/pandasgwas-1.0.0.tar.gz]
+[2023-06-07 05:39:16] INFO root fetch - processPackages [pandasgwas]: Remove: archive file [/home/abi/fetcher/tmp/pandasgwas-1.1.0.tar.gz]
+[2023-06-07 05:39:16] INFO root fetch - main [MainThread]: End processing [pandasgwas]: success
+[2023-06-07 05:39:16] INFO root fetch - processPackages [odoo-addon-document-page]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_document_page-16.0.1.1.0.7-py3-none-any.whl.zip]
+[2023-06-07 05:39:16] INFO root fetch - processPackages [odoo-addon-document-page]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_document_page-16.0.1.1.0.8-py3-none-any.whl.zip]
+[2023-06-07 05:39:16] INFO root fetch - main [MainThread]: End processing [odoo-addon-document-page]: success
+[2023-06-07 05:39:19] INFO root fetch - processPackages [aaz-dev]: Remove: archive file [/home/abi/fetcher/tmp/aaz-dev-1.3.0.tar.gz]
+[2023-06-07 05:39:19] INFO root fetch - processPackages [aaz-dev]: Remove: archive file [/home/abi/fetcher/tmp/aaz-dev-1.3.1.tar.gz]
+[2023-06-07 05:39:19] INFO root fetch - main [MainThread]: End processing [aaz-dev]: success
+[2023-06-07 05:39:19] INFO root fetch - main [MainThread]: Store serial: [18402390]
