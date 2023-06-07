@@ -12774,3 +12774,85 @@ AssertionError: tmp/odoo_addon_crm_lead_firstname-16.0.1.0.1-py3-none-any.whl.zi
 [2023-06-07 06:53:28] INFO root fetch - processPackages [thirdai]: Remove: archive file [/home/abi/fetcher/tmp/thirdai-0.7.5-cp310-cp310-win_amd64.whl.zip]
 [2023-06-07 06:53:28] INFO root fetch - main [MainThread]: End processing [thirdai]: success
 [2023-06-07 06:53:28] INFO root fetch - main [MainThread]: Store serial: [18402825]
+[2023-06-07 06:58:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18402825]
+[2023-06-07 06:58:37] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-07 06:58:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: plotguy
+[2023-06-07 06:58:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ml-plugins
+[2023-06-07 06:58:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: EnToFa
+[2023-06-07 06:58:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: echolocator
+[2023-06-07 06:58:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: findu
+[2023-06-07 06:58:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo8-addon-sale-order-back2draft
+[2023-06-07 06:58:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: eyes-soatra
+[2023-06-07 06:58:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: flatland-railway-extension
+[2023-06-07 06:58:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: findu
+[2023-06-07 06:58:37] INFO root fetch - processPackages [echolocator]: New version: [1.5.0] Old Version: [1.4.0]
+[2023-06-07 06:58:37] INFO root fetch - processPackages [ml-plugins]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-07 06:58:37] INFO root fetch - processPackages [plotguy]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-06-07 06:58:37] INFO root fetch - processPackages [odoo8-addon-sale-order-back2draft]: New version: [8.0.1.0.0.99.dev9] Old Version: [8.0.1.0.0.99.dev8]
+[2023-06-07 06:58:37] INFO root fetch - processPackages [findu]: New version: [0.0.14] Old Version: [0.0.13]
+[2023-06-07 06:58:37] INFO root fetch - processPackages [EnToFa]: New version: [1.4.1] Old Version: [1.4]
+[2023-06-07 06:58:37] INFO root fetch - processPackages [findu]: New version: [0.0.14] Old Version: [0.0.13]
+[2023-06-07 06:58:37] INFO root fetch - processPackages [flatland-railway-extension]: New version: [0.2.4] Old Version: [0.2.2]
+[2023-06-07 06:58:37] INFO root fetch - processPackages [eyes-soatra]: New version: [0.0.28] Old Version: [0.0.27]
+[2023-06-07 06:58:37] INFO root fetch - processPackages [echolocator]: Downloading https://files.pythonhosted.org/packages/c6/cd/ab9be53637d5373c19cdcfbc3862e38b186dc609db2a3e1b7e03a7194be0/echolocator-1.4.0.tar.gz
+[2023-06-07 06:58:37] INFO root fetch - processPackages [findu]: Downloading https://files.pythonhosted.org/packages/29/07/acf6ddf9ff6077f0964ead078ea03f07eeacdab21135d97da79c7c4e0b19/findu-0.0.13.tar.gz
+[2023-06-07 06:58:37] INFO root fetch - processPackages [flatland-railway-extension]: Downloading https://files.pythonhosted.org/packages/21/31/2b6ebd9e2cb23085a36bffc114915b4904bbc02230b82fd00993ecd8027b/flatland-railway-extension-0.2.2.tar.gz
+[2023-06-07 06:58:37] INFO root fetch - processPackages [findu]: Downloading https://files.pythonhosted.org/packages/29/07/acf6ddf9ff6077f0964ead078ea03f07eeacdab21135d97da79c7c4e0b19/findu-0.0.13.tar.gz
+[2023-06-07 06:58:37] INFO root fetch - processPackages [ml-plugins]: Downloading https://files.pythonhosted.org/packages/8d/5c/d1b7c6f5a1a6cd777dac70d07efd117a8849579da78c5ed441b61f9f993f/ml_plugins-0.0.8.tar.gz
+[2023-06-07 06:58:37] INFO root fetch - processPackages [EnToFa]: Downloading https://files.pythonhosted.org/packages/a8/ac/f9cf622387029a94a1ec43091c23ae252e98484044b420d258941147bb5e/EnToFa-1.4.tar.gz
+[2023-06-07 06:58:37] INFO root fetch - processPackages [plotguy]: Downloading https://files.pythonhosted.org/packages/3a/2e/9e615be31c818ce329e1a57194cab5ec2db3cd494a6838eaed8b2cf6e229/plotguy-1.2.1.tar.gz
+[2023-06-07 06:58:37] INFO root fetch - processPackages [odoo8-addon-sale-order-back2draft]: Downloading https://files.pythonhosted.org/packages/92/6f/1ec78f01a2dd3432d18023d87891a720225b3becc42ea6954c92b0ab2dfb/odoo8_addon_sale_order_back2draft-8.0.1.0.0.99.dev8-py2-none-any.whl
+[2023-06-07 06:58:37] INFO root fetch - processPackages [eyes-soatra]: Downloading https://files.pythonhosted.org/packages/cf/cc/a03a2567c634300ffce45770748968765dddc344d162e8999e1f3fb54820/eyes_soatra-0.0.27.tar.gz
+[2023-06-07 06:58:37] INFO root fetch - processPackages [EnToFa]: Downloading https://files.pythonhosted.org/packages/76/46/66b1dfae73332394b89c6172c7a11b527784323f1829eadafa855fb03045/EnToFa-1.4.1.tar.gz
+[2023-06-07 06:58:37] INFO root fetch - processPackages [flatland-railway-extension]: Downloading https://files.pythonhosted.org/packages/8c/f3/df152419f672729fd71f188d865bff164c2d46d5cdf13f49002da418825b/flatland-railway-extension-0.2.4.tar.gz
+[2023-06-07 06:58:37] INFO root fetch - processPackages [echolocator]: Downloading https://files.pythonhosted.org/packages/d8/60/5406ab9788c58477f81f724b8a1058fc6bc9daee4f7ae4ff8964b1cd0217/echolocator-1.5.0.tar.gz
+[2023-06-07 06:58:37] INFO root fetch - processPackages [findu]: Downloading https://files.pythonhosted.org/packages/58/84/21cfd5a3dc29060560bcc77a2b2ad308e89b20ee9da85f184dd3e34c010e/findu-0.0.14.tar.gz
+[2023-06-07 06:58:37] INFO root fetch - processPackages [ml-plugins]: Downloading https://files.pythonhosted.org/packages/e7/7d/b6e0fbc63a7fba7e7f13092dbd6e0e235405c3a610a161dab84beb57f63e/ml_plugins-0.0.9.tar.gz
+[2023-06-07 06:58:37] INFO root fetch - processPackages [plotguy]: Downloading https://files.pythonhosted.org/packages/7e/62/68faff97134a65921a66f391a80d4ee25de9a61783082a7a5952675fdb84/plotguy-1.2.2.tar.gz
+[2023-06-07 06:58:37] INFO root fetch - processPackages [findu]: Downloading https://files.pythonhosted.org/packages/58/84/21cfd5a3dc29060560bcc77a2b2ad308e89b20ee9da85f184dd3e34c010e/findu-0.0.14.tar.gz
+[2023-06-07 06:58:37] INFO root fetch - processPackages [EnToFa]: executing diffoscope
+[2023-06-07 06:58:37] INFO root fetch - processPackages [EnToFa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EnToFa-1.4.tar.gz tmp/EnToFa-1.4.1.tar.gz --markdown 20230607/E/EnToFa/1.4-1.4.1/diff.md --exclude *.pyd
+[2023-06-07 06:58:37] INFO root fetch - processPackages [eyes-soatra]: Downloading https://files.pythonhosted.org/packages/65/49/a8d94c7a8a5eb8b0bf0e578cc6c7299b85f8bad03f42453edebec6df0ca6/eyes_soatra-0.0.28.tar.gz
+[2023-06-07 06:58:37] INFO root fetch - processPackages [odoo8-addon-sale-order-back2draft]: Downloading https://files.pythonhosted.org/packages/f6/b5/e6caa2581b5711a19d4ab0914e0659bb4a80d8bbddb5fa911d99ac03f434/odoo8_addon_sale_order_back2draft-8.0.1.0.0.99.dev9-py2-none-any.whl
+[2023-06-07 06:58:37] INFO root fetch - processPackages [ml-plugins]: executing diffoscope
+[2023-06-07 06:58:37] INFO root fetch - processPackages [ml-plugins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml_plugins-0.0.8.tar.gz tmp/ml_plugins-0.0.9.tar.gz --markdown 20230607/m/ml-plugins/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-07 06:58:37] INFO root fetch - processPackages [echolocator]: executing diffoscope
+[2023-06-07 06:58:37] INFO root fetch - processPackages [echolocator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/echolocator-1.4.0.tar.gz tmp/echolocator-1.5.0.tar.gz --markdown 20230607/e/echolocator/1.4.0-1.5.0/diff.md --exclude *.pyd
+[2023-06-07 06:58:37] INFO root fetch - processPackages [flatland-railway-extension]: executing diffoscope
+[2023-06-07 06:58:37] INFO root fetch - processPackages [plotguy]: executing diffoscope
+[2023-06-07 06:58:37] INFO root fetch - processPackages [findu]: executing diffoscope
+[2023-06-07 06:58:37] INFO root fetch - processPackages [flatland-railway-extension]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flatland-railway-extension-0.2.2.tar.gz tmp/flatland-railway-extension-0.2.4.tar.gz --markdown 20230607/f/flatland-railway-extension/0.2.2-0.2.4/diff.md --exclude *.pyd
+[2023-06-07 06:58:37] INFO root fetch - processPackages [plotguy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plotguy-1.2.1.tar.gz tmp/plotguy-1.2.2.tar.gz --markdown 20230607/p/plotguy/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-06-07 06:58:37] INFO root fetch - processPackages [findu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/findu-0.0.13.tar.gz tmp/findu-0.0.14.tar.gz --markdown 20230607/f/findu/0.0.13-0.0.14/diff.md --exclude *.pyd
+[2023-06-07 06:58:37] INFO root fetch - processPackages [findu]: executing diffoscope
+[2023-06-07 06:58:37] INFO root fetch - processPackages [findu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/findu-0.0.13.tar.gz tmp/findu-0.0.14.tar.gz --markdown 20230607/f/findu/0.0.13-0.0.14/diff.md --exclude *.pyd
+[2023-06-07 06:58:37] INFO root fetch - processPackages [eyes-soatra]: executing diffoscope
+[2023-06-07 06:58:37] INFO root fetch - processPackages [eyes-soatra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eyes_soatra-0.0.27.tar.gz tmp/eyes_soatra-0.0.28.tar.gz --markdown 20230607/e/eyes-soatra/0.0.27-0.0.28/diff.md --exclude *.pyd
+[2023-06-07 06:58:37] INFO root fetch - processPackages [odoo8-addon-sale-order-back2draft]: executing diffoscope
+[2023-06-07 06:58:37] INFO root fetch - processPackages [odoo8-addon-sale-order-back2draft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_sale_order_back2draft-8.0.1.0.0.99.dev8-py2-none-any.whl.zip tmp/odoo8_addon_sale_order_back2draft-8.0.1.0.0.99.dev9-py2-none-any.whl.zip --markdown 20230607/o/odoo8-addon-sale-order-back2draft/8.0.1.0.0.99.dev8-8.0.1.0.0.99.dev9/diff.md --exclude *.pyd
+[2023-06-07 06:58:38] INFO root fetch - processPackages [EnToFa]: Remove: archive file [/home/abi/fetcher/tmp/EnToFa-1.4.tar.gz]
+[2023-06-07 06:58:38] INFO root fetch - processPackages [EnToFa]: Remove: archive file [/home/abi/fetcher/tmp/EnToFa-1.4.1.tar.gz]
+[2023-06-07 06:58:38] INFO root fetch - main [MainThread]: End processing [EnToFa]: success
+[2023-06-07 06:58:39] INFO root fetch - processPackages [ml-plugins]: Remove: archive file [/home/abi/fetcher/tmp/ml_plugins-0.0.8.tar.gz]
+[2023-06-07 06:58:39] INFO root fetch - processPackages [ml-plugins]: Remove: archive file [/home/abi/fetcher/tmp/ml_plugins-0.0.9.tar.gz]
+[2023-06-07 06:58:39] INFO root fetch - main [MainThread]: End processing [ml-plugins]: success
+[2023-06-07 06:58:39] INFO root fetch - processPackages [plotguy]: Remove: archive file [/home/abi/fetcher/tmp/plotguy-1.2.1.tar.gz]
+[2023-06-07 06:58:39] INFO root fetch - processPackages [plotguy]: Remove: archive file [/home/abi/fetcher/tmp/plotguy-1.2.2.tar.gz]
+[2023-06-07 06:58:39] INFO root fetch - main [MainThread]: End processing [plotguy]: success
+[2023-06-07 06:58:39] INFO root fetch - processPackages [findu]: Remove: archive file [/home/abi/fetcher/tmp/findu-0.0.13.tar.gz]
+[2023-06-07 06:58:39] INFO root fetch - processPackages [findu]: Remove: archive file [/home/abi/fetcher/tmp/findu-0.0.14.tar.gz]
+[2023-06-07 06:58:39] INFO root fetch - main [MainThread]: End processing [findu]: success
+[2023-06-07 06:58:39] INFO root fetch - processPackages [odoo8-addon-sale-order-back2draft]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_sale_order_back2draft-8.0.1.0.0.99.dev8-py2-none-any.whl.zip]
+[2023-06-07 06:58:39] INFO root fetch - processPackages [odoo8-addon-sale-order-back2draft]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_sale_order_back2draft-8.0.1.0.0.99.dev9-py2-none-any.whl.zip]
+[2023-06-07 06:58:39] INFO root fetch - main [MainThread]: End processing [odoo8-addon-sale-order-back2draft]: success
+[2023-06-07 06:58:39] INFO root fetch - processPackages [flatland-railway-extension]: Remove: archive file [/home/abi/fetcher/tmp/flatland-railway-extension-0.2.2.tar.gz]
+[2023-06-07 06:58:39] INFO root fetch - processPackages [flatland-railway-extension]: Remove: archive file [/home/abi/fetcher/tmp/flatland-railway-extension-0.2.4.tar.gz]
+[2023-06-07 06:58:39] INFO root fetch - main [MainThread]: End processing [flatland-railway-extension]: success
+[2023-06-07 06:58:39] INFO root fetch - processPackages [eyes-soatra]: Remove: archive file [/home/abi/fetcher/tmp/eyes_soatra-0.0.27.tar.gz]
+[2023-06-07 06:58:39] INFO root fetch - processPackages [eyes-soatra]: Remove: archive file [/home/abi/fetcher/tmp/eyes_soatra-0.0.28.tar.gz]
+[2023-06-07 06:58:39] INFO root fetch - main [MainThread]: End processing [eyes-soatra]: success
+[2023-06-07 06:58:39] INFO root fetch - main [MainThread]: End processing [findu]: success
+[2023-06-07 06:58:42] INFO root fetch - processPackages [echolocator]: Remove: archive file [/home/abi/fetcher/tmp/echolocator-1.4.0.tar.gz]
+[2023-06-07 06:58:42] INFO root fetch - processPackages [echolocator]: Remove: archive file [/home/abi/fetcher/tmp/echolocator-1.5.0.tar.gz]
+[2023-06-07 06:58:42] INFO root fetch - main [MainThread]: End processing [echolocator]: success
+[2023-06-07 06:58:42] INFO root fetch - main [MainThread]: Store serial: [18402867]
