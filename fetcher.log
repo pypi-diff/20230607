@@ -19822,3 +19822,153 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-07 11:34:00] INFO root fetch - processPackages [glean-sdk]: Remove: archive file [/home/abi/fetcher/tmp/glean-sdk-53.0.0.tar.gz]
 [2023-06-07 11:34:00] INFO root fetch - main [MainThread]: End processing [glean-sdk]: success
 [2023-06-07 11:34:00] INFO root fetch - main [MainThread]: Store serial: [18405953]
+[2023-06-07 11:39:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18405953]
+[2023-06-07 11:39:10] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-06-07 11:39:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zensvi
+[2023-06-07 11:39:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kcli
+[2023-06-07 11:39:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: finbourne-access-sdk
+[2023-06-07 11:39:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lazysdk
+[2023-06-07 11:39:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyatp
+[2023-06-07 11:39:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kcli
+[2023-06-07 11:39:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nonebot-plugin-al
+[2023-06-07 11:39:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kfish
+[2023-06-07 11:39:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fairbench
+[2023-06-07 11:39:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: spPersist
+[2023-06-07 11:39:10] INFO root fetch - processPackages [pyatp]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-06-07 11:39:10] INFO root fetch - processPackages [fairbench]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-06-07 11:39:10] INFO root fetch - processPackages [nonebot-plugin-al]: New version: [0.1.0] Old Version: [0.0.2]
+[2023-06-07 11:39:10] INFO root fetch - processPackages [lazysdk]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-06-07 11:39:10] INFO root fetch - processPackages [zensvi]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-06-07 11:39:10] INFO root fetch - processPackages [kfish]: New version: [99.0.202306070936] Old Version: [99.0.202306070610]
+[2023-06-07 11:39:10] INFO root fetch - processPackages [pyatp]: Downloading https://files.pythonhosted.org/packages/e0/d6/8a863f0fb080624f5159659cad4e17b965c176e13cab1e14c9c30eeed950/pyatp-1.1.3.tar.gz
+[2023-06-07 11:39:10] INFO root fetch - processPackages [spPersist]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-06-07 11:39:10] INFO root fetch - processPackages [finbourne-access-sdk]: New version: [0.0.815] Old Version: [0.0.616]
+[2023-06-07 11:39:10] INFO root fetch - processPackages [kcli]: New version: [99.0.202306070935] Old Version: [99.0.202306070934]
+[2023-06-07 11:39:10] WARNING root fetch - processPackages [pyatp]: Skipping package: exceeds size limit 26077470>=10485760
+[2023-06-07 11:39:10] INFO root fetch - processPackages [pyatp]: Start processing: rudderclient
+[2023-06-07 11:39:10] INFO root fetch - main [MainThread]: End processing [pyatp] error
+[2023-06-07 11:39:10] INFO root fetch - processPackages [kcli]: New version: [99.0.202306070935] Old Version: [99.0.202306070934]
+[2023-06-07 11:39:10] INFO root fetch - processPackages [fairbench]: Downloading https://files.pythonhosted.org/packages/a8/cf/cb87c5dfda9bd4a95872e6dc0d397bc6f175e5a8ca5ecf656569fc5f9463/fairbench-0.2.3-py3-none-any.whl
+[2023-06-07 11:39:10] INFO root fetch - processPackages [rudderclient]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-06-07 11:39:10] INFO root fetch - processPackages [lazysdk]: Downloading https://files.pythonhosted.org/packages/ac/6f/c52be0c1d45c696d386c564868c8e79d357c498a5eb566570bcfcde0f444/lazysdk-0.1.6.tar.gz
+[2023-06-07 11:39:10] INFO root fetch - processPackages [spPersist]: Downloading https://files.pythonhosted.org/packages/c9/d4/18f3e13e0fc1758e225f810568d5ac2981adb62dd3676596982b80955b1d/sppersist-0.2.0.tar.gz
+[2023-06-07 11:39:10] INFO root fetch - processPackages [nonebot-plugin-al]: Downloading https://files.pythonhosted.org/packages/fc/63/a2320dc925c7fccf5310130c25bf1183f5a62d7cb063d58c3f1613c639fc/nonebot_plugin_al-0.0.2.tar.gz
+[2023-06-07 11:39:10] INFO root fetch - processPackages [zensvi]: Downloading https://files.pythonhosted.org/packages/9a/6b/0f371b972182beb605ab9a49102ff89fa63622569f7010b11b39149e47fc/zensvi-0.5.0.tar.gz
+[2023-06-07 11:39:10] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/d0/e2/4531f373c2bd3976aae360fe50823e8153890cb6250486651156b0b26bd2/kfish-99.0.202306070610-py3-none-any.whl
+[2023-06-07 11:39:10] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/31/16/ef83063057399b630ce546bd43f49f956a19479f3da3c6b3e818634bcb0c/kcli-99.0.202306070934-py3-none-any.whl
+[2023-06-07 11:39:10] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/22/58/ee379caa00eba72b01ce5884996e3957e85f9db086b5f74209b445963467/finbourne-access-sdk-0.0.616.tar.gz
+[2023-06-07 11:39:10] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/31/16/ef83063057399b630ce546bd43f49f956a19479f3da3c6b3e818634bcb0c/kcli-99.0.202306070934-py3-none-any.whl
+[2023-06-07 11:39:10] INFO root fetch - processPackages [rudderclient]: Downloading https://files.pythonhosted.org/packages/a5/4c/3a9afb62d90ff56381ecc175a96cf8cb4a4fb7732b6d3995b4784488a8ee/rudderclient-1.9.0.tar.gz
+[2023-06-07 11:39:10] INFO root fetch - processPackages [spPersist]: Downloading https://files.pythonhosted.org/packages/e9/18/32ad308c6c057dbb92b3450b55ff75ef63d24011d7719b3da457df493740/spPersist-0.2.1.tar.gz
+[2023-06-07 11:39:10] INFO root fetch - processPackages [fairbench]: Downloading https://files.pythonhosted.org/packages/63/78/ebf6c5a46d1ba1b053b4fdeebf6313bc69d83ca02a6ed4429538e7e4eea4/fairbench-0.2.4-py3-none-any.whl
+[2023-06-07 11:39:10] INFO root fetch - processPackages [nonebot-plugin-al]: Downloading https://files.pythonhosted.org/packages/36/19/1469b9acd70121e9bc5eca499ad553b2ff924ba37decefbc392aa361ba5c/nonebot_plugin_al-0.1.0.tar.gz
+[2023-06-07 11:39:10] INFO root fetch - processPackages [lazysdk]: Downloading https://files.pythonhosted.org/packages/3a/c1/d982d5c32e04028ee9e3384b38641d3e3d6ec0b2854e4e037a8e683b61a8/lazysdk-0.1.7.tar.gz
+[2023-06-07 11:39:10] INFO root fetch - processPackages [zensvi]: Downloading https://files.pythonhosted.org/packages/23/8c/be43a72b12830023bd431dc32a25bf4db821a392708738d1bab60934918b/zensvi-0.5.1.tar.gz
+[2023-06-07 11:39:10] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/cb/76/6c9f964b5a529cc76c3c707d4e22ac5ccad548d47b37c044f9eb5a49761c/kfish-99.0.202306070936-py3-none-any.whl
+[2023-06-07 11:39:10] INFO root fetch - processPackages [fairbench]: executing diffoscope
+[2023-06-07 11:39:10] INFO root fetch - processPackages [fairbench]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fairbench-0.2.3-py3-none-any.whl.zip tmp/fairbench-0.2.4-py3-none-any.whl.zip --markdown 20230607/f/fairbench/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-06-07 11:39:10] INFO root fetch - processPackages [nonebot-plugin-al]: executing diffoscope
+[2023-06-07 11:39:10] INFO root fetch - processPackages [nonebot-plugin-al]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_al-0.0.2.tar.gz tmp/nonebot_plugin_al-0.1.0.tar.gz --markdown 20230607/n/nonebot-plugin-al/0.0.2-0.1.0/diff.md --exclude *.pyd
+[2023-06-07 11:39:11] INFO root fetch - processPackages [zensvi]: executing diffoscope
+[2023-06-07 11:39:11] INFO root fetch - processPackages [zensvi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zensvi-0.5.0.tar.gz tmp/zensvi-0.5.1.tar.gz --markdown 20230607/z/zensvi/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-06-07 11:39:11] INFO root fetch - processPackages [spPersist]: executing diffoscope
+[2023-06-07 11:39:11] INFO root fetch - processPackages [spPersist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sppersist-0.2.0.tar.gz tmp/spPersist-0.2.1.tar.gz --markdown 20230607/s/spPersist/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-06-07 11:39:11] INFO root fetch - processPackages [lazysdk]: executing diffoscope
+[2023-06-07 11:39:11] INFO root fetch - processPackages [lazysdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazysdk-0.1.6.tar.gz tmp/lazysdk-0.1.7.tar.gz --markdown 20230607/l/lazysdk/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-06-07 11:39:11] INFO root fetch - processPackages [rudderclient]: Downloading https://files.pythonhosted.org/packages/a4/fe/2dab352156f0d6f5a40c80c9f3fbeb8f321f6e0c19ccd730f26a114a5da2/rudderclient-1.9.1.tar.gz
+[2023-06-07 11:39:11] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-06-07 11:39:11] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202306070610-py3-none-any.whl.zip tmp/kfish-99.0.202306070936-py3-none-any.whl.zip --markdown 20230607/k/kfish/99.0.202306070610-99.0.202306070936/diff.md --exclude *.pyd
+[2023-06-07 11:39:11] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/f5/48/d40801e505892153d9eb9fea2de2f415455702ca8818dd23f14a3f88d813/finbourne-access-sdk-0.0.815.tar.gz
+[2023-06-07 11:39:11] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/62/b5/20f4630456e180fbfbbd716f675aff468a4a0cc7cfd21d3b4835805664ff/kcli-99.0.202306070935-py3-none-any.whl
+[2023-06-07 11:39:11] INFO root fetch - processPackages [rudderclient]: executing diffoscope
+[2023-06-07 11:39:11] INFO root fetch - processPackages [rudderclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rudderclient-1.9.0.tar.gz tmp/rudderclient-1.9.1.tar.gz --markdown 20230607/r/rudderclient/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-06-07 11:39:11] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/62/b5/20f4630456e180fbfbbd716f675aff468a4a0cc7cfd21d3b4835805664ff/kcli-99.0.202306070935-py3-none-any.whl
+[2023-06-07 11:39:11] INFO root fetch - processPackages [finbourne-access-sdk]: executing diffoscope
+[2023-06-07 11:39:11] INFO root fetch - processPackages [finbourne-access-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne-access-sdk-0.0.616.tar.gz tmp/finbourne-access-sdk-0.0.815.tar.gz --markdown 20230607/f/finbourne-access-sdk/0.0.616-0.0.815/diff.md --exclude *.pyd
+[2023-06-07 11:39:11] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-06-07 11:39:11] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202306070934-py3-none-any.whl.zip tmp/kcli-99.0.202306070935-py3-none-any.whl.zip --markdown 20230607/k/kcli/99.0.202306070934-99.0.202306070935/diff.md --exclude *.pyd
+[2023-06-07 11:39:11] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-06-07 11:39:11] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202306070934-py3-none-any.whl.zip tmp/kcli-99.0.202306070935-py3-none-any.whl.zip --markdown 20230607/k/kcli/99.0.202306070934-99.0.202306070935/diff.md --exclude *.pyd
+[2023-06-07 11:39:12] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306070610-py3-none-any.whl.zip]
+[2023-06-07 11:39:12] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306070936-py3-none-any.whl.zip]
+[2023-06-07 11:39:12] INFO root fetch - processPackages [kfish]: Start processing: jcloud
+[2023-06-07 11:39:12] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-06-07 11:39:12] INFO root fetch - processPackages [jcloud]: New version: [0.2.9.dev4] Old Version: [0.2.9.dev3]
+[2023-06-07 11:39:13] INFO root fetch - processPackages [nonebot-plugin-al]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_al-0.0.2.tar.gz]
+[2023-06-07 11:39:13] INFO root fetch - processPackages [nonebot-plugin-al]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_al-0.1.0.tar.gz]
+[2023-06-07 11:39:13] INFO root fetch - processPackages [nonebot-plugin-al]: Start processing: zpenv
+[2023-06-07 11:39:13] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-al]: success
+[2023-06-07 11:39:13] INFO root fetch - processPackages [jcloud]: Downloading https://files.pythonhosted.org/packages/1e/e9/2ee85f52ab6322d4a54c8cb7ecb15a40c220f775204569488ec63ad4e395/jcloud-0.2.9.dev3.tar.gz
+[2023-06-07 11:39:13] INFO root fetch - processPackages [zpenv]: New version: [1.2.0] Old Version: [1.1.2]
+[2023-06-07 11:39:13] INFO root fetch - processPackages [spPersist]: Remove: archive file [/home/abi/fetcher/tmp/sppersist-0.2.0.tar.gz]
+[2023-06-07 11:39:13] INFO root fetch - processPackages [spPersist]: Remove: archive file [/home/abi/fetcher/tmp/spPersist-0.2.1.tar.gz]
+[2023-06-07 11:39:13] INFO root fetch - processPackages [spPersist]: Start processing: InternetSpeedLogger
+[2023-06-07 11:39:13] INFO root fetch - main [MainThread]: End processing [spPersist]: success
+[2023-06-07 11:39:13] INFO root fetch - processPackages [fairbench]: Remove: archive file [/home/abi/fetcher/tmp/fairbench-0.2.3-py3-none-any.whl.zip]
+[2023-06-07 11:39:13] INFO root fetch - processPackages [fairbench]: Remove: archive file [/home/abi/fetcher/tmp/fairbench-0.2.4-py3-none-any.whl.zip]
+[2023-06-07 11:39:13] INFO root fetch - processPackages [fairbench]: Start processing: kfish
+[2023-06-07 11:39:13] INFO root fetch - main [MainThread]: End processing [fairbench]: success
+[2023-06-07 11:39:13] INFO root fetch - processPackages [zpenv]: Downloading https://files.pythonhosted.org/packages/aa/51/5f368efd87573de903afa9df030bdab7a0719339b12f10e1431e350afa77/zpenv-1.1.2.tar.gz
+[2023-06-07 11:39:13] INFO root fetch - processPackages [kfish]: New version: [99.0.202306070938] Old Version: [99.0.202306070936]
+[2023-06-07 11:39:13] INFO root fetch - processPackages [rudderclient]: Remove: archive file [/home/abi/fetcher/tmp/rudderclient-1.9.0.tar.gz]
+[2023-06-07 11:39:13] INFO root fetch - processPackages [rudderclient]: Remove: archive file [/home/abi/fetcher/tmp/rudderclient-1.9.1.tar.gz]
+[2023-06-07 11:39:13] INFO root fetch - processPackages [rudderclient]: Start processing: pyhelpers
+[2023-06-07 11:39:13] INFO root fetch - main [MainThread]: End processing [rudderclient]: success
+[2023-06-07 11:39:13] INFO root fetch - processPackages [InternetSpeedLogger]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-06-07 11:39:13] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/cb/76/6c9f964b5a529cc76c3c707d4e22ac5ccad548d47b37c044f9eb5a49761c/kfish-99.0.202306070936-py3-none-any.whl
+[2023-06-07 11:39:13] INFO root fetch - processPackages [pyhelpers]: New version: [1.5.0rc2] Old Version: [1.4.6]
+[2023-06-07 11:39:13] INFO root fetch - processPackages [zpenv]: Downloading https://files.pythonhosted.org/packages/90/8b/f3c9d372ea830947dc7310ad61a04239c509ba9471bf8df2f5644cb156f3/zpenv-1.2.0.tar.gz
+[2023-06-07 11:39:13] INFO root fetch - processPackages [jcloud]: Downloading https://files.pythonhosted.org/packages/bb/b0/d7ca100ca332b39b692bce70264e0ab3f4134daafc57ab3b397666234d61/jcloud-0.2.9.dev4.tar.gz
+[2023-06-07 11:39:13] INFO root fetch - processPackages [InternetSpeedLogger]: Downloading https://files.pythonhosted.org/packages/bc/1c/5cafba183cc7d01d5cf70570bb4d113e67c2ff5595d6a39d85463b604025/InternetSpeedLogger-1.2.0.tar.gz
+[2023-06-07 11:39:13] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/30/a8/acd1f14cc144316c300a85c1a0e757630d568b094248982bca16d408cdb6/kfish-99.0.202306070938-py3-none-any.whl
+[2023-06-07 11:39:13] INFO root fetch - processPackages [jcloud]: executing diffoscope
+[2023-06-07 11:39:13] INFO root fetch - processPackages [jcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jcloud-0.2.9.dev3.tar.gz tmp/jcloud-0.2.9.dev4.tar.gz --markdown 20230607/j/jcloud/0.2.9.dev3-0.2.9.dev4/diff.md --exclude *.pyd
+[2023-06-07 11:39:13] INFO root fetch - processPackages [pyhelpers]: Downloading https://files.pythonhosted.org/packages/32/89/bfd29ec05df7108de086c4fb27b70b4cc4cc897268dc8fe618af877d7307/pyhelpers-1.4.6.tar.gz
+[2023-06-07 11:39:13] INFO root fetch - processPackages [zpenv]: executing diffoscope
+[2023-06-07 11:39:13] INFO root fetch - processPackages [zpenv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zpenv-1.1.2.tar.gz tmp/zpenv-1.2.0.tar.gz --markdown 20230607/z/zpenv/1.1.2-1.2.0/diff.md --exclude *.pyd
+[2023-06-07 11:39:13] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-06-07 11:39:13] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202306070936-py3-none-any.whl.zip tmp/kfish-99.0.202306070938-py3-none-any.whl.zip --markdown 20230607/k/kfish/99.0.202306070936-99.0.202306070938/diff.md --exclude *.pyd
+[2023-06-07 11:39:13] INFO root fetch - processPackages [InternetSpeedLogger]: Downloading https://files.pythonhosted.org/packages/41/f3/2848e85c1fcd2c5f7c6ce351e035e473a7b5e56b3542f8d3e696a71c6429/InternetSpeedLogger-1.3.0.tar.gz
+[2023-06-07 11:39:13] INFO root fetch - processPackages [InternetSpeedLogger]: executing diffoscope
+[2023-06-07 11:39:13] INFO root fetch - processPackages [InternetSpeedLogger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/InternetSpeedLogger-1.2.0.tar.gz tmp/InternetSpeedLogger-1.3.0.tar.gz --markdown 20230607/I/InternetSpeedLogger/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-06-07 11:39:13] INFO root fetch - processPackages [pyhelpers]: Downloading https://files.pythonhosted.org/packages/cf/86/88ea87225dd5e32e05e3e0e2de32e62557027ddbc70c637bbf770e943eaa/pyhelpers-1.5.0rc2.tar.gz
+[2023-06-07 11:39:14] INFO root fetch - processPackages [pyhelpers]: executing diffoscope
+[2023-06-07 11:39:14] INFO root fetch - processPackages [pyhelpers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhelpers-1.4.6.tar.gz tmp/pyhelpers-1.5.0rc2.tar.gz --markdown 20230607/p/pyhelpers/1.4.6-1.5.0rc2/diff.md --exclude *.pyd
+[2023-06-07 11:39:14] INFO root fetch - processPackages [lazysdk]: Remove: archive file [/home/abi/fetcher/tmp/lazysdk-0.1.6.tar.gz]
+[2023-06-07 11:39:14] INFO root fetch - processPackages [lazysdk]: Remove: archive file [/home/abi/fetcher/tmp/lazysdk-0.1.7.tar.gz]
+[2023-06-07 11:39:14] INFO root fetch - processPackages [lazysdk]: Start processing: ocf-datapipes
+[2023-06-07 11:39:14] INFO root fetch - main [MainThread]: End processing [lazysdk]: success
+[2023-06-07 11:39:14] INFO root fetch - processPackages [ocf-datapipes]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-06-07 11:39:14] INFO root fetch - processPackages [zensvi]: Remove: archive file [/home/abi/fetcher/tmp/zensvi-0.5.0.tar.gz]
+[2023-06-07 11:39:14] INFO root fetch - processPackages [zensvi]: Remove: archive file [/home/abi/fetcher/tmp/zensvi-0.5.1.tar.gz]
+[2023-06-07 11:39:14] INFO root fetch - main [MainThread]: End processing [zensvi]: success
+[2023-06-07 11:39:14] INFO root fetch - processPackages [ocf-datapipes]: Downloading https://files.pythonhosted.org/packages/a5/4f/6a285e7b9d9685d86c1ec5c435500687d7f2ce1fd46690ed8b614428180e/ocf_datapipes-1.2.8.tar.gz
+[2023-06-07 11:39:14] INFO root fetch - processPackages [ocf-datapipes]: Downloading https://files.pythonhosted.org/packages/5d/e0/2adf28d0e27bcb08200c48623b22c837073925a5635322cdfeb6d4a57358/ocf_datapipes-1.2.9.tar.gz
+[2023-06-07 11:39:14] INFO root fetch - processPackages [ocf-datapipes]: executing diffoscope
+[2023-06-07 11:39:14] INFO root fetch - processPackages [ocf-datapipes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ocf_datapipes-1.2.8.tar.gz tmp/ocf_datapipes-1.2.9.tar.gz --markdown 20230607/o/ocf-datapipes/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-06-07 11:39:14] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306070936-py3-none-any.whl.zip]
+[2023-06-07 11:39:14] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306070938-py3-none-any.whl.zip]
+[2023-06-07 11:39:14] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-06-07 11:39:15] INFO root fetch - processPackages [zpenv]: Remove: archive file [/home/abi/fetcher/tmp/zpenv-1.1.2.tar.gz]
+[2023-06-07 11:39:15] INFO root fetch - processPackages [zpenv]: Remove: archive file [/home/abi/fetcher/tmp/zpenv-1.2.0.tar.gz]
+[2023-06-07 11:39:15] INFO root fetch - main [MainThread]: End processing [zpenv]: success
+[2023-06-07 11:39:15] INFO root fetch - processPackages [InternetSpeedLogger]: Remove: archive file [/home/abi/fetcher/tmp/InternetSpeedLogger-1.2.0.tar.gz]
+[2023-06-07 11:39:15] INFO root fetch - processPackages [InternetSpeedLogger]: Remove: archive file [/home/abi/fetcher/tmp/InternetSpeedLogger-1.3.0.tar.gz]
+[2023-06-07 11:39:15] INFO root fetch - main [MainThread]: End processing [InternetSpeedLogger]: success
+[2023-06-07 11:39:15] INFO root fetch - processPackages [jcloud]: Remove: archive file [/home/abi/fetcher/tmp/jcloud-0.2.9.dev3.tar.gz]
+[2023-06-07 11:39:15] INFO root fetch - processPackages [jcloud]: Remove: archive file [/home/abi/fetcher/tmp/jcloud-0.2.9.dev4.tar.gz]
+[2023-06-07 11:39:15] INFO root fetch - main [MainThread]: End processing [jcloud]: success
+[2023-06-07 11:39:15] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne-access-sdk-0.0.616.tar.gz]
+[2023-06-07 11:39:15] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne-access-sdk-0.0.815.tar.gz]
+[2023-06-07 11:39:15] INFO root fetch - main [MainThread]: End processing [finbourne-access-sdk]: success
+[2023-06-07 11:39:16] INFO root fetch - processPackages [ocf-datapipes]: Remove: archive file [/home/abi/fetcher/tmp/ocf_datapipes-1.2.8.tar.gz]
+[2023-06-07 11:39:16] INFO root fetch - processPackages [ocf-datapipes]: Remove: archive file [/home/abi/fetcher/tmp/ocf_datapipes-1.2.9.tar.gz]
+[2023-06-07 11:39:16] INFO root fetch - main [MainThread]: End processing [ocf-datapipes]: success
+[2023-06-07 11:39:20] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306070934-py3-none-any.whl.zip]
+[2023-06-07 11:39:20] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306070935-py3-none-any.whl.zip]
+[2023-06-07 11:39:20] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-06-07 11:39:20] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-06-07 11:39:24] INFO root fetch - processPackages [pyhelpers]: Remove: archive file [/home/abi/fetcher/tmp/pyhelpers-1.4.6.tar.gz]
+[2023-06-07 11:39:24] INFO root fetch - processPackages [pyhelpers]: Remove: archive file [/home/abi/fetcher/tmp/pyhelpers-1.5.0rc2.tar.gz]
+[2023-06-07 11:39:24] INFO root fetch - main [MainThread]: End processing [pyhelpers]: success
+[2023-06-07 11:39:24] INFO root fetch - main [MainThread]: Store serial: [18406052]
