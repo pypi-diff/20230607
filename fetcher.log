@@ -21540,3 +21540,50 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-07 13:01:30] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-33.3.0.tar.gz]
 [2023-06-07 13:01:30] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2023-06-07 13:01:30] INFO root fetch - main [MainThread]: Store serial: [18406821]
+[2023-06-07 13:06:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18406821]
+[2023-06-07 13:06:39] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-07 13:06:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: taulant4-publish-pypi-medium
+[2023-06-07 13:06:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tracebloc-package-dev
+[2023-06-07 13:06:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nvidia-dali-tf-plugin-nightly-cuda120
+[2023-06-07 13:06:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: formation-studio
+[2023-06-07 13:06:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nvidia-dali-nightly-cuda120
+[2023-06-07 13:06:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyccl
+[2023-06-07 13:06:39] WARNING root fetch - processPackages [taulant4-publish-pypi-medium]: Skipping, unable to determine old version
+[2023-06-07 13:06:39] INFO root fetch - processPackages [formation-studio]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-06-07 13:06:39] INFO root fetch - main [MainThread]: End processing [taulant4-publish-pypi-medium] error
+[2023-06-07 13:06:39] INFO root fetch - processPackages [pyccl]: New version: [2.8.0] Old Version: [2.7.0]
+[2023-06-07 13:06:39] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: New version: [1.27.0.dev20230606] Old Version: [1.27.0.dev20230605]
+[2023-06-07 13:06:39] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: New version: [1.27.0.dev20230606] Old Version: [1.27.0.dev20230605]
+[2023-06-07 13:06:39] INFO root fetch - processPackages [tracebloc-package-dev]: New version: [0.4.5] Old Version: [0.4.3]
+[2023-06-07 13:06:39] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: Downloading https://files.pythonhosted.org/packages/aa/3d/2d07f2597882360635917c0184cc75617735ce61cf0715c4978ba8be03de/nvidia-dali-nightly-cuda120-1.27.0.dev20230605.tar.gz
+[2023-06-07 13:06:39] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: Downloading https://files.pythonhosted.org/packages/6a/0e/8d2fd73005529d24b70ba85b5a0a85f2378497e67c26e2bdccc0bfbbf8ba/nvidia-dali-tf-plugin-nightly-cuda120-1.27.0.dev20230605.tar.gz
+[2023-06-07 13:06:39] INFO root fetch - processPackages [formation-studio]: Downloading https://files.pythonhosted.org/packages/b4/72/5c87a295b9467538e7f758ba2c4feb1412761ba8bbdf64144c9ac4a28886/formation-studio-0.6.0.tar.gz
+[2023-06-07 13:06:39] INFO root fetch - processPackages [pyccl]: Downloading https://files.pythonhosted.org/packages/9d/48/8fedf4729b7a68b70694f7957800207850c964e59f8429008cbbed9fea67/pyccl-2.7.0.tar.gz
+[2023-06-07 13:06:39] INFO root fetch - processPackages [tracebloc-package-dev]: Downloading https://files.pythonhosted.org/packages/67/30/37fe7e589f16708a2558775c7bc5cff22f16aa97c2256293fca5b1ae08b5/tracebloc_package-dev-0.4.3.tar.gz
+[2023-06-07 13:06:39] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: Downloading https://files.pythonhosted.org/packages/a5/d2/60e22be5f5d36214e23abcd343df743a032b5efc9a294f85ca1147f98170/nvidia-dali-tf-plugin-nightly-cuda120-1.27.0.dev20230606.tar.gz
+[2023-06-07 13:06:39] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: Downloading https://files.pythonhosted.org/packages/e8/b7/9c79a55200a5fab304698e1040f7b94ec9fc172885c7fa1a25394e009d86/nvidia-dali-nightly-cuda120-1.27.0.dev20230606.tar.gz
+[2023-06-07 13:06:39] WARNING root fetch - processPackages [pyccl]: Skipping package: exceeds size limit 12576001>=10485760
+[2023-06-07 13:06:39] INFO root fetch - main [MainThread]: End processing [pyccl] error
+[2023-06-07 13:06:39] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: executing diffoscope
+[2023-06-07 13:06:39] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia-dali-tf-plugin-nightly-cuda120-1.27.0.dev20230605.tar.gz tmp/nvidia-dali-tf-plugin-nightly-cuda120-1.27.0.dev20230606.tar.gz --markdown 20230607/n/nvidia-dali-tf-plugin-nightly-cuda120/1.27.0.dev20230605-1.27.0.dev20230606/diff.md --exclude *.pyd
+[2023-06-07 13:06:39] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: executing diffoscope
+[2023-06-07 13:06:39] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia-dali-nightly-cuda120-1.27.0.dev20230605.tar.gz tmp/nvidia-dali-nightly-cuda120-1.27.0.dev20230606.tar.gz --markdown 20230607/n/nvidia-dali-nightly-cuda120/1.27.0.dev20230605-1.27.0.dev20230606/diff.md --exclude *.pyd
+[2023-06-07 13:06:40] INFO root fetch - processPackages [formation-studio]: Downloading https://files.pythonhosted.org/packages/5b/da/65e869e3568048798cc13c562cd5ac25c4828be39d36f8923d8ad60a5850/formation-studio-0.6.1.tar.gz
+[2023-06-07 13:06:40] INFO root fetch - processPackages [tracebloc-package-dev]: Downloading https://files.pythonhosted.org/packages/5b/c1/a598e23f7223cbe5519e02af6c7ec944cbbbee09f5ccbaf15603d4694b44/tracebloc_package-dev-0.4.5.tar.gz
+[2023-06-07 13:06:40] INFO root fetch - processPackages [tracebloc-package-dev]: executing diffoscope
+[2023-06-07 13:06:40] INFO root fetch - processPackages [tracebloc-package-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tracebloc_package-dev-0.4.3.tar.gz tmp/tracebloc_package-dev-0.4.5.tar.gz --markdown 20230607/t/tracebloc-package-dev/0.4.3-0.4.5/diff.md --exclude *.pyd
+[2023-06-07 13:06:40] INFO root fetch - processPackages [formation-studio]: executing diffoscope
+[2023-06-07 13:06:40] INFO root fetch - processPackages [formation-studio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/formation-studio-0.6.0.tar.gz tmp/formation-studio-0.6.1.tar.gz --markdown 20230607/f/formation-studio/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-06-07 13:06:41] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: Remove: archive file [/home/abi/fetcher/tmp/nvidia-dali-nightly-cuda120-1.27.0.dev20230605.tar.gz]
+[2023-06-07 13:06:41] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: Remove: archive file [/home/abi/fetcher/tmp/nvidia-dali-nightly-cuda120-1.27.0.dev20230606.tar.gz]
+[2023-06-07 13:06:41] INFO root fetch - main [MainThread]: End processing [nvidia-dali-nightly-cuda120]: success
+[2023-06-07 13:06:41] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: Remove: archive file [/home/abi/fetcher/tmp/nvidia-dali-tf-plugin-nightly-cuda120-1.27.0.dev20230605.tar.gz]
+[2023-06-07 13:06:41] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: Remove: archive file [/home/abi/fetcher/tmp/nvidia-dali-tf-plugin-nightly-cuda120-1.27.0.dev20230606.tar.gz]
+[2023-06-07 13:06:41] INFO root fetch - main [MainThread]: End processing [nvidia-dali-tf-plugin-nightly-cuda120]: success
+[2023-06-07 13:06:41] INFO root fetch - processPackages [tracebloc-package-dev]: Remove: archive file [/home/abi/fetcher/tmp/tracebloc_package-dev-0.4.3.tar.gz]
+[2023-06-07 13:06:41] INFO root fetch - processPackages [tracebloc-package-dev]: Remove: archive file [/home/abi/fetcher/tmp/tracebloc_package-dev-0.4.5.tar.gz]
+[2023-06-07 13:06:41] INFO root fetch - main [MainThread]: End processing [tracebloc-package-dev]: success
+[2023-06-07 13:06:42] INFO root fetch - processPackages [formation-studio]: Remove: archive file [/home/abi/fetcher/tmp/formation-studio-0.6.0.tar.gz]
+[2023-06-07 13:06:42] INFO root fetch - processPackages [formation-studio]: Remove: archive file [/home/abi/fetcher/tmp/formation-studio-0.6.1.tar.gz]
+[2023-06-07 13:06:42] INFO root fetch - main [MainThread]: End processing [formation-studio]: success
+[2023-06-07 13:06:42] INFO root fetch - main [MainThread]: Store serial: [18406839]
