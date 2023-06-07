@@ -12315,3 +12315,113 @@ AssertionError: tmp/odoo_addon_crm_lead_firstname-16.0.1.0.1-py3-none-any.whl.zi
 [2023-06-07 06:26:27] INFO root fetch - processPackages [pydtk]: Remove: archive file [/home/abi/fetcher/tmp/pydtk-0.2.9.tar.gz]
 [2023-06-07 06:26:27] INFO root fetch - main [MainThread]: End processing [pydtk]: success
 [2023-06-07 06:26:27] INFO root fetch - main [MainThread]: Store serial: [18402629]
+[2023-06-07 06:31:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18402629]
+[2023-06-07 06:31:36] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-07 06:31:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: findu
+[2023-06-07 06:31:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dagknows
+[2023-06-07 06:31:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-base-location
+[2023-06-07 06:31:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bosdyn-api
+[2023-06-07 06:31:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bosdyn-client
+[2023-06-07 06:31:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bosdyn-core
+[2023-06-07 06:31:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dagknows
+[2023-06-07 06:31:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bosdyn-mission
+[2023-06-07 06:31:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bosdyn-choreography-client
+[2023-06-07 06:31:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bosdyn-choreography-protos
+[2023-06-07 06:31:36] INFO root fetch - processPackages [dagknows]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-07 06:31:36] INFO root fetch - processPackages [bosdyn-client]: New version: [3.3.0] Old Version: [3.2.3]
+[2023-06-07 06:31:36] INFO root fetch - processPackages [bosdyn-api]: New version: [3.3.0] Old Version: [3.2.3]
+[2023-06-07 06:31:36] INFO root fetch - processPackages [findu]: New version: [0.0.12] Old Version: [0.0.11]
+[2023-06-07 06:31:36] INFO root fetch - processPackages [odoo-addon-base-location]: New version: [16.0.1.0.1.5] Old Version: [16.0.1.0.1.4]
+[2023-06-07 06:31:36] INFO root fetch - processPackages [bosdyn-core]: New version: [3.3.0] Old Version: [3.2.3]
+[2023-06-07 06:31:36] INFO root fetch - processPackages [dagknows]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-07 06:31:36] INFO root fetch - processPackages [dagknows]: Downloading https://files.pythonhosted.org/packages/48/5b/85b4c3b7ec270fcce58d0f43343adf5bb53a4bcf74af45dbd3e3940c90b2/dagknows-0.0.8-py3-none-any.whl
+[2023-06-07 06:31:36] INFO root fetch - processPackages [dagknows]: Downloading https://files.pythonhosted.org/packages/48/5b/85b4c3b7ec270fcce58d0f43343adf5bb53a4bcf74af45dbd3e3940c90b2/dagknows-0.0.8-py3-none-any.whl
+[2023-06-07 06:31:36] INFO root fetch - processPackages [bosdyn-choreography-protos]: New version: [3.3.0] Old Version: [3.2.3]
+[2023-06-07 06:31:36] INFO root fetch - processPackages [bosdyn-mission]: New version: [3.3.0] Old Version: [3.2.3]
+[2023-06-07 06:31:36] INFO root fetch - processPackages [bosdyn-choreography-client]: New version: [3.3.0] Old Version: [3.2.3]
+[2023-06-07 06:31:36] INFO root fetch - processPackages [findu]: Downloading https://files.pythonhosted.org/packages/02/c4/fed665060a0798a9d6d3bec91f7be1057a8e3cf8e4cc990dfdfeda2f71b1/findu-0.0.11.tar.gz
+[2023-06-07 06:31:36] INFO root fetch - processPackages [bosdyn-api]: Downloading https://files.pythonhosted.org/packages/43/c3/40f2d3ffaf17b745244c77eba72b4d0c3030a0ab8524f5ad2c31f2f76828/bosdyn_api-3.2.3-py2.py3-none-any.whl
+[2023-06-07 06:31:36] INFO root fetch - processPackages [bosdyn-client]: Downloading https://files.pythonhosted.org/packages/67/28/240d0005d4b95745ca256d2054384babe67100727aef0b3ec12470be1062/bosdyn_client-3.2.3-py2.py3-none-any.whl
+[2023-06-07 06:31:36] INFO root fetch - processPackages [bosdyn-core]: Downloading https://files.pythonhosted.org/packages/15/76/7dcc4d17389f1c6cb76a4fcb4eb56e004608bbbc2ffc9b600f2f7cc43434/bosdyn_core-3.2.3-py2.py3-none-any.whl
+[2023-06-07 06:31:36] INFO root fetch - processPackages [dagknows]: Downloading https://files.pythonhosted.org/packages/57/73/fdc53628716b16ae897344fbc1d98948616e9c3bbc4e3651b6f1332389fa/dagknows-0.0.9-py3-none-any.whl
+[2023-06-07 06:31:36] INFO root fetch - processPackages [odoo-addon-base-location]: Downloading https://files.pythonhosted.org/packages/6f/be/82b0189239e61bba2cfb32d50e799cb7bf2da4bf95c077b56870d5203cae/odoo_addon_base_location-16.0.1.0.1.4-py3-none-any.whl
+[2023-06-07 06:31:36] INFO root fetch - processPackages [bosdyn-choreography-protos]: Downloading https://files.pythonhosted.org/packages/91/7e/6a797de5769a39411bf500abc7cdb920c9cdc2a0481a6e6c177750d77872/bosdyn_choreography_protos-3.2.3-py3-none-any.whl
+[2023-06-07 06:31:37] INFO root fetch - processPackages [dagknows]: Downloading https://files.pythonhosted.org/packages/57/73/fdc53628716b16ae897344fbc1d98948616e9c3bbc4e3651b6f1332389fa/dagknows-0.0.9-py3-none-any.whl
+[2023-06-07 06:31:37] INFO root fetch - processPackages [bosdyn-choreography-client]: Downloading https://files.pythonhosted.org/packages/44/67/de2dec4c1c501dcb4d39e65c0db8ecffec47c961488bf6355c0001750211/bosdyn_choreography_client-3.2.3-py2.py3-none-any.whl
+[2023-06-07 06:31:37] INFO root fetch - processPackages [bosdyn-mission]: Downloading https://files.pythonhosted.org/packages/bc/1e/1f0a6c07c27aae05c32929403c90b44ee0b46e0b68e7dffe07487879392a/bosdyn_mission-3.2.3-py2.py3-none-any.whl
+[2023-06-07 06:31:37] INFO root fetch - processPackages [dagknows]: executing diffoscope
+[2023-06-07 06:31:37] INFO root fetch - processPackages [dagknows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagknows-0.0.8-py3-none-any.whl.zip tmp/dagknows-0.0.9-py3-none-any.whl.zip --markdown 20230607/d/dagknows/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-07 06:31:37] INFO root fetch - processPackages [dagknows]: executing diffoscope
+[2023-06-07 06:31:37] INFO root fetch - processPackages [dagknows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagknows-0.0.8-py3-none-any.whl.zip tmp/dagknows-0.0.9-py3-none-any.whl.zip --markdown 20230607/d/dagknows/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-07 06:31:37] INFO root fetch - processPackages [findu]: Downloading https://files.pythonhosted.org/packages/95/8a/7c5378f020de5e9744b470d132ff13fafb170d71b238f8aff726528e2660/findu-0.0.12.tar.gz
+[2023-06-07 06:31:37] INFO root fetch - processPackages [bosdyn-core]: Downloading https://files.pythonhosted.org/packages/99/41/1d2376b0c2fe0fd83ed0c61b6dca47d61a288d2c1204292358740a0ce95d/bosdyn_core-3.3.0-py3-none-any.whl
+[2023-06-07 06:31:37] INFO root fetch - processPackages [odoo-addon-base-location]: Downloading https://files.pythonhosted.org/packages/a1/28/9d8248080385e75f20f6133d2febb01db52e5572cdb7300948e8616e5371/odoo_addon_base_location-16.0.1.0.1.5-py3-none-any.whl
+[2023-06-07 06:31:37] INFO root fetch - processPackages [bosdyn-api]: Downloading https://files.pythonhosted.org/packages/55/81/d0f69c1ce9696876e0e00a42a5949be0febc8e26aa302a0fe2dacf4982c7/bosdyn_api-3.3.0-py3-none-any.whl
+[2023-06-07 06:31:37] INFO root fetch - processPackages [bosdyn-client]: Downloading https://files.pythonhosted.org/packages/92/3d/71e741ac18f47ed38ea4356a5a658baf9e1a06a6992c316888fa8fb1b60a/bosdyn_client-3.3.0-py3-none-any.whl
+[2023-06-07 06:31:37] INFO root fetch - processPackages [bosdyn-choreography-client]: Downloading https://files.pythonhosted.org/packages/1f/b4/9ce45d5d9ac86e8de6c51d6d2724371478f2265bb24123b23cdde132f2b6/bosdyn_choreography_client-3.3.0-py3-none-any.whl
+[2023-06-07 06:31:37] INFO root fetch - processPackages [bosdyn-choreography-protos]: Downloading https://files.pythonhosted.org/packages/0d/24/40fc5497a71f5e72d648d6b2af3cf0e41b60c0831a66164966061a80c41e/bosdyn_choreography_protos-3.3.0-py3-none-any.whl
+[2023-06-07 06:31:37] INFO root fetch - processPackages [bosdyn-mission]: Downloading https://files.pythonhosted.org/packages/51/1d/249f8791056faa28abe506f1d2121b53127f8ba5dfc2556889db72d1d920/bosdyn_mission-3.3.0-py3-none-any.whl
+[2023-06-07 06:31:37] INFO root fetch - processPackages [bosdyn-core]: executing diffoscope
+[2023-06-07 06:31:37] INFO root fetch - processPackages [bosdyn-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bosdyn_core-3.2.3-py2.py3-none-any.whl.zip tmp/bosdyn_core-3.3.0-py3-none-any.whl.zip --markdown 20230607/b/bosdyn-core/3.2.3-3.3.0/diff.md --exclude *.pyd
+[2023-06-07 06:31:37] INFO root fetch - processPackages [odoo-addon-base-location]: executing diffoscope
+[2023-06-07 06:31:37] INFO root fetch - processPackages [odoo-addon-base-location]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_location-16.0.1.0.1.4-py3-none-any.whl.zip tmp/odoo_addon_base_location-16.0.1.0.1.5-py3-none-any.whl.zip --markdown 20230607/o/odoo-addon-base-location/16.0.1.0.1.4-16.0.1.0.1.5/diff.md --exclude *.pyd
+[2023-06-07 06:31:37] INFO root fetch - processPackages [findu]: executing diffoscope
+[2023-06-07 06:31:37] INFO root fetch - processPackages [findu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/findu-0.0.11.tar.gz tmp/findu-0.0.12.tar.gz --markdown 20230607/f/findu/0.0.11-0.0.12/diff.md --exclude *.pyd
+[2023-06-07 06:31:37] INFO root fetch - processPackages [bosdyn-api]: executing diffoscope
+[2023-06-07 06:31:37] INFO root fetch - processPackages [bosdyn-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bosdyn_api-3.2.3-py2.py3-none-any.whl.zip tmp/bosdyn_api-3.3.0-py3-none-any.whl.zip --markdown 20230607/b/bosdyn-api/3.2.3-3.3.0/diff.md --exclude *.pyd
+[2023-06-07 06:31:37] INFO root fetch - processPackages [bosdyn-choreography-client]: executing diffoscope
+[2023-06-07 06:31:37] INFO root fetch - processPackages [bosdyn-choreography-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bosdyn_choreography_client-3.2.3-py2.py3-none-any.whl.zip tmp/bosdyn_choreography_client-3.3.0-py3-none-any.whl.zip --markdown 20230607/b/bosdyn-choreography-client/3.2.3-3.3.0/diff.md --exclude *.pyd
+[2023-06-07 06:31:37] INFO root fetch - processPackages [bosdyn-mission]: executing diffoscope
+[2023-06-07 06:31:37] INFO root fetch - processPackages [bosdyn-mission]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bosdyn_mission-3.2.3-py2.py3-none-any.whl.zip tmp/bosdyn_mission-3.3.0-py3-none-any.whl.zip --markdown 20230607/b/bosdyn-mission/3.2.3-3.3.0/diff.md --exclude *.pyd
+[2023-06-07 06:31:37] INFO root fetch - processPackages [bosdyn-client]: executing diffoscope
+[2023-06-07 06:31:37] INFO root fetch - processPackages [bosdyn-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bosdyn_client-3.2.3-py2.py3-none-any.whl.zip tmp/bosdyn_client-3.3.0-py3-none-any.whl.zip --markdown 20230607/b/bosdyn-client/3.2.3-3.3.0/diff.md --exclude *.pyd
+[2023-06-07 06:31:37] INFO root fetch - processPackages [bosdyn-choreography-protos]: executing diffoscope
+[2023-06-07 06:31:37] INFO root fetch - processPackages [bosdyn-choreography-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bosdyn_choreography_protos-3.2.3-py3-none-any.whl.zip tmp/bosdyn_choreography_protos-3.3.0-py3-none-any.whl.zip --markdown 20230607/b/bosdyn-choreography-protos/3.2.3-3.3.0/diff.md --exclude *.pyd
+[2023-06-07 06:31:38] INFO root fetch - processPackages [dagknows]: Remove: archive file [/home/abi/fetcher/tmp/dagknows-0.0.8-py3-none-any.whl.zip]
+[2023-06-07 06:31:38] INFO root fetch - processPackages [dagknows]: Remove: archive file [/home/abi/fetcher/tmp/dagknows-0.0.9-py3-none-any.whl.zip]
+[2023-06-07 06:31:38] INFO root fetch - processPackages [dagknows]: Start processing: EnToFa
+[2023-06-07 06:31:38] INFO root fetch - main [MainThread]: End processing [dagknows]: success
+[2023-06-07 06:31:38] INFO root fetch - processPackages [EnToFa]: New version: [1.4] Old Version: [1.3.6]
+[2023-06-07 06:31:38] INFO root fetch - processPackages [dagknows]: Start processing: EnToFa
+[2023-06-07 06:31:38] INFO root fetch - main [MainThread]: End processing [dagknows]: success
+[2023-06-07 06:31:38] INFO root fetch - processPackages [EnToFa]: New version: [1.4] Old Version: [1.3.6]
+[2023-06-07 06:31:38] INFO root fetch - processPackages [EnToFa]: Downloading https://files.pythonhosted.org/packages/23/45/0dc5710aac07a06a415a2da03f21d6b286cb6585442e99b7422554110cbc/EnToFa-1.3.6.tar.gz
+[2023-06-07 06:31:38] INFO root fetch - processPackages [EnToFa]: Downloading https://files.pythonhosted.org/packages/23/45/0dc5710aac07a06a415a2da03f21d6b286cb6585442e99b7422554110cbc/EnToFa-1.3.6.tar.gz
+[2023-06-07 06:31:39] INFO root fetch - processPackages [findu]: Remove: archive file [/home/abi/fetcher/tmp/findu-0.0.11.tar.gz]
+[2023-06-07 06:31:39] INFO root fetch - processPackages [findu]: Remove: archive file [/home/abi/fetcher/tmp/findu-0.0.12.tar.gz]
+[2023-06-07 06:31:39] INFO root fetch - processPackages [findu]: Start processing: bosdyn-scout
+[2023-06-07 06:31:39] INFO root fetch - main [MainThread]: End processing [findu]: success
+[2023-06-07 06:31:39] INFO root fetch - processPackages [bosdyn-mission]: Remove: archive file [/home/abi/fetcher/tmp/bosdyn_mission-3.2.3-py2.py3-none-any.whl.zip]
+[2023-06-07 06:31:39] INFO root fetch - processPackages [bosdyn-mission]: Remove: archive file [/home/abi/fetcher/tmp/bosdyn_mission-3.3.0-py3-none-any.whl.zip]
+[2023-06-07 06:31:39] INFO root fetch - main [MainThread]: End processing [bosdyn-mission]: success
+[2023-06-07 06:31:39] INFO root fetch - processPackages [EnToFa]: Downloading https://files.pythonhosted.org/packages/a8/ac/f9cf622387029a94a1ec43091c23ae252e98484044b420d258941147bb5e/EnToFa-1.4.tar.gz
+[2023-06-07 06:31:39] WARNING root fetch - processPackages [bosdyn-scout]: Skipping, unable to determine old version
+[2023-06-07 06:31:39] INFO root fetch - main [MainThread]: End processing [bosdyn-scout] error
+[2023-06-07 06:31:39] INFO root fetch - processPackages [EnToFa]: Downloading https://files.pythonhosted.org/packages/a8/ac/f9cf622387029a94a1ec43091c23ae252e98484044b420d258941147bb5e/EnToFa-1.4.tar.gz
+[2023-06-07 06:31:39] INFO root fetch - processPackages [bosdyn-choreography-client]: Remove: archive file [/home/abi/fetcher/tmp/bosdyn_choreography_client-3.2.3-py2.py3-none-any.whl.zip]
+[2023-06-07 06:31:39] INFO root fetch - processPackages [bosdyn-choreography-client]: Remove: archive file [/home/abi/fetcher/tmp/bosdyn_choreography_client-3.3.0-py3-none-any.whl.zip]
+[2023-06-07 06:31:39] INFO root fetch - main [MainThread]: End processing [bosdyn-choreography-client]: success
+[2023-06-07 06:31:39] INFO root fetch - processPackages [bosdyn-core]: Remove: archive file [/home/abi/fetcher/tmp/bosdyn_core-3.2.3-py2.py3-none-any.whl.zip]
+[2023-06-07 06:31:39] INFO root fetch - processPackages [bosdyn-core]: Remove: archive file [/home/abi/fetcher/tmp/bosdyn_core-3.3.0-py3-none-any.whl.zip]
+[2023-06-07 06:31:39] INFO root fetch - main [MainThread]: End processing [bosdyn-core]: success
+[2023-06-07 06:31:39] INFO root fetch - processPackages [EnToFa]: executing diffoscope
+[2023-06-07 06:31:39] INFO root fetch - processPackages [EnToFa]: executing diffoscope
+[2023-06-07 06:31:39] INFO root fetch - processPackages [EnToFa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EnToFa-1.3.6.tar.gz tmp/EnToFa-1.4.tar.gz --markdown 20230607/E/EnToFa/1.3.6-1.4/diff.md --exclude *.pyd
+[2023-06-07 06:31:39] INFO root fetch - processPackages [EnToFa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EnToFa-1.3.6.tar.gz tmp/EnToFa-1.4.tar.gz --markdown 20230607/E/EnToFa/1.3.6-1.4/diff.md --exclude *.pyd
+[2023-06-07 06:31:39] INFO root fetch - processPackages [odoo-addon-base-location]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_location-16.0.1.0.1.4-py3-none-any.whl.zip]
+[2023-06-07 06:31:39] INFO root fetch - processPackages [odoo-addon-base-location]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_location-16.0.1.0.1.5-py3-none-any.whl.zip]
+[2023-06-07 06:31:39] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-location]: success
+[2023-06-07 06:31:39] INFO root fetch - processPackages [bosdyn-choreography-protos]: Remove: archive file [/home/abi/fetcher/tmp/bosdyn_choreography_protos-3.2.3-py3-none-any.whl.zip]
+[2023-06-07 06:31:39] INFO root fetch - processPackages [bosdyn-choreography-protos]: Remove: archive file [/home/abi/fetcher/tmp/bosdyn_choreography_protos-3.3.0-py3-none-any.whl.zip]
+[2023-06-07 06:31:39] INFO root fetch - main [MainThread]: End processing [bosdyn-choreography-protos]: success
+[2023-06-07 06:31:40] INFO root fetch - processPackages [EnToFa]: Remove: archive file [/home/abi/fetcher/tmp/EnToFa-1.3.6.tar.gz]
+[2023-06-07 06:31:40] INFO root fetch - processPackages [EnToFa]: Remove: archive file [/home/abi/fetcher/tmp/EnToFa-1.4.tar.gz]
+[2023-06-07 06:31:40] INFO root fetch - main [MainThread]: End processing [EnToFa]: success
+[2023-06-07 06:31:40] INFO root fetch - main [MainThread]: End processing [EnToFa]: success
+[2023-06-07 06:31:40] INFO root fetch - processPackages [bosdyn-client]: Remove: archive file [/home/abi/fetcher/tmp/bosdyn_client-3.2.3-py2.py3-none-any.whl.zip]
+[2023-06-07 06:31:40] INFO root fetch - processPackages [bosdyn-client]: Remove: archive file [/home/abi/fetcher/tmp/bosdyn_client-3.3.0-py3-none-any.whl.zip]
+[2023-06-07 06:31:40] INFO root fetch - main [MainThread]: End processing [bosdyn-client]: success
+[2023-06-07 06:31:41] INFO root fetch - processPackages [bosdyn-api]: Remove: archive file [/home/abi/fetcher/tmp/bosdyn_api-3.2.3-py2.py3-none-any.whl.zip]
+[2023-06-07 06:31:41] INFO root fetch - processPackages [bosdyn-api]: Remove: archive file [/home/abi/fetcher/tmp/bosdyn_api-3.3.0-py3-none-any.whl.zip]
+[2023-06-07 06:31:41] INFO root fetch - main [MainThread]: End processing [bosdyn-api]: success
+[2023-06-07 06:31:41] INFO root fetch - main [MainThread]: Store serial: [18402669]
