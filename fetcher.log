@@ -13824,3 +13824,105 @@ AssertionError: tmp/odoo_addon_crm_lead_firstname-16.0.1.0.1-py3-none-any.whl.zi
 [2023-06-07 08:05:23] INFO root fetch - processPackages [flybirds]: Remove: archive file [/home/abi/fetcher/tmp/flybirds-0.5.9.tar.gz]
 [2023-06-07 08:05:23] INFO root fetch - main [MainThread]: End processing [flybirds]: success
 [2023-06-07 08:05:23] INFO root fetch - main [MainThread]: Store serial: [18403306]
+[2023-06-07 08:10:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18403306]
+[2023-06-07 08:10:36] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-07 08:10:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dl2050utils
+[2023-06-07 08:10:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nrsdk
+[2023-06-07 08:10:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: otlmow-converter
+[2023-06-07 08:10:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyg-nightly
+[2023-06-07 08:10:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: stim
+[2023-06-07 08:10:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pytest-reports
+[2023-06-07 08:10:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dvc
+[2023-06-07 08:10:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: iptree
+[2023-06-07 08:10:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: stimcirq
+[2023-06-07 08:10:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sinter
+[2023-06-07 08:10:36] WARNING root fetch - processPackages [nrsdk]: Skipping, unable to determine old version
+[2023-06-07 08:10:36] INFO root fetch - processPackages [nrsdk]: Start processing: mdopt
+[2023-06-07 08:10:36] INFO root fetch - main [MainThread]: End processing [nrsdk] error
+[2023-06-07 08:10:36] INFO root fetch - processPackages [dl2050utils]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-06-07 08:10:36] INFO root fetch - processPackages [otlmow-converter]: New version: [0.9] Old Version: [0.8]
+[2023-06-07 08:10:36] INFO root fetch - processPackages [pyg-nightly]: New version: [2.4.0.dev20230606] Old Version: [2.4.0.dev20230605]
+[2023-06-07 08:10:36] WARNING root fetch - processPackages [pytest-reports]: Skipping, unable to determine old version
+[2023-06-07 08:10:36] INFO root fetch - processPackages [pytest-reports]: Start processing: kcli
+[2023-06-07 08:10:36] INFO root fetch - main [MainThread]: End processing [pytest-reports] error
+[2023-06-07 08:10:36] WARNING root fetch - processPackages [iptree]: Skipping, unable to determine old version
+[2023-06-07 08:10:36] INFO root fetch - processPackages [iptree]: Start processing: kfish
+[2023-06-07 08:10:36] INFO root fetch - main [MainThread]: End processing [iptree] error
+[2023-06-07 08:10:36] INFO root fetch - processPackages [mdopt]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-06-07 08:10:36] INFO root fetch - processPackages [stimcirq]: New version: [1.9.dev1657429876] Old Version: [1.9.dev1656756326]
+[2023-06-07 08:10:36] INFO root fetch - processPackages [sinter]: New version: [1.9.dev1657429876] Old Version: [1.9.dev1656756326]
+[2023-06-07 08:10:36] INFO root fetch - processPackages [dvc]: New version: [3.0.0a2] Old Version: [3.0.0a1]
+[2023-06-07 08:10:36] INFO root fetch - processPackages [stim]: New version: [1.9.dev1657429876] Old Version: [1.9.dev1656756326]
+[2023-06-07 08:10:36] INFO root fetch - processPackages [kcli]: New version: [99.0.202306070608] Old Version: [99.0.202306070600]
+[2023-06-07 08:10:36] INFO root fetch - processPackages [otlmow-converter]: Downloading https://files.pythonhosted.org/packages/d8/9b/c7bb2f438cff3f42c7b57717f8e8928f896a1e04ebcff851e5cc79bf3883/otlmow_converter-0.8.tar.gz
+[2023-06-07 08:10:36] INFO root fetch - processPackages [kfish]: New version: [99.0.202306070603] Old Version: [99.0.202306070559]
+[2023-06-07 08:10:36] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/27/d8/c1100db41fd11df4494ab4f13fa71e65b55d12eeb17b9382f294f470dfb6/pyg_nightly-2.4.0.dev20230605.tar.gz
+[2023-06-07 08:10:36] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/60/c4/f56fea944745f43efc18fad57355ab8f9d0a7046a35fc8d3d98afe11eca8/kfish-99.0.202306070559-py3-none-any.whl
+[2023-06-07 08:10:36] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/ff/99/61c3565d291d0ffc37afc58e6bec2f275d6b7bca5d5a8b0c35b092e3f4d4/kcli-99.0.202306070600-py3-none-any.whl
+[2023-06-07 08:10:36] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/03/30/9a2d0655f97eaeac7039d2e1040cbb30fcaf55658ac14e2c2ba6606dc87d/pyg_nightly-2.4.0.dev20230606.tar.gz
+[2023-06-07 08:10:36] INFO root fetch - processPackages [otlmow-converter]: Downloading https://files.pythonhosted.org/packages/0d/10/0291fca193db6bde455c97caa90df2aad98730c3c257da351667da3a8116/otlmow_converter-0.9.tar.gz
+[2023-06-07 08:10:36] INFO root fetch - processPackages [dl2050utils]: Downloading https://files.pythonhosted.org/packages/c2/11/20896420a2b6842cdae9b98b4642b86f62277734141db689849e79713875/dl2050utils-1.0.98.tar.gz
+[2023-06-07 08:10:36] INFO root fetch - processPackages [stimcirq]: Downloading https://files.pythonhosted.org/packages/ec/fe/38fc995ba6685f64103f3cd62faa49cd869af074b36e401597d9d2b0278d/stimcirq-1.9.dev1656756326.tar.gz
+[2023-06-07 08:10:36] INFO root fetch - processPackages [sinter]: Downloading https://files.pythonhosted.org/packages/df/c6/cb2622852c76647e7b6ad9a7a7e10f4e2cac9ecdfd523ac68df0bfc130af/sinter-1.9.dev1656756326.tar.gz
+[2023-06-07 08:10:36] INFO root fetch - processPackages [mdopt]: Downloading https://files.pythonhosted.org/packages/9a/21/afa6c916aa29b285205c48ed5bdb1823017f526e46e9ae80461923f13037/mdopt-0.3.0.tar.gz
+[2023-06-07 08:10:36] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/77/21/4c8289d97eb9397ad19c8bcdde6fde7d0c3af47e465605a0bb57e5913db8/kfish-99.0.202306070603-py3-none-any.whl
+[2023-06-07 08:10:36] INFO root fetch - processPackages [stim]: Downloading https://files.pythonhosted.org/packages/3c/b5/73354eb92a2d990acfb9c201ee8681aa2f88c6bd8bebf6365b8315ce918f/stim-1.9.dev1656756326.tar.gz
+[2023-06-07 08:10:36] INFO root fetch - processPackages [pyg-nightly]: executing diffoscope
+[2023-06-07 08:10:36] INFO root fetch - processPackages [pyg-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyg_nightly-2.4.0.dev20230605.tar.gz tmp/pyg_nightly-2.4.0.dev20230606.tar.gz --markdown 20230607/p/pyg-nightly/2.4.0.dev20230605-2.4.0.dev20230606/diff.md --exclude *.pyd
+[2023-06-07 08:10:36] INFO root fetch - processPackages [otlmow-converter]: executing diffoscope
+[2023-06-07 08:10:36] INFO root fetch - processPackages [otlmow-converter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otlmow_converter-0.8.tar.gz tmp/otlmow_converter-0.9.tar.gz --markdown 20230607/o/otlmow-converter/0.8-0.9/diff.md --exclude *.pyd
+[2023-06-07 08:10:36] INFO root fetch - processPackages [dvc]: Downloading https://files.pythonhosted.org/packages/0c/8b/a36ff6bb9fadd69764bfa6af26e99d5c31287c2b4328dfe0bcac88990a60/dvc-3.0.0a1.tar.gz
+[2023-06-07 08:10:36] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-06-07 08:10:36] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202306070559-py3-none-any.whl.zip tmp/kfish-99.0.202306070603-py3-none-any.whl.zip --markdown 20230607/k/kfish/99.0.202306070559-99.0.202306070603/diff.md --exclude *.pyd
+[2023-06-07 08:10:36] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/d5/55/b1d82a4a545776ef0245d27f35c994f69aed7d6432492ded756b691d016f/kcli-99.0.202306070608-py3-none-any.whl
+[2023-06-07 08:10:37] INFO root fetch - processPackages [mdopt]: Downloading https://files.pythonhosted.org/packages/df/b3/309ff65e475fc94d7e8118549ac0a0116c3367bde918b0da328ca14858fa/mdopt-0.4.0.tar.gz
+[2023-06-07 08:10:37] INFO root fetch - processPackages [dl2050utils]: Downloading https://files.pythonhosted.org/packages/c9/17/6752cfb2e56bf2902e5a751d8b67ff3c1642fb0d69b3207b81fb5c311ea5/dl2050utils-1.0.99.tar.gz
+[2023-06-07 08:10:37] INFO root fetch - processPackages [stimcirq]: Downloading https://files.pythonhosted.org/packages/a2/fe/5fa281db7d139ef59a3c4c47c96940bf9f3fab0d0017ea452412c0cfc8d3/stimcirq-1.9.dev1657429876.tar.gz
+[2023-06-07 08:10:37] INFO root fetch - processPackages [stim]: Downloading https://files.pythonhosted.org/packages/0e/9c/5ba52c312bd56598b3625675b062eed876f9e2248d957e47c58050cad31a/stim-1.9.dev1657429876.tar.gz
+[2023-06-07 08:10:37] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-06-07 08:10:37] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202306070600-py3-none-any.whl.zip tmp/kcli-99.0.202306070608-py3-none-any.whl.zip --markdown 20230607/k/kcli/99.0.202306070600-99.0.202306070608/diff.md --exclude *.pyd
+[2023-06-07 08:10:37] INFO root fetch - processPackages [dl2050utils]: executing diffoscope
+[2023-06-07 08:10:37] INFO root fetch - processPackages [dl2050utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dl2050utils-1.0.98.tar.gz tmp/dl2050utils-1.0.99.tar.gz --markdown 20230607/d/dl2050utils/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-06-07 08:10:37] INFO root fetch - processPackages [sinter]: Downloading https://files.pythonhosted.org/packages/fd/5e/bd22cf7318b95a6cb630aede242c37ca8e376f51d3c73522d4d3fafd60c3/sinter-1.9.dev1657429876.tar.gz
+[2023-06-07 08:10:37] INFO root fetch - processPackages [mdopt]: executing diffoscope
+[2023-06-07 08:10:37] INFO root fetch - processPackages [mdopt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mdopt-0.3.0.tar.gz tmp/mdopt-0.4.0.tar.gz --markdown 20230607/m/mdopt/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-06-07 08:10:37] INFO root fetch - processPackages [stimcirq]: executing diffoscope
+[2023-06-07 08:10:37] INFO root fetch - processPackages [stimcirq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stimcirq-1.9.dev1656756326.tar.gz tmp/stimcirq-1.9.dev1657429876.tar.gz --markdown 20230607/s/stimcirq/1.9.dev1656756326-1.9.dev1657429876/diff.md --exclude *.pyd
+[2023-06-07 08:10:37] INFO root fetch - processPackages [dvc]: Downloading https://files.pythonhosted.org/packages/af/69/cf589823b5bc2aa2b2f064221c0937173e4a24a7f358ea2d4ae286265aea/dvc-3.0.0a2.tar.gz
+[2023-06-07 08:10:37] INFO root fetch - processPackages [dvc]: executing diffoscope
+[2023-06-07 08:10:37] INFO root fetch - processPackages [dvc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dvc-3.0.0a1.tar.gz tmp/dvc-3.0.0a2.tar.gz --markdown 20230607/d/dvc/3.0.0a1-3.0.0a2/diff.md --exclude *.pyd
+[2023-06-07 08:10:37] INFO root fetch - processPackages [stim]: executing diffoscope
+[2023-06-07 08:10:37] INFO root fetch - processPackages [stim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stim-1.9.dev1656756326.tar.gz tmp/stim-1.9.dev1657429876.tar.gz --markdown 20230607/s/stim/1.9.dev1656756326-1.9.dev1657429876/diff.md --exclude *.pyd
+[2023-06-07 08:10:37] INFO root fetch - processPackages [sinter]: executing diffoscope
+[2023-06-07 08:10:37] INFO root fetch - processPackages [sinter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sinter-1.9.dev1656756326.tar.gz tmp/sinter-1.9.dev1657429876.tar.gz --markdown 20230607/s/sinter/1.9.dev1656756326-1.9.dev1657429876/diff.md --exclude *.pyd
+[2023-06-07 08:10:38] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306070559-py3-none-any.whl.zip]
+[2023-06-07 08:10:38] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306070603-py3-none-any.whl.zip]
+[2023-06-07 08:10:38] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-06-07 08:10:38] INFO root fetch - processPackages [otlmow-converter]: Remove: archive file [/home/abi/fetcher/tmp/otlmow_converter-0.8.tar.gz]
+[2023-06-07 08:10:38] INFO root fetch - processPackages [otlmow-converter]: Remove: archive file [/home/abi/fetcher/tmp/otlmow_converter-0.9.tar.gz]
+[2023-06-07 08:10:38] INFO root fetch - main [MainThread]: End processing [otlmow-converter]: success
+[2023-06-07 08:10:38] INFO root fetch - processPackages [dl2050utils]: Remove: archive file [/home/abi/fetcher/tmp/dl2050utils-1.0.98.tar.gz]
+[2023-06-07 08:10:38] INFO root fetch - processPackages [dl2050utils]: Remove: archive file [/home/abi/fetcher/tmp/dl2050utils-1.0.99.tar.gz]
+[2023-06-07 08:10:38] INFO root fetch - main [MainThread]: End processing [dl2050utils]: success
+[2023-06-07 08:10:38] INFO root fetch - processPackages [stimcirq]: Remove: archive file [/home/abi/fetcher/tmp/stimcirq-1.9.dev1656756326.tar.gz]
+[2023-06-07 08:10:38] INFO root fetch - processPackages [stimcirq]: Remove: archive file [/home/abi/fetcher/tmp/stimcirq-1.9.dev1657429876.tar.gz]
+[2023-06-07 08:10:38] INFO root fetch - main [MainThread]: End processing [stimcirq]: success
+[2023-06-07 08:10:39] INFO root fetch - processPackages [mdopt]: Remove: archive file [/home/abi/fetcher/tmp/mdopt-0.3.0.tar.gz]
+[2023-06-07 08:10:39] INFO root fetch - processPackages [mdopt]: Remove: archive file [/home/abi/fetcher/tmp/mdopt-0.4.0.tar.gz]
+[2023-06-07 08:10:39] INFO root fetch - main [MainThread]: End processing [mdopt]: success
+[2023-06-07 08:10:39] INFO root fetch - processPackages [sinter]: Remove: archive file [/home/abi/fetcher/tmp/sinter-1.9.dev1656756326.tar.gz]
+[2023-06-07 08:10:39] INFO root fetch - processPackages [sinter]: Remove: archive file [/home/abi/fetcher/tmp/sinter-1.9.dev1657429876.tar.gz]
+[2023-06-07 08:10:39] INFO root fetch - main [MainThread]: End processing [sinter]: success
+[2023-06-07 08:10:40] INFO root fetch - processPackages [stim]: Remove: archive file [/home/abi/fetcher/tmp/stim-1.9.dev1656756326.tar.gz]
+[2023-06-07 08:10:40] INFO root fetch - processPackages [stim]: Remove: archive file [/home/abi/fetcher/tmp/stim-1.9.dev1657429876.tar.gz]
+[2023-06-07 08:10:40] INFO root fetch - main [MainThread]: End processing [stim]: success
+[2023-06-07 08:10:43] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306070600-py3-none-any.whl.zip]
+[2023-06-07 08:10:43] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306070608-py3-none-any.whl.zip]
+[2023-06-07 08:10:43] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-06-07 08:10:43] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230605.tar.gz]
+[2023-06-07 08:10:43] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230606.tar.gz]
+[2023-06-07 08:10:43] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
+[2023-06-07 08:10:43] INFO root fetch - processPackages [dvc]: Remove: archive file [/home/abi/fetcher/tmp/dvc-3.0.0a1.tar.gz]
+[2023-06-07 08:10:43] INFO root fetch - processPackages [dvc]: Remove: archive file [/home/abi/fetcher/tmp/dvc-3.0.0a2.tar.gz]
+[2023-06-07 08:10:43] INFO root fetch - main [MainThread]: End processing [dvc]: success
+[2023-06-07 08:10:43] INFO root fetch - main [MainThread]: Store serial: [18403378]
