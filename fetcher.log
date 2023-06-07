@@ -18541,3 +18541,129 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-07 10:44:27] INFO root fetch - processPackages [epam.indigo]: Remove: archive file [/home/abi/fetcher/tmp/epam.indigo-1.9.0rc4-py3-none-win_amd64.whl.zip]
 [2023-06-07 10:44:27] INFO root fetch - main [MainThread]: End processing [epam.indigo]: success
 [2023-06-07 10:44:27] INFO root fetch - main [MainThread]: Store serial: [18405286]
+[2023-06-07 10:49:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18405286]
+[2023-06-07 10:49:50] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-07 10:49:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qontract-reconcile
+[2023-06-07 10:49:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cg
+[2023-06-07 10:49:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nrsdk
+[2023-06-07 10:49:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vertex-protocol
+[2023-06-07 10:49:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lazysdk
+[2023-06-07 10:49:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: channel-box
+[2023-06-07 10:49:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: reddit-decider
+[2023-06-07 10:49:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hyutils.hyutil.hoyun.lab
+[2023-06-07 10:49:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tfp-nightly
+[2023-06-07 10:49:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dapla-toolbelt-pseudo
+[2023-06-07 10:49:50] INFO root fetch - processPackages [lazysdk]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-07 10:49:50] WARNING root fetch - processPackages [vertex-protocol]: Skipping, unable to determine old version
+[2023-06-07 10:49:50] INFO root fetch - processPackages [vertex-protocol]: Start processing: alignments
+[2023-06-07 10:49:50] INFO root fetch - main [MainThread]: End processing [vertex-protocol] error
+[2023-06-07 10:49:50] INFO root fetch - processPackages [nrsdk]: New version: [1.1.1.4] Old Version: [1.1.1.3]
+[2023-06-07 10:49:50] INFO root fetch - processPackages [hyutils.hyutil.hoyun.lab]: New version: [0.2] Old Version: [0.1]
+[2023-06-07 10:49:50] INFO root fetch - processPackages [channel-box]: New version: [0.5.1.2] Old Version: [0.5.1.1]
+[2023-06-07 10:49:50] INFO root fetch - processPackages [reddit-decider]: New version: [1.3.0] Old Version: [1.2.9]
+[2023-06-07 10:49:50] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-06-07 10:49:50] INFO root fetch - processPackages [dapla-toolbelt-pseudo]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-07 10:49:50] INFO root fetch - processPackages [alignments]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-07 10:49:50] INFO root fetch - processPackages [cg]: New version: [33.2.3] Old Version: [33.2.1]
+[2023-06-07 10:49:50] INFO root fetch - processPackages [tfp-nightly]: New version: [0.9.0.dev20200114] Old Version: [0.9.0.dev20200113]
+[2023-06-07 10:49:50] INFO root fetch - processPackages [channel-box]: Downloading https://files.pythonhosted.org/packages/c9/11/193acae043228550e45c84cf0d40dca5c02706b251552640e0c838c2f395/channel_box-0.5.1.1-py3-none-any.whl
+[2023-06-07 10:49:50] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/be/16/ebf16b1094e104257af6265eee53833e4f737ef6d11426d959009fa9952a/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl
+[2023-06-07 10:49:50] INFO root fetch - processPackages [hyutils.hyutil.hoyun.lab]: Downloading https://files.pythonhosted.org/packages/04/39/6dee375adf422fba634181ce436a91fe4d5a5c42783999bfc92364b2f120/hyutils-hyutil-hoyun-lab-0.1.tar.gz
+[2023-06-07 10:49:50] INFO root fetch - processPackages [nrsdk]: Downloading https://files.pythonhosted.org/packages/69/a5/a2882c33281e23683e29e5fbda55e4026b8ce109dc753a10537d5de44fd3/nrsdk-1.1.1.3.tar.gz
+[2023-06-07 10:49:50] INFO root fetch - processPackages [lazysdk]: Downloading https://files.pythonhosted.org/packages/84/d0/a868d9fc2e6687033c143e4d8ebdd2ed2798911c6fba17b6ecdd3cc1e149/lazysdk-0.1.4.tar.gz
+[2023-06-07 10:49:50] INFO root fetch - processPackages [dapla-toolbelt-pseudo]: Downloading https://files.pythonhosted.org/packages/02/8d/2db0345d64cf6c244846b9c567a1f0aef36483c797fe3441c494ebb261f1/dapla_toolbelt_pseudo-0.2.8.tar.gz
+[2023-06-07 10:49:50] INFO root fetch - processPackages [reddit-decider]: Downloading https://files.pythonhosted.org/packages/0a/d4/8061f081752cec221aef6bd104830f95a278a4bdcb8d37f559a38b9b3fd1/reddit_decider-1.2.9.tar.gz
+[2023-06-07 10:49:50] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2023-06-07 10:49:50] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/c6/ea/cfda770ef59a898e23976a8f842e5dde17cce5ca4cb1b503dfad6d03f694/cg-33.2.1.tar.gz
+[2023-06-07 10:49:50] INFO root fetch - processPackages [alignments]: Downloading https://files.pythonhosted.org/packages/bd/77/f73fc2fe020cb61f746c1e33c2ac60b27a02a153786f370430cf0ce590cf/alignments-0.0.8.tar.gz
+[2023-06-07 10:49:50] INFO root fetch - processPackages [channel-box]: Downloading https://files.pythonhosted.org/packages/48/69/a8bdfc5c7f8d49cac2d4c4571618c3cc05c68c958fcecf49fd3d193ffe66/channel_box-0.5.1.2-py3-none-any.whl
+[2023-06-07 10:49:50] INFO root fetch - processPackages [hyutils.hyutil.hoyun.lab]: Downloading https://files.pythonhosted.org/packages/74/3a/1f588338d25151f6696b76cad3d3fef8fab9ae1355c2a9e0af13db2d10d0/hyutils.hyutil.hoyun.lab-0.2.tar.gz
+[2023-06-07 10:49:50] INFO root fetch - processPackages [lazysdk]: Downloading https://files.pythonhosted.org/packages/42/ed/5630732eb1c3860714c7b621c9ac64fce607a6af8ae1af2fa5fa8bed6b01/lazysdk-0.1.5.tar.gz
+[2023-06-07 10:49:50] INFO root fetch - processPackages [nrsdk]: Downloading https://files.pythonhosted.org/packages/4f/d3/20f14a071f2c5e73bd055f56ceb9b2ef824fd193cb0744ff23c1e73c8eed/nrsdk-1.1.1.4.tar.gz
+[2023-06-07 10:49:50] INFO root fetch - processPackages [channel-box]: executing diffoscope
+[2023-06-07 10:49:50] INFO root fetch - processPackages [channel-box]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/channel_box-0.5.1.1-py3-none-any.whl.zip tmp/channel_box-0.5.1.2-py3-none-any.whl.zip --markdown 20230607/c/channel-box/0.5.1.1-0.5.1.2/diff.md --exclude *.pyd
+[2023-06-07 10:49:50] INFO root fetch - processPackages [dapla-toolbelt-pseudo]: Downloading https://files.pythonhosted.org/packages/f3/98/46f4537cd8f405cc8ce7caa55b7d21b232ab4a78c964487893d1b178ec0a/dapla_toolbelt_pseudo-0.2.9.tar.gz
+[2023-06-07 10:49:50] INFO root fetch - processPackages [lazysdk]: executing diffoscope
+[2023-06-07 10:49:50] INFO root fetch - processPackages [lazysdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazysdk-0.1.4.tar.gz tmp/lazysdk-0.1.5.tar.gz --markdown 20230607/l/lazysdk/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-07 10:49:50] INFO root fetch - processPackages [alignments]: Downloading https://files.pythonhosted.org/packages/82/b0/c273f8bb366f5d8a55d155f343ac66f0f720ee6b2fcd2d93c0f17e083478/alignments-0.0.9.tar.gz
+[2023-06-07 10:49:50] INFO root fetch - processPackages [hyutils.hyutil.hoyun.lab]: executing diffoscope
+[2023-06-07 10:49:50] INFO root fetch - processPackages [hyutils.hyutil.hoyun.lab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyutils-hyutil-hoyun-lab-0.1.tar.gz tmp/hyutils.hyutil.hoyun.lab-0.2.tar.gz --markdown 20230607/h/hyutils.hyutil.hoyun.lab/0.1-0.2/diff.md --exclude *.pyd
+[2023-06-07 10:49:50] INFO root fetch - processPackages [reddit-decider]: Downloading https://files.pythonhosted.org/packages/58/54/c576c8de4416e45694f8c3409c93ee6482c9ac5880f6ec9df4c3b9148d2b/reddit_decider-1.3.0.tar.gz
+[2023-06-07 10:49:50] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2023-06-07 10:49:50] INFO root fetch - processPackages [nrsdk]: executing diffoscope
+[2023-06-07 10:49:50] INFO root fetch - processPackages [nrsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nrsdk-1.1.1.3.tar.gz tmp/nrsdk-1.1.1.4.tar.gz --markdown 20230607/n/nrsdk/1.1.1.3-1.1.1.4/diff.md --exclude *.pyd
+[2023-06-07 10:49:50] INFO root fetch - processPackages [dapla-toolbelt-pseudo]: executing diffoscope
+[2023-06-07 10:49:50] INFO root fetch - processPackages [dapla-toolbelt-pseudo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dapla_toolbelt_pseudo-0.2.8.tar.gz tmp/dapla_toolbelt_pseudo-0.2.9.tar.gz --markdown 20230607/d/dapla-toolbelt-pseudo/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-07 10:49:50] INFO root fetch - processPackages [alignments]: executing diffoscope
+[2023-06-07 10:49:50] INFO root fetch - processPackages [alignments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alignments-0.0.8.tar.gz tmp/alignments-0.0.9.tar.gz --markdown 20230607/a/alignments/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-07 10:49:50] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/90/84/94525d4e194dd1c362ef68050cc6b60993f857071d3b8968419060abee62/cg-33.2.3.tar.gz
+[2023-06-07 10:49:51] INFO root fetch - processPackages [reddit-decider]: executing diffoscope
+[2023-06-07 10:49:51] INFO root fetch - processPackages [reddit-decider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reddit_decider-1.2.9.tar.gz tmp/reddit_decider-1.3.0.tar.gz --markdown 20230607/r/reddit-decider/1.2.9-1.3.0/diff.md --exclude *.pyd
+[2023-06-07 10:49:51] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-06-07 10:49:51] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230607/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-06-07 10:49:51] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-06-07 10:49:51] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-33.2.1.tar.gz tmp/cg-33.2.3.tar.gz --markdown 20230607/c/cg/33.2.1-33.2.3/diff.md --exclude *.pyd
+[2023-06-07 10:49:51] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/f1/98/c1f5a754a26ea1f08e3558803ffb67dd65482de4f6bfadc5415573cd3cb7/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl
+[2023-06-07 10:49:51] INFO root fetch - processPackages [tfp-nightly]: executing diffoscope
+[2023-06-07 10:49:51] INFO root fetch - processPackages [tfp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip --markdown 20230607/t/tfp-nightly/0.9.0.dev20200113-0.9.0.dev20200114/diff.md --exclude *.pyd
+[2023-06-07 10:49:52] INFO root fetch - processPackages [hyutils.hyutil.hoyun.lab]: Remove: archive file [/home/abi/fetcher/tmp/hyutils-hyutil-hoyun-lab-0.1.tar.gz]
+[2023-06-07 10:49:52] INFO root fetch - processPackages [hyutils.hyutil.hoyun.lab]: Remove: archive file [/home/abi/fetcher/tmp/hyutils.hyutil.hoyun.lab-0.2.tar.gz]
+[2023-06-07 10:49:52] INFO root fetch - processPackages [hyutils.hyutil.hoyun.lab]: Start processing: tff-nightly
+[2023-06-07 10:49:52] INFO root fetch - main [MainThread]: End processing [hyutils.hyutil.hoyun.lab]: success
+[2023-06-07 10:49:52] INFO root fetch - processPackages [channel-box]: Remove: archive file [/home/abi/fetcher/tmp/channel_box-0.5.1.1-py3-none-any.whl.zip]
+[2023-06-07 10:49:52] INFO root fetch - processPackages [channel-box]: Remove: archive file [/home/abi/fetcher/tmp/channel_box-0.5.1.2-py3-none-any.whl.zip]
+[2023-06-07 10:49:52] INFO root fetch - processPackages [channel-box]: Start processing: tdnpathviz
+[2023-06-07 10:49:52] INFO root fetch - main [MainThread]: End processing [channel-box]: success
+[2023-06-07 10:49:52] INFO root fetch - processPackages [tff-nightly]: New version: [0.0.1.dev20230606] Old Version: [0.0.1.dev20230605]
+[2023-06-07 10:49:52] INFO root fetch - processPackages [tdnpathviz]: New version: [0.1.2.6] Old Version: [0.1.2.5]
+[2023-06-07 10:49:52] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/f6/dc/73847bde0508dbbef8a2c7cf2a3fecc379d3a25d0c18c982998c02854dce/tff_nightly-0.0.1.dev20230605-py2.py3-none-any.whl
+[2023-06-07 10:49:52] INFO root fetch - processPackages [lazysdk]: Remove: archive file [/home/abi/fetcher/tmp/lazysdk-0.1.4.tar.gz]
+[2023-06-07 10:49:52] INFO root fetch - processPackages [lazysdk]: Remove: archive file [/home/abi/fetcher/tmp/lazysdk-0.1.5.tar.gz]
+[2023-06-07 10:49:52] INFO root fetch - processPackages [lazysdk]: Start processing: gemseo-fmu
+[2023-06-07 10:49:52] INFO root fetch - main [MainThread]: End processing [lazysdk]: success
+[2023-06-07 10:49:52] INFO root fetch - processPackages [gemseo-fmu]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-07 10:49:52] INFO root fetch - processPackages [tdnpathviz]: Downloading https://files.pythonhosted.org/packages/7c/3e/1bdd21e6ee0a24b1329d48dba3e28f3bb29d335b18f8ff5d551a2d9b1c60/tdnpathviz-0.1.2.5-py3-none-any.whl
+[2023-06-07 10:49:52] INFO root fetch - processPackages [dapla-toolbelt-pseudo]: Remove: archive file [/home/abi/fetcher/tmp/dapla_toolbelt_pseudo-0.2.8.tar.gz]
+[2023-06-07 10:49:52] INFO root fetch - processPackages [dapla-toolbelt-pseudo]: Remove: archive file [/home/abi/fetcher/tmp/dapla_toolbelt_pseudo-0.2.9.tar.gz]
+[2023-06-07 10:49:52] INFO root fetch - processPackages [dapla-toolbelt-pseudo]: Start processing: agxclick
+[2023-06-07 10:49:52] INFO root fetch - main [MainThread]: End processing [dapla-toolbelt-pseudo]: success
+[2023-06-07 10:49:52] INFO root fetch - processPackages [nrsdk]: Remove: archive file [/home/abi/fetcher/tmp/nrsdk-1.1.1.3.tar.gz]
+[2023-06-07 10:49:52] INFO root fetch - processPackages [nrsdk]: Remove: archive file [/home/abi/fetcher/tmp/nrsdk-1.1.1.4.tar.gz]
+[2023-06-07 10:49:52] INFO root fetch - main [MainThread]: End processing [nrsdk]: success
+[2023-06-07 10:49:52] INFO root fetch - processPackages [gemseo-fmu]: Downloading https://files.pythonhosted.org/packages/85/79/db3ab584baa6db372b399d025124e6407dba256c1447324af9c53220045a/gemseo-fmu-1.0.0.tar.gz
+[2023-06-07 10:49:52] INFO root fetch - processPackages [alignments]: Remove: archive file [/home/abi/fetcher/tmp/alignments-0.0.8.tar.gz]
+[2023-06-07 10:49:52] INFO root fetch - processPackages [alignments]: Remove: archive file [/home/abi/fetcher/tmp/alignments-0.0.9.tar.gz]
+[2023-06-07 10:49:52] INFO root fetch - main [MainThread]: End processing [alignments]: success
+[2023-06-07 10:49:52] WARNING root fetch - processPackages [agxclick]: Skipping, unable to determine old version
+[2023-06-07 10:49:52] INFO root fetch - main [MainThread]: End processing [agxclick] error
+[2023-06-07 10:49:52] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/8d/77/bfa69c8a6e24b71680334fa1063ac97642bca188d166edc1edae3000b6c7/tff_nightly-0.0.1.dev20230606-py2.py3-none-any.whl
+[2023-06-07 10:49:52] INFO root fetch - processPackages [tdnpathviz]: Downloading https://files.pythonhosted.org/packages/47/62/092906dc9e1d0a2cbfd609419ea6c5b17bc01ee7ba63a752e5ab21bf4213/tdnpathviz-0.1.2.6-py3-none-any.whl
+[2023-06-07 10:49:52] INFO root fetch - processPackages [tff-nightly]: executing diffoscope
+[2023-06-07 10:49:52] INFO root fetch - processPackages [tff-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tff_nightly-0.0.1.dev20230605-py2.py3-none-any.whl.zip tmp/tff_nightly-0.0.1.dev20230606-py2.py3-none-any.whl.zip --markdown 20230607/t/tff-nightly/0.0.1.dev20230605-0.0.1.dev20230606/diff.md --exclude *.pyd
+[2023-06-07 10:49:53] INFO root fetch - processPackages [tdnpathviz]: executing diffoscope
+[2023-06-07 10:49:53] INFO root fetch - processPackages [tdnpathviz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tdnpathviz-0.1.2.5-py3-none-any.whl.zip tmp/tdnpathviz-0.1.2.6-py3-none-any.whl.zip --markdown 20230607/t/tdnpathviz/0.1.2.5-0.1.2.6/diff.md --exclude *.pyd
+[2023-06-07 10:49:53] INFO root fetch - processPackages [gemseo-fmu]: Downloading https://files.pythonhosted.org/packages/e2/63/e20da7d996a57c698d0cec5eb6f07116990df798abe6da7799d5ef429937/gemseo-fmu-1.0.1.tar.gz
+[2023-06-07 10:49:53] INFO root fetch - processPackages [reddit-decider]: Remove: archive file [/home/abi/fetcher/tmp/reddit_decider-1.2.9.tar.gz]
+[2023-06-07 10:49:53] INFO root fetch - processPackages [reddit-decider]: Remove: archive file [/home/abi/fetcher/tmp/reddit_decider-1.3.0.tar.gz]
+[2023-06-07 10:49:53] INFO root fetch - main [MainThread]: End processing [reddit-decider]: success
+[2023-06-07 10:49:53] INFO root fetch - processPackages [gemseo-fmu]: executing diffoscope
+[2023-06-07 10:49:53] INFO root fetch - processPackages [gemseo-fmu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gemseo-fmu-1.0.0.tar.gz tmp/gemseo-fmu-1.0.1.tar.gz --markdown 20230607/g/gemseo-fmu/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-07 10:49:54] INFO root fetch - processPackages [tdnpathviz]: Remove: archive file [/home/abi/fetcher/tmp/tdnpathviz-0.1.2.5-py3-none-any.whl.zip]
+[2023-06-07 10:49:54] INFO root fetch - processPackages [tdnpathviz]: Remove: archive file [/home/abi/fetcher/tmp/tdnpathviz-0.1.2.6-py3-none-any.whl.zip]
+[2023-06-07 10:49:54] INFO root fetch - main [MainThread]: End processing [tdnpathviz]: success
+[2023-06-07 10:49:56] INFO root fetch - processPackages [tff-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tff_nightly-0.0.1.dev20230605-py2.py3-none-any.whl.zip]
+[2023-06-07 10:49:56] INFO root fetch - processPackages [tff-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tff_nightly-0.0.1.dev20230606-py2.py3-none-any.whl.zip]
+[2023-06-07 10:49:56] INFO root fetch - main [MainThread]: End processing [tff-nightly]: success
+[2023-06-07 10:49:57] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2023-06-07 10:49:57] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2023-06-07 10:49:57] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-06-07 10:49:57] INFO root fetch - processPackages [gemseo-fmu]: Remove: archive file [/home/abi/fetcher/tmp/gemseo-fmu-1.0.0.tar.gz]
+[2023-06-07 10:49:57] INFO root fetch - processPackages [gemseo-fmu]: Remove: archive file [/home/abi/fetcher/tmp/gemseo-fmu-1.0.1.tar.gz]
+[2023-06-07 10:49:57] INFO root fetch - main [MainThread]: End processing [gemseo-fmu]: success
+[2023-06-07 10:50:04] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip]
+[2023-06-07 10:50:04] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
+[2023-06-07 10:50:04] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
+[2023-06-07 10:50:04] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-33.2.1.tar.gz]
+[2023-06-07 10:50:04] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-33.2.3.tar.gz]
+[2023-06-07 10:50:04] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-06-07 10:50:04] INFO root fetch - main [MainThread]: Store serial: [18405339]
