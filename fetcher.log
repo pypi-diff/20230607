@@ -19972,3 +19972,128 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-07 11:39:24] INFO root fetch - processPackages [pyhelpers]: Remove: archive file [/home/abi/fetcher/tmp/pyhelpers-1.5.0rc2.tar.gz]
 [2023-06-07 11:39:24] INFO root fetch - main [MainThread]: End processing [pyhelpers]: success
 [2023-06-07 11:39:24] INFO root fetch - main [MainThread]: Store serial: [18406052]
+[2023-06-07 11:44:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18406052]
+[2023-06-07 11:44:34] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-06-07 11:44:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ipyfilite
+[2023-06-07 11:44:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sdkit
+[2023-06-07 11:44:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: langflow
+[2023-06-07 11:44:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: autoconf
+[2023-06-07 11:44:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pytask
+[2023-06-07 11:44:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hiveviewer
+[2023-06-07 11:44:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: im-swagger-spy
+[2023-06-07 11:44:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cerbos
+[2023-06-07 11:44:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: autofit
+[2023-06-07 11:44:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: starlette-authlib
+[2023-06-07 11:44:34] INFO root fetch - processPackages [ipyfilite]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-06-07 11:44:34] INFO root fetch - processPackages [sdkit]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-06-07 11:44:34] WARNING root fetch - processPackages [hiveviewer]: Skipping, unable to determine old version
+[2023-06-07 11:44:34] INFO root fetch - processPackages [hiveviewer]: Start processing: openhexa.sdk
+[2023-06-07 11:44:34] INFO root fetch - processPackages [pytask]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-06-07 11:44:34] INFO root fetch - main [MainThread]: End processing [hiveviewer] error
+[2023-06-07 11:44:34] WARNING root fetch - processPackages [im-swagger-spy]: Skipping, unable to determine old version
+[2023-06-07 11:44:34] INFO root fetch - processPackages [cerbos]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-06-07 11:44:34] INFO root fetch - processPackages [im-swagger-spy]: Start processing: topgrade
+[2023-06-07 11:44:34] INFO root fetch - main [MainThread]: End processing [im-swagger-spy] error
+[2023-06-07 11:44:34] INFO root fetch - processPackages [langflow]: New version: [0.0.84] Old Version: [0.0.83]
+[2023-06-07 11:44:34] INFO root fetch - processPackages [starlette-authlib]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-07 11:44:34] INFO root fetch - processPackages [autoconf]: New version: [2023.7.7.1] Old Version: [2023.3.27.1]
+[2023-06-07 11:44:34] INFO root fetch - processPackages [openhexa.sdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-07 11:44:34] INFO root fetch - processPackages [autofit]: New version: [2023.7.7.1] Old Version: [2023.3.27.1]
+[2023-06-07 11:44:34] WARNING root fetch - processPackages [topgrade]: Skipping, unable to determine old version
+[2023-06-07 11:44:34] INFO root fetch - processPackages [topgrade]: Start processing: rongdavbaaddins
+[2023-06-07 11:44:34] INFO root fetch - main [MainThread]: End processing [topgrade] error
+[2023-06-07 11:44:34] INFO root fetch - processPackages [ipyfilite]: Downloading https://files.pythonhosted.org/packages/80/37/b786e8dedec830aeeb821db42cc112e0540e698bd5c9db7207c0f563d5d0/ipyfilite-0.1.6.tar.gz
+[2023-06-07 11:44:34] INFO root fetch - processPackages [langflow]: Downloading https://files.pythonhosted.org/packages/af/90/0b52e47513663ff58c1dd52703571e16af946c9e96c780b5557e7d3e41c8/langflow-0.0.83.tar.gz
+[2023-06-07 11:44:34] INFO root fetch - processPackages [rongdavbaaddins]: New version: [0.0.0.5] Old Version: [0.0.0.4]
+[2023-06-07 11:44:34] INFO root fetch - processPackages [openhexa.sdk]: Downloading https://files.pythonhosted.org/packages/2d/63/6cf8c3d8c690624bf5da3eccae426000fc384f6f2b1e46094f46a261b21e/openhexa.sdk-0.1.8.tar.gz
+[2023-06-07 11:44:34] INFO root fetch - processPackages [rongdavbaaddins]: Downloading https://files.pythonhosted.org/packages/f4/b1/ff3e4aed5b9600b7ccd32d44586199fc890115ef3af4fc8ccc22cbf1dde7/rongdavbaaddins-0.0.0.4.tar.gz
+[2023-06-07 11:44:34] INFO root fetch - processPackages [sdkit]: Downloading https://files.pythonhosted.org/packages/d1/c1/f3e251106f7f4c022d55f8fe3a3c0eacdb5bfdf84ce4182f71368c4f3a5f/sdkit-1.0.98.tar.gz
+[2023-06-07 11:44:34] INFO root fetch - processPackages [starlette-authlib]: Downloading https://files.pythonhosted.org/packages/e8/34/f64726924da662042f5c7f821951d889a4ac9a9f7fceb68da14fefc04653/starlette-authlib-0.1.8.tar.gz
+[2023-06-07 11:44:34] INFO root fetch - processPackages [openhexa.sdk]: Downloading https://files.pythonhosted.org/packages/01/47/9a54270a3486c1a1712ca7717008e6748264c1125692b213adfd2f68b21c/openhexa.sdk-0.1.9.tar.gz
+[2023-06-07 11:44:34] INFO root fetch - processPackages [autofit]: Downloading https://files.pythonhosted.org/packages/64/4c/00845d44fd8eaf8cfe8f3dbf52e24fc0b3022a26f25a6198323de26565c5/autofit-2023.3.27.1.tar.gz
+[2023-06-07 11:44:34] INFO root fetch - processPackages [pytask]: Downloading https://files.pythonhosted.org/packages/d5/5f/210e9faa7ef468f811f94ca0239ec2723487d9a21cf7ddbc415c9d4a0558/pytask-0.3.1.tar.gz
+[2023-06-07 11:44:34] INFO root fetch - processPackages [autoconf]: Downloading https://files.pythonhosted.org/packages/fb/26/0c8d1ffe08f657bab54a3e43efe3e87f8860761b315fdd4ecc6f7824d30b/autoconf-2023.3.27.1.tar.gz
+[2023-06-07 11:44:34] INFO root fetch - processPackages [cerbos]: Downloading https://files.pythonhosted.org/packages/c0/69/bf5a0428c8c6e3c8c5633a1f56df354f9e401529ae0608f7295be4a8d4a8/cerbos-0.7.0.tar.gz
+[2023-06-07 11:44:34] INFO root fetch - processPackages [langflow]: Downloading https://files.pythonhosted.org/packages/cf/42/b2e28c47550e827a55f1c2a078aba728d13a4e0047324ffcf94aaf9be70f/langflow-0.0.84.tar.gz
+[2023-06-07 11:44:34] INFO root fetch - processPackages [ipyfilite]: Downloading https://files.pythonhosted.org/packages/c3/7a/8b75282b823f3b7b6da32b76b136c59c49cbec22a20df5fbca78ac5e1b8d/ipyfilite-0.1.7.tar.gz
+[2023-06-07 11:44:34] INFO root fetch - processPackages [openhexa.sdk]: executing diffoscope
+[2023-06-07 11:44:34] INFO root fetch - processPackages [openhexa.sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openhexa.sdk-0.1.8.tar.gz tmp/openhexa.sdk-0.1.9.tar.gz --markdown 20230607/o/openhexa.sdk/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-07 11:44:34] INFO root fetch - processPackages [rongdavbaaddins]: Downloading https://files.pythonhosted.org/packages/d3/ae/d4ce63e5e918893840f9f0803fb874614866d383ab46226b10cbb5e38b81/rongdavbaaddins-0.0.0.5.tar.gz
+[2023-06-07 11:44:35] INFO root fetch - processPackages [ipyfilite]: executing diffoscope
+[2023-06-07 11:44:35] INFO root fetch - processPackages [ipyfilite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipyfilite-0.1.6.tar.gz tmp/ipyfilite-0.1.7.tar.gz --markdown 20230607/i/ipyfilite/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-06-07 11:44:35] INFO root fetch - processPackages [cerbos]: Downloading https://files.pythonhosted.org/packages/66/f0/89175974d52a39db007cab8740d6f7ee4befad25a09836b946dc1a39de49/cerbos-0.7.1.tar.gz
+[2023-06-07 11:44:35] INFO root fetch - processPackages [pytask]: Downloading https://files.pythonhosted.org/packages/72/53/b63228af28b5aaca7fe866c2d111e8ede72269d57ef628dfa09bd7fbaf14/pytask-0.3.2.tar.gz
+[2023-06-07 11:44:35] INFO root fetch - processPackages [sdkit]: Downloading https://files.pythonhosted.org/packages/7e/69/b60dd118fa3c33f9ff305ec5ce9de04303dfdfc9be5d286e20cbc1ee1e7b/sdkit-1.0.99.tar.gz
+[2023-06-07 11:44:35] INFO root fetch - processPackages [cerbos]: executing diffoscope
+[2023-06-07 11:44:35] INFO root fetch - processPackages [autoconf]: Downloading https://files.pythonhosted.org/packages/0b/2a/d1b028903f9df2c7f786a180f3680df3c23b969589e9c261146e2ffe7dc2/autoconf-2023.7.7.1.tar.gz
+[2023-06-07 11:44:35] INFO root fetch - processPackages [cerbos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cerbos-0.7.0.tar.gz tmp/cerbos-0.7.1.tar.gz --markdown 20230607/c/cerbos/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-06-07 11:44:35] INFO root fetch - processPackages [rongdavbaaddins]: executing diffoscope
+[2023-06-07 11:44:35] INFO root fetch - processPackages [rongdavbaaddins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rongdavbaaddins-0.0.0.4.tar.gz tmp/rongdavbaaddins-0.0.0.5.tar.gz --markdown 20230607/r/rongdavbaaddins/0.0.0.4-0.0.0.5/diff.md --exclude *.pyd
+[2023-06-07 11:44:35] INFO root fetch - processPackages [langflow]: executing diffoscope
+[2023-06-07 11:44:35] INFO root fetch - processPackages [langflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langflow-0.0.83.tar.gz tmp/langflow-0.0.84.tar.gz --markdown 20230607/l/langflow/0.0.83-0.0.84/diff.md --exclude *.pyd
+[2023-06-07 11:44:35] INFO root fetch - processPackages [pytask]: executing diffoscope
+[2023-06-07 11:44:35] INFO root fetch - processPackages [pytask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytask-0.3.1.tar.gz tmp/pytask-0.3.2.tar.gz --markdown 20230607/p/pytask/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-06-07 11:44:35] INFO root fetch - processPackages [sdkit]: executing diffoscope
+[2023-06-07 11:44:35] INFO root fetch - processPackages [sdkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdkit-1.0.98.tar.gz tmp/sdkit-1.0.99.tar.gz --markdown 20230607/s/sdkit/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-06-07 11:44:35] INFO root fetch - processPackages [autoconf]: executing diffoscope
+[2023-06-07 11:44:35] INFO root fetch - processPackages [autoconf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autoconf-2023.3.27.1.tar.gz tmp/autoconf-2023.7.7.1.tar.gz --markdown 20230607/a/autoconf/2023.3.27.1-2023.7.7.1/diff.md --exclude *.pyd
+[2023-06-07 11:44:35] INFO root fetch - processPackages [autofit]: Downloading https://files.pythonhosted.org/packages/9c/60/64366deb8d5fb364907784deec7ddf312b65dc1f2ac59c5fb29187d5281c/autofit-2023.7.7.1.tar.gz
+[2023-06-07 11:44:35] INFO root fetch - processPackages [starlette-authlib]: Downloading https://files.pythonhosted.org/packages/56/ae/07dfe4886a0edad2e1edb7767edf1e293d0a2dcd9dbdd4f29e8883fd3f21/starlette-authlib-0.1.9.tar.gz
+[2023-06-07 11:44:35] INFO root fetch - processPackages [autofit]: executing diffoscope
+[2023-06-07 11:44:35] INFO root fetch - processPackages [autofit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autofit-2023.3.27.1.tar.gz tmp/autofit-2023.7.7.1.tar.gz --markdown 20230607/a/autofit/2023.3.27.1-2023.7.7.1/diff.md --exclude *.pyd
+[2023-06-07 11:44:35] INFO root fetch - processPackages [starlette-authlib]: executing diffoscope
+[2023-06-07 11:44:35] INFO root fetch - processPackages [starlette-authlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/starlette-authlib-0.1.8.tar.gz tmp/starlette-authlib-0.1.9.tar.gz --markdown 20230607/s/starlette-authlib/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-07 11:44:37] INFO root fetch - processPackages [starlette-authlib]: Remove: archive file [/home/abi/fetcher/tmp/starlette-authlib-0.1.8.tar.gz]
+[2023-06-07 11:44:37] INFO root fetch - processPackages [starlette-authlib]: Remove: archive file [/home/abi/fetcher/tmp/starlette-authlib-0.1.9.tar.gz]
+[2023-06-07 11:44:37] INFO root fetch - processPackages [starlette-authlib]: Start processing: spPersist
+[2023-06-07 11:44:37] INFO root fetch - main [MainThread]: End processing [starlette-authlib]: success
+[2023-06-07 11:44:37] INFO root fetch - processPackages [spPersist]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-07 11:44:37] INFO root fetch - processPackages [spPersist]: Downloading https://files.pythonhosted.org/packages/e9/18/32ad308c6c057dbb92b3450b55ff75ef63d24011d7719b3da457df493740/spPersist-0.2.1.tar.gz
+[2023-06-07 11:44:37] INFO root fetch - processPackages [spPersist]: Downloading https://files.pythonhosted.org/packages/0f/f1/462ac0341e1efd982afc8ea573a22c045e2c4bb8dde732174970b1f347cc/spPersist-0.2.2.tar.gz
+[2023-06-07 11:44:37] INFO root fetch - processPackages [openhexa.sdk]: Remove: archive file [/home/abi/fetcher/tmp/openhexa.sdk-0.1.8.tar.gz]
+[2023-06-07 11:44:37] INFO root fetch - processPackages [openhexa.sdk]: Remove: archive file [/home/abi/fetcher/tmp/openhexa.sdk-0.1.9.tar.gz]
+[2023-06-07 11:44:37] INFO root fetch - processPackages [openhexa.sdk]: Start processing: modelon-impact-client
+[2023-06-07 11:44:37] INFO root fetch - main [MainThread]: End processing [openhexa.sdk]: success
+[2023-06-07 11:44:37] INFO root fetch - processPackages [autoconf]: Remove: archive file [/home/abi/fetcher/tmp/autoconf-2023.3.27.1.tar.gz]
+[2023-06-07 11:44:37] INFO root fetch - processPackages [autoconf]: Remove: archive file [/home/abi/fetcher/tmp/autoconf-2023.7.7.1.tar.gz]
+[2023-06-07 11:44:37] INFO root fetch - processPackages [autoconf]: Start processing: discord-advert-framework
+[2023-06-07 11:44:37] INFO root fetch - main [MainThread]: End processing [autoconf]: success
+[2023-06-07 11:44:37] INFO root fetch - processPackages [modelon-impact-client]: New version: [3.0.0.dev9] Old Version: [3.0.0.dev8]
+[2023-06-07 11:44:37] INFO root fetch - processPackages [spPersist]: executing diffoscope
+[2023-06-07 11:44:37] INFO root fetch - processPackages [spPersist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spPersist-0.2.1.tar.gz tmp/spPersist-0.2.2.tar.gz --markdown 20230607/s/spPersist/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-07 11:44:37] INFO root fetch - processPackages [modelon-impact-client]: Downloading https://files.pythonhosted.org/packages/36/b4/452920b23dc5fce52f2d517cc942c5d5772022ddd6efdd2f337fe1b61977/modelon_impact_client-3.0.0.dev8.tar.gz
+[2023-06-07 11:44:37] INFO root fetch - processPackages [cerbos]: Remove: archive file [/home/abi/fetcher/tmp/cerbos-0.7.0.tar.gz]
+[2023-06-07 11:44:37] INFO root fetch - processPackages [cerbos]: Remove: archive file [/home/abi/fetcher/tmp/cerbos-0.7.1.tar.gz]
+[2023-06-07 11:44:37] INFO root fetch - main [MainThread]: End processing [cerbos]: success
+[2023-06-07 11:44:37] INFO root fetch - processPackages [discord-advert-framework]: New version: [2.8.3] Old Version: [2.8.2]
+[2023-06-07 11:44:37] INFO root fetch - processPackages [modelon-impact-client]: Downloading https://files.pythonhosted.org/packages/4a/46/39f10d958eb7e1d3b6b332803f3e61b95fe2d424c01272f00a98cf4ec411/modelon_impact_client-3.0.0.dev9.tar.gz
+[2023-06-07 11:44:38] INFO root fetch - processPackages [modelon-impact-client]: executing diffoscope
+[2023-06-07 11:44:38] INFO root fetch - processPackages [modelon-impact-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelon_impact_client-3.0.0.dev8.tar.gz tmp/modelon_impact_client-3.0.0.dev9.tar.gz --markdown 20230607/m/modelon-impact-client/3.0.0.dev8-3.0.0.dev9/diff.md --exclude *.pyd
+[2023-06-07 11:44:38] INFO root fetch - processPackages [discord-advert-framework]: Downloading https://files.pythonhosted.org/packages/04/3d/6625a784920d27e6470c4f9cf6dc2934fcc032f64d36dcbf344b44ad4eb4/discord-advert-framework-2.8.2.tar.gz
+[2023-06-07 11:44:38] WARNING root fetch - processPackages [discord-advert-framework]: Skipping package: exceeds size limit 18343975>=10485760
+[2023-06-07 11:44:38] INFO root fetch - main [MainThread]: End processing [discord-advert-framework] error
+[2023-06-07 11:44:38] INFO root fetch - processPackages [sdkit]: Remove: archive file [/home/abi/fetcher/tmp/sdkit-1.0.98.tar.gz]
+[2023-06-07 11:44:38] INFO root fetch - processPackages [sdkit]: Remove: archive file [/home/abi/fetcher/tmp/sdkit-1.0.99.tar.gz]
+[2023-06-07 11:44:38] INFO root fetch - main [MainThread]: End processing [sdkit]: success
+[2023-06-07 11:44:39] INFO root fetch - processPackages [pytask]: Remove: archive file [/home/abi/fetcher/tmp/pytask-0.3.1.tar.gz]
+[2023-06-07 11:44:39] INFO root fetch - processPackages [pytask]: Remove: archive file [/home/abi/fetcher/tmp/pytask-0.3.2.tar.gz]
+[2023-06-07 11:44:39] INFO root fetch - main [MainThread]: End processing [pytask]: success
+[2023-06-07 11:44:39] INFO root fetch - processPackages [spPersist]: Remove: archive file [/home/abi/fetcher/tmp/spPersist-0.2.1.tar.gz]
+[2023-06-07 11:44:39] INFO root fetch - processPackages [spPersist]: Remove: archive file [/home/abi/fetcher/tmp/spPersist-0.2.2.tar.gz]
+[2023-06-07 11:44:39] INFO root fetch - main [MainThread]: End processing [spPersist]: success
+[2023-06-07 11:44:39] INFO root fetch - processPackages [rongdavbaaddins]: Remove: archive file [/home/abi/fetcher/tmp/rongdavbaaddins-0.0.0.4.tar.gz]
+[2023-06-07 11:44:39] INFO root fetch - processPackages [rongdavbaaddins]: Remove: archive file [/home/abi/fetcher/tmp/rongdavbaaddins-0.0.0.5.tar.gz]
+[2023-06-07 11:44:39] INFO root fetch - main [MainThread]: End processing [rongdavbaaddins]: success
+[2023-06-07 11:44:39] INFO root fetch - processPackages [ipyfilite]: Remove: archive file [/home/abi/fetcher/tmp/ipyfilite-0.1.6.tar.gz]
+[2023-06-07 11:44:39] INFO root fetch - processPackages [ipyfilite]: Remove: archive file [/home/abi/fetcher/tmp/ipyfilite-0.1.7.tar.gz]
+[2023-06-07 11:44:39] INFO root fetch - main [MainThread]: End processing [ipyfilite]: success
+[2023-06-07 11:44:40] INFO root fetch - processPackages [autofit]: Remove: archive file [/home/abi/fetcher/tmp/autofit-2023.3.27.1.tar.gz]
+[2023-06-07 11:44:40] INFO root fetch - processPackages [autofit]: Remove: archive file [/home/abi/fetcher/tmp/autofit-2023.7.7.1.tar.gz]
+[2023-06-07 11:44:40] INFO root fetch - main [MainThread]: End processing [autofit]: success
+[2023-06-07 11:44:40] INFO root fetch - processPackages [modelon-impact-client]: Remove: archive file [/home/abi/fetcher/tmp/modelon_impact_client-3.0.0.dev8.tar.gz]
+[2023-06-07 11:44:40] INFO root fetch - processPackages [modelon-impact-client]: Remove: archive file [/home/abi/fetcher/tmp/modelon_impact_client-3.0.0.dev9.tar.gz]
+[2023-06-07 11:44:40] INFO root fetch - main [MainThread]: End processing [modelon-impact-client]: success
+[2023-06-07 11:45:05] INFO root fetch - processPackages [langflow]: Remove: archive file [/home/abi/fetcher/tmp/langflow-0.0.83.tar.gz]
+[2023-06-07 11:45:05] INFO root fetch - processPackages [langflow]: Remove: archive file [/home/abi/fetcher/tmp/langflow-0.0.84.tar.gz]
+[2023-06-07 11:45:05] INFO root fetch - main [MainThread]: End processing [langflow]: success
+[2023-06-07 11:45:05] INFO root fetch - main [MainThread]: Store serial: [18406118]
