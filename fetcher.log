@@ -9728,3 +9728,24 @@
 [2023-06-07 04:08:02] INFO root fetch - processPackages [seven-cloudapp-frame]: Remove: archive file [/home/abi/fetcher/tmp/seven_cloudapp_frame-1.0.9.9.tar.gz]
 [2023-06-07 04:08:02] INFO root fetch - main [MainThread]: End processing [seven-cloudapp-frame]: success
 [2023-06-07 04:08:02] INFO root fetch - main [MainThread]: Store serial: [18401744]
+[2023-06-07 04:13:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18401744]
+[2023-06-07 04:13:11] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-07 04:13:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: auto-obsidian
+[2023-06-07 04:13:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: eparse
+[2023-06-07 04:13:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: DXR
+[2023-06-07 04:13:11] INFO root fetch - processPackages [auto-obsidian]: New version: [0.1.1] Old Version: [0.1]
+[2023-06-07 04:13:11] WARNING root fetch - processPackages [eparse]: Skipping, unable to determine old version
+[2023-06-07 04:13:11] INFO root fetch - main [MainThread]: End processing [eparse] error
+[2023-06-07 04:13:11] INFO root fetch - processPackages [DXR]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-06-07 04:13:11] INFO root fetch - processPackages [auto-obsidian]: Downloading https://files.pythonhosted.org/packages/1f/1f/fce7e99a793cfbb81f478f9ceee90c7e33c88adf6c5bdcef44ffdcec56c7/auto-obsidian-0.1.tar.gz
+[2023-06-07 04:13:11] INFO root fetch - processPackages [DXR]: Downloading https://files.pythonhosted.org/packages/58/99/bea37cb31d3044a82f7464cffc7a579d312db4d08a184b2a6cb09f3401f3/DXR-1.9.0.tar.gz
+[2023-06-07 04:13:11] INFO root fetch - processPackages [auto-obsidian]: Downloading https://files.pythonhosted.org/packages/c3/6f/f6929bd6c48ce74f5cfb48804338b12274c8fc64378b4d5050b7e2e1007d/auto-obsidian-0.1.1.tar.gz
+[2023-06-07 04:13:11] INFO root fetch - processPackages [DXR]: Downloading https://files.pythonhosted.org/packages/02/81/93bbbf84a2a89dbf29a97c92a5f4b2bb967a2217c0c73f2756ba857c822d/DXR-1.9.1.tar.gz
+[2023-06-07 04:13:11] INFO root fetch - processPackages [auto-obsidian]: executing diffoscope
+[2023-06-07 04:13:11] INFO root fetch - processPackages [auto-obsidian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto-obsidian-0.1.tar.gz tmp/auto-obsidian-0.1.1.tar.gz --markdown 20230607/a/auto-obsidian/0.1-0.1.1/diff.md --exclude *.pyd
+[2023-06-07 04:13:11] WARNING root fetch - processPackages [DXR]: Skipping package: exceeds size limit 10502188>=10485760
+[2023-06-07 04:13:11] INFO root fetch - main [MainThread]: End processing [DXR] error
+[2023-06-07 04:13:13] INFO root fetch - processPackages [auto-obsidian]: Remove: archive file [/home/abi/fetcher/tmp/auto-obsidian-0.1.tar.gz]
+[2023-06-07 04:13:13] INFO root fetch - processPackages [auto-obsidian]: Remove: archive file [/home/abi/fetcher/tmp/auto-obsidian-0.1.1.tar.gz]
+[2023-06-07 04:13:13] INFO root fetch - main [MainThread]: End processing [auto-obsidian]: success
+[2023-06-07 04:13:13] INFO root fetch - main [MainThread]: Store serial: [18401757]
