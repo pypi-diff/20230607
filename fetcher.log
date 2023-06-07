@@ -20306,3 +20306,186 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-07 11:55:44] INFO root fetch - processPackages [alchemite-apiclient]: Remove: archive file [/home/abi/fetcher/tmp/alchemite_apiclient-0.55.0.tar.gz]
 [2023-06-07 11:55:44] INFO root fetch - main [MainThread]: End processing [alchemite-apiclient]: success
 [2023-06-07 11:55:44] INFO root fetch - main [MainThread]: Store serial: [18406220]
+[2023-06-07 12:00:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18406220]
+[2023-06-07 12:00:53] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-06-07 12:00:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spPersist
+[2023-06-07 12:00:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cosmian-py-ggml
+[2023-06-07 12:00:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: omnata-plugin-runtime
+[2023-06-07 12:00:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-api-framework
+[2023-06-07 12:00:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: miniscutil
+[2023-06-07 12:00:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kcli
+[2023-06-07 12:00:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: godoo-cli
+[2023-06-07 12:00:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: esnpy
+[2023-06-07 12:00:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: storage-orm
+[2023-06-07 12:00:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nonebot-plugin-smart-reply
+[2023-06-07 12:00:53] INFO root fetch - processPackages [cosmian-py-ggml]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-06-07 12:00:53] INFO root fetch - processPackages [miniscutil]: New version: [0.2.9] Old Version: [0.2.7]
+[2023-06-07 12:00:53] INFO root fetch - processPackages [omnata-plugin-runtime]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-07 12:00:53] INFO root fetch - processPackages [spPersist]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-06-07 12:00:53] INFO root fetch - processPackages [django-api-framework]: New version: [0.1.7] Old Version: [0.1.40rc2]
+[2023-06-07 12:00:53] INFO root fetch - processPackages [godoo-cli]: New version: [0.5.0] Old Version: [0.4.3]
+[2023-06-07 12:00:53] INFO root fetch - processPackages [esnpy]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-06-07 12:00:53] INFO root fetch - processPackages [nonebot-plugin-smart-reply]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-07 12:00:53] INFO root fetch - processPackages [storage-orm]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-06-07 12:00:53] INFO root fetch - processPackages [kcli]: New version: [99.0.202306070957] Old Version: [99.0.202306070935]
+[2023-06-07 12:00:53] INFO root fetch - processPackages [omnata-plugin-runtime]: Downloading https://files.pythonhosted.org/packages/53/a1/adf4ca1ed5ea551e6c30a8edb566fbce83dbedc1f72d8e262ff85d80881e/omnata_plugin_runtime-0.1.8.tar.gz
+[2023-06-07 12:00:53] INFO root fetch - processPackages [nonebot-plugin-smart-reply]: Downloading https://files.pythonhosted.org/packages/82/ab/5ca16abac8915b872239912589ec64aa8ab80dfa6db3eaa3c037eba842b1/nonebot_plugin_smart_reply-0.0.8.tar.gz
+[2023-06-07 12:00:53] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/62/b5/20f4630456e180fbfbbd716f675aff468a4a0cc7cfd21d3b4835805664ff/kcli-99.0.202306070935-py3-none-any.whl
+[2023-06-07 12:00:53] INFO root fetch - processPackages [django-api-framework]: Downloading https://files.pythonhosted.org/packages/5f/94/5e21c4f874952e9e8a664db75240591c16954b316290586492c7bd681c17/django-api-framework-0.1.40rc2.tar.gz
+[2023-06-07 12:00:53] INFO root fetch - processPackages [spPersist]: Downloading https://files.pythonhosted.org/packages/72/7a/0f2ee7ec76ff85851a040d77c9bba8b4f2aba89fc8c32d139a57edc5f1d3/spPersist-0.2.3.tar.gz
+[2023-06-07 12:00:54] INFO root fetch - processPackages [cosmian-py-ggml]: Downloading https://files.pythonhosted.org/packages/ff/33/77eb44c51d4afaa51cc00eda5c9190fec9125a706752b6c32a116a14dd3a/cosmian_py_ggml-0.2.0-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-07 12:00:54] INFO root fetch - processPackages [esnpy]: Downloading https://files.pythonhosted.org/packages/14/ca/b06459358a2302c3235fd6af217c9efeba9d186cbc2b4a9505668f7c3704/esnpy-0.3.0.tar.gz
+[2023-06-07 12:00:54] INFO root fetch - processPackages [godoo-cli]: Downloading https://files.pythonhosted.org/packages/78/07/7b2871e6cad52d12b110ca30f26b7c52a3eb316e683dc532b67e1daffc2c/godoo_cli-0.4.3.tar.gz
+[2023-06-07 12:00:54] INFO root fetch - processPackages [miniscutil]: Downloading https://files.pythonhosted.org/packages/65/33/369c90792f6567d666e0679e546988583b5cc5178b093bfadfaf334a634e/miniscutil-0.2.7.tar.gz
+[2023-06-07 12:00:54] INFO root fetch - processPackages [storage-orm]: Downloading https://files.pythonhosted.org/packages/05/7e/8d00680916a5762c0e53ec5a94ff0fe282391cfec0a2a2b345a897995367/storage_orm-1.4.0.tar.gz
+[2023-06-07 12:00:54] INFO root fetch - processPackages [omnata-plugin-runtime]: Downloading https://files.pythonhosted.org/packages/cf/ef/88a357f5f8f3b7c775ede6822e6617364cfdcf04a79bca1e74d50ae0aae1/omnata_plugin_runtime-0.1.9.tar.gz
+[2023-06-07 12:00:54] INFO root fetch - processPackages [nonebot-plugin-smart-reply]: Downloading https://files.pythonhosted.org/packages/e3/86/286035850c9b1ff35d89d104cfe018042eba85bd9f39c4e6879be23e8449/nonebot_plugin_smart_reply-0.0.9.tar.gz
+[2023-06-07 12:00:54] INFO root fetch - processPackages [omnata-plugin-runtime]: executing diffoscope
+[2023-06-07 12:00:54] INFO root fetch - processPackages [omnata-plugin-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnata_plugin_runtime-0.1.8.tar.gz tmp/omnata_plugin_runtime-0.1.9.tar.gz --markdown 20230607/o/omnata-plugin-runtime/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-07 12:00:54] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/8a/7b/e069d80059b20e503310e95db85f8114dbb61b25faf9e72ccf774b6d22dc/kcli-99.0.202306070957-py3-none-any.whl
+[2023-06-07 12:00:54] INFO root fetch - processPackages [nonebot-plugin-smart-reply]: executing diffoscope
+[2023-06-07 12:00:54] INFO root fetch - processPackages [nonebot-plugin-smart-reply]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_smart_reply-0.0.8.tar.gz tmp/nonebot_plugin_smart_reply-0.0.9.tar.gz --markdown 20230607/n/nonebot-plugin-smart-reply/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-07 12:00:54] INFO root fetch - processPackages [esnpy]: Downloading https://files.pythonhosted.org/packages/83/97/eeaec6fcb88b4bcb29433cdb57388f7c801f904ddece9145df1ab49358df/esnpy-0.4.0.tar.gz
+[2023-06-07 12:00:54] INFO root fetch - processPackages [cosmian-py-ggml]: Downloading https://files.pythonhosted.org/packages/48/b2/48033f4a6fa9f708d62172e24fc65731bcaa59da1a22eca15734cc7f2314/cosmian_py_ggml-0.3.0-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-07 12:00:54] INFO root fetch - processPackages [django-api-framework]: Downloading https://files.pythonhosted.org/packages/76/52/7259c0a2a951bfaa71aa45f86201aae778a430fc5f7dcfd5ddeb0106b4f4/django-api-framework-0.1.7.tar.gz
+[2023-06-07 12:00:54] INFO root fetch - processPackages [spPersist]: Downloading https://files.pythonhosted.org/packages/dd/00/a5115a36d9e3816cc281c3b11ef80f7c822af3e09573e6c6301199b94e12/spPersist-0.2.4.tar.gz
+[2023-06-07 12:00:54] INFO root fetch - processPackages [godoo-cli]: Downloading https://files.pythonhosted.org/packages/39/32/c2c7ec7f4b479392f29bd35f1b756421d9312c0f4e3011bbd7ed7f5d9a6a/godoo_cli-0.5.0.tar.gz
+[2023-06-07 12:00:54] INFO root fetch - processPackages [storage-orm]: Downloading https://files.pythonhosted.org/packages/64/a6/25d1a086b52fcf7adceb1a82e7662d7dae3fd6b8827ee05fbb19b922b30c/storage_orm-1.4.1.tar.gz
+[2023-06-07 12:00:54] INFO root fetch - processPackages [esnpy]: executing diffoscope
+[2023-06-07 12:00:54] INFO root fetch - processPackages [esnpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esnpy-0.3.0.tar.gz tmp/esnpy-0.4.0.tar.gz --markdown 20230607/e/esnpy/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-06-07 12:00:54] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-06-07 12:00:54] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202306070935-py3-none-any.whl.zip tmp/kcli-99.0.202306070957-py3-none-any.whl.zip --markdown 20230607/k/kcli/99.0.202306070935-99.0.202306070957/diff.md --exclude *.pyd
+[2023-06-07 12:00:54] INFO root fetch - processPackages [spPersist]: executing diffoscope
+[2023-06-07 12:00:54] INFO root fetch - processPackages [spPersist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spPersist-0.2.3.tar.gz tmp/spPersist-0.2.4.tar.gz --markdown 20230607/s/spPersist/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-06-07 12:00:54] INFO root fetch - processPackages [cosmian-py-ggml]: executing diffoscope
+[2023-06-07 12:00:54] INFO root fetch - processPackages [cosmian-py-ggml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cosmian_py_ggml-0.2.0-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/cosmian_py_ggml-0.3.0-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230607/c/cosmian-py-ggml/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-06-07 12:00:54] INFO root fetch - processPackages [godoo-cli]: executing diffoscope
+[2023-06-07 12:00:54] INFO root fetch - processPackages [django-api-framework]: executing diffoscope
+[2023-06-07 12:00:54] INFO root fetch - processPackages [django-api-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-api-framework-0.1.40rc2.tar.gz tmp/django-api-framework-0.1.7.tar.gz --markdown 20230607/d/django-api-framework/0.1.40rc2-0.1.7/diff.md --exclude *.pyd
+[2023-06-07 12:00:54] INFO root fetch - processPackages [godoo-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/godoo_cli-0.4.3.tar.gz tmp/godoo_cli-0.5.0.tar.gz --markdown 20230607/g/godoo-cli/0.4.3-0.5.0/diff.md --exclude *.pyd
+[2023-06-07 12:00:54] INFO root fetch - processPackages [miniscutil]: Downloading https://files.pythonhosted.org/packages/d1/19/dacb657006ddcaf384265c79f7e1bdcd883941324f10f3e39d2d2593c382/miniscutil-0.2.9.tar.gz
+[2023-06-07 12:00:54] INFO root fetch - processPackages [storage-orm]: executing diffoscope
+[2023-06-07 12:00:54] INFO root fetch - processPackages [storage-orm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/storage_orm-1.4.0.tar.gz tmp/storage_orm-1.4.1.tar.gz --markdown 20230607/s/storage-orm/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-06-07 12:00:54] INFO root fetch - processPackages [miniscutil]: executing diffoscope
+[2023-06-07 12:00:54] INFO root fetch - processPackages [miniscutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miniscutil-0.2.7.tar.gz tmp/miniscutil-0.2.9.tar.gz --markdown 20230607/m/miniscutil/0.2.7-0.2.9/diff.md --exclude *.pyd
+[2023-06-07 12:00:56] INFO root fetch - processPackages [nonebot-plugin-smart-reply]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_smart_reply-0.0.8.tar.gz]
+[2023-06-07 12:00:56] INFO root fetch - processPackages [nonebot-plugin-smart-reply]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_smart_reply-0.0.9.tar.gz]
+[2023-06-07 12:00:56] INFO root fetch - processPackages [nonebot-plugin-smart-reply]: Start processing: aiostorage-orm
+[2023-06-07 12:00:56] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-smart-reply]: success
+[2023-06-07 12:00:56] INFO root fetch - processPackages [aiostorage-orm]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-06-07 12:00:56] INFO root fetch - processPackages [omnata-plugin-runtime]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_runtime-0.1.8.tar.gz]
+[2023-06-07 12:00:56] INFO root fetch - processPackages [omnata-plugin-runtime]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_runtime-0.1.9.tar.gz]
+[2023-06-07 12:00:56] INFO root fetch - processPackages [omnata-plugin-runtime]: Start processing: gregory-online
+[2023-06-07 12:00:56] INFO root fetch - main [MainThread]: End processing [omnata-plugin-runtime]: success
+[2023-06-07 12:00:56] INFO root fetch - processPackages [gregory-online]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-06-07 12:00:56] INFO root fetch - processPackages [aiostorage-orm]: Downloading https://files.pythonhosted.org/packages/64/52/0a7010fffe19192cbaa29673360fde900de75150405038e3218b01ef0688/aiostorage_orm-1.4.0.tar.gz
+[2023-06-07 12:00:56] INFO root fetch - processPackages [cosmian-py-ggml]: Remove: archive file [/home/abi/fetcher/tmp/cosmian_py_ggml-0.2.0-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-07 12:00:56] INFO root fetch - processPackages [cosmian-py-ggml]: Remove: archive file [/home/abi/fetcher/tmp/cosmian_py_ggml-0.3.0-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-07 12:00:56] INFO root fetch - processPackages [cosmian-py-ggml]: Start processing: kfish
+[2023-06-07 12:00:56] INFO root fetch - main [MainThread]: End processing [cosmian-py-ggml]: success
+[2023-06-07 12:00:56] INFO root fetch - processPackages [gregory-online]: Downloading https://files.pythonhosted.org/packages/98/9c/c50cb329d4525ece5f4524d302954a7b197c4e96a40b9a9040dfa450a3a1/gregory_online-0.2.6.tar.gz
+[2023-06-07 12:00:56] INFO root fetch - processPackages [kfish]: New version: [99.0.202306070959] Old Version: [99.0.202306070938]
+[2023-06-07 12:00:56] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/30/a8/acd1f14cc144316c300a85c1a0e757630d568b094248982bca16d408cdb6/kfish-99.0.202306070938-py3-none-any.whl
+[2023-06-07 12:00:56] INFO root fetch - processPackages [esnpy]: Remove: archive file [/home/abi/fetcher/tmp/esnpy-0.3.0.tar.gz]
+[2023-06-07 12:00:56] INFO root fetch - processPackages [esnpy]: Remove: archive file [/home/abi/fetcher/tmp/esnpy-0.4.0.tar.gz]
+[2023-06-07 12:00:56] INFO root fetch - processPackages [esnpy]: Start processing: autoconf
+[2023-06-07 12:00:56] INFO root fetch - main [MainThread]: End processing [esnpy]: success
+[2023-06-07 12:00:56] INFO root fetch - processPackages [autoconf]: New version: [2023.7.7.2] Old Version: [2023.7.7.1]
+[2023-06-07 12:00:56] INFO root fetch - processPackages [aiostorage-orm]: Downloading https://files.pythonhosted.org/packages/76/59/f6dda6b9262f8d9a225f7919f0040d8e15ccb55e4a6ecba4a737e43c91a4/aiostorage_orm-1.4.1.tar.gz
+[2023-06-07 12:00:56] INFO root fetch - processPackages [autoconf]: Downloading https://files.pythonhosted.org/packages/0b/2a/d1b028903f9df2c7f786a180f3680df3c23b969589e9c261146e2ffe7dc2/autoconf-2023.7.7.1.tar.gz
+[2023-06-07 12:00:56] INFO root fetch - processPackages [gregory-online]: Downloading https://files.pythonhosted.org/packages/20/8e/23e565f6ae2e5c451d2f8c0c5954178fd8ab91ed8232ceec416fcaeb2563/gregory_online-0.2.7.tar.gz
+[2023-06-07 12:00:56] INFO root fetch - processPackages [aiostorage-orm]: executing diffoscope
+[2023-06-07 12:00:56] INFO root fetch - processPackages [aiostorage-orm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiostorage_orm-1.4.0.tar.gz tmp/aiostorage_orm-1.4.1.tar.gz --markdown 20230607/a/aiostorage-orm/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-06-07 12:00:56] INFO root fetch - processPackages [spPersist]: Remove: archive file [/home/abi/fetcher/tmp/spPersist-0.2.3.tar.gz]
+[2023-06-07 12:00:56] INFO root fetch - processPackages [spPersist]: Remove: archive file [/home/abi/fetcher/tmp/spPersist-0.2.4.tar.gz]
+[2023-06-07 12:00:56] INFO root fetch - processPackages [spPersist]: Start processing: django-erp-framework
+[2023-06-07 12:00:56] INFO root fetch - main [MainThread]: End processing [spPersist]: success
+[2023-06-07 12:00:56] INFO root fetch - processPackages [django-erp-framework]: New version: [1.5.2] Old Version: [1.5.0]
+[2023-06-07 12:00:56] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/cd/52/fff8ede6d64a976e1e4081b7d05900d340a12c44e849aeac3de335524534/kfish-99.0.202306070959-py3-none-any.whl
+[2023-06-07 12:00:56] INFO root fetch - processPackages [autoconf]: Downloading https://files.pythonhosted.org/packages/75/d7/960066d81d0bace3c99f77aa521bbef62616095f5f4f2b18d8d5812cae3c/autoconf-2023.7.7.2.tar.gz
+[2023-06-07 12:00:56] INFO root fetch - processPackages [miniscutil]: Remove: archive file [/home/abi/fetcher/tmp/miniscutil-0.2.7.tar.gz]
+[2023-06-07 12:00:56] INFO root fetch - processPackages [gregory-online]: executing diffoscope
+[2023-06-07 12:00:56] INFO root fetch - processPackages [gregory-online]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gregory_online-0.2.6.tar.gz tmp/gregory_online-0.2.7.tar.gz --markdown 20230607/g/gregory-online/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-06-07 12:00:56] INFO root fetch - processPackages [miniscutil]: Remove: archive file [/home/abi/fetcher/tmp/miniscutil-0.2.9.tar.gz]
+[2023-06-07 12:00:56] INFO root fetch - processPackages [miniscutil]: Start processing: autofit
+[2023-06-07 12:00:56] INFO root fetch - main [MainThread]: End processing [miniscutil]: success
+[2023-06-07 12:00:56] INFO root fetch - processPackages [storage-orm]: Remove: archive file [/home/abi/fetcher/tmp/storage_orm-1.4.0.tar.gz]
+[2023-06-07 12:00:56] INFO root fetch - processPackages [storage-orm]: Remove: archive file [/home/abi/fetcher/tmp/storage_orm-1.4.1.tar.gz]
+[2023-06-07 12:00:56] INFO root fetch - processPackages [storage-orm]: Start processing: dlt
+[2023-06-07 12:00:56] INFO root fetch - main [MainThread]: End processing [storage-orm]: success
+[2023-06-07 12:00:56] INFO root fetch - processPackages [django-erp-framework]: Downloading https://files.pythonhosted.org/packages/a0/4f/bdf4c8ebdaafd41bd4691b5f0fa8fb3b67b43dd879ecf13a798779d62c4d/django-erp-framework-1.5.0.tar.gz
+[2023-06-07 12:00:56] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-06-07 12:00:56] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202306070938-py3-none-any.whl.zip tmp/kfish-99.0.202306070959-py3-none-any.whl.zip --markdown 20230607/k/kfish/99.0.202306070938-99.0.202306070959/diff.md --exclude *.pyd
+[2023-06-07 12:00:56] INFO root fetch - processPackages [autofit]: New version: [2023.7.7.2] Old Version: [2023.7.7.1]
+[2023-06-07 12:00:56] INFO root fetch - processPackages [dlt]: New version: [0.3.0] Old Version: [0.2.9a0]
+[2023-06-07 12:00:56] INFO root fetch - processPackages [autofit]: Downloading https://files.pythonhosted.org/packages/9c/60/64366deb8d5fb364907784deec7ddf312b65dc1f2ac59c5fb29187d5281c/autofit-2023.7.7.1.tar.gz
+[2023-06-07 12:00:57] INFO root fetch - processPackages [autoconf]: executing diffoscope
+[2023-06-07 12:00:57] INFO root fetch - processPackages [autoconf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autoconf-2023.7.7.1.tar.gz tmp/autoconf-2023.7.7.2.tar.gz --markdown 20230607/a/autoconf/2023.7.7.1-2023.7.7.2/diff.md --exclude *.pyd
+[2023-06-07 12:00:57] INFO root fetch - processPackages [godoo-cli]: Remove: archive file [/home/abi/fetcher/tmp/godoo_cli-0.4.3.tar.gz]
+[2023-06-07 12:00:57] INFO root fetch - processPackages [godoo-cli]: Remove: archive file [/home/abi/fetcher/tmp/godoo_cli-0.5.0.tar.gz]
+[2023-06-07 12:00:57] INFO root fetch - processPackages [godoo-cli]: Start processing: sun
+[2023-06-07 12:00:57] INFO root fetch - main [MainThread]: End processing [godoo-cli]: success
+[2023-06-07 12:00:57] INFO root fetch - processPackages [sun]: New version: [1.5.2] Old Version: [1.5.1]
+[2023-06-07 12:00:57] INFO root fetch - processPackages [django-erp-framework]: Downloading https://files.pythonhosted.org/packages/58/28/0c6cd26be7892c417c8bfaf3346ee78bcb541561d8a0d601472e34e4a4c4/django-erp-framework-1.5.2.tar.gz
+[2023-06-07 12:00:57] INFO root fetch - processPackages [dlt]: Downloading https://files.pythonhosted.org/packages/bc/11/576f16633925285145590e6115d389e48e6a57630148ab22593aeb2f0a67/dlt-0.2.9a0.tar.gz
+[2023-06-07 12:00:57] INFO root fetch - processPackages [django-erp-framework]: executing diffoscope
+[2023-06-07 12:00:57] INFO root fetch - processPackages [django-erp-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-erp-framework-1.5.0.tar.gz tmp/django-erp-framework-1.5.2.tar.gz --markdown 20230607/d/django-erp-framework/1.5.0-1.5.2/diff.md --exclude *.pyd
+[2023-06-07 12:00:57] INFO root fetch - processPackages [autofit]: Downloading https://files.pythonhosted.org/packages/ad/fe/c7018064b948e4ad6b822d720d66b6b5858f155ed656b234c89e0b9494ec/autofit-2023.7.7.2.tar.gz
+[2023-06-07 12:00:57] INFO root fetch - processPackages [sun]: Downloading https://files.pythonhosted.org/packages/c6/df/8498d6e433af92d2ae54859821a98d43c80336f3ede8ce983cf109be1f64/sun-1.5.1.tar.gz
+[2023-06-07 12:00:57] INFO root fetch - processPackages [dlt]: Downloading https://files.pythonhosted.org/packages/df/07/9e53a960c7a49a24f3516fc9160355baa09f6d772a4d08ef4a83187d5d64/dlt-0.3.0.tar.gz
+[2023-06-07 12:00:57] INFO root fetch - processPackages [autofit]: executing diffoscope
+[2023-06-07 12:00:57] INFO root fetch - processPackages [autofit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autofit-2023.7.7.1.tar.gz tmp/autofit-2023.7.7.2.tar.gz --markdown 20230607/a/autofit/2023.7.7.1-2023.7.7.2/diff.md --exclude *.pyd
+[2023-06-07 12:00:57] INFO root fetch - processPackages [dlt]: executing diffoscope
+[2023-06-07 12:00:57] INFO root fetch - processPackages [dlt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dlt-0.2.9a0.tar.gz tmp/dlt-0.3.0.tar.gz --markdown 20230607/d/dlt/0.2.9a0-0.3.0/diff.md --exclude *.pyd
+[2023-06-07 12:00:57] INFO root fetch - processPackages [sun]: Downloading https://files.pythonhosted.org/packages/cd/0e/4383f7400dcc3bfd70d8c7f415e71a0c1609b95282ef9707fc7e9fb1dc10/sun-1.5.2.tar.gz
+[2023-06-07 12:00:57] INFO root fetch - processPackages [sun]: executing diffoscope
+[2023-06-07 12:00:57] INFO root fetch - processPackages [sun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sun-1.5.1.tar.gz tmp/sun-1.5.2.tar.gz --markdown 20230607/s/sun/1.5.1-1.5.2/diff.md --exclude *.pyd
+[2023-06-07 12:00:58] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306070938-py3-none-any.whl.zip]
+[2023-06-07 12:00:58] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306070959-py3-none-any.whl.zip]
+[2023-06-07 12:00:58] INFO root fetch - processPackages [kfish]: Start processing: autoarray
+[2023-06-07 12:00:58] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-06-07 12:00:58] INFO root fetch - processPackages [aiostorage-orm]: Remove: archive file [/home/abi/fetcher/tmp/aiostorage_orm-1.4.0.tar.gz]
+[2023-06-07 12:00:58] INFO root fetch - processPackages [aiostorage-orm]: Remove: archive file [/home/abi/fetcher/tmp/aiostorage_orm-1.4.1.tar.gz]
+[2023-06-07 12:00:58] INFO root fetch - processPackages [aiostorage-orm]: Start processing: autogalaxy
+[2023-06-07 12:00:58] INFO root fetch - main [MainThread]: End processing [aiostorage-orm]: success
+[2023-06-07 12:00:58] INFO root fetch - processPackages [autogalaxy]: New version: [2023.7.7.2] Old Version: [2023.7.7.1]
+[2023-06-07 12:00:58] INFO root fetch - processPackages [autoarray]: New version: [2023.7.7.2] Old Version: [2023.7.7.1]
+[2023-06-07 12:00:58] INFO root fetch - processPackages [autogalaxy]: Downloading https://files.pythonhosted.org/packages/d5/b8/c66839a3ad8f2f83ea28a4271b4b271747b1927ce0649f29288c0fcd369e/autogalaxy-2023.7.7.1.tar.gz
+[2023-06-07 12:00:58] INFO root fetch - processPackages [autoarray]: Downloading https://files.pythonhosted.org/packages/92/33/aca1fcf0714efe4aaec61c0328766a3f5997918708647967bbcf93e2e8b7/autoarray-2023.7.7.1.tar.gz
+[2023-06-07 12:00:58] INFO root fetch - processPackages [gregory-online]: Remove: archive file [/home/abi/fetcher/tmp/gregory_online-0.2.6.tar.gz]
+[2023-06-07 12:00:58] INFO root fetch - processPackages [gregory-online]: Remove: archive file [/home/abi/fetcher/tmp/gregory_online-0.2.7.tar.gz]
+[2023-06-07 12:00:58] INFO root fetch - main [MainThread]: End processing [gregory-online]: success
+[2023-06-07 12:00:58] INFO root fetch - processPackages [django-api-framework]: Remove: archive file [/home/abi/fetcher/tmp/django-api-framework-0.1.40rc2.tar.gz]
+[2023-06-07 12:00:58] INFO root fetch - processPackages [django-api-framework]: Remove: archive file [/home/abi/fetcher/tmp/django-api-framework-0.1.7.tar.gz]
+[2023-06-07 12:00:58] INFO root fetch - main [MainThread]: End processing [django-api-framework]: success
+[2023-06-07 12:00:59] INFO root fetch - processPackages [autoarray]: Downloading https://files.pythonhosted.org/packages/e3/83/1d337dea403d73260f0e83439c181e05b8691a5da496b5d86fd2069e15ba/autoarray-2023.7.7.2.tar.gz
+[2023-06-07 12:00:59] INFO root fetch - processPackages [autogalaxy]: Downloading https://files.pythonhosted.org/packages/3d/5e/6332ab784b31fb688ed3eeb9b60e506bda37143856c57428f7a9ff1fe600/autogalaxy-2023.7.7.2.tar.gz
+[2023-06-07 12:00:59] INFO root fetch - processPackages [autoconf]: Remove: archive file [/home/abi/fetcher/tmp/autoconf-2023.7.7.1.tar.gz]
+[2023-06-07 12:00:59] INFO root fetch - processPackages [autoconf]: Remove: archive file [/home/abi/fetcher/tmp/autoconf-2023.7.7.2.tar.gz]
+[2023-06-07 12:00:59] INFO root fetch - main [MainThread]: End processing [autoconf]: success
+[2023-06-07 12:00:59] INFO root fetch - processPackages [autoarray]: executing diffoscope
+[2023-06-07 12:00:59] INFO root fetch - processPackages [autoarray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autoarray-2023.7.7.1.tar.gz tmp/autoarray-2023.7.7.2.tar.gz --markdown 20230607/a/autoarray/2023.7.7.1-2023.7.7.2/diff.md --exclude *.pyd
+[2023-06-07 12:00:59] INFO root fetch - processPackages [autogalaxy]: executing diffoscope
+[2023-06-07 12:00:59] INFO root fetch - processPackages [autogalaxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogalaxy-2023.7.7.1.tar.gz tmp/autogalaxy-2023.7.7.2.tar.gz --markdown 20230607/a/autogalaxy/2023.7.7.1-2023.7.7.2/diff.md --exclude *.pyd
+[2023-06-07 12:00:59] INFO root fetch - processPackages [django-erp-framework]: Remove: archive file [/home/abi/fetcher/tmp/django-erp-framework-1.5.0.tar.gz]
+[2023-06-07 12:00:59] INFO root fetch - processPackages [django-erp-framework]: Remove: archive file [/home/abi/fetcher/tmp/django-erp-framework-1.5.2.tar.gz]
+[2023-06-07 12:00:59] INFO root fetch - main [MainThread]: End processing [django-erp-framework]: success
+[2023-06-07 12:00:59] INFO root fetch - processPackages [sun]: Remove: archive file [/home/abi/fetcher/tmp/sun-1.5.1.tar.gz]
+[2023-06-07 12:00:59] INFO root fetch - processPackages [sun]: Remove: archive file [/home/abi/fetcher/tmp/sun-1.5.2.tar.gz]
+[2023-06-07 12:00:59] INFO root fetch - main [MainThread]: End processing [sun]: success
+[2023-06-07 12:01:01] INFO root fetch - processPackages [dlt]: Remove: archive file [/home/abi/fetcher/tmp/dlt-0.2.9a0.tar.gz]
+[2023-06-07 12:01:01] INFO root fetch - processPackages [dlt]: Remove: archive file [/home/abi/fetcher/tmp/dlt-0.3.0.tar.gz]
+[2023-06-07 12:01:01] INFO root fetch - main [MainThread]: End processing [dlt]: success
+[2023-06-07 12:01:03] INFO root fetch - processPackages [autoarray]: Remove: archive file [/home/abi/fetcher/tmp/autoarray-2023.7.7.1.tar.gz]
+[2023-06-07 12:01:03] INFO root fetch - processPackages [autoarray]: Remove: archive file [/home/abi/fetcher/tmp/autoarray-2023.7.7.2.tar.gz]
+[2023-06-07 12:01:03] INFO root fetch - main [MainThread]: End processing [autoarray]: success
+[2023-06-07 12:01:03] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306070935-py3-none-any.whl.zip]
+[2023-06-07 12:01:03] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306070957-py3-none-any.whl.zip]
+[2023-06-07 12:01:03] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-06-07 12:01:03] INFO root fetch - processPackages [autogalaxy]: Remove: archive file [/home/abi/fetcher/tmp/autogalaxy-2023.7.7.1.tar.gz]
+[2023-06-07 12:01:03] INFO root fetch - processPackages [autogalaxy]: Remove: archive file [/home/abi/fetcher/tmp/autogalaxy-2023.7.7.2.tar.gz]
+[2023-06-07 12:01:03] INFO root fetch - main [MainThread]: End processing [autogalaxy]: success
+[2023-06-07 12:01:04] INFO root fetch - processPackages [autofit]: Remove: archive file [/home/abi/fetcher/tmp/autofit-2023.7.7.1.tar.gz]
+[2023-06-07 12:01:04] INFO root fetch - processPackages [autofit]: Remove: archive file [/home/abi/fetcher/tmp/autofit-2023.7.7.2.tar.gz]
+[2023-06-07 12:01:04] INFO root fetch - main [MainThread]: End processing [autofit]: success
+[2023-06-07 12:01:04] INFO root fetch - main [MainThread]: Store serial: [18406276]
