@@ -17573,3 +17573,197 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-07 10:16:32] INFO root fetch - processPackages [vessl]: Remove: archive file [/home/abi/fetcher/tmp/vessl-0.1.99.tar.gz]
 [2023-06-07 10:16:32] INFO root fetch - main [MainThread]: End processing [vessl]: success
 [2023-06-07 10:16:32] INFO root fetch - main [MainThread]: Store serial: [18404845]
+[2023-06-07 10:21:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18404845]
+[2023-06-07 10:21:41] INFO root fetch - main [MainThread]: Found 25 changed packages
+[2023-06-07 10:21:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyobjc-framework-PreferencePanes
+[2023-06-07 10:21:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-mrp-production-quant-manual-assign
+[2023-06-07 10:21:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyobjc-framework-PubSub
+[2023-06-07 10:21:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flutter-driver
+[2023-06-07 10:21:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyobjc-framework-PushKit
+[2023-06-07 10:21:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: composabl-dev
+[2023-06-07 10:21:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: investor8-sdk
+[2023-06-07 10:21:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: zipline-tej
+[2023-06-07 10:21:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: samna
+[2023-06-07 10:21:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyobjc-framework-Quartz
+[2023-06-07 10:21:41] WARNING root fetch - processPackages [odoo-addon-mrp-production-quant-manual-assign]: Skipping, unable to determine old version
+[2023-06-07 10:21:41] INFO root fetch - processPackages [odoo-addon-mrp-production-quant-manual-assign]: Start processing: hypll
+[2023-06-07 10:21:41] INFO root fetch - main [MainThread]: End processing [odoo-addon-mrp-production-quant-manual-assign] error
+[2023-06-07 10:21:41] INFO root fetch - processPackages [flutter-driver]: New version: [1.0.1] Old Version: [1.0]
+[2023-06-07 10:21:41] INFO root fetch - processPackages [pyobjc-framework-PushKit]: New version: [9.2] Old Version: [9.1b1]
+[2023-06-07 10:21:41] INFO root fetch - processPackages [zipline-tej]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-07 10:21:41] INFO root fetch - processPackages [composabl-dev]: New version: [0.2.1.dev9] Old Version: [0.2.1.dev8]
+[2023-06-07 10:21:41] INFO root fetch - processPackages [pyobjc-framework-PubSub]: New version: [9.2] Old Version: [9.1b1]
+[2023-06-07 10:21:41] INFO root fetch - processPackages [pyobjc-framework-PreferencePanes]: New version: [9.2] Old Version: [9.1b1]
+[2023-06-07 10:21:41] INFO root fetch - processPackages [investor8-sdk]: New version: [1.1.9] Old Version: [1.1.87]
+[2023-06-07 10:21:41] INFO root fetch - processPackages [pyobjc-framework-Quartz]: New version: [9.2] Old Version: [9.1b1]
+[2023-06-07 10:21:41] WARNING root fetch - processPackages [hypll]: Skipping, unable to determine old version
+[2023-06-07 10:21:41] INFO root fetch - processPackages [hypll]: Start processing: kubedeployer
+[2023-06-07 10:21:41] INFO root fetch - main [MainThread]: End processing [hypll] error
+[2023-06-07 10:21:41] INFO root fetch - processPackages [samna]: New version: [0.9.39.0] Old Version: [0.9.38.0]
+[2023-06-07 10:21:41] INFO root fetch - processPackages [kubedeployer]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-06-07 10:21:41] INFO root fetch - processPackages [zipline-tej]: Downloading https://files.pythonhosted.org/packages/81/74/1c77fcc7996870f973250f70f5fd993fbdf66e25b3c8f01eb1d263d75c6a/zipline-tej-0.0.8.tar.gz
+[2023-06-07 10:21:41] INFO root fetch - processPackages [pyobjc-framework-PreferencePanes]: Downloading https://files.pythonhosted.org/packages/61/78/009ec8351ab0fa789d492bf56e62f737f21936c5969113c363554ac74657/pyobjc-framework-PreferencePanes-9.1b1.tar.gz
+[2023-06-07 10:21:41] INFO root fetch - processPackages [samna]: Downloading https://files.pythonhosted.org/packages/ac/49/8e22575b9ef0f797dd5332cff83b9f2288c02887aeff0cb8048a960a2edb/samna-0.9.38.0-py3-none-any.whl
+[2023-06-07 10:21:41] INFO root fetch - processPackages [composabl-dev]: Downloading https://files.pythonhosted.org/packages/96/cc/413e4e891af6555b1bb987746112df35a8e03d0207a45270191504b37e72/composabl_dev-0.2.1.dev8-cp38-cp38-macosx_11_0_arm64.whl
+[2023-06-07 10:21:41] INFO root fetch - processPackages [kubedeployer]: Downloading https://files.pythonhosted.org/packages/06/d0/ffdfb4e1099013d3080361a99331e827aec21280cc791143a1edfdba356b/kubedeployer-1.1.3.tar.gz
+[2023-06-07 10:21:41] INFO root fetch - processPackages [flutter-driver]: Downloading https://files.pythonhosted.org/packages/63/51/d43bfeaf035b919ad7da288249c23bc2a122227f79db8dfffc2a66109731/flutter-driver-1.0.tar.gz
+[2023-06-07 10:21:41] INFO root fetch - processPackages [investor8-sdk]: Downloading https://files.pythonhosted.org/packages/57/1b/42b8359dcf18ecc39bd4579a5fa8b250f617ea3b314b5db6f84c646f7e5d/investor8-sdk-1.1.87.tar.gz
+[2023-06-07 10:21:41] INFO root fetch - processPackages [pyobjc-framework-PushKit]: Downloading https://files.pythonhosted.org/packages/69/89/7c0fa141cf3a81417e5216314e977c488f805287cc7f9fc3f5ff4c7ea853/pyobjc-framework-PushKit-9.1b1.tar.gz
+[2023-06-07 10:21:41] INFO root fetch - processPackages [pyobjc-framework-PubSub]: Downloading https://files.pythonhosted.org/packages/c5/30/00b51afc9384f996aa41ee5607d5ba75ad62ff002005a1b5e9e6e93a6826/pyobjc-framework-PubSub-9.1b1.tar.gz
+[2023-06-07 10:21:41] INFO root fetch - processPackages [pyobjc-framework-Quartz]: Downloading https://files.pythonhosted.org/packages/3d/7f/b87012c558554b4e630a1627a02f04a2c515d444c60e3e230bd3d71a34ec/pyobjc-framework-Quartz-9.1b1.tar.gz
+[2023-06-07 10:21:41] INFO root fetch - processPackages [samna]: Downloading https://files.pythonhosted.org/packages/00/d4/3de54a6c91f47d5c29700e274166c999cadaf0ba26c263d4a4b8a40342e2/samna-0.9.39.0-py3-none-any.whl
+[2023-06-07 10:21:41] INFO root fetch - processPackages [zipline-tej]: Downloading https://files.pythonhosted.org/packages/84/15/b5579d7eb6cdb4cc9d6c22c0f36086080b26eabdda5b9d6a1f9a7f8f8df6/zipline-tej-0.0.9.tar.gz
+[2023-06-07 10:21:41] INFO root fetch - processPackages [pyobjc-framework-PreferencePanes]: Downloading https://files.pythonhosted.org/packages/62/8d/170a1da2b40906e179c61412e75cd74304f16a6099f098c8559e52fcafc6/pyobjc_framework_PreferencePanes-9.2-py2.py3-none-any.whl
+[2023-06-07 10:21:41] INFO root fetch - processPackages [samna]: executing diffoscope
+[2023-06-07 10:21:41] INFO root fetch - processPackages [samna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/samna-0.9.38.0-py3-none-any.whl.zip tmp/samna-0.9.39.0-py3-none-any.whl.zip --markdown 20230607/s/samna/0.9.38.0-0.9.39.0/diff.md --exclude *.pyd
+[2023-06-07 10:21:41] INFO root fetch - processPackages [flutter-driver]: Downloading https://files.pythonhosted.org/packages/93/27/b282d2810a6e2a9c2643041f15fff09158e64751457898c556732a1b9dd1/flutter-driver-1.0.1.tar.gz
+[2023-06-07 10:21:41] INFO root fetch - processPackages [kubedeployer]: Downloading https://files.pythonhosted.org/packages/58/a3/459c4e4e69ecde7d85fbfa5a0aa229ffbdc50230dbef7d0149aa62322b31/kubedeployer-1.1.4.tar.gz
+[2023-06-07 10:21:41] INFO root fetch - processPackages [composabl-dev]: Downloading https://files.pythonhosted.org/packages/49/2c/0032ba964864c280a5efb940191b8d75049cfa8bad1c193b88e1e5fb9828/composabl_dev-0.2.1.dev9-cp38-cp38-musllinux_1_1_x86_64.whl
+[2023-06-07 10:21:41] INFO root fetch - processPackages [zipline-tej]: executing diffoscope
+[2023-06-07 10:21:41] INFO root fetch - processPackages [zipline-tej]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zipline-tej-0.0.8.tar.gz tmp/zipline-tej-0.0.9.tar.gz --markdown 20230607/z/zipline-tej/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-07 10:21:41] INFO root fetch - processPackages [pyobjc-framework-PreferencePanes]: executing diffoscope
+[2023-06-07 10:21:41] INFO root fetch - processPackages [pyobjc-framework-PreferencePanes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyobjc-framework-PreferencePanes-9.1b1.tar.gz tmp/pyobjc_framework_PreferencePanes-9.2-py2.py3-none-any.whl.zip --markdown 20230607/p/pyobjc-framework-PreferencePanes/9.1b1-9.2/diff.md --exclude *.pyd
+[2023-06-07 10:21:41] INFO root fetch - processPackages [pyobjc-framework-PushKit]: Downloading https://files.pythonhosted.org/packages/96/6e/986d64908c8e0f0619586e0c066924cc293388598976bf7fdf9ddd8b8fe1/pyobjc_framework_PushKit-9.2-cp36-abi3-macosx_11_0_universal2.whl
+[2023-06-07 10:21:41] INFO root fetch - processPackages [pyobjc-framework-PubSub]: Downloading https://files.pythonhosted.org/packages/1d/f8/534f575bb095be48026ddf89e0d667d567b1864d941136624ef22c0f1c96/pyobjc_framework_PubSub-9.2-py2.py3-none-any.whl
+[2023-06-07 10:21:41] INFO root fetch - processPackages [kubedeployer]: executing diffoscope
+[2023-06-07 10:21:41] INFO root fetch - processPackages [investor8-sdk]: Downloading https://files.pythonhosted.org/packages/e1/47/bce97e7b7f029c51614461015e4e7e67b15aa1d08c9f6d2d8c3f7e259616/investor8-sdk-1.1.9.tar.gz
+[2023-06-07 10:21:41] INFO root fetch - processPackages [kubedeployer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kubedeployer-1.1.3.tar.gz tmp/kubedeployer-1.1.4.tar.gz --markdown 20230607/k/kubedeployer/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-06-07 10:21:41] INFO root fetch - processPackages [flutter-driver]: executing diffoscope
+[2023-06-07 10:21:41] INFO root fetch - processPackages [flutter-driver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flutter-driver-1.0.tar.gz tmp/flutter-driver-1.0.1.tar.gz --markdown 20230607/f/flutter-driver/1.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-07 10:21:41] INFO root fetch - processPackages [pyobjc-framework-Quartz]: Downloading https://files.pythonhosted.org/packages/e3/f5/4d6043a7d659b0ea6fefd515c248f73082fb0a61d3f68e6b1778a8d5b1b9/pyobjc_framework_Quartz-9.2-cp39-cp39-macosx_10_9_universal2.whl
+[2023-06-07 10:21:41] INFO root fetch - processPackages [pyobjc-framework-PubSub]: executing diffoscope
+[2023-06-07 10:21:41] INFO root fetch - processPackages [pyobjc-framework-PubSub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyobjc-framework-PubSub-9.1b1.tar.gz tmp/pyobjc_framework_PubSub-9.2-py2.py3-none-any.whl.zip --markdown 20230607/p/pyobjc-framework-PubSub/9.1b1-9.2/diff.md --exclude *.pyd
+[2023-06-07 10:21:41] INFO root fetch - processPackages [investor8-sdk]: executing diffoscope
+[2023-06-07 10:21:41] INFO root fetch - processPackages [investor8-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/investor8-sdk-1.1.87.tar.gz tmp/investor8-sdk-1.1.9.tar.gz --markdown 20230607/i/investor8-sdk/1.1.87-1.1.9/diff.md --exclude *.pyd
+[2023-06-07 10:21:41] INFO root fetch - processPackages [pyobjc-framework-PushKit]: executing diffoscope
+[2023-06-07 10:21:41] INFO root fetch - processPackages [pyobjc-framework-PushKit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyobjc-framework-PushKit-9.1b1.tar.gz tmp/pyobjc_framework_PushKit-9.2-cp36-abi3-macosx_11_0_universal2.whl.zip --markdown 20230607/p/pyobjc-framework-PushKit/9.1b1-9.2/diff.md --exclude *.pyd
+[2023-06-07 10:21:42] INFO root fetch - processPackages [pyobjc-framework-Quartz]: executing diffoscope
+[2023-06-07 10:21:42] INFO root fetch - processPackages [pyobjc-framework-Quartz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyobjc-framework-Quartz-9.1b1.tar.gz tmp/pyobjc_framework_Quartz-9.2-cp39-cp39-macosx_10_9_universal2.whl.zip --markdown 20230607/p/pyobjc-framework-Quartz/9.1b1-9.2/diff.md --exclude *.pyd
+[2023-06-07 10:21:42] INFO root fetch - processPackages [composabl-dev]: executing diffoscope
+[2023-06-07 10:21:42] INFO root fetch - processPackages [composabl-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composabl_dev-0.2.1.dev8-cp38-cp38-macosx_11_0_arm64.whl.zip tmp/composabl_dev-0.2.1.dev9-cp38-cp38-musllinux_1_1_x86_64.whl.zip --markdown 20230607/c/composabl-dev/0.2.1.dev8-0.2.1.dev9/diff.md --exclude *.pyd
+[2023-06-07 10:21:43] INFO root fetch - processPackages [samna]: Remove: archive file [/home/abi/fetcher/tmp/samna-0.9.38.0-py3-none-any.whl.zip]
+[2023-06-07 10:21:43] INFO root fetch - processPackages [samna]: Remove: archive file [/home/abi/fetcher/tmp/samna-0.9.39.0-py3-none-any.whl.zip]
+[2023-06-07 10:21:43] INFO root fetch - processPackages [samna]: Start processing: datachain
+[2023-06-07 10:21:43] INFO root fetch - main [MainThread]: End processing [samna]: success
+[2023-06-07 10:21:43] INFO root fetch - processPackages [pyobjc-framework-PreferencePanes]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-PreferencePanes-9.1b1.tar.gz]
+[2023-06-07 10:21:43] INFO root fetch - processPackages [pyobjc-framework-PreferencePanes]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc_framework_PreferencePanes-9.2-py2.py3-none-any.whl.zip]
+[2023-06-07 10:21:43] INFO root fetch - processPackages [pyobjc-framework-PreferencePanes]: Start processing: yacs-adapter
+[2023-06-07 10:21:43] INFO root fetch - main [MainThread]: End processing [pyobjc-framework-PreferencePanes]: success
+[2023-06-07 10:21:43] INFO root fetch - processPackages [datachain]: New version: [1.1.4] Old Version: [1.1.2]
+[2023-06-07 10:21:43] WARNING root fetch - processPackages [yacs-adapter]: Skipping, unable to determine old version
+[2023-06-07 10:21:43] INFO root fetch - processPackages [yacs-adapter]: Start processing: pclick
+[2023-06-07 10:21:43] INFO root fetch - main [MainThread]: End processing [yacs-adapter] error
+[2023-06-07 10:21:43] WARNING root fetch - processPackages [pclick]: Skipping, unable to determine old version
+[2023-06-07 10:21:43] INFO root fetch - processPackages [pclick]: Start processing: channel-box
+[2023-06-07 10:21:43] INFO root fetch - main [MainThread]: End processing [pclick] error
+[2023-06-07 10:21:43] INFO root fetch - processPackages [datachain]: Downloading https://files.pythonhosted.org/packages/93/51/35efb8691705dbe4054eb84f1ac6b177aa698558d35b714d711d5d5cb457/datachain-1.1.2.tar.gz
+[2023-06-07 10:21:43] INFO root fetch - processPackages [channel-box]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-06-07 10:21:43] INFO root fetch - processPackages [flutter-driver]: Remove: archive file [/home/abi/fetcher/tmp/flutter-driver-1.0.tar.gz]
+[2023-06-07 10:21:43] INFO root fetch - processPackages [flutter-driver]: Remove: archive file [/home/abi/fetcher/tmp/flutter-driver-1.0.1.tar.gz]
+[2023-06-07 10:21:43] INFO root fetch - processPackages [flutter-driver]: Start processing: nxsrecselector
+[2023-06-07 10:21:43] INFO root fetch - main [MainThread]: End processing [flutter-driver]: success
+[2023-06-07 10:21:43] INFO root fetch - processPackages [nxsrecselector]: New version: [3.29.0] Old Version: [3.28.0]
+[2023-06-07 10:21:43] INFO root fetch - processPackages [pyobjc-framework-PushKit]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-PushKit-9.1b1.tar.gz]
+[2023-06-07 10:21:43] INFO root fetch - processPackages [pyobjc-framework-PushKit]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc_framework_PushKit-9.2-cp36-abi3-macosx_11_0_universal2.whl.zip]
+[2023-06-07 10:21:43] INFO root fetch - processPackages [pyobjc-framework-PushKit]: Start processing: karp-backend-5
+[2023-06-07 10:21:43] INFO root fetch - main [MainThread]: End processing [pyobjc-framework-PushKit]: success
+[2023-06-07 10:21:43] INFO root fetch - processPackages [karp-backend-5]: New version: [5.27.5] Old Version: [5.26.4]
+[2023-06-07 10:21:43] INFO root fetch - processPackages [channel-box]: Downloading https://files.pythonhosted.org/packages/7c/fe/d3138f53975e03aa6e8dfa7b1ea9cfc8a05a6670eba846a586ff87e72d47/channel_box-0.4.0-py3-none-any.whl
+[2023-06-07 10:21:43] INFO root fetch - processPackages [datachain]: Downloading https://files.pythonhosted.org/packages/4b/9f/82a6e61e39a5df389f63ea6751354396f44d5f48202e58cbf2fcf0581a1c/datachain-1.1.4.tar.gz
+[2023-06-07 10:21:43] INFO root fetch - processPackages [nxsrecselector]: Downloading https://files.pythonhosted.org/packages/60/cb/969730ea85868cb8af150f591baaef898acd2680bc19e91add2aadd593bc/nxsrecselector-3.28.0.tar.gz
+[2023-06-07 10:21:43] INFO root fetch - processPackages [datachain]: executing diffoscope
+[2023-06-07 10:21:43] INFO root fetch - processPackages [datachain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datachain-1.1.2.tar.gz tmp/datachain-1.1.4.tar.gz --markdown 20230607/d/datachain/1.1.2-1.1.4/diff.md --exclude *.pyd
+[2023-06-07 10:21:43] ERROR root fetch - processPackages [channel-box]: Unable to fetch info: No such project/version 'channel-box' 0.5.0
+[2023-06-07 10:21:43] INFO root fetch - processPackages [channel-box]: Start processing: pyobjc-framework-QuickLookThumbnailing
+[2023-06-07 10:21:43] INFO root fetch - main [MainThread]: End processing [channel-box] error
+[2023-06-07 10:21:43] INFO root fetch - processPackages [karp-backend-5]: Downloading https://files.pythonhosted.org/packages/39/64/a952902c61edf1a12c93c0161b5f8f518c0fc6ef77bec6ee1c47539c12a0/karp-backend-5-5.26.4.tar.gz
+[2023-06-07 10:21:43] INFO root fetch - processPackages [pyobjc-framework-QuickLookThumbnailing]: New version: [9.2] Old Version: [9.1b1]
+[2023-06-07 10:21:43] INFO root fetch - processPackages [pyobjc-framework-PubSub]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-PubSub-9.1b1.tar.gz]
+[2023-06-07 10:21:43] INFO root fetch - processPackages [pyobjc-framework-PubSub]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc_framework_PubSub-9.2-py2.py3-none-any.whl.zip]
+[2023-06-07 10:21:43] INFO root fetch - processPackages [pyobjc-framework-PubSub]: Start processing: pyobjc-framework-ReplayKit
+[2023-06-07 10:21:43] INFO root fetch - main [MainThread]: End processing [pyobjc-framework-PubSub]: success
+[2023-06-07 10:21:43] INFO root fetch - processPackages [kubedeployer]: Remove: archive file [/home/abi/fetcher/tmp/kubedeployer-1.1.3.tar.gz]
+[2023-06-07 10:21:43] INFO root fetch - processPackages [kubedeployer]: Remove: archive file [/home/abi/fetcher/tmp/kubedeployer-1.1.4.tar.gz]
+[2023-06-07 10:21:43] INFO root fetch - processPackages [kubedeployer]: Start processing: pyobjc-framework-SafariServices
+[2023-06-07 10:21:43] INFO root fetch - main [MainThread]: End processing [kubedeployer]: success
+[2023-06-07 10:21:43] INFO root fetch - processPackages [pyobjc-framework-ReplayKit]: New version: [9.2] Old Version: [9.1b1]
+[2023-06-07 10:21:43] INFO root fetch - processPackages [nxsrecselector]: Downloading https://files.pythonhosted.org/packages/6b/43/536902d0a4869d90493e9a2ff001a46c8f7ecf7b40ffb693297bae5db345/nxsrecselector-3.29.0.tar.gz
+[2023-06-07 10:21:43] INFO root fetch - processPackages [pyobjc-framework-SafariServices]: New version: [9.2] Old Version: [9.1b1]
+[2023-06-07 10:21:43] INFO root fetch - processPackages [pyobjc-framework-QuickLookThumbnailing]: Downloading https://files.pythonhosted.org/packages/3f/7f/877092327e7f887e3a7e3b083a61d472a014401ca90de894ee4d6e7f7f03/pyobjc-framework-QuickLookThumbnailing-9.1b1.tar.gz
+[2023-06-07 10:21:44] INFO root fetch - processPackages [nxsrecselector]: executing diffoscope
+[2023-06-07 10:21:44] INFO root fetch - processPackages [nxsrecselector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nxsrecselector-3.28.0.tar.gz tmp/nxsrecselector-3.29.0.tar.gz --markdown 20230607/n/nxsrecselector/3.28.0-3.29.0/diff.md --exclude *.pyd
+[2023-06-07 10:21:44] INFO root fetch - processPackages [karp-backend-5]: Downloading https://files.pythonhosted.org/packages/17/ca/d2d2ee9b24c3a1a80dc3910e9c50c2bc7d6fc35a7e300ea68be9600c172d/karp-backend-5-5.27.5.tar.gz
+[2023-06-07 10:21:44] INFO root fetch - processPackages [pyobjc-framework-ReplayKit]: Downloading https://files.pythonhosted.org/packages/c4/dc/4147f9366d57799f7d2110775be997bdf6445c960d62da2a2179f48e25d8/pyobjc-framework-ReplayKit-9.1b1.tar.gz
+[2023-06-07 10:21:44] INFO root fetch - processPackages [pyobjc-framework-SafariServices]: Downloading https://files.pythonhosted.org/packages/9e/5c/c7e0ddda27fffff576c627a50c71295838419a67998a0cbfbc980377522f/pyobjc-framework-SafariServices-9.1b1.tar.gz
+[2023-06-07 10:21:44] INFO root fetch - processPackages [karp-backend-5]: executing diffoscope
+[2023-06-07 10:21:44] INFO root fetch - processPackages [karp-backend-5]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/karp-backend-5-5.26.4.tar.gz tmp/karp-backend-5-5.27.5.tar.gz --markdown 20230607/k/karp-backend-5/5.26.4-5.27.5/diff.md --exclude *.pyd
+[2023-06-07 10:21:44] INFO root fetch - processPackages [pyobjc-framework-QuickLookThumbnailing]: Downloading https://files.pythonhosted.org/packages/47/6e/fd04d3beedb637b66ae5802fc0ccaf3b982b1d6978ec151a968ece0c5d79/pyobjc_framework_QuickLookThumbnailing-9.2-py2.py3-none-any.whl
+[2023-06-07 10:21:44] INFO root fetch - processPackages [pyobjc-framework-QuickLookThumbnailing]: executing diffoscope
+[2023-06-07 10:21:44] INFO root fetch - processPackages [pyobjc-framework-QuickLookThumbnailing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyobjc-framework-QuickLookThumbnailing-9.1b1.tar.gz tmp/pyobjc_framework_QuickLookThumbnailing-9.2-py2.py3-none-any.whl.zip --markdown 20230607/p/pyobjc-framework-QuickLookThumbnailing/9.1b1-9.2/diff.md --exclude *.pyd
+[2023-06-07 10:21:44] INFO root fetch - processPackages [pyobjc-framework-ReplayKit]: Downloading https://files.pythonhosted.org/packages/a1/6d/7238891750b62c203059f8034d8e59ba78708bd6a692aa50eddc348860ed/pyobjc_framework_ReplayKit-9.2-cp36-abi3-macosx_11_0_universal2.whl
+[2023-06-07 10:21:44] INFO root fetch - processPackages [pyobjc-framework-SafariServices]: Downloading https://files.pythonhosted.org/packages/33/d2/0bbafd4995791195f4a2ebcd13f134b7d2aa99c105e2122cfab65e4e0c1b/pyobjc_framework_SafariServices-9.2-cp36-abi3-macosx_11_0_universal2.whl
+[2023-06-07 10:21:44] INFO root fetch - processPackages [pyobjc-framework-ReplayKit]: executing diffoscope
+[2023-06-07 10:21:44] INFO root fetch - processPackages [pyobjc-framework-ReplayKit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyobjc-framework-ReplayKit-9.1b1.tar.gz tmp/pyobjc_framework_ReplayKit-9.2-cp36-abi3-macosx_11_0_universal2.whl.zip --markdown 20230607/p/pyobjc-framework-ReplayKit/9.1b1-9.2/diff.md --exclude *.pyd
+[2023-06-07 10:21:44] INFO root fetch - processPackages [pyobjc-framework-SafariServices]: executing diffoscope
+[2023-06-07 10:21:44] INFO root fetch - processPackages [pyobjc-framework-SafariServices]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyobjc-framework-SafariServices-9.1b1.tar.gz tmp/pyobjc_framework_SafariServices-9.2-cp36-abi3-macosx_11_0_universal2.whl.zip --markdown 20230607/p/pyobjc-framework-SafariServices/9.1b1-9.2/diff.md --exclude *.pyd
+[2023-06-07 10:21:44] INFO root fetch - processPackages [pyobjc-framework-Quartz]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-Quartz-9.1b1.tar.gz]
+[2023-06-07 10:21:44] INFO root fetch - processPackages [pyobjc-framework-Quartz]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc_framework_Quartz-9.2-cp39-cp39-macosx_10_9_universal2.whl.zip]
+[2023-06-07 10:21:44] INFO root fetch - processPackages [pyobjc-framework-Quartz]: Start processing: hybrid-graph
+[2023-06-07 10:21:44] INFO root fetch - main [MainThread]: End processing [pyobjc-framework-Quartz]: success
+[2023-06-07 10:21:44] INFO root fetch - processPackages [hybrid-graph]: New version: [0.5] Old Version: [0.4]
+[2023-06-07 10:21:44] INFO root fetch - processPackages [hybrid-graph]: Downloading https://files.pythonhosted.org/packages/f4/9b/885da235308ed398e0c6e082488678cdeba26609b3aa87f5639bc229b105/hybrid-graph-0.4.tar.gz
+[2023-06-07 10:21:44] INFO root fetch - processPackages [hybrid-graph]: Downloading https://files.pythonhosted.org/packages/4e/8f/ef25e93dd50843f1c975cfe4920f4c449f90e8145229d32dcc683face709/hybrid-graph-0.5.tar.gz
+[2023-06-07 10:21:44] INFO root fetch - processPackages [hybrid-graph]: executing diffoscope
+[2023-06-07 10:21:44] INFO root fetch - processPackages [hybrid-graph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hybrid-graph-0.4.tar.gz tmp/hybrid-graph-0.5.tar.gz --markdown 20230607/h/hybrid-graph/0.4-0.5/diff.md --exclude *.pyd
+[2023-06-07 10:21:45] INFO root fetch - processPackages [datachain]: Remove: archive file [/home/abi/fetcher/tmp/datachain-1.1.2.tar.gz]
+[2023-06-07 10:21:45] INFO root fetch - processPackages [datachain]: Remove: archive file [/home/abi/fetcher/tmp/datachain-1.1.4.tar.gz]
+[2023-06-07 10:21:45] INFO root fetch - processPackages [datachain]: Start processing: pyobjc-framework-SafetyKit
+[2023-06-07 10:21:45] INFO root fetch - main [MainThread]: End processing [datachain]: success
+[2023-06-07 10:21:45] INFO root fetch - processPackages [composabl-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_dev-0.2.1.dev8-cp38-cp38-macosx_11_0_arm64.whl.zip]
+[2023-06-07 10:21:45] INFO root fetch - processPackages [composabl-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_dev-0.2.1.dev9-cp38-cp38-musllinux_1_1_x86_64.whl.zip]
+[2023-06-07 10:21:45] INFO root fetch - processPackages [composabl-dev]: Start processing: pyobjc-framework-SceneKit
+[2023-06-07 10:21:45] INFO root fetch - main [MainThread]: End processing [composabl-dev]: success
+[2023-06-07 10:21:45] INFO root fetch - processPackages [pyobjc-framework-SafetyKit]: New version: [9.2] Old Version: [9.1b1]
+[2023-06-07 10:21:45] INFO root fetch - processPackages [pyobjc-framework-SceneKit]: New version: [9.2] Old Version: [9.1b1]
+[2023-06-07 10:21:45] INFO root fetch - processPackages [pyobjc-framework-SafetyKit]: Downloading https://files.pythonhosted.org/packages/5b/6d/b72d167b1733db1ffd4fce0b8e303d129c874a6ccc717fdb0a47b7eb0059/pyobjc-framework-SafetyKit-9.1b1.tar.gz
+[2023-06-07 10:21:45] INFO root fetch - processPackages [pyobjc-framework-SceneKit]: Downloading https://files.pythonhosted.org/packages/41/9f/7fda2c475a56358e4747c7f6785a1aa44e28c77c079193ac0f03a48b01b0/pyobjc-framework-SceneKit-9.1b1.tar.gz
+[2023-06-07 10:21:45] INFO root fetch - processPackages [pyobjc-framework-SafetyKit]: Downloading https://files.pythonhosted.org/packages/cf/eb/7eaaa0e03f4fbac7759dec780f4a4453e722157c1a626b4bd132a6ec38b2/pyobjc_framework_SafetyKit-9.2-cp36-abi3-macosx_11_0_universal2.whl
+[2023-06-07 10:21:46] INFO root fetch - processPackages [zipline-tej]: Remove: archive file [/home/abi/fetcher/tmp/zipline-tej-0.0.8.tar.gz]
+[2023-06-07 10:21:46] INFO root fetch - processPackages [zipline-tej]: Remove: archive file [/home/abi/fetcher/tmp/zipline-tej-0.0.9.tar.gz]
+[2023-06-07 10:21:46] INFO root fetch - processPackages [zipline-tej]: Start processing: kocetestpack
+[2023-06-07 10:21:46] INFO root fetch - main [MainThread]: End processing [zipline-tej]: success
+[2023-06-07 10:21:46] INFO root fetch - processPackages [pyobjc-framework-SafetyKit]: executing diffoscope
+[2023-06-07 10:21:46] INFO root fetch - processPackages [pyobjc-framework-SafetyKit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyobjc-framework-SafetyKit-9.1b1.tar.gz tmp/pyobjc_framework_SafetyKit-9.2-cp36-abi3-macosx_11_0_universal2.whl.zip --markdown 20230607/p/pyobjc-framework-SafetyKit/9.1b1-9.2/diff.md --exclude *.pyd
+[2023-06-07 10:21:46] WARNING root fetch - processPackages [kocetestpack]: Skipping, unable to determine old version
+[2023-06-07 10:21:46] INFO root fetch - main [MainThread]: End processing [kocetestpack] error
+[2023-06-07 10:21:46] INFO root fetch - processPackages [pyobjc-framework-SceneKit]: Downloading https://files.pythonhosted.org/packages/5c/19/1ef29c26e325bcd17ea8d0abb3c73e3e534aa552ad0fd4467900bef20578/pyobjc_framework_SceneKit-9.2-cp36-abi3-macosx_11_0_universal2.whl
+[2023-06-07 10:21:46] INFO root fetch - processPackages [pyobjc-framework-QuickLookThumbnailing]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-QuickLookThumbnailing-9.1b1.tar.gz]
+[2023-06-07 10:21:46] INFO root fetch - processPackages [pyobjc-framework-QuickLookThumbnailing]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc_framework_QuickLookThumbnailing-9.2-py2.py3-none-any.whl.zip]
+[2023-06-07 10:21:46] INFO root fetch - main [MainThread]: End processing [pyobjc-framework-QuickLookThumbnailing]: success
+[2023-06-07 10:21:46] INFO root fetch - processPackages [pyobjc-framework-SceneKit]: executing diffoscope
+[2023-06-07 10:21:46] INFO root fetch - processPackages [pyobjc-framework-SceneKit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyobjc-framework-SceneKit-9.1b1.tar.gz tmp/pyobjc_framework_SceneKit-9.2-cp36-abi3-macosx_11_0_universal2.whl.zip --markdown 20230607/p/pyobjc-framework-SceneKit/9.1b1-9.2/diff.md --exclude *.pyd
+[2023-06-07 10:21:46] INFO root fetch - processPackages [hybrid-graph]: Remove: archive file [/home/abi/fetcher/tmp/hybrid-graph-0.4.tar.gz]
+[2023-06-07 10:21:46] INFO root fetch - processPackages [hybrid-graph]: Remove: archive file [/home/abi/fetcher/tmp/hybrid-graph-0.5.tar.gz]
+[2023-06-07 10:21:46] INFO root fetch - main [MainThread]: End processing [hybrid-graph]: success
+[2023-06-07 10:21:46] INFO root fetch - processPackages [pyobjc-framework-SafariServices]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-SafariServices-9.1b1.tar.gz]
+[2023-06-07 10:21:46] INFO root fetch - processPackages [pyobjc-framework-SafariServices]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc_framework_SafariServices-9.2-cp36-abi3-macosx_11_0_universal2.whl.zip]
+[2023-06-07 10:21:46] INFO root fetch - main [MainThread]: End processing [pyobjc-framework-SafariServices]: success
+[2023-06-07 10:21:46] INFO root fetch - processPackages [pyobjc-framework-ReplayKit]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-ReplayKit-9.1b1.tar.gz]
+[2023-06-07 10:21:46] INFO root fetch - processPackages [pyobjc-framework-ReplayKit]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc_framework_ReplayKit-9.2-cp36-abi3-macosx_11_0_universal2.whl.zip]
+[2023-06-07 10:21:46] INFO root fetch - main [MainThread]: End processing [pyobjc-framework-ReplayKit]: success
+[2023-06-07 10:21:46] INFO root fetch - processPackages [nxsrecselector]: Remove: archive file [/home/abi/fetcher/tmp/nxsrecselector-3.28.0.tar.gz]
+[2023-06-07 10:21:46] INFO root fetch - processPackages [nxsrecselector]: Remove: archive file [/home/abi/fetcher/tmp/nxsrecselector-3.29.0.tar.gz]
+[2023-06-07 10:21:46] INFO root fetch - main [MainThread]: End processing [nxsrecselector]: success
+[2023-06-07 10:21:47] INFO root fetch - processPackages [pyobjc-framework-SafetyKit]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-SafetyKit-9.1b1.tar.gz]
+[2023-06-07 10:21:47] INFO root fetch - processPackages [pyobjc-framework-SafetyKit]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc_framework_SafetyKit-9.2-cp36-abi3-macosx_11_0_universal2.whl.zip]
+[2023-06-07 10:21:47] INFO root fetch - main [MainThread]: End processing [pyobjc-framework-SafetyKit]: success
+[2023-06-07 10:21:47] INFO root fetch - processPackages [pyobjc-framework-SceneKit]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-SceneKit-9.1b1.tar.gz]
+[2023-06-07 10:21:47] INFO root fetch - processPackages [pyobjc-framework-SceneKit]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc_framework_SceneKit-9.2-cp36-abi3-macosx_11_0_universal2.whl.zip]
+[2023-06-07 10:21:47] INFO root fetch - main [MainThread]: End processing [pyobjc-framework-SceneKit]: success
+[2023-06-07 10:21:47] INFO root fetch - processPackages [karp-backend-5]: Remove: archive file [/home/abi/fetcher/tmp/karp-backend-5-5.26.4.tar.gz]
+[2023-06-07 10:21:47] INFO root fetch - processPackages [karp-backend-5]: Remove: archive file [/home/abi/fetcher/tmp/karp-backend-5-5.27.5.tar.gz]
+[2023-06-07 10:21:47] INFO root fetch - main [MainThread]: End processing [karp-backend-5]: success
+[2023-06-07 10:21:48] INFO root fetch - processPackages [investor8-sdk]: Remove: archive file [/home/abi/fetcher/tmp/investor8-sdk-1.1.87.tar.gz]
+[2023-06-07 10:21:48] INFO root fetch - processPackages [investor8-sdk]: Remove: archive file [/home/abi/fetcher/tmp/investor8-sdk-1.1.9.tar.gz]
+[2023-06-07 10:21:48] INFO root fetch - main [MainThread]: End processing [investor8-sdk]: success
+[2023-06-07 10:21:48] INFO root fetch - main [MainThread]: Store serial: [18404946]
