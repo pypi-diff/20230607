@@ -5657,3 +5657,111 @@
 [2023-06-07 03:11:05] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.99.tar.gz]
 [2023-06-07 03:11:05] INFO root fetch - main [MainThread]: End processing [bioversions]: success
 [2023-06-07 03:11:05] INFO root fetch - main [MainThread]: Store serial: [18400289]
+[2023-06-07 03:16:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18400289]
+[2023-06-07 03:16:14] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-07 03:16:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: structure-py
+[2023-06-07 03:16:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pepperize.cdk-organizations
+[2023-06-07 03:16:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: peachdb-pytorchvideo
+[2023-06-07 03:16:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: libsbmlnetworkeditor
+[2023-06-07 03:16:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: giskard
+[2023-06-07 03:16:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: peachdb-imagebind
+[2023-06-07 03:16:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: school-grader
+[2023-06-07 03:16:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: makdo
+[2023-06-07 03:16:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: DomiKnowS
+[2023-06-07 03:16:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-html-text
+[2023-06-07 03:16:14] WARNING root fetch - processPackages [peachdb-pytorchvideo]: Skipping, unable to determine old version
+[2023-06-07 03:16:14] INFO root fetch - processPackages [peachdb-pytorchvideo]: Start processing: odoo-addon-letsencrypt
+[2023-06-07 03:16:14] INFO root fetch - main [MainThread]: End processing [peachdb-pytorchvideo] error
+[2023-06-07 03:16:14] INFO root fetch - processPackages [structure-py]: New version: [0.9.0] Old Version: [0.8.4]
+[2023-06-07 03:16:14] INFO root fetch - processPackages [libsbmlnetworkeditor]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-07 03:16:14] INFO root fetch - processPackages [giskard]: New version: [2.0.0b3] Old Version: [2.0.0b2]
+[2023-06-07 03:16:14] INFO root fetch - processPackages [DomiKnowS]: New version: [0.534.dev0] Old Version: [0.533]
+[2023-06-07 03:16:14] INFO root fetch - processPackages [peachdb-imagebind]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-07 03:16:14] INFO root fetch - processPackages [odoo-addon-letsencrypt]: New version: [15.0.1.0.3] Old Version: [15.0.1.0.2.5]
+[2023-06-07 03:16:14] INFO root fetch - processPackages [school-grader]: New version: [4.0.4] Old Version: [4.0.3]
+[2023-06-07 03:16:14] INFO root fetch - processPackages [odoo-addon-html-text]: New version: [15.0.1.0.1] Old Version: [15.0.1.0.0.5]
+[2023-06-07 03:16:14] WARNING root fetch - processPackages [makdo]: Skipping, unable to determine old version
+[2023-06-07 03:16:14] INFO root fetch - processPackages [makdo]: Start processing: odoo-addon-html-image-url-extractor
+[2023-06-07 03:16:14] INFO root fetch - main [MainThread]: End processing [makdo] error
+[2023-06-07 03:16:14] INFO root fetch - processPackages [odoo-addon-html-image-url-extractor]: New version: [15.0.1.0.1] Old Version: [15.0.1.0.0.3]
+[2023-06-07 03:16:14] INFO root fetch - processPackages [pepperize.cdk-organizations]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-06-07 03:16:14] INFO root fetch - processPackages [libsbmlnetworkeditor]: Downloading https://files.pythonhosted.org/packages/fb/fc/174ccd0df7eb920b1d4c7f8738a6adac66c312baf989f02743815458fe56/libsbmlnetworkeditor-0.0.3-cp39-cp39-macosx_11_0_universal2.whl
+[2023-06-07 03:16:14] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/c4/ec/fa2c14031b7b9ce22e4b044c652dd13a1a81769141fcd90e55c9eeb24d66/pepperize.cdk-organizations-0.7.98.tar.gz
+[2023-06-07 03:16:14] INFO root fetch - processPackages [school-grader]: Downloading https://files.pythonhosted.org/packages/68/30/82215c2bc53d99ac7341ff0088f5ac0909b33c3a7487dcf0aa2808563ec2/school_grader-4.0.3.tar.gz
+[2023-06-07 03:16:14] INFO root fetch - processPackages [DomiKnowS]: Downloading https://files.pythonhosted.org/packages/50/0b/7df18d10a26e35add43e2c8bf5c6161290c8000a1ff843a4a20d7cb08c47/DomiKnowS-0.533.tar.gz
+[2023-06-07 03:16:14] INFO root fetch - processPackages [peachdb-imagebind]: Downloading https://files.pythonhosted.org/packages/af/6f/3c67fb56c7e7ec5c182b118272976e875db00c52a1f0984730ef14875b37/peachdb-imagebind-0.0.2.tar.gz
+[2023-06-07 03:16:14] INFO root fetch - processPackages [odoo-addon-letsencrypt]: Downloading https://files.pythonhosted.org/packages/77/3f/8b56de4c22c6abe65247d0c58c24d320dabe61cd0131b5b2cb24fc36ea96/odoo_addon_letsencrypt-15.0.1.0.2.5-py3-none-any.whl
+[2023-06-07 03:16:14] INFO root fetch - processPackages [structure-py]: Downloading https://files.pythonhosted.org/packages/ab/54/301df64e96dfc4a5c71842f38f38cbb5c9b1f036bedfb8ce5c29f3c78523/structure_py-0.8.4-py3-none-any.whl
+[2023-06-07 03:16:14] INFO root fetch - processPackages [odoo-addon-html-text]: Downloading https://files.pythonhosted.org/packages/ce/da/a9b09665be6349a76dad7ba42bd34140df7db06653ce2a1ed5d8ed4105a9/odoo_addon_html_text-15.0.1.0.0.5-py3-none-any.whl
+[2023-06-07 03:16:14] INFO root fetch - processPackages [odoo-addon-html-image-url-extractor]: Downloading https://files.pythonhosted.org/packages/73/45/1a23ef8684733d17168617d72d9a098b0a6e7ef359783af27d45a1f8ee17/odoo_addon_html_image_url_extractor-15.0.1.0.0.3-py3-none-any.whl
+[2023-06-07 03:16:14] INFO root fetch - processPackages [giskard]: Downloading https://files.pythonhosted.org/packages/5e/4e/1678269f42135c4470ef2c8a3bd6b19bf313323b7d91551250ca93ed1668/giskard-2.0.0b2.tar.gz
+[2023-06-07 03:16:14] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/12/45/1106cc30844f7f4d96f7898a6ef3647d24a597c297bab995920a5915750e/pepperize.cdk-organizations-0.7.99.tar.gz
+[2023-06-07 03:16:14] INFO root fetch - processPackages [school-grader]: Downloading https://files.pythonhosted.org/packages/62/b1/569285e92b9d3341b08c6b43f0b11522170dddfdc35a88ade6ec5fd499b2/school_grader-4.0.4.tar.gz
+[2023-06-07 03:16:14] INFO root fetch - processPackages [libsbmlnetworkeditor]: Downloading https://files.pythonhosted.org/packages/c7/66/06a8ddf1410d8d9c2e866d047c2140dfa07fa95a57934fcbcb2ea902efa6/libsbmlnetworkeditor-0.0.4-cp39-cp39-macosx_11_0_universal2.whl
+[2023-06-07 03:16:14] INFO root fetch - processPackages [pepperize.cdk-organizations]: executing diffoscope
+[2023-06-07 03:16:14] INFO root fetch - processPackages [pepperize.cdk-organizations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-organizations-0.7.98.tar.gz tmp/pepperize.cdk-organizations-0.7.99.tar.gz --markdown 20230607/p/pepperize.cdk-organizations/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-06-07 03:16:14] INFO root fetch - processPackages [DomiKnowS]: Downloading https://files.pythonhosted.org/packages/55/a5/f6fd3c83806d0bcb9b4e3a99130398ab92cb122cec0a93bbb4644bc2be46/DomiKnowS-0.534.dev0.tar.gz
+[2023-06-07 03:16:14] INFO root fetch - processPackages [odoo-addon-letsencrypt]: Downloading https://files.pythonhosted.org/packages/6c/e3/b80249139d4ba11be12872d9ad797a8504e499b3571988e94cc3225dbe71/odoo_addon_letsencrypt-15.0.1.0.3-py3-none-any.whl
+[2023-06-07 03:16:14] INFO root fetch - processPackages [peachdb-imagebind]: Downloading https://files.pythonhosted.org/packages/54/60/08816acfb517da420e0da395d6cb891c88a4fbe8385067204a8912156025/peachdb-imagebind-0.0.3.tar.gz
+[2023-06-07 03:16:14] INFO root fetch - processPackages [odoo-addon-html-text]: Downloading https://files.pythonhosted.org/packages/85/7f/4a9f0c3a4382c46959dc66e820835c27c841ebeb39d0b96ec46b700e964f/odoo_addon_html_text-15.0.1.0.1-py3-none-any.whl
+[2023-06-07 03:16:14] INFO root fetch - processPackages [libsbmlnetworkeditor]: executing diffoscope
+[2023-06-07 03:16:14] INFO root fetch - processPackages [libsbmlnetworkeditor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libsbmlnetworkeditor-0.0.3-cp39-cp39-macosx_11_0_universal2.whl.zip tmp/libsbmlnetworkeditor-0.0.4-cp39-cp39-macosx_11_0_universal2.whl.zip --markdown 20230607/l/libsbmlnetworkeditor/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-07 03:16:14] INFO root fetch - processPackages [DomiKnowS]: executing diffoscope
+[2023-06-07 03:16:14] INFO root fetch - processPackages [DomiKnowS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DomiKnowS-0.533.tar.gz tmp/DomiKnowS-0.534.dev0.tar.gz --markdown 20230607/D/DomiKnowS/0.533-0.534.dev0/diff.md --exclude *.pyd
+[2023-06-07 03:16:14] INFO root fetch - processPackages [school-grader]: executing diffoscope
+[2023-06-07 03:16:14] INFO root fetch - processPackages [school-grader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/school_grader-4.0.3.tar.gz tmp/school_grader-4.0.4.tar.gz --markdown 20230607/s/school-grader/4.0.3-4.0.4/diff.md --exclude *.pyd
+[2023-06-07 03:16:14] INFO root fetch - processPackages [odoo-addon-letsencrypt]: executing diffoscope
+[2023-06-07 03:16:14] INFO root fetch - processPackages [odoo-addon-letsencrypt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_letsencrypt-15.0.1.0.2.5-py3-none-any.whl.zip tmp/odoo_addon_letsencrypt-15.0.1.0.3-py3-none-any.whl.zip --markdown 20230607/o/odoo-addon-letsencrypt/15.0.1.0.2.5-15.0.1.0.3/diff.md --exclude *.pyd
+[2023-06-07 03:16:14] INFO root fetch - processPackages [odoo-addon-html-image-url-extractor]: Downloading https://files.pythonhosted.org/packages/e8/36/f2af4a5b9e6b0910e8c30a7bd45e686a0a413bc7eabef211b63b7000b540/odoo_addon_html_image_url_extractor-15.0.1.0.1-py3-none-any.whl
+[2023-06-07 03:16:14] INFO root fetch - processPackages [giskard]: Downloading https://files.pythonhosted.org/packages/fa/26/5040050366821bbb8a2de519ec6469dd87f6e6573a02c48974cba227a759/giskard-2.0.0b3.tar.gz
+[2023-06-07 03:16:14] INFO root fetch - processPackages [odoo-addon-html-text]: executing diffoscope
+[2023-06-07 03:16:14] INFO root fetch - processPackages [odoo-addon-html-text]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_html_text-15.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_html_text-15.0.1.0.1-py3-none-any.whl.zip --markdown 20230607/o/odoo-addon-html-text/15.0.1.0.0.5-15.0.1.0.1/diff.md --exclude *.pyd
+[2023-06-07 03:16:14] INFO root fetch - processPackages [structure-py]: Downloading https://files.pythonhosted.org/packages/a3/6e/98234b66c3ce7d92f6b957ee2fd5b07749190eed5bd99f47651d736e0bc7/structure_py-0.9.0.tar.gz
+[2023-06-07 03:16:15] INFO root fetch - processPackages [peachdb-imagebind]: executing diffoscope
+[2023-06-07 03:16:15] INFO root fetch - processPackages [peachdb-imagebind]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peachdb-imagebind-0.0.2.tar.gz tmp/peachdb-imagebind-0.0.3.tar.gz --markdown 20230607/p/peachdb-imagebind/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-07 03:16:15] INFO root fetch - processPackages [odoo-addon-html-image-url-extractor]: executing diffoscope
+[2023-06-07 03:16:15] INFO root fetch - processPackages [odoo-addon-html-image-url-extractor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_html_image_url_extractor-15.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_html_image_url_extractor-15.0.1.0.1-py3-none-any.whl.zip --markdown 20230607/o/odoo-addon-html-image-url-extractor/15.0.1.0.0.3-15.0.1.0.1/diff.md --exclude *.pyd
+[2023-06-07 03:16:15] INFO root fetch - processPackages [structure-py]: executing diffoscope
+[2023-06-07 03:16:15] INFO root fetch - processPackages [structure-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/structure_py-0.8.4-py3-none-any.whl.zip tmp/structure_py-0.9.0.tar.gz --markdown 20230607/s/structure-py/0.8.4-0.9.0/diff.md --exclude *.pyd
+[2023-06-07 03:16:15] INFO root fetch - processPackages [giskard]: executing diffoscope
+[2023-06-07 03:16:15] INFO root fetch - processPackages [giskard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/giskard-2.0.0b2.tar.gz tmp/giskard-2.0.0b3.tar.gz --markdown 20230607/g/giskard/2.0.0b2-2.0.0b3/diff.md --exclude *.pyd
+[2023-06-07 03:16:16] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.98.tar.gz]
+[2023-06-07 03:16:16] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.99.tar.gz]
+[2023-06-07 03:16:16] INFO root fetch - processPackages [pepperize.cdk-organizations]: Start processing: cardboard.py
+[2023-06-07 03:16:16] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-organizations]: success
+[2023-06-07 03:16:16] INFO root fetch - processPackages [cardboard.py]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-07 03:16:16] INFO root fetch - processPackages [cardboard.py]: Downloading https://files.pythonhosted.org/packages/8e/74/7a6c339396a3992fbe2c032b34b7bd17495a4c39faea754d9c666e6f7d68/cardboard.py-0.0.8.tar.gz
+[2023-06-07 03:16:16] INFO root fetch - processPackages [school-grader]: Remove: archive file [/home/abi/fetcher/tmp/school_grader-4.0.3.tar.gz]
+[2023-06-07 03:16:16] INFO root fetch - processPackages [school-grader]: Remove: archive file [/home/abi/fetcher/tmp/school_grader-4.0.4.tar.gz]
+[2023-06-07 03:16:16] INFO root fetch - main [MainThread]: End processing [school-grader]: success
+[2023-06-07 03:16:16] INFO root fetch - processPackages [structure-py]: Remove: archive file [/home/abi/fetcher/tmp/structure_py-0.8.4-py3-none-any.whl.zip]
+[2023-06-07 03:16:16] INFO root fetch - processPackages [structure-py]: Remove: archive file [/home/abi/fetcher/tmp/structure_py-0.9.0.tar.gz]
+[2023-06-07 03:16:16] INFO root fetch - main [MainThread]: End processing [structure-py]: success
+[2023-06-07 03:16:16] INFO root fetch - processPackages [odoo-addon-html-text]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_html_text-15.0.1.0.0.5-py3-none-any.whl.zip]
+[2023-06-07 03:16:16] INFO root fetch - processPackages [odoo-addon-html-text]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_html_text-15.0.1.0.1-py3-none-any.whl.zip]
+[2023-06-07 03:16:16] INFO root fetch - main [MainThread]: End processing [odoo-addon-html-text]: success
+[2023-06-07 03:16:16] INFO root fetch - processPackages [cardboard.py]: Downloading https://files.pythonhosted.org/packages/a1/ef/855494219a5cfb8b3fbed3fdf5ac4f76c16e79b392db418a41c7e9c28237/cardboard.py-0.0.9.tar.gz
+[2023-06-07 03:16:16] INFO root fetch - processPackages [cardboard.py]: executing diffoscope
+[2023-06-07 03:16:16] INFO root fetch - processPackages [cardboard.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cardboard.py-0.0.8.tar.gz tmp/cardboard.py-0.0.9.tar.gz --markdown 20230607/c/cardboard.py/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-07 03:16:16] INFO root fetch - processPackages [odoo-addon-letsencrypt]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_letsencrypt-15.0.1.0.2.5-py3-none-any.whl.zip]
+[2023-06-07 03:16:16] INFO root fetch - processPackages [odoo-addon-letsencrypt]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_letsencrypt-15.0.1.0.3-py3-none-any.whl.zip]
+[2023-06-07 03:16:16] INFO root fetch - main [MainThread]: End processing [odoo-addon-letsencrypt]: success
+[2023-06-07 03:16:16] INFO root fetch - processPackages [odoo-addon-html-image-url-extractor]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_html_image_url_extractor-15.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-06-07 03:16:16] INFO root fetch - processPackages [odoo-addon-html-image-url-extractor]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_html_image_url_extractor-15.0.1.0.1-py3-none-any.whl.zip]
+[2023-06-07 03:16:16] INFO root fetch - main [MainThread]: End processing [odoo-addon-html-image-url-extractor]: success
+[2023-06-07 03:16:17] INFO root fetch - processPackages [DomiKnowS]: Remove: archive file [/home/abi/fetcher/tmp/DomiKnowS-0.533.tar.gz]
+[2023-06-07 03:16:17] INFO root fetch - processPackages [DomiKnowS]: Remove: archive file [/home/abi/fetcher/tmp/DomiKnowS-0.534.dev0.tar.gz]
+[2023-06-07 03:16:17] INFO root fetch - main [MainThread]: End processing [DomiKnowS]: success
+[2023-06-07 03:16:17] INFO root fetch - processPackages [cardboard.py]: Remove: archive file [/home/abi/fetcher/tmp/cardboard.py-0.0.8.tar.gz]
+[2023-06-07 03:16:17] INFO root fetch - processPackages [cardboard.py]: Remove: archive file [/home/abi/fetcher/tmp/cardboard.py-0.0.9.tar.gz]
+[2023-06-07 03:16:17] INFO root fetch - main [MainThread]: End processing [cardboard.py]: success
+[2023-06-07 03:16:18] INFO root fetch - processPackages [peachdb-imagebind]: Remove: archive file [/home/abi/fetcher/tmp/peachdb-imagebind-0.0.2.tar.gz]
+[2023-06-07 03:16:18] INFO root fetch - processPackages [peachdb-imagebind]: Remove: archive file [/home/abi/fetcher/tmp/peachdb-imagebind-0.0.3.tar.gz]
+[2023-06-07 03:16:18] INFO root fetch - main [MainThread]: End processing [peachdb-imagebind]: success
+[2023-06-07 03:16:18] INFO root fetch - processPackages [giskard]: Remove: archive file [/home/abi/fetcher/tmp/giskard-2.0.0b2.tar.gz]
+[2023-06-07 03:16:18] INFO root fetch - processPackages [giskard]: Remove: archive file [/home/abi/fetcher/tmp/giskard-2.0.0b3.tar.gz]
+[2023-06-07 03:16:18] INFO root fetch - main [MainThread]: End processing [giskard]: success
+[2023-06-07 03:16:25] INFO root fetch - processPackages [libsbmlnetworkeditor]: Remove: archive file [/home/abi/fetcher/tmp/libsbmlnetworkeditor-0.0.3-cp39-cp39-macosx_11_0_universal2.whl.zip]
+[2023-06-07 03:16:25] INFO root fetch - processPackages [libsbmlnetworkeditor]: Remove: archive file [/home/abi/fetcher/tmp/libsbmlnetworkeditor-0.0.4-cp39-cp39-macosx_11_0_universal2.whl.zip]
+[2023-06-07 03:16:25] INFO root fetch - main [MainThread]: End processing [libsbmlnetworkeditor]: success
+[2023-06-07 03:16:25] INFO root fetch - main [MainThread]: Store serial: [18400326]
