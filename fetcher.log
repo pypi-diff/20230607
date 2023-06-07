@@ -11871,3 +11871,108 @@ AssertionError: tmp/odoo_addon_crm_lead_firstname-16.0.1.0.1-py3-none-any.whl.zi
 [2023-06-07 06:00:09] INFO root fetch - processPackages [somata]: Remove: archive file [/home/abi/fetcher/tmp/somata-0.3.1.tar.gz]
 [2023-06-07 06:00:09] INFO root fetch - main [MainThread]: End processing [somata]: success
 [2023-06-07 06:00:09] INFO root fetch - main [MainThread]: Store serial: [18402482]
+[2023-06-07 06:05:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18402482]
+[2023-06-07 06:05:18] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-07 06:05:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-l10n-es-aeat-mod347
+[2023-06-07 06:05:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-l10n-es-aeat-mod347
+[2023-06-07 06:05:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-l10n-es-aeat-sii-oca
+[2023-06-07 06:05:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-l10n-es-aeat-mod347
+[2023-06-07 06:05:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-l10n-es-pos
+[2023-06-07 06:05:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-l10n-es-ticketbai-batuz
+[2023-06-07 06:05:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addons-oca-l10n-spain
+[2023-06-07 06:05:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pysimflow
+[2023-06-07 06:05:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: meow-sim
+[2023-06-07 06:05:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: uintel
+[2023-06-07 06:05:18] INFO root fetch - processPackages [odoo-addon-l10n-es-pos]: New version: [16.0.1.0.0.6] Old Version: [16.0.1.0.0.5]
+[2023-06-07 06:05:18] INFO root fetch - processPackages [odoo-addon-l10n-es-ticketbai-batuz]: New version: [16.0.1.0.0.3] Old Version: [16.0.1.0.0.2]
+[2023-06-07 06:05:18] INFO root fetch - processPackages [uintel]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-06-07 06:05:18] INFO root fetch - processPackages [odoo-addons-oca-l10n-spain]: New version: [16.0.20230606.1] Old Version: [16.0.20230508.0]
+[2023-06-07 06:05:18] INFO root fetch - processPackages [odoo14-addon-l10n-es-aeat-mod347]: New version: [14.0.2.5.0] Old Version: [14.0.2.4.0]
+[2023-06-07 06:05:18] INFO root fetch - processPackages [pysimflow]: New version: [0.0.50] Old Version: [0.0.49]
+[2023-06-07 06:05:18] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod347]: New version: [16.0.1.5.0] Old Version: [16.0.1.4.0]
+[2023-06-07 06:05:18] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod347]: New version: [16.0.1.5.0] Old Version: [16.0.1.4.0]
+[2023-06-07 06:05:18] INFO root fetch - processPackages [meow-sim]: New version: [0.5.0] Old Version: [0.4.3]
+[2023-06-07 06:05:18] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-sii-oca]: New version: [16.0.1.2.3.2] Old Version: [16.0.1.2.3]
+[2023-06-07 06:05:18] INFO root fetch - processPackages [odoo-addon-l10n-es-ticketbai-batuz]: Downloading https://files.pythonhosted.org/packages/61/ed/f49c8ee707c29e26dcad833965b2d6054c2e6f90e328eabab1f47dca2df6/odoo_addon_l10n_es_ticketbai_batuz-16.0.1.0.0.2-py3-none-any.whl
+[2023-06-07 06:05:18] INFO root fetch - processPackages [odoo-addon-l10n-es-pos]: Downloading https://files.pythonhosted.org/packages/05/5c/0a417c93a78e0cf40e70e183e8150e4b804f242b9424251c497e05d16725/odoo_addon_l10n_es_pos-16.0.1.0.0.5-py3-none-any.whl
+[2023-06-07 06:05:18] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod347]: Downloading https://files.pythonhosted.org/packages/25/84/79a350e723c103da0a69aceee56db48d2dadf9da988e2674f605176ccea9/odoo_addon_l10n_es_aeat_mod347-16.0.1.4.0-py3-none-any.whl
+[2023-06-07 06:05:18] INFO root fetch - processPackages [uintel]: Downloading https://files.pythonhosted.org/packages/d1/aa/deaf4e5dbe4eb1729f48b1a00a0f76757703ad3b76b53df6e35054c53bae/uintel-0.4.3.tar.gz
+[2023-06-07 06:05:18] INFO root fetch - processPackages [meow-sim]: Downloading https://files.pythonhosted.org/packages/3a/32/04ceba5d1e89a4a8fd63bea224866e770e4c8cd528a2483a883d1ef1a8c5/meow-sim-0.4.3.tar.gz
+[2023-06-07 06:05:19] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod347]: Downloading https://files.pythonhosted.org/packages/25/84/79a350e723c103da0a69aceee56db48d2dadf9da988e2674f605176ccea9/odoo_addon_l10n_es_aeat_mod347-16.0.1.4.0-py3-none-any.whl
+[2023-06-07 06:05:19] INFO root fetch - processPackages [pysimflow]: Downloading https://files.pythonhosted.org/packages/43/38/14e54b33265450c949a72cd4c184e7f84c30690cf5cc4f26091e4a9bca58/pysimflow-0.0.49.tar.gz
+[2023-06-07 06:05:19] WARNING root fetch - processPackages [pysimflow]: Skipping package: exceeds size limit 72643654>=10485760
+[2023-06-07 06:05:19] INFO root fetch - processPackages [pysimflow]: Start processing: pinecone-client
+[2023-06-07 06:05:19] INFO root fetch - main [MainThread]: End processing [pysimflow] error
+[2023-06-07 06:05:19] INFO root fetch - processPackages [pinecone-client]: New version: [3.0.0rc2] Old Version: [2.2.2rc4]
+[2023-06-07 06:05:19] INFO root fetch - processPackages [odoo-addons-oca-l10n-spain]: Downloading https://files.pythonhosted.org/packages/17/b2/707324c9b5582dea622987dafb36d64c51c84f5d2d6293de1978009a0498/odoo_addons_oca_l10n_spain-16.0.20230508.0-py3-none-any.whl
+[2023-06-07 06:05:19] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-sii-oca]: Downloading https://files.pythonhosted.org/packages/ec/05/0a13c124822cf302fff417f4df72fc62168d1d89391f24b65cacef4061fc/odoo_addon_l10n_es_aeat_sii_oca-16.0.1.2.3-py3-none-any.whl
+[2023-06-07 06:05:19] INFO root fetch - processPackages [pinecone-client]: Downloading https://files.pythonhosted.org/packages/3b/fc/d93783342f5ae5a9f8c239b3c7ac53e50f3cf6a5a1b943f76f46007529bb/pinecone-client-2.2.2rc4.tar.gz
+[2023-06-07 06:05:19] INFO root fetch - processPackages [odoo14-addon-l10n-es-aeat-mod347]: Downloading https://files.pythonhosted.org/packages/e0/77/c836762a2658cac5d10b869f66eb3a64e64624dd9399c505891a539ef0be/odoo14_addon_l10n_es_aeat_mod347-14.0.2.4.0-py3-none-any.whl
+[2023-06-07 06:05:19] INFO root fetch - processPackages [meow-sim]: Downloading https://files.pythonhosted.org/packages/d3/ea/a70e8997e07c1bff396630ce0384ac1f274c5c57b42f992c2a5a279e7de4/meow-sim-0.5.0.tar.gz
+[2023-06-07 06:05:19] INFO root fetch - processPackages [odoo-addon-l10n-es-pos]: Downloading https://files.pythonhosted.org/packages/a9/16/4d75c3799cde6a848c7f5ea7f65d7624f4e1cbbc408997c8bd6f7fdbe8f0/odoo_addon_l10n_es_pos-16.0.1.0.0.6-py3-none-any.whl
+[2023-06-07 06:05:19] INFO root fetch - processPackages [odoo-addon-l10n-es-ticketbai-batuz]: Downloading https://files.pythonhosted.org/packages/56/f6/88f688310cbaedfa342efef5e04a6dbf2dffdd0c4c4fa50ca2c323018416/odoo_addon_l10n_es_ticketbai_batuz-16.0.1.0.0.3-py3-none-any.whl
+[2023-06-07 06:05:19] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod347]: Downloading https://files.pythonhosted.org/packages/32/ec/58a34b62715505b8c23fa3d4a95f35181288e21dc39467f7a487d3c86b6d/odoo_addon_l10n_es_aeat_mod347-16.0.1.5.0-py3-none-any.whl
+[2023-06-07 06:05:19] INFO root fetch - processPackages [uintel]: Downloading https://files.pythonhosted.org/packages/08/03/a8d82a554251cfafa74a36d8686980381083f66323f08165e6cb091b0b91/uintel-0.4.4.tar.gz
+[2023-06-07 06:05:19] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod347]: Downloading https://files.pythonhosted.org/packages/32/ec/58a34b62715505b8c23fa3d4a95f35181288e21dc39467f7a487d3c86b6d/odoo_addon_l10n_es_aeat_mod347-16.0.1.5.0-py3-none-any.whl
+[2023-06-07 06:05:19] INFO root fetch - processPackages [odoo-addon-l10n-es-pos]: executing diffoscope
+[2023-06-07 06:05:19] INFO root fetch - processPackages [odoo-addon-l10n-es-pos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_pos-16.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_pos-16.0.1.0.0.6-py3-none-any.whl.zip --markdown 20230607/o/odoo-addon-l10n-es-pos/16.0.1.0.0.5-16.0.1.0.0.6/diff.md --exclude *.pyd
+[2023-06-07 06:05:19] INFO root fetch - processPackages [meow-sim]: executing diffoscope
+[2023-06-07 06:05:19] INFO root fetch - processPackages [meow-sim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meow-sim-0.4.3.tar.gz tmp/meow-sim-0.5.0.tar.gz --markdown 20230607/m/meow-sim/0.4.3-0.5.0/diff.md --exclude *.pyd
+[2023-06-07 06:05:19] INFO root fetch - processPackages [odoo-addon-l10n-es-ticketbai-batuz]: executing diffoscope
+[2023-06-07 06:05:19] INFO root fetch - processPackages [odoo-addon-l10n-es-ticketbai-batuz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_ticketbai_batuz-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_ticketbai_batuz-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230607/o/odoo-addon-l10n-es-ticketbai-batuz/16.0.1.0.0.2-16.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-06-07 06:05:19] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod347]: executing diffoscope
+[2023-06-07 06:05:19] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod347]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_aeat_mod347-16.0.1.4.0-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_aeat_mod347-16.0.1.5.0-py3-none-any.whl.zip --markdown 20230607/o/odoo-addon-l10n-es-aeat-mod347/16.0.1.4.0-16.0.1.5.0/diff.md --exclude *.pyd
+[2023-06-07 06:05:19] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod347]: executing diffoscope
+[2023-06-07 06:05:19] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod347]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_aeat_mod347-16.0.1.4.0-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_aeat_mod347-16.0.1.5.0-py3-none-any.whl.zip --markdown 20230607/o/odoo-addon-l10n-es-aeat-mod347/16.0.1.4.0-16.0.1.5.0/diff.md --exclude *.pyd
+[2023-06-07 06:05:19] INFO root fetch - processPackages [odoo-addons-oca-l10n-spain]: Downloading https://files.pythonhosted.org/packages/d8/dd/0b11d622f161fa9914852f29f618d5c498592f5cfca82820c90a00d85c41/odoo_addons_oca_l10n_spain-16.0.20230606.1-py3-none-any.whl
+[2023-06-07 06:05:19] INFO root fetch - processPackages [pinecone-client]: Downloading https://files.pythonhosted.org/packages/ff/d5/68a0e91460cfa23e60d89ec1fc56fc93efe811521fed1a263634e019c52b/pinecone_client-3.0.0rc2.tar.gz
+[2023-06-07 06:05:19] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-sii-oca]: Downloading https://files.pythonhosted.org/packages/96/e3/5db58a6a3565572d6f2dda2b894a4e8f902a96d5c836771b2096fd29bd80/odoo_addon_l10n_es_aeat_sii_oca-16.0.1.2.3.2-py3-none-any.whl
+[2023-06-07 06:05:19] INFO root fetch - processPackages [uintel]: executing diffoscope
+[2023-06-07 06:05:19] INFO root fetch - processPackages [uintel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uintel-0.4.3.tar.gz tmp/uintel-0.4.4.tar.gz --markdown 20230607/u/uintel/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-06-07 06:05:19] INFO root fetch - processPackages [odoo-addons-oca-l10n-spain]: executing diffoscope
+[2023-06-07 06:05:19] INFO root fetch - processPackages [odoo-addons-oca-l10n-spain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_l10n_spain-16.0.20230508.0-py3-none-any.whl.zip tmp/odoo_addons_oca_l10n_spain-16.0.20230606.1-py3-none-any.whl.zip --markdown 20230607/o/odoo-addons-oca-l10n-spain/16.0.20230508.0-16.0.20230606.1/diff.md --exclude *.pyd
+[2023-06-07 06:05:19] INFO root fetch - processPackages [odoo14-addon-l10n-es-aeat-mod347]: Downloading https://files.pythonhosted.org/packages/cb/3b/50ad1070e26cd013645fd86aecbf053f740ad91d2b19f562671ab688c899/odoo14_addon_l10n_es_aeat_mod347-14.0.2.5.0-py3-none-any.whl
+[2023-06-07 06:05:19] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-sii-oca]: executing diffoscope
+[2023-06-07 06:05:19] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-sii-oca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_aeat_sii_oca-16.0.1.2.3-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_aeat_sii_oca-16.0.1.2.3.2-py3-none-any.whl.zip --markdown 20230607/o/odoo-addon-l10n-es-aeat-sii-oca/16.0.1.2.3-16.0.1.2.3.2/diff.md --exclude *.pyd
+[2023-06-07 06:05:19] INFO root fetch - processPackages [odoo14-addon-l10n-es-aeat-mod347]: executing diffoscope
+[2023-06-07 06:05:19] INFO root fetch - processPackages [odoo14-addon-l10n-es-aeat-mod347]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_es_aeat_mod347-14.0.2.4.0-py3-none-any.whl.zip tmp/odoo14_addon_l10n_es_aeat_mod347-14.0.2.5.0-py3-none-any.whl.zip --markdown 20230607/o/odoo14-addon-l10n-es-aeat-mod347/14.0.2.4.0-14.0.2.5.0/diff.md --exclude *.pyd
+[2023-06-07 06:05:19] INFO root fetch - processPackages [pinecone-client]: executing diffoscope
+[2023-06-07 06:05:19] INFO root fetch - processPackages [pinecone-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pinecone-client-2.2.2rc4.tar.gz tmp/pinecone_client-3.0.0rc2.tar.gz --markdown 20230607/p/pinecone-client/2.2.2rc4-3.0.0rc2/diff.md --exclude *.pyd
+[2023-06-07 06:05:21] INFO root fetch - processPackages [odoo-addons-oca-l10n-spain]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_l10n_spain-16.0.20230508.0-py3-none-any.whl.zip]
+[2023-06-07 06:05:21] INFO root fetch - processPackages [odoo-addons-oca-l10n-spain]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_l10n_spain-16.0.20230606.1-py3-none-any.whl.zip]
+[2023-06-07 06:05:21] INFO root fetch - processPackages [odoo-addons-oca-l10n-spain]: Start processing: tkintertools
+[2023-06-07 06:05:21] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-l10n-spain]: success
+[2023-06-07 06:05:21] INFO root fetch - processPackages [tkintertools]: New version: [2.6.3] Old Version: [2.6.2]
+[2023-06-07 06:05:21] INFO root fetch - processPackages [uintel]: Remove: archive file [/home/abi/fetcher/tmp/uintel-0.4.3.tar.gz]
+[2023-06-07 06:05:21] INFO root fetch - processPackages [uintel]: Remove: archive file [/home/abi/fetcher/tmp/uintel-0.4.4.tar.gz]
+[2023-06-07 06:05:21] INFO root fetch - main [MainThread]: End processing [uintel]: success
+[2023-06-07 06:05:21] INFO root fetch - processPackages [odoo-addon-l10n-es-pos]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_pos-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2023-06-07 06:05:21] INFO root fetch - processPackages [odoo-addon-l10n-es-pos]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_pos-16.0.1.0.0.6-py3-none-any.whl.zip]
+[2023-06-07 06:05:21] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-pos]: success
+[2023-06-07 06:05:21] INFO root fetch - processPackages [odoo-addon-l10n-es-ticketbai-batuz]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_ticketbai_batuz-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-06-07 06:05:21] INFO root fetch - processPackages [odoo-addon-l10n-es-ticketbai-batuz]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_ticketbai_batuz-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-06-07 06:05:21] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-ticketbai-batuz]: success
+[2023-06-07 06:05:21] INFO root fetch - processPackages [meow-sim]: Remove: archive file [/home/abi/fetcher/tmp/meow-sim-0.4.3.tar.gz]
+[2023-06-07 06:05:21] INFO root fetch - processPackages [meow-sim]: Remove: archive file [/home/abi/fetcher/tmp/meow-sim-0.5.0.tar.gz]
+[2023-06-07 06:05:21] INFO root fetch - main [MainThread]: End processing [meow-sim]: success
+[2023-06-07 06:05:21] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod347]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_aeat_mod347-16.0.1.4.0-py3-none-any.whl.zip]
+[2023-06-07 06:05:21] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod347]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_aeat_mod347-16.0.1.5.0-py3-none-any.whl.zip]
+[2023-06-07 06:05:21] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-aeat-mod347]: success
+[2023-06-07 06:05:21] INFO root fetch - processPackages [tkintertools]: Downloading https://files.pythonhosted.org/packages/a0/24/16fbb7702837ce7382e55e56051b22af7cf052c53bc2607953f463a2be9a/tkintertools-2.6.2.tar.gz
+[2023-06-07 06:05:21] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-aeat-mod347]: success
+[2023-06-07 06:05:21] INFO root fetch - processPackages [odoo14-addon-l10n-es-aeat-mod347]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_es_aeat_mod347-14.0.2.4.0-py3-none-any.whl.zip]
+[2023-06-07 06:05:21] INFO root fetch - processPackages [odoo14-addon-l10n-es-aeat-mod347]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_es_aeat_mod347-14.0.2.5.0-py3-none-any.whl.zip]
+[2023-06-07 06:05:21] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-es-aeat-mod347]: success
+[2023-06-07 06:05:21] INFO root fetch - processPackages [tkintertools]: Downloading https://files.pythonhosted.org/packages/ce/bc/cf6adfdc216db31e9377ca7da08f3cd066c11930a4b4da06393d0f25e49a/tkintertools-2.6.3.tar.gz
+[2023-06-07 06:05:22] INFO root fetch - processPackages [tkintertools]: executing diffoscope
+[2023-06-07 06:05:22] INFO root fetch - processPackages [tkintertools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tkintertools-2.6.2.tar.gz tmp/tkintertools-2.6.3.tar.gz --markdown 20230607/t/tkintertools/2.6.2-2.6.3/diff.md --exclude *.pyd
+[2023-06-07 06:05:22] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-sii-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_aeat_sii_oca-16.0.1.2.3-py3-none-any.whl.zip]
+[2023-06-07 06:05:22] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-sii-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_aeat_sii_oca-16.0.1.2.3.2-py3-none-any.whl.zip]
+[2023-06-07 06:05:22] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-aeat-sii-oca]: success
+[2023-06-07 06:05:23] INFO root fetch - processPackages [pinecone-client]: Remove: archive file [/home/abi/fetcher/tmp/pinecone-client-2.2.2rc4.tar.gz]
+[2023-06-07 06:05:23] INFO root fetch - processPackages [pinecone-client]: Remove: archive file [/home/abi/fetcher/tmp/pinecone_client-3.0.0rc2.tar.gz]
+[2023-06-07 06:05:23] INFO root fetch - main [MainThread]: End processing [pinecone-client]: success
+[2023-06-07 06:05:23] INFO root fetch - processPackages [tkintertools]: Remove: archive file [/home/abi/fetcher/tmp/tkintertools-2.6.2.tar.gz]
+[2023-06-07 06:05:23] INFO root fetch - processPackages [tkintertools]: Remove: archive file [/home/abi/fetcher/tmp/tkintertools-2.6.3.tar.gz]
+[2023-06-07 06:05:23] INFO root fetch - main [MainThread]: End processing [tkintertools]: success
+[2023-06-07 06:05:23] INFO root fetch - main [MainThread]: Store serial: [18402512]
