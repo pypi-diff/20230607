@@ -20489,3 +20489,78 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-07 12:01:04] INFO root fetch - processPackages [autofit]: Remove: archive file [/home/abi/fetcher/tmp/autofit-2023.7.7.2.tar.gz]
 [2023-06-07 12:01:04] INFO root fetch - main [MainThread]: End processing [autofit]: success
 [2023-06-07 12:01:04] INFO root fetch - main [MainThread]: Store serial: [18406276]
+[2023-06-07 12:06:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18406276]
+[2023-06-07 12:06:13] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-07 12:06:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ckanext-vocabularies
+[2023-06-07 12:06:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aws-service-catalog-puppet
+[2023-06-07 12:06:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alibabacloud-swas-open20200601-py2
+[2023-06-07 12:06:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nvidia-dali-tf-plugin-nightly-cuda110
+[2023-06-07 12:06:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: alibabacloud-swas-open20200601
+[2023-06-07 12:06:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nvidia-dali-nightly-cuda110
+[2023-06-07 12:06:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aliyun-python-sdk-swas-open
+[2023-06-07 12:06:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cloud-governance
+[2023-06-07 12:06:13] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: New version: [1.27.0.dev20230606] Old Version: [1.27.0.dev20230605]
+[2023-06-07 12:06:13] INFO root fetch - processPackages [ckanext-vocabularies]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-07 12:06:13] INFO root fetch - processPackages [alibabacloud-swas-open20200601-py2]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-07 12:06:13] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: New version: [1.27.0.dev20230606] Old Version: [1.27.0.dev20230605]
+[2023-06-07 12:06:13] INFO root fetch - processPackages [alibabacloud-swas-open20200601]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-07 12:06:13] INFO root fetch - processPackages [aws-service-catalog-puppet]: New version: [0.99.2] Old Version: [0.99.1]
+[2023-06-07 12:06:13] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: Downloading https://files.pythonhosted.org/packages/21/fe/4ba2bf029f283680aa9a897a0b9f0eb8d6138a810a450e68d9c03955a6a2/nvidia-dali-nightly-cuda110-1.27.0.dev20230605.tar.gz
+[2023-06-07 12:06:13] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: Downloading https://files.pythonhosted.org/packages/2b/e2/305916ba25a152706a404bb6f968df774c392a96f36d8345c66bba1cd0a9/nvidia-dali-tf-plugin-nightly-cuda110-1.27.0.dev20230605.tar.gz
+[2023-06-07 12:06:13] INFO root fetch - processPackages [aliyun-python-sdk-swas-open]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-07 12:06:13] INFO root fetch - processPackages [aws-service-catalog-puppet]: Downloading https://files.pythonhosted.org/packages/3a/0a/dc7cf04c0ea832cf150d3f55f108dd565dd0d54088947fc29ea34dc03c99/aws-service-catalog-puppet-0.99.1.tar.gz
+[2023-06-07 12:06:13] INFO root fetch - processPackages [ckanext-vocabularies]: Downloading https://files.pythonhosted.org/packages/09/19/d4ea70f98e92b60b581f593fdc5d20661a6eaed87e20feef34700e10323b/ckanext-vocabularies-0.0.6.tar.gz
+[2023-06-07 12:06:13] INFO root fetch - processPackages [alibabacloud-swas-open20200601-py2]: Downloading https://files.pythonhosted.org/packages/7c/72/67feebbe9e64d765f30b8355b5833ab9f250b6c2d30e1607f3e4d30947a5/alibabacloud_swas-open20200601_py2-1.0.3.tar.gz
+[2023-06-07 12:06:13] INFO root fetch - processPackages [alibabacloud-swas-open20200601]: Downloading https://files.pythonhosted.org/packages/78/64/351e46554312b5f15d8de7897ca2506ad3fbe1ec3d56b5ee4588e0cb8566/alibabacloud_swas-open20200601-1.0.3.tar.gz
+[2023-06-07 12:06:13] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: Downloading https://files.pythonhosted.org/packages/dc/f6/86123a28256067fb80639a40e151795513e9983b035397fb4968a645d214/nvidia-dali-tf-plugin-nightly-cuda110-1.27.0.dev20230606.tar.gz
+[2023-06-07 12:06:13] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: Downloading https://files.pythonhosted.org/packages/07/8c/be6699c9f8f74ec99ea153b8d64a805d458d37421bf0f78af49b259b2e82/nvidia-dali-nightly-cuda110-1.27.0.dev20230606.tar.gz
+[2023-06-07 12:06:13] INFO root fetch - processPackages [aws-service-catalog-puppet]: Downloading https://files.pythonhosted.org/packages/6e/80/879da5426c375016f7a97e287a9c8f48b1c49989432086cc0896a9d58374/aws-service-catalog-puppet-0.99.2.tar.gz
+[2023-06-07 12:06:13] INFO root fetch - processPackages [aliyun-python-sdk-swas-open]: Downloading https://files.pythonhosted.org/packages/52/4c/850cabda5607b6ac38cb51959a5c7f4cb888dcc0e27de433aaab6e67d3ba/aliyun-python-sdk-swas-open-1.0.0.tar.gz
+[2023-06-07 12:06:14] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: executing diffoscope
+[2023-06-07 12:06:14] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia-dali-tf-plugin-nightly-cuda110-1.27.0.dev20230605.tar.gz tmp/nvidia-dali-tf-plugin-nightly-cuda110-1.27.0.dev20230606.tar.gz --markdown 20230607/n/nvidia-dali-tf-plugin-nightly-cuda110/1.27.0.dev20230605-1.27.0.dev20230606/diff.md --exclude *.pyd
+[2023-06-07 12:06:14] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: executing diffoscope
+[2023-06-07 12:06:14] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia-dali-nightly-cuda110-1.27.0.dev20230605.tar.gz tmp/nvidia-dali-nightly-cuda110-1.27.0.dev20230606.tar.gz --markdown 20230607/n/nvidia-dali-nightly-cuda110/1.27.0.dev20230605-1.27.0.dev20230606/diff.md --exclude *.pyd
+[2023-06-07 12:06:14] INFO root fetch - processPackages [cloud-governance]: New version: [1.1.99] Old Version: [1.1.98]
+[2023-06-07 12:06:14] INFO root fetch - processPackages [alibabacloud-swas-open20200601-py2]: Downloading https://files.pythonhosted.org/packages/b0/91/80e6d16af0841f6c40b28a62c32b80a29de9a4d2fffc30143f52601900d7/alibabacloud_swas-open20200601_py2-1.0.4.tar.gz
+[2023-06-07 12:06:14] INFO root fetch - processPackages [ckanext-vocabularies]: Downloading https://files.pythonhosted.org/packages/f1/6a/8ee339e2d423b94d6cd5719fcac9a541627d88806f0bd5f71115d732a2f0/ckanext-vocabularies-0.0.7.tar.gz
+[2023-06-07 12:06:14] INFO root fetch - processPackages [alibabacloud-swas-open20200601]: Downloading https://files.pythonhosted.org/packages/f4/1e/548a1b76aac9d2da1d148d35cce2c23030557fc6ae01557a0d397ed7f4f0/alibabacloud_swas-open20200601-1.0.4.tar.gz
+[2023-06-07 12:06:14] INFO root fetch - processPackages [aws-service-catalog-puppet]: executing diffoscope
+[2023-06-07 12:06:14] INFO root fetch - processPackages [aws-service-catalog-puppet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-service-catalog-puppet-0.99.1.tar.gz tmp/aws-service-catalog-puppet-0.99.2.tar.gz --markdown 20230607/a/aws-service-catalog-puppet/0.99.1-0.99.2/diff.md --exclude *.pyd
+[2023-06-07 12:06:14] INFO root fetch - processPackages [alibabacloud-swas-open20200601-py2]: executing diffoscope
+[2023-06-07 12:06:14] INFO root fetch - processPackages [alibabacloud-swas-open20200601-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_swas-open20200601_py2-1.0.3.tar.gz tmp/alibabacloud_swas-open20200601_py2-1.0.4.tar.gz --markdown 20230607/a/alibabacloud-swas-open20200601-py2/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-07 12:06:14] INFO root fetch - processPackages [ckanext-vocabularies]: executing diffoscope
+[2023-06-07 12:06:14] INFO root fetch - processPackages [ckanext-vocabularies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ckanext-vocabularies-0.0.6.tar.gz tmp/ckanext-vocabularies-0.0.7.tar.gz --markdown 20230607/c/ckanext-vocabularies/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-07 12:06:14] INFO root fetch - processPackages [alibabacloud-swas-open20200601]: executing diffoscope
+[2023-06-07 12:06:14] INFO root fetch - processPackages [alibabacloud-swas-open20200601]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_swas-open20200601-1.0.3.tar.gz tmp/alibabacloud_swas-open20200601-1.0.4.tar.gz --markdown 20230607/a/alibabacloud-swas-open20200601/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-07 12:06:14] INFO root fetch - processPackages [cloud-governance]: Downloading https://files.pythonhosted.org/packages/af/f8/db9bacb41ff13a7d3ae59369ae36809c3202232c910b932a09e42257b676/cloud-governance-1.1.98.tar.gz
+[2023-06-07 12:06:14] INFO root fetch - processPackages [cloud-governance]: Downloading https://files.pythonhosted.org/packages/ec/3e/06dc6e6844d3033717858064a494efaaf4cdae01a0c58d2b2a38273075e2/cloud-governance-1.1.99.tar.gz
+[2023-06-07 12:06:14] INFO root fetch - processPackages [cloud-governance]: executing diffoscope
+[2023-06-07 12:06:14] INFO root fetch - processPackages [cloud-governance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud-governance-1.1.98.tar.gz tmp/cloud-governance-1.1.99.tar.gz --markdown 20230607/c/cloud-governance/1.1.98-1.1.99/diff.md --exclude *.pyd
+[2023-06-07 12:06:14] INFO root fetch - processPackages [aliyun-python-sdk-swas-open]: Downloading https://files.pythonhosted.org/packages/56/f1/743a0286a69aa0979ee1919b47e28e5994abe0339a0f32d02ae9bd310bde/aliyun-python-sdk-swas-open-1.0.1.tar.gz
+[2023-06-07 12:06:14] INFO root fetch - processPackages [aliyun-python-sdk-swas-open]: executing diffoscope
+[2023-06-07 12:06:14] INFO root fetch - processPackages [aliyun-python-sdk-swas-open]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-swas-open-1.0.0.tar.gz tmp/aliyun-python-sdk-swas-open-1.0.1.tar.gz --markdown 20230607/a/aliyun-python-sdk-swas-open/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-07 12:06:15] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: Remove: archive file [/home/abi/fetcher/tmp/nvidia-dali-nightly-cuda110-1.27.0.dev20230605.tar.gz]
+[2023-06-07 12:06:15] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: Remove: archive file [/home/abi/fetcher/tmp/nvidia-dali-nightly-cuda110-1.27.0.dev20230606.tar.gz]
+[2023-06-07 12:06:15] INFO root fetch - main [MainThread]: End processing [nvidia-dali-nightly-cuda110]: success
+[2023-06-07 12:06:15] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: Remove: archive file [/home/abi/fetcher/tmp/nvidia-dali-tf-plugin-nightly-cuda110-1.27.0.dev20230605.tar.gz]
+[2023-06-07 12:06:15] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: Remove: archive file [/home/abi/fetcher/tmp/nvidia-dali-tf-plugin-nightly-cuda110-1.27.0.dev20230606.tar.gz]
+[2023-06-07 12:06:15] INFO root fetch - main [MainThread]: End processing [nvidia-dali-tf-plugin-nightly-cuda110]: success
+[2023-06-07 12:06:15] INFO root fetch - processPackages [alibabacloud-swas-open20200601]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_swas-open20200601-1.0.3.tar.gz]
+[2023-06-07 12:06:15] INFO root fetch - processPackages [alibabacloud-swas-open20200601]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_swas-open20200601-1.0.4.tar.gz]
+[2023-06-07 12:06:15] INFO root fetch - main [MainThread]: End processing [alibabacloud-swas-open20200601]: success
+[2023-06-07 12:06:15] INFO root fetch - processPackages [ckanext-vocabularies]: Remove: archive file [/home/abi/fetcher/tmp/ckanext-vocabularies-0.0.6.tar.gz]
+[2023-06-07 12:06:15] INFO root fetch - processPackages [ckanext-vocabularies]: Remove: archive file [/home/abi/fetcher/tmp/ckanext-vocabularies-0.0.7.tar.gz]
+[2023-06-07 12:06:15] INFO root fetch - main [MainThread]: End processing [ckanext-vocabularies]: success
+[2023-06-07 12:06:16] INFO root fetch - processPackages [aliyun-python-sdk-swas-open]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-swas-open-1.0.0.tar.gz]
+[2023-06-07 12:06:16] INFO root fetch - processPackages [aliyun-python-sdk-swas-open]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-swas-open-1.0.1.tar.gz]
+[2023-06-07 12:06:16] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-swas-open]: success
+[2023-06-07 12:06:17] INFO root fetch - processPackages [alibabacloud-swas-open20200601-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_swas-open20200601_py2-1.0.3.tar.gz]
+[2023-06-07 12:06:17] INFO root fetch - processPackages [alibabacloud-swas-open20200601-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_swas-open20200601_py2-1.0.4.tar.gz]
+[2023-06-07 12:06:17] INFO root fetch - main [MainThread]: End processing [alibabacloud-swas-open20200601-py2]: success
+[2023-06-07 12:06:17] INFO root fetch - processPackages [aws-service-catalog-puppet]: Remove: archive file [/home/abi/fetcher/tmp/aws-service-catalog-puppet-0.99.1.tar.gz]
+[2023-06-07 12:06:17] INFO root fetch - processPackages [aws-service-catalog-puppet]: Remove: archive file [/home/abi/fetcher/tmp/aws-service-catalog-puppet-0.99.2.tar.gz]
+[2023-06-07 12:06:17] INFO root fetch - main [MainThread]: End processing [aws-service-catalog-puppet]: success
+[2023-06-07 12:06:17] INFO root fetch - processPackages [cloud-governance]: Remove: archive file [/home/abi/fetcher/tmp/cloud-governance-1.1.98.tar.gz]
+[2023-06-07 12:06:17] INFO root fetch - processPackages [cloud-governance]: Remove: archive file [/home/abi/fetcher/tmp/cloud-governance-1.1.99.tar.gz]
+[2023-06-07 12:06:17] INFO root fetch - main [MainThread]: End processing [cloud-governance]: success
+[2023-06-07 12:06:17] INFO root fetch - main [MainThread]: Store serial: [18406302]
