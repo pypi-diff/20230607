@@ -11651,3 +11651,72 @@ AssertionError: tmp/odoo_addon_crm_lead_firstname-16.0.1.0.1-py3-none-any.whl.zi
 [2023-06-07 05:39:19] INFO root fetch - processPackages [aaz-dev]: Remove: archive file [/home/abi/fetcher/tmp/aaz-dev-1.3.1.tar.gz]
 [2023-06-07 05:39:19] INFO root fetch - main [MainThread]: End processing [aaz-dev]: success
 [2023-06-07 05:39:19] INFO root fetch - main [MainThread]: Store serial: [18402390]
+[2023-06-07 05:44:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18402390]
+[2023-06-07 05:44:28] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-07 05:44:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: synonym-custom
+[2023-06-07 05:44:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-l10n-br-account
+[2023-06-07 05:44:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: duckdb
+[2023-06-07 05:44:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: scutls
+[2023-06-07 05:44:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: NikChat
+[2023-06-07 05:44:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cc12703-uiautomator2
+[2023-06-07 05:44:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sfpl
+[2023-06-07 05:44:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo8-addon-l10n-fr-intrastat-service
+[2023-06-07 05:44:28] INFO root fetch - processPackages [sfpl]: New version: [1.5.5] Old Version: [1.5.4]
+[2023-06-07 05:44:28] INFO root fetch - processPackages [odoo14-addon-l10n-br-account]: New version: [14.0.7.0.1.dev1] Old Version: [14.0.7.0.0]
+[2023-06-07 05:44:28] INFO root fetch - processPackages [scutls]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-06-07 05:44:28] INFO root fetch - processPackages [cc12703-uiautomator2]: New version: [2.7.3] Old Version: [2.7.2]
+[2023-06-07 05:44:28] INFO root fetch - processPackages [NikChat]: New version: [2.2.1.1.2] Old Version: [2.2.1.1.1]
+[2023-06-07 05:44:28] INFO root fetch - processPackages [sfpl]: Downloading https://files.pythonhosted.org/packages/38/27/d359250581a308c08f5ca8a46c6f753772eace3e12e4efb5079efb3a0ab3/sfpl-1.5.4-py3-none-any.whl
+[2023-06-07 05:44:28] INFO root fetch - processPackages [odoo14-addon-l10n-br-account]: Downloading https://files.pythonhosted.org/packages/c0/46/3b2e83f0e903e52e97ef6476a7a79f75c5662fc5416fa69c063f6da964ef/odoo14_addon_l10n_br_account-14.0.7.0.0-py3-none-any.whl
+[2023-06-07 05:44:28] INFO root fetch - processPackages [NikChat]: Downloading https://files.pythonhosted.org/packages/84/ba/219c5786c9872b2c8d77e3f9ea45491ef4a3fbce35419b6946465b3179e1/NikChat-2.2.1.1.1.tar.gz
+[2023-06-07 05:44:28] INFO root fetch - processPackages [odoo8-addon-l10n-fr-intrastat-service]: New version: [8.0.2.0.0.99.dev9] Old Version: [8.0.2.0.0.99.dev8]
+[2023-06-07 05:44:28] WARNING root fetch - processPackages [synonym-custom]: Skipping, unable to determine old version
+[2023-06-07 05:44:28] INFO root fetch - main [MainThread]: End processing [synonym-custom] error
+[2023-06-07 05:44:28] INFO root fetch - processPackages [duckdb]: New version: [0.8.1.dev341] Old Version: [0.8.1.dev327]
+[2023-06-07 05:44:28] INFO root fetch - processPackages [cc12703-uiautomator2]: Downloading https://files.pythonhosted.org/packages/e5/c7/dbed380730b958e75509fbba0a678b38fe2e70776cfee3c4507795f56da9/cc12703_uiautomator2-2.7.2.tar.gz
+[2023-06-07 05:44:28] INFO root fetch - processPackages [scutls]: Downloading https://files.pythonhosted.org/packages/cf/58/f4d960d9a962f6a33b6c3920f4e794d597ce473ed988b109adadd6fefbcb/scutls-0.2.3.tar.gz
+[2023-06-07 05:44:28] INFO root fetch - processPackages [sfpl]: Downloading https://files.pythonhosted.org/packages/76/f8/4edc5aeafd16b27b330c34cb9252e3139915d3fbd214f5623e9f5deecca5/sfpl-1.5.5-py3-none-any.whl
+[2023-06-07 05:44:28] INFO root fetch - processPackages [odoo8-addon-l10n-fr-intrastat-service]: Downloading https://files.pythonhosted.org/packages/65/75/23f041054778f372496a98b19edb0d5595a24afb92f7d9e9cb7eb154c960/odoo8_addon_l10n_fr_intrastat_service-8.0.2.0.0.99.dev8-py2-none-any.whl
+[2023-06-07 05:44:28] INFO root fetch - processPackages [duckdb]: Downloading https://files.pythonhosted.org/packages/a9/92/afa74726468c571bb031c9d7de28976bd53756fb7db235d620fe1ee35be8/duckdb-0.8.1.dev327.tar.gz
+[2023-06-07 05:44:28] INFO root fetch - processPackages [NikChat]: Downloading https://files.pythonhosted.org/packages/36/94/7d1a73fe90032766b1bcb341c87a8a09e7f73d7fd188d69528d149fda4bb/NikChat-2.2.1.1.2.tar.gz
+[2023-06-07 05:44:28] INFO root fetch - processPackages [odoo14-addon-l10n-br-account]: Downloading https://files.pythonhosted.org/packages/0f/b5/a92ec0c67be74ae62b02390c3fb4d3fdfc219258c5592955fc77688cd2d6/odoo14_addon_l10n_br_account-14.0.7.0.1.dev1-py3-none-any.whl
+[2023-06-07 05:44:28] INFO root fetch - processPackages [sfpl]: executing diffoscope
+[2023-06-07 05:44:28] INFO root fetch - processPackages [sfpl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sfpl-1.5.4-py3-none-any.whl.zip tmp/sfpl-1.5.5-py3-none-any.whl.zip --markdown 20230607/s/sfpl/1.5.4-1.5.5/diff.md --exclude *.pyd
+[2023-06-07 05:44:28] INFO root fetch - processPackages [scutls]: Downloading https://files.pythonhosted.org/packages/f5/a1/82ad51cda48c57f19d8f72b4758dd2e0d6e6c64036db645da34b09c28d5b/scutls-0.2.4.tar.gz
+[2023-06-07 05:44:28] INFO root fetch - processPackages [NikChat]: executing diffoscope
+[2023-06-07 05:44:28] INFO root fetch - processPackages [NikChat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NikChat-2.2.1.1.1.tar.gz tmp/NikChat-2.2.1.1.2.tar.gz --markdown 20230607/N/NikChat/2.2.1.1.1-2.2.1.1.2/diff.md --exclude *.pyd
+[2023-06-07 05:44:28] INFO root fetch - processPackages [odoo14-addon-l10n-br-account]: executing diffoscope
+[2023-06-07 05:44:28] INFO root fetch - processPackages [odoo14-addon-l10n-br-account]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_br_account-14.0.7.0.0-py3-none-any.whl.zip tmp/odoo14_addon_l10n_br_account-14.0.7.0.1.dev1-py3-none-any.whl.zip --markdown 20230607/o/odoo14-addon-l10n-br-account/14.0.7.0.0-14.0.7.0.1.dev1/diff.md --exclude *.pyd
+[2023-06-07 05:44:28] INFO root fetch - processPackages [cc12703-uiautomator2]: Downloading https://files.pythonhosted.org/packages/ad/57/53a120ba6ca4129b83a299a1d405ac408c0a23f150b548436d61e2148c5b/cc12703_uiautomator2-2.7.3.tar.gz
+[2023-06-07 05:44:29] INFO root fetch - processPackages [scutls]: executing diffoscope
+[2023-06-07 05:44:29] INFO root fetch - processPackages [scutls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scutls-0.2.3.tar.gz tmp/scutls-0.2.4.tar.gz --markdown 20230607/s/scutls/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-06-07 05:44:29] INFO root fetch - processPackages [odoo8-addon-l10n-fr-intrastat-service]: Downloading https://files.pythonhosted.org/packages/33/72/dacfdda5f88d064c2158b403106468aa2a675fab9c9f256d5d4988fc0058/odoo8_addon_l10n_fr_intrastat_service-8.0.2.0.0.99.dev9-py2-none-any.whl
+[2023-06-07 05:44:29] INFO root fetch - processPackages [cc12703-uiautomator2]: executing diffoscope
+[2023-06-07 05:44:29] INFO root fetch - processPackages [cc12703-uiautomator2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cc12703_uiautomator2-2.7.2.tar.gz tmp/cc12703_uiautomator2-2.7.3.tar.gz --markdown 20230607/c/cc12703-uiautomator2/2.7.2-2.7.3/diff.md --exclude *.pyd
+[2023-06-07 05:44:29] INFO root fetch - processPackages [duckdb]: Downloading https://files.pythonhosted.org/packages/8c/ef/a9edc525143e81e9869034e320a128fdc0468dce2ad9e363e81bba0cee95/duckdb-0.8.1.dev341-cp36-cp36m-win_amd64.whl
+[2023-06-07 05:44:29] INFO root fetch - processPackages [odoo8-addon-l10n-fr-intrastat-service]: executing diffoscope
+[2023-06-07 05:44:29] INFO root fetch - processPackages [odoo8-addon-l10n-fr-intrastat-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_l10n_fr_intrastat_service-8.0.2.0.0.99.dev8-py2-none-any.whl.zip tmp/odoo8_addon_l10n_fr_intrastat_service-8.0.2.0.0.99.dev9-py2-none-any.whl.zip --markdown 20230607/o/odoo8-addon-l10n-fr-intrastat-service/8.0.2.0.0.99.dev8-8.0.2.0.0.99.dev9/diff.md --exclude *.pyd
+[2023-06-07 05:44:29] INFO root fetch - processPackages [sfpl]: Remove: archive file [/home/abi/fetcher/tmp/sfpl-1.5.4-py3-none-any.whl.zip]
+[2023-06-07 05:44:29] INFO root fetch - processPackages [sfpl]: Remove: archive file [/home/abi/fetcher/tmp/sfpl-1.5.5-py3-none-any.whl.zip]
+[2023-06-07 05:44:29] INFO root fetch - main [MainThread]: End processing [sfpl]: success
+[2023-06-07 05:44:30] INFO root fetch - processPackages [NikChat]: Remove: archive file [/home/abi/fetcher/tmp/NikChat-2.2.1.1.1.tar.gz]
+[2023-06-07 05:44:30] INFO root fetch - processPackages [NikChat]: Remove: archive file [/home/abi/fetcher/tmp/NikChat-2.2.1.1.2.tar.gz]
+[2023-06-07 05:44:30] INFO root fetch - main [MainThread]: End processing [NikChat]: success
+[2023-06-07 05:44:30] INFO root fetch - processPackages [odoo14-addon-l10n-br-account]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_account-14.0.7.0.0-py3-none-any.whl.zip]
+[2023-06-07 05:44:30] INFO root fetch - processPackages [odoo14-addon-l10n-br-account]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_account-14.0.7.0.1.dev1-py3-none-any.whl.zip]
+[2023-06-07 05:44:30] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-account]: success
+[2023-06-07 05:44:30] INFO root fetch - processPackages [duckdb]: executing diffoscope
+[2023-06-07 05:44:30] INFO root fetch - processPackages [duckdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/duckdb-0.8.1.dev327.tar.gz tmp/duckdb-0.8.1.dev341-cp36-cp36m-win_amd64.whl.zip --markdown 20230607/d/duckdb/0.8.1.dev327-0.8.1.dev341/diff.md --exclude *.pyd
+[2023-06-07 05:44:30] INFO root fetch - processPackages [cc12703-uiautomator2]: Remove: archive file [/home/abi/fetcher/tmp/cc12703_uiautomator2-2.7.2.tar.gz]
+[2023-06-07 05:44:30] INFO root fetch - processPackages [cc12703-uiautomator2]: Remove: archive file [/home/abi/fetcher/tmp/cc12703_uiautomator2-2.7.3.tar.gz]
+[2023-06-07 05:44:30] INFO root fetch - main [MainThread]: End processing [cc12703-uiautomator2]: success
+[2023-06-07 05:44:30] INFO root fetch - processPackages [odoo8-addon-l10n-fr-intrastat-service]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_l10n_fr_intrastat_service-8.0.2.0.0.99.dev8-py2-none-any.whl.zip]
+[2023-06-07 05:44:30] INFO root fetch - processPackages [odoo8-addon-l10n-fr-intrastat-service]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_l10n_fr_intrastat_service-8.0.2.0.0.99.dev9-py2-none-any.whl.zip]
+[2023-06-07 05:44:30] INFO root fetch - main [MainThread]: End processing [odoo8-addon-l10n-fr-intrastat-service]: success
+[2023-06-07 05:44:31] INFO root fetch - processPackages [scutls]: Remove: archive file [/home/abi/fetcher/tmp/scutls-0.2.3.tar.gz]
+[2023-06-07 05:44:31] INFO root fetch - processPackages [scutls]: Remove: archive file [/home/abi/fetcher/tmp/scutls-0.2.4.tar.gz]
+[2023-06-07 05:44:31] INFO root fetch - main [MainThread]: End processing [scutls]: success
+[2023-06-07 05:44:33] INFO root fetch - processPackages [duckdb]: Remove: archive file [/home/abi/fetcher/tmp/duckdb-0.8.1.dev327.tar.gz]
+[2023-06-07 05:44:33] INFO root fetch - processPackages [duckdb]: Remove: archive file [/home/abi/fetcher/tmp/duckdb-0.8.1.dev341-cp36-cp36m-win_amd64.whl.zip]
+[2023-06-07 05:44:33] INFO root fetch - main [MainThread]: End processing [duckdb]: success
+[2023-06-07 05:44:33] INFO root fetch - main [MainThread]: Store serial: [18402413]
