@@ -20920,3 +20920,153 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-07 12:23:38] INFO root fetch - processPackages [label-sleuth]: Remove: archive file [/home/abi/fetcher/tmp/label-sleuth-0.9.4.tar.gz]
 [2023-06-07 12:23:38] INFO root fetch - main [MainThread]: End processing [label-sleuth]: success
 [2023-06-07 12:23:38] INFO root fetch - main [MainThread]: Store serial: [18406522]
+[2023-06-07 12:28:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18406522]
+[2023-06-07 12:28:48] INFO root fetch - main [MainThread]: No changed packages found
+[2023-06-07 12:33:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18406538]
+[2023-06-07 12:33:54] INFO root fetch - main [MainThread]: No changed packages found
+[2023-06-07 12:38:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18406538]
+[2023-06-07 12:38:59] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-06-07 12:38:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lecore
+[2023-06-07 12:38:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nextnanopy
+[2023-06-07 12:38:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: skops
+[2023-06-07 12:38:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: collective.collectionfilter
+[2023-06-07 12:38:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-sale-channel
+[2023-06-07 12:39:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyrocko
+[2023-06-07 12:39:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: yapic.di
+[2023-06-07 12:39:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kortical
+[2023-06-07 12:39:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: spPersist
+[2023-06-07 12:39:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: junit-to-md-py
+[2023-06-07 12:39:00] INFO root fetch - processPackages [lecore]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-07 12:39:00] INFO root fetch - processPackages [nextnanopy]: New version: [0.1.9] Old Version: [0.1.7]
+[2023-06-07 12:39:00] INFO root fetch - processPackages [collective.collectionfilter]: New version: [5.0a2] Old Version: [5.0a1]
+[2023-06-07 12:39:00] INFO root fetch - processPackages [skops]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-06-07 12:39:00] INFO root fetch - processPackages [kortical]: New version: [2.1.0] Old Version: [2.0.9]
+[2023-06-07 12:39:00] INFO root fetch - processPackages [pyrocko]: New version: [2023.6.7] Old Version: [2023.3.27]
+[2023-06-07 12:39:00] INFO root fetch - processPackages [yapic.di]: New version: [2.0.9] Old Version: [2.0.4]
+[2023-06-07 12:39:00] INFO root fetch - processPackages [junit-to-md-py]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-07 12:39:00] WARNING root fetch - processPackages [odoo-addon-sale-channel]: Skipping, unable to determine old version
+[2023-06-07 12:39:00] INFO root fetch - processPackages [spPersist]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-06-07 12:39:00] INFO root fetch - processPackages [odoo-addon-sale-channel]: Start processing: taulant2-publish-pypi-medium
+[2023-06-07 12:39:00] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-channel] error
+[2023-06-07 12:39:00] WARNING root fetch - processPackages [taulant2-publish-pypi-medium]: Skipping, unable to determine old version
+[2023-06-07 12:39:00] INFO root fetch - processPackages [taulant2-publish-pypi-medium]: Start processing: cgr-gene
+[2023-06-07 12:39:00] INFO root fetch - main [MainThread]: End processing [taulant2-publish-pypi-medium] error
+[2023-06-07 12:39:00] INFO root fetch - processPackages [spPersist]: Downloading https://files.pythonhosted.org/packages/dd/00/a5115a36d9e3816cc281c3b11ef80f7c822af3e09573e6c6301199b94e12/spPersist-0.2.4.tar.gz
+[2023-06-07 12:39:00] WARNING root fetch - processPackages [cgr-gene]: Skipping, unable to determine old version
+[2023-06-07 12:39:00] INFO root fetch - processPackages [cgr-gene]: Start processing: psychoanalyze
+[2023-06-07 12:39:00] INFO root fetch - main [MainThread]: End processing [cgr-gene] error
+[2023-06-07 12:39:00] INFO root fetch - processPackages [psychoanalyze]: New version: [0.3.0] Old Version: [0.2.2]
+[2023-06-07 12:39:00] INFO root fetch - processPackages [skops]: Downloading https://files.pythonhosted.org/packages/85/86/c09b76390d637d2e86f29d8025938034e0755f7bcea5c1739257c30dd747/skops-0.6.0.tar.gz
+[2023-06-07 12:39:00] INFO root fetch - processPackages [lecore]: Downloading https://files.pythonhosted.org/packages/eb/f4/69b3dcb9e2d2c5f9fcfca791cf6ba9523a63289bd6bc54a02545444e5175/lecore-0.1.5.tar.gz
+[2023-06-07 12:39:00] INFO root fetch - processPackages [pyrocko]: Downloading https://files.pythonhosted.org/packages/f1/49/1b9d0af85bfa3515f5256e0b5e5aa359a63db2a9ad4f3945c384926c0abe/pyrocko-2023.3.27.tar.gz
+[2023-06-07 12:39:00] INFO root fetch - processPackages [nextnanopy]: Downloading https://files.pythonhosted.org/packages/44/8a/92ade515407a79977d982bb7c12de0151fd99edae718fae11960e97e17a2/nextnanopy-0.1.7.tar.gz
+[2023-06-07 12:39:00] INFO root fetch - processPackages [yapic.di]: Downloading https://files.pythonhosted.org/packages/24/02/f3c69622cf1e33fb1341bd085573a717a1491603aad4c8de46924470dfee/yapic.di-2.0.4.tar.gz
+[2023-06-07 12:39:00] INFO root fetch - processPackages [collective.collectionfilter]: Downloading https://files.pythonhosted.org/packages/c0/2f/4b6fb85ff8e03cd16bb5cf39c4dcdf5b60e981a79b8259b4e8704cb12268/collective.collectionfilter-5.0a1.tar.gz
+[2023-06-07 12:39:00] INFO root fetch - processPackages [kortical]: Downloading https://files.pythonhosted.org/packages/a2/ce/8c881b389272602fe9d17d8ec601fa76e0bd78bdf0c8e4c1d90e3121c4fb/kortical-2.0.9-py3-none-any.whl
+[2023-06-07 12:39:00] INFO root fetch - processPackages [junit-to-md-py]: Downloading https://files.pythonhosted.org/packages/84/67/ee3d3a3b0c5eba7e362c19a47b9b518892a67f1a7249b1bb9137728e48e7/junit-to-md-py-0.1.0.tar.gz
+[2023-06-07 12:39:00] INFO root fetch - processPackages [psychoanalyze]: Downloading https://files.pythonhosted.org/packages/5b/f4/179871a3e3c7c64b227932be6c7a194757d873bad26b0de23a9b5ffe8521/psychoanalyze-0.2.2.tar.gz
+[2023-06-07 12:39:00] WARNING root fetch - processPackages [kortical]: Skipping package: exceeds size limit 14770573>=10485760
+[2023-06-07 12:39:00] INFO root fetch - processPackages [kortical]: Start processing: symbolicai
+[2023-06-07 12:39:00] INFO root fetch - main [MainThread]: End processing [kortical] error
+[2023-06-07 12:39:00] INFO root fetch - processPackages [symbolicai]: New version: [0.2.9] Old Version: [0.2.7]
+[2023-06-07 12:39:00] INFO root fetch - processPackages [spPersist]: Downloading https://files.pythonhosted.org/packages/af/ef/0d05461cb1dc3854d0ba376a33f41e922d23ae784e5d952ab63e9c7a2962/spPersist-0.2.5-py3-none-any.whl
+[2023-06-07 12:39:00] INFO root fetch - processPackages [lecore]: Downloading https://files.pythonhosted.org/packages/4a/5f/04436f530a92528770becd63d2469416d5340c5985b7eb4701b2d1665ed6/lecore-0.1.6-py3-none-any.whl
+[2023-06-07 12:39:00] INFO root fetch - processPackages [junit-to-md-py]: Downloading https://files.pythonhosted.org/packages/37/e9/6c4cdd117cb9cba5be1f4953fee98d6e75bb8aaebffa323096818065901b/junit-to-md-py-0.1.1.tar.gz
+[2023-06-07 12:39:00] INFO root fetch - processPackages [nextnanopy]: Downloading https://files.pythonhosted.org/packages/7a/bd/6fd4c68a8b82b7bad3a13b40b7c4f5e1ef3f1052a041a9c488f6abe2eb97/nextnanopy-0.1.9.tar.gz
+[2023-06-07 12:39:00] INFO root fetch - processPackages [spPersist]: executing diffoscope
+[2023-06-07 12:39:00] INFO root fetch - processPackages [spPersist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spPersist-0.2.4.tar.gz tmp/spPersist-0.2.5-py3-none-any.whl.zip --markdown 20230607/s/spPersist/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-06-07 12:39:00] INFO root fetch - processPackages [pyrocko]: Downloading https://files.pythonhosted.org/packages/77/3d/6f8700277c119435711514d892ea9346fcaf290b493487bac79fca103fed/pyrocko-2023.6.7-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-07 12:39:00] INFO root fetch - processPackages [lecore]: executing diffoscope
+[2023-06-07 12:39:00] INFO root fetch - processPackages [lecore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lecore-0.1.5.tar.gz tmp/lecore-0.1.6-py3-none-any.whl.zip --markdown 20230607/l/lecore/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-07 12:39:00] INFO root fetch - processPackages [skops]: Downloading https://files.pythonhosted.org/packages/5c/a1/1b20ca706adb33fec9c431cc69ce459de2d21012811eb98a6b1199b77ca5/skops-0.7.0-py3-none-any.whl
+[2023-06-07 12:39:00] INFO root fetch - processPackages [psychoanalyze]: Downloading https://files.pythonhosted.org/packages/13/c9/aff34a6bb257470dd72529faec4b3e2064ee45ad99699fcd200d611ce151/psychoanalyze-0.3.0.tar.gz
+[2023-06-07 12:39:00] INFO root fetch - processPackages [symbolicai]: Downloading https://files.pythonhosted.org/packages/59/14/798e49c20397acd30771571396d3eda6fd597a03aa173eaff2f7291228e3/symbolicai-0.2.7-py3-none-any.whl
+[2023-06-07 12:39:00] INFO root fetch - processPackages [nextnanopy]: executing diffoscope
+[2023-06-07 12:39:00] INFO root fetch - processPackages [nextnanopy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nextnanopy-0.1.7.tar.gz tmp/nextnanopy-0.1.9.tar.gz --markdown 20230607/n/nextnanopy/0.1.7-0.1.9/diff.md --exclude *.pyd
+[2023-06-07 12:39:00] INFO root fetch - processPackages [yapic.di]: Downloading https://files.pythonhosted.org/packages/36/10/328ed401152aeb9cac49672f857ffdee02e81cc1dc99b3e1186272920414/yapic.di-2.0.9.tar.gz
+[2023-06-07 12:39:00] INFO root fetch - processPackages [skops]: executing diffoscope
+[2023-06-07 12:39:00] INFO root fetch - processPackages [skops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skops-0.6.0.tar.gz tmp/skops-0.7.0-py3-none-any.whl.zip --markdown 20230607/s/skops/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-06-07 12:39:00] INFO root fetch - processPackages [junit-to-md-py]: executing diffoscope
+[2023-06-07 12:39:00] INFO root fetch - processPackages [junit-to-md-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/junit-to-md-py-0.1.0.tar.gz tmp/junit-to-md-py-0.1.1.tar.gz --markdown 20230607/j/junit-to-md-py/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-07 12:39:00] INFO root fetch - processPackages [pyrocko]: executing diffoscope
+[2023-06-07 12:39:00] INFO root fetch - processPackages [pyrocko]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrocko-2023.3.27.tar.gz tmp/pyrocko-2023.6.7-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230607/p/pyrocko/2023.3.27-2023.6.7/diff.md --exclude *.pyd
+[2023-06-07 12:39:00] INFO root fetch - processPackages [yapic.di]: executing diffoscope
+[2023-06-07 12:39:00] INFO root fetch - processPackages [yapic.di]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yapic.di-2.0.4.tar.gz tmp/yapic.di-2.0.9.tar.gz --markdown 20230607/y/yapic.di/2.0.4-2.0.9/diff.md --exclude *.pyd
+[2023-06-07 12:39:00] INFO root fetch - processPackages [psychoanalyze]: executing diffoscope
+[2023-06-07 12:39:00] INFO root fetch - processPackages [psychoanalyze]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psychoanalyze-0.2.2.tar.gz tmp/psychoanalyze-0.3.0.tar.gz --markdown 20230607/p/psychoanalyze/0.2.2-0.3.0/diff.md --exclude *.pyd
+[2023-06-07 12:39:01] INFO root fetch - processPackages [collective.collectionfilter]: Downloading https://files.pythonhosted.org/packages/5b/05/4c9be5baa9c26ef728e3a624c5807f3ed35dcf5ca752b2ab28be52dcd837/collective.collectionfilter-5.0a2.tar.gz
+[2023-06-07 12:39:01] INFO root fetch - processPackages [collective.collectionfilter]: executing diffoscope
+[2023-06-07 12:39:01] INFO root fetch - processPackages [collective.collectionfilter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/collective.collectionfilter-5.0a1.tar.gz tmp/collective.collectionfilter-5.0a2.tar.gz --markdown 20230607/c/collective.collectionfilter/5.0a1-5.0a2/diff.md --exclude *.pyd
+[2023-06-07 12:39:02] INFO root fetch - processPackages [symbolicai]: Downloading https://files.pythonhosted.org/packages/d4/20/d69129c72a905a1d7f198c70e94d4b5d966f97686ef827699d68d5da2a6c/symbolicai-0.2.9-py3-none-any.whl
+[2023-06-07 12:39:02] INFO root fetch - processPackages [spPersist]: Remove: archive file [/home/abi/fetcher/tmp/spPersist-0.2.4.tar.gz]
+[2023-06-07 12:39:02] INFO root fetch - processPackages [spPersist]: Remove: archive file [/home/abi/fetcher/tmp/spPersist-0.2.5-py3-none-any.whl.zip]
+[2023-06-07 12:39:02] INFO root fetch - processPackages [spPersist]: Start processing: grpc-protoc-annotations
+[2023-06-07 12:39:02] INFO root fetch - main [MainThread]: End processing [spPersist]: success
+[2023-06-07 12:39:02] INFO root fetch - processPackages [grpc-protoc-annotations]: New version: [2.16.0] Old Version: [2.15.2]
+[2023-06-07 12:39:02] INFO root fetch - processPackages [junit-to-md-py]: Remove: archive file [/home/abi/fetcher/tmp/junit-to-md-py-0.1.0.tar.gz]
+[2023-06-07 12:39:02] INFO root fetch - processPackages [junit-to-md-py]: Remove: archive file [/home/abi/fetcher/tmp/junit-to-md-py-0.1.1.tar.gz]
+[2023-06-07 12:39:02] INFO root fetch - processPackages [junit-to-md-py]: Start processing: grpc-protoc-annotations
+[2023-06-07 12:39:02] INFO root fetch - main [MainThread]: End processing [junit-to-md-py]: success
+[2023-06-07 12:39:02] INFO root fetch - processPackages [grpc-protoc-annotations]: New version: [2.16.0] Old Version: [2.15.2]
+[2023-06-07 12:39:02] INFO root fetch - processPackages [lecore]: Remove: archive file [/home/abi/fetcher/tmp/lecore-0.1.5.tar.gz]
+[2023-06-07 12:39:02] INFO root fetch - processPackages [lecore]: Remove: archive file [/home/abi/fetcher/tmp/lecore-0.1.6-py3-none-any.whl.zip]
+[2023-06-07 12:39:02] INFO root fetch - processPackages [lecore]: Start processing: grpc-protoc-annotations
+[2023-06-07 12:39:02] INFO root fetch - main [MainThread]: End processing [lecore]: success
+[2023-06-07 12:39:02] INFO root fetch - processPackages [grpc-protoc-annotations]: New version: [2.16.0] Old Version: [2.15.2]
+[2023-06-07 12:39:02] INFO root fetch - processPackages [grpc-protoc-annotations]: Downloading https://files.pythonhosted.org/packages/89/7a/da3656e4bca448f99d858d5c7c36966990ea65742d0e4d29120b893a70e3/grpc_protoc_annotations-2.15.2.tar.gz
+[2023-06-07 12:39:02] INFO root fetch - processPackages [grpc-protoc-annotations]: Downloading https://files.pythonhosted.org/packages/89/7a/da3656e4bca448f99d858d5c7c36966990ea65742d0e4d29120b893a70e3/grpc_protoc_annotations-2.15.2.tar.gz
+[2023-06-07 12:39:02] INFO root fetch - processPackages [grpc-protoc-annotations]: Downloading https://files.pythonhosted.org/packages/89/7a/da3656e4bca448f99d858d5c7c36966990ea65742d0e4d29120b893a70e3/grpc_protoc_annotations-2.15.2.tar.gz
+[2023-06-07 12:39:02] INFO root fetch - processPackages [nextnanopy]: Remove: archive file [/home/abi/fetcher/tmp/nextnanopy-0.1.7.tar.gz]
+[2023-06-07 12:39:02] INFO root fetch - processPackages [nextnanopy]: Remove: archive file [/home/abi/fetcher/tmp/nextnanopy-0.1.9.tar.gz]
+[2023-06-07 12:39:02] INFO root fetch - processPackages [nextnanopy]: Start processing: grpc-protoc-annotations
+[2023-06-07 12:39:02] INFO root fetch - main [MainThread]: End processing [nextnanopy]: success
+[2023-06-07 12:39:02] INFO root fetch - processPackages [grpc-protoc-annotations]: New version: [2.16.0] Old Version: [2.15.2]
+[2023-06-07 12:39:02] INFO root fetch - processPackages [grpc-protoc-annotations]: Downloading https://files.pythonhosted.org/packages/89/7a/da3656e4bca448f99d858d5c7c36966990ea65742d0e4d29120b893a70e3/grpc_protoc_annotations-2.15.2.tar.gz
+[2023-06-07 12:39:02] INFO root fetch - processPackages [yapic.di]: Remove: archive file [/home/abi/fetcher/tmp/yapic.di-2.0.4.tar.gz]
+[2023-06-07 12:39:02] INFO root fetch - processPackages [yapic.di]: Remove: archive file [/home/abi/fetcher/tmp/yapic.di-2.0.9.tar.gz]
+[2023-06-07 12:39:02] INFO root fetch - processPackages [yapic.di]: Start processing: irt-data-utils
+[2023-06-07 12:39:02] INFO root fetch - main [MainThread]: End processing [yapic.di]: success
+[2023-06-07 12:39:02] INFO root fetch - processPackages [psychoanalyze]: Remove: archive file [/home/abi/fetcher/tmp/psychoanalyze-0.2.2.tar.gz]
+[2023-06-07 12:39:02] INFO root fetch - processPackages [psychoanalyze]: Remove: archive file [/home/abi/fetcher/tmp/psychoanalyze-0.3.0.tar.gz]
+[2023-06-07 12:39:02] INFO root fetch - main [MainThread]: End processing [psychoanalyze]: success
+[2023-06-07 12:39:02] INFO root fetch - processPackages [irt-data-utils]: New version: [0.0.1a1] Old Version: [0.0.1a0]
+[2023-06-07 12:39:03] INFO root fetch - processPackages [irt-data-utils]: Downloading https://files.pythonhosted.org/packages/a0/cf/0c1c3f96ef239f09e0a88d8c827e003d56e445cd4c33e12bf9346a9869e6/irt-data-utils-0.0.1a0.tar.gz
+[2023-06-07 12:39:03] INFO root fetch - processPackages [grpc-protoc-annotations]: Downloading https://files.pythonhosted.org/packages/5d/13/f27d8af7be9a0007545a9367985bc02098b5137b33bf69d88cb67753ee60/grpc_protoc_annotations-2.16.0.tar.gz
+[2023-06-07 12:39:03] INFO root fetch - processPackages [grpc-protoc-annotations]: Downloading https://files.pythonhosted.org/packages/5d/13/f27d8af7be9a0007545a9367985bc02098b5137b33bf69d88cb67753ee60/grpc_protoc_annotations-2.16.0.tar.gz
+[2023-06-07 12:39:03] INFO root fetch - processPackages [grpc-protoc-annotations]: Downloading https://files.pythonhosted.org/packages/5d/13/f27d8af7be9a0007545a9367985bc02098b5137b33bf69d88cb67753ee60/grpc_protoc_annotations-2.16.0.tar.gz
+[2023-06-07 12:39:03] INFO root fetch - processPackages [grpc-protoc-annotations]: Downloading https://files.pythonhosted.org/packages/5d/13/f27d8af7be9a0007545a9367985bc02098b5137b33bf69d88cb67753ee60/grpc_protoc_annotations-2.16.0.tar.gz
+[2023-06-07 12:39:03] INFO root fetch - processPackages [grpc-protoc-annotations]: executing diffoscope
+[2023-06-07 12:39:03] INFO root fetch - processPackages [grpc-protoc-annotations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grpc_protoc_annotations-2.15.2.tar.gz tmp/grpc_protoc_annotations-2.16.0.tar.gz --markdown 20230607/g/grpc-protoc-annotations/2.15.2-2.16.0/diff.md --exclude *.pyd
+[2023-06-07 12:39:03] INFO root fetch - processPackages [grpc-protoc-annotations]: executing diffoscope
+[2023-06-07 12:39:03] INFO root fetch - processPackages [grpc-protoc-annotations]: executing diffoscope
+[2023-06-07 12:39:03] INFO root fetch - processPackages [grpc-protoc-annotations]: executing diffoscope
+[2023-06-07 12:39:03] INFO root fetch - processPackages [grpc-protoc-annotations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grpc_protoc_annotations-2.15.2.tar.gz tmp/grpc_protoc_annotations-2.16.0.tar.gz --markdown 20230607/g/grpc-protoc-annotations/2.15.2-2.16.0/diff.md --exclude *.pyd
+[2023-06-07 12:39:03] INFO root fetch - processPackages [grpc-protoc-annotations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grpc_protoc_annotations-2.15.2.tar.gz tmp/grpc_protoc_annotations-2.16.0.tar.gz --markdown 20230607/g/grpc-protoc-annotations/2.15.2-2.16.0/diff.md --exclude *.pyd
+[2023-06-07 12:39:03] INFO root fetch - processPackages [grpc-protoc-annotations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grpc_protoc_annotations-2.15.2.tar.gz tmp/grpc_protoc_annotations-2.16.0.tar.gz --markdown 20230607/g/grpc-protoc-annotations/2.15.2-2.16.0/diff.md --exclude *.pyd
+[2023-06-07 12:39:03] INFO root fetch - processPackages [irt-data-utils]: Downloading https://files.pythonhosted.org/packages/31/63/9da79ff723da45539e2e28a50f6482be3c5274c706efb269f633033456e3/irt-data-utils-0.0.1a1.tar.gz
+[2023-06-07 12:39:03] INFO root fetch - processPackages [skops]: Remove: archive file [/home/abi/fetcher/tmp/skops-0.6.0.tar.gz]
+[2023-06-07 12:39:03] INFO root fetch - processPackages [skops]: Remove: archive file [/home/abi/fetcher/tmp/skops-0.7.0-py3-none-any.whl.zip]
+[2023-06-07 12:39:03] INFO root fetch - main [MainThread]: End processing [skops]: success
+[2023-06-07 12:39:03] INFO root fetch - processPackages [irt-data-utils]: executing diffoscope
+[2023-06-07 12:39:03] INFO root fetch - processPackages [irt-data-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irt-data-utils-0.0.1a0.tar.gz tmp/irt-data-utils-0.0.1a1.tar.gz --markdown 20230607/i/irt-data-utils/0.0.1a0-0.0.1a1/diff.md --exclude *.pyd
+[2023-06-07 12:39:04] INFO root fetch - processPackages [symbolicai]: executing diffoscope
+[2023-06-07 12:39:04] INFO root fetch - processPackages [symbolicai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/symbolicai-0.2.7-py3-none-any.whl.zip tmp/symbolicai-0.2.9-py3-none-any.whl.zip --markdown 20230607/s/symbolicai/0.2.7-0.2.9/diff.md --exclude *.pyd
+[2023-06-07 12:39:04] INFO root fetch - processPackages [grpc-protoc-annotations]: Remove: archive file [/home/abi/fetcher/tmp/grpc_protoc_annotations-2.15.2.tar.gz]
+[2023-06-07 12:39:04] INFO root fetch - processPackages [grpc-protoc-annotations]: Remove: archive file [/home/abi/fetcher/tmp/grpc_protoc_annotations-2.16.0.tar.gz]
+[2023-06-07 12:39:04] INFO root fetch - main [MainThread]: End processing [grpc-protoc-annotations]: success
+[2023-06-07 12:39:04] INFO root fetch - main [MainThread]: End processing [grpc-protoc-annotations]: success
+[2023-06-07 12:39:04] INFO root fetch - main [MainThread]: End processing [grpc-protoc-annotations]: success
+[2023-06-07 12:39:04] INFO root fetch - main [MainThread]: End processing [grpc-protoc-annotations]: success
+[2023-06-07 12:39:05] INFO root fetch - processPackages [irt-data-utils]: Remove: archive file [/home/abi/fetcher/tmp/irt-data-utils-0.0.1a0.tar.gz]
+[2023-06-07 12:39:05] INFO root fetch - processPackages [irt-data-utils]: Remove: archive file [/home/abi/fetcher/tmp/irt-data-utils-0.0.1a1.tar.gz]
+[2023-06-07 12:39:05] INFO root fetch - main [MainThread]: End processing [irt-data-utils]: success
+[2023-06-07 12:39:05] INFO root fetch - processPackages [symbolicai]: Remove: archive file [/home/abi/fetcher/tmp/symbolicai-0.2.7-py3-none-any.whl.zip]
+[2023-06-07 12:39:05] INFO root fetch - processPackages [symbolicai]: Remove: archive file [/home/abi/fetcher/tmp/symbolicai-0.2.9-py3-none-any.whl.zip]
+[2023-06-07 12:39:05] INFO root fetch - main [MainThread]: End processing [symbolicai]: success
+[2023-06-07 12:39:06] INFO root fetch - processPackages [pyrocko]: Remove: archive file [/home/abi/fetcher/tmp/pyrocko-2023.3.27.tar.gz]
+[2023-06-07 12:39:06] INFO root fetch - processPackages [pyrocko]: Remove: archive file [/home/abi/fetcher/tmp/pyrocko-2023.6.7-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-07 12:39:06] INFO root fetch - main [MainThread]: End processing [pyrocko]: success
+[2023-06-07 12:39:36] INFO root fetch - processPackages [collective.collectionfilter]: Remove: archive file [/home/abi/fetcher/tmp/collective.collectionfilter-5.0a1.tar.gz]
+[2023-06-07 12:39:36] INFO root fetch - processPackages [collective.collectionfilter]: Remove: archive file [/home/abi/fetcher/tmp/collective.collectionfilter-5.0a2.tar.gz]
+[2023-06-07 12:39:36] INFO root fetch - main [MainThread]: End processing [collective.collectionfilter]: success
+[2023-06-07 12:39:36] INFO root fetch - main [MainThread]: Store serial: [18406604]
