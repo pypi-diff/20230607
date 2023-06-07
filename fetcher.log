@@ -15995,3 +15995,234 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-07 09:42:27] INFO root fetch - processPackages [pyobjc-framework-ApplicationServices]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc_framework_ApplicationServices-9.2-cp39-cp39-macosx_10_9_universal2.whl.zip]
 [2023-06-07 09:42:27] INFO root fetch - main [MainThread]: End processing [pyobjc-framework-ApplicationServices]: success
 [2023-06-07 09:42:27] INFO root fetch - main [MainThread]: Store serial: [18404201]
+[2023-06-07 09:47:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18404201]
+[2023-06-07 09:47:36] INFO root fetch - main [MainThread]: Found 26 changed packages
+[2023-06-07 09:47:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyobjc-framework-AuthenticationServices
+[2023-06-07 09:47:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: antgo
+[2023-06-07 09:47:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyobjc-framework-AutomaticAssessmentConfiguration
+[2023-06-07 09:47:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyobjc-framework-Automator
+[2023-06-07 09:47:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: datagen-protocol-core
+[2023-06-07 09:47:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: datagen-protocol-functional
+[2023-06-07 09:47:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyobjc-framework-BackgroundAssets
+[2023-06-07 09:47:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: datagen-validation-protocol
+[2023-06-07 09:47:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: anyforce
+[2023-06-07 09:47:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyobjc-framework-BusinessChat
+[2023-06-07 09:47:36] INFO root fetch - processPackages [pyobjc-framework-AuthenticationServices]: New version: [9.2] Old Version: [9.1b1]
+[2023-06-07 09:47:36] INFO root fetch - processPackages [pyobjc-framework-AutomaticAssessmentConfiguration]: New version: [9.2] Old Version: [9.1b1]
+[2023-06-07 09:47:36] INFO root fetch - processPackages [pyobjc-framework-Automator]: New version: [9.2] Old Version: [9.1b1]
+[2023-06-07 09:47:36] INFO root fetch - processPackages [datagen-protocol-functional]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-06-07 09:47:36] INFO root fetch - processPackages [datagen-protocol-core]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-06-07 09:47:36] INFO root fetch - processPackages [anyforce]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-06-07 09:47:36] INFO root fetch - processPackages [antgo]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-07 09:47:36] INFO root fetch - processPackages [pyobjc-framework-BackgroundAssets]: New version: [9.2] Old Version: [9.1b1]
+[2023-06-07 09:47:36] INFO root fetch - processPackages [pyobjc-framework-BusinessChat]: New version: [9.2] Old Version: [9.1b1]
+[2023-06-07 09:47:36] INFO root fetch - processPackages [datagen-validation-protocol]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-06-07 09:47:36] INFO root fetch - processPackages [datagen-protocol-core]: Downloading https://files.pythonhosted.org/packages/57/59/4ebf774c106dcbc6271c9a2652fbee9da94442550053ee65c293393490a5/datagen_protocol_core-0.8.3.tar.gz
+[2023-06-07 09:47:36] INFO root fetch - processPackages [pyobjc-framework-Automator]: Downloading https://files.pythonhosted.org/packages/0d/31/f37311447b6ebad6aba6d6369fa038f39a2f45eaee27ff7191c8c44f5f21/pyobjc-framework-Automator-9.1b1.tar.gz
+[2023-06-07 09:47:36] INFO root fetch - processPackages [datagen-protocol-functional]: Downloading https://files.pythonhosted.org/packages/73/cf/d72a66b042acdd5ce2d20ac72a57d6124200bdf5b8e1b6b0585cde8d7aa7/datagen_protocol_functional-0.8.3.tar.gz
+[2023-06-07 09:47:36] INFO root fetch - processPackages [antgo]: Downloading https://files.pythonhosted.org/packages/d4/02/7dd0f15cfae2daf6c2c1f9f3209dc76bca34c8189cfef43c75596ecbb8a1/antgo-0.1.8.tar.gz
+[2023-06-07 09:47:36] INFO root fetch - processPackages [pyobjc-framework-BackgroundAssets]: Downloading https://files.pythonhosted.org/packages/97/03/697e2b94956dd03b2b02ebcae0ec54adb91c2850f41c24341595b03c9403/pyobjc-framework-BackgroundAssets-9.1b1.tar.gz
+[2023-06-07 09:47:36] INFO root fetch - processPackages [pyobjc-framework-AuthenticationServices]: Downloading https://files.pythonhosted.org/packages/ba/a1/cd30d8ca58284f433d90ddcaa7ac7e51bf26b6ad30798444bb84402885be/pyobjc-framework-AuthenticationServices-9.1b1.tar.gz
+[2023-06-07 09:47:36] INFO root fetch - processPackages [pyobjc-framework-AutomaticAssessmentConfiguration]: Downloading https://files.pythonhosted.org/packages/71/8d/8f638f6def70bda422fd01b1d96dccbeb8e194b13494dd6888803a022133/pyobjc-framework-AutomaticAssessmentConfiguration-9.1b1.tar.gz
+[2023-06-07 09:47:36] INFO root fetch - processPackages [datagen-validation-protocol]: Downloading https://files.pythonhosted.org/packages/73/e7/1ffbff7f1f243699f2a7cd2ace260907e7e5c1149d4c4f05639125d4887c/datagen_validation_protocol-0.8.3.tar.gz
+[2023-06-07 09:47:36] INFO root fetch - processPackages [anyforce]: Downloading https://files.pythonhosted.org/packages/75/22/a60c6e897bc29038e83b0aaba8bd40f9465d8ba0f62d101cda65ef7d9d3a/anyforce-0.8.2.tar.gz
+[2023-06-07 09:47:36] INFO root fetch - processPackages [pyobjc-framework-BusinessChat]: Downloading https://files.pythonhosted.org/packages/13/b2/5c9e81e3d2dba03f48565060ce255677ca078c62c650462100ac4e3a5cab/pyobjc-framework-BusinessChat-9.1b1.tar.gz
+[2023-06-07 09:47:37] INFO root fetch - processPackages [pyobjc-framework-AuthenticationServices]: Downloading https://files.pythonhosted.org/packages/a6/46/f24bc45cb24d59c512729b26438a8efe22a513f7629d20325f3786985eba/pyobjc_framework_AuthenticationServices-9.2-cp36-abi3-macosx_11_0_universal2.whl
+[2023-06-07 09:47:37] INFO root fetch - processPackages [pyobjc-framework-AutomaticAssessmentConfiguration]: Downloading https://files.pythonhosted.org/packages/fe/58/f2b8cbaa08cd3b47e8dada4a56f49ddeb81546e270f31d950a2f4b559ec7/pyobjc_framework_AutomaticAssessmentConfiguration-9.2-cp36-abi3-macosx_11_0_universal2.whl
+[2023-06-07 09:47:37] INFO root fetch - processPackages [pyobjc-framework-BackgroundAssets]: Downloading https://files.pythonhosted.org/packages/f7/1c/3f0f65bdefdbaddd3a8bc2341ff7bde41a03a13fd383dadfb8ef66a0b833/pyobjc_framework_BackgroundAssets-9.2-cp36-abi3-macosx_11_0_universal2.whl
+[2023-06-07 09:47:37] INFO root fetch - processPackages [pyobjc-framework-Automator]: Downloading https://files.pythonhosted.org/packages/e3/9f/bfa4a7d8360c295eac761c81bdd1ccf48489fc8e596e6e91fdc148b2af61/pyobjc_framework_Automator-9.2-py2.py3-none-any.whl
+[2023-06-07 09:47:37] INFO root fetch - processPackages [pyobjc-framework-AuthenticationServices]: executing diffoscope
+[2023-06-07 09:47:37] INFO root fetch - processPackages [pyobjc-framework-AuthenticationServices]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyobjc-framework-AuthenticationServices-9.1b1.tar.gz tmp/pyobjc_framework_AuthenticationServices-9.2-cp36-abi3-macosx_11_0_universal2.whl.zip --markdown 20230607/p/pyobjc-framework-AuthenticationServices/9.1b1-9.2/diff.md --exclude *.pyd
+[2023-06-07 09:47:37] INFO root fetch - processPackages [pyobjc-framework-BusinessChat]: Downloading https://files.pythonhosted.org/packages/e6/6b/9ff1a8829cb17be1c4bba6a80e8f34207c410d50958c4f21866d2b5a7dae/pyobjc_framework_BusinessChat-9.2-py2.py3-none-any.whl
+[2023-06-07 09:47:37] INFO root fetch - processPackages [datagen-validation-protocol]: Downloading https://files.pythonhosted.org/packages/43/94/0d069cac7f9b7e0f430c6f1ddd8e7af9e56e43aa6cab0054e71e9b067dc8/datagen_validation_protocol-0.9.0.tar.gz
+[2023-06-07 09:47:37] INFO root fetch - processPackages [antgo]: Downloading https://files.pythonhosted.org/packages/38/2f/ef193c860f0d6f7d47317818323685ddea7f9bcff16e96382a4b5724db8d/antgo-0.1.9.tar.gz
+[2023-06-07 09:47:37] INFO root fetch - processPackages [pyobjc-framework-AutomaticAssessmentConfiguration]: executing diffoscope
+[2023-06-07 09:47:37] INFO root fetch - processPackages [pyobjc-framework-AutomaticAssessmentConfiguration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyobjc-framework-AutomaticAssessmentConfiguration-9.1b1.tar.gz tmp/pyobjc_framework_AutomaticAssessmentConfiguration-9.2-cp36-abi3-macosx_11_0_universal2.whl.zip --markdown 20230607/p/pyobjc-framework-AutomaticAssessmentConfiguration/9.1b1-9.2/diff.md --exclude *.pyd
+[2023-06-07 09:47:37] INFO root fetch - processPackages [pyobjc-framework-BackgroundAssets]: executing diffoscope
+[2023-06-07 09:47:37] INFO root fetch - processPackages [pyobjc-framework-BackgroundAssets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyobjc-framework-BackgroundAssets-9.1b1.tar.gz tmp/pyobjc_framework_BackgroundAssets-9.2-cp36-abi3-macosx_11_0_universal2.whl.zip --markdown 20230607/p/pyobjc-framework-BackgroundAssets/9.1b1-9.2/diff.md --exclude *.pyd
+[2023-06-07 09:47:37] INFO root fetch - processPackages [anyforce]: Downloading https://files.pythonhosted.org/packages/9b/ab/c662247bed8dd85fa8c1d2517b08f7688328858eb44bfe36bed0b0aed718/anyforce-0.9.0.tar.gz
+[2023-06-07 09:47:37] INFO root fetch - processPackages [pyobjc-framework-Automator]: executing diffoscope
+[2023-06-07 09:47:37] INFO root fetch - processPackages [pyobjc-framework-Automator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyobjc-framework-Automator-9.1b1.tar.gz tmp/pyobjc_framework_Automator-9.2-py2.py3-none-any.whl.zip --markdown 20230607/p/pyobjc-framework-Automator/9.1b1-9.2/diff.md --exclude *.pyd
+[2023-06-07 09:47:37] INFO root fetch - processPackages [antgo]: executing diffoscope
+[2023-06-07 09:47:37] INFO root fetch - processPackages [antgo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antgo-0.1.8.tar.gz tmp/antgo-0.1.9.tar.gz --markdown 20230607/a/antgo/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-07 09:47:37] INFO root fetch - processPackages [pyobjc-framework-BusinessChat]: executing diffoscope
+[2023-06-07 09:47:37] INFO root fetch - processPackages [pyobjc-framework-BusinessChat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyobjc-framework-BusinessChat-9.1b1.tar.gz tmp/pyobjc_framework_BusinessChat-9.2-py2.py3-none-any.whl.zip --markdown 20230607/p/pyobjc-framework-BusinessChat/9.1b1-9.2/diff.md --exclude *.pyd
+[2023-06-07 09:47:37] INFO root fetch - processPackages [datagen-validation-protocol]: executing diffoscope
+[2023-06-07 09:47:37] INFO root fetch - processPackages [datagen-validation-protocol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datagen_validation_protocol-0.8.3.tar.gz tmp/datagen_validation_protocol-0.9.0.tar.gz --markdown 20230607/d/datagen-validation-protocol/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-06-07 09:47:37] INFO root fetch - processPackages [anyforce]: executing diffoscope
+[2023-06-07 09:47:37] INFO root fetch - processPackages [anyforce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anyforce-0.8.2.tar.gz tmp/anyforce-0.9.0.tar.gz --markdown 20230607/a/anyforce/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-06-07 09:47:37] INFO root fetch - processPackages [datagen-protocol-core]: Downloading https://files.pythonhosted.org/packages/39/74/f7713c45abf230a8f0db23c6c02f5d5d0b5203573afa931ed6d67228a510/datagen_protocol_core-0.9.0.tar.gz
+[2023-06-07 09:47:37] INFO root fetch - processPackages [datagen-protocol-core]: executing diffoscope
+[2023-06-07 09:47:37] INFO root fetch - processPackages [datagen-protocol-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datagen_protocol_core-0.8.3.tar.gz tmp/datagen_protocol_core-0.9.0.tar.gz --markdown 20230607/d/datagen-protocol-core/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-06-07 09:47:37] INFO root fetch - processPackages [datagen-protocol-functional]: Downloading https://files.pythonhosted.org/packages/3e/52/fdba1e8d2d19879e3ab38685476d5b3a3dfca41ba6b919505acc733cfe8c/datagen_protocol_functional-0.9.0.tar.gz
+[2023-06-07 09:47:37] INFO root fetch - processPackages [datagen-protocol-functional]: executing diffoscope
+[2023-06-07 09:47:37] INFO root fetch - processPackages [datagen-protocol-functional]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datagen_protocol_functional-0.8.3.tar.gz tmp/datagen_protocol_functional-0.9.0.tar.gz --markdown 20230607/d/datagen-protocol-functional/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-06-07 09:47:38] INFO root fetch - processPackages [pyobjc-framework-AuthenticationServices]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-AuthenticationServices-9.1b1.tar.gz]
+[2023-06-07 09:47:38] INFO root fetch - processPackages [pyobjc-framework-AuthenticationServices]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc_framework_AuthenticationServices-9.2-cp36-abi3-macosx_11_0_universal2.whl.zip]
+[2023-06-07 09:47:38] INFO root fetch - processPackages [pyobjc-framework-AuthenticationServices]: Start processing: pyobjc-framework-CFNetwork
+[2023-06-07 09:47:38] INFO root fetch - main [MainThread]: End processing [pyobjc-framework-AuthenticationServices]: success
+[2023-06-07 09:47:38] INFO root fetch - processPackages [pyobjc-framework-CFNetwork]: New version: [9.2] Old Version: [9.1b1]
+[2023-06-07 09:47:38] INFO root fetch - processPackages [pyobjc-framework-CFNetwork]: Downloading https://files.pythonhosted.org/packages/42/95/34dbb6cccf48d33cd2b2ea7bcb73b9323b6641a4849e183b46345e9a1ee0/pyobjc-framework-CFNetwork-9.1b1.tar.gz
+[2023-06-07 09:47:38] INFO root fetch - processPackages [pyobjc-framework-BusinessChat]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-BusinessChat-9.1b1.tar.gz]
+[2023-06-07 09:47:38] INFO root fetch - processPackages [pyobjc-framework-BusinessChat]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc_framework_BusinessChat-9.2-py2.py3-none-any.whl.zip]
+[2023-06-07 09:47:38] INFO root fetch - processPackages [pyobjc-framework-BusinessChat]: Start processing: pyobjc-framework-CalendarStore
+[2023-06-07 09:47:38] INFO root fetch - main [MainThread]: End processing [pyobjc-framework-BusinessChat]: success
+[2023-06-07 09:47:39] INFO root fetch - processPackages [pyobjc-framework-CalendarStore]: New version: [9.2] Old Version: [9.1b1]
+[2023-06-07 09:47:39] INFO root fetch - processPackages [pyobjc-framework-CFNetwork]: Downloading https://files.pythonhosted.org/packages/77/81/941b24eb931593881814555c9f9ce0d5bfac26960b4fbf32bfe8db70c842/pyobjc_framework_CFNetwork-9.2-cp36-abi3-macosx_11_0_universal2.whl
+[2023-06-07 09:47:39] INFO root fetch - processPackages [pyobjc-framework-CalendarStore]: Downloading https://files.pythonhosted.org/packages/6a/00/d6f622637b2e8ba96a2846c9eebda0f95ba22d6e24690f807d0253b120fb/pyobjc-framework-CalendarStore-9.1b1.tar.gz
+[2023-06-07 09:47:39] INFO root fetch - processPackages [datagen-validation-protocol]: Remove: archive file [/home/abi/fetcher/tmp/datagen_validation_protocol-0.8.3.tar.gz]
+[2023-06-07 09:47:39] INFO root fetch - processPackages [datagen-validation-protocol]: Remove: archive file [/home/abi/fetcher/tmp/datagen_validation_protocol-0.9.0.tar.gz]
+[2023-06-07 09:47:39] INFO root fetch - processPackages [datagen-validation-protocol]: Start processing: pyobjc-framework-CallKit
+[2023-06-07 09:47:39] INFO root fetch - main [MainThread]: End processing [datagen-validation-protocol]: success
+[2023-06-07 09:47:39] INFO root fetch - processPackages [pyobjc-framework-CFNetwork]: executing diffoscope
+[2023-06-07 09:47:39] INFO root fetch - processPackages [pyobjc-framework-CFNetwork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyobjc-framework-CFNetwork-9.1b1.tar.gz tmp/pyobjc_framework_CFNetwork-9.2-cp36-abi3-macosx_11_0_universal2.whl.zip --markdown 20230607/p/pyobjc-framework-CFNetwork/9.1b1-9.2/diff.md --exclude *.pyd
+[2023-06-07 09:47:39] INFO root fetch - processPackages [pyobjc-framework-CallKit]: New version: [9.2] Old Version: [9.1b1]
+[2023-06-07 09:47:39] INFO root fetch - processPackages [pyobjc-framework-BackgroundAssets]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-BackgroundAssets-9.1b1.tar.gz]
+[2023-06-07 09:47:39] INFO root fetch - processPackages [pyobjc-framework-BackgroundAssets]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc_framework_BackgroundAssets-9.2-cp36-abi3-macosx_11_0_universal2.whl.zip]
+[2023-06-07 09:47:39] INFO root fetch - processPackages [pyobjc-framework-BackgroundAssets]: Start processing: pyobjc-framework-ClassKit
+[2023-06-07 09:47:39] INFO root fetch - main [MainThread]: End processing [pyobjc-framework-BackgroundAssets]: success
+[2023-06-07 09:47:39] INFO root fetch - processPackages [pyobjc-framework-ClassKit]: New version: [9.2] Old Version: [9.1b1]
+[2023-06-07 09:47:39] INFO root fetch - processPackages [pyobjc-framework-AutomaticAssessmentConfiguration]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-AutomaticAssessmentConfiguration-9.1b1.tar.gz]
+[2023-06-07 09:47:39] INFO root fetch - processPackages [pyobjc-framework-AutomaticAssessmentConfiguration]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc_framework_AutomaticAssessmentConfiguration-9.2-cp36-abi3-macosx_11_0_universal2.whl.zip]
+[2023-06-07 09:47:39] INFO root fetch - processPackages [pyobjc-framework-AutomaticAssessmentConfiguration]: Start processing: pyobjc-framework-CloudKit
+[2023-06-07 09:47:39] INFO root fetch - main [MainThread]: End processing [pyobjc-framework-AutomaticAssessmentConfiguration]: success
+[2023-06-07 09:47:39] INFO root fetch - processPackages [pyobjc-framework-CloudKit]: New version: [9.2] Old Version: [9.1b1]
+[2023-06-07 09:47:39] INFO root fetch - processPackages [pyobjc-framework-CallKit]: Downloading https://files.pythonhosted.org/packages/29/0f/30be6dc664cb42928ea8970418567f9c003c10df4b7da2f0d734d549eb1a/pyobjc-framework-CallKit-9.1b1.tar.gz
+[2023-06-07 09:47:39] INFO root fetch - processPackages [pyobjc-framework-CalendarStore]: Downloading https://files.pythonhosted.org/packages/4d/16/5c36f3462a9d53ee339882136d7d0a29d18703f2a653bd54920d3f71fdb7/pyobjc_framework_CalendarStore-9.2-py2.py3-none-any.whl
+[2023-06-07 09:47:39] INFO root fetch - processPackages [pyobjc-framework-ClassKit]: Downloading https://files.pythonhosted.org/packages/2a/cd/7715ca18d86d7cc4dbf8692985f0d9d2daf43dd67e4871b0908140ae4979/pyobjc-framework-ClassKit-9.1b1.tar.gz
+[2023-06-07 09:47:39] INFO root fetch - processPackages [datagen-protocol-core]: Remove: archive file [/home/abi/fetcher/tmp/datagen_protocol_core-0.8.3.tar.gz]
+[2023-06-07 09:47:39] INFO root fetch - processPackages [datagen-protocol-core]: Remove: archive file [/home/abi/fetcher/tmp/datagen_protocol_core-0.9.0.tar.gz]
+[2023-06-07 09:47:39] INFO root fetch - processPackages [datagen-protocol-core]: Start processing: docarray
+[2023-06-07 09:47:39] INFO root fetch - main [MainThread]: End processing [datagen-protocol-core]: success
+[2023-06-07 09:47:39] INFO root fetch - processPackages [docarray]: New version: [0.9.9.dev5] Old Version: [0.9.9.dev4]
+[2023-06-07 09:47:39] INFO root fetch - processPackages [pyobjc-framework-CalendarStore]: executing diffoscope
+[2023-06-07 09:47:39] INFO root fetch - processPackages [pyobjc-framework-CalendarStore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyobjc-framework-CalendarStore-9.1b1.tar.gz tmp/pyobjc_framework_CalendarStore-9.2-py2.py3-none-any.whl.zip --markdown 20230607/p/pyobjc-framework-CalendarStore/9.1b1-9.2/diff.md --exclude *.pyd
+[2023-06-07 09:47:39] INFO root fetch - processPackages [datagen-protocol-functional]: Remove: archive file [/home/abi/fetcher/tmp/datagen_protocol_functional-0.8.3.tar.gz]
+[2023-06-07 09:47:39] INFO root fetch - processPackages [datagen-protocol-functional]: Remove: archive file [/home/abi/fetcher/tmp/datagen_protocol_functional-0.9.0.tar.gz]
+[2023-06-07 09:47:39] INFO root fetch - processPackages [datagen-protocol-functional]: Start processing: xj-enroll
+[2023-06-07 09:47:39] INFO root fetch - main [MainThread]: End processing [datagen-protocol-functional]: success
+[2023-06-07 09:47:39] INFO root fetch - processPackages [docarray]: Downloading https://files.pythonhosted.org/packages/da/d0/4e039d9e7c4e19f30fbd831f0bd4670ae9aa6b5c8b29e21ed55f7886c9fe/docarray-0.9.9.dev4.tar.gz
+[2023-06-07 09:47:39] INFO root fetch - processPackages [pyobjc-framework-CloudKit]: Downloading https://files.pythonhosted.org/packages/9a/e6/7b9255ec3e1a897f6a678aa8f3a166fd6f12689a4b0a4cd42b1d6eecaa47/pyobjc-framework-CloudKit-9.1b1.tar.gz
+[2023-06-07 09:47:39] INFO root fetch - processPackages [xj-enroll]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-06-07 09:47:39] INFO root fetch - processPackages [xj-enroll]: Downloading https://files.pythonhosted.org/packages/5f/55/043c01a1a9d5f4d1bc26501f84e1b44b3f001a7d69f9bfbcf23c512659ae/xj_enroll-1.0.98.tar.gz
+[2023-06-07 09:47:39] INFO root fetch - processPackages [pyobjc-framework-CallKit]: Downloading https://files.pythonhosted.org/packages/60/af/f88718068b6e5907a9b37b86f675983fc1d7222c6cb546218a624a136d6c/pyobjc_framework_CallKit-9.2-py2.py3-none-any.whl
+[2023-06-07 09:47:39] INFO root fetch - processPackages [docarray]: Downloading https://files.pythonhosted.org/packages/2b/4f/53a641fcaefc8774128d5f48cb2a7b2e692c8adfce1e2afaf8d9260d8b2a/docarray-0.9.9.dev5.tar.gz
+[2023-06-07 09:47:39] INFO root fetch - processPackages [anyforce]: Remove: archive file [/home/abi/fetcher/tmp/anyforce-0.8.2.tar.gz]
+[2023-06-07 09:47:39] INFO root fetch - processPackages [anyforce]: Remove: archive file [/home/abi/fetcher/tmp/anyforce-0.9.0.tar.gz]
+[2023-06-07 09:47:39] INFO root fetch - processPackages [anyforce]: Start processing: list-dataloaders
+[2023-06-07 09:47:39] INFO root fetch - main [MainThread]: End processing [anyforce]: success
+[2023-06-07 09:47:39] INFO root fetch - processPackages [pyobjc-framework-ClassKit]: Downloading https://files.pythonhosted.org/packages/4b/aa/1e864b7404971d32fbcc4b6237994be936b38cf684aab1ee7a1738d4b996/pyobjc_framework_ClassKit-9.2-cp36-abi3-macosx_11_0_universal2.whl
+[2023-06-07 09:47:39] INFO root fetch - processPackages [xj-enroll]: Downloading https://files.pythonhosted.org/packages/10/ba/d433d5e19456323afc65c6931bf6856d7357d50aca4073aa4b8c1dd1dd4b/xj_enroll-1.0.99.tar.gz
+[2023-06-07 09:47:39] INFO root fetch - processPackages [pyobjc-framework-CloudKit]: Downloading https://files.pythonhosted.org/packages/79/29/1f2ad207de95f5f0869dbe6d8bd7e95f54c886e95822a551c14c5d49db94/pyobjc_framework_CloudKit-9.2-py2.py3-none-any.whl
+[2023-06-07 09:47:39] INFO root fetch - processPackages [list-dataloaders]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-07 09:47:39] INFO root fetch - processPackages [pyobjc-framework-CallKit]: executing diffoscope
+[2023-06-07 09:47:39] INFO root fetch - processPackages [pyobjc-framework-CallKit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyobjc-framework-CallKit-9.1b1.tar.gz tmp/pyobjc_framework_CallKit-9.2-py2.py3-none-any.whl.zip --markdown 20230607/p/pyobjc-framework-CallKit/9.1b1-9.2/diff.md --exclude *.pyd
+[2023-06-07 09:47:39] INFO root fetch - processPackages [xj-enroll]: executing diffoscope
+[2023-06-07 09:47:39] INFO root fetch - processPackages [xj-enroll]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_enroll-1.0.98.tar.gz tmp/xj_enroll-1.0.99.tar.gz --markdown 20230607/x/xj-enroll/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-06-07 09:47:40] INFO root fetch - processPackages [docarray]: executing diffoscope
+[2023-06-07 09:47:40] INFO root fetch - processPackages [docarray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docarray-0.9.9.dev4.tar.gz tmp/docarray-0.9.9.dev5.tar.gz --markdown 20230607/d/docarray/0.9.9.dev4-0.9.9.dev5/diff.md --exclude *.pyd
+[2023-06-07 09:47:40] INFO root fetch - processPackages [pyobjc-framework-ClassKit]: executing diffoscope
+[2023-06-07 09:47:40] INFO root fetch - processPackages [pyobjc-framework-ClassKit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyobjc-framework-ClassKit-9.1b1.tar.gz tmp/pyobjc_framework_ClassKit-9.2-cp36-abi3-macosx_11_0_universal2.whl.zip --markdown 20230607/p/pyobjc-framework-ClassKit/9.1b1-9.2/diff.md --exclude *.pyd
+[2023-06-07 09:47:40] INFO root fetch - processPackages [pyobjc-framework-CloudKit]: executing diffoscope
+[2023-06-07 09:47:40] INFO root fetch - processPackages [pyobjc-framework-CloudKit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyobjc-framework-CloudKit-9.1b1.tar.gz tmp/pyobjc_framework_CloudKit-9.2-py2.py3-none-any.whl.zip --markdown 20230607/p/pyobjc-framework-CloudKit/9.1b1-9.2/diff.md --exclude *.pyd
+[2023-06-07 09:47:40] INFO root fetch - processPackages [list-dataloaders]: Downloading https://files.pythonhosted.org/packages/71/3c/298814a7b16e9cfbfba26b59f24c889b43aa9c9ac1f0fe5420fbcd377d71/list_dataloaders-1.0.0-py3-none-any.whl
+[2023-06-07 09:47:40] INFO root fetch - processPackages [list-dataloaders]: Downloading https://files.pythonhosted.org/packages/c0/a2/7c1f8bc3014d1357bcfb1e34f2e710848f2d16555b19595921933007e228/list-dataloaders-1.0.1.tar.gz
+[2023-06-07 09:47:40] INFO root fetch - processPackages [pyobjc-framework-CFNetwork]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-CFNetwork-9.1b1.tar.gz]
+[2023-06-07 09:47:40] INFO root fetch - processPackages [pyobjc-framework-CFNetwork]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc_framework_CFNetwork-9.2-cp36-abi3-macosx_11_0_universal2.whl.zip]
+[2023-06-07 09:47:40] INFO root fetch - processPackages [pyobjc-framework-CFNetwork]: Start processing: hybrid-graph
+[2023-06-07 09:47:40] INFO root fetch - main [MainThread]: End processing [pyobjc-framework-CFNetwork]: success
+[2023-06-07 09:47:40] INFO root fetch - processPackages [hybrid-graph]: New version: [0.4] Old Version: [0.3]
+[2023-06-07 09:47:40] INFO root fetch - processPackages [hybrid-graph]: Downloading https://files.pythonhosted.org/packages/d6/8b/dceae71d6c4d4cb962a79571c993ee9487999966981705803ec0b30b70d5/hybrid-graph-0.3.tar.gz
+[2023-06-07 09:47:40] INFO root fetch - processPackages [list-dataloaders]: executing diffoscope
+[2023-06-07 09:47:40] INFO root fetch - processPackages [list-dataloaders]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/list_dataloaders-1.0.0-py3-none-any.whl.zip tmp/list-dataloaders-1.0.1.tar.gz --markdown 20230607/l/list-dataloaders/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-07 09:47:40] INFO root fetch - processPackages [pyobjc-framework-Automator]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-Automator-9.1b1.tar.gz]
+[2023-06-07 09:47:40] INFO root fetch - processPackages [pyobjc-framework-Automator]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc_framework_Automator-9.2-py2.py3-none-any.whl.zip]
+[2023-06-07 09:47:40] INFO root fetch - processPackages [pyobjc-framework-Automator]: Start processing: bahire-hasab
+[2023-06-07 09:47:40] INFO root fetch - main [MainThread]: End processing [pyobjc-framework-Automator]: success
+[2023-06-07 09:47:40] INFO root fetch - processPackages [pyobjc-framework-CalendarStore]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-CalendarStore-9.1b1.tar.gz]
+[2023-06-07 09:47:40] INFO root fetch - processPackages [pyobjc-framework-CalendarStore]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc_framework_CalendarStore-9.2-py2.py3-none-any.whl.zip]
+[2023-06-07 09:47:40] INFO root fetch - processPackages [pyobjc-framework-CalendarStore]: Start processing: a2
+[2023-06-07 09:47:40] INFO root fetch - main [MainThread]: End processing [pyobjc-framework-CalendarStore]: success
+[2023-06-07 09:47:41] INFO root fetch - processPackages [bahire-hasab]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-06-07 09:47:41] INFO root fetch - processPackages [hybrid-graph]: Downloading https://files.pythonhosted.org/packages/f4/9b/885da235308ed398e0c6e082488678cdeba26609b3aa87f5639bc229b105/hybrid-graph-0.4.tar.gz
+[2023-06-07 09:47:41] INFO root fetch - processPackages [a2]: New version: [0.3.8] Old Version: [0.3.7]
+[2023-06-07 09:47:41] INFO root fetch - processPackages [a2]: Downloading https://files.pythonhosted.org/packages/ea/94/05a4fa99f85de07aa509dc55b79e68b61e4330c8de89a398b37475d654e3/a2-0.3.7.tar.gz
+[2023-06-07 09:47:41] INFO root fetch - processPackages [hybrid-graph]: executing diffoscope
+[2023-06-07 09:47:41] INFO root fetch - processPackages [hybrid-graph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hybrid-graph-0.3.tar.gz tmp/hybrid-graph-0.4.tar.gz --markdown 20230607/h/hybrid-graph/0.3-0.4/diff.md --exclude *.pyd
+[2023-06-07 09:47:41] INFO root fetch - processPackages [bahire-hasab]: Downloading https://files.pythonhosted.org/packages/b1/ae/3984d64500c92c7e66d7c0ccb35ff9c7cb76736d104a7c98a95e84050ba0/bahire-hasab-0.2.6.tar.gz
+[2023-06-07 09:47:41] INFO root fetch - processPackages [a2]: Downloading https://files.pythonhosted.org/packages/10/c4/4d15ff29912d32ea52cd9aacfbad1b8a30dbf09c6e3efb3b84695fc25537/a2-0.3.8.tar.gz
+[2023-06-07 09:47:41] INFO root fetch - processPackages [bahire-hasab]: Downloading https://files.pythonhosted.org/packages/76/0d/cdf1b9e99f1781eb8112e05ae55d6c84cf9943074d611956ee290ecceeb5/bahire-hasab-0.2.7.tar.gz
+[2023-06-07 09:47:41] INFO root fetch - processPackages [pyobjc-framework-CloudKit]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-CloudKit-9.1b1.tar.gz]
+[2023-06-07 09:47:41] INFO root fetch - processPackages [pyobjc-framework-CloudKit]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc_framework_CloudKit-9.2-py2.py3-none-any.whl.zip]
+[2023-06-07 09:47:41] INFO root fetch - processPackages [pyobjc-framework-CloudKit]: Start processing: pyobjc-framework-Cocoa
+[2023-06-07 09:47:41] INFO root fetch - main [MainThread]: End processing [pyobjc-framework-CloudKit]: success
+[2023-06-07 09:47:41] INFO root fetch - processPackages [pyobjc-framework-Cocoa]: New version: [9.2] Old Version: [9.1b1]
+[2023-06-07 09:47:41] INFO root fetch - processPackages [pyobjc-framework-ClassKit]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-ClassKit-9.1b1.tar.gz]
+[2023-06-07 09:47:41] INFO root fetch - processPackages [pyobjc-framework-ClassKit]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc_framework_ClassKit-9.2-cp36-abi3-macosx_11_0_universal2.whl.zip]
+[2023-06-07 09:47:41] INFO root fetch - processPackages [pyobjc-framework-ClassKit]: Start processing: chainingiterator
+[2023-06-07 09:47:41] INFO root fetch - main [MainThread]: End processing [pyobjc-framework-ClassKit]: success
+[2023-06-07 09:47:41] INFO root fetch - processPackages [chainingiterator]: New version: [0.1.9] Old Version: [0.1.7]
+[2023-06-07 09:47:41] INFO root fetch - processPackages [bahire-hasab]: executing diffoscope
+[2023-06-07 09:47:41] INFO root fetch - processPackages [bahire-hasab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bahire-hasab-0.2.6.tar.gz tmp/bahire-hasab-0.2.7.tar.gz --markdown 20230607/b/bahire-hasab/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-06-07 09:47:41] INFO root fetch - processPackages [chainingiterator]: Downloading https://files.pythonhosted.org/packages/d2/68/e7bfa4477c409fa73c26cb2231edd29db8d5724766e186f1761210d0aad7/chainingiterator-0.1.7.tar.gz
+[2023-06-07 09:47:41] INFO root fetch - processPackages [pyobjc-framework-Cocoa]: Downloading https://files.pythonhosted.org/packages/f8/e3/5b097c70ece99f82228e5673b8831ef81cb31b01737fc3ba0d4f07bd59f7/pyobjc-framework-Cocoa-9.1b1.tar.gz
+[2023-06-07 09:47:42] INFO root fetch - processPackages [list-dataloaders]: Remove: archive file [/home/abi/fetcher/tmp/list_dataloaders-1.0.0-py3-none-any.whl.zip]
+[2023-06-07 09:47:42] INFO root fetch - processPackages [list-dataloaders]: Remove: archive file [/home/abi/fetcher/tmp/list-dataloaders-1.0.1.tar.gz]
+[2023-06-07 09:47:42] INFO root fetch - processPackages [list-dataloaders]: Start processing: keras-nightly
+[2023-06-07 09:47:42] INFO root fetch - main [MainThread]: End processing [list-dataloaders]: success
+[2023-06-07 09:47:42] INFO root fetch - processPackages [chainingiterator]: Downloading https://files.pythonhosted.org/packages/e3/ff/b2fa54a3c03f07a22121740705830becaabc1b01d91718a16fb0f8020922/chainingiterator-0.1.9.tar.gz
+[2023-06-07 09:47:42] INFO root fetch - processPackages [pyobjc-framework-Cocoa]: Downloading https://files.pythonhosted.org/packages/04/0a/1bb7500d725593fa035b44c5d16b95c0b80d501db3ce1c2e97f47be23c69/pyobjc_framework_Cocoa-9.2-cp311-cp311-macosx_10_9_universal2.whl
+[2023-06-07 09:47:42] INFO root fetch - processPackages [keras-nightly]: New version: [2.9.0.dev2022033107] Old Version: [2.9.0.dev2022033007]
+[2023-06-07 09:47:42] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/9c/ac/df626672be5af4204ef9c477f1110050afecb7a0f086fef8a6a2e3469a56/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl
+[2023-06-07 09:47:42] INFO root fetch - processPackages [pyobjc-framework-CallKit]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-CallKit-9.1b1.tar.gz]
+[2023-06-07 09:47:42] INFO root fetch - processPackages [pyobjc-framework-CallKit]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc_framework_CallKit-9.2-py2.py3-none-any.whl.zip]
+[2023-06-07 09:47:42] INFO root fetch - processPackages [pyobjc-framework-CallKit]: Start processing: bunkatopics
+[2023-06-07 09:47:42] INFO root fetch - main [MainThread]: End processing [pyobjc-framework-CallKit]: success
+[2023-06-07 09:47:42] INFO root fetch - processPackages [chainingiterator]: executing diffoscope
+[2023-06-07 09:47:42] INFO root fetch - processPackages [chainingiterator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chainingiterator-0.1.7.tar.gz tmp/chainingiterator-0.1.9.tar.gz --markdown 20230607/c/chainingiterator/0.1.7-0.1.9/diff.md --exclude *.pyd
+[2023-06-07 09:47:42] INFO root fetch - processPackages [bunkatopics]: New version: [0.8] Old Version: [0.7]
+[2023-06-07 09:47:42] INFO root fetch - processPackages [pyobjc-framework-Cocoa]: executing diffoscope
+[2023-06-07 09:47:42] INFO root fetch - processPackages [pyobjc-framework-Cocoa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyobjc-framework-Cocoa-9.1b1.tar.gz tmp/pyobjc_framework_Cocoa-9.2-cp311-cp311-macosx_10_9_universal2.whl.zip --markdown 20230607/p/pyobjc-framework-Cocoa/9.1b1-9.2/diff.md --exclude *.pyd
+[2023-06-07 09:47:42] INFO root fetch - processPackages [bunkatopics]: Downloading https://files.pythonhosted.org/packages/ce/83/0a81009cd90884907a7dbf000b4620f61107e6d19af91c4e93aebf7e7a74/bunkatopics-0.7.tar.gz
+[2023-06-07 09:47:42] INFO root fetch - processPackages [a2]: executing diffoscope
+[2023-06-07 09:47:42] INFO root fetch - processPackages [a2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/a2-0.3.7.tar.gz tmp/a2-0.3.8.tar.gz --markdown 20230607/a/a2/0.3.7-0.3.8/diff.md --exclude *.pyd
+[2023-06-07 09:47:42] INFO root fetch - processPackages [hybrid-graph]: Remove: archive file [/home/abi/fetcher/tmp/hybrid-graph-0.3.tar.gz]
+[2023-06-07 09:47:42] INFO root fetch - processPackages [hybrid-graph]: Remove: archive file [/home/abi/fetcher/tmp/hybrid-graph-0.4.tar.gz]
+[2023-06-07 09:47:42] INFO root fetch - processPackages [hybrid-graph]: Start processing: plothist
+[2023-06-07 09:47:42] INFO root fetch - main [MainThread]: End processing [hybrid-graph]: success
+[2023-06-07 09:47:42] WARNING root fetch - processPackages [plothist]: Skipping, unable to determine old version
+[2023-06-07 09:47:42] INFO root fetch - main [MainThread]: End processing [plothist] error
+[2023-06-07 09:47:42] INFO root fetch - processPackages [bunkatopics]: Downloading https://files.pythonhosted.org/packages/ed/00/7a7a8067e7f169270993b124c983baf04df5e80eee002825a77288b3f886/bunkatopics-0.8.tar.gz
+[2023-06-07 09:47:42] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/64/5c/effcf86e94e42de7429f684d499233617aaa054e929986d65d4d72fb5c19/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl
+[2023-06-07 09:47:42] INFO root fetch - processPackages [xj-enroll]: Remove: archive file [/home/abi/fetcher/tmp/xj_enroll-1.0.98.tar.gz]
+[2023-06-07 09:47:42] INFO root fetch - processPackages [xj-enroll]: Remove: archive file [/home/abi/fetcher/tmp/xj_enroll-1.0.99.tar.gz]
+[2023-06-07 09:47:42] INFO root fetch - main [MainThread]: End processing [xj-enroll]: success
+[2023-06-07 09:47:42] INFO root fetch - processPackages [bahire-hasab]: Remove: archive file [/home/abi/fetcher/tmp/bahire-hasab-0.2.6.tar.gz]
+[2023-06-07 09:47:42] INFO root fetch - processPackages [bahire-hasab]: Remove: archive file [/home/abi/fetcher/tmp/bahire-hasab-0.2.7.tar.gz]
+[2023-06-07 09:47:42] INFO root fetch - main [MainThread]: End processing [bahire-hasab]: success
+[2023-06-07 09:47:42] INFO root fetch - processPackages [bunkatopics]: executing diffoscope
+[2023-06-07 09:47:42] INFO root fetch - processPackages [bunkatopics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bunkatopics-0.7.tar.gz tmp/bunkatopics-0.8.tar.gz --markdown 20230607/b/bunkatopics/0.7-0.8/diff.md --exclude *.pyd
+[2023-06-07 09:47:43] INFO root fetch - processPackages [keras-nightly]: executing diffoscope
+[2023-06-07 09:47:43] INFO root fetch - processPackages [keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl.zip tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip --markdown 20230607/k/keras-nightly/2.9.0.dev2022033007-2.9.0.dev2022033107/diff.md --exclude *.pyd
+[2023-06-07 09:47:43] INFO root fetch - processPackages [chainingiterator]: Remove: archive file [/home/abi/fetcher/tmp/chainingiterator-0.1.7.tar.gz]
+[2023-06-07 09:47:43] INFO root fetch - processPackages [chainingiterator]: Remove: archive file [/home/abi/fetcher/tmp/chainingiterator-0.1.9.tar.gz]
+[2023-06-07 09:47:43] INFO root fetch - main [MainThread]: End processing [chainingiterator]: success
+[2023-06-07 09:47:43] INFO root fetch - processPackages [bunkatopics]: Remove: archive file [/home/abi/fetcher/tmp/bunkatopics-0.7.tar.gz]
+[2023-06-07 09:47:43] INFO root fetch - processPackages [bunkatopics]: Remove: archive file [/home/abi/fetcher/tmp/bunkatopics-0.8.tar.gz]
+[2023-06-07 09:47:43] INFO root fetch - main [MainThread]: End processing [bunkatopics]: success
+[2023-06-07 09:47:44] INFO root fetch - processPackages [docarray]: Remove: archive file [/home/abi/fetcher/tmp/docarray-0.9.9.dev4.tar.gz]
+[2023-06-07 09:47:44] INFO root fetch - processPackages [docarray]: Remove: archive file [/home/abi/fetcher/tmp/docarray-0.9.9.dev5.tar.gz]
+[2023-06-07 09:47:44] INFO root fetch - main [MainThread]: End processing [docarray]: success
+[2023-06-07 09:47:48] INFO root fetch - processPackages [pyobjc-framework-Cocoa]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-Cocoa-9.1b1.tar.gz]
+[2023-06-07 09:47:48] INFO root fetch - processPackages [pyobjc-framework-Cocoa]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc_framework_Cocoa-9.2-cp311-cp311-macosx_10_9_universal2.whl.zip]
+[2023-06-07 09:47:48] INFO root fetch - main [MainThread]: End processing [pyobjc-framework-Cocoa]: success
+[2023-06-07 09:47:48] INFO root fetch - processPackages [antgo]: Remove: archive file [/home/abi/fetcher/tmp/antgo-0.1.8.tar.gz]
+[2023-06-07 09:47:48] INFO root fetch - processPackages [antgo]: Remove: archive file [/home/abi/fetcher/tmp/antgo-0.1.9.tar.gz]
+[2023-06-07 09:47:48] INFO root fetch - main [MainThread]: End processing [antgo]: success
+[2023-06-07 09:47:50] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl.zip]
+[2023-06-07 09:47:50] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip]
+[2023-06-07 09:47:50] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
+[2023-06-07 09:47:52] INFO root fetch - processPackages [a2]: Remove: archive file [/home/abi/fetcher/tmp/a2-0.3.7.tar.gz]
+[2023-06-07 09:47:52] INFO root fetch - processPackages [a2]: Remove: archive file [/home/abi/fetcher/tmp/a2-0.3.8.tar.gz]
+[2023-06-07 09:47:52] INFO root fetch - main [MainThread]: End processing [a2]: success
+[2023-06-07 09:47:52] INFO root fetch - main [MainThread]: Store serial: [18404280]
