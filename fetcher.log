@@ -12190,3 +12190,56 @@ AssertionError: tmp/odoo_addon_crm_lead_firstname-16.0.1.0.1-py3-none-any.whl.zi
 [2023-06-07 06:16:03] INFO root fetch - processPackages [pypcapkit]: Remove: archive file [/home/abi/fetcher/tmp/pypcapkit-1.0.2.post2.tar.gz]
 [2023-06-07 06:16:03] INFO root fetch - main [MainThread]: End processing [pypcapkit]: success
 [2023-06-07 06:16:03] INFO root fetch - main [MainThread]: Store serial: [18402583]
+[2023-06-07 06:21:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18402583]
+[2023-06-07 06:21:12] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-07 06:21:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: omnata-plugin-runtime
+[2023-06-07 06:21:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spaceone-inventory
+[2023-06-07 06:21:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pysimflow
+[2023-06-07 06:21:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xklb
+[2023-06-07 06:21:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: llmspec
+[2023-06-07 06:21:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rebotics-sdk
+[2023-06-07 06:21:12] INFO root fetch - processPackages [pysimflow]: New version: [0.0.53] Old Version: [0.0.52]
+[2023-06-07 06:21:12] INFO root fetch - processPackages [llmspec]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-07 06:21:12] INFO root fetch - processPackages [omnata-plugin-runtime]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-07 06:21:12] INFO root fetch - processPackages [rebotics-sdk]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-07 06:21:12] INFO root fetch - processPackages [spaceone-inventory]: New version: [1.9.7rc1] Old Version: [1.9.7.3]
+[2023-06-07 06:21:12] INFO root fetch - processPackages [xklb]: New version: [1.30.3] Old Version: [1.30.2]
+[2023-06-07 06:21:12] INFO root fetch - processPackages [llmspec]: Downloading https://files.pythonhosted.org/packages/78/b9/4a0fb2c7ed94e96a750b639027045ba6bdd9385b68fff54123fb03a36607/llmspec-0.3.8.tar.gz
+[2023-06-07 06:21:12] INFO root fetch - processPackages [omnata-plugin-runtime]: Downloading https://files.pythonhosted.org/packages/53/a1/adf4ca1ed5ea551e6c30a8edb566fbce83dbedc1f72d8e262ff85d80881e/omnata_plugin_runtime-0.1.8.tar.gz
+[2023-06-07 06:21:12] INFO root fetch - processPackages [pysimflow]: Downloading https://files.pythonhosted.org/packages/53/11/adc6f0f7b0fcf90dc9c51e97a405e23afa87487f8e4f88060e5243ce04dd/pysimflow-0.0.52.tar.gz
+[2023-06-07 06:21:12] WARNING root fetch - processPackages [pysimflow]: Skipping package: exceeds size limit 72643398>=10485760
+[2023-06-07 06:21:12] INFO root fetch - main [MainThread]: End processing [pysimflow] error
+[2023-06-07 06:21:12] INFO root fetch - processPackages [llmspec]: Downloading https://files.pythonhosted.org/packages/cb/ec/5feb32c379c88bb108234a46b8c773e1dba766fbc66e2897479931b4216a/llmspec-0.3.9.tar.gz
+[2023-06-07 06:21:12] INFO root fetch - processPackages [rebotics-sdk]: Downloading https://files.pythonhosted.org/packages/51/65/08d641bf16e8c340b76e15f57bf4c36d7254f98e49c96a1ac85a040f86b0/rebotics_sdk-0.9.0.tar.gz
+[2023-06-07 06:21:13] INFO root fetch - processPackages [spaceone-inventory]: Downloading https://files.pythonhosted.org/packages/a9/82/c593d30951fa8a48a0777598d6512a6f1c3d737ee4831063408619868fff/spaceone_inventory-1.9.7.3-py3-none-any.whl
+[2023-06-07 06:21:13] INFO root fetch - processPackages [omnata-plugin-runtime]: Downloading https://files.pythonhosted.org/packages/cf/ef/88a357f5f8f3b7c775ede6822e6617364cfdcf04a79bca1e74d50ae0aae1/omnata_plugin_runtime-0.1.9.tar.gz
+[2023-06-07 06:21:13] INFO root fetch - processPackages [xklb]: Downloading https://files.pythonhosted.org/packages/5e/2e/67291c871718e2882328b8313ac09cfb4f91b8c9933b10bd7a88dca0bca5/xklb-1.30.2.tar.gz
+[2023-06-07 06:21:13] INFO root fetch - processPackages [omnata-plugin-runtime]: executing diffoscope
+[2023-06-07 06:21:13] INFO root fetch - processPackages [omnata-plugin-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnata_plugin_runtime-0.1.8.tar.gz tmp/omnata_plugin_runtime-0.1.9.tar.gz --markdown 20230607/o/omnata-plugin-runtime/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-07 06:21:13] INFO root fetch - processPackages [llmspec]: executing diffoscope
+[2023-06-07 06:21:13] INFO root fetch - processPackages [llmspec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llmspec-0.3.8.tar.gz tmp/llmspec-0.3.9.tar.gz --markdown 20230607/l/llmspec/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-07 06:21:13] INFO root fetch - processPackages [xklb]: Downloading https://files.pythonhosted.org/packages/86/27/1eab3e9ce2dbf30310f35d94406602773c0338281351939d9c94054df769/xklb-1.30.3.tar.gz
+[2023-06-07 06:21:13] INFO root fetch - processPackages [rebotics-sdk]: Downloading https://files.pythonhosted.org/packages/3a/af/a2aa77307cf3fac9701095f738d855d74af3c987de0ec7d7a1d8b75aee7f/rebotics_sdk-0.9.1.tar.gz
+[2023-06-07 06:21:13] INFO root fetch - processPackages [spaceone-inventory]: Downloading https://files.pythonhosted.org/packages/8b/3e/9b66d8ee4c516bd667673a5577cc4743104de117a9cf1693532b741e45c4/spaceone_inventory-1.9.7rc1-py3-none-any.whl
+[2023-06-07 06:21:13] INFO root fetch - processPackages [xklb]: executing diffoscope
+[2023-06-07 06:21:13] INFO root fetch - processPackages [xklb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xklb-1.30.2.tar.gz tmp/xklb-1.30.3.tar.gz --markdown 20230607/x/xklb/1.30.2-1.30.3/diff.md --exclude *.pyd
+[2023-06-07 06:21:13] INFO root fetch - processPackages [rebotics-sdk]: executing diffoscope
+[2023-06-07 06:21:13] INFO root fetch - processPackages [rebotics-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rebotics_sdk-0.9.0.tar.gz tmp/rebotics_sdk-0.9.1.tar.gz --markdown 20230607/r/rebotics-sdk/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-07 06:21:13] INFO root fetch - processPackages [spaceone-inventory]: executing diffoscope
+[2023-06-07 06:21:13] INFO root fetch - processPackages [spaceone-inventory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone_inventory-1.9.7.3-py3-none-any.whl.zip tmp/spaceone_inventory-1.9.7rc1-py3-none-any.whl.zip --markdown 20230607/s/spaceone-inventory/1.9.7.3-1.9.7rc1/diff.md --exclude *.pyd
+[2023-06-07 06:21:14] INFO root fetch - processPackages [llmspec]: Remove: archive file [/home/abi/fetcher/tmp/llmspec-0.3.8.tar.gz]
+[2023-06-07 06:21:14] INFO root fetch - processPackages [llmspec]: Remove: archive file [/home/abi/fetcher/tmp/llmspec-0.3.9.tar.gz]
+[2023-06-07 06:21:14] INFO root fetch - main [MainThread]: End processing [llmspec]: success
+[2023-06-07 06:21:14] INFO root fetch - processPackages [omnata-plugin-runtime]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_runtime-0.1.8.tar.gz]
+[2023-06-07 06:21:14] INFO root fetch - processPackages [omnata-plugin-runtime]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_runtime-0.1.9.tar.gz]
+[2023-06-07 06:21:14] INFO root fetch - main [MainThread]: End processing [omnata-plugin-runtime]: success
+[2023-06-07 06:21:14] INFO root fetch - processPackages [rebotics-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rebotics_sdk-0.9.0.tar.gz]
+[2023-06-07 06:21:14] INFO root fetch - processPackages [rebotics-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rebotics_sdk-0.9.1.tar.gz]
+[2023-06-07 06:21:14] INFO root fetch - main [MainThread]: End processing [rebotics-sdk]: success
+[2023-06-07 06:21:14] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-1.30.2.tar.gz]
+[2023-06-07 06:21:14] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-1.30.3.tar.gz]
+[2023-06-07 06:21:14] INFO root fetch - main [MainThread]: End processing [xklb]: success
+[2023-06-07 06:21:14] INFO root fetch - processPackages [spaceone-inventory]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_inventory-1.9.7.3-py3-none-any.whl.zip]
+[2023-06-07 06:21:14] INFO root fetch - processPackages [spaceone-inventory]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_inventory-1.9.7rc1-py3-none-any.whl.zip]
+[2023-06-07 06:21:14] INFO root fetch - main [MainThread]: End processing [spaceone-inventory]: success
+[2023-06-07 06:21:14] INFO root fetch - main [MainThread]: Store serial: [18402602]
