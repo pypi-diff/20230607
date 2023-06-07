@@ -1,0 +1,278 @@
+# Comparing `tmp/xt_st_common-0.7.0.tar.gz` & `tmp/xt_st_common-0.7.1.tar.gz`
+
+## filetype from file(1)
+
+```diff
+@@ -1 +1 @@
+-gzip compressed data, was "xt_st_common-0.7.0.tar", max compression
++gzip compressed data, was "xt_st_common-0.7.1.tar", max compression
+```
+
+## Comparing `xt_st_common-0.7.0.tar` & `xt_st_common-0.7.1.tar`
+
+### file list
+
+```diff
+@@ -1,33 +1,33 @@
+--rw-r--r--   0        0        0      720 2023-06-07 09:30:36.324167 xt_st_common-0.7.0/README.md
+--rw-r--r--   0        0        0     2603 2023-06-07 09:30:36.324167 xt_st_common-0.7.0/pyproject.toml
+--rw-r--r--   0        0        0     6128 2023-06-07 09:30:03.195672 xt_st_common-0.7.0/src/streamlit_plotly_events/__init__.py
+--rw-r--r--   0        0        0      180 2023-06-07 09:30:03.195672 xt_st_common-0.7.0/src/streamlit_plotly_events/frontend/.env
+--rw-r--r--   0        0        0       67 2023-06-07 09:30:03.195672 xt_st_common-0.7.0/src/streamlit_plotly_events/frontend/.prettierrc
+--rw-r--r--   0        0        0      859 2023-06-07 09:30:03.195672 xt_st_common-0.7.0/src/streamlit_plotly_events/frontend/build/asset-manifest.json
+--rw-r--r--   0        0        0     2052 2023-06-07 09:30:03.195672 xt_st_common-0.7.0/src/streamlit_plotly_events/frontend/build/index.html
+--rw-r--r--   0        0        0      564 2023-06-07 09:30:03.195672 xt_st_common-0.7.0/src/streamlit_plotly_events/frontend/build/precache-manifest.e3df0e84b856a278b39da3a085481f45.js
+--rw-r--r--   0        0        0     1183 2023-06-07 09:30:03.195672 xt_st_common-0.7.0/src/streamlit_plotly_events/frontend/build/service-worker.js
+--rw-r--r--   0        0        0  4138182 2023-06-07 09:30:03.215672 xt_st_common-0.7.0/src/streamlit_plotly_events/frontend/build/static/js/2.a9de1b85.chunk.js
+--rw-r--r--   0        0        0     3326 2023-06-07 09:30:03.215672 xt_st_common-0.7.0/src/streamlit_plotly_events/frontend/build/static/js/2.a9de1b85.chunk.js.LICENSE.txt
+--rw-r--r--   0        0        0 16152785 2023-06-07 09:30:03.295673 xt_st_common-0.7.0/src/streamlit_plotly_events/frontend/build/static/js/2.a9de1b85.chunk.js.map
+--rw-r--r--   0        0        0     1442 2023-06-07 09:30:03.295673 xt_st_common-0.7.0/src/streamlit_plotly_events/frontend/build/static/js/main.2ba31fb4.chunk.js
+--rw-r--r--   0        0        0     3848 2023-06-07 09:30:03.295673 xt_st_common-0.7.0/src/streamlit_plotly_events/frontend/build/static/js/main.2ba31fb4.chunk.js.map
+--rw-r--r--   0        0        0     1598 2023-06-07 09:30:03.295673 xt_st_common-0.7.0/src/streamlit_plotly_events/frontend/build/static/js/runtime-main.11ec9aca.js
+--rw-r--r--   0        0        0     8317 2023-06-07 09:30:03.295673 xt_st_common-0.7.0/src/streamlit_plotly_events/frontend/build/static/js/runtime-main.11ec9aca.js.map
+--rw-r--r--   0        0        0     1141 2023-06-07 09:30:03.295673 xt_st_common-0.7.0/src/streamlit_plotly_events/frontend/package.json
+--rw-r--r--   0        0        0      839 2023-06-07 09:30:03.295673 xt_st_common-0.7.0/src/streamlit_plotly_events/frontend/public/index.html
+--rw-r--r--   0        0        0     1922 2023-06-07 09:30:03.295673 xt_st_common-0.7.0/src/streamlit_plotly_events/frontend/src/StreamlitPlotlyEventsComponent.tsx
+--rw-r--r--   0        0        0      274 2023-06-07 09:30:03.295673 xt_st_common-0.7.0/src/streamlit_plotly_events/frontend/src/index.tsx
+--rw-r--r--   0        0        0       40 2023-06-07 09:30:03.295673 xt_st_common-0.7.0/src/streamlit_plotly_events/frontend/src/react-app-env.d.ts
+--rw-r--r--   0        0        0      459 2023-06-07 09:30:03.295673 xt_st_common-0.7.0/src/streamlit_plotly_events/frontend/tsconfig.json
+--rw-r--r--   0        0        0       22 2023-06-07 09:30:36.324167 xt_st_common-0.7.0/src/xt_st_common/__init__.py
+--rw-r--r--   0        0        0     5010 2023-06-07 09:30:03.295673 xt_st_common-0.7.0/src/xt_st_common/components.py
+--rw-r--r--   0        0        0     2371 2023-06-07 09:30:03.295673 xt_st_common-0.7.0/src/xt_st_common/config.py
+--rw-r--r--   0        0        0     3177 2023-06-07 09:30:03.295673 xt_st_common-0.7.0/src/xt_st_common/database.py
+--rw-r--r--   0        0        0     6303 2023-06-07 09:30:03.295673 xt_st_common-0.7.0/src/xt_st_common/fs_upload_page.py
+--rw-r--r--   0        0        0    35057 2023-06-07 09:30:03.295673 xt_st_common-0.7.0/src/xt_st_common/project_components.py
+--rw-r--r--   0        0        0     6518 2023-06-07 09:30:03.295673 xt_st_common-0.7.0/src/xt_st_common/project_models.py
+--rw-r--r--   0        0        0     5976 2023-06-07 09:30:03.295673 xt_st_common-0.7.0/src/xt_st_common/session.py
+--rw-r--r--   0        0        0     6450 2023-06-07 09:30:03.295673 xt_st_common-0.7.0/src/xt_st_common/storage.py
+--rw-r--r--   0        0        0     1957 2023-06-07 09:30:03.295673 xt_st_common-0.7.0/src/xt_st_common/utils.py
+--rw-r--r--   0        0        0     1675 1970-01-01 00:00:00.000000 xt_st_common-0.7.0/PKG-INFO
++-rw-r--r--   0        0        0      720 2023-06-07 13:41:54.002649 xt_st_common-0.7.1/README.md
++-rw-r--r--   0        0        0     2603 2023-06-07 13:41:54.002649 xt_st_common-0.7.1/pyproject.toml
++-rw-r--r--   0        0        0     6128 2023-06-07 13:41:22.998116 xt_st_common-0.7.1/src/streamlit_plotly_events/__init__.py
++-rw-r--r--   0        0        0      180 2023-06-07 13:41:22.998116 xt_st_common-0.7.1/src/streamlit_plotly_events/frontend/.env
++-rw-r--r--   0        0        0       67 2023-06-07 13:41:22.998116 xt_st_common-0.7.1/src/streamlit_plotly_events/frontend/.prettierrc
++-rw-r--r--   0        0        0      859 2023-06-07 13:41:22.998116 xt_st_common-0.7.1/src/streamlit_plotly_events/frontend/build/asset-manifest.json
++-rw-r--r--   0        0        0     2052 2023-06-07 13:41:22.998116 xt_st_common-0.7.1/src/streamlit_plotly_events/frontend/build/index.html
++-rw-r--r--   0        0        0      564 2023-06-07 13:41:22.998116 xt_st_common-0.7.1/src/streamlit_plotly_events/frontend/build/precache-manifest.e3df0e84b856a278b39da3a085481f45.js
++-rw-r--r--   0        0        0     1183 2023-06-07 13:41:22.998116 xt_st_common-0.7.1/src/streamlit_plotly_events/frontend/build/service-worker.js
++-rw-r--r--   0        0        0  4138182 2023-06-07 13:41:23.018116 xt_st_common-0.7.1/src/streamlit_plotly_events/frontend/build/static/js/2.a9de1b85.chunk.js
++-rw-r--r--   0        0        0     3326 2023-06-07 13:41:23.018116 xt_st_common-0.7.1/src/streamlit_plotly_events/frontend/build/static/js/2.a9de1b85.chunk.js.LICENSE.txt
++-rw-r--r--   0        0        0 16152785 2023-06-07 13:41:23.098118 xt_st_common-0.7.1/src/streamlit_plotly_events/frontend/build/static/js/2.a9de1b85.chunk.js.map
++-rw-r--r--   0        0        0     1442 2023-06-07 13:41:23.098118 xt_st_common-0.7.1/src/streamlit_plotly_events/frontend/build/static/js/main.2ba31fb4.chunk.js
++-rw-r--r--   0        0        0     3848 2023-06-07 13:41:23.098118 xt_st_common-0.7.1/src/streamlit_plotly_events/frontend/build/static/js/main.2ba31fb4.chunk.js.map
++-rw-r--r--   0        0        0     1598 2023-06-07 13:41:23.098118 xt_st_common-0.7.1/src/streamlit_plotly_events/frontend/build/static/js/runtime-main.11ec9aca.js
++-rw-r--r--   0        0        0     8317 2023-06-07 13:41:23.098118 xt_st_common-0.7.1/src/streamlit_plotly_events/frontend/build/static/js/runtime-main.11ec9aca.js.map
++-rw-r--r--   0        0        0     1141 2023-06-07 13:41:23.098118 xt_st_common-0.7.1/src/streamlit_plotly_events/frontend/package.json
++-rw-r--r--   0        0        0      839 2023-06-07 13:41:23.098118 xt_st_common-0.7.1/src/streamlit_plotly_events/frontend/public/index.html
++-rw-r--r--   0        0        0     1922 2023-06-07 13:41:23.098118 xt_st_common-0.7.1/src/streamlit_plotly_events/frontend/src/StreamlitPlotlyEventsComponent.tsx
++-rw-r--r--   0        0        0      274 2023-06-07 13:41:23.098118 xt_st_common-0.7.1/src/streamlit_plotly_events/frontend/src/index.tsx
++-rw-r--r--   0        0        0       40 2023-06-07 13:41:23.098118 xt_st_common-0.7.1/src/streamlit_plotly_events/frontend/src/react-app-env.d.ts
++-rw-r--r--   0        0        0      459 2023-06-07 13:41:23.098118 xt_st_common-0.7.1/src/streamlit_plotly_events/frontend/tsconfig.json
++-rw-r--r--   0        0        0       22 2023-06-07 13:41:54.002649 xt_st_common-0.7.1/src/xt_st_common/__init__.py
++-rw-r--r--   0        0        0     5010 2023-06-07 13:41:23.098118 xt_st_common-0.7.1/src/xt_st_common/components.py
++-rw-r--r--   0        0        0     2371 2023-06-07 13:41:23.098118 xt_st_common-0.7.1/src/xt_st_common/config.py
++-rw-r--r--   0        0        0     3177 2023-06-07 13:41:23.098118 xt_st_common-0.7.1/src/xt_st_common/database.py
++-rw-r--r--   0        0        0     6303 2023-06-07 13:41:23.098118 xt_st_common-0.7.1/src/xt_st_common/fs_upload_page.py
++-rw-r--r--   0        0        0    35075 2023-06-07 13:41:23.098118 xt_st_common-0.7.1/src/xt_st_common/project_components.py
++-rw-r--r--   0        0        0     6518 2023-06-07 13:41:23.098118 xt_st_common-0.7.1/src/xt_st_common/project_models.py
++-rw-r--r--   0        0        0     5976 2023-06-07 13:41:23.098118 xt_st_common-0.7.1/src/xt_st_common/session.py
++-rw-r--r--   0        0        0     6450 2023-06-07 13:41:23.098118 xt_st_common-0.7.1/src/xt_st_common/storage.py
++-rw-r--r--   0        0        0     1957 2023-06-07 13:41:23.098118 xt_st_common-0.7.1/src/xt_st_common/utils.py
++-rw-r--r--   0        0        0     1675 1970-01-01 00:00:00.000000 xt_st_common-0.7.1/PKG-INFO
+```
+
+### Comparing `xt_st_common-0.7.0/README.md` & `xt_st_common-0.7.1/README.md`
+
+ * *Files 1% similar despite different names*
+
+```diff
+@@ -1,8 +1,8 @@
+-# XT-STREAMLIT - 0.7.0
++# XT-STREAMLIT - 0.7.1
+ 
+ This repo contains all of the common Streamlit code used by the Exploration Toolkit and CMR's Discovery Program.
+ 
+ ## `xt-st-common` - Common Framework for XT's Streamlit apps
+ 
+ ## Getting Started User
+ TODO: Installation guide and pointer to API docs
+```
+
+### Comparing `xt_st_common-0.7.0/pyproject.toml` & `xt_st_common-0.7.1/pyproject.toml`
+
+ * *Files 0% similar despite different names*
+
+```diff
+@@ -1,10 +1,10 @@
+ [tool.poetry]
+ name = "xt-st-common"
+-version = "0.7.0"
++version = "0.7.1"
+ description = "Common Streamlit framework used by Exploration Toolkit"
+ authors = ["Alex Hunt <alex.hunt@csiro.au>", "Sam Bradley <sam.bradley@csiro.au>", "John Hille <john.hille@csiro.au>"]
+ readme = "README.md"
+ packages = [{include = "xt_st_common", from= "src"}, {include = "streamlit_plotly_events", from= "src"}]
+ 
+ [tool.poe.tasks]
+ test = { cmd="pytest --cov=src/xt_st_common", help="Run unit tests"}
+```
+
+### Comparing `xt_st_common-0.7.0/src/streamlit_plotly_events/__init__.py` & `xt_st_common-0.7.1/src/streamlit_plotly_events/__init__.py`
+
+ * *Files identical despite different names*
+
+### Comparing `xt_st_common-0.7.0/src/streamlit_plotly_events/frontend/build/asset-manifest.json` & `xt_st_common-0.7.1/src/streamlit_plotly_events/frontend/build/asset-manifest.json`
+
+ * *Files identical despite different names*
+
+### Comparing `xt_st_common-0.7.0/src/streamlit_plotly_events/frontend/build/index.html` & `xt_st_common-0.7.1/src/streamlit_plotly_events/frontend/build/index.html`
+
+ * *Files identical despite different names*
+
+### Comparing `xt_st_common-0.7.0/src/streamlit_plotly_events/frontend/build/precache-manifest.e3df0e84b856a278b39da3a085481f45.js` & `xt_st_common-0.7.1/src/streamlit_plotly_events/frontend/build/precache-manifest.e3df0e84b856a278b39da3a085481f45.js`
+
+ * *Files identical despite different names*
+
+### Comparing `xt_st_common-0.7.0/src/streamlit_plotly_events/frontend/build/service-worker.js` & `xt_st_common-0.7.1/src/streamlit_plotly_events/frontend/build/service-worker.js`
+
+ * *Files identical despite different names*
+
+### Comparing `xt_st_common-0.7.0/src/streamlit_plotly_events/frontend/build/static/js/2.a9de1b85.chunk.js` & `xt_st_common-0.7.1/src/streamlit_plotly_events/frontend/build/static/js/2.a9de1b85.chunk.js`
+
+ * *Files identical despite different names*
+
+### Comparing `xt_st_common-0.7.0/src/streamlit_plotly_events/frontend/build/static/js/2.a9de1b85.chunk.js.LICENSE.txt` & `xt_st_common-0.7.1/src/streamlit_plotly_events/frontend/build/static/js/2.a9de1b85.chunk.js.LICENSE.txt`
+
+ * *Files identical despite different names*
+
+### Comparing `xt_st_common-0.7.0/src/streamlit_plotly_events/frontend/build/static/js/2.a9de1b85.chunk.js.map` & `xt_st_common-0.7.1/src/streamlit_plotly_events/frontend/build/static/js/2.a9de1b85.chunk.js.map`
+
+ * *Files identical despite different names*
+
+### Comparing `xt_st_common-0.7.0/src/streamlit_plotly_events/frontend/build/static/js/main.2ba31fb4.chunk.js` & `xt_st_common-0.7.1/src/streamlit_plotly_events/frontend/build/static/js/main.2ba31fb4.chunk.js`
+
+ * *Files identical despite different names*
+
+### Comparing `xt_st_common-0.7.0/src/streamlit_plotly_events/frontend/build/static/js/main.2ba31fb4.chunk.js.map` & `xt_st_common-0.7.1/src/streamlit_plotly_events/frontend/build/static/js/main.2ba31fb4.chunk.js.map`
+
+ * *Files identical despite different names*
+
+### Comparing `xt_st_common-0.7.0/src/streamlit_plotly_events/frontend/build/static/js/runtime-main.11ec9aca.js` & `xt_st_common-0.7.1/src/streamlit_plotly_events/frontend/build/static/js/runtime-main.11ec9aca.js`
+
+ * *Files identical despite different names*
+
+### Comparing `xt_st_common-0.7.0/src/streamlit_plotly_events/frontend/build/static/js/runtime-main.11ec9aca.js.map` & `xt_st_common-0.7.1/src/streamlit_plotly_events/frontend/build/static/js/runtime-main.11ec9aca.js.map`
+
+ * *Files identical despite different names*
+
+### Comparing `xt_st_common-0.7.0/src/streamlit_plotly_events/frontend/package.json` & `xt_st_common-0.7.1/src/streamlit_plotly_events/frontend/package.json`
+
+ * *Files identical despite different names*
+
+### Comparing `xt_st_common-0.7.0/src/streamlit_plotly_events/frontend/public/index.html` & `xt_st_common-0.7.1/src/streamlit_plotly_events/frontend/public/index.html`
+
+ * *Files identical despite different names*
+
+### Comparing `xt_st_common-0.7.0/src/streamlit_plotly_events/frontend/src/StreamlitPlotlyEventsComponent.tsx` & `xt_st_common-0.7.1/src/streamlit_plotly_events/frontend/src/StreamlitPlotlyEventsComponent.tsx`
+
+ * *Files identical despite different names*
+
+### Comparing `xt_st_common-0.7.0/src/xt_st_common/components.py` & `xt_st_common-0.7.1/src/xt_st_common/components.py`
+
+ * *Files identical despite different names*
+
+### Comparing `xt_st_common-0.7.0/src/xt_st_common/config.py` & `xt_st_common-0.7.1/src/xt_st_common/config.py`
+
+ * *Files identical despite different names*
+
+### Comparing `xt_st_common-0.7.0/src/xt_st_common/database.py` & `xt_st_common-0.7.1/src/xt_st_common/database.py`
+
+ * *Files identical despite different names*
+
+### Comparing `xt_st_common-0.7.0/src/xt_st_common/fs_upload_page.py` & `xt_st_common-0.7.1/src/xt_st_common/fs_upload_page.py`
+
+ * *Files identical despite different names*
+
+### Comparing `xt_st_common-0.7.0/src/xt_st_common/project_components.py` & `xt_st_common-0.7.1/src/xt_st_common/project_components.py`
+
+ * *Files 0% similar despite different names*
+
+```diff
+@@ -733,20 +733,20 @@
+ 
+     st.experimental_rerun()
+ 
+ 
+ def get_next_project_number(projects: list[Project]):
+     highest_number = len(projects) + 1
+     for proj in projects:
+-        proj_number = proj.name.split("#")[1]
+         try:
++            proj_number = proj.name.split("#")[1]
+             proj_number = int(proj_number)
+             if proj_number >= highest_number:
+                 highest_number = proj_number + 1
+-        except ValueError:
++        except (ValueError, IndexError):
+             pass
+     return highest_number
+ 
+ 
+ def project_manager(
+     st_context=st.sidebar,
+     render_layout: Literal["vertical", "horizontal", "compact"] = "vertical",
+```
+
+### Comparing `xt_st_common-0.7.0/src/xt_st_common/project_models.py` & `xt_st_common-0.7.1/src/xt_st_common/project_models.py`
+
+ * *Files identical despite different names*
+
+### Comparing `xt_st_common-0.7.0/src/xt_st_common/session.py` & `xt_st_common-0.7.1/src/xt_st_common/session.py`
+
+ * *Files identical despite different names*
+
+### Comparing `xt_st_common-0.7.0/src/xt_st_common/storage.py` & `xt_st_common-0.7.1/src/xt_st_common/storage.py`
+
+ * *Files identical despite different names*
+
+### Comparing `xt_st_common-0.7.0/src/xt_st_common/utils.py` & `xt_st_common-0.7.1/src/xt_st_common/utils.py`
+
+ * *Files identical despite different names*
+
+### Comparing `xt_st_common-0.7.0/PKG-INFO` & `xt_st_common-0.7.1/PKG-INFO`
+
+ * *Files 0% similar despite different names*
+
+```diff
+@@ -1,10 +1,10 @@
+ Metadata-Version: 2.1
+ Name: xt-st-common
+-Version: 0.7.0
++Version: 0.7.1
+ Summary: Common Streamlit framework used by Exploration Toolkit
+ Author: Alex Hunt
+ Author-email: alex.hunt@csiro.au
+ Requires-Python: >3.9.7,<4.0
+ Classifier: Programming Language :: Python :: 3
+ Classifier: Programming Language :: Python :: 3.10
+ Classifier: Programming Language :: Python :: 3.11
+@@ -19,15 +19,15 @@
+ Requires-Dist: pymongo (>=4.3.3) ; extra == "databases"
+ Requires-Dist: pymongo-auth-aws (>=1.1.0) ; extra == "databases"
+ Requires-Dist: streamlit (>=1.23.1)
+ Requires-Dist: streamlit-js-eval (>=0.1.5,<0.2.0)
+ Requires-Dist: streamlit-tree-select (>=0.0.5,<0.0.6)
+ Description-Content-Type: text/markdown
+ 
+-# XT-STREAMLIT - 0.7.0
++# XT-STREAMLIT - 0.7.1
+ 
+ This repo contains all of the common Streamlit code used by the Exploration Toolkit and CMR's Discovery Program.
+ 
+ ## `xt-st-common` - Common Framework for XT's Streamlit apps
+ 
+ ## Getting Started User
+ TODO: Installation guide and pointer to API docs
+```
+
