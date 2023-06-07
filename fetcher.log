@@ -15137,3 +15137,108 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-06-07 09:10:35] INFO root fetch - processPackages [pipen-args]: Remove: archive file [/home/abi/fetcher/tmp/pipen_args-0.9.9.tar.gz]
 [2023-06-07 09:10:35] INFO root fetch - main [MainThread]: End processing [pipen-args]: success
 [2023-06-07 09:10:35] INFO root fetch - main [MainThread]: Store serial: [18403861]
+[2023-06-07 09:15:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18403861]
+[2023-06-07 09:15:44] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-07 09:15:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jijmodeling
+[2023-06-07 09:15:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zipline-tej
+[2023-06-07 09:15:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: osais
+[2023-06-07 09:15:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: python-hostingde
+[2023-06-07 09:15:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: polysh
+[2023-06-07 09:15:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: appier-report
+[2023-06-07 09:15:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: vessl
+[2023-06-07 09:15:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: streamlit-nightly
+[2023-06-07 09:15:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: iosense-connect
+[2023-06-07 09:15:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: airbyte-api
+[2023-06-07 09:15:44] INFO root fetch - processPackages [appier-report]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-07 09:15:44] INFO root fetch - processPackages [osais]: New version: [1.0.48] Old Version: [1.0.47]
+[2023-06-07 09:15:44] INFO root fetch - processPackages [airbyte-api]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-06-07 09:15:44] INFO root fetch - processPackages [polysh]: New version: [0.9] Old Version: [0.4]
+[2023-06-07 09:15:44] INFO root fetch - processPackages [zipline-tej]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-07 09:15:44] INFO root fetch - processPackages [python-hostingde]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-07 09:15:44] INFO root fetch - processPackages [iosense-connect]: New version: [3.0.2] Old Version: [3.0.1]
+[2023-06-07 09:15:44] INFO root fetch - processPackages [vessl]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-06-07 09:15:44] INFO root fetch - processPackages [streamlit-nightly]: New version: [1.9.3.dev20220601] Old Version: [1.9.3.dev20220531]
+[2023-06-07 09:15:44] INFO root fetch - processPackages [jijmodeling]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-07 09:15:44] INFO root fetch - processPackages [appier-report]: Downloading https://files.pythonhosted.org/packages/0e/21/9bbe7847d7e0cf197485ff4b94b89f9498dfeefc2de407f65f9e1a1f0979/appier_report-1.0.2.tar.gz
+[2023-06-07 09:15:44] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/bb/77/73ca36b159a0852f16710c30eca243772d04e8d37c1497e26e837ebad465/streamlit-nightly-1.9.3.dev20220531.tar.gz
+[2023-06-07 09:15:44] INFO root fetch - processPackages [iosense-connect]: Downloading https://files.pythonhosted.org/packages/b2/e9/ad0db383ca0845826c647954bf344e6292877d2efa616f822eedbcb4b031/iosense_connect-3.0.1.tar.gz
+[2023-06-07 09:15:44] INFO root fetch - processPackages [vessl]: Downloading https://files.pythonhosted.org/packages/38/7d/1b2b94a1083188f3376a0af9cb2701abb4c084a8e0608a25f97e191ab3e7/vessl-0.1.98.tar.gz
+[2023-06-07 09:15:44] INFO root fetch - processPackages [airbyte-api]: Downloading https://files.pythonhosted.org/packages/d4/66/f87aba87ada17376fee9e34bc8e371f044987bb411d9d01db6d321356f3a/airbyte-api-0.6.0.tar.gz
+[2023-06-07 09:15:44] INFO root fetch - processPackages [osais]: Downloading https://files.pythonhosted.org/packages/74/2f/44e67e6c7541ef8d67fb586fe29b50d294a47e2b0f2896c19b50932d764e/osais-1.0.47.tar.gz
+[2023-06-07 09:15:44] INFO root fetch - processPackages [polysh]: Downloading https://files.pythonhosted.org/packages/f2/d3/369bff2d3577610875310c86a795e1c55f57ae30be0de4dea14d46fc8b79/polysh-0.4.zip
+[2023-06-07 09:15:44] INFO root fetch - processPackages [zipline-tej]: Downloading https://files.pythonhosted.org/packages/81/74/1c77fcc7996870f973250f70f5fd993fbdf66e25b3c8f01eb1d263d75c6a/zipline-tej-0.0.8.tar.gz
+[2023-06-07 09:15:44] INFO root fetch - processPackages [jijmodeling]: Downloading https://files.pythonhosted.org/packages/49/fc/537e863c69af7f86de4ae2f7cb3b9df507938ba8fcbd0fe6c683b76b6e75/jijmodeling-0.9.8-cp39-cp39-win_amd64.whl
+[2023-06-07 09:15:44] INFO root fetch - processPackages [python-hostingde]: Downloading https://files.pythonhosted.org/packages/7e/75/b204b572e4466fb30bbfa4476c4d9b34f9e8aacbe27ba5016e73cc3cd028/python-hostingde-0.9.0.tar.gz
+[2023-06-07 09:15:44] INFO root fetch - processPackages [appier-report]: Downloading https://files.pythonhosted.org/packages/ca/53/99a453f0a5d68164826a92464ebd1772b06c134b2ea420c571d9778fb165/appier_report-1.0.3.tar.gz
+[2023-06-07 09:15:44] INFO root fetch - processPackages [vessl]: Downloading https://files.pythonhosted.org/packages/21/b8/cbd9a61ba9f582b647d4ef42d4b54900e40293bc599bde0a7f1fe73974bc/vessl-0.1.99.tar.gz
+[2023-06-07 09:15:44] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/3f/2a/57340e81e1d94e80229a3f8d9acc663cdad9ffd0ead21e2c20c76b879c18/streamlit-nightly-1.9.3.dev20220601.tar.gz
+[2023-06-07 09:15:44] INFO root fetch - processPackages [iosense-connect]: Downloading https://files.pythonhosted.org/packages/b9/75/e4403a0caf3850ad8679d704e83e37eae131c3e5cee48fe27668bd14ae07/iosense_connect-3.0.2.tar.gz
+[2023-06-07 09:15:44] INFO root fetch - processPackages [airbyte-api]: Downloading https://files.pythonhosted.org/packages/c8/ff/cb73f3116051fd1759305c40178b654a37b22e1085a441b4ba720c8525d8/airbyte-api-0.7.0.tar.gz
+[2023-06-07 09:15:45] INFO root fetch - processPackages [appier-report]: executing diffoscope
+[2023-06-07 09:15:45] INFO root fetch - processPackages [appier-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/appier_report-1.0.2.tar.gz tmp/appier_report-1.0.3.tar.gz --markdown 20230607/a/appier-report/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-07 09:15:45] INFO root fetch - processPackages [iosense-connect]: executing diffoscope
+[2023-06-07 09:15:45] INFO root fetch - processPackages [iosense-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iosense_connect-3.0.1.tar.gz tmp/iosense_connect-3.0.2.tar.gz --markdown 20230607/i/iosense-connect/3.0.1-3.0.2/diff.md --exclude *.pyd
+[2023-06-07 09:15:45] INFO root fetch - processPackages [osais]: Downloading https://files.pythonhosted.org/packages/81/a4/a185bbf2843b96e05365e6a8a7cf30b211f89ecaf617f9f9b9370d16172d/osais-1.0.48.tar.gz
+[2023-06-07 09:15:45] INFO root fetch - processPackages [vessl]: executing diffoscope
+[2023-06-07 09:15:45] INFO root fetch - processPackages [vessl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vessl-0.1.98.tar.gz tmp/vessl-0.1.99.tar.gz --markdown 20230607/v/vessl/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-06-07 09:15:45] INFO root fetch - processPackages [airbyte-api]: executing diffoscope
+[2023-06-07 09:15:45] INFO root fetch - processPackages [airbyte-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte-api-0.6.0.tar.gz tmp/airbyte-api-0.7.0.tar.gz --markdown 20230607/a/airbyte-api/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-06-07 09:15:45] INFO root fetch - processPackages [polysh]: Downloading https://files.pythonhosted.org/packages/1d/58/27c579aa4931add428c09dc8e3c2f6527df49619082c42627f5e56aff8b9/polysh-0.9.tar.gz
+[2023-06-07 09:15:45] INFO root fetch - processPackages [osais]: executing diffoscope
+[2023-06-07 09:15:45] INFO root fetch - processPackages [osais]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osais-1.0.47.tar.gz tmp/osais-1.0.48.tar.gz --markdown 20230607/o/osais/1.0.47-1.0.48/diff.md --exclude *.pyd
+[2023-06-07 09:15:45] INFO root fetch - processPackages [python-hostingde]: Downloading https://files.pythonhosted.org/packages/c6/0a/c4ef33a2f1f16f3cd592c4175a4eb67b0b6632b8e4e1f61ccbd108cd7ba5/python-hostingde-0.9.1.tar.gz
+[2023-06-07 09:15:45] INFO root fetch - processPackages [zipline-tej]: Downloading https://files.pythonhosted.org/packages/84/15/b5579d7eb6cdb4cc9d6c22c0f36086080b26eabdda5b9d6a1f9a7f8f8df6/zipline-tej-0.0.9.tar.gz
+[2023-06-07 09:15:45] INFO root fetch - processPackages [jijmodeling]: Downloading https://files.pythonhosted.org/packages/89/d0/6cb71561aecdb852259cf24ad501a533d6d8ff22ba4e5836ab18377e567f/jijmodeling-0.9.9-cp39-cp39-win_amd64.whl
+[2023-06-07 09:15:45] INFO root fetch - processPackages [polysh]: executing diffoscope
+[2023-06-07 09:15:45] INFO root fetch - processPackages [polysh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polysh-0.4.zip tmp/polysh-0.9.tar.gz --markdown 20230607/p/polysh/0.4-0.9/diff.md --exclude *.pyd
+[2023-06-07 09:15:45] INFO root fetch - processPackages [python-hostingde]: executing diffoscope
+[2023-06-07 09:15:45] INFO root fetch - processPackages [python-hostingde]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-hostingde-0.9.0.tar.gz tmp/python-hostingde-0.9.1.tar.gz --markdown 20230607/p/python-hostingde/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-07 09:15:45] INFO root fetch - processPackages [zipline-tej]: executing diffoscope
+[2023-06-07 09:15:45] INFO root fetch - processPackages [zipline-tej]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zipline-tej-0.0.8.tar.gz tmp/zipline-tej-0.0.9.tar.gz --markdown 20230607/z/zipline-tej/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-07 09:15:45] INFO root fetch - processPackages [jijmodeling]: executing diffoscope
+[2023-06-07 09:15:45] INFO root fetch - processPackages [jijmodeling]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jijmodeling-0.9.8-cp39-cp39-win_amd64.whl.zip tmp/jijmodeling-0.9.9-cp39-cp39-win_amd64.whl.zip --markdown 20230607/j/jijmodeling/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-07 09:15:46] INFO root fetch - processPackages [appier-report]: Remove: archive file [/home/abi/fetcher/tmp/appier_report-1.0.2.tar.gz]
+[2023-06-07 09:15:46] INFO root fetch - processPackages [appier-report]: Remove: archive file [/home/abi/fetcher/tmp/appier_report-1.0.3.tar.gz]
+[2023-06-07 09:15:46] INFO root fetch - processPackages [appier-report]: Start processing: ensta
+[2023-06-07 09:15:46] INFO root fetch - main [MainThread]: End processing [appier-report]: success
+[2023-06-07 09:15:46] INFO root fetch - processPackages [iosense-connect]: Remove: archive file [/home/abi/fetcher/tmp/iosense_connect-3.0.1.tar.gz]
+[2023-06-07 09:15:46] INFO root fetch - processPackages [iosense-connect]: Remove: archive file [/home/abi/fetcher/tmp/iosense_connect-3.0.2.tar.gz]
+[2023-06-07 09:15:46] INFO root fetch - processPackages [iosense-connect]: Start processing: pyciactions
+[2023-06-07 09:15:46] INFO root fetch - main [MainThread]: End processing [iosense-connect]: success
+[2023-06-07 09:15:46] INFO root fetch - processPackages [ensta]: New version: [0.7] Old Version: [0.6]
+[2023-06-07 09:15:46] INFO root fetch - processPackages [streamlit-nightly]: executing diffoscope
+[2023-06-07 09:15:46] INFO root fetch - processPackages [streamlit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-nightly-1.9.3.dev20220531.tar.gz tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz --markdown 20230607/s/streamlit-nightly/1.9.3.dev20220531-1.9.3.dev20220601/diff.md --exclude *.pyd
+[2023-06-07 09:15:46] INFO root fetch - processPackages [polysh]: Remove: archive file [/home/abi/fetcher/tmp/polysh-0.4.zip]
+[2023-06-07 09:15:46] INFO root fetch - processPackages [polysh]: Remove: archive file [/home/abi/fetcher/tmp/polysh-0.9.tar.gz]
+[2023-06-07 09:15:46] INFO root fetch - main [MainThread]: End processing [polysh]: success
+[2023-06-07 09:15:46] WARNING root fetch - processPackages [pyciactions]: Skipping, unable to determine old version
+[2023-06-07 09:15:46] INFO root fetch - main [MainThread]: End processing [pyciactions] error
+[2023-06-07 09:15:46] INFO root fetch - processPackages [ensta]: Downloading https://files.pythonhosted.org/packages/e5/04/4733c5281dc55e1394c5225d339936219c4f81e289300ab8d9cdf342bd65/ensta-0.6.tar.gz
+[2023-06-07 09:15:47] INFO root fetch - processPackages [osais]: Remove: archive file [/home/abi/fetcher/tmp/osais-1.0.47.tar.gz]
+[2023-06-07 09:15:47] INFO root fetch - processPackages [osais]: Remove: archive file [/home/abi/fetcher/tmp/osais-1.0.48.tar.gz]
+[2023-06-07 09:15:47] INFO root fetch - main [MainThread]: End processing [osais]: success
+[2023-06-07 09:15:47] INFO root fetch - processPackages [ensta]: Downloading https://files.pythonhosted.org/packages/ee/0e/e0e238ffc43cc32819183e380d8ac960f8ee3d887222018b8aea20bd1bff/ensta-0.7.tar.gz
+[2023-06-07 09:15:47] INFO root fetch - processPackages [ensta]: executing diffoscope
+[2023-06-07 09:15:47] INFO root fetch - processPackages [ensta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ensta-0.6.tar.gz tmp/ensta-0.7.tar.gz --markdown 20230607/e/ensta/0.6-0.7/diff.md --exclude *.pyd
+[2023-06-07 09:15:47] INFO root fetch - processPackages [python-hostingde]: Remove: archive file [/home/abi/fetcher/tmp/python-hostingde-0.9.0.tar.gz]
+[2023-06-07 09:15:47] INFO root fetch - processPackages [python-hostingde]: Remove: archive file [/home/abi/fetcher/tmp/python-hostingde-0.9.1.tar.gz]
+[2023-06-07 09:15:47] INFO root fetch - main [MainThread]: End processing [python-hostingde]: success
+[2023-06-07 09:15:48] INFO root fetch - processPackages [ensta]: Remove: archive file [/home/abi/fetcher/tmp/ensta-0.6.tar.gz]
+[2023-06-07 09:15:48] INFO root fetch - processPackages [ensta]: Remove: archive file [/home/abi/fetcher/tmp/ensta-0.7.tar.gz]
+[2023-06-07 09:15:48] INFO root fetch - main [MainThread]: End processing [ensta]: success
+[2023-06-07 09:15:49] INFO root fetch - processPackages [airbyte-api]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-api-0.6.0.tar.gz]
+[2023-06-07 09:15:49] INFO root fetch - processPackages [airbyte-api]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-api-0.7.0.tar.gz]
+[2023-06-07 09:15:49] INFO root fetch - main [MainThread]: End processing [airbyte-api]: success
+[2023-06-07 09:15:49] INFO root fetch - processPackages [zipline-tej]: Remove: archive file [/home/abi/fetcher/tmp/zipline-tej-0.0.8.tar.gz]
+[2023-06-07 09:15:49] INFO root fetch - processPackages [zipline-tej]: Remove: archive file [/home/abi/fetcher/tmp/zipline-tej-0.0.9.tar.gz]
+[2023-06-07 09:15:49] INFO root fetch - main [MainThread]: End processing [zipline-tej]: success
+[2023-06-07 09:15:53] INFO root fetch - processPackages [jijmodeling]: Remove: archive file [/home/abi/fetcher/tmp/jijmodeling-0.9.8-cp39-cp39-win_amd64.whl.zip]
+[2023-06-07 09:15:53] INFO root fetch - processPackages [jijmodeling]: Remove: archive file [/home/abi/fetcher/tmp/jijmodeling-0.9.9-cp39-cp39-win_amd64.whl.zip]
+[2023-06-07 09:15:53] INFO root fetch - main [MainThread]: End processing [jijmodeling]: success
+[2023-06-07 09:15:54] INFO root fetch - processPackages [vessl]: Remove: archive file [/home/abi/fetcher/tmp/vessl-0.1.98.tar.gz]
+[2023-06-07 09:15:54] INFO root fetch - processPackages [vessl]: Remove: archive file [/home/abi/fetcher/tmp/vessl-0.1.99.tar.gz]
+[2023-06-07 09:15:54] INFO root fetch - main [MainThread]: End processing [vessl]: success
+[2023-06-07 09:15:57] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nightly-1.9.3.dev20220531.tar.gz]
+[2023-06-07 09:15:57] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz]
+[2023-06-07 09:15:57] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
+[2023-06-07 09:15:57] INFO root fetch - main [MainThread]: Store serial: [18403932]
