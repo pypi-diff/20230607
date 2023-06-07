@@ -9749,3 +9749,49 @@
 [2023-06-07 04:13:13] INFO root fetch - processPackages [auto-obsidian]: Remove: archive file [/home/abi/fetcher/tmp/auto-obsidian-0.1.1.tar.gz]
 [2023-06-07 04:13:13] INFO root fetch - main [MainThread]: End processing [auto-obsidian]: success
 [2023-06-07 04:13:13] INFO root fetch - main [MainThread]: Store serial: [18401757]
+[2023-06-07 04:18:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18401757]
+[2023-06-07 04:18:21] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-07 04:18:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: plog-python
+[2023-06-07 04:18:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jijzeptlab-client
+[2023-06-07 04:18:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dotscanner
+[2023-06-07 04:18:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hatch-rest-api
+[2023-06-07 04:18:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: plog-python
+[2023-06-07 04:18:21] INFO root fetch - processPackages [jijzeptlab-client]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-06-07 04:18:21] INFO root fetch - processPackages [plog-python]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-06-07 04:18:21] INFO root fetch - processPackages [hatch-rest-api]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-06-07 04:18:21] INFO root fetch - processPackages [plog-python]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-06-07 04:18:21] INFO root fetch - processPackages [dotscanner]: New version: [1.3.3] Old Version: [1.3.2]
+[2023-06-07 04:18:21] INFO root fetch - processPackages [jijzeptlab-client]: Downloading https://files.pythonhosted.org/packages/38/82/a107440128bb6772b6bb7cffabc9aa99502e94e20ee948c6592cb4fdec4f/jijzeptlab_client-0.3.4-cp39-cp39-win_amd64.whl
+[2023-06-07 04:18:21] INFO root fetch - processPackages [hatch-rest-api]: Downloading https://files.pythonhosted.org/packages/53/e1/22f10781461d3819d6151025bff76a7f8a8d1e7d4d05e05819b8c7d16f69/hatch_rest_api-1.8.0.tar.gz
+[2023-06-07 04:18:21] INFO root fetch - processPackages [plog-python]: Downloading https://files.pythonhosted.org/packages/41/6f/fd70499d73971bbbcca1fc92b7e0c5a104bfcb2db07d98681ff094d9b874/plog-python-1.0.4.tar.gz
+[2023-06-07 04:18:21] INFO root fetch - processPackages [plog-python]: Downloading https://files.pythonhosted.org/packages/41/6f/fd70499d73971bbbcca1fc92b7e0c5a104bfcb2db07d98681ff094d9b874/plog-python-1.0.4.tar.gz
+[2023-06-07 04:18:21] INFO root fetch - processPackages [dotscanner]: Downloading https://files.pythonhosted.org/packages/43/ec/c4e298be6aa078db74032e3c10e39c534d1337827b0a5f9420046aefa8e2/dotscanner-1.3.2.tar.gz
+[2023-06-07 04:18:21] INFO root fetch - processPackages [jijzeptlab-client]: Downloading https://files.pythonhosted.org/packages/66/c3/2344379301630dec69b0f38f92c1e0b9f58411080c0c4ebc00b646a7057b/jijzeptlab_client-0.3.5-cp39-cp39-win_amd64.whl
+[2023-06-07 04:18:21] INFO root fetch - processPackages [jijzeptlab-client]: executing diffoscope
+[2023-06-07 04:18:21] INFO root fetch - processPackages [jijzeptlab-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jijzeptlab_client-0.3.4-cp39-cp39-win_amd64.whl.zip tmp/jijzeptlab_client-0.3.5-cp39-cp39-win_amd64.whl.zip --markdown 20230607/j/jijzeptlab-client/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-06-07 04:18:21] INFO root fetch - processPackages [hatch-rest-api]: Downloading https://files.pythonhosted.org/packages/77/ab/7fffc2e61b25b4af9a272b49c1a99de6cb59dbb098dc0befa9e22e17e0f7/hatch_rest_api-1.9.0.tar.gz
+[2023-06-07 04:18:22] INFO root fetch - processPackages [hatch-rest-api]: executing diffoscope
+[2023-06-07 04:18:22] INFO root fetch - processPackages [hatch-rest-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hatch_rest_api-1.8.0.tar.gz tmp/hatch_rest_api-1.9.0.tar.gz --markdown 20230607/h/hatch-rest-api/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-07 04:18:22] INFO root fetch - processPackages [plog-python]: Downloading https://files.pythonhosted.org/packages/c9/b5/ca2e4c6d9f921de4abe49cfb4c5a7ef6e546d8766c41d06022bb7f2bd2f5/plog-python-1.0.5.tar.gz
+[2023-06-07 04:18:22] INFO root fetch - processPackages [plog-python]: Downloading https://files.pythonhosted.org/packages/c9/b5/ca2e4c6d9f921de4abe49cfb4c5a7ef6e546d8766c41d06022bb7f2bd2f5/plog-python-1.0.5.tar.gz
+[2023-06-07 04:18:22] INFO root fetch - processPackages [dotscanner]: Downloading https://files.pythonhosted.org/packages/6d/20/626c79c1b6b571bf9d963964813a96144b86843e09bcc4bc50bf66ea7e7b/dotscanner-1.3.3.tar.gz
+[2023-06-07 04:18:22] INFO root fetch - processPackages [plog-python]: executing diffoscope
+[2023-06-07 04:18:22] INFO root fetch - processPackages [plog-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plog-python-1.0.4.tar.gz tmp/plog-python-1.0.5.tar.gz --markdown 20230607/p/plog-python/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-06-07 04:18:22] INFO root fetch - processPackages [plog-python]: executing diffoscope
+[2023-06-07 04:18:22] INFO root fetch - processPackages [plog-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plog-python-1.0.4.tar.gz tmp/plog-python-1.0.5.tar.gz --markdown 20230607/p/plog-python/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-06-07 04:18:22] INFO root fetch - processPackages [dotscanner]: executing diffoscope
+[2023-06-07 04:18:22] INFO root fetch - processPackages [dotscanner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dotscanner-1.3.2.tar.gz tmp/dotscanner-1.3.3.tar.gz --markdown 20230607/d/dotscanner/1.3.2-1.3.3/diff.md --exclude *.pyd
+[2023-06-07 04:18:23] INFO root fetch - processPackages [hatch-rest-api]: Remove: archive file [/home/abi/fetcher/tmp/hatch_rest_api-1.8.0.tar.gz]
+[2023-06-07 04:18:23] INFO root fetch - processPackages [hatch-rest-api]: Remove: archive file [/home/abi/fetcher/tmp/hatch_rest_api-1.9.0.tar.gz]
+[2023-06-07 04:18:23] INFO root fetch - main [MainThread]: End processing [hatch-rest-api]: success
+[2023-06-07 04:18:23] INFO root fetch - processPackages [plog-python]: Remove: archive file [/home/abi/fetcher/tmp/plog-python-1.0.4.tar.gz]
+[2023-06-07 04:18:23] INFO root fetch - processPackages [plog-python]: Remove: archive file [/home/abi/fetcher/tmp/plog-python-1.0.5.tar.gz]
+[2023-06-07 04:18:23] INFO root fetch - main [MainThread]: End processing [plog-python]: success
+[2023-06-07 04:18:23] INFO root fetch - main [MainThread]: End processing [plog-python]: success
+[2023-06-07 04:18:23] INFO root fetch - processPackages [dotscanner]: Remove: archive file [/home/abi/fetcher/tmp/dotscanner-1.3.2.tar.gz]
+[2023-06-07 04:18:23] INFO root fetch - processPackages [dotscanner]: Remove: archive file [/home/abi/fetcher/tmp/dotscanner-1.3.3.tar.gz]
+[2023-06-07 04:18:23] INFO root fetch - main [MainThread]: End processing [dotscanner]: success
+[2023-06-07 04:18:23] INFO root fetch - processPackages [jijzeptlab-client]: Remove: archive file [/home/abi/fetcher/tmp/jijzeptlab_client-0.3.4-cp39-cp39-win_amd64.whl.zip]
+[2023-06-07 04:18:23] INFO root fetch - processPackages [jijzeptlab-client]: Remove: archive file [/home/abi/fetcher/tmp/jijzeptlab_client-0.3.5-cp39-cp39-win_amd64.whl.zip]
+[2023-06-07 04:18:23] INFO root fetch - main [MainThread]: End processing [jijzeptlab-client]: success
+[2023-06-07 04:18:23] INFO root fetch - main [MainThread]: Store serial: [18401799]
