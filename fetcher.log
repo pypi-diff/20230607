@@ -13520,3 +13520,68 @@ AssertionError: tmp/odoo_addon_crm_lead_firstname-16.0.1.0.1-py3-none-any.whl.zi
 [2023-06-07 07:38:43] INFO root fetch - processPackages [perun.proxy.utils]: Remove: archive file [/home/abi/fetcher/tmp/perun.proxy.utils-1.3.0.tar.gz]
 [2023-06-07 07:38:43] INFO root fetch - main [MainThread]: End processing [perun.proxy.utils]: success
 [2023-06-07 07:38:43] INFO root fetch - main [MainThread]: Store serial: [18403157]
+[2023-06-07 07:43:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18403157]
+[2023-06-07 07:43:52] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-07 07:43:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: metricflow
+[2023-06-07 07:43:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: beartype
+[2023-06-07 07:43:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: certora-cli-alpha-master
+[2023-06-07 07:43:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ml-pretrained
+[2023-06-07 07:43:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bluetooth-data-tools
+[2023-06-07 07:43:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addons-oca-web-api
+[2023-06-07 07:43:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: redash-python
+[2023-06-07 07:43:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: iptree
+[2023-06-07 07:43:52] INFO root fetch - processPackages [beartype]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-07 07:43:52] INFO root fetch - processPackages [ml-pretrained]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-07 07:43:52] INFO root fetch - processPackages [metricflow]: New version: [0.93.0] Old Version: [0.92.1]
+[2023-06-07 07:43:52] INFO root fetch - processPackages [odoo-addons-oca-web-api]: New version: [16.0.20230606.0] Old Version: [15.0.20220810.0]
+[2023-06-07 07:43:52] INFO root fetch - processPackages [bluetooth-data-tools]: New version: [1.0.0] Old Version: [0.4.0]
+[2023-06-07 07:43:52] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230607.5.39.585147] Old Version: [20230607.0.43.343179]
+[2023-06-07 07:43:52] INFO root fetch - processPackages [ml-pretrained]: Downloading https://files.pythonhosted.org/packages/06/bf/09fb73837d4a2214fe36f473b43bb59820dd3be33e5a0f84310e624f527b/ml-pretrained-0.0.7.tar.gz
+[2023-06-07 07:43:52] INFO root fetch - processPackages [redash-python]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-07 07:43:52] WARNING root fetch - processPackages [iptree]: Skipping, unable to determine old version
+[2023-06-07 07:43:52] INFO root fetch - main [MainThread]: End processing [iptree] error
+[2023-06-07 07:43:52] INFO root fetch - processPackages [odoo-addons-oca-web-api]: Downloading https://files.pythonhosted.org/packages/07/f3/6640359179ad571a63140a2a591261559416b14b2c197becfe3b602fa5b4/odoo_addons_oca_web_api-15.0.20220810.0-py3-none-any.whl
+[2023-06-07 07:43:52] INFO root fetch - processPackages [metricflow]: Downloading https://files.pythonhosted.org/packages/48/c0/df3a23893e69af35d2b44f7a54b4a898409d3b807860016dcad92e38c96e/metricflow-0.92.1.tar.gz
+[2023-06-07 07:43:52] INFO root fetch - processPackages [bluetooth-data-tools]: Downloading https://files.pythonhosted.org/packages/de/96/200e2b40ae641dcd37fe7ecd79dd03e9ad4c88ad087b2af5ee6acbb30de9/bluetooth_data_tools-0.4.0.tar.gz
+[2023-06-07 07:43:52] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/16/16/d6e79e02e5cab40a41f743f7f42f2da7e154575859e2d6da8e9bd27dc921/certora-cli-alpha-master-20230607.0.43.343179.tar.gz
+[2023-06-07 07:43:52] INFO root fetch - processPackages [beartype]: Downloading https://files.pythonhosted.org/packages/6b/c7/a73fbaa2f2abc1120e6d16cfb89cdb6f7ea3ba8e715dbc324ac1aafe7b4b/beartype-0.9.0.tar.gz
+[2023-06-07 07:43:52] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 39176203>=10485760
+[2023-06-07 07:43:52] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-06-07 07:43:52] INFO root fetch - processPackages [redash-python]: Downloading https://files.pythonhosted.org/packages/84/9d/a5dbb1694848f14b5af982cafecfbccdb0be4440067a7b963824930b818a/redash-python-0.3.8.tar.gz
+[2023-06-07 07:43:52] INFO root fetch - processPackages [ml-pretrained]: Downloading https://files.pythonhosted.org/packages/e5/68/0f90f86a3b160e860ed5c540d8d0b88c2e127f0772a56b4aca863c8a14b8/ml-pretrained-0.0.8.tar.gz
+[2023-06-07 07:43:52] INFO root fetch - processPackages [ml-pretrained]: executing diffoscope
+[2023-06-07 07:43:52] INFO root fetch - processPackages [ml-pretrained]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml-pretrained-0.0.7.tar.gz tmp/ml-pretrained-0.0.8.tar.gz --markdown 20230607/m/ml-pretrained/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-07 07:43:53] INFO root fetch - processPackages [odoo-addons-oca-web-api]: Downloading https://files.pythonhosted.org/packages/88/b2/0161fb68f1a00a38808552d1d99c6d7637639664be424a6dd238705f4309/odoo_addons_oca_web_api-16.0.20230606.0-py3-none-any.whl
+[2023-06-07 07:43:53] INFO root fetch - processPackages [bluetooth-data-tools]: Downloading https://files.pythonhosted.org/packages/d1/15/71d2d7916bbf3fe3bb6d5094e6632ad4609dcb401b117942d63f465ab3cb/bluetooth_data_tools-1.0.0.tar.gz
+[2023-06-07 07:43:53] INFO root fetch - processPackages [metricflow]: Downloading https://files.pythonhosted.org/packages/03/68/180ac09742d18eded44eac796173d6979f94ea672b47f02ceae672167dfa/metricflow-0.93.0.tar.gz
+[2023-06-07 07:43:53] INFO root fetch - processPackages [odoo-addons-oca-web-api]: executing diffoscope
+[2023-06-07 07:43:53] INFO root fetch - processPackages [odoo-addons-oca-web-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_web_api-15.0.20220810.0-py3-none-any.whl.zip tmp/odoo_addons_oca_web_api-16.0.20230606.0-py3-none-any.whl.zip --markdown 20230607/o/odoo-addons-oca-web-api/15.0.20220810.0-16.0.20230606.0/diff.md --exclude *.pyd
+[2023-06-07 07:43:53] INFO root fetch - processPackages [bluetooth-data-tools]: executing diffoscope
+[2023-06-07 07:43:53] INFO root fetch - processPackages [bluetooth-data-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bluetooth_data_tools-0.4.0.tar.gz tmp/bluetooth_data_tools-1.0.0.tar.gz --markdown 20230607/b/bluetooth-data-tools/0.4.0-1.0.0/diff.md --exclude *.pyd
+[2023-06-07 07:43:53] INFO root fetch - processPackages [metricflow]: executing diffoscope
+[2023-06-07 07:43:53] INFO root fetch - processPackages [metricflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metricflow-0.92.1.tar.gz tmp/metricflow-0.93.0.tar.gz --markdown 20230607/m/metricflow/0.92.1-0.93.0/diff.md --exclude *.pyd
+[2023-06-07 07:43:53] INFO root fetch - processPackages [beartype]: Downloading https://files.pythonhosted.org/packages/ef/16/11a1509d5cd7f3760101edda30f66b28367f2793178bea57745733e92076/beartype-0.9.1.tar.gz
+[2023-06-07 07:43:53] INFO root fetch - processPackages [redash-python]: Downloading https://files.pythonhosted.org/packages/c9/18/0ad85a6a77906df1e4f28622d06596eeb4b0f76dd932b8a9e6b723320e66/redash-python-0.3.9.tar.gz
+[2023-06-07 07:43:53] INFO root fetch - processPackages [redash-python]: executing diffoscope
+[2023-06-07 07:43:53] INFO root fetch - processPackages [redash-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redash-python-0.3.8.tar.gz tmp/redash-python-0.3.9.tar.gz --markdown 20230607/r/redash-python/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-07 07:43:54] INFO root fetch - processPackages [beartype]: executing diffoscope
+[2023-06-07 07:43:54] INFO root fetch - processPackages [beartype]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beartype-0.9.0.tar.gz tmp/beartype-0.9.1.tar.gz --markdown 20230607/b/beartype/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-07 07:43:54] INFO root fetch - processPackages [odoo-addons-oca-web-api]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_web_api-15.0.20220810.0-py3-none-any.whl.zip]
+[2023-06-07 07:43:54] INFO root fetch - processPackages [odoo-addons-oca-web-api]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_web_api-16.0.20230606.0-py3-none-any.whl.zip]
+[2023-06-07 07:43:54] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-web-api]: success
+[2023-06-07 07:43:54] INFO root fetch - processPackages [bluetooth-data-tools]: Remove: archive file [/home/abi/fetcher/tmp/bluetooth_data_tools-0.4.0.tar.gz]
+[2023-06-07 07:43:54] INFO root fetch - processPackages [bluetooth-data-tools]: Remove: archive file [/home/abi/fetcher/tmp/bluetooth_data_tools-1.0.0.tar.gz]
+[2023-06-07 07:43:54] INFO root fetch - main [MainThread]: End processing [bluetooth-data-tools]: success
+[2023-06-07 07:43:54] INFO root fetch - processPackages [redash-python]: Remove: archive file [/home/abi/fetcher/tmp/redash-python-0.3.8.tar.gz]
+[2023-06-07 07:43:54] INFO root fetch - processPackages [redash-python]: Remove: archive file [/home/abi/fetcher/tmp/redash-python-0.3.9.tar.gz]
+[2023-06-07 07:43:54] INFO root fetch - main [MainThread]: End processing [redash-python]: success
+[2023-06-07 07:43:55] INFO root fetch - processPackages [ml-pretrained]: Remove: archive file [/home/abi/fetcher/tmp/ml-pretrained-0.0.7.tar.gz]
+[2023-06-07 07:43:55] INFO root fetch - processPackages [ml-pretrained]: Remove: archive file [/home/abi/fetcher/tmp/ml-pretrained-0.0.8.tar.gz]
+[2023-06-07 07:43:55] INFO root fetch - main [MainThread]: End processing [ml-pretrained]: success
+[2023-06-07 07:43:58] INFO root fetch - processPackages [beartype]: Remove: archive file [/home/abi/fetcher/tmp/beartype-0.9.0.tar.gz]
+[2023-06-07 07:43:58] INFO root fetch - processPackages [beartype]: Remove: archive file [/home/abi/fetcher/tmp/beartype-0.9.1.tar.gz]
+[2023-06-07 07:43:58] INFO root fetch - main [MainThread]: End processing [beartype]: success
+[2023-06-07 07:43:59] INFO root fetch - processPackages [metricflow]: Remove: archive file [/home/abi/fetcher/tmp/metricflow-0.92.1.tar.gz]
+[2023-06-07 07:43:59] INFO root fetch - processPackages [metricflow]: Remove: archive file [/home/abi/fetcher/tmp/metricflow-0.93.0.tar.gz]
+[2023-06-07 07:43:59] INFO root fetch - main [MainThread]: End processing [metricflow]: success
+[2023-06-07 07:43:59] INFO root fetch - main [MainThread]: Store serial: [18403191]
