@@ -12425,3 +12425,80 @@ AssertionError: tmp/odoo_addon_crm_lead_firstname-16.0.1.0.1-py3-none-any.whl.zi
 [2023-06-07 06:31:41] INFO root fetch - processPackages [bosdyn-api]: Remove: archive file [/home/abi/fetcher/tmp/bosdyn_api-3.3.0-py3-none-any.whl.zip]
 [2023-06-07 06:31:41] INFO root fetch - main [MainThread]: End processing [bosdyn-api]: success
 [2023-06-07 06:31:41] INFO root fetch - main [MainThread]: Store serial: [18402669]
+[2023-06-07 06:36:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18402669]
+[2023-06-07 06:36:50] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-07 06:36:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: synonym-custom
+[2023-06-07 06:36:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: modbedtools
+[2023-06-07 06:36:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pytest-localstack
+[2023-06-07 06:36:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: findu
+[2023-06-07 06:36:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: model-composer
+[2023-06-07 06:36:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: snowflake-connector-python-nightly
+[2023-06-07 06:36:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pinecone-client
+[2023-06-07 06:36:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-product-logistics-uom
+[2023-06-07 06:36:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addons-oca-product-attribute
+[2023-06-07 06:36:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tf-nightly-macos
+[2023-06-07 06:36:50] INFO root fetch - processPackages [findu]: New version: [0.0.13] Old Version: [0.0.12]
+[2023-06-07 06:36:50] WARNING root fetch - processPackages [synonym-custom]: Skipping, unable to determine old version
+[2023-06-07 06:36:50] INFO root fetch - processPackages [odoo-addons-oca-product-attribute]: New version: [16.0.20230606.0] Old Version: [16.0.20230531.0]
+[2023-06-07 06:36:50] INFO root fetch - main [MainThread]: End processing [synonym-custom] error
+[2023-06-07 06:36:50] INFO root fetch - processPackages [modbedtools]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-07 06:36:50] INFO root fetch - processPackages [pinecone-client]: New version: [3.0.0rc2] Old Version: [2.2.2rc4]
+[2023-06-07 06:36:50] INFO root fetch - processPackages [pytest-localstack]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-06-07 06:36:50] WARNING root fetch - processPackages [model-composer]: Skipping, unable to determine old version
+[2023-06-07 06:36:50] INFO root fetch - processPackages [odoo-addon-product-logistics-uom]: New version: [16.0.3.0.0.1] Old Version: [16.0.3.0.0]
+[2023-06-07 06:36:50] INFO root fetch - main [MainThread]: End processing [model-composer] error
+[2023-06-07 06:36:50] INFO root fetch - processPackages [tf-nightly-macos]: New version: [2.14.0.dev20230605] Old Version: [2.14.0.dev20230604]
+[2023-06-07 06:36:50] INFO root fetch - processPackages [snowflake-connector-python-nightly]: New version: [2023.6.6] Old Version: [2023.5.31]
+[2023-06-07 06:36:50] INFO root fetch - processPackages [findu]: Downloading https://files.pythonhosted.org/packages/95/8a/7c5378f020de5e9744b470d132ff13fafb170d71b238f8aff726528e2660/findu-0.0.12.tar.gz
+[2023-06-07 06:36:50] INFO root fetch - processPackages [odoo-addon-product-logistics-uom]: Downloading https://files.pythonhosted.org/packages/2a/5c/9e2d0d834b376132d4eabc6d63a7ab8c4e381b83fbe50742c79484589a9a/odoo_addon_product_logistics_uom-16.0.3.0.0-py3-none-any.whl
+[2023-06-07 06:36:50] INFO root fetch - processPackages [pinecone-client]: Downloading https://files.pythonhosted.org/packages/3b/fc/d93783342f5ae5a9f8c239b3c7ac53e50f3cf6a5a1b943f76f46007529bb/pinecone-client-2.2.2rc4.tar.gz
+[2023-06-07 06:36:50] INFO root fetch - processPackages [modbedtools]: Downloading https://files.pythonhosted.org/packages/9d/47/f39004a429bf874646b99ed068cb81cbcb9ef9b1dd572764e2c05014cdfc/modbedtools-0.1.3.tar.gz
+[2023-06-07 06:36:50] INFO root fetch - processPackages [odoo-addons-oca-product-attribute]: Downloading https://files.pythonhosted.org/packages/50/c5/67a64db3b151eb9d8a85df2d40cfc94049d9d0f445b5563b6a49a9998cc2/odoo_addons_oca_product_attribute-16.0.20230531.0-py3-none-any.whl
+[2023-06-07 06:36:50] INFO root fetch - processPackages [pytest-localstack]: Downloading https://files.pythonhosted.org/packages/a1/00/9387aab962ca2aa5c37f905ec9d37c966a9d90491ecf93e580bf3034f4dd/pytest_localstack-0.6.0.tar.gz
+[2023-06-07 06:36:50] INFO root fetch - processPackages [pinecone-client]: Downloading https://files.pythonhosted.org/packages/ff/d5/68a0e91460cfa23e60d89ec1fc56fc93efe811521fed1a263634e019c52b/pinecone_client-3.0.0rc2.tar.gz
+[2023-06-07 06:36:50] INFO root fetch - processPackages [snowflake-connector-python-nightly]: Downloading https://files.pythonhosted.org/packages/73/e4/02824419c5412228a89b7712d8c002d5d53e7e1b095c8147550fb3e8712f/snowflake-connector-python-nightly-2023.5.31.tar.gz
+[2023-06-07 06:36:50] INFO root fetch - processPackages [tf-nightly-macos]: Downloading https://files.pythonhosted.org/packages/0e/cb/b93925d1c5128f79815167ca8d246930de7fb55fefa5c2f8ab117fc8df38/tf_nightly_macos-2.14.0.dev20230604-cp39-cp39-macosx_12_0_arm64.whl
+[2023-06-07 06:36:50] INFO root fetch - processPackages [odoo-addon-product-logistics-uom]: Downloading https://files.pythonhosted.org/packages/22/34/8aadef24d16f639b05f347c0e87d03067155b30a59a74473a001c56e08da/odoo_addon_product_logistics_uom-16.0.3.0.0.1-py3-none-any.whl
+[2023-06-07 06:36:50] INFO root fetch - processPackages [findu]: Downloading https://files.pythonhosted.org/packages/29/07/acf6ddf9ff6077f0964ead078ea03f07eeacdab21135d97da79c7c4e0b19/findu-0.0.13.tar.gz
+[2023-06-07 06:36:51] WARNING root fetch - processPackages [tf-nightly-macos]: Skipping package: exceeds size limit 197060410>=10485760
+[2023-06-07 06:36:51] INFO root fetch - main [MainThread]: End processing [tf-nightly-macos] error
+[2023-06-07 06:36:51] INFO root fetch - processPackages [findu]: executing diffoscope
+[2023-06-07 06:36:51] INFO root fetch - processPackages [findu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/findu-0.0.12.tar.gz tmp/findu-0.0.13.tar.gz --markdown 20230607/f/findu/0.0.12-0.0.13/diff.md --exclude *.pyd
+[2023-06-07 06:36:51] INFO root fetch - processPackages [odoo-addons-oca-product-attribute]: Downloading https://files.pythonhosted.org/packages/db/e2/09d28ad227f5bac3617ccb732750c0bb16693f13f8c3b8317d4195f25b48/odoo_addons_oca_product_attribute-16.0.20230606.0-py3-none-any.whl
+[2023-06-07 06:36:51] INFO root fetch - processPackages [modbedtools]: Downloading https://files.pythonhosted.org/packages/43/5e/f74a20b6d0d0f6f6a9b47d120684f2d1f42e68337823891bc5c33ea75cdc/modbedtools-0.1.4.tar.gz
+[2023-06-07 06:36:51] INFO root fetch - processPackages [odoo-addon-product-logistics-uom]: executing diffoscope
+[2023-06-07 06:36:51] INFO root fetch - processPackages [odoo-addon-product-logistics-uom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_product_logistics_uom-16.0.3.0.0-py3-none-any.whl.zip tmp/odoo_addon_product_logistics_uom-16.0.3.0.0.1-py3-none-any.whl.zip --markdown 20230607/o/odoo-addon-product-logistics-uom/16.0.3.0.0-16.0.3.0.0.1/diff.md --exclude *.pyd
+[2023-06-07 06:36:51] INFO root fetch - processPackages [pinecone-client]: executing diffoscope
+[2023-06-07 06:36:51] INFO root fetch - processPackages [pinecone-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pinecone-client-2.2.2rc4.tar.gz tmp/pinecone_client-3.0.0rc2.tar.gz --markdown 20230607/p/pinecone-client/2.2.2rc4-3.0.0rc2/diff.md --exclude *.pyd
+[2023-06-07 06:36:51] INFO root fetch - processPackages [pytest-localstack]: Downloading https://files.pythonhosted.org/packages/07/8f/bac39c3847d027da9683f482145b3ac7595b1eb9b7666d4368cd4d809566/pytest_localstack-0.6.1.tar.gz
+[2023-06-07 06:36:51] INFO root fetch - processPackages [odoo-addons-oca-product-attribute]: executing diffoscope
+[2023-06-07 06:36:51] INFO root fetch - processPackages [modbedtools]: executing diffoscope
+[2023-06-07 06:36:51] INFO root fetch - processPackages [odoo-addons-oca-product-attribute]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_product_attribute-16.0.20230531.0-py3-none-any.whl.zip tmp/odoo_addons_oca_product_attribute-16.0.20230606.0-py3-none-any.whl.zip --markdown 20230607/o/odoo-addons-oca-product-attribute/16.0.20230531.0-16.0.20230606.0/diff.md --exclude *.pyd
+[2023-06-07 06:36:51] INFO root fetch - processPackages [modbedtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modbedtools-0.1.3.tar.gz tmp/modbedtools-0.1.4.tar.gz --markdown 20230607/m/modbedtools/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-07 06:36:51] INFO root fetch - processPackages [snowflake-connector-python-nightly]: Downloading https://files.pythonhosted.org/packages/3a/de/a3d5952ae14f1d96d817896cf0b50d559c49fe0383f469683ff8db639a87/snowflake-connector-python-nightly-2023.6.6.tar.gz
+[2023-06-07 06:36:51] INFO root fetch - processPackages [pytest-localstack]: executing diffoscope
+[2023-06-07 06:36:51] INFO root fetch - processPackages [pytest-localstack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_localstack-0.6.0.tar.gz tmp/pytest_localstack-0.6.1.tar.gz --markdown 20230607/p/pytest-localstack/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-06-07 06:36:51] INFO root fetch - processPackages [snowflake-connector-python-nightly]: executing diffoscope
+[2023-06-07 06:36:51] INFO root fetch - processPackages [snowflake-connector-python-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snowflake-connector-python-nightly-2023.5.31.tar.gz tmp/snowflake-connector-python-nightly-2023.6.6.tar.gz --markdown 20230607/s/snowflake-connector-python-nightly/2023.5.31-2023.6.6/diff.md --exclude *.pyd
+[2023-06-07 06:36:52] INFO root fetch - processPackages [findu]: Remove: archive file [/home/abi/fetcher/tmp/findu-0.0.12.tar.gz]
+[2023-06-07 06:36:52] INFO root fetch - processPackages [findu]: Remove: archive file [/home/abi/fetcher/tmp/findu-0.0.13.tar.gz]
+[2023-06-07 06:36:52] INFO root fetch - main [MainThread]: End processing [findu]: success
+[2023-06-07 06:36:52] INFO root fetch - processPackages [odoo-addons-oca-product-attribute]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_product_attribute-16.0.20230531.0-py3-none-any.whl.zip]
+[2023-06-07 06:36:52] INFO root fetch - processPackages [odoo-addons-oca-product-attribute]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_product_attribute-16.0.20230606.0-py3-none-any.whl.zip]
+[2023-06-07 06:36:52] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-product-attribute]: success
+[2023-06-07 06:36:52] INFO root fetch - processPackages [odoo-addon-product-logistics-uom]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_logistics_uom-16.0.3.0.0-py3-none-any.whl.zip]
+[2023-06-07 06:36:52] INFO root fetch - processPackages [modbedtools]: Remove: archive file [/home/abi/fetcher/tmp/modbedtools-0.1.3.tar.gz]
+[2023-06-07 06:36:52] INFO root fetch - processPackages [modbedtools]: Remove: archive file [/home/abi/fetcher/tmp/modbedtools-0.1.4.tar.gz]
+[2023-06-07 06:36:52] INFO root fetch - processPackages [odoo-addon-product-logistics-uom]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_logistics_uom-16.0.3.0.0.1-py3-none-any.whl.zip]
+[2023-06-07 06:36:52] INFO root fetch - main [MainThread]: End processing [modbedtools]: success
+[2023-06-07 06:36:52] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-logistics-uom]: success
+[2023-06-07 06:36:53] INFO root fetch - processPackages [pinecone-client]: Remove: archive file [/home/abi/fetcher/tmp/pinecone-client-2.2.2rc4.tar.gz]
+[2023-06-07 06:36:53] INFO root fetch - processPackages [pinecone-client]: Remove: archive file [/home/abi/fetcher/tmp/pinecone_client-3.0.0rc2.tar.gz]
+[2023-06-07 06:36:53] INFO root fetch - main [MainThread]: End processing [pinecone-client]: success
+[2023-06-07 06:36:56] INFO root fetch - processPackages [snowflake-connector-python-nightly]: Remove: archive file [/home/abi/fetcher/tmp/snowflake-connector-python-nightly-2023.5.31.tar.gz]
+[2023-06-07 06:36:56] INFO root fetch - processPackages [snowflake-connector-python-nightly]: Remove: archive file [/home/abi/fetcher/tmp/snowflake-connector-python-nightly-2023.6.6.tar.gz]
+[2023-06-07 06:36:56] INFO root fetch - main [MainThread]: End processing [snowflake-connector-python-nightly]: success
+[2023-06-07 06:37:46] INFO root fetch - processPackages [pytest-localstack]: Remove: archive file [/home/abi/fetcher/tmp/pytest_localstack-0.6.0.tar.gz]
+[2023-06-07 06:37:46] INFO root fetch - processPackages [pytest-localstack]: Remove: archive file [/home/abi/fetcher/tmp/pytest_localstack-0.6.1.tar.gz]
+[2023-06-07 06:37:46] INFO root fetch - main [MainThread]: End processing [pytest-localstack]: success
+[2023-06-07 06:37:46] INFO root fetch - main [MainThread]: Store serial: [18402732]
