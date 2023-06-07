@@ -14588,3 +14588,105 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-06-07 08:44:12] INFO root fetch - processPackages [pydna]: Remove: archive file [/home/abi/fetcher/tmp/pydna-6.0.0a2.tar.gz]
 [2023-06-07 08:44:12] INFO root fetch - main [MainThread]: End processing [pydna]: success
 [2023-06-07 08:44:12] INFO root fetch - main [MainThread]: Store serial: [18403627]
+[2023-06-07 08:49:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18403627]
+[2023-06-07 08:49:21] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-07 08:49:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: weave-py-api
+[2023-06-07 08:49:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: stim
+[2023-06-07 08:49:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spPersist
+[2023-06-07 08:49:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: stimcirq
+[2023-06-07 08:49:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sinter
+[2023-06-07 08:49:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: autoai-ts-libs
+[2023-06-07 08:49:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pipen
+[2023-06-07 08:49:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: spPersist
+[2023-06-07 08:49:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lamini
+[2023-06-07 08:49:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: minitrade
+[2023-06-07 08:49:21] WARNING root fetch - processPackages [weave-py-api]: Skipping, unable to determine old version
+[2023-06-07 08:49:21] INFO root fetch - processPackages [weave-py-api]: Start processing: smart-alpha-connect
+[2023-06-07 08:49:21] INFO root fetch - main [MainThread]: End processing [weave-py-api] error
+[2023-06-07 08:49:21] INFO root fetch - processPackages [spPersist]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-06-07 08:49:21] INFO root fetch - processPackages [pipen]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-07 08:49:21] INFO root fetch - processPackages [spPersist]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-06-07 08:49:21] INFO root fetch - processPackages [stimcirq]: New version: [1.9.dev1657429876] Old Version: [1.9.dev1656756326]
+[2023-06-07 08:49:21] INFO root fetch - processPackages [sinter]: New version: [1.9.dev1657429876] Old Version: [1.9.dev1656756326]
+[2023-06-07 08:49:21] WARNING root fetch - processPackages [smart-alpha-connect]: Skipping, unable to determine old version
+[2023-06-07 08:49:21] INFO root fetch - processPackages [smart-alpha-connect]: Start processing: sackeylib
+[2023-06-07 08:49:21] INFO root fetch - processPackages [autoai-ts-libs]: New version: [3.0.7] Old Version: [3.0.4]
+[2023-06-07 08:49:21] INFO root fetch - main [MainThread]: End processing [smart-alpha-connect] error
+[2023-06-07 08:49:21] INFO root fetch - processPackages [pipen]: Downloading https://files.pythonhosted.org/packages/89/8d/9c6dc54d1785255af9c0f2b040483e2d6d4b2c0f75ac4eef36237b5ba735/pipen-0.9.8.tar.gz
+[2023-06-07 08:49:21] INFO root fetch - processPackages [spPersist]: Downloading https://files.pythonhosted.org/packages/c6/98/1105c24b7481231e47854207049857a414f0f451d9f96a29f9e155184d87/sppersist-0.1.9.tar.gz
+[2023-06-07 08:49:21] INFO root fetch - processPackages [spPersist]: Downloading https://files.pythonhosted.org/packages/c6/98/1105c24b7481231e47854207049857a414f0f451d9f96a29f9e155184d87/sppersist-0.1.9.tar.gz
+[2023-06-07 08:49:21] INFO root fetch - processPackages [stim]: New version: [1.9.dev1657429876] Old Version: [1.9.dev1656756326]
+[2023-06-07 08:49:22] INFO root fetch - processPackages [lamini]: New version: [0.0.17a1] Old Version: [0.0.16]
+[2023-06-07 08:49:22] INFO root fetch - processPackages [minitrade]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-07 08:49:22] INFO root fetch - processPackages [sinter]: Downloading https://files.pythonhosted.org/packages/df/c6/cb2622852c76647e7b6ad9a7a7e10f4e2cac9ecdfd523ac68df0bfc130af/sinter-1.9.dev1656756326.tar.gz
+[2023-06-07 08:49:22] INFO root fetch - processPackages [stimcirq]: Downloading https://files.pythonhosted.org/packages/ec/fe/38fc995ba6685f64103f3cd62faa49cd869af074b36e401597d9d2b0278d/stimcirq-1.9.dev1656756326.tar.gz
+[2023-06-07 08:49:22] INFO root fetch - processPackages [sackeylib]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-07 08:49:22] INFO root fetch - processPackages [stim]: Downloading https://files.pythonhosted.org/packages/3c/b5/73354eb92a2d990acfb9c201ee8681aa2f88c6bd8bebf6365b8315ce918f/stim-1.9.dev1656756326.tar.gz
+[2023-06-07 08:49:22] INFO root fetch - processPackages [autoai-ts-libs]: Downloading https://files.pythonhosted.org/packages/46/5c/f295f51f2e539eb8836ee1a9cac586c70b6800eed387a781a2fde92fe999/autoai_ts_libs-3.0.4-21-cp310-cp310-manylinux2014_s390x.whl
+[2023-06-07 08:49:22] INFO root fetch - processPackages [pipen]: Downloading https://files.pythonhosted.org/packages/45/94/66725f0ebe253ae8e488f0eba36085ecc25349bc326bfe14d38c76bb9482/pipen-0.9.9.tar.gz
+[2023-06-07 08:49:22] WARNING root fetch - processPackages [autoai-ts-libs]: Skipping package: exceeds size limit 29487508>=10485760
+[2023-06-07 08:49:22] INFO root fetch - processPackages [autoai-ts-libs]: Start processing: kalpy-kaldi
+[2023-06-07 08:49:22] INFO root fetch - main [MainThread]: End processing [autoai-ts-libs] error
+[2023-06-07 08:49:22] INFO root fetch - processPackages [stimcirq]: Downloading https://files.pythonhosted.org/packages/a2/fe/5fa281db7d139ef59a3c4c47c96940bf9f3fab0d0017ea452412c0cfc8d3/stimcirq-1.9.dev1657429876.tar.gz
+[2023-06-07 08:49:22] INFO root fetch - processPackages [lamini]: Downloading https://files.pythonhosted.org/packages/ea/1f/ba7ca2320ee5e347370b5f83790a825c5f8f05ff4e660e79963f28155fed/lamini-0.0.16-2-py3-none-any.whl
+[2023-06-07 08:49:22] INFO root fetch - processPackages [sinter]: Downloading https://files.pythonhosted.org/packages/fd/5e/bd22cf7318b95a6cb630aede242c37ca8e376f51d3c73522d4d3fafd60c3/sinter-1.9.dev1657429876.tar.gz
+[2023-06-07 08:49:22] INFO root fetch - processPackages [pipen]: executing diffoscope
+[2023-06-07 08:49:22] INFO root fetch - processPackages [pipen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipen-0.9.8.tar.gz tmp/pipen-0.9.9.tar.gz --markdown 20230607/p/pipen/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-07 08:49:22] INFO root fetch - processPackages [spPersist]: Downloading https://files.pythonhosted.org/packages/c9/d4/18f3e13e0fc1758e225f810568d5ac2981adb62dd3676596982b80955b1d/sppersist-0.2.0.tar.gz
+[2023-06-07 08:49:22] INFO root fetch - processPackages [spPersist]: Downloading https://files.pythonhosted.org/packages/c9/d4/18f3e13e0fc1758e225f810568d5ac2981adb62dd3676596982b80955b1d/sppersist-0.2.0.tar.gz
+[2023-06-07 08:49:22] INFO root fetch - processPackages [minitrade]: Downloading https://files.pythonhosted.org/packages/5f/b2/f641ba28684c7fa8b23f530366cc52dff178045351134c33142d49317684/minitrade-0.1.8.tar.gz
+[2023-06-07 08:49:22] INFO root fetch - processPackages [sackeylib]: Downloading https://files.pythonhosted.org/packages/b3/db/83c491c8837619fcd0eaf97b0c4334cb053d48e626bdc0da57fd395d47bc/sackeylib-0.0.8.tar.gz
+[2023-06-07 08:49:22] INFO root fetch - processPackages [stim]: Downloading https://files.pythonhosted.org/packages/0e/9c/5ba52c312bd56598b3625675b062eed876f9e2248d957e47c58050cad31a/stim-1.9.dev1657429876.tar.gz
+[2023-06-07 08:49:22] INFO root fetch - processPackages [kalpy-kaldi]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-07 08:49:22] INFO root fetch - processPackages [stimcirq]: executing diffoscope
+[2023-06-07 08:49:22] INFO root fetch - processPackages [stimcirq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stimcirq-1.9.dev1656756326.tar.gz tmp/stimcirq-1.9.dev1657429876.tar.gz --markdown 20230607/s/stimcirq/1.9.dev1656756326-1.9.dev1657429876/diff.md --exclude *.pyd
+[2023-06-07 08:49:22] INFO root fetch - processPackages [sinter]: executing diffoscope
+[2023-06-07 08:49:22] INFO root fetch - processPackages [sinter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sinter-1.9.dev1656756326.tar.gz tmp/sinter-1.9.dev1657429876.tar.gz --markdown 20230607/s/sinter/1.9.dev1656756326-1.9.dev1657429876/diff.md --exclude *.pyd
+[2023-06-07 08:49:22] INFO root fetch - processPackages [stim]: executing diffoscope
+[2023-06-07 08:49:22] INFO root fetch - processPackages [stim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stim-1.9.dev1656756326.tar.gz tmp/stim-1.9.dev1657429876.tar.gz --markdown 20230607/s/stim/1.9.dev1656756326-1.9.dev1657429876/diff.md --exclude *.pyd
+[2023-06-07 08:49:22] INFO root fetch - processPackages [spPersist]: executing diffoscope
+[2023-06-07 08:49:22] INFO root fetch - processPackages [spPersist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sppersist-0.1.9.tar.gz tmp/sppersist-0.2.0.tar.gz --markdown 20230607/s/spPersist/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-06-07 08:49:22] INFO root fetch - processPackages [spPersist]: executing diffoscope
+[2023-06-07 08:49:22] INFO root fetch - processPackages [spPersist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sppersist-0.1.9.tar.gz tmp/sppersist-0.2.0.tar.gz --markdown 20230607/s/spPersist/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-06-07 08:49:22] INFO root fetch - processPackages [kalpy-kaldi]: Downloading https://files.pythonhosted.org/packages/75/34/dd10c6292a7c806a81f0ddfee42fca3d399e8507da27a673ec923308cca1/kalpy-kaldi-0.0.5.tar.gz
+[2023-06-07 08:49:22] INFO root fetch - processPackages [sackeylib]: Downloading https://files.pythonhosted.org/packages/36/69/e3d0dc04b032e6601f3a97d05f7d7002cfe2ac0b3774f9afdbf5bbb5b569/sackeylib-0.0.9.tar.gz
+[2023-06-07 08:49:22] INFO root fetch - processPackages [lamini]: Downloading https://files.pythonhosted.org/packages/77/d3/e8d2c3c00ab15a0fa07f99c82d872e0894b42116000424304ddcdbc31c25/lamini-0.0.17a1.tar.gz
+[2023-06-07 08:49:22] INFO root fetch - processPackages [minitrade]: Downloading https://files.pythonhosted.org/packages/8f/eb/d50633b35cb7154918ad47a8651b5cce6dbf62eaf0e1eabd97085addeae1/minitrade-0.1.9.tar.gz
+[2023-06-07 08:49:22] INFO root fetch - processPackages [sackeylib]: executing diffoscope
+[2023-06-07 08:49:22] INFO root fetch - processPackages [sackeylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sackeylib-0.0.8.tar.gz tmp/sackeylib-0.0.9.tar.gz --markdown 20230607/s/sackeylib/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-07 08:49:22] INFO root fetch - processPackages [lamini]: executing diffoscope
+[2023-06-07 08:49:22] INFO root fetch - processPackages [lamini]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lamini-0.0.16-2-py3-none-any.whl.zip tmp/lamini-0.0.17a1.tar.gz --markdown 20230607/l/lamini/0.0.16-0.0.17a1/diff.md --exclude *.pyd
+[2023-06-07 08:49:22] INFO root fetch - processPackages [minitrade]: executing diffoscope
+[2023-06-07 08:49:22] INFO root fetch - processPackages [minitrade]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minitrade-0.1.8.tar.gz tmp/minitrade-0.1.9.tar.gz --markdown 20230607/m/minitrade/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-07 08:49:22] INFO root fetch - processPackages [kalpy-kaldi]: Downloading https://files.pythonhosted.org/packages/e2/14/7efde6ea5c9714cfdda32495570c6a8cd7ec084e357c30d8b7fcf39cac12/kalpy-kaldi-0.0.6.tar.gz
+[2023-06-07 08:49:23] INFO root fetch - processPackages [kalpy-kaldi]: executing diffoscope
+[2023-06-07 08:49:23] INFO root fetch - processPackages [kalpy-kaldi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kalpy-kaldi-0.0.5.tar.gz tmp/kalpy-kaldi-0.0.6.tar.gz --markdown 20230607/k/kalpy-kaldi/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-07 08:49:23] INFO root fetch - processPackages [spPersist]: Remove: archive file [/home/abi/fetcher/tmp/sppersist-0.1.9.tar.gz]
+[2023-06-07 08:49:23] INFO root fetch - processPackages [spPersist]: Remove: archive file [/home/abi/fetcher/tmp/sppersist-0.2.0.tar.gz]
+[2023-06-07 08:49:23] INFO root fetch - main [MainThread]: End processing [spPersist]: success
+[2023-06-07 08:49:24] INFO root fetch - main [MainThread]: End processing [spPersist]: success
+[2023-06-07 08:49:24] INFO root fetch - processPackages [sackeylib]: Remove: archive file [/home/abi/fetcher/tmp/sackeylib-0.0.8.tar.gz]
+[2023-06-07 08:49:24] INFO root fetch - processPackages [sackeylib]: Remove: archive file [/home/abi/fetcher/tmp/sackeylib-0.0.9.tar.gz]
+[2023-06-07 08:49:24] INFO root fetch - main [MainThread]: End processing [sackeylib]: success
+[2023-06-07 08:49:24] INFO root fetch - processPackages [lamini]: Remove: archive file [/home/abi/fetcher/tmp/lamini-0.0.16-2-py3-none-any.whl.zip]
+[2023-06-07 08:49:24] INFO root fetch - processPackages [lamini]: Remove: archive file [/home/abi/fetcher/tmp/lamini-0.0.17a1.tar.gz]
+[2023-06-07 08:49:24] INFO root fetch - main [MainThread]: End processing [lamini]: success
+[2023-06-07 08:49:24] INFO root fetch - processPackages [minitrade]: Remove: archive file [/home/abi/fetcher/tmp/minitrade-0.1.8.tar.gz]
+[2023-06-07 08:49:24] INFO root fetch - processPackages [minitrade]: Remove: archive file [/home/abi/fetcher/tmp/minitrade-0.1.9.tar.gz]
+[2023-06-07 08:49:24] INFO root fetch - main [MainThread]: End processing [minitrade]: success
+[2023-06-07 08:49:24] INFO root fetch - processPackages [stimcirq]: Remove: archive file [/home/abi/fetcher/tmp/stimcirq-1.9.dev1656756326.tar.gz]
+[2023-06-07 08:49:24] INFO root fetch - processPackages [stimcirq]: Remove: archive file [/home/abi/fetcher/tmp/stimcirq-1.9.dev1657429876.tar.gz]
+[2023-06-07 08:49:24] INFO root fetch - main [MainThread]: End processing [stimcirq]: success
+[2023-06-07 08:49:24] INFO root fetch - processPackages [pipen]: Remove: archive file [/home/abi/fetcher/tmp/pipen-0.9.8.tar.gz]
+[2023-06-07 08:49:24] INFO root fetch - processPackages [pipen]: Remove: archive file [/home/abi/fetcher/tmp/pipen-0.9.9.tar.gz]
+[2023-06-07 08:49:24] INFO root fetch - main [MainThread]: End processing [pipen]: success
+[2023-06-07 08:49:24] INFO root fetch - processPackages [sinter]: Remove: archive file [/home/abi/fetcher/tmp/sinter-1.9.dev1656756326.tar.gz]
+[2023-06-07 08:49:24] INFO root fetch - processPackages [sinter]: Remove: archive file [/home/abi/fetcher/tmp/sinter-1.9.dev1657429876.tar.gz]
+[2023-06-07 08:49:24] INFO root fetch - main [MainThread]: End processing [sinter]: success
+[2023-06-07 08:49:24] INFO root fetch - processPackages [kalpy-kaldi]: Remove: archive file [/home/abi/fetcher/tmp/kalpy-kaldi-0.0.5.tar.gz]
+[2023-06-07 08:49:24] INFO root fetch - processPackages [kalpy-kaldi]: Remove: archive file [/home/abi/fetcher/tmp/kalpy-kaldi-0.0.6.tar.gz]
+[2023-06-07 08:49:24] INFO root fetch - main [MainThread]: End processing [kalpy-kaldi]: success
+[2023-06-07 08:49:25] INFO root fetch - processPackages [stim]: Remove: archive file [/home/abi/fetcher/tmp/stim-1.9.dev1656756326.tar.gz]
+[2023-06-07 08:49:25] INFO root fetch - processPackages [stim]: Remove: archive file [/home/abi/fetcher/tmp/stim-1.9.dev1657429876.tar.gz]
+[2023-06-07 08:49:25] INFO root fetch - main [MainThread]: End processing [stim]: success
+[2023-06-07 08:49:25] INFO root fetch - main [MainThread]: Store serial: [18403692]
