@@ -20213,3 +20213,96 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-07 11:50:25] INFO root fetch - processPackages [autogalaxy]: Remove: archive file [/home/abi/fetcher/tmp/autogalaxy-2023.7.7.1.tar.gz]
 [2023-06-07 11:50:25] INFO root fetch - main [MainThread]: End processing [autogalaxy]: success
 [2023-06-07 11:50:25] INFO root fetch - main [MainThread]: Store serial: [18406186]
+[2023-06-07 11:55:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18406186]
+[2023-06-07 11:55:34] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-07 11:55:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: geolibs
+[2023-06-07 11:55:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openepd
+[2023-06-07 11:55:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: smt
+[2023-06-07 11:55:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: euporie
+[2023-06-07 11:55:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: alchemite-apiclient
+[2023-06-07 11:55:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ht-pricing-module
+[2023-06-07 11:55:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nwebclient
+[2023-06-07 11:55:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: caso
+[2023-06-07 11:55:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: qcs-phy
+[2023-06-07 11:55:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: th2-check2-recon
+[2023-06-07 11:55:34] INFO root fetch - processPackages [smt]: New version: [2.0b4] Old Version: [2.0b3]
+[2023-06-07 11:55:34] INFO root fetch - processPackages [openepd]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-06-07 11:55:34] INFO root fetch - processPackages [caso]: New version: [4.2.0] Old Version: [4.1.1.0rc1]
+[2023-06-07 11:55:34] INFO root fetch - processPackages [alchemite-apiclient]: New version: [0.55.0] Old Version: [0.54.0.post1]
+[2023-06-07 11:55:34] INFO root fetch - processPackages [ht-pricing-module]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-06-07 11:55:34] INFO root fetch - processPackages [euporie]: New version: [2.4.3] Old Version: [2.4.2]
+[2023-06-07 11:55:34] INFO root fetch - processPackages [nwebclient]: New version: [1.0.94] Old Version: [1.0.47]
+[2023-06-07 11:55:34] INFO root fetch - processPackages [geolibs]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-07 11:55:34] INFO root fetch - processPackages [geolibs]: Downloading https://files.pythonhosted.org/packages/c6/6c/24a43fc52a0a1932185f92c1abd67aa331ee1a719a6df450bd493bb0342d/geolibs-0.0.7.tar.gz
+[2023-06-07 11:55:34] INFO root fetch - processPackages [qcs-phy]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-06-07 11:55:34] INFO root fetch - processPackages [th2-check2-recon]: New version: [4.0.0.dev4312132973] Old Version: [4.0.0.dev3884233338]
+[2023-06-07 11:55:35] INFO root fetch - processPackages [smt]: Downloading https://files.pythonhosted.org/packages/78/57/b3bfb76849a224b30afccb916382f6aa39e1bbba9bc488e8f6429deaacd0/smt-2.0b3.tar.gz
+[2023-06-07 11:55:35] INFO root fetch - processPackages [openepd]: Downloading https://files.pythonhosted.org/packages/bc/f1/319c230c742e3450fa80b243d7dfa0913072d1d5e8ec8395c0494ddf21fc/openepd-0.6.0.tar.gz
+[2023-06-07 11:55:35] INFO root fetch - processPackages [alchemite-apiclient]: Downloading https://files.pythonhosted.org/packages/cc/95/ab9b31aecd7e9e7c53bf9679e7563aa2c1ace2de8217e8db9bc9a6612bb2/alchemite_apiclient-0.54.0.post1.tar.gz
+[2023-06-07 11:55:35] INFO root fetch - processPackages [caso]: Downloading https://files.pythonhosted.org/packages/23/1f/9cb7ea5e811af3a1c9fe8c919560d22674f2e0284eea7126b876ca839ab4/caso-4.1.1.0rc1.tar.gz
+[2023-06-07 11:55:35] INFO root fetch - processPackages [ht-pricing-module]: Downloading https://files.pythonhosted.org/packages/36/6b/1f28d6cbf0f4926dc11f7ec71a76ac6710c9191a778804bbb3e94aecfe6b/ht_pricing_module-0.2.4.tar.gz
+[2023-06-07 11:55:35] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/f8/5a/617896767d6ed09371dcf4b5a8041793a603d156e939d0b03b5fba1552d8/nwebclient-1.0.47.tar.gz
+[2023-06-07 11:55:35] INFO root fetch - processPackages [euporie]: Downloading https://files.pythonhosted.org/packages/29/d4/9cb5942040385c0e648b43505470425b5e7493c53c9b5ef6d8e40df08021/euporie-2.4.2.tar.gz
+[2023-06-07 11:55:35] INFO root fetch - processPackages [qcs-phy]: Downloading https://files.pythonhosted.org/packages/b5/07/70597ca69c25f0bc4d18b3e17a19d2da16144dabc0a057e4e443b8a7de2e/qcs_phy-1.0.4.tar.gz
+[2023-06-07 11:55:35] INFO root fetch - processPackages [geolibs]: Downloading https://files.pythonhosted.org/packages/a0/85/4c693147e4e3db31fd0e219334cdc985b0c0b65f4d40b5e1f5fda7fc9944/geolibs-0.0.8.tar.gz
+[2023-06-07 11:55:35] INFO root fetch - processPackages [th2-check2-recon]: Downloading https://files.pythonhosted.org/packages/21/8e/29b366312c8bd19e0082fa999b1a20cdf5c0870a085a5a70323b731808e3/th2_check2_recon-4.0.0.dev3884233338.tar.gz
+[2023-06-07 11:55:35] INFO root fetch - processPackages [ht-pricing-module]: Downloading https://files.pythonhosted.org/packages/0b/a0/4c1df2fff44a63a6774ed441ba2b8450049f28fcd9f0b71d173b2c63d1e6/ht_pricing_module-0.2.5.tar.gz
+[2023-06-07 11:55:35] INFO root fetch - processPackages [euporie]: Downloading https://files.pythonhosted.org/packages/95/ea/39cf78a9f15fb09aee153266fa39a135f178529fa152d5ecdd164c0da1ff/euporie-2.4.3.tar.gz
+[2023-06-07 11:55:35] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/12/6e/d067b316a4ac231633403551f2c003e4ea1de809ac114b82af80cd324ec1/nwebclient-1.0.94.tar.gz
+[2023-06-07 11:55:35] INFO root fetch - processPackages [smt]: Downloading https://files.pythonhosted.org/packages/92/11/1316a0d24afe280ac1563b4af4daa9da5bf337b3119552caf1e79a1a10a5/smt-2.0b4.tar.gz
+[2023-06-07 11:55:35] INFO root fetch - processPackages [openepd]: Downloading https://files.pythonhosted.org/packages/70/a4/558afbf5d981161dadf333dc3d38e779979a5a7c26ede724b7d6b3d6d8e3/openepd-0.7.0.tar.gz
+[2023-06-07 11:55:35] INFO root fetch - processPackages [geolibs]: executing diffoscope
+[2023-06-07 11:55:35] INFO root fetch - processPackages [geolibs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geolibs-0.0.7.tar.gz tmp/geolibs-0.0.8.tar.gz --markdown 20230607/g/geolibs/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-07 11:55:35] INFO root fetch - processPackages [ht-pricing-module]: executing diffoscope
+[2023-06-07 11:55:35] INFO root fetch - processPackages [ht-pricing-module]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ht_pricing_module-0.2.4.tar.gz tmp/ht_pricing_module-0.2.5.tar.gz --markdown 20230607/h/ht-pricing-module/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-06-07 11:55:35] INFO root fetch - processPackages [nwebclient]: executing diffoscope
+[2023-06-07 11:55:35] INFO root fetch - processPackages [nwebclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwebclient-1.0.47.tar.gz tmp/nwebclient-1.0.94.tar.gz --markdown 20230607/n/nwebclient/1.0.47-1.0.94/diff.md --exclude *.pyd
+[2023-06-07 11:55:35] INFO root fetch - processPackages [openepd]: executing diffoscope
+[2023-06-07 11:55:35] INFO root fetch - processPackages [openepd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openepd-0.6.0.tar.gz tmp/openepd-0.7.0.tar.gz --markdown 20230607/o/openepd/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-06-07 11:55:35] INFO root fetch - processPackages [caso]: Downloading https://files.pythonhosted.org/packages/8c/01/18860b8e4d32bb63b119f32d4995029155eea5f96e3e36e1d830e296be2f/caso-4.2.0.tar.gz
+[2023-06-07 11:55:35] INFO root fetch - processPackages [euporie]: executing diffoscope
+[2023-06-07 11:55:35] INFO root fetch - processPackages [euporie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/euporie-2.4.2.tar.gz tmp/euporie-2.4.3.tar.gz --markdown 20230607/e/euporie/2.4.2-2.4.3/diff.md --exclude *.pyd
+[2023-06-07 11:55:35] INFO root fetch - processPackages [qcs-phy]: Downloading https://files.pythonhosted.org/packages/b0/2f/a30587d7296633b019fd6538415f6f65a5d4f4a45cd41792d7999f5e880c/qcs_phy-1.0.5.tar.gz
+[2023-06-07 11:55:35] INFO root fetch - processPackages [alchemite-apiclient]: Downloading https://files.pythonhosted.org/packages/f5/63/c0f4a37906c690e2e8ff9bd91cb670ba1e171f1f5549a0466de9151c944b/alchemite_apiclient-0.55.0.tar.gz
+[2023-06-07 11:55:35] INFO root fetch - processPackages [caso]: executing diffoscope
+[2023-06-07 11:55:35] INFO root fetch - processPackages [caso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/caso-4.1.1.0rc1.tar.gz tmp/caso-4.2.0.tar.gz --markdown 20230607/c/caso/4.1.1.0rc1-4.2.0/diff.md --exclude *.pyd
+[2023-06-07 11:55:35] INFO root fetch - processPackages [alchemite-apiclient]: executing diffoscope
+[2023-06-07 11:55:35] INFO root fetch - processPackages [alchemite-apiclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alchemite_apiclient-0.54.0.post1.tar.gz tmp/alchemite_apiclient-0.55.0.tar.gz --markdown 20230607/a/alchemite-apiclient/0.54.0.post1-0.55.0/diff.md --exclude *.pyd
+[2023-06-07 11:55:35] INFO root fetch - processPackages [smt]: executing diffoscope
+[2023-06-07 11:55:35] INFO root fetch - processPackages [smt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smt-2.0b3.tar.gz tmp/smt-2.0b4.tar.gz --markdown 20230607/s/smt/2.0b3-2.0b4/diff.md --exclude *.pyd
+[2023-06-07 11:55:35] INFO root fetch - processPackages [th2-check2-recon]: Downloading https://files.pythonhosted.org/packages/17/cd/330081b9a886f5f5194c556f84e05cb2e324ec5d1b3922530f3a9efc04f2/th2_check2_recon-4.0.0.dev4312132973.tar.gz
+[2023-06-07 11:55:35] INFO root fetch - processPackages [qcs-phy]: executing diffoscope
+[2023-06-07 11:55:35] INFO root fetch - processPackages [qcs-phy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qcs_phy-1.0.4.tar.gz tmp/qcs_phy-1.0.5.tar.gz --markdown 20230607/q/qcs-phy/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-06-07 11:55:35] INFO root fetch - processPackages [th2-check2-recon]: executing diffoscope
+[2023-06-07 11:55:35] INFO root fetch - processPackages [th2-check2-recon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_check2_recon-4.0.0.dev3884233338.tar.gz tmp/th2_check2_recon-4.0.0.dev4312132973.tar.gz --markdown 20230607/t/th2-check2-recon/4.0.0.dev3884233338-4.0.0.dev4312132973/diff.md --exclude *.pyd
+[2023-06-07 11:55:35] ERROR root fetch - processPackages [qcs-phy]: Diffoscope failed: Error: error creating container storage: the container name "awesome_matsumoto" is already in use by "ecc1821795a4830b417351285fff1729d697ca9c24e46d0b4e13a5f131653ee9". You have to remove that container to be able to reuse that name.: that name is already in use
+
+[2023-06-07 11:55:35] INFO root fetch - main [MainThread]: End processing [qcs-phy] error
+[2023-06-07 11:55:36] INFO root fetch - processPackages [geolibs]: Remove: archive file [/home/abi/fetcher/tmp/geolibs-0.0.7.tar.gz]
+[2023-06-07 11:55:36] INFO root fetch - processPackages [geolibs]: Remove: archive file [/home/abi/fetcher/tmp/geolibs-0.0.8.tar.gz]
+[2023-06-07 11:55:36] INFO root fetch - main [MainThread]: End processing [geolibs]: success
+[2023-06-07 11:55:37] INFO root fetch - processPackages [openepd]: Remove: archive file [/home/abi/fetcher/tmp/openepd-0.6.0.tar.gz]
+[2023-06-07 11:55:37] INFO root fetch - processPackages [openepd]: Remove: archive file [/home/abi/fetcher/tmp/openepd-0.7.0.tar.gz]
+[2023-06-07 11:55:37] INFO root fetch - main [MainThread]: End processing [openepd]: success
+[2023-06-07 11:55:37] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.47.tar.gz]
+[2023-06-07 11:55:37] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.94.tar.gz]
+[2023-06-07 11:55:37] INFO root fetch - main [MainThread]: End processing [nwebclient]: success
+[2023-06-07 11:55:37] INFO root fetch - processPackages [th2-check2-recon]: Remove: archive file [/home/abi/fetcher/tmp/th2_check2_recon-4.0.0.dev3884233338.tar.gz]
+[2023-06-07 11:55:37] INFO root fetch - processPackages [th2-check2-recon]: Remove: archive file [/home/abi/fetcher/tmp/th2_check2_recon-4.0.0.dev4312132973.tar.gz]
+[2023-06-07 11:55:37] INFO root fetch - main [MainThread]: End processing [th2-check2-recon]: success
+[2023-06-07 11:55:38] INFO root fetch - processPackages [ht-pricing-module]: Remove: archive file [/home/abi/fetcher/tmp/ht_pricing_module-0.2.4.tar.gz]
+[2023-06-07 11:55:38] INFO root fetch - processPackages [ht-pricing-module]: Remove: archive file [/home/abi/fetcher/tmp/ht_pricing_module-0.2.5.tar.gz]
+[2023-06-07 11:55:38] INFO root fetch - main [MainThread]: End processing [ht-pricing-module]: success
+[2023-06-07 11:55:39] INFO root fetch - processPackages [caso]: Remove: archive file [/home/abi/fetcher/tmp/caso-4.1.1.0rc1.tar.gz]
+[2023-06-07 11:55:39] INFO root fetch - processPackages [caso]: Remove: archive file [/home/abi/fetcher/tmp/caso-4.2.0.tar.gz]
+[2023-06-07 11:55:39] INFO root fetch - main [MainThread]: End processing [caso]: success
+[2023-06-07 11:55:40] INFO root fetch - processPackages [euporie]: Remove: archive file [/home/abi/fetcher/tmp/euporie-2.4.2.tar.gz]
+[2023-06-07 11:55:40] INFO root fetch - processPackages [euporie]: Remove: archive file [/home/abi/fetcher/tmp/euporie-2.4.3.tar.gz]
+[2023-06-07 11:55:40] INFO root fetch - main [MainThread]: End processing [euporie]: success
+[2023-06-07 11:55:42] INFO root fetch - processPackages [smt]: Remove: archive file [/home/abi/fetcher/tmp/smt-2.0b3.tar.gz]
+[2023-06-07 11:55:42] INFO root fetch - processPackages [smt]: Remove: archive file [/home/abi/fetcher/tmp/smt-2.0b4.tar.gz]
+[2023-06-07 11:55:42] INFO root fetch - main [MainThread]: End processing [smt]: success
+[2023-06-07 11:55:44] INFO root fetch - processPackages [alchemite-apiclient]: Remove: archive file [/home/abi/fetcher/tmp/alchemite_apiclient-0.54.0.post1.tar.gz]
+[2023-06-07 11:55:44] INFO root fetch - processPackages [alchemite-apiclient]: Remove: archive file [/home/abi/fetcher/tmp/alchemite_apiclient-0.55.0.tar.gz]
+[2023-06-07 11:55:44] INFO root fetch - main [MainThread]: End processing [alchemite-apiclient]: success
+[2023-06-07 11:55:44] INFO root fetch - main [MainThread]: Store serial: [18406220]
