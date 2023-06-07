@@ -15035,3 +15035,105 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-06-07 09:05:21] INFO root fetch - processPackages [pypcapkit]: Remove: archive file [/home/abi/fetcher/tmp/pypcapkit-1.0.2.post4.tar.gz]
 [2023-06-07 09:05:21] INFO root fetch - main [MainThread]: End processing [pypcapkit]: success
 [2023-06-07 09:05:21] INFO root fetch - main [MainThread]: Store serial: [18403830]
+[2023-06-07 09:10:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18403830]
+[2023-06-07 09:10:30] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-07 09:10:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: angola
+[2023-06-07 09:10:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: omnata-plugin-devkit
+[2023-06-07 09:10:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dolfin-warp
+[2023-06-07 09:10:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: th2-grpc-lw-data-provider
+[2023-06-07 09:10:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: monotonic-nn
+[2023-06-07 09:10:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mock-data-generator
+[2023-06-07 09:10:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tf-hub-nightly
+[2023-06-07 09:10:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: owlery
+[2023-06-07 09:10:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pepperize.cdk-terraform-state-backend
+[2023-06-07 09:10:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: im-swagger-spy
+[2023-06-07 09:10:30] INFO root fetch - processPackages [dolfin-warp]: New version: [2023.6.7] Old Version: [2023.6.6]
+[2023-06-07 09:10:30] INFO root fetch - processPackages [angola]: New version: [0.11.3] Old Version: [0.11.2]
+[2023-06-07 09:10:30] INFO root fetch - processPackages [omnata-plugin-devkit]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-07 09:10:30] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: New version: [2.1.0.dev3871883101] Old Version: [2.0.0.dev5197004881]
+[2023-06-07 09:10:30] INFO root fetch - processPackages [monotonic-nn]: New version: [0.3.1rc0] Old Version: [0.3.0rc0]
+[2023-06-07 09:10:30] INFO root fetch - processPackages [mock-data-generator]: New version: [1.2.6] Old Version: [1.2.5]
+[2023-06-07 09:10:30] INFO root fetch - processPackages [owlery]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-06-07 09:10:30] INFO root fetch - processPackages [im-swagger-spy]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-06-07 09:10:31] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-06-07 09:10:31] INFO root fetch - processPackages [tf-hub-nightly]: New version: [0.9.0.dev202008190006] Old Version: [0.9.0.dev202008180006]
+[2023-06-07 09:10:31] INFO root fetch - processPackages [dolfin-warp]: Downloading https://files.pythonhosted.org/packages/f3/3c/907ec842f4b736d0dfde5778e841aaebc52faddddf7d88ef7f15f59eb770/dolfin_warp-2023.6.6.tar.gz
+[2023-06-07 09:10:31] INFO root fetch - processPackages [omnata-plugin-devkit]: Downloading https://files.pythonhosted.org/packages/a6/03/037aa46c1c15ce197872a42c2494fcfb0dd6fd4c14cebaeaf6f9495b5cbf/omnata_plugin_devkit-0.1.8.tar.gz
+[2023-06-07 09:10:31] INFO root fetch - processPackages [mock-data-generator]: Downloading https://files.pythonhosted.org/packages/ca/3d/4cbf693c9db5a1fec5372a4cc483422afaaa810d249b4473049f6b84e8e5/mock_data_generator-1.2.5.tar.gz
+[2023-06-07 09:10:31] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Downloading https://files.pythonhosted.org/packages/67/44/1dba32653c7525f0fbd8908ad6d202d1043a5fcb6cf364972a4c23bffeac/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz
+[2023-06-07 09:10:31] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/e8/6b/02811fcd79aec590e7355647130c822f1bd53092a205ce986e6df7364f52/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl
+[2023-06-07 09:10:31] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Downloading https://files.pythonhosted.org/packages/3e/b3/cb66901fb1f58b38695fe41a17a5ac04fa5c5cc866928a3ab8750fbf67c9/th2_grpc_lw_data_provider-2.0.0.dev5197004881.tar.gz
+[2023-06-07 09:10:31] INFO root fetch - processPackages [angola]: Downloading https://files.pythonhosted.org/packages/0e/71/495efa3539b78e3987c93fa83fb94fd2089414b841765142095fb3f32a10/angola-0.11.2.tar.gz
+[2023-06-07 09:10:31] INFO root fetch - processPackages [monotonic-nn]: Downloading https://files.pythonhosted.org/packages/16/0a/594e526d8b3c079af6891fe09e3b31e27b48754ffc5a9bc620264ef74f8f/monotonic-nn-0.3.0rc0.tar.gz
+[2023-06-07 09:10:31] INFO root fetch - processPackages [owlery]: Downloading https://files.pythonhosted.org/packages/38/ac/8caf0fa2b06287115048bc2ca21262bd72eb9ee819c510a719ae1e498881/owlery-0.1.1.tar.gz
+[2023-06-07 09:10:31] INFO root fetch - processPackages [im-swagger-spy]: Downloading https://files.pythonhosted.org/packages/eb/2b/7de35bedf48d38fdd8598d9070ada0733d75faad0be236d3aef2c9a45ee3/im_swagger_spy-0.3.3.tar.gz
+[2023-06-07 09:10:31] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Downloading https://files.pythonhosted.org/packages/49/e5/a2d418e8a59e46c739ecaa72adebcb65d676b8149513d576b8cd05d6324e/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz
+[2023-06-07 09:10:31] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/d1/9a/6b02d0906847e11386093420119d147f7306d7a9cad79e8e575a9d29ae76/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl
+[2023-06-07 09:10:31] INFO root fetch - processPackages [mock-data-generator]: Downloading https://files.pythonhosted.org/packages/36/dc/280d48b425f7c8abbe1849c6c97ab26ecc9f967882cdee957acd112cc28d/mock_data_generator-1.2.6.tar.gz
+[2023-06-07 09:10:31] INFO root fetch - processPackages [omnata-plugin-devkit]: Downloading https://files.pythonhosted.org/packages/94/e1/5b8aa743f4bbe600dde3989489613981c39b2dfcd44174b9931cf0c42452/omnata_plugin_devkit-0.1.9.tar.gz
+[2023-06-07 09:10:31] INFO root fetch - processPackages [dolfin-warp]: Downloading https://files.pythonhosted.org/packages/c8/bb/c5beb370d26d69c193baacef3b8165c7a116bf16432bfc4c6159bef3c889/dolfin_warp-2023.6.7.tar.gz
+[2023-06-07 09:10:31] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: executing diffoscope
+[2023-06-07 09:10:31] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz --markdown 20230607/p/pepperize.cdk-terraform-state-backend/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-06-07 09:10:31] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Downloading https://files.pythonhosted.org/packages/b8/71/939eea7287068082732ec066dc1b9af347f7ee06c935058691236acf7459/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz
+[2023-06-07 09:10:31] INFO root fetch - processPackages [dolfin-warp]: executing diffoscope
+[2023-06-07 09:10:31] INFO root fetch - processPackages [dolfin-warp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dolfin_warp-2023.6.6.tar.gz tmp/dolfin_warp-2023.6.7.tar.gz --markdown 20230607/d/dolfin-warp/2023.6.6-2023.6.7/diff.md --exclude *.pyd
+[2023-06-07 09:10:31] INFO root fetch - processPackages [omnata-plugin-devkit]: executing diffoscope
+[2023-06-07 09:10:31] INFO root fetch - processPackages [omnata-plugin-devkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnata_plugin_devkit-0.1.8.tar.gz tmp/omnata_plugin_devkit-0.1.9.tar.gz --markdown 20230607/o/omnata-plugin-devkit/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-07 09:10:31] INFO root fetch - processPackages [owlery]: Downloading https://files.pythonhosted.org/packages/34/12/1b45b6cf0eb29e9ffe191c515efc7881d73394dc3e3ebdb92422bac9e5a5/owlery-0.2.0.tar.gz
+[2023-06-07 09:10:31] INFO root fetch - processPackages [angola]: Downloading https://files.pythonhosted.org/packages/22/9f/d480028c2573070e5626b3b2db530edc9df7ed3cdd04a320bea81da831b3/angola-0.11.3.tar.gz
+[2023-06-07 09:10:31] INFO root fetch - processPackages [mock-data-generator]: executing diffoscope
+[2023-06-07 09:10:31] INFO root fetch - processPackages [mock-data-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mock_data_generator-1.2.5.tar.gz tmp/mock_data_generator-1.2.6.tar.gz --markdown 20230607/m/mock-data-generator/1.2.5-1.2.6/diff.md --exclude *.pyd
+[2023-06-07 09:10:31] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: executing diffoscope
+[2023-06-07 09:10:31] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_grpc_lw_data_provider-2.0.0.dev5197004881.tar.gz tmp/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz --markdown 20230607/t/th2-grpc-lw-data-provider/2.0.0.dev5197004881-2.1.0.dev3871883101/diff.md --exclude *.pyd
+[2023-06-07 09:10:31] INFO root fetch - processPackages [tf-hub-nightly]: executing diffoscope
+[2023-06-07 09:10:31] INFO root fetch - processPackages [tf-hub-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip --markdown 20230607/t/tf-hub-nightly/0.9.0.dev202008180006-0.9.0.dev202008190006/diff.md --exclude *.pyd
+[2023-06-07 09:10:31] INFO root fetch - processPackages [monotonic-nn]: Downloading https://files.pythonhosted.org/packages/e2/bd/07c613dc252a377fb81b9f9f076a18644ea6a7420adf008499630f52d7d9/monotonic-nn-0.3.1rc0.tar.gz
+[2023-06-07 09:10:31] INFO root fetch - processPackages [owlery]: executing diffoscope
+[2023-06-07 09:10:31] INFO root fetch - processPackages [owlery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/owlery-0.1.1.tar.gz tmp/owlery-0.2.0.tar.gz --markdown 20230607/o/owlery/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-06-07 09:10:31] INFO root fetch - processPackages [angola]: executing diffoscope
+[2023-06-07 09:10:31] INFO root fetch - processPackages [angola]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/angola-0.11.2.tar.gz tmp/angola-0.11.3.tar.gz --markdown 20230607/a/angola/0.11.2-0.11.3/diff.md --exclude *.pyd
+[2023-06-07 09:10:31] INFO root fetch - processPackages [im-swagger-spy]: Downloading https://files.pythonhosted.org/packages/b7/fc/1279153bf29e44d6aa08d677d587ac3bbc380ad0e56c1ac3e5967986a943/im_swagger_spy-0.3.4.tar.gz
+[2023-06-07 09:10:31] INFO root fetch - processPackages [monotonic-nn]: executing diffoscope
+[2023-06-07 09:10:31] INFO root fetch - processPackages [monotonic-nn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monotonic-nn-0.3.0rc0.tar.gz tmp/monotonic-nn-0.3.1rc0.tar.gz --markdown 20230607/m/monotonic-nn/0.3.0rc0-0.3.1rc0/diff.md --exclude *.pyd
+[2023-06-07 09:10:31] INFO root fetch - processPackages [im-swagger-spy]: executing diffoscope
+[2023-06-07 09:10:31] INFO root fetch - processPackages [im-swagger-spy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/im_swagger_spy-0.3.3.tar.gz tmp/im_swagger_spy-0.3.4.tar.gz --markdown 20230607/i/im-swagger-spy/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-06-07 09:10:33] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_lw_data_provider-2.0.0.dev5197004881.tar.gz]
+[2023-06-07 09:10:33] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz]
+[2023-06-07 09:10:33] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Start processing: pipen-args
+[2023-06-07 09:10:33] INFO root fetch - main [MainThread]: End processing [th2-grpc-lw-data-provider]: success
+[2023-06-07 09:10:33] INFO root fetch - processPackages [pipen-args]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-07 09:10:33] INFO root fetch - processPackages [omnata-plugin-devkit]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_devkit-0.1.8.tar.gz]
+[2023-06-07 09:10:33] INFO root fetch - processPackages [omnata-plugin-devkit]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_devkit-0.1.9.tar.gz]
+[2023-06-07 09:10:33] INFO root fetch - main [MainThread]: End processing [omnata-plugin-devkit]: success
+[2023-06-07 09:10:33] INFO root fetch - processPackages [mock-data-generator]: Remove: archive file [/home/abi/fetcher/tmp/mock_data_generator-1.2.5.tar.gz]
+[2023-06-07 09:10:33] INFO root fetch - processPackages [mock-data-generator]: Remove: archive file [/home/abi/fetcher/tmp/mock_data_generator-1.2.6.tar.gz]
+[2023-06-07 09:10:33] INFO root fetch - main [MainThread]: End processing [mock-data-generator]: success
+[2023-06-07 09:10:33] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip]
+[2023-06-07 09:10:33] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip]
+[2023-06-07 09:10:33] INFO root fetch - main [MainThread]: End processing [tf-hub-nightly]: success
+[2023-06-07 09:10:33] INFO root fetch - processPackages [pipen-args]: Downloading https://files.pythonhosted.org/packages/bc/98/c19ed462010e382c2a8b78873ec82c7b8a89cc9f2f4c819c3ca5d764fcea/pipen_args-0.9.8.tar.gz
+[2023-06-07 09:10:33] INFO root fetch - processPackages [im-swagger-spy]: Remove: archive file [/home/abi/fetcher/tmp/im_swagger_spy-0.3.3.tar.gz]
+[2023-06-07 09:10:33] INFO root fetch - processPackages [im-swagger-spy]: Remove: archive file [/home/abi/fetcher/tmp/im_swagger_spy-0.3.4.tar.gz]
+[2023-06-07 09:10:33] INFO root fetch - main [MainThread]: End processing [im-swagger-spy]: success
+[2023-06-07 09:10:33] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz]
+[2023-06-07 09:10:33] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz]
+[2023-06-07 09:10:33] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-terraform-state-backend]: success
+[2023-06-07 09:10:33] INFO root fetch - processPackages [angola]: Remove: archive file [/home/abi/fetcher/tmp/angola-0.11.2.tar.gz]
+[2023-06-07 09:10:33] INFO root fetch - processPackages [angola]: Remove: archive file [/home/abi/fetcher/tmp/angola-0.11.3.tar.gz]
+[2023-06-07 09:10:33] INFO root fetch - main [MainThread]: End processing [angola]: success
+[2023-06-07 09:10:33] INFO root fetch - processPackages [monotonic-nn]: Remove: archive file [/home/abi/fetcher/tmp/monotonic-nn-0.3.0rc0.tar.gz]
+[2023-06-07 09:10:33] INFO root fetch - processPackages [monotonic-nn]: Remove: archive file [/home/abi/fetcher/tmp/monotonic-nn-0.3.1rc0.tar.gz]
+[2023-06-07 09:10:33] INFO root fetch - main [MainThread]: End processing [monotonic-nn]: success
+[2023-06-07 09:10:33] INFO root fetch - processPackages [pipen-args]: Downloading https://files.pythonhosted.org/packages/7d/c7/c59d3e8b1e0e76f8a3b2d312da8f37c080b3c0f5b584e0e5baa9955ebdc7/pipen_args-0.9.9.tar.gz
+[2023-06-07 09:10:34] INFO root fetch - processPackages [pipen-args]: executing diffoscope
+[2023-06-07 09:10:34] INFO root fetch - processPackages [pipen-args]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipen_args-0.9.8.tar.gz tmp/pipen_args-0.9.9.tar.gz --markdown 20230607/p/pipen-args/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-07 09:10:34] INFO root fetch - processPackages [owlery]: Remove: archive file [/home/abi/fetcher/tmp/owlery-0.1.1.tar.gz]
+[2023-06-07 09:10:34] INFO root fetch - processPackages [owlery]: Remove: archive file [/home/abi/fetcher/tmp/owlery-0.2.0.tar.gz]
+[2023-06-07 09:10:34] INFO root fetch - main [MainThread]: End processing [owlery]: success
+[2023-06-07 09:10:34] INFO root fetch - processPackages [dolfin-warp]: Remove: archive file [/home/abi/fetcher/tmp/dolfin_warp-2023.6.6.tar.gz]
+[2023-06-07 09:10:34] INFO root fetch - processPackages [dolfin-warp]: Remove: archive file [/home/abi/fetcher/tmp/dolfin_warp-2023.6.7.tar.gz]
+[2023-06-07 09:10:34] INFO root fetch - main [MainThread]: End processing [dolfin-warp]: success
+[2023-06-07 09:10:35] INFO root fetch - processPackages [pipen-args]: Remove: archive file [/home/abi/fetcher/tmp/pipen_args-0.9.8.tar.gz]
+[2023-06-07 09:10:35] INFO root fetch - processPackages [pipen-args]: Remove: archive file [/home/abi/fetcher/tmp/pipen_args-0.9.9.tar.gz]
+[2023-06-07 09:10:35] INFO root fetch - main [MainThread]: End processing [pipen-args]: success
+[2023-06-07 09:10:35] INFO root fetch - main [MainThread]: Store serial: [18403861]
