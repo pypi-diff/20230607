@@ -14534,3 +14534,57 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-06-07 08:39:01] INFO root fetch - processPackages [TINTOlib]: Remove: archive file [/home/abi/fetcher/tmp/tintolib-0.0.9.tar.gz]
 [2023-06-07 08:39:01] INFO root fetch - main [MainThread]: End processing [TINTOlib]: success
 [2023-06-07 08:39:01] INFO root fetch - main [MainThread]: Store serial: [18403601]
+[2023-06-07 08:44:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18403601]
+[2023-06-07 08:44:10] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-07 08:44:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pydna
+[2023-06-07 08:44:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: iosense-connect
+[2023-06-07 08:44:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: universal-test-runner
+[2023-06-07 08:44:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mynacode
+[2023-06-07 08:44:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: visuallayer
+[2023-06-07 08:44:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: animage-data-sorter
+[2023-06-07 08:44:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: heligeo
+[2023-06-07 08:44:10] INFO root fetch - processPackages [iosense-connect]: New version: [3.0.1] Old Version: [3.0.0]
+[2023-06-07 08:44:10] INFO root fetch - processPackages [visuallayer]: New version: [0.0.2] Old Version: [0.0.12]
+[2023-06-07 08:44:10] WARNING root fetch - processPackages [universal-test-runner]: Skipping, unable to determine old version
+[2023-06-07 08:44:10] INFO root fetch - main [MainThread]: End processing [universal-test-runner] error
+[2023-06-07 08:44:10] WARNING root fetch - processPackages [animage-data-sorter]: Skipping, unable to determine old version
+[2023-06-07 08:44:10] INFO root fetch - processPackages [mynacode]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-06-07 08:44:10] INFO root fetch - main [MainThread]: End processing [animage-data-sorter] error
+[2023-06-07 08:44:10] INFO root fetch - processPackages [pydna]: New version: [6.0.0a2] Old Version: [6.0.0a1]
+[2023-06-07 08:44:10] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/1d/24/3d4ef0a0a267fb47bcbac68ff9b760a9b892095f2ee727874f0286d600c3/mynacode-1.0.98-py3-none-any.whl
+[2023-06-07 08:44:10] INFO root fetch - processPackages [heligeo]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-06-07 08:44:11] INFO root fetch - processPackages [visuallayer]: Downloading https://files.pythonhosted.org/packages/7c/de/93dd1726223e25bff7e5b6ebb6df9ad690d8567d9eaedff482454c930f03/visuallayer-0.0.12-py3.9-none-any.whl
+[2023-06-07 08:44:11] INFO root fetch - processPackages [iosense-connect]: Downloading https://files.pythonhosted.org/packages/7b/e7/7f94e00151158674d61eee42ca7f377eca1bd340e1555308d50ee30cee46/iosense_connect-3.0.0.tar.gz
+[2023-06-07 08:44:11] INFO root fetch - processPackages [pydna]: Downloading https://files.pythonhosted.org/packages/35/2e/eec7fbfd5453ed4dffff6921035c7f74813f05bf15bb27fc857a1f55f1c0/pydna-6.0.0a1.tar.gz
+[2023-06-07 08:44:11] INFO root fetch - processPackages [heligeo]: Downloading https://files.pythonhosted.org/packages/f5/4b/a8611e3ed9b61e1aa0926af02cb5d2ef7ea66ac826913b2aa02fb3a1af1c/heligeo-1.1.8.tar.gz
+[2023-06-07 08:44:11] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/38/32/362f7abef6d28b78afa03843fa2eadc7bb1454ef66bde894a08e281d5bfb/mynacode-1.0.99-py3-none-any.whl
+[2023-06-07 08:44:11] INFO root fetch - processPackages [visuallayer]: Downloading https://files.pythonhosted.org/packages/13/03/8c97f1d05df3c9f08812bd7bd037086a6e781138f9531414aa091222a005/visuallayer-0.0.2-py3-none-any.whl
+[2023-06-07 08:44:11] INFO root fetch - processPackages [mynacode]: executing diffoscope
+[2023-06-07 08:44:11] INFO root fetch - processPackages [mynacode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mynacode-1.0.98-py3-none-any.whl.zip tmp/mynacode-1.0.99-py3-none-any.whl.zip --markdown 20230607/m/mynacode/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-06-07 08:44:11] INFO root fetch - processPackages [visuallayer]: executing diffoscope
+[2023-06-07 08:44:11] INFO root fetch - processPackages [visuallayer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/visuallayer-0.0.12-py3.9-none-any.whl.zip tmp/visuallayer-0.0.2-py3-none-any.whl.zip --markdown 20230607/v/visuallayer/0.0.12-0.0.2/diff.md --exclude *.pyd
+[2023-06-07 08:44:11] INFO root fetch - processPackages [iosense-connect]: Downloading https://files.pythonhosted.org/packages/b2/e9/ad0db383ca0845826c647954bf344e6292877d2efa616f822eedbcb4b031/iosense_connect-3.0.1.tar.gz
+[2023-06-07 08:44:11] INFO root fetch - processPackages [pydna]: Downloading https://files.pythonhosted.org/packages/af/25/fdd2156052fbc8580686192fbb3b4a717e2b2c15b635ef9551777480ca86/pydna-6.0.0a2.tar.gz
+[2023-06-07 08:44:11] INFO root fetch - processPackages [iosense-connect]: executing diffoscope
+[2023-06-07 08:44:11] INFO root fetch - processPackages [iosense-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iosense_connect-3.0.0.tar.gz tmp/iosense_connect-3.0.1.tar.gz --markdown 20230607/i/iosense-connect/3.0.0-3.0.1/diff.md --exclude *.pyd
+[2023-06-07 08:44:11] INFO root fetch - processPackages [heligeo]: Downloading https://files.pythonhosted.org/packages/08/58/df80d6b852c9b5b39dcf122a5a5e8094f45d6a29fe2c24bb74acf4427230/heligeo-1.1.9.tar.gz
+[2023-06-07 08:44:11] INFO root fetch - processPackages [pydna]: executing diffoscope
+[2023-06-07 08:44:11] INFO root fetch - processPackages [pydna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydna-6.0.0a1.tar.gz tmp/pydna-6.0.0a2.tar.gz --markdown 20230607/p/pydna/6.0.0a1-6.0.0a2/diff.md --exclude *.pyd
+[2023-06-07 08:44:11] INFO root fetch - processPackages [heligeo]: executing diffoscope
+[2023-06-07 08:44:11] INFO root fetch - processPackages [heligeo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heligeo-1.1.8.tar.gz tmp/heligeo-1.1.9.tar.gz --markdown 20230607/h/heligeo/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-06-07 08:44:12] INFO root fetch - processPackages [mynacode]: Remove: archive file [/home/abi/fetcher/tmp/mynacode-1.0.98-py3-none-any.whl.zip]
+[2023-06-07 08:44:12] INFO root fetch - processPackages [mynacode]: Remove: archive file [/home/abi/fetcher/tmp/mynacode-1.0.99-py3-none-any.whl.zip]
+[2023-06-07 08:44:12] INFO root fetch - main [MainThread]: End processing [mynacode]: success
+[2023-06-07 08:44:12] INFO root fetch - processPackages [iosense-connect]: Remove: archive file [/home/abi/fetcher/tmp/iosense_connect-3.0.0.tar.gz]
+[2023-06-07 08:44:12] INFO root fetch - processPackages [iosense-connect]: Remove: archive file [/home/abi/fetcher/tmp/iosense_connect-3.0.1.tar.gz]
+[2023-06-07 08:44:12] INFO root fetch - main [MainThread]: End processing [iosense-connect]: success
+[2023-06-07 08:44:12] INFO root fetch - processPackages [visuallayer]: Remove: archive file [/home/abi/fetcher/tmp/visuallayer-0.0.12-py3.9-none-any.whl.zip]
+[2023-06-07 08:44:12] INFO root fetch - processPackages [visuallayer]: Remove: archive file [/home/abi/fetcher/tmp/visuallayer-0.0.2-py3-none-any.whl.zip]
+[2023-06-07 08:44:12] INFO root fetch - main [MainThread]: End processing [visuallayer]: success
+[2023-06-07 08:44:12] INFO root fetch - processPackages [heligeo]: Remove: archive file [/home/abi/fetcher/tmp/heligeo-1.1.8.tar.gz]
+[2023-06-07 08:44:12] INFO root fetch - processPackages [heligeo]: Remove: archive file [/home/abi/fetcher/tmp/heligeo-1.1.9.tar.gz]
+[2023-06-07 08:44:12] INFO root fetch - main [MainThread]: End processing [heligeo]: success
+[2023-06-07 08:44:12] INFO root fetch - processPackages [pydna]: Remove: archive file [/home/abi/fetcher/tmp/pydna-6.0.0a1.tar.gz]
+[2023-06-07 08:44:12] INFO root fetch - processPackages [pydna]: Remove: archive file [/home/abi/fetcher/tmp/pydna-6.0.0a2.tar.gz]
+[2023-06-07 08:44:12] INFO root fetch - main [MainThread]: End processing [pydna]: success
+[2023-06-07 08:44:12] INFO root fetch - main [MainThread]: Store serial: [18403627]
