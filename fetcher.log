@@ -14939,3 +14939,99 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-06-07 09:00:04] INFO root fetch - processPackages [gdsfactory]: Remove: archive file [/home/abi/fetcher/tmp/gdsfactory-6.99.0.tar.gz]
 [2023-06-07 09:00:04] INFO root fetch - main [MainThread]: End processing [gdsfactory]: success
 [2023-06-07 09:00:04] INFO root fetch - main [MainThread]: Store serial: [18403779]
+[2023-06-07 09:05:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18403779]
+[2023-06-07 09:05:13] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-07 09:05:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ms-entropy
+[2023-06-07 09:05:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sdc-dp-helpers
+[2023-06-07 09:05:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fastcubicspline
+[2023-06-07 09:05:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pypcapkit
+[2023-06-07 09:05:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: CTADIRAC
+[2023-06-07 09:05:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pytk-net
+[2023-06-07 09:05:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: seqio-nightly
+[2023-06-07 09:05:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: good-package
+[2023-06-07 09:05:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Mouritech-LoggingPerformance
+[2023-06-07 09:05:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: terminal-agent-x
+[2023-06-07 09:05:13] INFO root fetch - processPackages [sdc-dp-helpers]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-06-07 09:05:13] WARNING root fetch - processPackages [Mouritech-LoggingPerformance]: Skipping, unable to determine old version
+[2023-06-07 09:05:13] INFO root fetch - processPackages [Mouritech-LoggingPerformance]: Start processing: Mouritech-LoggingError
+[2023-06-07 09:05:13] WARNING root fetch - processPackages [pytk-net]: Skipping, unable to determine old version
+[2023-06-07 09:05:13] INFO root fetch - processPackages [pytk-net]: Start processing: ParUtils
+[2023-06-07 09:05:13] INFO root fetch - processPackages [terminal-agent-x]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-07 09:05:13] INFO root fetch - processPackages [ms-entropy]: New version: [0.6.0] Old Version: [0.5.8]
+[2023-06-07 09:05:13] WARNING root fetch - processPackages [good-package]: Skipping, unable to determine old version
+[2023-06-07 09:05:13] INFO root fetch - main [MainThread]: End processing [Mouritech-LoggingPerformance] error
+[2023-06-07 09:05:13] INFO root fetch - processPackages [good-package]: Start processing: lupin-grognard
+[2023-06-07 09:05:13] INFO root fetch - main [MainThread]: End processing [pytk-net] error
+[2023-06-07 09:05:13] INFO root fetch - main [MainThread]: End processing [good-package] error
+[2023-06-07 09:05:13] INFO root fetch - processPackages [fastcubicspline]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-06-07 09:05:13] WARNING root fetch - processPackages [Mouritech-LoggingError]: Skipping, unable to determine old version
+[2023-06-07 09:05:13] INFO root fetch - processPackages [pypcapkit]: New version: [1.0.2.post4] Old Version: [1.0.2.post3]
+[2023-06-07 09:05:13] INFO root fetch - main [MainThread]: End processing [Mouritech-LoggingError] error
+[2023-06-07 09:05:13] INFO root fetch - processPackages [CTADIRAC]: New version: [2.2a3] Old Version: [2.2.9]
+[2023-06-07 09:05:13] INFO root fetch - processPackages [seqio-nightly]: New version: [0.0.8.dev20220907] Old Version: [0.0.8.dev20220906]
+[2023-06-07 09:05:13] INFO root fetch - processPackages [ms-entropy]: Downloading https://files.pythonhosted.org/packages/48/d7/94af976e8453ed531b1dab6cdc8a2700d9d0c8212b27b762218ae1268585/ms_entropy-0.5.8.tar.gz
+[2023-06-07 09:05:13] INFO root fetch - processPackages [pypcapkit]: Downloading https://files.pythonhosted.org/packages/51/6d/25d4e41315ab24409164b3c65772ef4406c43084135edbd02334993d972e/pypcapkit-1.0.2.post3.tar.gz
+[2023-06-07 09:05:13] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/43/a0/f60ad514b6f8534fa5ba8cc5fcc2a8f2e32e7d06d2dbfd43b12c2cb29931/seqio-nightly-0.0.8.dev20220906.tar.gz
+[2023-06-07 09:05:13] INFO root fetch - processPackages [lupin-grognard]: New version: [1.9.0] Old Version: [1.7.0]
+[2023-06-07 09:05:13] INFO root fetch - processPackages [ParUtils]: New version: [1.1.8] Old Version: [1.1.7]
+[2023-06-07 09:05:13] INFO root fetch - processPackages [fastcubicspline]: Downloading https://files.pythonhosted.org/packages/28/68/8af6d57a042e55be952d0956fa840835b722523a054e6da792f995bb5337/fastcubicspline-1.1.1.tar.gz
+[2023-06-07 09:05:13] INFO root fetch - processPackages [terminal-agent-x]: Downloading https://files.pythonhosted.org/packages/30/3b/b941a52eb337a260add95fa0c5bb725ef1f2d8c4d6079348d01d856daca4/terminal-agent-x-0.1.2.tar.gz
+[2023-06-07 09:05:13] INFO root fetch - processPackages [sdc-dp-helpers]: Downloading https://files.pythonhosted.org/packages/7e/ad/205d20086e8b60aab6e03aeedd376212de7a75d4d1e9de8045008b3184e9/sdc_dp_helpers-1.3.8.tar.gz
+[2023-06-07 09:05:13] INFO root fetch - processPackages [CTADIRAC]: Downloading https://files.pythonhosted.org/packages/c4/fd/863c06d80a7cb3f8b807886edd3b375bed2ee4d3a384cb8b7213479f2248/CTADIRAC-2.2.9.tar.gz
+[2023-06-07 09:05:13] INFO root fetch - processPackages [ms-entropy]: Downloading https://files.pythonhosted.org/packages/3c/42/622f0e791445b544df1a8321949924fe2e36456b00ba477e2569861cbd41/ms_entropy-0.6.0.tar.gz
+[2023-06-07 09:05:13] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/2a/76/25f4c7602cdd724deac948a914e454756abfad2119a525c06d9ce341b918/seqio-nightly-0.0.8.dev20220907.tar.gz
+[2023-06-07 09:05:13] INFO root fetch - processPackages [ParUtils]: Downloading https://files.pythonhosted.org/packages/55/d2/d30032cd6951a762c34f464485cd25ec55d6f3f4dc018a7a55eefa975266/ParUtils-1.1.7-py3-none-any.whl
+[2023-06-07 09:05:13] INFO root fetch - processPackages [lupin-grognard]: Downloading https://files.pythonhosted.org/packages/26/b3/9a961658affd6954a57ec000b5ea89912c12beb41382bb262947475dfbd6/lupin-grognard-1.7.0.tar.gz
+[2023-06-07 09:05:13] INFO root fetch - processPackages [pypcapkit]: Downloading https://files.pythonhosted.org/packages/0f/0d/f285ddbe81d1639a4884a72607dced5c5b52018408a47c78171073ff1f9f/pypcapkit-1.0.2.post4.tar.gz
+[2023-06-07 09:05:13] INFO root fetch - processPackages [ms-entropy]: executing diffoscope
+[2023-06-07 09:05:13] INFO root fetch - processPackages [ms-entropy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ms_entropy-0.5.8.tar.gz tmp/ms_entropy-0.6.0.tar.gz --markdown 20230607/m/ms-entropy/0.5.8-0.6.0/diff.md --exclude *.pyd
+[2023-06-07 09:05:13] INFO root fetch - processPackages [seqio-nightly]: executing diffoscope
+[2023-06-07 09:05:13] INFO root fetch - processPackages [seqio-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqio-nightly-0.0.8.dev20220906.tar.gz tmp/seqio-nightly-0.0.8.dev20220907.tar.gz --markdown 20230607/s/seqio-nightly/0.0.8.dev20220906-0.0.8.dev20220907/diff.md --exclude *.pyd
+[2023-06-07 09:05:13] INFO root fetch - processPackages [fastcubicspline]: Downloading https://files.pythonhosted.org/packages/7a/17/2a0dc25e4a450c0eb8ea033e538eb915332cf604970edf4794b70e12fdcc/fastcubicspline-1.1.2-cp311-cp311-manylinux_2_31_x86_64.whl
+[2023-06-07 09:05:13] INFO root fetch - processPackages [CTADIRAC]: Downloading https://files.pythonhosted.org/packages/b3/dc/eeb2adbd38eb21f4638e8a34f30ed6748361e02727136583e01b66570df8/CTADIRAC-2.2a3.tar.gz
+[2023-06-07 09:05:13] INFO root fetch - processPackages [fastcubicspline]: executing diffoscope
+[2023-06-07 09:05:13] INFO root fetch - processPackages [fastcubicspline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastcubicspline-1.1.1.tar.gz tmp/fastcubicspline-1.1.2-cp311-cp311-manylinux_2_31_x86_64.whl.zip --markdown 20230607/f/fastcubicspline/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-06-07 09:05:13] INFO root fetch - processPackages [pypcapkit]: executing diffoscope
+[2023-06-07 09:05:13] INFO root fetch - processPackages [pypcapkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypcapkit-1.0.2.post3.tar.gz tmp/pypcapkit-1.0.2.post4.tar.gz --markdown 20230607/p/pypcapkit/1.0.2.post3-1.0.2.post4/diff.md --exclude *.pyd
+[2023-06-07 09:05:13] INFO root fetch - processPackages [terminal-agent-x]: Downloading https://files.pythonhosted.org/packages/0e/f3/be22309379ff0b653dfb110b0335a64ecb37ebe7786c09e2743804700960/terminal-agent-x-0.1.3.tar.gz
+[2023-06-07 09:05:13] INFO root fetch - processPackages [sdc-dp-helpers]: Downloading https://files.pythonhosted.org/packages/0f/de/99781e525582f90b6861bb6232054ca4652b42ba8e02b5ea965f48cac721/sdc_dp_helpers-1.3.9.tar.gz
+[2023-06-07 09:05:13] INFO root fetch - processPackages [ParUtils]: Downloading https://files.pythonhosted.org/packages/3c/2c/15cfda5e5ace20c5ba3569f26f227b7264ec68de6dde02c9980ab33b57e6/ParUtils-1.1.8-py3-none-any.whl
+[2023-06-07 09:05:13] INFO root fetch - processPackages [lupin-grognard]: Downloading https://files.pythonhosted.org/packages/63/f4/2df11a5aed46a791c22609c2233d309499d655d76697dd2980b8e739d68b/lupin-grognard-1.9.0.tar.gz
+[2023-06-07 09:05:13] INFO root fetch - processPackages [CTADIRAC]: executing diffoscope
+[2023-06-07 09:05:13] INFO root fetch - processPackages [CTADIRAC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CTADIRAC-2.2.9.tar.gz tmp/CTADIRAC-2.2a3.tar.gz --markdown 20230607/C/CTADIRAC/2.2.9-2.2a3/diff.md --exclude *.pyd
+[2023-06-07 09:05:13] INFO root fetch - processPackages [terminal-agent-x]: executing diffoscope
+[2023-06-07 09:05:13] INFO root fetch - processPackages [terminal-agent-x]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terminal-agent-x-0.1.2.tar.gz tmp/terminal-agent-x-0.1.3.tar.gz --markdown 20230607/t/terminal-agent-x/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-07 09:05:13] INFO root fetch - processPackages [sdc-dp-helpers]: executing diffoscope
+[2023-06-07 09:05:13] INFO root fetch - processPackages [sdc-dp-helpers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdc_dp_helpers-1.3.8.tar.gz tmp/sdc_dp_helpers-1.3.9.tar.gz --markdown 20230607/s/sdc-dp-helpers/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-06-07 09:05:13] INFO root fetch - processPackages [ParUtils]: executing diffoscope
+[2023-06-07 09:05:13] INFO root fetch - processPackages [ParUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ParUtils-1.1.7-py3-none-any.whl.zip tmp/ParUtils-1.1.8-py3-none-any.whl.zip --markdown 20230607/P/ParUtils/1.1.7-1.1.8/diff.md --exclude *.pyd
+[2023-06-07 09:05:13] INFO root fetch - processPackages [lupin-grognard]: executing diffoscope
+[2023-06-07 09:05:13] INFO root fetch - processPackages [lupin-grognard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lupin-grognard-1.7.0.tar.gz tmp/lupin-grognard-1.9.0.tar.gz --markdown 20230607/l/lupin-grognard/1.7.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-07 09:05:15] INFO root fetch - processPackages [terminal-agent-x]: Remove: archive file [/home/abi/fetcher/tmp/terminal-agent-x-0.1.2.tar.gz]
+[2023-06-07 09:05:15] INFO root fetch - processPackages [terminal-agent-x]: Remove: archive file [/home/abi/fetcher/tmp/terminal-agent-x-0.1.3.tar.gz]
+[2023-06-07 09:05:15] INFO root fetch - main [MainThread]: End processing [terminal-agent-x]: success
+[2023-06-07 09:05:15] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220906.tar.gz]
+[2023-06-07 09:05:15] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220907.tar.gz]
+[2023-06-07 09:05:15] INFO root fetch - main [MainThread]: End processing [seqio-nightly]: success
+[2023-06-07 09:05:15] INFO root fetch - processPackages [ParUtils]: Remove: archive file [/home/abi/fetcher/tmp/ParUtils-1.1.7-py3-none-any.whl.zip]
+[2023-06-07 09:05:15] INFO root fetch - processPackages [ParUtils]: Remove: archive file [/home/abi/fetcher/tmp/ParUtils-1.1.8-py3-none-any.whl.zip]
+[2023-06-07 09:05:15] INFO root fetch - main [MainThread]: End processing [ParUtils]: success
+[2023-06-07 09:05:16] INFO root fetch - processPackages [lupin-grognard]: Remove: archive file [/home/abi/fetcher/tmp/lupin-grognard-1.7.0.tar.gz]
+[2023-06-07 09:05:16] INFO root fetch - processPackages [lupin-grognard]: Remove: archive file [/home/abi/fetcher/tmp/lupin-grognard-1.9.0.tar.gz]
+[2023-06-07 09:05:16] INFO root fetch - main [MainThread]: End processing [lupin-grognard]: success
+[2023-06-07 09:05:16] INFO root fetch - processPackages [fastcubicspline]: Remove: archive file [/home/abi/fetcher/tmp/fastcubicspline-1.1.1.tar.gz]
+[2023-06-07 09:05:16] INFO root fetch - processPackages [fastcubicspline]: Remove: archive file [/home/abi/fetcher/tmp/fastcubicspline-1.1.2-cp311-cp311-manylinux_2_31_x86_64.whl.zip]
+[2023-06-07 09:05:16] INFO root fetch - main [MainThread]: End processing [fastcubicspline]: success
+[2023-06-07 09:05:16] INFO root fetch - processPackages [CTADIRAC]: Remove: archive file [/home/abi/fetcher/tmp/CTADIRAC-2.2.9.tar.gz]
+[2023-06-07 09:05:16] INFO root fetch - processPackages [CTADIRAC]: Remove: archive file [/home/abi/fetcher/tmp/CTADIRAC-2.2a3.tar.gz]
+[2023-06-07 09:05:16] INFO root fetch - main [MainThread]: End processing [CTADIRAC]: success
+[2023-06-07 09:05:16] INFO root fetch - processPackages [sdc-dp-helpers]: Remove: archive file [/home/abi/fetcher/tmp/sdc_dp_helpers-1.3.8.tar.gz]
+[2023-06-07 09:05:16] INFO root fetch - processPackages [sdc-dp-helpers]: Remove: archive file [/home/abi/fetcher/tmp/sdc_dp_helpers-1.3.9.tar.gz]
+[2023-06-07 09:05:16] INFO root fetch - main [MainThread]: End processing [sdc-dp-helpers]: success
+[2023-06-07 09:05:17] INFO root fetch - processPackages [ms-entropy]: Remove: archive file [/home/abi/fetcher/tmp/ms_entropy-0.5.8.tar.gz]
+[2023-06-07 09:05:17] INFO root fetch - processPackages [ms-entropy]: Remove: archive file [/home/abi/fetcher/tmp/ms_entropy-0.6.0.tar.gz]
+[2023-06-07 09:05:17] INFO root fetch - main [MainThread]: End processing [ms-entropy]: success
+[2023-06-07 09:05:21] INFO root fetch - processPackages [pypcapkit]: Remove: archive file [/home/abi/fetcher/tmp/pypcapkit-1.0.2.post3.tar.gz]
+[2023-06-07 09:05:21] INFO root fetch - processPackages [pypcapkit]: Remove: archive file [/home/abi/fetcher/tmp/pypcapkit-1.0.2.post4.tar.gz]
+[2023-06-07 09:05:21] INFO root fetch - main [MainThread]: End processing [pypcapkit]: success
+[2023-06-07 09:05:21] INFO root fetch - main [MainThread]: Store serial: [18403830]
