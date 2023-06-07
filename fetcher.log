@@ -13689,3 +13689,66 @@ AssertionError: tmp/odoo_addon_crm_lead_firstname-16.0.1.0.1-py3-none-any.whl.zi
 [2023-06-07 07:54:22] INFO root fetch - processPackages [spaceone-inventory]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_inventory-1.9.7rc1-py3-none-any.whl.zip]
 [2023-06-07 07:54:22] INFO root fetch - main [MainThread]: End processing [spaceone-inventory]: success
 [2023-06-07 07:54:22] INFO root fetch - main [MainThread]: Store serial: [18403243]
+[2023-06-07 07:59:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18403243]
+[2023-06-07 07:59:31] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-07 07:59:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: faons
+[2023-06-07 07:59:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-tailscale
+[2023-06-07 07:59:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: carpet-concentrations
+[2023-06-07 07:59:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tortoise-orm-stubs
+[2023-06-07 07:59:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kcli
+[2023-06-07 07:59:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tc-messageBroker
+[2023-06-07 07:59:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kinghellopkg
+[2023-06-07 07:59:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kfish
+[2023-06-07 07:59:31] INFO root fetch - processPackages [kfish]: New version: [99.0.202306061414] Old Version: [99.0.202306060859]
+[2023-06-07 07:59:31] INFO root fetch - processPackages [pulumi-tailscale]: New version: [0.9.1a1656330156] Old Version: [0.9.0]
+[2023-06-07 07:59:31] WARNING root fetch - processPackages [kinghellopkg]: Skipping, unable to determine old version
+[2023-06-07 07:59:31] INFO root fetch - main [MainThread]: End processing [kinghellopkg] error
+[2023-06-07 07:59:31] INFO root fetch - processPackages [carpet-concentrations]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-06-07 07:59:31] INFO root fetch - processPackages [tc-messageBroker]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-06-07 07:59:31] INFO root fetch - processPackages [tortoise-orm-stubs]: New version: [1.0.0] Old Version: [0.4.2]
+[2023-06-07 07:59:31] WARNING root fetch - processPackages [faons]: Skipping, unable to determine old version
+[2023-06-07 07:59:31] INFO root fetch - main [MainThread]: End processing [faons] error
+[2023-06-07 07:59:31] INFO root fetch - processPackages [kcli]: New version: [99.0.202306070557] Old Version: [99.0.202306061411]
+[2023-06-07 07:59:31] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/e0/be/d5cb39d5c5aa17bf7407d0df776410bb2daedab06beaa0f02ec02fa5c6ec/kfish-99.0.202306060859-py3-none-any.whl
+[2023-06-07 07:59:31] INFO root fetch - processPackages [pulumi-tailscale]: Downloading https://files.pythonhosted.org/packages/af/fc/1aa615a8e44d21b520ec05aa57ea2ee6f62de762047b4ad8ccec73544ac3/pulumi_tailscale-0.9.0.tar.gz
+[2023-06-07 07:59:31] INFO root fetch - processPackages [tortoise-orm-stubs]: Downloading https://files.pythonhosted.org/packages/ff/39/717e2171d30804da9293966a8d2b324f3a4a625f6a1fcbaecc043a8582f6/tortoise_orm_stubs-0.4.2.tar.gz
+[2023-06-07 07:59:31] INFO root fetch - processPackages [pulumi-tailscale]: Downloading https://files.pythonhosted.org/packages/a3/d6/938674a37f5324fe6d787b4f3efbeeebc5d750fd8c8c25fb2198b11e6a4d/pulumi_tailscale-0.9.1a1656330156.tar.gz
+[2023-06-07 07:59:31] INFO root fetch - processPackages [tc-messageBroker]: Downloading https://files.pythonhosted.org/packages/db/5b/b63448e11357e1708a183ce388467383fbb4cd6049b891bf5f72c4979327/tc-messageBroker-1.2.0.tar.gz
+[2023-06-07 07:59:31] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/42/1f/c812e7017c23cea432c11bed793f10a1f3a471a146a4a1fdbac9a159c338/kcli-99.0.202306061411-py3-none-any.whl
+[2023-06-07 07:59:31] INFO root fetch - processPackages [carpet-concentrations]: Downloading https://files.pythonhosted.org/packages/46/d7/ecd7937ee5103acca62a5d0620a2062a5e8422f093a7b97c7088c4621463/carpet_concentrations-0.3.0.tar.gz
+[2023-06-07 07:59:31] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/f5/58/103bfda1bc1402c920b9930c897d51ed81a61ea71d518b663614c1b1a887/kfish-99.0.202306061414-py3-none-any.whl
+[2023-06-07 07:59:31] INFO root fetch - processPackages [pulumi-tailscale]: executing diffoscope
+[2023-06-07 07:59:31] INFO root fetch - processPackages [pulumi-tailscale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_tailscale-0.9.0.tar.gz tmp/pulumi_tailscale-0.9.1a1656330156.tar.gz --markdown 20230607/p/pulumi-tailscale/0.9.0-0.9.1a1656330156/diff.md --exclude *.pyd
+[2023-06-07 07:59:31] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-06-07 07:59:31] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202306060859-py3-none-any.whl.zip tmp/kfish-99.0.202306061414-py3-none-any.whl.zip --markdown 20230607/k/kfish/99.0.202306060859-99.0.202306061414/diff.md --exclude *.pyd
+[2023-06-07 07:59:31] INFO root fetch - processPackages [tortoise-orm-stubs]: Downloading https://files.pythonhosted.org/packages/bc/66/71aec651ce393a94676c7e5d48c0f2dfaf7e226bfee982905f4fc3a6a13b/tortoise_orm_stubs-1.0.0.tar.gz
+[2023-06-07 07:59:31] INFO root fetch - processPackages [tc-messageBroker]: Downloading https://files.pythonhosted.org/packages/82/a6/a91439ed7ec455208c019f681b3d31d4cb3d1db0199fea4c7cb588a7ef79/tc-messageBroker-1.2.1.tar.gz
+[2023-06-07 07:59:31] INFO root fetch - processPackages [carpet-concentrations]: Downloading https://files.pythonhosted.org/packages/a2/fa/cb8ccfbed5c7ab0dc6fe6935030f78a74962a788e61efa11a553ab82b7a0/carpet_concentrations-0.4.0.tar.gz
+[2023-06-07 07:59:31] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/e0/4d/c779cf6f2e1f00d4c8cb38646711631e146b6f23decdd1fdedc1fb203f6f/kcli-99.0.202306070557-py3-none-any.whl
+[2023-06-07 07:59:31] INFO root fetch - processPackages [tortoise-orm-stubs]: executing diffoscope
+[2023-06-07 07:59:31] INFO root fetch - processPackages [tortoise-orm-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tortoise_orm_stubs-0.4.2.tar.gz tmp/tortoise_orm_stubs-1.0.0.tar.gz --markdown 20230607/t/tortoise-orm-stubs/0.4.2-1.0.0/diff.md --exclude *.pyd
+[2023-06-07 07:59:31] INFO root fetch - processPackages [tc-messageBroker]: executing diffoscope
+[2023-06-07 07:59:31] INFO root fetch - processPackages [tc-messageBroker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tc-messageBroker-1.2.0.tar.gz tmp/tc-messageBroker-1.2.1.tar.gz --markdown 20230607/t/tc-messageBroker/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-06-07 07:59:31] INFO root fetch - processPackages [carpet-concentrations]: executing diffoscope
+[2023-06-07 07:59:31] INFO root fetch - processPackages [carpet-concentrations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/carpet_concentrations-0.3.0.tar.gz tmp/carpet_concentrations-0.4.0.tar.gz --markdown 20230607/c/carpet-concentrations/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-06-07 07:59:31] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-06-07 07:59:31] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202306061411-py3-none-any.whl.zip tmp/kcli-99.0.202306070557-py3-none-any.whl.zip --markdown 20230607/k/kcli/99.0.202306061411-99.0.202306070557/diff.md --exclude *.pyd
+[2023-06-07 07:59:32] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306060859-py3-none-any.whl.zip]
+[2023-06-07 07:59:32] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306061414-py3-none-any.whl.zip]
+[2023-06-07 07:59:32] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-06-07 07:59:32] INFO root fetch - processPackages [pulumi-tailscale]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_tailscale-0.9.0.tar.gz]
+[2023-06-07 07:59:32] INFO root fetch - processPackages [pulumi-tailscale]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_tailscale-0.9.1a1656330156.tar.gz]
+[2023-06-07 07:59:32] INFO root fetch - main [MainThread]: End processing [pulumi-tailscale]: success
+[2023-06-07 07:59:32] INFO root fetch - processPackages [tortoise-orm-stubs]: Remove: archive file [/home/abi/fetcher/tmp/tortoise_orm_stubs-0.4.2.tar.gz]
+[2023-06-07 07:59:32] INFO root fetch - processPackages [tortoise-orm-stubs]: Remove: archive file [/home/abi/fetcher/tmp/tortoise_orm_stubs-1.0.0.tar.gz]
+[2023-06-07 07:59:32] INFO root fetch - main [MainThread]: End processing [tortoise-orm-stubs]: success
+[2023-06-07 07:59:32] INFO root fetch - processPackages [carpet-concentrations]: Remove: archive file [/home/abi/fetcher/tmp/carpet_concentrations-0.3.0.tar.gz]
+[2023-06-07 07:59:32] INFO root fetch - processPackages [carpet-concentrations]: Remove: archive file [/home/abi/fetcher/tmp/carpet_concentrations-0.4.0.tar.gz]
+[2023-06-07 07:59:32] INFO root fetch - main [MainThread]: End processing [carpet-concentrations]: success
+[2023-06-07 07:59:33] INFO root fetch - processPackages [tc-messageBroker]: Remove: archive file [/home/abi/fetcher/tmp/tc-messageBroker-1.2.0.tar.gz]
+[2023-06-07 07:59:33] INFO root fetch - processPackages [tc-messageBroker]: Remove: archive file [/home/abi/fetcher/tmp/tc-messageBroker-1.2.1.tar.gz]
+[2023-06-07 07:59:33] INFO root fetch - main [MainThread]: End processing [tc-messageBroker]: success
+[2023-06-07 07:59:41] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306061411-py3-none-any.whl.zip]
+[2023-06-07 07:59:41] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306070557-py3-none-any.whl.zip]
+[2023-06-07 07:59:41] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-06-07 07:59:41] INFO root fetch - main [MainThread]: Store serial: [18403268]
