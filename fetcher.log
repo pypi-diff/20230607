@@ -13475,3 +13475,48 @@ AssertionError: tmp/odoo_addon_crm_lead_firstname-16.0.1.0.1-py3-none-any.whl.zi
 [2023-06-07 07:33:32] INFO root fetch - processPackages [pyfed-macos]: Remove: archive file [/home/abi/fetcher/tmp/pyfed_macos-0.0.9.tar.gz]
 [2023-06-07 07:33:32] INFO root fetch - main [MainThread]: End processing [pyfed-macos]: success
 [2023-06-07 07:33:32] INFO root fetch - main [MainThread]: Store serial: [18403136]
+[2023-06-07 07:38:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18403136]
+[2023-06-07 07:38:41] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-07 07:38:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: visuallayer
+[2023-06-07 07:38:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hyperfast-python-template
+[2023-06-07 07:38:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sciform
+[2023-06-07 07:38:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: perun.proxy.utils
+[2023-06-07 07:38:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: formalmath
+[2023-06-07 07:38:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: corporate-reputation
+[2023-06-07 07:38:41] INFO root fetch - processPackages [hyperfast-python-template]: New version: [0.8.5] Old Version: [0.8.4]
+[2023-06-07 07:38:41] WARNING root fetch - processPackages [corporate-reputation]: Skipping, unable to determine old version
+[2023-06-07 07:38:41] INFO root fetch - main [MainThread]: End processing [corporate-reputation] error
+[2023-06-07 07:38:41] INFO root fetch - processPackages [sciform]: New version: [0.7.0] Old Version: [0.6.1]
+[2023-06-07 07:38:41] INFO root fetch - processPackages [formalmath]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-07 07:38:41] WARNING root fetch - processPackages [visuallayer]: Skipping, unable to determine old version
+[2023-06-07 07:38:41] INFO root fetch - main [MainThread]: End processing [visuallayer] error
+[2023-06-07 07:38:41] INFO root fetch - processPackages [perun.proxy.utils]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-06-07 07:38:41] INFO root fetch - processPackages [formalmath]: Downloading https://files.pythonhosted.org/packages/67/b7/29bee3212ca9f81da964d6fbfe0b3d60917b147e7a32beb87142085451ed/formalmath-0.0.3.tar.gz
+[2023-06-07 07:38:41] INFO root fetch - processPackages [hyperfast-python-template]: Downloading https://files.pythonhosted.org/packages/32/3e/d17c57f10d01da9c62d0e2bac26cf925ef1162efbeb408dbc2ad2c3a19e7/hyperfast_python_template-0.8.4.tar.gz
+[2023-06-07 07:38:41] INFO root fetch - processPackages [perun.proxy.utils]: Downloading https://files.pythonhosted.org/packages/53/46/e79279956069b511fbbdb4f2687a46d1d0c09b8b65ef8fbb8d008a0c920b/perun.proxy.utils-1.2.0.tar.gz
+[2023-06-07 07:38:41] INFO root fetch - processPackages [sciform]: Downloading https://files.pythonhosted.org/packages/2f/58/34f63bab80258461bddd7195b72169a511cc08aab09ba14794e48b1238fd/sciform-0.6.1.tar.gz
+[2023-06-07 07:38:42] INFO root fetch - processPackages [sciform]: Downloading https://files.pythonhosted.org/packages/24/7e/120e22e85b687992298aad67114fdb262d54a1f9509498625571504c28b4/sciform-0.7.0.tar.gz
+[2023-06-07 07:38:42] INFO root fetch - processPackages [hyperfast-python-template]: Downloading https://files.pythonhosted.org/packages/05/ce/aab1b7d846105eba67dba15f0248d4a3b202230efa757acbbcbd345ad5fb/hyperfast_python_template-0.8.5.tar.gz
+[2023-06-07 07:38:42] INFO root fetch - processPackages [perun.proxy.utils]: Downloading https://files.pythonhosted.org/packages/00/44/1f217fc21d7c94a64423515041f30af0663bfcb71d4d6acbddfb678433e2/perun.proxy.utils-1.3.0.tar.gz
+[2023-06-07 07:38:42] INFO root fetch - processPackages [formalmath]: Downloading https://files.pythonhosted.org/packages/01/ac/014eb9252a21da6b0fb5e5aa287ff897ba6ccaa6a5635397e8a645521bbc/formalmath-0.0.4.tar.gz
+[2023-06-07 07:38:42] INFO root fetch - processPackages [sciform]: executing diffoscope
+[2023-06-07 07:38:42] INFO root fetch - processPackages [sciform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sciform-0.6.1.tar.gz tmp/sciform-0.7.0.tar.gz --markdown 20230607/s/sciform/0.6.1-0.7.0/diff.md --exclude *.pyd
+[2023-06-07 07:38:42] INFO root fetch - processPackages [hyperfast-python-template]: executing diffoscope
+[2023-06-07 07:38:42] INFO root fetch - processPackages [hyperfast-python-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyperfast_python_template-0.8.4.tar.gz tmp/hyperfast_python_template-0.8.5.tar.gz --markdown 20230607/h/hyperfast-python-template/0.8.4-0.8.5/diff.md --exclude *.pyd
+[2023-06-07 07:38:42] INFO root fetch - processPackages [formalmath]: executing diffoscope
+[2023-06-07 07:38:42] INFO root fetch - processPackages [formalmath]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/formalmath-0.0.3.tar.gz tmp/formalmath-0.0.4.tar.gz --markdown 20230607/f/formalmath/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-07 07:38:42] INFO root fetch - processPackages [perun.proxy.utils]: executing diffoscope
+[2023-06-07 07:38:42] INFO root fetch - processPackages [perun.proxy.utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perun.proxy.utils-1.2.0.tar.gz tmp/perun.proxy.utils-1.3.0.tar.gz --markdown 20230607/p/perun.proxy.utils/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-06-07 07:38:43] INFO root fetch - processPackages [hyperfast-python-template]: Remove: archive file [/home/abi/fetcher/tmp/hyperfast_python_template-0.8.4.tar.gz]
+[2023-06-07 07:38:43] INFO root fetch - processPackages [hyperfast-python-template]: Remove: archive file [/home/abi/fetcher/tmp/hyperfast_python_template-0.8.5.tar.gz]
+[2023-06-07 07:38:43] INFO root fetch - main [MainThread]: End processing [hyperfast-python-template]: success
+[2023-06-07 07:38:43] INFO root fetch - processPackages [formalmath]: Remove: archive file [/home/abi/fetcher/tmp/formalmath-0.0.3.tar.gz]
+[2023-06-07 07:38:43] INFO root fetch - processPackages [formalmath]: Remove: archive file [/home/abi/fetcher/tmp/formalmath-0.0.4.tar.gz]
+[2023-06-07 07:38:43] INFO root fetch - main [MainThread]: End processing [formalmath]: success
+[2023-06-07 07:38:43] INFO root fetch - processPackages [sciform]: Remove: archive file [/home/abi/fetcher/tmp/sciform-0.6.1.tar.gz]
+[2023-06-07 07:38:43] INFO root fetch - processPackages [sciform]: Remove: archive file [/home/abi/fetcher/tmp/sciform-0.7.0.tar.gz]
+[2023-06-07 07:38:43] INFO root fetch - main [MainThread]: End processing [sciform]: success
+[2023-06-07 07:38:43] INFO root fetch - processPackages [perun.proxy.utils]: Remove: archive file [/home/abi/fetcher/tmp/perun.proxy.utils-1.2.0.tar.gz]
+[2023-06-07 07:38:43] INFO root fetch - processPackages [perun.proxy.utils]: Remove: archive file [/home/abi/fetcher/tmp/perun.proxy.utils-1.3.0.tar.gz]
+[2023-06-07 07:38:43] INFO root fetch - main [MainThread]: End processing [perun.proxy.utils]: success
+[2023-06-07 07:38:43] INFO root fetch - main [MainThread]: Store serial: [18403157]
