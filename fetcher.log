@@ -10717,3 +10717,258 @@
 [2023-06-07 05:06:20] INFO root fetch - processPackages [defog]: Remove: archive file [/home/abi/fetcher/tmp/defog-0.9.2.tar.gz]
 [2023-06-07 05:06:20] INFO root fetch - main [MainThread]: End processing [defog]: success
 [2023-06-07 05:06:20] INFO root fetch - main [MainThread]: Store serial: [18402141]
+[2023-06-07 05:11:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18402141]
+[2023-06-07 05:11:29] INFO root fetch - main [MainThread]: Found 27 changed packages
+[2023-06-07 05:11:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: syncany
+[2023-06-07 05:11:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo8-addon-lettermgmt
+[2023-06-07 05:11:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: syncanysql
+[2023-06-07 05:11:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: syncanyserver
+[2023-06-07 05:11:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-crm-stage-probability
+[2023-06-07 05:11:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo14-addon-crm-security-group
+[2023-06-07 05:11:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo14-addon-crm-phonecall
+[2023-06-07 05:11:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-crm-phonecall-planner
+[2023-06-07 05:11:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addon-crm-stage-probability
+[2023-06-07 05:11:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo14-addon-crm-lead-search-archive
+[2023-06-07 05:11:29] INFO root fetch - processPackages [syncany]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-07 05:11:29] INFO root fetch - processPackages [odoo14-addon-crm-phonecall]: New version: [14.0.1.1.1.dev3] Old Version: [14.0.1.1.1.dev2]
+[2023-06-07 05:11:29] INFO root fetch - processPackages [syncanysql]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-06-07 05:11:29] INFO root fetch - processPackages [odoo14-addon-crm-lead-search-archive]: New version: [14.0.1.0.2.dev2] Old Version: [14.0.1.0.1]
+[2023-06-07 05:11:29] INFO root fetch - processPackages [odoo-addon-crm-phonecall-planner]: New version: [15.0.1.0.0.4] Old Version: [15.0.1.0.0.3]
+[2023-06-07 05:11:29] INFO root fetch - processPackages [odoo14-addon-crm-security-group]: New version: [14.0.1.1.1.dev2] Old Version: [14.0.1.1.0]
+[2023-06-07 05:11:29] INFO root fetch - processPackages [odoo-addon-crm-stage-probability]: New version: [15.0.1.0.0.6] Old Version: [15.0.1.0.0.4]
+[2023-06-07 05:11:29] INFO root fetch - processPackages [odoo14-addon-crm-stage-probability]: New version: [14.0.1.0.1.dev8] Old Version: [14.0.1.0.1.dev7]
+[2023-06-07 05:11:29] INFO root fetch - processPackages [syncanyserver]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-07 05:11:29] INFO root fetch - processPackages [odoo8-addon-lettermgmt]: New version: [8.0.2.0.0.99.dev9] Old Version: [8.0.2.0.0.99.dev8]
+[2023-06-07 05:11:29] INFO root fetch - processPackages [syncanyserver]: Downloading https://files.pythonhosted.org/packages/54/ca/e3eaa44643fe2f2f6954b1e57b48b91ea129a45a1e50f47d475be986664b/syncanyserver-0.0.4.tar.gz
+[2023-06-07 05:11:29] INFO root fetch - processPackages [odoo14-addon-crm-phonecall]: Downloading https://files.pythonhosted.org/packages/cf/2f/905c1921d6435235c2665e4968ab545bf1f9a7824594f7ad13bcc5fd8a32/odoo14_addon_crm_phonecall-14.0.1.1.1.dev2-py3-none-any.whl
+[2023-06-07 05:11:29] INFO root fetch - processPackages [odoo14-addon-crm-stage-probability]: Downloading https://files.pythonhosted.org/packages/c1/a1/f9931e7c6ffdaf47f642bbbb9183800a92326525033498db5adca6007b21/odoo14_addon_crm_stage_probability-14.0.1.0.1.dev7-py3-none-any.whl
+[2023-06-07 05:11:29] INFO root fetch - processPackages [syncany]: Downloading https://files.pythonhosted.org/packages/85/1d/e34ca990cfd2aa917c8e8cb81c7b87f2e9271ed379fbf4fa3e525b4fc3bf/syncany-0.2.8.tar.gz
+[2023-06-07 05:11:29] INFO root fetch - processPackages [odoo14-addon-crm-security-group]: Downloading https://files.pythonhosted.org/packages/bc/15/91120aae5c0fea2199b085ff4ec893b8482dbdfd3699a88686eff7345c08/odoo14_addon_crm_security_group-14.0.1.1.0-py3-none-any.whl
+[2023-06-07 05:11:29] INFO root fetch - processPackages [syncanysql]: Downloading https://files.pythonhosted.org/packages/82/29/b05282bf9cf1d33dfc68e4279d1a56ee297506b787573525dc27156bd575/syncanysql-0.1.6.tar.gz
+[2023-06-07 05:11:29] INFO root fetch - processPackages [odoo-addon-crm-phonecall-planner]: Downloading https://files.pythonhosted.org/packages/e2/dc/25a9496b231724fac66f91cd6649aa8d07949be81d4cabf2b3d344980f59/odoo_addon_crm_phonecall_planner-15.0.1.0.0.3-py3-none-any.whl
+[2023-06-07 05:11:29] INFO root fetch - processPackages [odoo14-addon-crm-lead-search-archive]: Downloading https://files.pythonhosted.org/packages/9f/b8/6dd1dba361d98c5f47b33e4aa8405ff66747158296d54b55dd610c816391/odoo14_addon_crm_lead_search_archive-14.0.1.0.1-py3-none-any.whl
+[2023-06-07 05:11:29] INFO root fetch - processPackages [odoo-addon-crm-stage-probability]: Downloading https://files.pythonhosted.org/packages/65/cc/763cbe9cc11b1a48b401eeaf53c4d35817f0db910ad6817aa188393bb63e/odoo_addon_crm_stage_probability-15.0.1.0.0.4-py3-none-any.whl
+[2023-06-07 05:11:29] INFO root fetch - processPackages [odoo8-addon-lettermgmt]: Downloading https://files.pythonhosted.org/packages/e2/8a/787e3a2ed6c67759fff3ed4db462422938a2d867e45c93d91b43a9aceb57/odoo8_addon_lettermgmt-8.0.2.0.0.99.dev8-py2-none-any.whl
+[2023-06-07 05:11:30] INFO root fetch - processPackages [odoo14-addon-crm-lead-search-archive]: Downloading https://files.pythonhosted.org/packages/c2/67/a6f866e88575e85aa01955733330bd3c993e278fdf625044fe22b7811b58/odoo14_addon_crm_lead_search_archive-14.0.1.0.2.dev2-py3-none-any.whl
+[2023-06-07 05:11:30] INFO root fetch - processPackages [odoo14-addon-crm-security-group]: Downloading https://files.pythonhosted.org/packages/47/59/eaeecfb2ecc73528cf73ef11af90d6c51ea7a2c356e8ae206d3bbe3c44e0/odoo14_addon_crm_security_group-14.0.1.1.1.dev2-py3-none-any.whl
+[2023-06-07 05:11:30] INFO root fetch - processPackages [syncanysql]: Downloading https://files.pythonhosted.org/packages/81/fa/ee10e78566efb9e817412cc17587d64e6e8fdce9d776fd0a834efb38118a/syncanysql-0.1.7.tar.gz
+[2023-06-07 05:11:30] INFO root fetch - processPackages [odoo14-addon-crm-phonecall]: Downloading https://files.pythonhosted.org/packages/2b/6f/0592a2d8d3e2a095eee5e5aa33bbf32a1f686a5343c63045f5b2c176f608/odoo14_addon_crm_phonecall-14.0.1.1.1.dev3-py3-none-any.whl
+[2023-06-07 05:11:30] INFO root fetch - processPackages [syncanyserver]: Downloading https://files.pythonhosted.org/packages/4a/f9/c72ac11b1fe436d5b3a999eaad0c2038a2aff3f04a285d6c53113264e6da/syncanyserver-0.0.5.tar.gz
+[2023-06-07 05:11:30] INFO root fetch - processPackages [syncanysql]: executing diffoscope
+[2023-06-07 05:11:30] INFO root fetch - processPackages [syncanysql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syncanysql-0.1.6.tar.gz tmp/syncanysql-0.1.7.tar.gz --markdown 20230607/s/syncanysql/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-06-07 05:11:30] INFO root fetch - processPackages [odoo-addon-crm-stage-probability]: Downloading https://files.pythonhosted.org/packages/d2/c2/24db94aadcd3c79d7a71142c7bee2f677f99f4990dc8f98d159f0962c96b/odoo_addon_crm_stage_probability-15.0.1.0.0.6-py3-none-any.whl
+[2023-06-07 05:11:30] INFO root fetch - processPackages [odoo14-addon-crm-stage-probability]: Downloading https://files.pythonhosted.org/packages/54/74/f69b53f36832a56f06b2d7912c5c6c5a7ca72a40c76327837ce99df358a6/odoo14_addon_crm_stage_probability-14.0.1.0.1.dev8-py3-none-any.whl
+[2023-06-07 05:11:30] INFO root fetch - processPackages [syncanyserver]: executing diffoscope
+[2023-06-07 05:11:30] INFO root fetch - processPackages [syncanyserver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syncanyserver-0.0.4.tar.gz tmp/syncanyserver-0.0.5.tar.gz --markdown 20230607/s/syncanyserver/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-07 05:11:30] INFO root fetch - processPackages [odoo14-addon-crm-security-group]: executing diffoscope
+[2023-06-07 05:11:30] INFO root fetch - processPackages [odoo14-addon-crm-security-group]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_crm_security_group-14.0.1.1.0-py3-none-any.whl.zip tmp/odoo14_addon_crm_security_group-14.0.1.1.1.dev2-py3-none-any.whl.zip --markdown 20230607/o/odoo14-addon-crm-security-group/14.0.1.1.0-14.0.1.1.1.dev2/diff.md --exclude *.pyd
+[2023-06-07 05:11:30] INFO root fetch - processPackages [odoo14-addon-crm-lead-search-archive]: executing diffoscope
+[2023-06-07 05:11:30] INFO root fetch - processPackages [odoo14-addon-crm-lead-search-archive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_crm_lead_search_archive-14.0.1.0.1-py3-none-any.whl.zip tmp/odoo14_addon_crm_lead_search_archive-14.0.1.0.2.dev2-py3-none-any.whl.zip --markdown 20230607/o/odoo14-addon-crm-lead-search-archive/14.0.1.0.1-14.0.1.0.2.dev2/diff.md --exclude *.pyd
+[2023-06-07 05:11:30] INFO root fetch - processPackages [odoo-addon-crm-phonecall-planner]: Downloading https://files.pythonhosted.org/packages/12/65/f29887d8d03d3fda01240bb4a5217a3ceb42c3e6f79791c8047be53a648d/odoo_addon_crm_phonecall_planner-15.0.1.0.0.4-py3-none-any.whl
+[2023-06-07 05:11:30] INFO root fetch - processPackages [odoo-addon-crm-stage-probability]: executing diffoscope
+[2023-06-07 05:11:30] INFO root fetch - processPackages [odoo-addon-crm-stage-probability]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_crm_stage_probability-15.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_crm_stage_probability-15.0.1.0.0.6-py3-none-any.whl.zip --markdown 20230607/o/odoo-addon-crm-stage-probability/15.0.1.0.0.4-15.0.1.0.0.6/diff.md --exclude *.pyd
+[2023-06-07 05:11:30] INFO root fetch - processPackages [syncany]: Downloading https://files.pythonhosted.org/packages/31/32/4f5212802d20baa5cd1c5d2fa432e7816bb9c2634e457d142c6a45cc455c/syncany-0.2.9.tar.gz
+[2023-06-07 05:11:30] INFO root fetch - processPackages [odoo-addon-crm-phonecall-planner]: executing diffoscope
+[2023-06-07 05:11:30] INFO root fetch - processPackages [odoo-addon-crm-phonecall-planner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_crm_phonecall_planner-15.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_crm_phonecall_planner-15.0.1.0.0.4-py3-none-any.whl.zip --markdown 20230607/o/odoo-addon-crm-phonecall-planner/15.0.1.0.0.3-15.0.1.0.0.4/diff.md --exclude *.pyd
+[2023-06-07 05:11:30] INFO root fetch - processPackages [odoo14-addon-crm-stage-probability]: executing diffoscope
+[2023-06-07 05:11:30] INFO root fetch - processPackages [odoo14-addon-crm-stage-probability]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_crm_stage_probability-14.0.1.0.1.dev7-py3-none-any.whl.zip tmp/odoo14_addon_crm_stage_probability-14.0.1.0.1.dev8-py3-none-any.whl.zip --markdown 20230607/o/odoo14-addon-crm-stage-probability/14.0.1.0.1.dev7-14.0.1.0.1.dev8/diff.md --exclude *.pyd
+[2023-06-07 05:11:30] INFO root fetch - processPackages [odoo8-addon-lettermgmt]: Downloading https://files.pythonhosted.org/packages/e3/55/24c71b244ead706980bafe42915887041142d9032ae740fd2e1e3f0ba22c/odoo8_addon_lettermgmt-8.0.2.0.0.99.dev9-py2-none-any.whl
+[2023-06-07 05:11:30] INFO root fetch - processPackages [syncany]: executing diffoscope
+[2023-06-07 05:11:30] INFO root fetch - processPackages [syncany]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syncany-0.2.8.tar.gz tmp/syncany-0.2.9.tar.gz --markdown 20230607/s/syncany/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-07 05:11:30] INFO root fetch - processPackages [odoo14-addon-crm-phonecall]: executing diffoscope
+[2023-06-07 05:11:30] INFO root fetch - processPackages [odoo14-addon-crm-phonecall]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_crm_phonecall-14.0.1.1.1.dev2-py3-none-any.whl.zip tmp/odoo14_addon_crm_phonecall-14.0.1.1.1.dev3-py3-none-any.whl.zip --markdown 20230607/o/odoo14-addon-crm-phonecall/14.0.1.1.1.dev2-14.0.1.1.1.dev3/diff.md --exclude *.pyd
+[2023-06-07 05:11:30] INFO root fetch - processPackages [odoo8-addon-lettermgmt]: executing diffoscope
+[2023-06-07 05:11:30] INFO root fetch - processPackages [odoo8-addon-lettermgmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_lettermgmt-8.0.2.0.0.99.dev8-py2-none-any.whl.zip tmp/odoo8_addon_lettermgmt-8.0.2.0.0.99.dev9-py2-none-any.whl.zip --markdown 20230607/o/odoo8-addon-lettermgmt/8.0.2.0.0.99.dev8-8.0.2.0.0.99.dev9/diff.md --exclude *.pyd
+[2023-06-07 05:11:31] INFO root fetch - processPackages [odoo14-addon-crm-lead-search-archive]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_crm_lead_search_archive-14.0.1.0.1-py3-none-any.whl.zip]
+[2023-06-07 05:11:31] INFO root fetch - processPackages [odoo14-addon-crm-lead-search-archive]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_crm_lead_search_archive-14.0.1.0.2.dev2-py3-none-any.whl.zip]
+[2023-06-07 05:11:31] INFO root fetch - processPackages [odoo14-addon-crm-lead-search-archive]: Start processing: odoo-addon-crm-salesperson-planner
+[2023-06-07 05:11:31] INFO root fetch - main [MainThread]: End processing [odoo14-addon-crm-lead-search-archive]: success
+[2023-06-07 05:11:31] INFO root fetch - processPackages [odoo14-addon-crm-security-group]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_crm_security_group-14.0.1.1.0-py3-none-any.whl.zip]
+[2023-06-07 05:11:31] INFO root fetch - processPackages [odoo14-addon-crm-security-group]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_crm_security_group-14.0.1.1.1.dev2-py3-none-any.whl.zip]
+[2023-06-07 05:11:31] INFO root fetch - processPackages [odoo14-addon-crm-security-group]: Start processing: odoo14-addon-crm-claim-code
+[2023-06-07 05:11:31] INFO root fetch - main [MainThread]: End processing [odoo14-addon-crm-security-group]: success
+[2023-06-07 05:11:31] INFO root fetch - processPackages [odoo-addon-crm-salesperson-planner]: New version: [15.0.1.0.0.7] Old Version: [15.0.1.0.0.6]
+[2023-06-07 05:11:31] INFO root fetch - processPackages [odoo14-addon-crm-claim-code]: New version: [14.0.1.0.1.dev4] Old Version: [14.0.1.0.1.dev3]
+[2023-06-07 05:11:32] INFO root fetch - processPackages [odoo-addon-crm-salesperson-planner]: Downloading https://files.pythonhosted.org/packages/9d/b4/7d16d43e9346bd5ff2204add81e3cd4fe6272f910b935048bdcfad71d7f2/odoo_addon_crm_salesperson_planner-15.0.1.0.0.6-py3-none-any.whl
+[2023-06-07 05:11:32] INFO root fetch - processPackages [odoo14-addon-crm-claim-code]: Downloading https://files.pythonhosted.org/packages/4f/95/a3f529ee8382bc2a8416a100153b55b44449f7464d486e68a4b8ad1e4b42/odoo14_addon_crm_claim_code-14.0.1.0.1.dev3-py3-none-any.whl
+[2023-06-07 05:11:32] INFO root fetch - processPackages [syncanyserver]: Remove: archive file [/home/abi/fetcher/tmp/syncanyserver-0.0.4.tar.gz]
+[2023-06-07 05:11:32] INFO root fetch - processPackages [syncanyserver]: Remove: archive file [/home/abi/fetcher/tmp/syncanyserver-0.0.5.tar.gz]
+[2023-06-07 05:11:32] INFO root fetch - processPackages [syncanyserver]: Start processing: odoo-addon-crm-security-group
+[2023-06-07 05:11:32] INFO root fetch - main [MainThread]: End processing [syncanyserver]: success
+[2023-06-07 05:11:32] INFO root fetch - processPackages [odoo-addon-crm-stage-probability]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_crm_stage_probability-15.0.1.0.0.4-py3-none-any.whl.zip]
+[2023-06-07 05:11:32] INFO root fetch - processPackages [odoo-addon-crm-stage-probability]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_crm_stage_probability-15.0.1.0.0.6-py3-none-any.whl.zip]
+[2023-06-07 05:11:32] INFO root fetch - processPackages [odoo-addon-crm-stage-probability]: Start processing: odoo14-addon-crm-lead-firstname
+[2023-06-07 05:11:32] INFO root fetch - main [MainThread]: End processing [odoo-addon-crm-stage-probability]: success
+[2023-06-07 05:11:32] INFO root fetch - processPackages [odoo-addon-crm-security-group]: New version: [15.0.1.1.0.2] Old Version: [15.0.1.1.0]
+[2023-06-07 05:11:32] INFO root fetch - processPackages [odoo14-addon-crm-lead-firstname]: New version: [14.0.1.0.3.dev3] Old Version: [14.0.1.0.3.dev2]
+[2023-06-07 05:11:32] INFO root fetch - processPackages [odoo14-addon-crm-stage-probability]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_crm_stage_probability-14.0.1.0.1.dev7-py3-none-any.whl.zip]
+[2023-06-07 05:11:32] INFO root fetch - processPackages [odoo14-addon-crm-stage-probability]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_crm_stage_probability-14.0.1.0.1.dev8-py3-none-any.whl.zip]
+[2023-06-07 05:11:32] INFO root fetch - processPackages [odoo14-addon-crm-stage-probability]: Start processing: odoo-addon-crm-phonecall
+[2023-06-07 05:11:32] INFO root fetch - main [MainThread]: End processing [odoo14-addon-crm-stage-probability]: success
+[2023-06-07 05:11:32] INFO root fetch - processPackages [odoo-addon-crm-phonecall]: New version: [16.0.1.1.0.3] Old Version: [16.0.1.1.0.2]
+[2023-06-07 05:11:32] INFO root fetch - processPackages [odoo14-addon-crm-lead-firstname]: Downloading https://files.pythonhosted.org/packages/23/9b/9f9aeff94a99053f8ce8f6a155d770130dbd60a2ebf2363678ea90f1054d/odoo14_addon_crm_lead_firstname-14.0.1.0.3.dev2-py3-none-any.whl
+[2023-06-07 05:11:32] INFO root fetch - processPackages [odoo-addon-crm-security-group]: Downloading https://files.pythonhosted.org/packages/b8/b7/6f6ea11076fb1542d073b083b3a2aa5d109f3d42b3fecc5a8536749b4567/odoo_addon_crm_security_group-15.0.1.1.0-py3-none-any.whl
+[2023-06-07 05:11:32] INFO root fetch - processPackages [odoo-addon-crm-phonecall-planner]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_crm_phonecall_planner-15.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-06-07 05:11:32] INFO root fetch - processPackages [odoo-addon-crm-phonecall-planner]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_crm_phonecall_planner-15.0.1.0.0.4-py3-none-any.whl.zip]
+[2023-06-07 05:11:32] INFO root fetch - processPackages [odoo-addon-crm-phonecall-planner]: Start processing: odoo-addon-crm-won-reason
+[2023-06-07 05:11:32] INFO root fetch - main [MainThread]: End processing [odoo-addon-crm-phonecall-planner]: success
+[2023-06-07 05:11:32] INFO root fetch - processPackages [odoo-addon-crm-salesperson-planner]: Downloading https://files.pythonhosted.org/packages/f5/ab/8d9aacc9fe9aec6aeff32c8b341676c95ab79c435c653fea1e933344a1cf/odoo_addon_crm_salesperson_planner-15.0.1.0.0.7-py3-none-any.whl
+[2023-06-07 05:11:32] INFO root fetch - processPackages [odoo-addon-crm-won-reason]: New version: [15.0.1.0.0.5] Old Version: [15.0.1.0.0.3]
+[2023-06-07 05:11:32] INFO root fetch - processPackages [odoo14-addon-crm-claim-code]: Downloading https://files.pythonhosted.org/packages/3a/b1/22fbe562cccd721900c84f460f2eeda6077f8f8c3ab07e1d2ec16da86ffb/odoo14_addon_crm_claim_code-14.0.1.0.1.dev4-py3-none-any.whl
+[2023-06-07 05:11:32] INFO root fetch - processPackages [odoo-addon-crm-salesperson-planner]: executing diffoscope
+[2023-06-07 05:11:32] INFO root fetch - processPackages [odoo-addon-crm-salesperson-planner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_crm_salesperson_planner-15.0.1.0.0.6-py3-none-any.whl.zip tmp/odoo_addon_crm_salesperson_planner-15.0.1.0.0.7-py3-none-any.whl.zip --markdown 20230607/o/odoo-addon-crm-salesperson-planner/15.0.1.0.0.6-15.0.1.0.0.7/diff.md --exclude *.pyd
+[2023-06-07 05:11:32] INFO root fetch - processPackages [odoo-addon-crm-phonecall]: Downloading https://files.pythonhosted.org/packages/2b/18/6d429365b181a186f92461d3a42d4e5bd33f03b3c79e9a0807d9ee3cd1a2/odoo_addon_crm_phonecall-16.0.1.1.0.2-py3-none-any.whl
+[2023-06-07 05:11:32] INFO root fetch - processPackages [odoo-addon-crm-won-reason]: Downloading https://files.pythonhosted.org/packages/83/ae/3396fdee6b776bf5f6bc1a3924017aca5bef68a424acce4c2e8b2b18bce5/odoo_addon_crm_won_reason-15.0.1.0.0.3-py3-none-any.whl
+[2023-06-07 05:11:32] INFO root fetch - processPackages [odoo14-addon-crm-claim-code]: executing diffoscope
+[2023-06-07 05:11:32] INFO root fetch - processPackages [odoo14-addon-crm-claim-code]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_crm_claim_code-14.0.1.0.1.dev3-py3-none-any.whl.zip tmp/odoo14_addon_crm_claim_code-14.0.1.0.1.dev4-py3-none-any.whl.zip --markdown 20230607/o/odoo14-addon-crm-claim-code/14.0.1.0.1.dev3-14.0.1.0.1.dev4/diff.md --exclude *.pyd
+[2023-06-07 05:11:32] INFO root fetch - processPackages [odoo14-addon-crm-lead-firstname]: Downloading https://files.pythonhosted.org/packages/22/50/1d0eb718636bb242c72390d2407f99b378ed80e69bc53f21b9ae57029af4/odoo14_addon_crm_lead_firstname-14.0.1.0.3.dev3-py3-none-any.whl
+[2023-06-07 05:11:32] INFO root fetch - processPackages [odoo-addon-crm-phonecall]: Downloading https://files.pythonhosted.org/packages/c1/23/3dfea4338c7131c908347ab3d20b304855ef6ece699f773f19f2082273f7/odoo_addon_crm_phonecall-16.0.1.1.0.3-py3-none-any.whl
+[2023-06-07 05:11:32] INFO root fetch - processPackages [odoo-addon-crm-security-group]: Downloading https://files.pythonhosted.org/packages/c0/53/993e28eccc2bf97561f4a29733bed5fb0e46084bd77f092cc4620068b21a/odoo_addon_crm_security_group-15.0.1.1.0.2-py3-none-any.whl
+[2023-06-07 05:11:32] INFO root fetch - processPackages [odoo14-addon-crm-phonecall]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_crm_phonecall-14.0.1.1.1.dev2-py3-none-any.whl.zip]
+[2023-06-07 05:11:32] INFO root fetch - processPackages [odoo14-addon-crm-phonecall]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_crm_phonecall-14.0.1.1.1.dev3-py3-none-any.whl.zip]
+[2023-06-07 05:11:32] INFO root fetch - processPackages [odoo14-addon-crm-phonecall]: Start processing: odoo-addon-crm-claim-type
+[2023-06-07 05:11:32] INFO root fetch - main [MainThread]: End processing [odoo14-addon-crm-phonecall]: success
+[2023-06-07 05:11:32] INFO root fetch - processPackages [odoo-addon-crm-phonecall]: executing diffoscope
+[2023-06-07 05:11:32] INFO root fetch - processPackages [odoo-addon-crm-phonecall]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_crm_phonecall-16.0.1.1.0.2-py3-none-any.whl.zip tmp/odoo_addon_crm_phonecall-16.0.1.1.0.3-py3-none-any.whl.zip --markdown 20230607/o/odoo-addon-crm-phonecall/16.0.1.1.0.2-16.0.1.1.0.3/diff.md --exclude *.pyd
+[2023-06-07 05:11:32] INFO root fetch - processPackages [odoo-addon-crm-claim-type]: New version: [15.0.1.0.0.7] Old Version: [15.0.1.0.0.6]
+[2023-06-07 05:11:32] INFO root fetch - processPackages [odoo-addon-crm-security-group]: executing diffoscope
+[2023-06-07 05:11:32] INFO root fetch - processPackages [odoo-addon-crm-security-group]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_crm_security_group-15.0.1.1.0-py3-none-any.whl.zip tmp/odoo_addon_crm_security_group-15.0.1.1.0.2-py3-none-any.whl.zip --markdown 20230607/o/odoo-addon-crm-security-group/15.0.1.1.0-15.0.1.1.0.2/diff.md --exclude *.pyd
+[2023-06-07 05:11:32] INFO root fetch - processPackages [odoo14-addon-crm-lead-firstname]: executing diffoscope
+[2023-06-07 05:11:32] INFO root fetch - processPackages [odoo14-addon-crm-lead-firstname]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_crm_lead_firstname-14.0.1.0.3.dev2-py3-none-any.whl.zip tmp/odoo14_addon_crm_lead_firstname-14.0.1.0.3.dev3-py3-none-any.whl.zip --markdown 20230607/o/odoo14-addon-crm-lead-firstname/14.0.1.0.3.dev2-14.0.1.0.3.dev3/diff.md --exclude *.pyd
+[2023-06-07 05:11:32] INFO root fetch - processPackages [odoo8-addon-lettermgmt]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_lettermgmt-8.0.2.0.0.99.dev8-py2-none-any.whl.zip]
+[2023-06-07 05:11:32] INFO root fetch - processPackages [odoo8-addon-lettermgmt]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_lettermgmt-8.0.2.0.0.99.dev9-py2-none-any.whl.zip]
+[2023-06-07 05:11:32] INFO root fetch - processPackages [odoo8-addon-lettermgmt]: Start processing: odoo-addon-crm-phonecall
+[2023-06-07 05:11:32] INFO root fetch - main [MainThread]: End processing [odoo8-addon-lettermgmt]: success
+[2023-06-07 05:11:32] INFO root fetch - processPackages [odoo-addon-crm-phonecall]: New version: [16.0.1.1.0.3] Old Version: [16.0.1.1.0.2]
+[2023-06-07 05:11:32] INFO root fetch - processPackages [odoo-addon-crm-won-reason]: Downloading https://files.pythonhosted.org/packages/00/57/53d00ac65cb137f01db7bcb830fe218620d50f9698877aa414ab43cf247a/odoo_addon_crm_won_reason-15.0.1.0.0.5-py3-none-any.whl
+[2023-06-07 05:11:32] INFO root fetch - processPackages [odoo-addon-crm-claim-type]: Downloading https://files.pythonhosted.org/packages/22/a9/00628b4e455a1a4646551b3a60b0c8b892fd977116bc31ba56ed16a0bec4/odoo_addon_crm_claim_type-15.0.1.0.0.6-py3-none-any.whl
+[2023-06-07 05:11:32] INFO root fetch - processPackages [odoo-addon-crm-won-reason]: executing diffoscope
+[2023-06-07 05:11:32] INFO root fetch - processPackages [odoo-addon-crm-won-reason]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_crm_won_reason-15.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_crm_won_reason-15.0.1.0.0.5-py3-none-any.whl.zip --markdown 20230607/o/odoo-addon-crm-won-reason/15.0.1.0.0.3-15.0.1.0.0.5/diff.md --exclude *.pyd
+[2023-06-07 05:11:32] INFO root fetch - processPackages [odoo-addon-crm-phonecall]: executing diffoscope
+[2023-06-07 05:11:32] INFO root fetch - processPackages [odoo-addon-crm-phonecall]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_crm_phonecall-16.0.1.1.0.2-py3-none-any.whl.zip tmp/odoo_addon_crm_phonecall-16.0.1.1.0.3-py3-none-any.whl.zip --markdown 20230607/o/odoo-addon-crm-phonecall/16.0.1.1.0.2-16.0.1.1.0.3/diff.md --exclude *.pyd
+[2023-06-07 05:11:32] INFO root fetch - processPackages [syncany]: Remove: archive file [/home/abi/fetcher/tmp/syncany-0.2.8.tar.gz]
+[2023-06-07 05:11:32] INFO root fetch - processPackages [syncany]: Remove: archive file [/home/abi/fetcher/tmp/syncany-0.2.9.tar.gz]
+[2023-06-07 05:11:32] INFO root fetch - processPackages [syncany]: Start processing: odoo-addon-crm-lead-search-archive
+[2023-06-07 05:11:32] INFO root fetch - main [MainThread]: End processing [syncany]: success
+[2023-06-07 05:11:32] INFO root fetch - processPackages [odoo-addon-crm-lead-search-archive]: New version: [16.0.1.0.1.2] Old Version: [16.0.1.0.1.1]
+[2023-06-07 05:11:33] INFO root fetch - processPackages [odoo-addon-crm-lead-search-archive]: Downloading https://files.pythonhosted.org/packages/28/e0/2b8a8ae712f8832bad7f527e57a7eff73da351cfaf7e336440ee33bc48d7/odoo_addon_crm_lead_search_archive-16.0.1.0.1.1-py3-none-any.whl
+[2023-06-07 05:11:33] INFO root fetch - processPackages [odoo-addon-crm-claim-type]: Downloading https://files.pythonhosted.org/packages/76/9b/93114f07af54a39df0f69de6e02603400a66268a3dac19bcb2070afbb9a8/odoo_addon_crm_claim_type-15.0.1.0.0.7-py3-none-any.whl
+[2023-06-07 05:11:33] INFO root fetch - processPackages [odoo-addon-crm-claim-type]: executing diffoscope
+[2023-06-07 05:11:33] INFO root fetch - processPackages [odoo-addon-crm-claim-type]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_crm_claim_type-15.0.1.0.0.6-py3-none-any.whl.zip tmp/odoo_addon_crm_claim_type-15.0.1.0.0.7-py3-none-any.whl.zip --markdown 20230607/o/odoo-addon-crm-claim-type/15.0.1.0.0.6-15.0.1.0.0.7/diff.md --exclude *.pyd
+[2023-06-07 05:11:33] INFO root fetch - processPackages [syncanysql]: Remove: archive file [/home/abi/fetcher/tmp/syncanysql-0.1.6.tar.gz]
+[2023-06-07 05:11:33] INFO root fetch - processPackages [syncanysql]: Remove: archive file [/home/abi/fetcher/tmp/syncanysql-0.1.7.tar.gz]
+[2023-06-07 05:11:33] INFO root fetch - processPackages [syncanysql]: Start processing: odoo-addon-crm-lead-firstname
+[2023-06-07 05:11:33] INFO root fetch - main [MainThread]: End processing [syncanysql]: success
+[2023-06-07 05:11:33] INFO root fetch - processPackages [odoo-addon-crm-lead-firstname]: New version: [16.0.1.0.1.1] Old Version: [16.0.1.0.1]
+[2023-06-07 05:11:33] INFO root fetch - processPackages [odoo-addon-crm-lead-search-archive]: Downloading https://files.pythonhosted.org/packages/52/d5/451ddf20875567fabd9e36623bd4709154af98d1af4aab32acf15c9f4279/odoo_addon_crm_lead_search_archive-16.0.1.0.1.2-py3-none-any.whl
+[2023-06-07 05:11:33] INFO root fetch - processPackages [odoo-addon-crm-lead-search-archive]: executing diffoscope
+[2023-06-07 05:11:33] INFO root fetch - processPackages [odoo-addon-crm-lead-search-archive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_crm_lead_search_archive-16.0.1.0.1.1-py3-none-any.whl.zip tmp/odoo_addon_crm_lead_search_archive-16.0.1.0.1.2-py3-none-any.whl.zip --markdown 20230607/o/odoo-addon-crm-lead-search-archive/16.0.1.0.1.1-16.0.1.0.1.2/diff.md --exclude *.pyd
+[2023-06-07 05:11:33] INFO root fetch - processPackages [odoo-addon-crm-lead-firstname]: Downloading https://files.pythonhosted.org/packages/5b/92/cbec927a7ba964d1095f7dade86a6ca9a7e838fc3ebec5824c81c9ffb5e6/odoo_addon_crm_lead_firstname-16.0.1.0.1-py3-none-any.whl
+[2023-06-07 05:11:33] INFO root fetch - processPackages [odoo-addon-crm-lead-firstname]: Downloading https://files.pythonhosted.org/packages/fb/1a/a1fc998ebaf1d0352d5d8d76e38e255c44613952ccbce4197ebba60c15dc/odoo_addon_crm_lead_firstname-16.0.1.0.1.1-py3-none-any.whl
+[2023-06-07 05:11:33] INFO root fetch - processPackages [odoo-addon-crm-lead-firstname]: executing diffoscope
+[2023-06-07 05:11:33] INFO root fetch - processPackages [odoo-addon-crm-lead-firstname]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_crm_lead_firstname-16.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_crm_lead_firstname-16.0.1.0.1.1-py3-none-any.whl.zip --markdown 20230607/o/odoo-addon-crm-lead-firstname/16.0.1.0.1-16.0.1.0.1.1/diff.md --exclude *.pyd
+[2023-06-07 05:11:34] INFO root fetch - processPackages [odoo-addon-crm-salesperson-planner]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_crm_salesperson_planner-15.0.1.0.0.6-py3-none-any.whl.zip]
+[2023-06-07 05:11:34] INFO root fetch - processPackages [odoo-addon-crm-salesperson-planner]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_crm_salesperson_planner-15.0.1.0.0.7-py3-none-any.whl.zip]
+[2023-06-07 05:11:34] INFO root fetch - processPackages [odoo-addon-crm-salesperson-planner]: Start processing: odoo-addon-crm-lead-firstname
+[2023-06-07 05:11:34] INFO root fetch - main [MainThread]: End processing [odoo-addon-crm-salesperson-planner]: success
+[2023-06-07 05:11:34] INFO root fetch - processPackages [odoo-addon-crm-lead-firstname]: New version: [16.0.1.0.1.1] Old Version: [16.0.1.0.1]
+[2023-06-07 05:11:34] INFO root fetch - processPackages [odoo-addon-crm-security-group]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_crm_security_group-15.0.1.1.0-py3-none-any.whl.zip]
+[2023-06-07 05:11:34] INFO root fetch - processPackages [odoo-addon-crm-security-group]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_crm_security_group-15.0.1.1.0.2-py3-none-any.whl.zip]
+[2023-06-07 05:11:34] INFO root fetch - processPackages [odoo-addon-crm-security-group]: Start processing: docformatter
+[2023-06-07 05:11:34] INFO root fetch - main [MainThread]: End processing [odoo-addon-crm-security-group]: success
+[2023-06-07 05:11:34] INFO root fetch - processPackages [docformatter]: New version: [1.7.2] Old Version: [1.7.1]
+[2023-06-07 05:11:34] INFO root fetch - processPackages [odoo14-addon-crm-lead-firstname]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_crm_lead_firstname-14.0.1.0.3.dev2-py3-none-any.whl.zip]
+[2023-06-07 05:11:34] INFO root fetch - processPackages [odoo14-addon-crm-lead-firstname]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_crm_lead_firstname-14.0.1.0.3.dev3-py3-none-any.whl.zip]
+[2023-06-07 05:11:34] INFO root fetch - processPackages [odoo14-addon-crm-lead-firstname]: Start processing: onnx2tf
+[2023-06-07 05:11:34] INFO root fetch - main [MainThread]: End processing [odoo14-addon-crm-lead-firstname]: success
+[2023-06-07 05:11:34] INFO root fetch - processPackages [odoo-addon-crm-lead-firstname]: executing diffoscope
+[2023-06-07 05:11:34] INFO root fetch - processPackages [odoo-addon-crm-lead-firstname]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_crm_lead_firstname-16.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_crm_lead_firstname-16.0.1.0.1.1-py3-none-any.whl.zip --markdown 20230607/o/odoo-addon-crm-lead-firstname/16.0.1.0.1-16.0.1.0.1.1/diff.md --exclude *.pyd
+[2023-06-07 05:11:34] INFO root fetch - processPackages [onnx2tf]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-06-07 05:11:34] INFO root fetch - processPackages [docformatter]: Downloading https://files.pythonhosted.org/packages/8e/ef/7a62b80b17cc7ceb44f064fcd6b66210ed69c4dfaf7d3ce3a25aac13368a/docformatter-1.7.1.tar.gz
+[2023-06-07 05:11:34] INFO root fetch - processPackages [odoo14-addon-crm-claim-code]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_crm_claim_code-14.0.1.0.1.dev3-py3-none-any.whl.zip]
+[2023-06-07 05:11:34] INFO root fetch - processPackages [odoo14-addon-crm-claim-code]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_crm_claim_code-14.0.1.0.1.dev4-py3-none-any.whl.zip]
+[2023-06-07 05:11:34] INFO root fetch - processPackages [odoo14-addon-crm-claim-code]: Start processing: mvtech-plugin
+[2023-06-07 05:11:34] INFO root fetch - main [MainThread]: End processing [odoo14-addon-crm-claim-code]: success
+[2023-06-07 05:11:34] INFO root fetch - processPackages [mvtech-plugin]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-07 05:11:34] INFO root fetch - processPackages [onnx2tf]: Downloading https://files.pythonhosted.org/packages/6f/b3/519ee148592d2531639c5f3c1434df000ecf2c24a5b55b61cba8fd4767f9/onnx2tf-1.9.8.tar.gz
+[2023-06-07 05:11:34] INFO root fetch - processPackages [odoo-addon-crm-won-reason]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_crm_won_reason-15.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-06-07 05:11:34] INFO root fetch - processPackages [odoo-addon-crm-won-reason]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_crm_won_reason-15.0.1.0.0.5-py3-none-any.whl.zip]
+[2023-06-07 05:11:34] INFO root fetch - processPackages [odoo-addon-crm-won-reason]: Start processing: pysimflow
+[2023-06-07 05:11:34] INFO root fetch - main [MainThread]: End processing [odoo-addon-crm-won-reason]: success
+[2023-06-07 05:11:34] INFO root fetch - processPackages [pysimflow]: New version: [0.0.44] Old Version: [0.0.43]
+[2023-06-07 05:11:34] INFO root fetch - processPackages [mvtech-plugin]: Downloading https://files.pythonhosted.org/packages/8b/fe/477e12898acc384cf01b6c63589e6b723934ed2ee1e109815a9badd18391/mvtech-plugin-1.0.3.tar.gz
+[2023-06-07 05:11:34] INFO root fetch - processPackages [pysimflow]: Downloading https://files.pythonhosted.org/packages/2c/d5/6438369cd7b467c2cd17e4e46f28c2f48a471c5249e550245bd3fdbf529c/pysimflow-0.0.43.tar.gz
+[2023-06-07 05:11:34] INFO root fetch - processPackages [docformatter]: Downloading https://files.pythonhosted.org/packages/50/8e/78028bcbfcb4f902ef7197d1af3ee8c514ea06e3eacf728e28f448fac761/docformatter-1.7.2.tar.gz
+[2023-06-07 05:11:34] INFO root fetch - processPackages [onnx2tf]: Downloading https://files.pythonhosted.org/packages/0e/df/e0c6978b06db6c5c04de100ecbe0bbb281caed31c4dd88663e61e36ca571/onnx2tf-1.9.9.tar.gz
+[2023-06-07 05:11:34] INFO root fetch - processPackages [docformatter]: executing diffoscope
+[2023-06-07 05:11:34] INFO root fetch - processPackages [docformatter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docformatter-1.7.1.tar.gz tmp/docformatter-1.7.2.tar.gz --markdown 20230607/d/docformatter/1.7.1-1.7.2/diff.md --exclude *.pyd
+[2023-06-07 05:11:34] INFO root fetch - processPackages [odoo-addon-crm-lead-search-archive]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_crm_lead_search_archive-16.0.1.0.1.1-py3-none-any.whl.zip]
+[2023-06-07 05:11:34] INFO root fetch - processPackages [odoo-addon-crm-lead-search-archive]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_crm_lead_search_archive-16.0.1.0.1.2-py3-none-any.whl.zip]
+[2023-06-07 05:11:34] INFO root fetch - processPackages [odoo-addon-crm-lead-search-archive]: Start processing: aws-sam-cli
+[2023-06-07 05:11:34] INFO root fetch - main [MainThread]: End processing [odoo-addon-crm-lead-search-archive]: success
+[2023-06-07 05:11:34] INFO root fetch - processPackages [aws-sam-cli]: New version: [1.9.0] Old Version: [1.86.1]
+[2023-06-07 05:11:34] INFO root fetch - processPackages [pysimflow]: Downloading https://files.pythonhosted.org/packages/99/d0/1e0629eea199d225c3fb3ba1b44ce3429d03a01c28c5843b31524ed5a536/pysimflow-0.0.44.tar.gz
+[2023-06-07 05:11:34] INFO root fetch - processPackages [pysimflow]: executing diffoscope
+[2023-06-07 05:11:34] INFO root fetch - processPackages [pysimflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysimflow-0.0.43.tar.gz tmp/pysimflow-0.0.44.tar.gz --markdown 20230607/p/pysimflow/0.0.43-0.0.44/diff.md --exclude *.pyd
+[2023-06-07 05:11:35] INFO root fetch - processPackages [odoo-addon-crm-phonecall]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_crm_phonecall-16.0.1.1.0.2-py3-none-any.whl.zip]
+[2023-06-07 05:11:35] INFO root fetch - processPackages [onnx2tf]: executing diffoscope
+[2023-06-07 05:11:35] INFO root fetch - processPackages [onnx2tf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnx2tf-1.9.8.tar.gz tmp/onnx2tf-1.9.9.tar.gz --markdown 20230607/o/onnx2tf/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-06-07 05:11:35] INFO root fetch - processPackages [odoo-addon-crm-phonecall]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_crm_phonecall-16.0.1.1.0.3-py3-none-any.whl.zip]
+[2023-06-07 05:11:35] INFO root fetch - processPackages [odoo-addon-crm-phonecall]: Start processing: dfmodule-DSTemplate
+[2023-06-07 05:11:35] INFO root fetch - main [MainThread]: End processing [odoo-addon-crm-phonecall]: success
+[2023-06-07 05:11:35] INFO root fetch - processPackages [dfmodule-DSTemplate]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-07 05:11:35] INFO root fetch - processPackages [mvtech-plugin]: Downloading https://files.pythonhosted.org/packages/12/25/0d184a7e5b0b7a3186ac743dfc654282e3fdddb7cb7e802dd4e18d7a53a9/mvtech-plugin-1.0.4.tar.gz
+[2023-06-07 05:11:35] INFO root fetch - processPackages [aws-sam-cli]: Downloading https://files.pythonhosted.org/packages/46/10/1f8470a12a1ccbb1ccd1568215a9e6a108d77b406b76faa756d5b64fa3ec/aws-sam-cli-1.86.1.tar.gz
+[2023-06-07 05:11:35] INFO root fetch - processPackages [mvtech-plugin]: executing diffoscope
+[2023-06-07 05:11:35] INFO root fetch - processPackages [mvtech-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mvtech-plugin-1.0.3.tar.gz tmp/mvtech-plugin-1.0.4.tar.gz --markdown 20230607/m/mvtech-plugin/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-07 05:11:35] INFO root fetch - processPackages [dfmodule-DSTemplate]: Downloading https://files.pythonhosted.org/packages/c1/e0/2901ca0dc2b589ef78d2f0fa865547319e7b90d10248e57ca8bfe96e0514/dfmodule_DSTemplate-0.0.2.tar.gz
+[2023-06-07 05:11:35] INFO root fetch - processPackages [aws-sam-cli]: Downloading https://files.pythonhosted.org/packages/8e/09/60d46eac8dc6ddae92dd2cb060368f950675fd7ceead7796fe8652121e0a/aws-sam-cli-1.9.0.tar.gz
+[2023-06-07 05:11:35] INFO root fetch - processPackages [dfmodule-DSTemplate]: Downloading https://files.pythonhosted.org/packages/d1/bb/d08116085107d75dc615a6dfabce95cfef9835c38f5487c92f1850f75f08/dfmodule_DSTemplate-0.0.3.tar.gz
+[2023-06-07 05:11:35] INFO root fetch - main [MainThread]: End processing [odoo-addon-crm-phonecall]: success
+[2023-06-07 05:11:35] INFO root fetch - processPackages [dfmodule-DSTemplate]: executing diffoscope
+[2023-06-07 05:11:35] INFO root fetch - processPackages [dfmodule-DSTemplate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dfmodule_DSTemplate-0.0.2.tar.gz tmp/dfmodule_DSTemplate-0.0.3.tar.gz --markdown 20230607/d/dfmodule-DSTemplate/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-07 05:11:35] INFO root fetch - processPackages [odoo-addon-crm-claim-type]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_crm_claim_type-15.0.1.0.0.6-py3-none-any.whl.zip]
+[2023-06-07 05:11:35] INFO root fetch - processPackages [odoo-addon-crm-claim-type]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_crm_claim_type-15.0.1.0.0.7-py3-none-any.whl.zip]
+[2023-06-07 05:11:35] INFO root fetch - main [MainThread]: End processing [odoo-addon-crm-claim-type]: success
+[2023-06-07 05:11:35] WARNING root fetch - processPackages [aws-sam-cli]: Skipping package: exceeds size limit 11785570>=10485760
+[2023-06-07 05:11:35] INFO root fetch - main [MainThread]: End processing [aws-sam-cli] error
+[2023-06-07 05:11:35] INFO root fetch - processPackages [odoo-addon-crm-lead-firstname]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_crm_lead_firstname-16.0.1.0.1-py3-none-any.whl.zip]
+[2023-06-07 05:11:35] INFO root fetch - processPackages [odoo-addon-crm-lead-firstname]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_crm_lead_firstname-16.0.1.0.1.1-py3-none-any.whl.zip]
+[2023-06-07 05:11:35] INFO root fetch - main [MainThread]: End processing [odoo-addon-crm-lead-firstname]: success
+[2023-06-07 05:11:35] ERROR root fetch - processPackages [odoo-addon-crm-lead-firstname]: Diffoscope failed: Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 66, in compare_root_paths
+    file1 = specialize(FilesystemFile(path1, container=container1))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 54, in specialize
+    if try_recognize(file, cls, cls.recognizes):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 37, in try_recognize
+    if not recognizes(file):
+           ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/missing_file.py", line 43, in recognizes
+    assert Config().new_file, f"{file.name} does not exist"
+AssertionError: tmp/odoo_addon_crm_lead_firstname-16.0.1.0.1-py3-none-any.whl.zip does not exist
+
+[2023-06-07 05:11:35] INFO root fetch - main [MainThread]: End processing [odoo-addon-crm-lead-firstname] error
+[2023-06-07 05:11:36] INFO root fetch - processPackages [docformatter]: Remove: archive file [/home/abi/fetcher/tmp/docformatter-1.7.1.tar.gz]
+[2023-06-07 05:11:36] INFO root fetch - processPackages [docformatter]: Remove: archive file [/home/abi/fetcher/tmp/docformatter-1.7.2.tar.gz]
+[2023-06-07 05:11:36] INFO root fetch - main [MainThread]: End processing [docformatter]: success
+[2023-06-07 05:11:36] INFO root fetch - processPackages [dfmodule-DSTemplate]: Remove: archive file [/home/abi/fetcher/tmp/dfmodule_DSTemplate-0.0.2.tar.gz]
+[2023-06-07 05:11:36] INFO root fetch - processPackages [dfmodule-DSTemplate]: Remove: archive file [/home/abi/fetcher/tmp/dfmodule_DSTemplate-0.0.3.tar.gz]
+[2023-06-07 05:11:36] INFO root fetch - main [MainThread]: End processing [dfmodule-DSTemplate]: success
+[2023-06-07 05:11:36] INFO root fetch - processPackages [mvtech-plugin]: Remove: archive file [/home/abi/fetcher/tmp/mvtech-plugin-1.0.3.tar.gz]
+[2023-06-07 05:11:36] INFO root fetch - processPackages [mvtech-plugin]: Remove: archive file [/home/abi/fetcher/tmp/mvtech-plugin-1.0.4.tar.gz]
+[2023-06-07 05:11:36] INFO root fetch - main [MainThread]: End processing [mvtech-plugin]: success
+[2023-06-07 05:11:37] INFO root fetch - processPackages [onnx2tf]: Remove: archive file [/home/abi/fetcher/tmp/onnx2tf-1.9.8.tar.gz]
+[2023-06-07 05:11:37] INFO root fetch - processPackages [onnx2tf]: Remove: archive file [/home/abi/fetcher/tmp/onnx2tf-1.9.9.tar.gz]
+[2023-06-07 05:11:37] INFO root fetch - main [MainThread]: End processing [onnx2tf]: success
+[2023-06-07 05:12:30] INFO root fetch - processPackages [pysimflow]: Remove: archive file [/home/abi/fetcher/tmp/pysimflow-0.0.43.tar.gz]
+[2023-06-07 05:12:30] INFO root fetch - processPackages [pysimflow]: Remove: archive file [/home/abi/fetcher/tmp/pysimflow-0.0.44.tar.gz]
+[2023-06-07 05:12:30] INFO root fetch - main [MainThread]: End processing [pysimflow]: success
+[2023-06-07 05:12:30] INFO root fetch - main [MainThread]: Store serial: [18402200]
