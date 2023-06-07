@@ -13403,3 +13403,75 @@ AssertionError: tmp/odoo_addon_crm_lead_firstname-16.0.1.0.1-py3-none-any.whl.zi
 [2023-06-07 07:28:21] INFO root fetch - processPackages [humlab-penelope]: Remove: archive file [/home/abi/fetcher/tmp/humlab-penelope-0.7.9.tar.gz]
 [2023-06-07 07:28:21] INFO root fetch - main [MainThread]: End processing [humlab-penelope]: success
 [2023-06-07 07:28:21] INFO root fetch - main [MainThread]: Store serial: [18403101]
+[2023-06-07 07:33:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18403101]
+[2023-06-07 07:33:30] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-07 07:33:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-stock-picking-back2draft
+[2023-06-07 07:33:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: crazy-thursday
+[2023-06-07 07:33:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mirar
+[2023-06-07 07:33:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-hr-timesheet-sheet-attendance
+[2023-06-07 07:33:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: formalmath
+[2023-06-07 07:33:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyfed
+[2023-06-07 07:33:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyfed-macos
+[2023-06-07 07:33:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: django-accessibility
+[2023-06-07 07:33:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hrin-msb
+[2023-06-07 07:33:30] INFO root fetch - processPackages [odoo-addon-stock-picking-back2draft]: New version: [16.0.1.0.0.5] Old Version: [16.0.1.0.0.4]
+[2023-06-07 07:33:30] INFO root fetch - processPackages [formalmath]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-07 07:33:30] WARNING root fetch - processPackages [mirar]: Skipping, unable to determine old version
+[2023-06-07 07:33:30] INFO root fetch - main [MainThread]: End processing [mirar] error
+[2023-06-07 07:33:30] INFO root fetch - processPackages [odoo14-addon-hr-timesheet-sheet-attendance]: New version: [14.0.1.0.1.dev8] Old Version: [14.0.1.0.1.dev7]
+[2023-06-07 07:33:30] INFO root fetch - processPackages [hrin-msb]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-07 07:33:30] INFO root fetch - processPackages [pyfed]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-07 07:33:30] INFO root fetch - processPackages [crazy-thursday]: New version: [2023.6.7.1] Old Version: [2023.6.7.0]
+[2023-06-07 07:33:30] INFO root fetch - processPackages [hrin-msb]: Downloading https://files.pythonhosted.org/packages/01/68/1789fa953fb7468267c85f88fd2bd30966fc7095fa1019588962e2e45635/hrin_msb-0.2.8.tar.gz
+[2023-06-07 07:33:30] INFO root fetch - processPackages [formalmath]: Downloading https://files.pythonhosted.org/packages/6a/71/2c44b352b90fc5149f845368ba8fb4186a4dabfab00141a0e0941865a9e8/formalmath-0.0.2.tar.gz
+[2023-06-07 07:33:30] INFO root fetch - processPackages [pyfed-macos]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-07 07:33:30] WARNING root fetch - processPackages [django-accessibility]: Skipping, unable to determine old version
+[2023-06-07 07:33:30] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/6b/42/d707e19dd8ef1588c643425a2e274509a3b1e06485007272a8de0290ae03/crazy-thursday-2023.6.7.0.tar.gz
+[2023-06-07 07:33:30] INFO root fetch - main [MainThread]: End processing [django-accessibility] error
+[2023-06-07 07:33:30] INFO root fetch - processPackages [odoo-addon-stock-picking-back2draft]: Downloading https://files.pythonhosted.org/packages/c7/de/052b680766b3171ade574609eac60f5e677f43cd3911b8594f7ba0113a38/odoo_addon_stock_picking_back2draft-16.0.1.0.0.4-py3-none-any.whl
+[2023-06-07 07:33:30] INFO root fetch - processPackages [hrin-msb]: Downloading https://files.pythonhosted.org/packages/f7/94/d59c8a5b3bee420117fc2d467d62317feecd19b8b1d838107abbbf1f5528/hrin_msb-0.2.9.tar.gz
+[2023-06-07 07:33:30] INFO root fetch - processPackages [odoo14-addon-hr-timesheet-sheet-attendance]: Downloading https://files.pythonhosted.org/packages/59/80/a9ceade191a666268c6ababe03a0d4fe7c9c9acaf45f705a774b600a7f31/odoo14_addon_hr_timesheet_sheet_attendance-14.0.1.0.1.dev7-py3-none-any.whl
+[2023-06-07 07:33:30] INFO root fetch - processPackages [pyfed]: Downloading https://files.pythonhosted.org/packages/79/5c/90ddfb5c0b08460b042f1cb453833c6a95e14ed872ffb7172170754b6c19/pyfed-0.0.8.tar.gz
+[2023-06-07 07:33:30] INFO root fetch - processPackages [pyfed-macos]: Downloading https://files.pythonhosted.org/packages/73/8a/f5c4dacf7358de90191f59f9e1a046c7a4d984c2455094a1613c6d9c5622/pyfed_macos-0.0.8.tar.gz
+[2023-06-07 07:33:30] INFO root fetch - processPackages [formalmath]: Downloading https://files.pythonhosted.org/packages/67/b7/29bee3212ca9f81da964d6fbfe0b3d60917b147e7a32beb87142085451ed/formalmath-0.0.3.tar.gz
+[2023-06-07 07:33:30] INFO root fetch - processPackages [hrin-msb]: executing diffoscope
+[2023-06-07 07:33:30] INFO root fetch - processPackages [hrin-msb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hrin_msb-0.2.8.tar.gz tmp/hrin_msb-0.2.9.tar.gz --markdown 20230607/h/hrin-msb/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-07 07:33:31] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/80/26/c4f0fcf737cde3107243d55bb7d3d2d50e4c7797b7b4214282d5c67e5687/crazy-thursday-2023.6.7.1.tar.gz
+[2023-06-07 07:33:31] INFO root fetch - processPackages [odoo-addon-stock-picking-back2draft]: Downloading https://files.pythonhosted.org/packages/ab/87/b7ba068f2ee2b38747aae347a80a7ae119351257ba69929f3410620f9666/odoo_addon_stock_picking_back2draft-16.0.1.0.0.5-py3-none-any.whl
+[2023-06-07 07:33:31] INFO root fetch - processPackages [crazy-thursday]: executing diffoscope
+[2023-06-07 07:33:31] INFO root fetch - processPackages [crazy-thursday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crazy-thursday-2023.6.7.0.tar.gz tmp/crazy-thursday-2023.6.7.1.tar.gz --markdown 20230607/c/crazy-thursday/2023.6.7.0-2023.6.7.1/diff.md --exclude *.pyd
+[2023-06-07 07:33:31] INFO root fetch - processPackages [formalmath]: executing diffoscope
+[2023-06-07 07:33:31] INFO root fetch - processPackages [formalmath]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/formalmath-0.0.2.tar.gz tmp/formalmath-0.0.3.tar.gz --markdown 20230607/f/formalmath/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-07 07:33:31] INFO root fetch - processPackages [odoo14-addon-hr-timesheet-sheet-attendance]: Downloading https://files.pythonhosted.org/packages/f8/f5/8d5fe6a810ff7fa085f228c389101aaa463eb72cf95f99d97d35fe4ebe8a/odoo14_addon_hr_timesheet_sheet_attendance-14.0.1.0.1.dev8-py3-none-any.whl
+[2023-06-07 07:33:31] INFO root fetch - processPackages [pyfed]: Downloading https://files.pythonhosted.org/packages/32/ef/3eec7df30b9e58f3c1f83576fb66074636104f03d66280061e608e1a0990/pyfed-0.0.9.tar.gz
+[2023-06-07 07:33:31] INFO root fetch - processPackages [odoo-addon-stock-picking-back2draft]: executing diffoscope
+[2023-06-07 07:33:31] INFO root fetch - processPackages [odoo-addon-stock-picking-back2draft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_picking_back2draft-16.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_stock_picking_back2draft-16.0.1.0.0.5-py3-none-any.whl.zip --markdown 20230607/o/odoo-addon-stock-picking-back2draft/16.0.1.0.0.4-16.0.1.0.0.5/diff.md --exclude *.pyd
+[2023-06-07 07:33:31] INFO root fetch - processPackages [pyfed-macos]: Downloading https://files.pythonhosted.org/packages/c1/4a/93258f81a2088b1dcadd78e2ea95922387eeeae684836035acfea3054e6e/pyfed_macos-0.0.9.tar.gz
+[2023-06-07 07:33:31] INFO root fetch - processPackages [odoo14-addon-hr-timesheet-sheet-attendance]: executing diffoscope
+[2023-06-07 07:33:31] INFO root fetch - processPackages [odoo14-addon-hr-timesheet-sheet-attendance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_hr_timesheet_sheet_attendance-14.0.1.0.1.dev7-py3-none-any.whl.zip tmp/odoo14_addon_hr_timesheet_sheet_attendance-14.0.1.0.1.dev8-py3-none-any.whl.zip --markdown 20230607/o/odoo14-addon-hr-timesheet-sheet-attendance/14.0.1.0.1.dev7-14.0.1.0.1.dev8/diff.md --exclude *.pyd
+[2023-06-07 07:33:31] INFO root fetch - processPackages [pyfed]: executing diffoscope
+[2023-06-07 07:33:31] INFO root fetch - processPackages [pyfed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfed-0.0.8.tar.gz tmp/pyfed-0.0.9.tar.gz --markdown 20230607/p/pyfed/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-07 07:33:31] INFO root fetch - processPackages [pyfed-macos]: executing diffoscope
+[2023-06-07 07:33:31] INFO root fetch - processPackages [pyfed-macos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfed_macos-0.0.8.tar.gz tmp/pyfed_macos-0.0.9.tar.gz --markdown 20230607/p/pyfed-macos/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-07 07:33:32] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy-thursday-2023.6.7.0.tar.gz]
+[2023-06-07 07:33:32] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy-thursday-2023.6.7.1.tar.gz]
+[2023-06-07 07:33:32] INFO root fetch - main [MainThread]: End processing [crazy-thursday]: success
+[2023-06-07 07:33:32] INFO root fetch - processPackages [formalmath]: Remove: archive file [/home/abi/fetcher/tmp/formalmath-0.0.2.tar.gz]
+[2023-06-07 07:33:32] INFO root fetch - processPackages [formalmath]: Remove: archive file [/home/abi/fetcher/tmp/formalmath-0.0.3.tar.gz]
+[2023-06-07 07:33:32] INFO root fetch - main [MainThread]: End processing [formalmath]: success
+[2023-06-07 07:33:32] INFO root fetch - processPackages [odoo-addon-stock-picking-back2draft]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_picking_back2draft-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2023-06-07 07:33:32] INFO root fetch - processPackages [odoo-addon-stock-picking-back2draft]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_picking_back2draft-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2023-06-07 07:33:32] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-picking-back2draft]: success
+[2023-06-07 07:33:32] INFO root fetch - processPackages [pyfed]: Remove: archive file [/home/abi/fetcher/tmp/pyfed-0.0.8.tar.gz]
+[2023-06-07 07:33:32] INFO root fetch - processPackages [pyfed]: Remove: archive file [/home/abi/fetcher/tmp/pyfed-0.0.9.tar.gz]
+[2023-06-07 07:33:32] INFO root fetch - main [MainThread]: End processing [pyfed]: success
+[2023-06-07 07:33:32] INFO root fetch - processPackages [odoo14-addon-hr-timesheet-sheet-attendance]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_hr_timesheet_sheet_attendance-14.0.1.0.1.dev7-py3-none-any.whl.zip]
+[2023-06-07 07:33:32] INFO root fetch - processPackages [odoo14-addon-hr-timesheet-sheet-attendance]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_hr_timesheet_sheet_attendance-14.0.1.0.1.dev8-py3-none-any.whl.zip]
+[2023-06-07 07:33:32] INFO root fetch - main [MainThread]: End processing [odoo14-addon-hr-timesheet-sheet-attendance]: success
+[2023-06-07 07:33:32] INFO root fetch - processPackages [hrin-msb]: Remove: archive file [/home/abi/fetcher/tmp/hrin_msb-0.2.8.tar.gz]
+[2023-06-07 07:33:32] INFO root fetch - processPackages [hrin-msb]: Remove: archive file [/home/abi/fetcher/tmp/hrin_msb-0.2.9.tar.gz]
+[2023-06-07 07:33:32] INFO root fetch - main [MainThread]: End processing [hrin-msb]: success
+[2023-06-07 07:33:32] INFO root fetch - processPackages [pyfed-macos]: Remove: archive file [/home/abi/fetcher/tmp/pyfed_macos-0.0.8.tar.gz]
+[2023-06-07 07:33:32] INFO root fetch - processPackages [pyfed-macos]: Remove: archive file [/home/abi/fetcher/tmp/pyfed_macos-0.0.9.tar.gz]
+[2023-06-07 07:33:32] INFO root fetch - main [MainThread]: End processing [pyfed-macos]: success
+[2023-06-07 07:33:32] INFO root fetch - main [MainThread]: Store serial: [18403136]
