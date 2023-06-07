@@ -12045,3 +12045,148 @@ AssertionError: tmp/odoo_addon_crm_lead_firstname-16.0.1.0.1-py3-none-any.whl.zi
 [2023-06-07 06:10:48] INFO root fetch - processPackages [libfsntfs-python]: Remove: archive file [/home/abi/fetcher/tmp/libfsntfs-python-20230606.tar.gz]
 [2023-06-07 06:10:48] INFO root fetch - main [MainThread]: End processing [libfsntfs-python]: success
 [2023-06-07 06:10:48] INFO root fetch - main [MainThread]: Store serial: [18402534]
+[2023-06-07 06:15:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18402534]
+[2023-06-07 06:15:58] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-06-07 06:15:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pysimflow
+[2023-06-07 06:15:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: customChatbot
+[2023-06-07 06:15:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pypcapkit
+[2023-06-07 06:15:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: NikClip
+[2023-06-07 06:15:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo12-addon-quality-control-issue
+[2023-06-07 06:15:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo13-addons-oca-manufacture
+[2023-06-07 06:15:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-stock-picking-product-kit-helper
+[2023-06-07 06:15:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-mrp-production-serial-matrix
+[2023-06-07 06:15:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addon-mrp-account-analytic
+[2023-06-07 06:15:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo14-addon-mrp-bom-note
+[2023-06-07 06:15:58] WARNING root fetch - processPackages [NikClip]: Skipping, unable to determine old version
+[2023-06-07 06:15:58] INFO root fetch - processPackages [NikClip]: Start processing: pyncraft
+[2023-06-07 06:15:58] INFO root fetch - main [MainThread]: End processing [NikClip] error
+[2023-06-07 06:15:58] INFO root fetch - processPackages [customChatbot]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-07 06:15:58] WARNING root fetch - processPackages [odoo-addon-stock-picking-product-kit-helper]: Skipping, unable to determine old version
+[2023-06-07 06:15:58] INFO root fetch - processPackages [odoo-addon-stock-picking-product-kit-helper]: Start processing: odoo-addons-oca-manufacture
+[2023-06-07 06:15:58] INFO root fetch - processPackages [odoo12-addon-quality-control-issue]: New version: [12.0.1.0.1.99.dev9] Old Version: [12.0.1.0.1.99.dev8]
+[2023-06-07 06:15:58] INFO root fetch - processPackages [odoo13-addons-oca-manufacture]: New version: [13.0.20230606.0] Old Version: [13.0.20220705.0]
+[2023-06-07 06:15:58] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-picking-product-kit-helper] error
+[2023-06-07 06:15:58] INFO root fetch - processPackages [odoo-addon-mrp-account-analytic]: New version: [15.0.1.0.1.3] Old Version: [15.0.1.0.1.2]
+[2023-06-07 06:15:58] INFO root fetch - processPackages [pysimflow]: New version: [0.0.52] Old Version: [0.0.51]
+[2023-06-07 06:15:58] INFO root fetch - processPackages [odoo14-addon-mrp-bom-note]: New version: [14.0.1.0.1.dev3] Old Version: [14.0.1.0.1.dev2]
+[2023-06-07 06:15:58] INFO root fetch - processPackages [odoo-addon-mrp-production-serial-matrix]: New version: [15.0.0.1.0.3] Old Version: [15.0.0.1.0.2]
+[2023-06-07 06:15:58] INFO root fetch - processPackages [pyncraft]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-07 06:15:58] INFO root fetch - processPackages [odoo-addons-oca-manufacture]: New version: [16.0.20230606.0] Old Version: [16.0.20230521.0]
+[2023-06-07 06:15:58] INFO root fetch - processPackages [pypcapkit]: New version: [1.0.2.post2] Old Version: [1.0.2.post1]
+[2023-06-07 06:15:58] INFO root fetch - processPackages [customChatbot]: Downloading https://files.pythonhosted.org/packages/da/0f/c21415f3c04a3a669b8f55bf9d669618632b59e52e6e098fbd9dde985261/customChatbot-0.1.1.tar.gz
+[2023-06-07 06:15:58] INFO root fetch - processPackages [pysimflow]: Downloading https://files.pythonhosted.org/packages/cd/55/5e7a268ff281c160c9bad3e34fad57fa7d37583675b89b9b4327b82a0dc2/pysimflow-0.0.51.tar.gz
+[2023-06-07 06:15:58] INFO root fetch - processPackages [odoo-addon-mrp-account-analytic]: Downloading https://files.pythonhosted.org/packages/26/84/28dc2b0a2d553a7fc16738ba1821124ef20168872c79cdd2ad42f293fbdd/odoo_addon_mrp_account_analytic-15.0.1.0.1.2-py3-none-any.whl
+[2023-06-07 06:15:58] INFO root fetch - processPackages [odoo12-addon-quality-control-issue]: Downloading https://files.pythonhosted.org/packages/e1/d9/405703b88c10f080babafbb8e2f44d2c2aa01e15e10a25b11a6c95bec82f/odoo12_addon_quality_control_issue-12.0.1.0.1.99.dev8-py3-none-any.whl
+[2023-06-07 06:15:58] INFO root fetch - processPackages [odoo-addons-oca-manufacture]: Downloading https://files.pythonhosted.org/packages/f0/8a/c7bd2f3e3c81dfd1f03c60a1fef754993fc4255ee774e4a60e69598056a9/odoo_addons_oca_manufacture-16.0.20230521.0-py3-none-any.whl
+[2023-06-07 06:15:58] INFO root fetch - processPackages [odoo13-addons-oca-manufacture]: Downloading https://files.pythonhosted.org/packages/e5/9a/e2a6d57cc53661e3e2ec41b97e8407044753babc465278b6b99c20eca91e/odoo13_addons_oca_manufacture-13.0.20220705.0-py3-none-any.whl
+[2023-06-07 06:15:58] INFO root fetch - processPackages [odoo14-addon-mrp-bom-note]: Downloading https://files.pythonhosted.org/packages/5b/cf/a25bb2859a8f72b03f4c38af31d723dcc4639e48dadacdc07f43a78db65e/odoo14_addon_mrp_bom_note-14.0.1.0.1.dev2-py3-none-any.whl
+[2023-06-07 06:15:58] INFO root fetch - processPackages [odoo-addon-mrp-production-serial-matrix]: Downloading https://files.pythonhosted.org/packages/02/a4/e70d5d8dca17ad8efec3fbc1ddcfd8458af43a9b8f4bb86381c24a96aff7/odoo_addon_mrp_production_serial_matrix-15.0.0.1.0.2-py3-none-any.whl
+[2023-06-07 06:15:58] INFO root fetch - processPackages [pypcapkit]: Downloading https://files.pythonhosted.org/packages/32/79/ecee13f12ccd3086a53e34ab4e831745864e76c81a65b4d4a8af88bd0889/pypcapkit-1.0.2.post1.tar.gz
+[2023-06-07 06:15:58] INFO root fetch - processPackages [pyncraft]: Downloading https://files.pythonhosted.org/packages/e2/78/1c8cb26fa2fac621bf8577763ee6b0ccf81c2413c97bb4ba1d6364a53872/pyncraft-0.1.0.tar.gz
+[2023-06-07 06:15:58] INFO root fetch - processPackages [customChatbot]: Downloading https://files.pythonhosted.org/packages/c5/9f/ab6bda5d1cfb2af76c5f2e7c51b46592a6071d33d5b8138037d630279512/customChatbot-0.1.2.tar.gz
+[2023-06-07 06:15:58] INFO root fetch - processPackages [customChatbot]: executing diffoscope
+[2023-06-07 06:15:58] INFO root fetch - processPackages [customChatbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/customChatbot-0.1.1.tar.gz tmp/customChatbot-0.1.2.tar.gz --markdown 20230607/c/customChatbot/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-07 06:15:58] INFO root fetch - processPackages [odoo-addons-oca-manufacture]: Downloading https://files.pythonhosted.org/packages/a4/ed/1840ffb2f04ab5a98d3bd13cb52f7c039931ce083b0a83ea261d3843aa42/odoo_addons_oca_manufacture-16.0.20230606.0-py3-none-any.whl
+[2023-06-07 06:15:58] INFO root fetch - processPackages [odoo-addon-mrp-account-analytic]: Downloading https://files.pythonhosted.org/packages/ae/f3/dc3f88685265ac56259dceadc9ff260c2c41a8a7e444a0e66425599c71ee/odoo_addon_mrp_account_analytic-15.0.1.0.1.3-py3-none-any.whl
+[2023-06-07 06:15:58] INFO root fetch - processPackages [odoo13-addons-oca-manufacture]: Downloading https://files.pythonhosted.org/packages/85/e1/c6f4136bb822bd28204c98c59b0d63234388789a89ba24d36649a1b2ad71/odoo13_addons_oca_manufacture-13.0.20230606.0-py3-none-any.whl
+[2023-06-07 06:15:58] INFO root fetch - processPackages [odoo-addon-mrp-production-serial-matrix]: Downloading https://files.pythonhosted.org/packages/f0/6a/c5f78da2c947986225ad544cf4d53e7c6a259f769abd3a5203c52c8d9cec/odoo_addon_mrp_production_serial_matrix-15.0.0.1.0.3-py3-none-any.whl
+[2023-06-07 06:15:58] INFO root fetch - processPackages [odoo14-addon-mrp-bom-note]: Downloading https://files.pythonhosted.org/packages/d7/47/f92e6fda73068e83e1f845607d6482f7dca2101a03d17fad09e2be8ebdeb/odoo14_addon_mrp_bom_note-14.0.1.0.1.dev3-py3-none-any.whl
+[2023-06-07 06:15:58] INFO root fetch - processPackages [pypcapkit]: Downloading https://files.pythonhosted.org/packages/02/6a/6613b4073959915875c635087282feff307a8b013b12490f5e5cbeb2047a/pypcapkit-1.0.2.post2.tar.gz
+[2023-06-07 06:15:58] INFO root fetch - processPackages [odoo-addons-oca-manufacture]: executing diffoscope
+[2023-06-07 06:15:58] INFO root fetch - processPackages [odoo-addons-oca-manufacture]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_manufacture-16.0.20230521.0-py3-none-any.whl.zip tmp/odoo_addons_oca_manufacture-16.0.20230606.0-py3-none-any.whl.zip --markdown 20230607/o/odoo-addons-oca-manufacture/16.0.20230521.0-16.0.20230606.0/diff.md --exclude *.pyd
+[2023-06-07 06:15:58] INFO root fetch - processPackages [pyncraft]: Downloading https://files.pythonhosted.org/packages/48/84/09640b21afc32ff14cf6355710f56020532ed39fcbe844152ce332d430cb/pyncraft-0.1.1.tar.gz
+[2023-06-07 06:15:58] INFO root fetch - processPackages [odoo12-addon-quality-control-issue]: Downloading https://files.pythonhosted.org/packages/51/e3/d2c0458b8f105836e8451456e15be75ed78a88e2c3a7a63cae87ae762a9f/odoo12_addon_quality_control_issue-12.0.1.0.1.99.dev9-py3-none-any.whl
+[2023-06-07 06:15:58] WARNING root fetch - processPackages [pysimflow]: Skipping package: exceeds size limit 72643639>=10485760
+[2023-06-07 06:15:58] INFO root fetch - processPackages [pysimflow]: Start processing: odoo14-addons-oca-manufacture
+[2023-06-07 06:15:58] INFO root fetch - main [MainThread]: End processing [pysimflow] error
+[2023-06-07 06:15:58] INFO root fetch - processPackages [odoo13-addons-oca-manufacture]: executing diffoscope
+[2023-06-07 06:15:58] INFO root fetch - processPackages [odoo13-addons-oca-manufacture]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addons_oca_manufacture-13.0.20220705.0-py3-none-any.whl.zip tmp/odoo13_addons_oca_manufacture-13.0.20230606.0-py3-none-any.whl.zip --markdown 20230607/o/odoo13-addons-oca-manufacture/13.0.20220705.0-13.0.20230606.0/diff.md --exclude *.pyd
+[2023-06-07 06:15:58] INFO root fetch - processPackages [odoo14-addons-oca-manufacture]: New version: [14.0.20230606.1] Old Version: [14.0.20230524.0]
+[2023-06-07 06:15:58] INFO root fetch - processPackages [pypcapkit]: executing diffoscope
+[2023-06-07 06:15:58] INFO root fetch - processPackages [pypcapkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypcapkit-1.0.2.post1.tar.gz tmp/pypcapkit-1.0.2.post2.tar.gz --markdown 20230607/p/pypcapkit/1.0.2.post1-1.0.2.post2/diff.md --exclude *.pyd
+[2023-06-07 06:15:58] INFO root fetch - processPackages [pyncraft]: executing diffoscope
+[2023-06-07 06:15:58] INFO root fetch - processPackages [pyncraft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyncraft-0.1.0.tar.gz tmp/pyncraft-0.1.1.tar.gz --markdown 20230607/p/pyncraft/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-07 06:15:58] INFO root fetch - processPackages [odoo12-addon-quality-control-issue]: executing diffoscope
+[2023-06-07 06:15:58] INFO root fetch - processPackages [odoo12-addon-quality-control-issue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_quality_control_issue-12.0.1.0.1.99.dev8-py3-none-any.whl.zip tmp/odoo12_addon_quality_control_issue-12.0.1.0.1.99.dev9-py3-none-any.whl.zip --markdown 20230607/o/odoo12-addon-quality-control-issue/12.0.1.0.1.99.dev8-12.0.1.0.1.99.dev9/diff.md --exclude *.pyd
+[2023-06-07 06:15:58] INFO root fetch - processPackages [odoo-addon-mrp-account-analytic]: executing diffoscope
+[2023-06-07 06:15:58] INFO root fetch - processPackages [odoo-addon-mrp-account-analytic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mrp_account_analytic-15.0.1.0.1.2-py3-none-any.whl.zip tmp/odoo_addon_mrp_account_analytic-15.0.1.0.1.3-py3-none-any.whl.zip --markdown 20230607/o/odoo-addon-mrp-account-analytic/15.0.1.0.1.2-15.0.1.0.1.3/diff.md --exclude *.pyd
+[2023-06-07 06:15:58] INFO root fetch - processPackages [odoo14-addon-mrp-bom-note]: executing diffoscope
+[2023-06-07 06:15:58] INFO root fetch - processPackages [odoo14-addon-mrp-bom-note]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_mrp_bom_note-14.0.1.0.1.dev2-py3-none-any.whl.zip tmp/odoo14_addon_mrp_bom_note-14.0.1.0.1.dev3-py3-none-any.whl.zip --markdown 20230607/o/odoo14-addon-mrp-bom-note/14.0.1.0.1.dev2-14.0.1.0.1.dev3/diff.md --exclude *.pyd
+[2023-06-07 06:15:58] INFO root fetch - processPackages [odoo-addon-mrp-production-serial-matrix]: executing diffoscope
+[2023-06-07 06:15:58] INFO root fetch - processPackages [odoo-addon-mrp-production-serial-matrix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mrp_production_serial_matrix-15.0.0.1.0.2-py3-none-any.whl.zip tmp/odoo_addon_mrp_production_serial_matrix-15.0.0.1.0.3-py3-none-any.whl.zip --markdown 20230607/o/odoo-addon-mrp-production-serial-matrix/15.0.0.1.0.2-15.0.0.1.0.3/diff.md --exclude *.pyd
+[2023-06-07 06:15:59] INFO root fetch - processPackages [odoo14-addons-oca-manufacture]: Downloading https://files.pythonhosted.org/packages/43/7a/0d0ac6c2e870b3914eb4bf76a1293a25b66e5a05c1d248c93a8dd157f11c/odoo14_addons_oca_manufacture-14.0.20230524.0-py3-none-any.whl
+[2023-06-07 06:15:59] INFO root fetch - processPackages [odoo14-addons-oca-manufacture]: Downloading https://files.pythonhosted.org/packages/18/09/d222b7758ed99ba81384db5565905c51a9b084cdcf989ef0f2cba4dbee2e/odoo14_addons_oca_manufacture-14.0.20230606.1-py3-none-any.whl
+[2023-06-07 06:15:59] INFO root fetch - processPackages [odoo14-addons-oca-manufacture]: executing diffoscope
+[2023-06-07 06:15:59] INFO root fetch - processPackages [odoo14-addons-oca-manufacture]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addons_oca_manufacture-14.0.20230524.0-py3-none-any.whl.zip tmp/odoo14_addons_oca_manufacture-14.0.20230606.1-py3-none-any.whl.zip --markdown 20230607/o/odoo14-addons-oca-manufacture/14.0.20230524.0-14.0.20230606.1/diff.md --exclude *.pyd
+[2023-06-07 06:16:00] INFO root fetch - processPackages [customChatbot]: Remove: archive file [/home/abi/fetcher/tmp/customChatbot-0.1.1.tar.gz]
+[2023-06-07 06:16:00] INFO root fetch - processPackages [customChatbot]: Remove: archive file [/home/abi/fetcher/tmp/customChatbot-0.1.2.tar.gz]
+[2023-06-07 06:16:00] INFO root fetch - processPackages [customChatbot]: Start processing: odoo-addon-mrp-bom-location
+[2023-06-07 06:16:00] INFO root fetch - main [MainThread]: End processing [customChatbot]: success
+[2023-06-07 06:16:00] INFO root fetch - processPackages [odoo-addon-mrp-bom-location]: New version: [16.0.1.0.0.3] Old Version: [16.0.1.0.0.2]
+[2023-06-07 06:16:00] INFO root fetch - processPackages [odoo-addon-mrp-bom-location]: Downloading https://files.pythonhosted.org/packages/17/8c/eb4f9dda9ddf857389340e21e7d37ab59593688725bdd497a28b4579d9af/odoo_addon_mrp_bom_location-16.0.1.0.0.2-py3-none-any.whl
+[2023-06-07 06:16:00] INFO root fetch - processPackages [odoo13-addons-oca-manufacture]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addons_oca_manufacture-13.0.20220705.0-py3-none-any.whl.zip]
+[2023-06-07 06:16:00] INFO root fetch - processPackages [odoo13-addons-oca-manufacture]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addons_oca_manufacture-13.0.20230606.0-py3-none-any.whl.zip]
+[2023-06-07 06:16:00] INFO root fetch - processPackages [odoo13-addons-oca-manufacture]: Start processing: pysimflow
+[2023-06-07 06:16:00] INFO root fetch - main [MainThread]: End processing [odoo13-addons-oca-manufacture]: success
+[2023-06-07 06:16:00] INFO root fetch - processPackages [odoo-addons-oca-manufacture]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_manufacture-16.0.20230521.0-py3-none-any.whl.zip]
+[2023-06-07 06:16:00] INFO root fetch - processPackages [odoo-addons-oca-manufacture]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_manufacture-16.0.20230606.0-py3-none-any.whl.zip]
+[2023-06-07 06:16:00] INFO root fetch - processPackages [odoo-addons-oca-manufacture]: Start processing: odoo-addons-oca-manufacture
+[2023-06-07 06:16:00] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-manufacture]: success
+[2023-06-07 06:16:00] INFO root fetch - processPackages [pysimflow]: New version: [0.0.52] Old Version: [0.0.51]
+[2023-06-07 06:16:00] INFO root fetch - processPackages [odoo-addons-oca-manufacture]: New version: [16.0.20230606.0] Old Version: [16.0.20230521.0]
+[2023-06-07 06:16:00] INFO root fetch - processPackages [pysimflow]: Downloading https://files.pythonhosted.org/packages/cd/55/5e7a268ff281c160c9bad3e34fad57fa7d37583675b89b9b4327b82a0dc2/pysimflow-0.0.51.tar.gz
+[2023-06-07 06:16:00] INFO root fetch - processPackages [odoo-addons-oca-manufacture]: Downloading https://files.pythonhosted.org/packages/f0/8a/c7bd2f3e3c81dfd1f03c60a1fef754993fc4255ee774e4a60e69598056a9/odoo_addons_oca_manufacture-16.0.20230521.0-py3-none-any.whl
+[2023-06-07 06:16:00] WARNING root fetch - processPackages [pysimflow]: Skipping package: exceeds size limit 72643639>=10485760
+[2023-06-07 06:16:00] INFO root fetch - processPackages [pysimflow]: Start processing: odoo13-addons-oca-manufacture-reporting
+[2023-06-07 06:16:00] INFO root fetch - main [MainThread]: End processing [pysimflow] error
+[2023-06-07 06:16:00] INFO root fetch - processPackages [odoo-addon-mrp-bom-location]: Downloading https://files.pythonhosted.org/packages/31/73/ac03d7ef5691bf1798b048a1a8692e496b5c2467b89f5b3efdb9974b3fc9/odoo_addon_mrp_bom_location-16.0.1.0.0.3-py3-none-any.whl
+[2023-06-07 06:16:00] INFO root fetch - processPackages [odoo-addons-oca-manufacture]: Downloading https://files.pythonhosted.org/packages/a4/ed/1840ffb2f04ab5a98d3bd13cb52f7c039931ce083b0a83ea261d3843aa42/odoo_addons_oca_manufacture-16.0.20230606.0-py3-none-any.whl
+[2023-06-07 06:16:00] INFO root fetch - processPackages [odoo13-addons-oca-manufacture-reporting]: New version: [13.0.20230606.0] Old Version: [13.0.20211016.0]
+[2023-06-07 06:16:00] INFO root fetch - processPackages [odoo-addon-mrp-bom-location]: executing diffoscope
+[2023-06-07 06:16:00] INFO root fetch - processPackages [odoo-addon-mrp-bom-location]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mrp_bom_location-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_mrp_bom_location-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230607/o/odoo-addon-mrp-bom-location/16.0.1.0.0.2-16.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-06-07 06:16:00] INFO root fetch - processPackages [odoo-addons-oca-manufacture]: executing diffoscope
+[2023-06-07 06:16:00] INFO root fetch - processPackages [odoo-addons-oca-manufacture]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_manufacture-16.0.20230521.0-py3-none-any.whl.zip tmp/odoo_addons_oca_manufacture-16.0.20230606.0-py3-none-any.whl.zip --markdown 20230607/o/odoo-addons-oca-manufacture/16.0.20230521.0-16.0.20230606.0/diff.md --exclude *.pyd
+[2023-06-07 06:16:00] INFO root fetch - processPackages [odoo-addon-mrp-production-serial-matrix]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mrp_production_serial_matrix-15.0.0.1.0.2-py3-none-any.whl.zip]
+[2023-06-07 06:16:00] INFO root fetch - processPackages [odoo-addon-mrp-production-serial-matrix]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mrp_production_serial_matrix-15.0.0.1.0.3-py3-none-any.whl.zip]
+[2023-06-07 06:16:00] INFO root fetch - processPackages [odoo-addon-mrp-production-serial-matrix]: Start processing: databend-py
+[2023-06-07 06:16:00] INFO root fetch - main [MainThread]: End processing [odoo-addon-mrp-production-serial-matrix]: success
+[2023-06-07 06:16:00] INFO root fetch - processPackages [odoo13-addons-oca-manufacture-reporting]: Downloading https://files.pythonhosted.org/packages/df/98/8f04cd649f04ecec863212f1b6a30c45a9b19f5c1d32165259f1a4da932d/odoo13_addons_oca_manufacture_reporting-13.0.20211016.0-py3-none-any.whl
+[2023-06-07 06:16:00] INFO root fetch - processPackages [odoo-addon-mrp-account-analytic]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mrp_account_analytic-15.0.1.0.1.2-py3-none-any.whl.zip]
+[2023-06-07 06:16:00] INFO root fetch - processPackages [odoo-addon-mrp-account-analytic]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mrp_account_analytic-15.0.1.0.1.3-py3-none-any.whl.zip]
+[2023-06-07 06:16:00] INFO root fetch - main [MainThread]: End processing [odoo-addon-mrp-account-analytic]: success
+[2023-06-07 06:16:00] INFO root fetch - processPackages [databend-py]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-06-07 06:16:00] INFO root fetch - processPackages [pyncraft]: Remove: archive file [/home/abi/fetcher/tmp/pyncraft-0.1.0.tar.gz]
+[2023-06-07 06:16:00] INFO root fetch - processPackages [pyncraft]: Remove: archive file [/home/abi/fetcher/tmp/pyncraft-0.1.1.tar.gz]
+[2023-06-07 06:16:00] INFO root fetch - main [MainThread]: End processing [pyncraft]: success
+[2023-06-07 06:16:00] INFO root fetch - processPackages [odoo14-addon-mrp-bom-note]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_mrp_bom_note-14.0.1.0.1.dev2-py3-none-any.whl.zip]
+[2023-06-07 06:16:00] INFO root fetch - processPackages [odoo14-addon-mrp-bom-note]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_mrp_bom_note-14.0.1.0.1.dev3-py3-none-any.whl.zip]
+[2023-06-07 06:16:00] INFO root fetch - main [MainThread]: End processing [odoo14-addon-mrp-bom-note]: success
+[2023-06-07 06:16:00] INFO root fetch - processPackages [odoo13-addons-oca-manufacture-reporting]: Downloading https://files.pythonhosted.org/packages/72/bf/deeb07c690d1c2f0fda86725a4fac26020957fb6b59910c288ea72f959f7/odoo13_addons_oca_manufacture_reporting-13.0.20230606.0-py3-none-any.whl
+[2023-06-07 06:16:01] INFO root fetch - processPackages [databend-py]: Downloading https://files.pythonhosted.org/packages/40/46/71af4a412f8117855952118b444f68094ea12d605a6f266c6deab3003547/databend_py-0.4.2-py3-none-any.whl
+[2023-06-07 06:16:01] INFO root fetch - processPackages [odoo12-addon-quality-control-issue]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_quality_control_issue-12.0.1.0.1.99.dev8-py3-none-any.whl.zip]
+[2023-06-07 06:16:01] INFO root fetch - processPackages [odoo12-addon-quality-control-issue]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_quality_control_issue-12.0.1.0.1.99.dev9-py3-none-any.whl.zip]
+[2023-06-07 06:16:01] INFO root fetch - main [MainThread]: End processing [odoo12-addon-quality-control-issue]: success
+[2023-06-07 06:16:01] INFO root fetch - processPackages [odoo14-addons-oca-manufacture]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_oca_manufacture-14.0.20230524.0-py3-none-any.whl.zip]
+[2023-06-07 06:16:01] INFO root fetch - processPackages [odoo14-addons-oca-manufacture]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_oca_manufacture-14.0.20230606.1-py3-none-any.whl.zip]
+[2023-06-07 06:16:01] INFO root fetch - main [MainThread]: End processing [odoo14-addons-oca-manufacture]: success
+[2023-06-07 06:16:01] INFO root fetch - processPackages [odoo13-addons-oca-manufacture-reporting]: executing diffoscope
+[2023-06-07 06:16:01] INFO root fetch - processPackages [odoo13-addons-oca-manufacture-reporting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addons_oca_manufacture_reporting-13.0.20211016.0-py3-none-any.whl.zip tmp/odoo13_addons_oca_manufacture_reporting-13.0.20230606.0-py3-none-any.whl.zip --markdown 20230607/o/odoo13-addons-oca-manufacture-reporting/13.0.20211016.0-13.0.20230606.0/diff.md --exclude *.pyd
+[2023-06-07 06:16:01] INFO root fetch - processPackages [databend-py]: Downloading https://files.pythonhosted.org/packages/6a/4b/4b0313375574e6cf43f94bf4356f00a87c84ccca57319124a4bc70d792d3/databend_py-0.4.3-py3-none-any.whl
+[2023-06-07 06:16:01] INFO root fetch - processPackages [databend-py]: executing diffoscope
+[2023-06-07 06:16:01] INFO root fetch - processPackages [databend-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/databend_py-0.4.2-py3-none-any.whl.zip tmp/databend_py-0.4.3-py3-none-any.whl.zip --markdown 20230607/d/databend-py/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-06-07 06:16:01] INFO root fetch - processPackages [odoo-addons-oca-manufacture]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_manufacture-16.0.20230521.0-py3-none-any.whl.zip]
+[2023-06-07 06:16:01] INFO root fetch - processPackages [odoo-addons-oca-manufacture]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_manufacture-16.0.20230606.0-py3-none-any.whl.zip]
+[2023-06-07 06:16:01] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-manufacture]: success
+[2023-06-07 06:16:01] INFO root fetch - processPackages [odoo-addon-mrp-bom-location]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mrp_bom_location-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-06-07 06:16:01] INFO root fetch - processPackages [odoo-addon-mrp-bom-location]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mrp_bom_location-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-06-07 06:16:01] INFO root fetch - main [MainThread]: End processing [odoo-addon-mrp-bom-location]: success
+[2023-06-07 06:16:02] INFO root fetch - processPackages [odoo13-addons-oca-manufacture-reporting]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addons_oca_manufacture_reporting-13.0.20211016.0-py3-none-any.whl.zip]
+[2023-06-07 06:16:02] INFO root fetch - processPackages [odoo13-addons-oca-manufacture-reporting]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addons_oca_manufacture_reporting-13.0.20230606.0-py3-none-any.whl.zip]
+[2023-06-07 06:16:02] INFO root fetch - main [MainThread]: End processing [odoo13-addons-oca-manufacture-reporting]: success
+[2023-06-07 06:16:02] INFO root fetch - processPackages [databend-py]: Remove: archive file [/home/abi/fetcher/tmp/databend_py-0.4.2-py3-none-any.whl.zip]
+[2023-06-07 06:16:02] INFO root fetch - processPackages [databend-py]: Remove: archive file [/home/abi/fetcher/tmp/databend_py-0.4.3-py3-none-any.whl.zip]
+[2023-06-07 06:16:02] INFO root fetch - main [MainThread]: End processing [databend-py]: success
+[2023-06-07 06:16:03] INFO root fetch - processPackages [pypcapkit]: Remove: archive file [/home/abi/fetcher/tmp/pypcapkit-1.0.2.post1.tar.gz]
+[2023-06-07 06:16:03] INFO root fetch - processPackages [pypcapkit]: Remove: archive file [/home/abi/fetcher/tmp/pypcapkit-1.0.2.post2.tar.gz]
+[2023-06-07 06:16:03] INFO root fetch - main [MainThread]: End processing [pypcapkit]: success
+[2023-06-07 06:16:03] INFO root fetch - main [MainThread]: Store serial: [18402583]
