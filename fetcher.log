@@ -18246,3 +18246,157 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-07 10:32:57] INFO root fetch - processPackages [Geode-Numerics]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Numerics-3.0.5rc1-cp39-cp39-win_amd64.whl.zip]
 [2023-06-07 10:32:57] INFO root fetch - main [MainThread]: End processing [Geode-Numerics]: success
 [2023-06-07 10:32:57] INFO root fetch - main [MainThread]: Store serial: [18405158]
+[2023-06-07 10:38:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18405158]
+[2023-06-07 10:38:07] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-06-07 10:38:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mltlk
+[2023-06-07 10:38:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: coderfastapi
+[2023-06-07 10:38:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: channel-box
+[2023-06-07 10:38:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: investor8-sdk
+[2023-06-07 10:38:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: appier-report
+[2023-06-07 10:38:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: windmill-api
+[2023-06-07 10:38:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wmill
+[2023-06-07 10:38:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mltlk
+[2023-06-07 10:38:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mm-sdk
+[2023-06-07 10:38:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: wmill-pg
+[2023-06-07 10:38:07] INFO root fetch - processPackages [mltlk]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-07 10:38:07] INFO root fetch - processPackages [mm-sdk]: New version: [0.1.3] Old Version: [0.1.283]
+[2023-06-07 10:38:07] INFO root fetch - processPackages [coderfastapi]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-06-07 10:38:07] INFO root fetch - processPackages [channel-box]: New version: [0.5.1.1] Old Version: [0.5.1]
+[2023-06-07 10:38:07] INFO root fetch - processPackages [appier-report]: New version: [1.1.0] Old Version: [1.0.3]
+[2023-06-07 10:38:07] INFO root fetch - processPackages [mltlk]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-07 10:38:07] INFO root fetch - processPackages [investor8-sdk]: New version: [1.1.9] Old Version: [1.1.88]
+[2023-06-07 10:38:07] INFO root fetch - processPackages [wmill]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-06-07 10:38:07] INFO root fetch - processPackages [wmill-pg]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-06-07 10:38:07] INFO root fetch - processPackages [windmill-api]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-06-07 10:38:07] INFO root fetch - processPackages [coderfastapi]: Downloading https://files.pythonhosted.org/packages/7e/57/ed94a72fad0f7a88f3671ca8abe1d9d45b5d91f4e92ba1458d93ec378701/coderfastapi-1.8.0.tar.gz
+[2023-06-07 10:38:07] INFO root fetch - processPackages [channel-box]: Downloading https://files.pythonhosted.org/packages/75/69/b1e123c7948816835ca644fe321ba68b049854daba881f048e894802f72c/channel_box-0.5.1-py3-none-any.whl
+[2023-06-07 10:38:07] INFO root fetch - processPackages [appier-report]: Downloading https://files.pythonhosted.org/packages/ca/53/99a453f0a5d68164826a92464ebd1772b06c134b2ea420c571d9778fb165/appier_report-1.0.3.tar.gz
+[2023-06-07 10:38:07] INFO root fetch - processPackages [mm-sdk]: Downloading https://files.pythonhosted.org/packages/6a/43/2c016631ef98f8937e7245923cc4604b7e6b85ad635461cb74b040d616e9/mm_sdk-0.1.283.tar.gz
+[2023-06-07 10:38:07] INFO root fetch - processPackages [mltlk]: Downloading https://files.pythonhosted.org/packages/41/6b/4e30b3d3043ecd4dc33de713cc7005c3d42d2bb5ae46e48a5966591589b9/mltlk-0.1.7.tar.gz
+[2023-06-07 10:38:07] INFO root fetch - processPackages [mltlk]: Downloading https://files.pythonhosted.org/packages/41/6b/4e30b3d3043ecd4dc33de713cc7005c3d42d2bb5ae46e48a5966591589b9/mltlk-0.1.7.tar.gz
+[2023-06-07 10:38:07] INFO root fetch - processPackages [investor8-sdk]: Downloading https://files.pythonhosted.org/packages/a5/8d/8453164823e0dd015cee62e5750608faeb14e798791a9d16755ce955dc92/investor8-sdk-1.1.88.tar.gz
+[2023-06-07 10:38:07] INFO root fetch - processPackages [windmill-api]: Downloading https://files.pythonhosted.org/packages/bd/de/5d29ca258adee967295dbf926ab306c480527c234336f0725d4c2bc1d718/windmill_api-1.98.0.tar.gz
+[2023-06-07 10:38:07] INFO root fetch - processPackages [wmill-pg]: Downloading https://files.pythonhosted.org/packages/a1/22/f7655b5ea090afc59651b874c61bf7bea4694e3fa9720a46058fa34c71ef/wmill_pg-1.98.0.tar.gz
+[2023-06-07 10:38:07] INFO root fetch - processPackages [wmill]: Downloading https://files.pythonhosted.org/packages/6d/91/6b6052c80b8d367e051cc2905d1d921bf9a11f63e27a0f802b5c1277aa20/wmill-1.98.0.tar.gz
+[2023-06-07 10:38:07] INFO root fetch - processPackages [channel-box]: Downloading https://files.pythonhosted.org/packages/c9/11/193acae043228550e45c84cf0d40dca5c02706b251552640e0c838c2f395/channel_box-0.5.1.1-py3-none-any.whl
+[2023-06-07 10:38:07] INFO root fetch - processPackages [coderfastapi]: Downloading https://files.pythonhosted.org/packages/a3/33/ee1cc3807c2fc3fb38757758ce0b7fa2d0592f96b037149e596a3e54da9f/coderfastapi-1.9.0.tar.gz
+[2023-06-07 10:38:07] INFO root fetch - processPackages [mm-sdk]: Downloading https://files.pythonhosted.org/packages/03/aa/d8c272285a7704066ac4561b833b5144e76c812479a75a91e1eff3bc24af/mm-sdk-0.1.3.tar.gz
+[2023-06-07 10:38:07] INFO root fetch - processPackages [channel-box]: executing diffoscope
+[2023-06-07 10:38:07] INFO root fetch - processPackages [channel-box]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/channel_box-0.5.1-py3-none-any.whl.zip tmp/channel_box-0.5.1.1-py3-none-any.whl.zip --markdown 20230607/c/channel-box/0.5.1-0.5.1.1/diff.md --exclude *.pyd
+[2023-06-07 10:38:07] INFO root fetch - processPackages [coderfastapi]: executing diffoscope
+[2023-06-07 10:38:07] INFO root fetch - processPackages [coderfastapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coderfastapi-1.8.0.tar.gz tmp/coderfastapi-1.9.0.tar.gz --markdown 20230607/c/coderfastapi/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-07 10:38:07] INFO root fetch - processPackages [appier-report]: Downloading https://files.pythonhosted.org/packages/4a/46/4518d50c2b9f2ddde04c1767b7bbff46b570b8fd6b0958eb20c917f20030/appier_report-1.1.0.tar.gz
+[2023-06-07 10:38:07] INFO root fetch - processPackages [investor8-sdk]: Downloading https://files.pythonhosted.org/packages/e1/47/bce97e7b7f029c51614461015e4e7e67b15aa1d08c9f6d2d8c3f7e259616/investor8-sdk-1.1.9.tar.gz
+[2023-06-07 10:38:07] INFO root fetch - processPackages [mm-sdk]: executing diffoscope
+[2023-06-07 10:38:07] INFO root fetch - processPackages [mm-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mm_sdk-0.1.283.tar.gz tmp/mm-sdk-0.1.3.tar.gz --markdown 20230607/m/mm-sdk/0.1.283-0.1.3/diff.md --exclude *.pyd
+[2023-06-07 10:38:07] INFO root fetch - processPackages [appier-report]: executing diffoscope
+[2023-06-07 10:38:07] INFO root fetch - processPackages [appier-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/appier_report-1.0.3.tar.gz tmp/appier_report-1.1.0.tar.gz --markdown 20230607/a/appier-report/1.0.3-1.1.0/diff.md --exclude *.pyd
+[2023-06-07 10:38:08] INFO root fetch - processPackages [wmill-pg]: Downloading https://files.pythonhosted.org/packages/26/ac/296bc5f7193d111c826ef99b60bf75fe1605158a73d728a5fad8aa771331/wmill_pg-1.99.0.tar.gz
+[2023-06-07 10:38:08] INFO root fetch - processPackages [windmill-api]: Downloading https://files.pythonhosted.org/packages/32/94/9431b41ce6b9c2670fbc125624f7ebc3d186482c80c271e3d7acde511319/windmill_api-1.99.0.tar.gz
+[2023-06-07 10:38:08] INFO root fetch - processPackages [wmill]: Downloading https://files.pythonhosted.org/packages/f1/d1/eb5b4c7d25f969fc3603441c8e90a5a8e00688be43ce0631166287977a65/wmill-1.99.0.tar.gz
+[2023-06-07 10:38:08] INFO root fetch - processPackages [wmill-pg]: executing diffoscope
+[2023-06-07 10:38:08] INFO root fetch - processPackages [wmill-pg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmill_pg-1.98.0.tar.gz tmp/wmill_pg-1.99.0.tar.gz --markdown 20230607/w/wmill-pg/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-06-07 10:38:08] INFO root fetch - processPackages [wmill]: executing diffoscope
+[2023-06-07 10:38:08] INFO root fetch - processPackages [wmill]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmill-1.98.0.tar.gz tmp/wmill-1.99.0.tar.gz --markdown 20230607/w/wmill/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-06-07 10:38:08] INFO root fetch - processPackages [windmill-api]: executing diffoscope
+[2023-06-07 10:38:08] INFO root fetch - processPackages [windmill-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windmill_api-1.98.0.tar.gz tmp/windmill_api-1.99.0.tar.gz --markdown 20230607/w/windmill-api/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-06-07 10:38:08] INFO root fetch - processPackages [investor8-sdk]: executing diffoscope
+[2023-06-07 10:38:08] INFO root fetch - processPackages [investor8-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/investor8-sdk-1.1.88.tar.gz tmp/investor8-sdk-1.1.9.tar.gz --markdown 20230607/i/investor8-sdk/1.1.88-1.1.9/diff.md --exclude *.pyd
+[2023-06-07 10:38:08] INFO root fetch - processPackages [mltlk]: Downloading https://files.pythonhosted.org/packages/a3/43/9f4afc1db775be90fa51d830a740d6aa8de155b1838d1c5480c183ce1c56/mltlk-0.1.8.tar.gz
+[2023-06-07 10:38:08] INFO root fetch - processPackages [mltlk]: Downloading https://files.pythonhosted.org/packages/a3/43/9f4afc1db775be90fa51d830a740d6aa8de155b1838d1c5480c183ce1c56/mltlk-0.1.8.tar.gz
+[2023-06-07 10:38:08] INFO root fetch - processPackages [mltlk]: executing diffoscope
+[2023-06-07 10:38:08] INFO root fetch - processPackages [mltlk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mltlk-0.1.7.tar.gz tmp/mltlk-0.1.8.tar.gz --markdown 20230607/m/mltlk/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-07 10:38:08] INFO root fetch - processPackages [mltlk]: executing diffoscope
+[2023-06-07 10:38:09] INFO root fetch - processPackages [mltlk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mltlk-0.1.7.tar.gz tmp/mltlk-0.1.8.tar.gz --markdown 20230607/m/mltlk/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-07 10:38:09] INFO root fetch - processPackages [channel-box]: Remove: archive file [/home/abi/fetcher/tmp/channel_box-0.5.1-py3-none-any.whl.zip]
+[2023-06-07 10:38:09] INFO root fetch - processPackages [channel-box]: Remove: archive file [/home/abi/fetcher/tmp/channel_box-0.5.1.1-py3-none-any.whl.zip]
+[2023-06-07 10:38:09] INFO root fetch - processPackages [channel-box]: Start processing: shibuya
+[2023-06-07 10:38:09] INFO root fetch - main [MainThread]: End processing [channel-box]: success
+[2023-06-07 10:38:09] INFO root fetch - processPackages [shibuya]: New version: [2023.6.7] Old Version: [2023.3.7]
+[2023-06-07 10:38:09] INFO root fetch - processPackages [coderfastapi]: Remove: archive file [/home/abi/fetcher/tmp/coderfastapi-1.8.0.tar.gz]
+[2023-06-07 10:38:09] INFO root fetch - processPackages [coderfastapi]: Remove: archive file [/home/abi/fetcher/tmp/coderfastapi-1.9.0.tar.gz]
+[2023-06-07 10:38:09] INFO root fetch - processPackages [coderfastapi]: Start processing: dtorch
+[2023-06-07 10:38:09] INFO root fetch - main [MainThread]: End processing [coderfastapi]: success
+[2023-06-07 10:38:09] INFO root fetch - processPackages [dtorch]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-07 10:38:09] INFO root fetch - processPackages [shibuya]: Downloading https://files.pythonhosted.org/packages/4a/18/a63a2afcee6c31a9084f54ad22a7bc3117ac242293957ca6912d810000cd/shibuya-2023.3.7.tar.gz
+[2023-06-07 10:38:09] INFO root fetch - processPackages [dtorch]: Downloading https://files.pythonhosted.org/packages/1c/15/02969996d53d10a87b7142bcf783fdfb7166ec8c16f9fda06c60318272ac/dtorch-0.0.1.tar.gz
+[2023-06-07 10:38:09] INFO root fetch - processPackages [mm-sdk]: Remove: archive file [/home/abi/fetcher/tmp/mm_sdk-0.1.283.tar.gz]
+[2023-06-07 10:38:09] INFO root fetch - processPackages [mm-sdk]: Remove: archive file [/home/abi/fetcher/tmp/mm-sdk-0.1.3.tar.gz]
+[2023-06-07 10:38:09] INFO root fetch - processPackages [mm-sdk]: Start processing: craft-ai-sdk
+[2023-06-07 10:38:09] INFO root fetch - main [MainThread]: End processing [mm-sdk]: success
+[2023-06-07 10:38:09] INFO root fetch - processPackages [craft-ai-sdk]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-07 10:38:09] INFO root fetch - processPackages [appier-report]: Remove: archive file [/home/abi/fetcher/tmp/appier_report-1.0.3.tar.gz]
+[2023-06-07 10:38:09] INFO root fetch - processPackages [appier-report]: Remove: archive file [/home/abi/fetcher/tmp/appier_report-1.1.0.tar.gz]
+[2023-06-07 10:38:09] INFO root fetch - processPackages [appier-report]: Start processing: computing-toolbox
+[2023-06-07 10:38:09] INFO root fetch - main [MainThread]: End processing [appier-report]: success
+[2023-06-07 10:38:09] INFO root fetch - processPackages [computing-toolbox]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-06-07 10:38:09] INFO root fetch - processPackages [wmill-pg]: Remove: archive file [/home/abi/fetcher/tmp/wmill_pg-1.98.0.tar.gz]
+[2023-06-07 10:38:09] INFO root fetch - processPackages [wmill-pg]: Remove: archive file [/home/abi/fetcher/tmp/wmill_pg-1.99.0.tar.gz]
+[2023-06-07 10:38:09] INFO root fetch - processPackages [wmill-pg]: Start processing: xocto
+[2023-06-07 10:38:09] INFO root fetch - main [MainThread]: End processing [wmill-pg]: success
+[2023-06-07 10:38:09] INFO root fetch - processPackages [xocto]: New version: [3.2.0] Old Version: [3.1.4]
+[2023-06-07 10:38:09] INFO root fetch - processPackages [shibuya]: Downloading https://files.pythonhosted.org/packages/b6/14/00db2c90848d599e4f70c512628854b186fdf662e7762054ba0866112e97/shibuya-2023.6.7.tar.gz
+[2023-06-07 10:38:09] INFO root fetch - processPackages [wmill]: Remove: archive file [/home/abi/fetcher/tmp/wmill-1.98.0.tar.gz]
+[2023-06-07 10:38:09] INFO root fetch - processPackages [wmill]: Remove: archive file [/home/abi/fetcher/tmp/wmill-1.99.0.tar.gz]
+[2023-06-07 10:38:09] INFO root fetch - processPackages [wmill]: Start processing: imjoy-rpc
+[2023-06-07 10:38:09] INFO root fetch - main [MainThread]: End processing [wmill]: success
+[2023-06-07 10:38:09] INFO root fetch - processPackages [shibuya]: executing diffoscope
+[2023-06-07 10:38:09] INFO root fetch - processPackages [shibuya]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shibuya-2023.3.7.tar.gz tmp/shibuya-2023.6.7.tar.gz --markdown 20230607/s/shibuya/2023.3.7-2023.6.7/diff.md --exclude *.pyd
+[2023-06-07 10:38:09] INFO root fetch - processPackages [craft-ai-sdk]: Downloading https://files.pythonhosted.org/packages/37/9a/425e98770d7c632e8edaa1eda238a5459ba6f00ddc434fcf87962f118a27/craft_ai_sdk-0.9.0.tar.gz
+[2023-06-07 10:38:09] INFO root fetch - processPackages [imjoy-rpc]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-06-07 10:38:09] INFO root fetch - processPackages [dtorch]: Downloading https://files.pythonhosted.org/packages/1d/6d/c8af64e7272ccd46cfdea28647fe7280f7866e74ead9a8811ba3e6f04d0c/dtorch-0.0.2.tar.gz
+[2023-06-07 10:38:09] INFO root fetch - processPackages [computing-toolbox]: Downloading https://files.pythonhosted.org/packages/a7/89/2b48ffad87f914b4974cee949b807db369486a53449a500a679911b06aed/computing-toolbox-0.2.1.tar.gz
+[2023-06-07 10:38:09] INFO root fetch - processPackages [dtorch]: executing diffoscope
+[2023-06-07 10:38:09] INFO root fetch - processPackages [dtorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dtorch-0.0.1.tar.gz tmp/dtorch-0.0.2.tar.gz --markdown 20230607/d/dtorch/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-07 10:38:09] INFO root fetch - processPackages [xocto]: Downloading https://files.pythonhosted.org/packages/d5/1e/f1fd259f5bfd392125576d00518f39d615338dc543db79bcc8a4ceee942a/xocto-3.1.4.tar.gz
+[2023-06-07 10:38:10] INFO root fetch - processPackages [computing-toolbox]: Downloading https://files.pythonhosted.org/packages/b9/70/517e4c90c80712efc48bc2e7341c2078c63d2734ec53966ddf7d0f5259a7/computing-toolbox-0.3.0.tar.gz
+[2023-06-07 10:38:10] INFO root fetch - processPackages [imjoy-rpc]: Downloading https://files.pythonhosted.org/packages/62/bf/e0cd8c6c4bfbc73547dd7a58b65fe8314743f962e1771888a1e6a088b01d/imjoy-rpc-0.5.8.tar.gz
+[2023-06-07 10:38:10] INFO root fetch - processPackages [computing-toolbox]: executing diffoscope
+[2023-06-07 10:38:10] INFO root fetch - processPackages [computing-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/computing-toolbox-0.2.1.tar.gz tmp/computing-toolbox-0.3.0.tar.gz --markdown 20230607/c/computing-toolbox/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-06-07 10:38:10] INFO root fetch - processPackages [craft-ai-sdk]: Downloading https://files.pythonhosted.org/packages/4b/d1/169475b438f1184af924d80d3cc7cb68caa2e756a9acb5c8cf6eafc0ca61/craft_ai_sdk-0.9.1.tar.gz
+[2023-06-07 10:38:10] INFO root fetch - processPackages [xocto]: Downloading https://files.pythonhosted.org/packages/ce/c1/9799b5f7962f4bf8ed9ae42466a800add1a84a2ef756571cbf9fcefc73ce/xocto-3.2.0.tar.gz
+[2023-06-07 10:38:10] INFO root fetch - processPackages [xocto]: executing diffoscope
+[2023-06-07 10:38:10] INFO root fetch - processPackages [xocto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xocto-3.1.4.tar.gz tmp/xocto-3.2.0.tar.gz --markdown 20230607/x/xocto/3.1.4-3.2.0/diff.md --exclude *.pyd
+[2023-06-07 10:38:10] INFO root fetch - processPackages [craft-ai-sdk]: executing diffoscope
+[2023-06-07 10:38:10] INFO root fetch - processPackages [craft-ai-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/craft_ai_sdk-0.9.0.tar.gz tmp/craft_ai_sdk-0.9.1.tar.gz --markdown 20230607/c/craft-ai-sdk/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-07 10:38:10] INFO root fetch - processPackages [imjoy-rpc]: Downloading https://files.pythonhosted.org/packages/32/2c/24a2fd77d69514d794a4e4c8db3307e0ef3e19e0338c3edb6bf7bdd4d021/imjoy-rpc-0.5.9.tar.gz
+[2023-06-07 10:38:10] INFO root fetch - processPackages [mltlk]: Remove: archive file [/home/abi/fetcher/tmp/mltlk-0.1.7.tar.gz]
+[2023-06-07 10:38:10] INFO root fetch - processPackages [mltlk]: Remove: archive file [/home/abi/fetcher/tmp/mltlk-0.1.8.tar.gz]
+[2023-06-07 10:38:10] INFO root fetch - processPackages [mltlk]: Start processing: docarray
+[2023-06-07 10:38:10] INFO root fetch - main [MainThread]: End processing [mltlk]: success
+[2023-06-07 10:38:10] INFO root fetch - processPackages [docarray]: New version: [0.9.9.dev5] Old Version: [0.9.9.dev4]
+[2023-06-07 10:38:10] INFO root fetch - processPackages [docarray]: Downloading https://files.pythonhosted.org/packages/da/d0/4e039d9e7c4e19f30fbd831f0bd4670ae9aa6b5c8b29e21ed55f7886c9fe/docarray-0.9.9.dev4.tar.gz
+[2023-06-07 10:38:10] INFO root fetch - main [MainThread]: End processing [mltlk]: success
+[2023-06-07 10:38:10] INFO root fetch - processPackages [docarray]: Downloading https://files.pythonhosted.org/packages/2b/4f/53a641fcaefc8774128d5f48cb2a7b2e692c8adfce1e2afaf8d9260d8b2a/docarray-0.9.9.dev5.tar.gz
+[2023-06-07 10:38:10] INFO root fetch - processPackages [docarray]: executing diffoscope
+[2023-06-07 10:38:10] INFO root fetch - processPackages [docarray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docarray-0.9.9.dev4.tar.gz tmp/docarray-0.9.9.dev5.tar.gz --markdown 20230607/d/docarray/0.9.9.dev4-0.9.9.dev5/diff.md --exclude *.pyd
+[2023-06-07 10:38:10] INFO root fetch - processPackages [imjoy-rpc]: executing diffoscope
+[2023-06-07 10:38:10] INFO root fetch - processPackages [imjoy-rpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imjoy-rpc-0.5.8.tar.gz tmp/imjoy-rpc-0.5.9.tar.gz --markdown 20230607/i/imjoy-rpc/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-06-07 10:38:11] INFO root fetch - processPackages [computing-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/computing-toolbox-0.2.1.tar.gz]
+[2023-06-07 10:38:11] INFO root fetch - processPackages [computing-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/computing-toolbox-0.3.0.tar.gz]
+[2023-06-07 10:38:11] INFO root fetch - main [MainThread]: End processing [computing-toolbox]: success
+[2023-06-07 10:38:11] INFO root fetch - processPackages [dtorch]: Remove: archive file [/home/abi/fetcher/tmp/dtorch-0.0.1.tar.gz]
+[2023-06-07 10:38:11] INFO root fetch - processPackages [dtorch]: Remove: archive file [/home/abi/fetcher/tmp/dtorch-0.0.2.tar.gz]
+[2023-06-07 10:38:11] INFO root fetch - main [MainThread]: End processing [dtorch]: success
+[2023-06-07 10:38:11] INFO root fetch - processPackages [shibuya]: Remove: archive file [/home/abi/fetcher/tmp/shibuya-2023.3.7.tar.gz]
+[2023-06-07 10:38:11] INFO root fetch - processPackages [shibuya]: Remove: archive file [/home/abi/fetcher/tmp/shibuya-2023.6.7.tar.gz]
+[2023-06-07 10:38:11] INFO root fetch - main [MainThread]: End processing [shibuya]: success
+[2023-06-07 10:38:11] INFO root fetch - processPackages [craft-ai-sdk]: Remove: archive file [/home/abi/fetcher/tmp/craft_ai_sdk-0.9.0.tar.gz]
+[2023-06-07 10:38:11] INFO root fetch - processPackages [craft-ai-sdk]: Remove: archive file [/home/abi/fetcher/tmp/craft_ai_sdk-0.9.1.tar.gz]
+[2023-06-07 10:38:11] INFO root fetch - main [MainThread]: End processing [craft-ai-sdk]: success
+[2023-06-07 10:38:12] INFO root fetch - processPackages [imjoy-rpc]: Remove: archive file [/home/abi/fetcher/tmp/imjoy-rpc-0.5.8.tar.gz]
+[2023-06-07 10:38:12] INFO root fetch - processPackages [imjoy-rpc]: Remove: archive file [/home/abi/fetcher/tmp/imjoy-rpc-0.5.9.tar.gz]
+[2023-06-07 10:38:12] INFO root fetch - main [MainThread]: End processing [imjoy-rpc]: success
+[2023-06-07 10:38:12] INFO root fetch - processPackages [xocto]: Remove: archive file [/home/abi/fetcher/tmp/xocto-3.1.4.tar.gz]
+[2023-06-07 10:38:12] INFO root fetch - processPackages [xocto]: Remove: archive file [/home/abi/fetcher/tmp/xocto-3.2.0.tar.gz]
+[2023-06-07 10:38:12] INFO root fetch - main [MainThread]: End processing [xocto]: success
+[2023-06-07 10:38:12] INFO root fetch - processPackages [docarray]: Remove: archive file [/home/abi/fetcher/tmp/docarray-0.9.9.dev4.tar.gz]
+[2023-06-07 10:38:12] INFO root fetch - processPackages [docarray]: Remove: archive file [/home/abi/fetcher/tmp/docarray-0.9.9.dev5.tar.gz]
+[2023-06-07 10:38:12] INFO root fetch - main [MainThread]: End processing [docarray]: success
+[2023-06-07 10:38:18] INFO root fetch - processPackages [investor8-sdk]: Remove: archive file [/home/abi/fetcher/tmp/investor8-sdk-1.1.88.tar.gz]
+[2023-06-07 10:38:18] INFO root fetch - processPackages [investor8-sdk]: Remove: archive file [/home/abi/fetcher/tmp/investor8-sdk-1.1.9.tar.gz]
+[2023-06-07 10:38:18] INFO root fetch - main [MainThread]: End processing [investor8-sdk]: success
+[2023-06-07 10:38:26] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.98.0.tar.gz]
+[2023-06-07 10:38:26] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.99.0.tar.gz]
+[2023-06-07 10:38:26] INFO root fetch - main [MainThread]: End processing [windmill-api]: success
+[2023-06-07 10:38:26] INFO root fetch - main [MainThread]: Store serial: [18405219]
