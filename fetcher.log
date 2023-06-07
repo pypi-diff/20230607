@@ -9570,3 +9570,81 @@
 [2023-06-07 03:57:35] INFO root fetch - processPackages [pubmed-types]: Remove: archive file [/home/abi/fetcher/tmp/pubmed_types-0.2.0.dev0.tar.gz]
 [2023-06-07 03:57:35] INFO root fetch - main [MainThread]: End processing [pubmed-types]: success
 [2023-06-07 03:57:35] INFO root fetch - main [MainThread]: Store serial: [18401682]
+[2023-06-07 04:02:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18401682]
+[2023-06-07 04:02:44] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-07 04:02:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: makdo
+[2023-06-07 04:02:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-wordpress
+[2023-06-07 04:02:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sqlsprinkler-python-GT3CH1
+[2023-06-07 04:02:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: insituTEM
+[2023-06-07 04:02:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: agixt
+[2023-06-07 04:02:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gpt4-api
+[2023-06-07 04:02:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: matrixlib-jfj
+[2023-06-07 04:02:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdk-lambda-layer-wget
+[2023-06-07 04:02:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: prismstudio-demo
+[2023-06-07 04:02:44] INFO root fetch - processPackages [sqlsprinkler-python-GT3CH1]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-07 04:02:44] INFO root fetch - processPackages [insituTEM]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-07 04:02:44] WARNING root fetch - processPackages [makdo]: Skipping, unable to determine old version
+[2023-06-07 04:02:44] INFO root fetch - main [MainThread]: End processing [makdo] error
+[2023-06-07 04:02:44] INFO root fetch - processPackages [agixt]: New version: [1.1.84b0] Old Version: [1.1.83b0]
+[2023-06-07 04:02:44] INFO root fetch - processPackages [prismstudio-demo]: New version: [1.1.2] Old Version: [1.1.1a0]
+[2023-06-07 04:02:44] INFO root fetch - processPackages [gpt4-api]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-07 04:02:44] INFO root fetch - processPackages [cdk-wordpress]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-07 04:02:44] INFO root fetch - processPackages [matrixlib-jfj]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-07 04:02:44] INFO root fetch - processPackages [sqlsprinkler-python-GT3CH1]: Downloading https://files.pythonhosted.org/packages/6d/17/bad131ab4d397b2a88be31cfea6b853a0877b0498deff22cee81d3e3dc20/sqlsprinkler_python_GT3CH1-0.0.8-py3-none-any.whl
+[2023-06-07 04:02:44] INFO root fetch - processPackages [cdk-lambda-layer-wget]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-07 04:02:44] INFO root fetch - processPackages [insituTEM]: Downloading https://files.pythonhosted.org/packages/ff/51/86ed6a6155289954d4ec1dee8cb217ffffb77192330efc5a02e82fbe66a6/insituTEM-0.1.3.tar.gz
+[2023-06-07 04:02:44] INFO root fetch - processPackages [matrixlib-jfj]: Downloading https://files.pythonhosted.org/packages/68/14/821f5d2e3ec23505b3b05658ce9bfe2b3847f2b59ca0864ae18efbcfc009/matrixlib_jfj-0.0.2.tar.gz
+[2023-06-07 04:02:44] INFO root fetch - processPackages [cdk-lambda-layer-wget]: Downloading https://files.pythonhosted.org/packages/f8/35/e47c6ddfa64ed9ac5f5a4b035ea0cc02916916c4bdbbbb9cc31928af9582/cdk-lambda-layer-wget-2.0.98.tar.gz
+[2023-06-07 04:02:44] INFO root fetch - processPackages [agixt]: Downloading https://files.pythonhosted.org/packages/3c/c1/8c1760397a6f1a6b6c7947bb460373940246f08834c0bb704f20a0cee8db/agixt-1.1.83b0.tar.gz
+[2023-06-07 04:02:44] INFO root fetch - processPackages [gpt4-api]: Downloading https://files.pythonhosted.org/packages/db/8f/89ae9e8e616d8c1a67f4f578fd192cf55d3bec74277039309427f1f5437a/gpt4-api-0.1.7.tar.gz
+[2023-06-07 04:02:44] INFO root fetch - processPackages [cdk-wordpress]: Downloading https://files.pythonhosted.org/packages/95/5a/46730445b7c8db7cad33c0b319cbd75004ba42b6cbe2f00628d2191c5516/cdk-wordpress-0.0.98.tar.gz
+[2023-06-07 04:02:44] INFO root fetch - processPackages [sqlsprinkler-python-GT3CH1]: Downloading https://files.pythonhosted.org/packages/9b/80/8442737b3afbc67704306d9df98b8096fe63702c0db41a5ac0ab3ba57ce8/sqlsprinkler_python_GT3CH1-0.0.9-py3-none-any.whl
+[2023-06-07 04:02:44] INFO root fetch - processPackages [prismstudio-demo]: Downloading https://files.pythonhosted.org/packages/c7/f0/3fcc9913dfb1805a2a16036896a456d133b7ccb56ee401c882682e212f57/prismstudio-demo-1.1.1a0.tar.gz
+[2023-06-07 04:02:44] INFO root fetch - processPackages [insituTEM]: Downloading https://files.pythonhosted.org/packages/e2/c2/be67201d4844565b0b14bcf5793408471fdde938c4611c4017cea6870502/insituTEM-0.1.4.tar.gz
+[2023-06-07 04:02:44] INFO root fetch - processPackages [sqlsprinkler-python-GT3CH1]: executing diffoscope
+[2023-06-07 04:02:44] INFO root fetch - processPackages [sqlsprinkler-python-GT3CH1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlsprinkler_python_GT3CH1-0.0.8-py3-none-any.whl.zip tmp/sqlsprinkler_python_GT3CH1-0.0.9-py3-none-any.whl.zip --markdown 20230607/s/sqlsprinkler-python-GT3CH1/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-07 04:02:44] INFO root fetch - processPackages [agixt]: Downloading https://files.pythonhosted.org/packages/43/03/ed3b76d655f23554f35759885b706d14c7f9819bc7a7902dc206b69feb9a/agixt-1.1.84b0.tar.gz
+[2023-06-07 04:02:44] INFO root fetch - processPackages [matrixlib-jfj]: Downloading https://files.pythonhosted.org/packages/96/25/9253148cd405c43cdaeacde2cbfd73206bb24fa97eb4eacf5741a11486f0/matrixlib_jfj-0.0.3.tar.gz
+[2023-06-07 04:02:44] INFO root fetch - processPackages [insituTEM]: executing diffoscope
+[2023-06-07 04:02:44] INFO root fetch - processPackages [insituTEM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/insituTEM-0.1.3.tar.gz tmp/insituTEM-0.1.4.tar.gz --markdown 20230607/i/insituTEM/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-07 04:02:45] INFO root fetch - processPackages [cdk-lambda-layer-wget]: Downloading https://files.pythonhosted.org/packages/98/52/07cb776b41ec70fb5cc0faffb812732ed10edeb529408976a37a888ef997/cdk-lambda-layer-wget-2.0.99.tar.gz
+[2023-06-07 04:02:45] INFO root fetch - processPackages [gpt4-api]: Downloading https://files.pythonhosted.org/packages/49/1d/40baccd55fa2035a9a931d2fabac0ea77b2e3456cc91c1353503e986ff47/gpt4-api-0.1.8.tar.gz
+[2023-06-07 04:02:45] INFO root fetch - processPackages [agixt]: executing diffoscope
+[2023-06-07 04:02:45] INFO root fetch - processPackages [agixt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agixt-1.1.83b0.tar.gz tmp/agixt-1.1.84b0.tar.gz --markdown 20230607/a/agixt/1.1.83b0-1.1.84b0/diff.md --exclude *.pyd
+[2023-06-07 04:02:45] INFO root fetch - processPackages [matrixlib-jfj]: executing diffoscope
+[2023-06-07 04:02:45] INFO root fetch - processPackages [matrixlib-jfj]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matrixlib_jfj-0.0.2.tar.gz tmp/matrixlib_jfj-0.0.3.tar.gz --markdown 20230607/m/matrixlib-jfj/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-07 04:02:45] INFO root fetch - processPackages [cdk-wordpress]: Downloading https://files.pythonhosted.org/packages/f5/33/8bc435266e926cea52eb7df452e54c2c0657beef07580a86eae44236d88b/cdk-wordpress-0.0.99.tar.gz
+[2023-06-07 04:02:45] INFO root fetch - processPackages [gpt4-api]: executing diffoscope
+[2023-06-07 04:02:45] INFO root fetch - processPackages [gpt4-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt4-api-0.1.7.tar.gz tmp/gpt4-api-0.1.8.tar.gz --markdown 20230607/g/gpt4-api/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-07 04:02:45] INFO root fetch - processPackages [prismstudio-demo]: Downloading https://files.pythonhosted.org/packages/3f/39/2f2807058f79132b8b168d85a7d580e7fbae550de12fb92620e0436ef53a/prismstudio-demo-1.1.2.tar.gz
+[2023-06-07 04:02:45] INFO root fetch - processPackages [cdk-lambda-layer-wget]: executing diffoscope
+[2023-06-07 04:02:45] INFO root fetch - processPackages [cdk-lambda-layer-wget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-wget-2.0.98.tar.gz tmp/cdk-lambda-layer-wget-2.0.99.tar.gz --markdown 20230607/c/cdk-lambda-layer-wget/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-07 04:02:45] INFO root fetch - processPackages [cdk-wordpress]: executing diffoscope
+[2023-06-07 04:02:45] INFO root fetch - processPackages [cdk-wordpress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-wordpress-0.0.98.tar.gz tmp/cdk-wordpress-0.0.99.tar.gz --markdown 20230607/c/cdk-wordpress/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-07 04:02:45] INFO root fetch - processPackages [prismstudio-demo]: executing diffoscope
+[2023-06-07 04:02:45] INFO root fetch - processPackages [prismstudio-demo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prismstudio-demo-1.1.1a0.tar.gz tmp/prismstudio-demo-1.1.2.tar.gz --markdown 20230607/p/prismstudio-demo/1.1.1a0-1.1.2/diff.md --exclude *.pyd
+[2023-06-07 04:02:46] INFO root fetch - processPackages [sqlsprinkler-python-GT3CH1]: Remove: archive file [/home/abi/fetcher/tmp/sqlsprinkler_python_GT3CH1-0.0.8-py3-none-any.whl.zip]
+[2023-06-07 04:02:46] INFO root fetch - processPackages [sqlsprinkler-python-GT3CH1]: Remove: archive file [/home/abi/fetcher/tmp/sqlsprinkler_python_GT3CH1-0.0.9-py3-none-any.whl.zip]
+[2023-06-07 04:02:46] INFO root fetch - main [MainThread]: End processing [sqlsprinkler-python-GT3CH1]: success
+[2023-06-07 04:02:46] INFO root fetch - processPackages [insituTEM]: Remove: archive file [/home/abi/fetcher/tmp/insituTEM-0.1.3.tar.gz]
+[2023-06-07 04:02:46] INFO root fetch - processPackages [insituTEM]: Remove: archive file [/home/abi/fetcher/tmp/insituTEM-0.1.4.tar.gz]
+[2023-06-07 04:02:46] INFO root fetch - main [MainThread]: End processing [insituTEM]: success
+[2023-06-07 04:02:46] INFO root fetch - processPackages [matrixlib-jfj]: Remove: archive file [/home/abi/fetcher/tmp/matrixlib_jfj-0.0.2.tar.gz]
+[2023-06-07 04:02:46] INFO root fetch - processPackages [matrixlib-jfj]: Remove: archive file [/home/abi/fetcher/tmp/matrixlib_jfj-0.0.3.tar.gz]
+[2023-06-07 04:02:46] INFO root fetch - main [MainThread]: End processing [matrixlib-jfj]: success
+[2023-06-07 04:02:46] INFO root fetch - processPackages [gpt4-api]: Remove: archive file [/home/abi/fetcher/tmp/gpt4-api-0.1.7.tar.gz]
+[2023-06-07 04:02:46] INFO root fetch - processPackages [gpt4-api]: Remove: archive file [/home/abi/fetcher/tmp/gpt4-api-0.1.8.tar.gz]
+[2023-06-07 04:02:46] INFO root fetch - main [MainThread]: End processing [gpt4-api]: success
+[2023-06-07 04:02:46] INFO root fetch - processPackages [cdk-wordpress]: Remove: archive file [/home/abi/fetcher/tmp/cdk-wordpress-0.0.98.tar.gz]
+[2023-06-07 04:02:46] INFO root fetch - processPackages [cdk-wordpress]: Remove: archive file [/home/abi/fetcher/tmp/cdk-wordpress-0.0.99.tar.gz]
+[2023-06-07 04:02:46] INFO root fetch - main [MainThread]: End processing [cdk-wordpress]: success
+[2023-06-07 04:02:46] INFO root fetch - processPackages [cdk-lambda-layer-wget]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-wget-2.0.98.tar.gz]
+[2023-06-07 04:02:46] INFO root fetch - processPackages [cdk-lambda-layer-wget]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-wget-2.0.99.tar.gz]
+[2023-06-07 04:02:46] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-wget]: success
+[2023-06-07 04:02:47] INFO root fetch - processPackages [prismstudio-demo]: Remove: archive file [/home/abi/fetcher/tmp/prismstudio-demo-1.1.1a0.tar.gz]
+[2023-06-07 04:02:47] INFO root fetch - processPackages [prismstudio-demo]: Remove: archive file [/home/abi/fetcher/tmp/prismstudio-demo-1.1.2.tar.gz]
+[2023-06-07 04:02:47] INFO root fetch - main [MainThread]: End processing [prismstudio-demo]: success
+[2023-06-07 04:02:47] INFO root fetch - processPackages [agixt]: Remove: archive file [/home/abi/fetcher/tmp/agixt-1.1.83b0.tar.gz]
+[2023-06-07 04:02:47] INFO root fetch - processPackages [agixt]: Remove: archive file [/home/abi/fetcher/tmp/agixt-1.1.84b0.tar.gz]
+[2023-06-07 04:02:47] INFO root fetch - main [MainThread]: End processing [agixt]: success
+[2023-06-07 04:02:47] INFO root fetch - main [MainThread]: Store serial: [18401714]
