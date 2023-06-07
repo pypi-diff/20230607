@@ -15689,3 +15689,103 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-07 09:31:57] INFO root fetch - processPackages [composabl-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_dev-0.2.1.dev8-cp38-cp38-macosx_11_0_arm64.whl.zip]
 [2023-06-07 09:31:57] INFO root fetch - main [MainThread]: End processing [composabl-dev]: success
 [2023-06-07 09:31:57] INFO root fetch - main [MainThread]: Store serial: [18404085]
+[2023-06-07 09:37:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18404085]
+[2023-06-07 09:37:06] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-07 09:37:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: penquins
+[2023-06-07 09:37:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openapi-to-fastapi
+[2023-06-07 09:37:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tlgateway
+[2023-06-07 09:37:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openapi-to-fastapi
+[2023-06-07 09:37:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pytlgateway
+[2023-06-07 09:37:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: apapi
+[2023-06-07 09:37:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: huntflow-webhook-models
+[2023-06-07 09:37:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lavacli
+[2023-06-07 09:37:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: wasabi
+[2023-06-07 09:37:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: data-product-definition-tooling
+[2023-06-07 09:37:06] INFO root fetch - processPackages [openapi-to-fastapi]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-07 09:37:06] INFO root fetch - processPackages [apapi]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-06-07 09:37:06] INFO root fetch - processPackages [lavacli]: New version: [2.0.1] Old Version: [2.0]
+[2023-06-07 09:37:06] INFO root fetch - processPackages [openapi-to-fastapi]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-07 09:37:06] INFO root fetch - processPackages [penquins]: New version: [2.3.1] Old Version: [2.2.0]
+[2023-06-07 09:37:06] INFO root fetch - processPackages [data-product-definition-tooling]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-07 09:37:06] INFO root fetch - processPackages [pytlgateway]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-07 09:37:06] INFO root fetch - processPackages [tlgateway]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-07 09:37:06] INFO root fetch - processPackages [huntflow-webhook-models]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-07 09:37:06] INFO root fetch - processPackages [wasabi]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-06-07 09:37:06] INFO root fetch - processPackages [lavacli]: Downloading https://files.pythonhosted.org/packages/fb/05/cf8d343289be84ea2acb37a005704eec8afcfcac03b08f57a72ee390d24e/lavacli-2.0.tar.gz
+[2023-06-07 09:37:06] INFO root fetch - processPackages [huntflow-webhook-models]: Downloading https://files.pythonhosted.org/packages/5e/58/23842784861c39d73bd779ac0bed19114693644fe17c9ad194ab841f673b/huntflow_webhook_models-0.0.4.tar.gz
+[2023-06-07 09:37:06] INFO root fetch - processPackages [pytlgateway]: Downloading https://files.pythonhosted.org/packages/e3/0b/a307305c8607d605d2d5f0ff5730b4e6e0455c02ef1ba9252280a95dc55a/pytlgateway-0.2.8.tar.gz
+[2023-06-07 09:37:06] INFO root fetch - processPackages [wasabi]: Downloading https://files.pythonhosted.org/packages/8d/d3/abe7d7d745657e43af711bdc58d4c9016f63546795ec9b5b62b2d9b89fa6/wasabi-1.1.1.tar.gz
+[2023-06-07 09:37:06] INFO root fetch - processPackages [apapi]: Downloading https://files.pythonhosted.org/packages/d7/d3/ef8ff779d97272a4e19527c0e9cfd84bb4632bb5a23b19feed978104f7a9/apapi-0.4.0.tar.gz
+[2023-06-07 09:37:06] INFO root fetch - processPackages [openapi-to-fastapi]: Downloading https://files.pythonhosted.org/packages/d9/e9/6b817cd0dbd4c358a219516afe0ae0eb61ddbb250da5dd9816ba70b76fb8/openapi_to_fastapi-0.8.0.tar.gz
+[2023-06-07 09:37:06] INFO root fetch - processPackages [data-product-definition-tooling]: Downloading https://files.pythonhosted.org/packages/92/47/41fe46cdc510f47cdb647f7edfb89457610db478b1dbac2bae5f2abe97cc/data_product_definition_tooling-0.0.8.tar.gz
+[2023-06-07 09:37:06] INFO root fetch - processPackages [openapi-to-fastapi]: Downloading https://files.pythonhosted.org/packages/d9/e9/6b817cd0dbd4c358a219516afe0ae0eb61ddbb250da5dd9816ba70b76fb8/openapi_to_fastapi-0.8.0.tar.gz
+[2023-06-07 09:37:06] INFO root fetch - processPackages [penquins]: Downloading https://files.pythonhosted.org/packages/48/75/0436916079429419932e8eb732e372daa31e998d5339d6ea020551cce5c1/penquins-2.2.0.tar.gz
+[2023-06-07 09:37:06] INFO root fetch - processPackages [tlgateway]: Downloading https://files.pythonhosted.org/packages/35/b5/caf8984bb26f6f0882adefb2fe248f314943e74fc6f5becd2e33c58505a1/tlgateway-0.2.8.tar.gz
+[2023-06-07 09:37:06] INFO root fetch - processPackages [huntflow-webhook-models]: Downloading https://files.pythonhosted.org/packages/cc/ed/8bd9800372deb5b7ecf3e936dd7c2654ab3370a07380a015f881a522ec96/huntflow_webhook_models-0.0.5.tar.gz
+[2023-06-07 09:37:07] INFO root fetch - processPackages [lavacli]: Downloading https://files.pythonhosted.org/packages/52/66/4974ce884d2d1e7e520261ccce5436c43eadbba9996bf57130b2b7265d60/lavacli-2.0.1.tar.gz
+[2023-06-07 09:37:07] INFO root fetch - processPackages [huntflow-webhook-models]: executing diffoscope
+[2023-06-07 09:37:07] INFO root fetch - processPackages [huntflow-webhook-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huntflow_webhook_models-0.0.4.tar.gz tmp/huntflow_webhook_models-0.0.5.tar.gz --markdown 20230607/h/huntflow-webhook-models/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-07 09:37:07] INFO root fetch - processPackages [lavacli]: executing diffoscope
+[2023-06-07 09:37:07] INFO root fetch - processPackages [lavacli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lavacli-2.0.tar.gz tmp/lavacli-2.0.1.tar.gz --markdown 20230607/l/lavacli/2.0-2.0.1/diff.md --exclude *.pyd
+[2023-06-07 09:37:07] INFO root fetch - processPackages [pytlgateway]: Downloading https://files.pythonhosted.org/packages/9f/e6/9b96f04a4f3ec43222c9c9fc99dfdaa689ae9fa03583b57727c461413769/pytlgateway-0.2.9.tar.gz
+[2023-06-07 09:37:07] INFO root fetch - processPackages [tlgateway]: Downloading https://files.pythonhosted.org/packages/1b/83/52f36a3a7bf56d581a8138b72788416f2e9432ff0b53ebeecada9a66e70a/tlgateway-0.2.9.tar.gz
+[2023-06-07 09:37:07] INFO root fetch - processPackages [wasabi]: Downloading https://files.pythonhosted.org/packages/3e/09/bbd7e880b56e825d5859a58adb1bd1feb45b604218706057ca1e3278fa62/wasabi-1.1.2.tar.gz
+[2023-06-07 09:37:07] INFO root fetch - processPackages [openapi-to-fastapi]: Downloading https://files.pythonhosted.org/packages/e3/b1/5980a7ee0d31164e97c3e1c63a0b70b2d53876678217b3dcf223eb73e0cd/openapi_to_fastapi-0.9.0.tar.gz
+[2023-06-07 09:37:07] INFO root fetch - processPackages [openapi-to-fastapi]: Downloading https://files.pythonhosted.org/packages/e3/b1/5980a7ee0d31164e97c3e1c63a0b70b2d53876678217b3dcf223eb73e0cd/openapi_to_fastapi-0.9.0.tar.gz
+[2023-06-07 09:37:07] INFO root fetch - processPackages [pytlgateway]: executing diffoscope
+[2023-06-07 09:37:07] INFO root fetch - processPackages [pytlgateway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytlgateway-0.2.8.tar.gz tmp/pytlgateway-0.2.9.tar.gz --markdown 20230607/p/pytlgateway/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-07 09:37:07] INFO root fetch - processPackages [apapi]: Downloading https://files.pythonhosted.org/packages/2f/ff/aced63e234a48e4bc0a7dff4eddad9d9f094508c75d296f284858f6fd0d5/apapi-0.5.0.tar.gz
+[2023-06-07 09:37:07] INFO root fetch - processPackages [penquins]: Downloading https://files.pythonhosted.org/packages/6b/41/723e59dbb9691af652fac2240434002c97936a63b4532c8b42f3f80f02d6/penquins-2.3.1.tar.gz
+[2023-06-07 09:37:07] INFO root fetch - processPackages [tlgateway]: executing diffoscope
+[2023-06-07 09:37:07] INFO root fetch - processPackages [tlgateway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tlgateway-0.2.8.tar.gz tmp/tlgateway-0.2.9.tar.gz --markdown 20230607/t/tlgateway/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-07 09:37:07] INFO root fetch - processPackages [apapi]: executing diffoscope
+[2023-06-07 09:37:07] INFO root fetch - processPackages [apapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apapi-0.4.0.tar.gz tmp/apapi-0.5.0.tar.gz --markdown 20230607/a/apapi/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-06-07 09:37:07] INFO root fetch - processPackages [openapi-to-fastapi]: executing diffoscope
+[2023-06-07 09:37:07] INFO root fetch - processPackages [openapi-to-fastapi]: executing diffoscope
+[2023-06-07 09:37:07] INFO root fetch - processPackages [openapi-to-fastapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openapi_to_fastapi-0.8.0.tar.gz tmp/openapi_to_fastapi-0.9.0.tar.gz --markdown 20230607/o/openapi-to-fastapi/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-07 09:37:07] INFO root fetch - processPackages [openapi-to-fastapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openapi_to_fastapi-0.8.0.tar.gz tmp/openapi_to_fastapi-0.9.0.tar.gz --markdown 20230607/o/openapi-to-fastapi/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-07 09:37:07] INFO root fetch - processPackages [wasabi]: executing diffoscope
+[2023-06-07 09:37:07] INFO root fetch - processPackages [wasabi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wasabi-1.1.1.tar.gz tmp/wasabi-1.1.2.tar.gz --markdown 20230607/w/wasabi/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-06-07 09:37:07] INFO root fetch - processPackages [penquins]: executing diffoscope
+[2023-06-07 09:37:07] INFO root fetch - processPackages [penquins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/penquins-2.2.0.tar.gz tmp/penquins-2.3.1.tar.gz --markdown 20230607/p/penquins/2.2.0-2.3.1/diff.md --exclude *.pyd
+[2023-06-07 09:37:07] INFO root fetch - processPackages [data-product-definition-tooling]: Downloading https://files.pythonhosted.org/packages/4d/f6/196421c707f9983b6c86e9c9142904a0764a5ebf6b7ab4ee01794e940b67/data_product_definition_tooling-0.0.9.tar.gz
+[2023-06-07 09:37:07] INFO root fetch - processPackages [data-product-definition-tooling]: executing diffoscope
+[2023-06-07 09:37:07] INFO root fetch - processPackages [data-product-definition-tooling]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_product_definition_tooling-0.0.8.tar.gz tmp/data_product_definition_tooling-0.0.9.tar.gz --markdown 20230607/d/data-product-definition-tooling/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-07 09:37:08] INFO root fetch - processPackages [tlgateway]: Remove: archive file [/home/abi/fetcher/tmp/tlgateway-0.2.8.tar.gz]
+[2023-06-07 09:37:08] INFO root fetch - processPackages [tlgateway]: Remove: archive file [/home/abi/fetcher/tmp/tlgateway-0.2.9.tar.gz]
+[2023-06-07 09:37:08] INFO root fetch - processPackages [tlgateway]: Start processing: dotpack
+[2023-06-07 09:37:08] INFO root fetch - main [MainThread]: End processing [tlgateway]: success
+[2023-06-07 09:37:08] INFO root fetch - processPackages [huntflow-webhook-models]: Remove: archive file [/home/abi/fetcher/tmp/huntflow_webhook_models-0.0.4.tar.gz]
+[2023-06-07 09:37:08] INFO root fetch - processPackages [huntflow-webhook-models]: Remove: archive file [/home/abi/fetcher/tmp/huntflow_webhook_models-0.0.5.tar.gz]
+[2023-06-07 09:37:08] INFO root fetch - main [MainThread]: End processing [huntflow-webhook-models]: success
+[2023-06-07 09:37:08] INFO root fetch - processPackages [dotpack]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-06-07 09:37:08] INFO root fetch - processPackages [openapi-to-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/openapi_to_fastapi-0.8.0.tar.gz]
+[2023-06-07 09:37:08] INFO root fetch - processPackages [openapi-to-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/openapi_to_fastapi-0.9.0.tar.gz]
+[2023-06-07 09:37:08] INFO root fetch - main [MainThread]: End processing [openapi-to-fastapi]: success
+[2023-06-07 09:37:08] INFO root fetch - processPackages [dotpack]: Downloading https://files.pythonhosted.org/packages/59/a8/4fba0d62a375276fb8c3512b8f44be53689155726a787f77d6f56d842078/dotpack-0.3.1.tar.gz
+[2023-06-07 09:37:09] INFO root fetch - processPackages [wasabi]: Remove: archive file [/home/abi/fetcher/tmp/wasabi-1.1.1.tar.gz]
+[2023-06-07 09:37:09] INFO root fetch - processPackages [wasabi]: Remove: archive file [/home/abi/fetcher/tmp/wasabi-1.1.2.tar.gz]
+[2023-06-07 09:37:09] INFO root fetch - main [MainThread]: End processing [wasabi]: success
+[2023-06-07 09:37:09] INFO root fetch - processPackages [data-product-definition-tooling]: Remove: archive file [/home/abi/fetcher/tmp/data_product_definition_tooling-0.0.8.tar.gz]
+[2023-06-07 09:37:09] INFO root fetch - processPackages [data-product-definition-tooling]: Remove: archive file [/home/abi/fetcher/tmp/data_product_definition_tooling-0.0.9.tar.gz]
+[2023-06-07 09:37:09] INFO root fetch - main [MainThread]: End processing [data-product-definition-tooling]: success
+[2023-06-07 09:37:09] INFO root fetch - processPackages [penquins]: Remove: archive file [/home/abi/fetcher/tmp/penquins-2.2.0.tar.gz]
+[2023-06-07 09:37:09] INFO root fetch - processPackages [penquins]: Remove: archive file [/home/abi/fetcher/tmp/penquins-2.3.1.tar.gz]
+[2023-06-07 09:37:09] INFO root fetch - main [MainThread]: End processing [penquins]: success
+[2023-06-07 09:37:09] INFO root fetch - processPackages [pytlgateway]: Remove: archive file [/home/abi/fetcher/tmp/pytlgateway-0.2.8.tar.gz]
+[2023-06-07 09:37:09] INFO root fetch - processPackages [pytlgateway]: Remove: archive file [/home/abi/fetcher/tmp/pytlgateway-0.2.9.tar.gz]
+[2023-06-07 09:37:09] INFO root fetch - main [MainThread]: End processing [pytlgateway]: success
+[2023-06-07 09:37:09] INFO root fetch - main [MainThread]: End processing [openapi-to-fastapi]: success
+[2023-06-07 09:37:09] INFO root fetch - processPackages [apapi]: Remove: archive file [/home/abi/fetcher/tmp/apapi-0.4.0.tar.gz]
+[2023-06-07 09:37:09] INFO root fetch - processPackages [apapi]: Remove: archive file [/home/abi/fetcher/tmp/apapi-0.5.0.tar.gz]
+[2023-06-07 09:37:09] INFO root fetch - main [MainThread]: End processing [apapi]: success
+[2023-06-07 09:37:09] INFO root fetch - processPackages [dotpack]: Downloading https://files.pythonhosted.org/packages/f0/94/8b13784c1e5f5edeafbb6cd3f88b2324a56ca521fa7d9bea991a805fd017/dotpack-0.3.2.tar.gz
+[2023-06-07 09:37:09] INFO root fetch - processPackages [dotpack]: executing diffoscope
+[2023-06-07 09:37:09] INFO root fetch - processPackages [dotpack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dotpack-0.3.1.tar.gz tmp/dotpack-0.3.2.tar.gz --markdown 20230607/d/dotpack/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-06-07 09:37:10] INFO root fetch - processPackages [lavacli]: Remove: archive file [/home/abi/fetcher/tmp/lavacli-2.0.tar.gz]
+[2023-06-07 09:37:10] INFO root fetch - processPackages [lavacli]: Remove: archive file [/home/abi/fetcher/tmp/lavacli-2.0.1.tar.gz]
+[2023-06-07 09:37:10] INFO root fetch - main [MainThread]: End processing [lavacli]: success
+[2023-06-07 09:37:10] INFO root fetch - processPackages [dotpack]: Remove: archive file [/home/abi/fetcher/tmp/dotpack-0.3.1.tar.gz]
+[2023-06-07 09:37:10] INFO root fetch - processPackages [dotpack]: Remove: archive file [/home/abi/fetcher/tmp/dotpack-0.3.2.tar.gz]
+[2023-06-07 09:37:10] INFO root fetch - main [MainThread]: End processing [dotpack]: success
+[2023-06-07 09:37:10] INFO root fetch - main [MainThread]: Store serial: [18404117]
