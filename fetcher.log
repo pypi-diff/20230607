@@ -12856,3 +12856,81 @@ AssertionError: tmp/odoo_addon_crm_lead_firstname-16.0.1.0.1-py3-none-any.whl.zi
 [2023-06-07 06:58:42] INFO root fetch - processPackages [echolocator]: Remove: archive file [/home/abi/fetcher/tmp/echolocator-1.5.0.tar.gz]
 [2023-06-07 06:58:42] INFO root fetch - main [MainThread]: End processing [echolocator]: success
 [2023-06-07 06:58:42] INFO root fetch - main [MainThread]: Store serial: [18402867]
+[2023-06-07 07:03:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18402867]
+[2023-06-07 07:03:51] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-07 07:03:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gtvision
+[2023-06-07 07:03:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PyMobileProvision
+[2023-06-07 07:03:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: findu
+[2023-06-07 07:03:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-sale-stock-secondary-unit
+[2023-06-07 07:03:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Injectulate
+[2023-06-07 07:03:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-sale-force-invoiced
+[2023-06-07 07:03:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: geo-espresso
+[2023-06-07 07:03:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tflite-runtime-nightly
+[2023-06-07 07:03:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addons-oca-sale-workflow
+[2023-06-07 07:03:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addons-oca-search-engine
+[2023-06-07 07:03:51] WARNING root fetch - processPackages [gtvision]: Skipping, unable to determine old version
+[2023-06-07 07:03:51] INFO root fetch - main [MainThread]: End processing [gtvision] error
+[2023-06-07 07:03:51] INFO root fetch - processPackages [Injectulate]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-07 07:03:51] INFO root fetch - processPackages [odoo-addon-sale-stock-secondary-unit]: New version: [15.0.1.0.1.2] Old Version: [15.0.1.0.1]
+[2023-06-07 07:03:51] WARNING root fetch - processPackages [odoo-addons-oca-search-engine]: Skipping, unable to determine old version
+[2023-06-07 07:03:51] INFO root fetch - processPackages [geo-espresso]: New version: [0.3.7] Old Version: [0.3.6]
+[2023-06-07 07:03:51] INFO root fetch - processPackages [odoo-addon-sale-force-invoiced]: New version: [16.0.1.0.0.3] Old Version: [16.0.1.0.0.2]
+[2023-06-07 07:03:51] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-search-engine] error
+[2023-06-07 07:03:51] INFO root fetch - processPackages [PyMobileProvision]: New version: [1.4.4] Old Version: [1.4.3]
+[2023-06-07 07:03:51] INFO root fetch - processPackages [findu]: New version: [0.0.16] Old Version: [0.0.15]
+[2023-06-07 07:03:51] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: New version: [16.0.20230606.1] Old Version: [16.0.20230605.1]
+[2023-06-07 07:03:51] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: Downloading https://files.pythonhosted.org/packages/56/be/aed656e9248f2d8032671b07d1932d8e02d7db9d7c3fa98992bb26f875a2/odoo_addons_oca_sale_workflow-16.0.20230605.1-py3-none-any.whl
+[2023-06-07 07:03:51] INFO root fetch - processPackages [odoo-addon-sale-force-invoiced]: Downloading https://files.pythonhosted.org/packages/73/a7/ce64bbe314b6b2da06ecd6b1ef978227edaf002adedb372b1969ee3b5501/odoo_addon_sale_force_invoiced-16.0.1.0.0.2-py3-none-any.whl
+[2023-06-07 07:03:51] INFO root fetch - processPackages [tflite-runtime-nightly]: New version: [2.14.0.dev20230606] Old Version: [2.14.0.dev20230604]
+[2023-06-07 07:03:51] INFO root fetch - processPackages [findu]: Downloading https://files.pythonhosted.org/packages/1e/2d/2df25da17620fb38886464e6216b7bd026253176e3c2d9882aeb51e77fda/findu-0.0.15.tar.gz
+[2023-06-07 07:03:51] INFO root fetch - processPackages [odoo-addon-sale-stock-secondary-unit]: Downloading https://files.pythonhosted.org/packages/f1/0b/ce9dfb3089e1c5175a318b33b9906f8c27a49ba1cfc11a3fbdf10a7005d0/odoo_addon_sale_stock_secondary_unit-15.0.1.0.1-py3-none-any.whl
+[2023-06-07 07:03:51] INFO root fetch - processPackages [Injectulate]: Downloading https://files.pythonhosted.org/packages/ef/83/267fc83a9ddfc1b9575415ec9a3341eeaff3bc3a75d052cd25bc9b76c9cc/Injectulate-0.0.1.tar.gz
+[2023-06-07 07:03:51] INFO root fetch - processPackages [geo-espresso]: Downloading https://files.pythonhosted.org/packages/40/96/336f16886fe46bd29cd48f6940a11879e567cc8910f64109791c9aeadcf9/geo-espresso-0.3.6.tar.gz
+[2023-06-07 07:03:51] INFO root fetch - processPackages [PyMobileProvision]: Downloading https://files.pythonhosted.org/packages/75/94/095759ff952b6619a80383e505e47ed6c7115f344880f16e89a4d29693fa/PyMobileProvision-1.4.3.tar.gz
+[2023-06-07 07:03:51] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: Downloading https://files.pythonhosted.org/packages/8a/10/360bdf0ac7959e9bc17350dd4fa687898aba1bee1881e3fa33906e0c344f/odoo_addons_oca_sale_workflow-16.0.20230606.1-py3-none-any.whl
+[2023-06-07 07:03:51] INFO root fetch - processPackages [tflite-runtime-nightly]: Downloading https://files.pythonhosted.org/packages/10/dd/241045ce0be9bf36b0030bd7d94d00c3b28f203388234b71f8d36363fe6d/tflite_runtime_nightly-2.14.0.dev20230604-cp39-cp39-manylinux2014_x86_64.whl
+[2023-06-07 07:03:51] INFO root fetch - processPackages [odoo-addon-sale-force-invoiced]: Downloading https://files.pythonhosted.org/packages/6d/ff/28702df5d16323965ef625d2f5d1fe5640ac71be8946eb0315c71890b77c/odoo_addon_sale_force_invoiced-16.0.1.0.0.3-py3-none-any.whl
+[2023-06-07 07:03:51] INFO root fetch - processPackages [PyMobileProvision]: Downloading https://files.pythonhosted.org/packages/56/96/98ad831da2b4176ed7ce1fa9ddb97757d9b44291a599b5b487d49d462f14/PyMobileProvision-1.4.4.tar.gz
+[2023-06-07 07:03:51] INFO root fetch - processPackages [Injectulate]: Downloading https://files.pythonhosted.org/packages/4c/2e/8e6188f2b7063d0962dd348fe8800db59dc19984ff1a0f68e15b42664cda/Injectulate-0.0.2.tar.gz
+[2023-06-07 07:03:51] INFO root fetch - processPackages [odoo-addon-sale-stock-secondary-unit]: Downloading https://files.pythonhosted.org/packages/87/95/3c3cbc1464493975000f582f83788be9443ab88cfd97851776ad2b3a0617/odoo_addon_sale_stock_secondary_unit-15.0.1.0.1.2-py3-none-any.whl
+[2023-06-07 07:03:51] INFO root fetch - processPackages [geo-espresso]: Downloading https://files.pythonhosted.org/packages/9b/d4/385e1c837e47b9d53f2e35ab35e8a811a3f9e6d694fce0f2af1322e68efd/geo-espresso-0.3.7.tar.gz
+[2023-06-07 07:03:51] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: executing diffoscope
+[2023-06-07 07:03:51] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_sale_workflow-16.0.20230605.1-py3-none-any.whl.zip tmp/odoo_addons_oca_sale_workflow-16.0.20230606.1-py3-none-any.whl.zip --markdown 20230607/o/odoo-addons-oca-sale-workflow/16.0.20230605.1-16.0.20230606.1/diff.md --exclude *.pyd
+[2023-06-07 07:03:51] INFO root fetch - processPackages [findu]: Downloading https://files.pythonhosted.org/packages/aa/24/ad716bfb7189035e72fdfe5336bcfa28caa4dd65f3f8f483812a610696e2/findu-0.0.16.tar.gz
+[2023-06-07 07:03:51] INFO root fetch - processPackages [PyMobileProvision]: executing diffoscope
+[2023-06-07 07:03:51] INFO root fetch - processPackages [PyMobileProvision]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyMobileProvision-1.4.3.tar.gz tmp/PyMobileProvision-1.4.4.tar.gz --markdown 20230607/P/PyMobileProvision/1.4.3-1.4.4/diff.md --exclude *.pyd
+[2023-06-07 07:03:51] INFO root fetch - processPackages [Injectulate]: executing diffoscope
+[2023-06-07 07:03:51] INFO root fetch - processPackages [Injectulate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Injectulate-0.0.1.tar.gz tmp/Injectulate-0.0.2.tar.gz --markdown 20230607/I/Injectulate/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-07 07:03:51] INFO root fetch - processPackages [odoo-addon-sale-force-invoiced]: executing diffoscope
+[2023-06-07 07:03:51] INFO root fetch - processPackages [odoo-addon-sale-force-invoiced]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_force_invoiced-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_sale_force_invoiced-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230607/o/odoo-addon-sale-force-invoiced/16.0.1.0.0.2-16.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-06-07 07:03:51] INFO root fetch - processPackages [odoo-addon-sale-stock-secondary-unit]: executing diffoscope
+[2023-06-07 07:03:51] INFO root fetch - processPackages [odoo-addon-sale-stock-secondary-unit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_stock_secondary_unit-15.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_sale_stock_secondary_unit-15.0.1.0.1.2-py3-none-any.whl.zip --markdown 20230607/o/odoo-addon-sale-stock-secondary-unit/15.0.1.0.1-15.0.1.0.1.2/diff.md --exclude *.pyd
+[2023-06-07 07:03:51] WARNING root fetch - processPackages [geo-espresso]: Skipping package: exceeds size limit 72132152>=10485760
+[2023-06-07 07:03:51] INFO root fetch - main [MainThread]: End processing [geo-espresso] error
+[2023-06-07 07:03:52] INFO root fetch - processPackages [findu]: executing diffoscope
+[2023-06-07 07:03:52] INFO root fetch - processPackages [findu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/findu-0.0.15.tar.gz tmp/findu-0.0.16.tar.gz --markdown 20230607/f/findu/0.0.15-0.0.16/diff.md --exclude *.pyd
+[2023-06-07 07:03:52] INFO root fetch - processPackages [tflite-runtime-nightly]: Downloading https://files.pythonhosted.org/packages/88/7f/e94069f340fe3f02969f1e52272e2b2b209eff2b54ec0167df93d7dd20c7/tflite_runtime_nightly-2.14.0.dev20230606-cp39-cp39-manylinux2014_x86_64.whl
+[2023-06-07 07:03:52] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_sale_workflow-16.0.20230605.1-py3-none-any.whl.zip]
+[2023-06-07 07:03:52] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_sale_workflow-16.0.20230606.1-py3-none-any.whl.zip]
+[2023-06-07 07:03:52] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-sale-workflow]: success
+[2023-06-07 07:03:53] INFO root fetch - processPackages [Injectulate]: Remove: archive file [/home/abi/fetcher/tmp/Injectulate-0.0.1.tar.gz]
+[2023-06-07 07:03:53] INFO root fetch - processPackages [Injectulate]: Remove: archive file [/home/abi/fetcher/tmp/Injectulate-0.0.2.tar.gz]
+[2023-06-07 07:03:53] INFO root fetch - main [MainThread]: End processing [Injectulate]: success
+[2023-06-07 07:03:53] INFO root fetch - processPackages [odoo-addon-sale-stock-secondary-unit]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_stock_secondary_unit-15.0.1.0.1-py3-none-any.whl.zip]
+[2023-06-07 07:03:53] INFO root fetch - processPackages [odoo-addon-sale-stock-secondary-unit]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_stock_secondary_unit-15.0.1.0.1.2-py3-none-any.whl.zip]
+[2023-06-07 07:03:53] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-stock-secondary-unit]: success
+[2023-06-07 07:03:53] INFO root fetch - processPackages [PyMobileProvision]: Remove: archive file [/home/abi/fetcher/tmp/PyMobileProvision-1.4.3.tar.gz]
+[2023-06-07 07:03:53] INFO root fetch - processPackages [PyMobileProvision]: Remove: archive file [/home/abi/fetcher/tmp/PyMobileProvision-1.4.4.tar.gz]
+[2023-06-07 07:03:53] INFO root fetch - main [MainThread]: End processing [PyMobileProvision]: success
+[2023-06-07 07:03:53] INFO root fetch - processPackages [findu]: Remove: archive file [/home/abi/fetcher/tmp/findu-0.0.15.tar.gz]
+[2023-06-07 07:03:53] INFO root fetch - processPackages [findu]: Remove: archive file [/home/abi/fetcher/tmp/findu-0.0.16.tar.gz]
+[2023-06-07 07:03:53] INFO root fetch - main [MainThread]: End processing [findu]: success
+[2023-06-07 07:03:53] INFO root fetch - processPackages [odoo-addon-sale-force-invoiced]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_force_invoiced-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-06-07 07:03:53] INFO root fetch - processPackages [odoo-addon-sale-force-invoiced]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_force_invoiced-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-06-07 07:03:53] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-force-invoiced]: success
+[2023-06-07 07:03:53] INFO root fetch - processPackages [tflite-runtime-nightly]: executing diffoscope
+[2023-06-07 07:03:53] INFO root fetch - processPackages [tflite-runtime-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tflite_runtime_nightly-2.14.0.dev20230604-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/tflite_runtime_nightly-2.14.0.dev20230606-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230607/t/tflite-runtime-nightly/2.14.0.dev20230604-2.14.0.dev20230606/diff.md --exclude *.pyd
+[2023-06-07 07:04:23] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.14.0.dev20230604-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-06-07 07:04:23] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.14.0.dev20230606-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-06-07 07:04:23] INFO root fetch - main [MainThread]: End processing [tflite-runtime-nightly]: success
+[2023-06-07 07:04:23] INFO root fetch - main [MainThread]: Store serial: [18402913]
