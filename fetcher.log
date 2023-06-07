@@ -5236,3 +5236,68 @@
 [2023-06-07 02:44:02] INFO root fetch - processPackages [state-machine-semaphore]: Remove: archive file [/home/abi/fetcher/tmp/state-machine-semaphore-0.1.99.tar.gz]
 [2023-06-07 02:44:02] INFO root fetch - main [MainThread]: End processing [state-machine-semaphore]: success
 [2023-06-07 02:44:02] INFO root fetch - main [MainThread]: Store serial: [18400089]
+[2023-06-07 02:49:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18400089]
+[2023-06-07 02:49:11] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-07 02:49:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: school-grader
+[2023-06-07 02:49:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: certora-cli-alpha-master
+[2023-06-07 02:49:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bolt
+[2023-06-07 02:49:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tfds-nightly
+[2023-06-07 02:49:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: auto-route
+[2023-06-07 02:49:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: xspf-fixup
+[2023-06-07 02:49:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kubric-nightly
+[2023-06-07 02:49:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: graphium
+[2023-06-07 02:49:11] INFO root fetch - processPackages [school-grader]: New version: [4.0.2] Old Version: [4.0.1]
+[2023-06-07 02:49:11] INFO root fetch - processPackages [xspf-fixup]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-06-07 02:49:11] INFO root fetch - processPackages [bolt]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-07 02:49:11] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230607.0.43.343179] Old Version: [20230606.8.17.503420]
+[2023-06-07 02:49:11] INFO root fetch - processPackages [auto-route]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-07 02:49:11] WARNING root fetch - processPackages [graphium]: Skipping, unable to determine old version
+[2023-06-07 02:49:11] INFO root fetch - main [MainThread]: End processing [graphium] error
+[2023-06-07 02:49:11] INFO root fetch - processPackages [tfds-nightly]: New version: [4.9.2.dev202306060045] Old Version: [4.9.2.dev202306050047]
+[2023-06-07 02:49:11] INFO root fetch - processPackages [school-grader]: Downloading https://files.pythonhosted.org/packages/7d/4c/7fc709b059767774b5eea692d573b07181d672d53f4b3679d033bae1a964/school_grader-4.0.1.tar.gz
+[2023-06-07 02:49:11] INFO root fetch - processPackages [auto-route]: Downloading https://files.pythonhosted.org/packages/92/12/7241af75279356957ec10136ea7b946ab23e6b215ddff9c6ced714b96144/auto_route-0.1.5.tar.gz
+[2023-06-07 02:49:11] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/5a/7f/19a7e7f2fdae4a4db10ca0a1664e07e4dd622ecae08487c49b5abec601b2/tfds-nightly-4.9.2.dev202306050047.tar.gz
+[2023-06-07 02:49:12] INFO root fetch - processPackages [kubric-nightly]: New version: [2023.6.7] Old Version: [2023.6.6]
+[2023-06-07 02:49:12] INFO root fetch - processPackages [xspf-fixup]: Downloading https://files.pythonhosted.org/packages/91/db/d191bc7c80b1b2f8320b124673f6bf1836b4ce8273005c4d7985e1118dac/xspf_fixup-0.9.2.tar.gz
+[2023-06-07 02:49:12] INFO root fetch - processPackages [bolt]: Downloading https://files.pythonhosted.org/packages/b0/b9/aaddbe8ae8cc9a097a85c0711e9c6d9607fa4d7468dfd1ab2f800d929674/bolt-0.9.0.tar.gz
+[2023-06-07 02:49:12] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/a3/bc/b2b39f539f6c81008f79cb147b72e30d6409911d4001277285e260e7f6ec/certora-cli-alpha-master-20230606.8.17.503420.tar.gz
+[2023-06-07 02:49:12] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 39202421>=10485760
+[2023-06-07 02:49:12] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-06-07 02:49:12] INFO root fetch - processPackages [school-grader]: Downloading https://files.pythonhosted.org/packages/25/64/c8d9f53c50d92d300f3b483d9283decdf1a5b5d425a05eef56be7bf46542/school_grader-4.0.2.tar.gz
+[2023-06-07 02:49:12] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/db/37/bc4bb376059666de4fbf92bf40a6e48e575a12906f408104afd1bd1ed302/tfds-nightly-4.9.2.dev202306060045.tar.gz
+[2023-06-07 02:49:12] INFO root fetch - processPackages [kubric-nightly]: Downloading https://files.pythonhosted.org/packages/11/7f/3a6deec76470297f38eec1f8547d8a84e3034190c4713474e12c35831155/kubric-nightly-2023.6.6.tar.gz
+[2023-06-07 02:49:12] INFO root fetch - processPackages [auto-route]: Downloading https://files.pythonhosted.org/packages/3d/4b/5b5d81be4e2bab97451d11e9e64ba0cf8ccdcfd4842284650a19e18fa97a/auto_route-0.1.6.tar.gz
+[2023-06-07 02:49:12] INFO root fetch - processPackages [xspf-fixup]: Downloading https://files.pythonhosted.org/packages/05/af/78bcf8b593e84eccf75e12a20420cdfcda0e45b6166e0eba77e46fd9a0d7/xspf_fixup-0.9.3.tar.gz
+[2023-06-07 02:49:12] INFO root fetch - processPackages [school-grader]: executing diffoscope
+[2023-06-07 02:49:12] INFO root fetch - processPackages [school-grader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/school_grader-4.0.1.tar.gz tmp/school_grader-4.0.2.tar.gz --markdown 20230607/s/school-grader/4.0.1-4.0.2/diff.md --exclude *.pyd
+[2023-06-07 02:49:12] INFO root fetch - processPackages [auto-route]: executing diffoscope
+[2023-06-07 02:49:12] INFO root fetch - processPackages [auto-route]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto_route-0.1.5.tar.gz tmp/auto_route-0.1.6.tar.gz --markdown 20230607/a/auto-route/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-07 02:49:12] INFO root fetch - processPackages [xspf-fixup]: executing diffoscope
+[2023-06-07 02:49:12] INFO root fetch - processPackages [xspf-fixup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xspf_fixup-0.9.2.tar.gz tmp/xspf_fixup-0.9.3.tar.gz --markdown 20230607/x/xspf-fixup/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-06-07 02:49:12] INFO root fetch - processPackages [tfds-nightly]: executing diffoscope
+[2023-06-07 02:49:12] INFO root fetch - processPackages [tfds-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfds-nightly-4.9.2.dev202306050047.tar.gz tmp/tfds-nightly-4.9.2.dev202306060045.tar.gz --markdown 20230607/t/tfds-nightly/4.9.2.dev202306050047-4.9.2.dev202306060045/diff.md --exclude *.pyd
+[2023-06-07 02:49:12] INFO root fetch - processPackages [bolt]: Downloading https://files.pythonhosted.org/packages/44/fb/099c90357e45099a47c6020a63bb445ee8cf608b319120018d3bcb6b4640/bolt-0.9.1.tar.gz
+[2023-06-07 02:49:12] INFO root fetch - processPackages [kubric-nightly]: Downloading https://files.pythonhosted.org/packages/ea/0c/a1221f3ea78e38c28215371d7a062e405aa1849161dcb08c29b96b136913/kubric-nightly-2023.6.7.tar.gz
+[2023-06-07 02:49:12] INFO root fetch - processPackages [bolt]: executing diffoscope
+[2023-06-07 02:49:12] INFO root fetch - processPackages [bolt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bolt-0.9.0.tar.gz tmp/bolt-0.9.1.tar.gz --markdown 20230607/b/bolt/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-07 02:49:12] INFO root fetch - processPackages [kubric-nightly]: executing diffoscope
+[2023-06-07 02:49:12] INFO root fetch - processPackages [kubric-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kubric-nightly-2023.6.6.tar.gz tmp/kubric-nightly-2023.6.7.tar.gz --markdown 20230607/k/kubric-nightly/2023.6.6-2023.6.7/diff.md --exclude *.pyd
+[2023-06-07 02:49:13] INFO root fetch - processPackages [auto-route]: Remove: archive file [/home/abi/fetcher/tmp/auto_route-0.1.5.tar.gz]
+[2023-06-07 02:49:13] INFO root fetch - processPackages [auto-route]: Remove: archive file [/home/abi/fetcher/tmp/auto_route-0.1.6.tar.gz]
+[2023-06-07 02:49:13] INFO root fetch - main [MainThread]: End processing [auto-route]: success
+[2023-06-07 02:49:13] INFO root fetch - processPackages [school-grader]: Remove: archive file [/home/abi/fetcher/tmp/school_grader-4.0.1.tar.gz]
+[2023-06-07 02:49:13] INFO root fetch - processPackages [school-grader]: Remove: archive file [/home/abi/fetcher/tmp/school_grader-4.0.2.tar.gz]
+[2023-06-07 02:49:13] INFO root fetch - main [MainThread]: End processing [school-grader]: success
+[2023-06-07 02:49:13] INFO root fetch - processPackages [xspf-fixup]: Remove: archive file [/home/abi/fetcher/tmp/xspf_fixup-0.9.2.tar.gz]
+[2023-06-07 02:49:13] INFO root fetch - processPackages [xspf-fixup]: Remove: archive file [/home/abi/fetcher/tmp/xspf_fixup-0.9.3.tar.gz]
+[2023-06-07 02:49:13] INFO root fetch - main [MainThread]: End processing [xspf-fixup]: success
+[2023-06-07 02:49:13] INFO root fetch - processPackages [bolt]: Remove: archive file [/home/abi/fetcher/tmp/bolt-0.9.0.tar.gz]
+[2023-06-07 02:49:13] INFO root fetch - processPackages [bolt]: Remove: archive file [/home/abi/fetcher/tmp/bolt-0.9.1.tar.gz]
+[2023-06-07 02:49:13] INFO root fetch - main [MainThread]: End processing [bolt]: success
+[2023-06-07 02:49:14] INFO root fetch - processPackages [kubric-nightly]: Remove: archive file [/home/abi/fetcher/tmp/kubric-nightly-2023.6.6.tar.gz]
+[2023-06-07 02:49:14] INFO root fetch - processPackages [kubric-nightly]: Remove: archive file [/home/abi/fetcher/tmp/kubric-nightly-2023.6.7.tar.gz]
+[2023-06-07 02:49:14] INFO root fetch - main [MainThread]: End processing [kubric-nightly]: success
+[2023-06-07 02:49:23] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.2.dev202306050047.tar.gz]
+[2023-06-07 02:49:23] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.2.dev202306060045.tar.gz]
+[2023-06-07 02:49:23] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
+[2023-06-07 02:49:23] INFO root fetch - main [MainThread]: Store serial: [18400120]
