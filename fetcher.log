@@ -15789,3 +15789,209 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-07 09:37:10] INFO root fetch - processPackages [dotpack]: Remove: archive file [/home/abi/fetcher/tmp/dotpack-0.3.2.tar.gz]
 [2023-06-07 09:37:10] INFO root fetch - main [MainThread]: End processing [dotpack]: success
 [2023-06-07 09:37:10] INFO root fetch - main [MainThread]: Store serial: [18404117]
+[2023-06-07 09:42:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18404117]
+[2023-06-07 09:42:19] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-06-07 09:42:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: finetuner-stubs
+[2023-06-07 09:42:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: finetuner-commons
+[2023-06-07 09:42:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyobjc-framework-AVFoundation
+[2023-06-07 09:42:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: windbg-copilot
+[2023-06-07 09:42:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lalsuite
+[2023-06-07 09:42:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyobjc-framework-AVKit
+[2023-06-07 09:42:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pybiolib
+[2023-06-07 09:42:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyobjc-framework-AVRouting
+[2023-06-07 09:42:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: thipster
+[2023-06-07 09:42:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyobjc-framework-Accessibility
+[2023-06-07 09:42:19] INFO root fetch - processPackages [finetuner-stubs]: New version: [0.9.3] Old Version: [0.13.7rc1]
+[2023-06-07 09:42:19] INFO root fetch - processPackages [windbg-copilot]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-07 09:42:19] INFO root fetch - processPackages [pyobjc-framework-AVRouting]: New version: [9.2] Old Version: [9.1b1]
+[2023-06-07 09:42:19] INFO root fetch - processPackages [pyobjc-framework-Accessibility]: New version: [9.2] Old Version: [9.1b1]
+[2023-06-07 09:42:19] INFO root fetch - processPackages [thipster]: New version: [0.14.4] Old Version: [0.14.3]
+[2023-06-07 09:42:19] INFO root fetch - processPackages [pyobjc-framework-AVKit]: New version: [9.2] Old Version: [9.1b1]
+[2023-06-07 09:42:19] INFO root fetch - processPackages [finetuner-commons]: New version: [0.9.3] Old Version: [0.13.7rc1]
+[2023-06-07 09:42:19] INFO root fetch - processPackages [pyobjc-framework-AVFoundation]: New version: [9.2] Old Version: [9.1b1]
+[2023-06-07 09:42:19] INFO root fetch - processPackages [pybiolib]: New version: [1.1.968] Old Version: [1.1.944]
+[2023-06-07 09:42:19] INFO root fetch - processPackages [lalsuite]: New version: [7.9] Old Version: [7.8]
+[2023-06-07 09:42:19] INFO root fetch - processPackages [thipster]: Downloading https://files.pythonhosted.org/packages/d3/3a/93957933804ca5717a9bbf910fbcf2ec2372a75657fdf08ad8768a192d84/thipster-0.14.3.tar.gz
+[2023-06-07 09:42:19] INFO root fetch - processPackages [finetuner-commons]: Downloading https://files.pythonhosted.org/packages/af/83/80e877e5179dae9c74883eea057fa55633b5ad449d48eb32f7d418b910f4/finetuner_commons-0.13.7rc1-py3-none-any.whl
+[2023-06-07 09:42:19] INFO root fetch - processPackages [windbg-copilot]: Downloading https://files.pythonhosted.org/packages/71/ea/d2f007dd070009549069b211e1e744fff2561aa857f0710bebd2ec2846f9/windbg_copilot-1.0.8.tar.gz
+[2023-06-07 09:42:19] INFO root fetch - processPackages [lalsuite]: Downloading https://files.pythonhosted.org/packages/53/92/fc43211ca56b7c5532fc1b47c701a564c7ddcaf866c62ae45acbfdc34f23/lalsuite-7.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-07 09:42:19] WARNING root fetch - processPackages [lalsuite]: Skipping package: exceeds size limit 48394251>=10485760
+[2023-06-07 09:42:19] INFO root fetch - processPackages [lalsuite]: Start processing: pyobjc-framework-Accounts
+[2023-06-07 09:42:19] INFO root fetch - main [MainThread]: End processing [lalsuite] error
+[2023-06-07 09:42:19] INFO root fetch - processPackages [pyobjc-framework-AVRouting]: Downloading https://files.pythonhosted.org/packages/1d/c9/ad179abf9efd168da6fa2d741cac208c61003c1abec8de5c889db566630a/pyobjc-framework-AVRouting-9.1b1.tar.gz
+[2023-06-07 09:42:19] INFO root fetch - processPackages [pyobjc-framework-AVKit]: Downloading https://files.pythonhosted.org/packages/d0/a1/bf362eb8f6dd617fb10a57770b592223082a6c6423e8f5903a7c543e751a/pyobjc-framework-AVKit-9.1b1.tar.gz
+[2023-06-07 09:42:19] INFO root fetch - processPackages [finetuner-stubs]: Downloading https://files.pythonhosted.org/packages/10/68/a66cdcbe0f2078798327c8cabfc21420e6e83ed89cc109cda03fe8d6645f/finetuner_stubs-0.13.7rc1-py3-none-any.whl
+[2023-06-07 09:42:20] INFO root fetch - processPackages [windbg-copilot]: Downloading https://files.pythonhosted.org/packages/98/4d/f4ca3fba186c8dbb546368432f218fe011dcaffda000df1ec41915ec520d/windbg_copilot-1.0.9.tar.gz
+[2023-06-07 09:42:20] INFO root fetch - processPackages [pyobjc-framework-Accounts]: New version: [9.2] Old Version: [9.1b1]
+[2023-06-07 09:42:20] INFO root fetch - processPackages [pyobjc-framework-Accessibility]: Downloading https://files.pythonhosted.org/packages/4e/ea/c53f590a1933b50719c8fbb7e10c623f8bcd8ec3d587c24d8b0a5e0fca38/pyobjc-framework-Accessibility-9.1b1.tar.gz
+[2023-06-07 09:42:20] INFO root fetch - processPackages [pyobjc-framework-AVFoundation]: Downloading https://files.pythonhosted.org/packages/8b/54/e8bec89d42dcdcfab62d7d0df39b216cbcf59537b81a7e12e555645e9ace/pyobjc-framework-AVFoundation-9.1b1.tar.gz
+[2023-06-07 09:42:20] INFO root fetch - processPackages [pybiolib]: Downloading https://files.pythonhosted.org/packages/b6/b1/4ace9cb0f9340219eecb4c16f6d14e55ae27efb420802d13b2cc00495e95/pybiolib-1.1.944.tar.gz
+[2023-06-07 09:42:20] INFO root fetch - processPackages [windbg-copilot]: executing diffoscope
+[2023-06-07 09:42:20] INFO root fetch - processPackages [windbg-copilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windbg_copilot-1.0.8.tar.gz tmp/windbg_copilot-1.0.9.tar.gz --markdown 20230607/w/windbg-copilot/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-07 09:42:20] INFO root fetch - processPackages [thipster]: Downloading https://files.pythonhosted.org/packages/bf/66/ee7f4e3df6639d71e91051850d8c9c1885bb217fcb80c87ab6e399196eb3/thipster-0.14.4.tar.gz
+[2023-06-07 09:42:20] INFO root fetch - processPackages [pyobjc-framework-AVKit]: Downloading https://files.pythonhosted.org/packages/09/88/13afdd266ab41e667994c7ff13a5bf55350668b03645037d7067c6eec95b/pyobjc_framework_AVKit-9.2-cp36-abi3-macosx_11_0_universal2.whl
+[2023-06-07 09:42:20] INFO root fetch - processPackages [pyobjc-framework-Accounts]: Downloading https://files.pythonhosted.org/packages/3e/ab/9a48aee9362f1671e950accfd1d23a8ee326319698bab2611a2271e9983f/pyobjc-framework-Accounts-9.1b1.tar.gz
+[2023-06-07 09:42:20] INFO root fetch - processPackages [finetuner-commons]: Downloading https://files.pythonhosted.org/packages/e1/c1/11430d37c19d8b297ea0e066a6e93ea1316ef71b4a98447a0f0eb51d465d/finetuner-commons-0.9.3.tar.gz
+[2023-06-07 09:42:20] INFO root fetch - processPackages [thipster]: executing diffoscope
+[2023-06-07 09:42:20] INFO root fetch - processPackages [thipster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thipster-0.14.3.tar.gz tmp/thipster-0.14.4.tar.gz --markdown 20230607/t/thipster/0.14.3-0.14.4/diff.md --exclude *.pyd
+[2023-06-07 09:42:20] INFO root fetch - processPackages [pybiolib]: Downloading https://files.pythonhosted.org/packages/ff/f1/b8629876c153149973770f81eff145b70e65837b25cd4cb8f9cc0309d56d/pybiolib-1.1.968.tar.gz
+[2023-06-07 09:42:20] INFO root fetch - processPackages [pyobjc-framework-AVRouting]: Downloading https://files.pythonhosted.org/packages/99/ea/9581cfac37e5c61d4bfe38e76f8e9db4eca43b3ed07b5ad01e8266de9a2f/pyobjc_framework_AVRouting-9.2-cp36-abi3-macosx_11_0_universal2.whl
+[2023-06-07 09:42:20] INFO root fetch - processPackages [finetuner-stubs]: Downloading https://files.pythonhosted.org/packages/ef/16/270441d5d09ae4589cc4559a4e500eceea41c57fc45893813e21f24b16dc/finetuner-stubs-0.9.3.tar.gz
+[2023-06-07 09:42:20] INFO root fetch - processPackages [pyobjc-framework-AVKit]: executing diffoscope
+[2023-06-07 09:42:20] INFO root fetch - processPackages [pyobjc-framework-AVKit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyobjc-framework-AVKit-9.1b1.tar.gz tmp/pyobjc_framework_AVKit-9.2-cp36-abi3-macosx_11_0_universal2.whl.zip --markdown 20230607/p/pyobjc-framework-AVKit/9.1b1-9.2/diff.md --exclude *.pyd
+[2023-06-07 09:42:20] INFO root fetch - processPackages [pyobjc-framework-Accessibility]: Downloading https://files.pythonhosted.org/packages/5f/6e/7b77008044df2f16700e8c5bf1ca416dc0a6914aa4f8277020b1f6b92968/pyobjc_framework_Accessibility-9.2-cp36-abi3-macosx_11_0_universal2.whl
+[2023-06-07 09:42:20] INFO root fetch - processPackages [finetuner-commons]: executing diffoscope
+[2023-06-07 09:42:20] INFO root fetch - processPackages [finetuner-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finetuner_commons-0.13.7rc1-py3-none-any.whl.zip tmp/finetuner-commons-0.9.3.tar.gz --markdown 20230607/f/finetuner-commons/0.13.7rc1-0.9.3/diff.md --exclude *.pyd
+[2023-06-07 09:42:20] INFO root fetch - processPackages [pybiolib]: executing diffoscope
+[2023-06-07 09:42:20] INFO root fetch - processPackages [pybiolib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybiolib-1.1.944.tar.gz tmp/pybiolib-1.1.968.tar.gz --markdown 20230607/p/pybiolib/1.1.944-1.1.968/diff.md --exclude *.pyd
+[2023-06-07 09:42:20] INFO root fetch - processPackages [pyobjc-framework-AVRouting]: executing diffoscope
+[2023-06-07 09:42:20] INFO root fetch - processPackages [pyobjc-framework-AVRouting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyobjc-framework-AVRouting-9.1b1.tar.gz tmp/pyobjc_framework_AVRouting-9.2-cp36-abi3-macosx_11_0_universal2.whl.zip --markdown 20230607/p/pyobjc-framework-AVRouting/9.1b1-9.2/diff.md --exclude *.pyd
+[2023-06-07 09:42:20] INFO root fetch - processPackages [pyobjc-framework-Accounts]: Downloading https://files.pythonhosted.org/packages/88/0b/93cc18218fa253302a767c4e6194bb4409036197cfb8b0e8c915087e5984/pyobjc_framework_Accounts-9.2-py2.py3-none-any.whl
+[2023-06-07 09:42:20] INFO root fetch - processPackages [finetuner-stubs]: executing diffoscope
+[2023-06-07 09:42:20] INFO root fetch - processPackages [finetuner-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finetuner_stubs-0.13.7rc1-py3-none-any.whl.zip tmp/finetuner-stubs-0.9.3.tar.gz --markdown 20230607/f/finetuner-stubs/0.13.7rc1-0.9.3/diff.md --exclude *.pyd
+[2023-06-07 09:42:20] INFO root fetch - processPackages [pyobjc-framework-Accessibility]: executing diffoscope
+[2023-06-07 09:42:20] INFO root fetch - processPackages [pyobjc-framework-Accessibility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyobjc-framework-Accessibility-9.1b1.tar.gz tmp/pyobjc_framework_Accessibility-9.2-cp36-abi3-macosx_11_0_universal2.whl.zip --markdown 20230607/p/pyobjc-framework-Accessibility/9.1b1-9.2/diff.md --exclude *.pyd
+[2023-06-07 09:42:20] INFO root fetch - processPackages [pyobjc-framework-AVFoundation]: Downloading https://files.pythonhosted.org/packages/c6/da/6d51eddfba9e1b7dbd209eaddac5eee0b2bacecc52b50df6e32ae6407142/pyobjc_framework_AVFoundation-9.2-cp36-abi3-macosx_11_0_universal2.whl
+[2023-06-07 09:42:20] INFO root fetch - processPackages [pyobjc-framework-Accounts]: executing diffoscope
+[2023-06-07 09:42:20] INFO root fetch - processPackages [pyobjc-framework-Accounts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyobjc-framework-Accounts-9.1b1.tar.gz tmp/pyobjc_framework_Accounts-9.2-py2.py3-none-any.whl.zip --markdown 20230607/p/pyobjc-framework-Accounts/9.1b1-9.2/diff.md --exclude *.pyd
+[2023-06-07 09:42:20] INFO root fetch - processPackages [pyobjc-framework-AVFoundation]: executing diffoscope
+[2023-06-07 09:42:20] INFO root fetch - processPackages [pyobjc-framework-AVFoundation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyobjc-framework-AVFoundation-9.1b1.tar.gz tmp/pyobjc_framework_AVFoundation-9.2-cp36-abi3-macosx_11_0_universal2.whl.zip --markdown 20230607/p/pyobjc-framework-AVFoundation/9.1b1-9.2/diff.md --exclude *.pyd
+[2023-06-07 09:42:21] INFO root fetch - processPackages [windbg-copilot]: Remove: archive file [/home/abi/fetcher/tmp/windbg_copilot-1.0.8.tar.gz]
+[2023-06-07 09:42:21] INFO root fetch - processPackages [windbg-copilot]: Remove: archive file [/home/abi/fetcher/tmp/windbg_copilot-1.0.9.tar.gz]
+[2023-06-07 09:42:21] INFO root fetch - processPackages [windbg-copilot]: Start processing: pyobjc-framework-AdServices
+[2023-06-07 09:42:21] INFO root fetch - main [MainThread]: End processing [windbg-copilot]: success
+[2023-06-07 09:42:21] INFO root fetch - processPackages [pyobjc-framework-AdServices]: New version: [9.2] Old Version: [9.1b1]
+[2023-06-07 09:42:21] INFO root fetch - processPackages [pyobjc-framework-AdServices]: Downloading https://files.pythonhosted.org/packages/7a/ac/52f54022d0dfd8c7356825b8bed0c56f7925a9ef56dad95d4cb394e8290f/pyobjc-framework-AdServices-9.1b1.tar.gz
+[2023-06-07 09:42:21] INFO root fetch - processPackages [finetuner-commons]: Remove: archive file [/home/abi/fetcher/tmp/finetuner_commons-0.13.7rc1-py3-none-any.whl.zip]
+[2023-06-07 09:42:21] INFO root fetch - processPackages [finetuner-commons]: Remove: archive file [/home/abi/fetcher/tmp/finetuner-commons-0.9.3.tar.gz]
+[2023-06-07 09:42:21] INFO root fetch - processPackages [finetuner-commons]: Start processing: pyobjc-framework-AdSupport
+[2023-06-07 09:42:21] INFO root fetch - main [MainThread]: End processing [finetuner-commons]: success
+[2023-06-07 09:42:22] INFO root fetch - processPackages [pyobjc-framework-AdSupport]: New version: [9.2] Old Version: [9.1b1]
+[2023-06-07 09:42:22] INFO root fetch - processPackages [finetuner-stubs]: Remove: archive file [/home/abi/fetcher/tmp/finetuner_stubs-0.13.7rc1-py3-none-any.whl.zip]
+[2023-06-07 09:42:22] INFO root fetch - processPackages [finetuner-stubs]: Remove: archive file [/home/abi/fetcher/tmp/finetuner-stubs-0.9.3.tar.gz]
+[2023-06-07 09:42:22] INFO root fetch - processPackages [finetuner-stubs]: Start processing: pyobjc-framework-AddressBook
+[2023-06-07 09:42:22] INFO root fetch - main [MainThread]: End processing [finetuner-stubs]: success
+[2023-06-07 09:42:22] INFO root fetch - processPackages [pyobjc-framework-AdServices]: Downloading https://files.pythonhosted.org/packages/5f/cb/3dd40a2d92647ec327cd1fcb0980734850cb161763a39c72713c8faccff7/pyobjc_framework_AdServices-9.2-py2.py3-none-any.whl
+[2023-06-07 09:42:22] INFO root fetch - processPackages [pyobjc-framework-Accounts]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-Accounts-9.1b1.tar.gz]
+[2023-06-07 09:42:22] INFO root fetch - processPackages [pyobjc-framework-Accounts]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc_framework_Accounts-9.2-py2.py3-none-any.whl.zip]
+[2023-06-07 09:42:22] INFO root fetch - processPackages [pyobjc-framework-Accounts]: Start processing: pyobjc-framework-AppTrackingTransparency
+[2023-06-07 09:42:22] INFO root fetch - main [MainThread]: End processing [pyobjc-framework-Accounts]: success
+[2023-06-07 09:42:22] INFO root fetch - processPackages [pyobjc-framework-AddressBook]: New version: [9.2] Old Version: [9.1b1]
+[2023-06-07 09:42:22] INFO root fetch - processPackages [pyobjc-framework-AdSupport]: Downloading https://files.pythonhosted.org/packages/12/a8/04f6364d898bff0294e378855aa4f27ecdfe46036818ee0afaa55e43d5fb/pyobjc-framework-AdSupport-9.1b1.tar.gz
+[2023-06-07 09:42:22] INFO root fetch - processPackages [pyobjc-framework-AVRouting]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-AVRouting-9.1b1.tar.gz]
+[2023-06-07 09:42:22] INFO root fetch - processPackages [pyobjc-framework-AVRouting]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc_framework_AVRouting-9.2-cp36-abi3-macosx_11_0_universal2.whl.zip]
+[2023-06-07 09:42:22] INFO root fetch - processPackages [pyobjc-framework-AVRouting]: Start processing: pyobjc-framework-AppleScriptKit
+[2023-06-07 09:42:22] INFO root fetch - main [MainThread]: End processing [pyobjc-framework-AVRouting]: success
+[2023-06-07 09:42:22] INFO root fetch - processPackages [pyobjc-framework-Accessibility]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-Accessibility-9.1b1.tar.gz]
+[2023-06-07 09:42:22] INFO root fetch - processPackages [pyobjc-framework-Accessibility]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc_framework_Accessibility-9.2-cp36-abi3-macosx_11_0_universal2.whl.zip]
+[2023-06-07 09:42:22] INFO root fetch - processPackages [pyobjc-framework-Accessibility]: Start processing: pyobjc-framework-AppleScriptObjC
+[2023-06-07 09:42:22] INFO root fetch - main [MainThread]: End processing [pyobjc-framework-Accessibility]: success
+[2023-06-07 09:42:22] INFO root fetch - processPackages [pyobjc-framework-AdServices]: executing diffoscope
+[2023-06-07 09:42:22] INFO root fetch - processPackages [pyobjc-framework-AdServices]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyobjc-framework-AdServices-9.1b1.tar.gz tmp/pyobjc_framework_AdServices-9.2-py2.py3-none-any.whl.zip --markdown 20230607/p/pyobjc-framework-AdServices/9.1b1-9.2/diff.md --exclude *.pyd
+[2023-06-07 09:42:22] INFO root fetch - processPackages [pyobjc-framework-AppTrackingTransparency]: New version: [9.2] Old Version: [9.1b1]
+[2023-06-07 09:42:22] INFO root fetch - processPackages [pyobjc-framework-AppleScriptKit]: New version: [9.2] Old Version: [9.1b1]
+[2023-06-07 09:42:22] INFO root fetch - processPackages [pyobjc-framework-AppleScriptObjC]: New version: [9.2] Old Version: [9.1b1]
+[2023-06-07 09:42:22] INFO root fetch - processPackages [pyobjc-framework-AdSupport]: Downloading https://files.pythonhosted.org/packages/0b/fc/f9935f12bf15b44ad58c183082f9bf8d8bd845677cc6ed5e20cb145351f0/pyobjc_framework_AdSupport-9.2-py2.py3-none-any.whl
+[2023-06-07 09:42:22] INFO root fetch - processPackages [pyobjc-framework-AddressBook]: Downloading https://files.pythonhosted.org/packages/93/ed/7868050e1846716e096ecb29b7f85a8f173852062052b461d4696f460820/pyobjc-framework-AddressBook-9.1b1.tar.gz
+[2023-06-07 09:42:22] INFO root fetch - processPackages [thipster]: Remove: archive file [/home/abi/fetcher/tmp/thipster-0.14.3.tar.gz]
+[2023-06-07 09:42:22] INFO root fetch - processPackages [thipster]: Remove: archive file [/home/abi/fetcher/tmp/thipster-0.14.4.tar.gz]
+[2023-06-07 09:42:22] INFO root fetch - processPackages [thipster]: Start processing: fugue
+[2023-06-07 09:42:22] INFO root fetch - main [MainThread]: End processing [thipster]: success
+[2023-06-07 09:42:22] INFO root fetch - processPackages [pyobjc-framework-AppTrackingTransparency]: Downloading https://files.pythonhosted.org/packages/c7/4b/94a9db893bc239e0eed58d71f43a54b47ec1a1b980dd8b5e3fe6288e5d52/pyobjc-framework-AppTrackingTransparency-9.1b1.tar.gz
+[2023-06-07 09:42:22] INFO root fetch - processPackages [pyobjc-framework-AppleScriptKit]: Downloading https://files.pythonhosted.org/packages/f4/f4/d7fc2fbdf6854570d82862a55e0f6e6121290e26994c70be523754057bdc/pyobjc-framework-AppleScriptKit-9.1b1.tar.gz
+[2023-06-07 09:42:22] INFO root fetch - processPackages [pyobjc-framework-AppleScriptObjC]: Downloading https://files.pythonhosted.org/packages/31/5f/33a041bcb1622dec9c190899b8b7c56a518eda9e04b430036cda91224579/pyobjc-framework-AppleScriptObjC-9.1b1.tar.gz
+[2023-06-07 09:42:22] INFO root fetch - processPackages [pybiolib]: Remove: archive file [/home/abi/fetcher/tmp/pybiolib-1.1.944.tar.gz]
+[2023-06-07 09:42:22] INFO root fetch - processPackages [pyobjc-framework-AdSupport]: executing diffoscope
+[2023-06-07 09:42:22] INFO root fetch - processPackages [pyobjc-framework-AdSupport]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyobjc-framework-AdSupport-9.1b1.tar.gz tmp/pyobjc_framework_AdSupport-9.2-py2.py3-none-any.whl.zip --markdown 20230607/p/pyobjc-framework-AdSupport/9.1b1-9.2/diff.md --exclude *.pyd
+[2023-06-07 09:42:22] INFO root fetch - processPackages [pybiolib]: Remove: archive file [/home/abi/fetcher/tmp/pybiolib-1.1.968.tar.gz]
+[2023-06-07 09:42:22] INFO root fetch - processPackages [pybiolib]: Start processing: pyobjc-framework-ApplicationServices
+[2023-06-07 09:42:22] INFO root fetch - main [MainThread]: End processing [pybiolib]: success
+[2023-06-07 09:42:22] INFO root fetch - processPackages [fugue]: New version: [0.8.5.dev1] Old Version: [0.8.4.dev2]
+[2023-06-07 09:42:22] INFO root fetch - processPackages [pyobjc-framework-AppTrackingTransparency]: Downloading https://files.pythonhosted.org/packages/cc/ea/04abc6e2629f964690b3e0850ec2ae2c85d3e1b6d414dd154ff15380b012/pyobjc_framework_AppTrackingTransparency-9.2-py2.py3-none-any.whl
+[2023-06-07 09:42:22] INFO root fetch - processPackages [pyobjc-framework-AddressBook]: Downloading https://files.pythonhosted.org/packages/0c/e8/c5009e93b663ec3272d124929d42d487593decb5ad6d7ca192640778b649/pyobjc_framework_AddressBook-9.2-cp36-abi3-macosx_11_0_universal2.whl
+[2023-06-07 09:42:22] INFO root fetch - processPackages [pyobjc-framework-ApplicationServices]: New version: [9.2] Old Version: [9.1b1]
+[2023-06-07 09:42:22] INFO root fetch - processPackages [pyobjc-framework-AppleScriptKit]: Downloading https://files.pythonhosted.org/packages/c6/29/0152a476db6c9cd55b54b6c6f3e8b855fab4e698e8b8428b78757831fb7e/pyobjc_framework_AppleScriptKit-9.2-py2.py3-none-any.whl
+[2023-06-07 09:42:22] INFO root fetch - processPackages [fugue]: Downloading https://files.pythonhosted.org/packages/0f/b9/a05fd156f95b4bbd55aad8c72992326724ac3416ff2d269fc99c53655954/fugue-0.8.4.dev2.tar.gz
+[2023-06-07 09:42:22] INFO root fetch - processPackages [pyobjc-framework-AppTrackingTransparency]: executing diffoscope
+[2023-06-07 09:42:22] INFO root fetch - processPackages [pyobjc-framework-AppTrackingTransparency]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyobjc-framework-AppTrackingTransparency-9.1b1.tar.gz tmp/pyobjc_framework_AppTrackingTransparency-9.2-py2.py3-none-any.whl.zip --markdown 20230607/p/pyobjc-framework-AppTrackingTransparency/9.1b1-9.2/diff.md --exclude *.pyd
+[2023-06-07 09:42:22] INFO root fetch - processPackages [pyobjc-framework-AddressBook]: executing diffoscope
+[2023-06-07 09:42:22] INFO root fetch - processPackages [pyobjc-framework-AddressBook]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyobjc-framework-AddressBook-9.1b1.tar.gz tmp/pyobjc_framework_AddressBook-9.2-cp36-abi3-macosx_11_0_universal2.whl.zip --markdown 20230607/p/pyobjc-framework-AddressBook/9.1b1-9.2/diff.md --exclude *.pyd
+[2023-06-07 09:42:22] INFO root fetch - processPackages [pyobjc-framework-AppleScriptObjC]: Downloading https://files.pythonhosted.org/packages/85/d8/ef8a1c0768c72a87c76f9277456cb0c4c55fe9afbc92637cd0f3b4054670/pyobjc_framework_AppleScriptObjC-9.2-py2.py3-none-any.whl
+[2023-06-07 09:42:22] INFO root fetch - processPackages [pyobjc-framework-AppleScriptKit]: executing diffoscope
+[2023-06-07 09:42:22] INFO root fetch - processPackages [pyobjc-framework-AppleScriptKit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyobjc-framework-AppleScriptKit-9.1b1.tar.gz tmp/pyobjc_framework_AppleScriptKit-9.2-py2.py3-none-any.whl.zip --markdown 20230607/p/pyobjc-framework-AppleScriptKit/9.1b1-9.2/diff.md --exclude *.pyd
+[2023-06-07 09:42:23] INFO root fetch - processPackages [pyobjc-framework-ApplicationServices]: Downloading https://files.pythonhosted.org/packages/be/2c/ad0648d856f4153e5ff64469c1c53ebb1d99f8f0aa60cf0ffbb64ef67b13/pyobjc-framework-ApplicationServices-9.1b1.tar.gz
+[2023-06-07 09:42:23] INFO root fetch - processPackages [pyobjc-framework-AppleScriptObjC]: executing diffoscope
+[2023-06-07 09:42:23] INFO root fetch - processPackages [pyobjc-framework-AppleScriptObjC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyobjc-framework-AppleScriptObjC-9.1b1.tar.gz tmp/pyobjc_framework_AppleScriptObjC-9.2-py2.py3-none-any.whl.zip --markdown 20230607/p/pyobjc-framework-AppleScriptObjC/9.1b1-9.2/diff.md --exclude *.pyd
+[2023-06-07 09:42:23] INFO root fetch - processPackages [fugue]: Downloading https://files.pythonhosted.org/packages/6f/f6/1ff1c9aea3f6bc3e0bcff5282f3eabb50b332ee7cfacfa8afa48038d3c89/fugue-0.8.5.dev1.tar.gz
+[2023-06-07 09:42:23] INFO root fetch - processPackages [pyobjc-framework-ApplicationServices]: Downloading https://files.pythonhosted.org/packages/31/cb/46beb3245c92e84b7061094e0dcc1f5c4c6e1588a80ff7812dcfd2660d86/pyobjc_framework_ApplicationServices-9.2-cp39-cp39-macosx_10_9_universal2.whl
+[2023-06-07 09:42:23] INFO root fetch - processPackages [pyobjc-framework-AVKit]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-AVKit-9.1b1.tar.gz]
+[2023-06-07 09:42:23] INFO root fetch - processPackages [pyobjc-framework-AVKit]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc_framework_AVKit-9.2-cp36-abi3-macosx_11_0_universal2.whl.zip]
+[2023-06-07 09:42:23] INFO root fetch - processPackages [pyobjc-framework-AVKit]: Start processing: ensta
+[2023-06-07 09:42:23] INFO root fetch - main [MainThread]: End processing [pyobjc-framework-AVKit]: success
+[2023-06-07 09:42:23] INFO root fetch - processPackages [ensta]: New version: [0.9] Old Version: [0.8]
+[2023-06-07 09:42:23] INFO root fetch - processPackages [fugue]: executing diffoscope
+[2023-06-07 09:42:23] INFO root fetch - processPackages [fugue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fugue-0.8.4.dev2.tar.gz tmp/fugue-0.8.5.dev1.tar.gz --markdown 20230607/f/fugue/0.8.4.dev2-0.8.5.dev1/diff.md --exclude *.pyd
+[2023-06-07 09:42:23] INFO root fetch - processPackages [ensta]: Downloading https://files.pythonhosted.org/packages/20/ad/02bb9ff3c191d24fa1b14e6eab9b2bfdb7793ce26d2a9dc9a821cd943520/ensta-0.8.tar.gz
+[2023-06-07 09:42:23] INFO root fetch - processPackages [pyobjc-framework-AdServices]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-AdServices-9.1b1.tar.gz]
+[2023-06-07 09:42:23] INFO root fetch - processPackages [pyobjc-framework-AdServices]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc_framework_AdServices-9.2-py2.py3-none-any.whl.zip]
+[2023-06-07 09:42:23] INFO root fetch - processPackages [pyobjc-framework-ApplicationServices]: executing diffoscope
+[2023-06-07 09:42:23] INFO root fetch - processPackages [pyobjc-framework-AdServices]: Start processing: upgini
+[2023-06-07 09:42:23] INFO root fetch - processPackages [pyobjc-framework-ApplicationServices]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyobjc-framework-ApplicationServices-9.1b1.tar.gz tmp/pyobjc_framework_ApplicationServices-9.2-cp39-cp39-macosx_10_9_universal2.whl.zip --markdown 20230607/p/pyobjc-framework-ApplicationServices/9.1b1-9.2/diff.md --exclude *.pyd
+[2023-06-07 09:42:23] INFO root fetch - main [MainThread]: End processing [pyobjc-framework-AdServices]: success
+[2023-06-07 09:42:23] INFO root fetch - processPackages [upgini]: New version: [1.1.99] Old Version: [1.1.98]
+[2023-06-07 09:42:23] INFO root fetch - processPackages [ensta]: Downloading https://files.pythonhosted.org/packages/9d/0b/4080c328d9d7850d3e49e12bfee8b74c916012919a65a6bd87138c8cc615/ensta-0.9.tar.gz
+[2023-06-07 09:42:23] INFO root fetch - processPackages [upgini]: Downloading https://files.pythonhosted.org/packages/59/79/dc47448e0c68a4e00d9d0b7f4c640207fa605fe48cdc53e30221037a1962/upgini-1.1.98.tar.gz
+[2023-06-07 09:42:23] INFO root fetch - processPackages [ensta]: executing diffoscope
+[2023-06-07 09:42:23] INFO root fetch - processPackages [ensta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ensta-0.8.tar.gz tmp/ensta-0.9.tar.gz --markdown 20230607/e/ensta/0.8-0.9/diff.md --exclude *.pyd
+[2023-06-07 09:42:23] INFO root fetch - processPackages [upgini]: Downloading https://files.pythonhosted.org/packages/32/f1/1df90a6a856d855308ddf057a7b8cdad7dbcafb6230f0592bbff90f929fd/upgini-1.1.99.tar.gz
+[2023-06-07 09:42:23] INFO root fetch - processPackages [upgini]: executing diffoscope
+[2023-06-07 09:42:23] INFO root fetch - processPackages [upgini]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upgini-1.1.98.tar.gz tmp/upgini-1.1.99.tar.gz --markdown 20230607/u/upgini/1.1.98-1.1.99/diff.md --exclude *.pyd
+[2023-06-07 09:42:24] INFO root fetch - processPackages [pyobjc-framework-AdSupport]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-AdSupport-9.1b1.tar.gz]
+[2023-06-07 09:42:24] INFO root fetch - processPackages [pyobjc-framework-AdSupport]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc_framework_AdSupport-9.2-py2.py3-none-any.whl.zip]
+[2023-06-07 09:42:24] INFO root fetch - processPackages [pyobjc-framework-AdSupport]: Start processing: LumosWeb
+[2023-06-07 09:42:24] INFO root fetch - main [MainThread]: End processing [pyobjc-framework-AdSupport]: success
+[2023-06-07 09:42:24] INFO root fetch - processPackages [LumosWeb]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-07 09:42:24] INFO root fetch - processPackages [pyobjc-framework-AddressBook]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-AddressBook-9.1b1.tar.gz]
+[2023-06-07 09:42:24] INFO root fetch - processPackages [pyobjc-framework-AddressBook]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc_framework_AddressBook-9.2-cp36-abi3-macosx_11_0_universal2.whl.zip]
+[2023-06-07 09:42:24] INFO root fetch - processPackages [pyobjc-framework-AddressBook]: Start processing: pyobjc-framework-AudioVideoBridging
+[2023-06-07 09:42:24] INFO root fetch - main [MainThread]: End processing [pyobjc-framework-AddressBook]: success
+[2023-06-07 09:42:24] INFO root fetch - processPackages [pyobjc-framework-AudioVideoBridging]: New version: [9.1b1] Old Version: [9.1.1]
+[2023-06-07 09:42:24] INFO root fetch - processPackages [LumosWeb]: Downloading https://files.pythonhosted.org/packages/c4/87/8a202509714cb1169b97774988b38a677fc899178eb233e2dbe589a31fd3/LumosWeb-1.0.2.tar.gz
+[2023-06-07 09:42:24] INFO root fetch - processPackages [pyobjc-framework-AppTrackingTransparency]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-AppTrackingTransparency-9.1b1.tar.gz]
+[2023-06-07 09:42:24] INFO root fetch - processPackages [pyobjc-framework-AppTrackingTransparency]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc_framework_AppTrackingTransparency-9.2-py2.py3-none-any.whl.zip]
+[2023-06-07 09:42:24] INFO root fetch - main [MainThread]: End processing [pyobjc-framework-AppTrackingTransparency]: success
+[2023-06-07 09:42:24] INFO root fetch - processPackages [pyobjc-framework-AppleScriptKit]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-AppleScriptKit-9.1b1.tar.gz]
+[2023-06-07 09:42:24] INFO root fetch - processPackages [pyobjc-framework-AppleScriptKit]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc_framework_AppleScriptKit-9.2-py2.py3-none-any.whl.zip]
+[2023-06-07 09:42:24] INFO root fetch - main [MainThread]: End processing [pyobjc-framework-AppleScriptKit]: success
+[2023-06-07 09:42:24] INFO root fetch - processPackages [pyobjc-framework-AudioVideoBridging]: Downloading https://files.pythonhosted.org/packages/74/c4/db3793830673be9f7e9ca96eab3b6ca79403b43159fe7d374df309004f58/pyobjc-framework-AudioVideoBridging-9.1.1.tar.gz
+[2023-06-07 09:42:24] INFO root fetch - processPackages [pyobjc-framework-AppleScriptObjC]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-AppleScriptObjC-9.1b1.tar.gz]
+[2023-06-07 09:42:24] INFO root fetch - processPackages [pyobjc-framework-AppleScriptObjC]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc_framework_AppleScriptObjC-9.2-py2.py3-none-any.whl.zip]
+[2023-06-07 09:42:24] INFO root fetch - main [MainThread]: End processing [pyobjc-framework-AppleScriptObjC]: success
+[2023-06-07 09:42:24] INFO root fetch - processPackages [LumosWeb]: Downloading https://files.pythonhosted.org/packages/bf/fe/e26ffa3c36631e4911e01e10f7b13d661da13dbe568c4c8bde0a4fc8cfbb/LumosWeb-1.0.3.tar.gz
+[2023-06-07 09:42:24] INFO root fetch - processPackages [LumosWeb]: executing diffoscope
+[2023-06-07 09:42:24] INFO root fetch - processPackages [LumosWeb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LumosWeb-1.0.2.tar.gz tmp/LumosWeb-1.0.3.tar.gz --markdown 20230607/L/LumosWeb/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-07 09:42:25] INFO root fetch - processPackages [pyobjc-framework-AVFoundation]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-AVFoundation-9.1b1.tar.gz]
+[2023-06-07 09:42:25] INFO root fetch - processPackages [pyobjc-framework-AVFoundation]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc_framework_AVFoundation-9.2-cp36-abi3-macosx_11_0_universal2.whl.zip]
+[2023-06-07 09:42:25] INFO root fetch - main [MainThread]: End processing [pyobjc-framework-AVFoundation]: success
+[2023-06-07 09:42:25] INFO root fetch - processPackages [pyobjc-framework-AudioVideoBridging]: Downloading https://files.pythonhosted.org/packages/7a/de/db1782048cfaf0050d99941168a3f9aab306643b679a3394b1f62e25e68b/pyobjc-framework-AudioVideoBridging-9.1b1.tar.gz
+[2023-06-07 09:42:25] INFO root fetch - processPackages [ensta]: Remove: archive file [/home/abi/fetcher/tmp/ensta-0.8.tar.gz]
+[2023-06-07 09:42:25] INFO root fetch - processPackages [ensta]: Remove: archive file [/home/abi/fetcher/tmp/ensta-0.9.tar.gz]
+[2023-06-07 09:42:25] INFO root fetch - main [MainThread]: End processing [ensta]: success
+[2023-06-07 09:42:25] INFO root fetch - processPackages [pyobjc-framework-AudioVideoBridging]: executing diffoscope
+[2023-06-07 09:42:25] INFO root fetch - processPackages [pyobjc-framework-AudioVideoBridging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyobjc-framework-AudioVideoBridging-9.1.1.tar.gz tmp/pyobjc-framework-AudioVideoBridging-9.1b1.tar.gz --markdown 20230607/p/pyobjc-framework-AudioVideoBridging/9.1.1-9.1b1/diff.md --exclude *.pyd
+[2023-06-07 09:42:25] INFO root fetch - processPackages [upgini]: Remove: archive file [/home/abi/fetcher/tmp/upgini-1.1.98.tar.gz]
+[2023-06-07 09:42:25] INFO root fetch - processPackages [upgini]: Remove: archive file [/home/abi/fetcher/tmp/upgini-1.1.99.tar.gz]
+[2023-06-07 09:42:25] INFO root fetch - main [MainThread]: End processing [upgini]: success
+[2023-06-07 09:42:25] INFO root fetch - processPackages [LumosWeb]: Remove: archive file [/home/abi/fetcher/tmp/LumosWeb-1.0.2.tar.gz]
+[2023-06-07 09:42:25] INFO root fetch - processPackages [LumosWeb]: Remove: archive file [/home/abi/fetcher/tmp/LumosWeb-1.0.3.tar.gz]
+[2023-06-07 09:42:25] INFO root fetch - main [MainThread]: End processing [LumosWeb]: success
+[2023-06-07 09:42:26] INFO root fetch - processPackages [fugue]: Remove: archive file [/home/abi/fetcher/tmp/fugue-0.8.4.dev2.tar.gz]
+[2023-06-07 09:42:26] INFO root fetch - processPackages [fugue]: Remove: archive file [/home/abi/fetcher/tmp/fugue-0.8.5.dev1.tar.gz]
+[2023-06-07 09:42:26] INFO root fetch - main [MainThread]: End processing [fugue]: success
+[2023-06-07 09:42:26] INFO root fetch - processPackages [pyobjc-framework-AudioVideoBridging]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-AudioVideoBridging-9.1.1.tar.gz]
+[2023-06-07 09:42:26] INFO root fetch - processPackages [pyobjc-framework-AudioVideoBridging]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-AudioVideoBridging-9.1b1.tar.gz]
+[2023-06-07 09:42:26] INFO root fetch - main [MainThread]: End processing [pyobjc-framework-AudioVideoBridging]: success
+[2023-06-07 09:42:27] INFO root fetch - processPackages [pyobjc-framework-ApplicationServices]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc-framework-ApplicationServices-9.1b1.tar.gz]
+[2023-06-07 09:42:27] INFO root fetch - processPackages [pyobjc-framework-ApplicationServices]: Remove: archive file [/home/abi/fetcher/tmp/pyobjc_framework_ApplicationServices-9.2-cp39-cp39-macosx_10_9_universal2.whl.zip]
+[2023-06-07 09:42:27] INFO root fetch - main [MainThread]: End processing [pyobjc-framework-ApplicationServices]: success
+[2023-06-07 09:42:27] INFO root fetch - main [MainThread]: Store serial: [18404201]
