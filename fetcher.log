@@ -16226,3 +16226,154 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-07 09:47:52] INFO root fetch - processPackages [a2]: Remove: archive file [/home/abi/fetcher/tmp/a2-0.3.8.tar.gz]
 [2023-06-07 09:47:52] INFO root fetch - main [MainThread]: End processing [a2]: success
 [2023-06-07 09:47:52] INFO root fetch - main [MainThread]: Store serial: [18404280]
+[2023-06-07 09:52:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18404280]
+[2023-06-07 09:53:01] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-06-07 09:53:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pycellbase
+[2023-06-07 09:53:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flutter-driver
+[2023-06-07 09:53:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ap-features
+[2023-06-07 09:53:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ap-features
+[2023-06-07 09:53:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: openmodule-test
+[2023-06-07 09:53:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aliyun-python-sdk-schedulerx2
+[2023-06-07 09:53:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: openmodule-commands
+[2023-06-07 09:53:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: openmodule
+[2023-06-07 09:53:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: piperider
+[2023-06-07 09:53:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: th2-data-services-lwdp
+[2023-06-07 09:53:01] INFO root fetch - processPackages [ap-features]: New version: [2023.3.1] Old Version: [2023.3.0]
+[2023-06-07 09:53:01] INFO root fetch - processPackages [aliyun-python-sdk-schedulerx2]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-06-07 09:53:01] WARNING root fetch - processPackages [flutter-driver]: Skipping, unable to determine old version
+[2023-06-07 09:53:01] INFO root fetch - processPackages [flutter-driver]: Start processing: faons
+[2023-06-07 09:53:01] INFO root fetch - main [MainThread]: End processing [flutter-driver] error
+[2023-06-07 09:53:01] INFO root fetch - processPackages [th2-data-services-lwdp]: New version: [2.1.0.0.dev5197375339] Old Version: [2.1.0.0.dev5196906620]
+[2023-06-07 09:53:01] INFO root fetch - processPackages [openmodule-commands]: New version: [11.1.0rc5] Old Version: [11.1.0rc4]
+[2023-06-07 09:53:01] INFO root fetch - processPackages [pycellbase]: New version: [5.5.0] Old Version: [5.4.0]
+[2023-06-07 09:53:01] INFO root fetch - processPackages [ap-features]: New version: [2023.3.1] Old Version: [2023.3.0]
+[2023-06-07 09:53:01] INFO root fetch - processPackages [openmodule-test]: New version: [9.1.0] Old Version: [9.0.0rc9]
+[2023-06-07 09:53:01] INFO root fetch - processPackages [piperider]: New version: [0.9.0rc1] Old Version: [0.9.0]
+[2023-06-07 09:53:01] INFO root fetch - processPackages [faons]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-07 09:53:01] INFO root fetch - processPackages [openmodule]: New version: [9.1.0] Old Version: [9.0.0rc9]
+[2023-06-07 09:53:01] INFO root fetch - processPackages [th2-data-services-lwdp]: Downloading https://files.pythonhosted.org/packages/54/50/c3a63ea378959dd974133aa1601cfb33d70b6ee7cc70f5e679567c6507af/th2_data_services_lwdp-2.1.0.0.dev5196906620.tar.gz
+[2023-06-07 09:53:01] INFO root fetch - processPackages [openmodule-commands]: Downloading https://files.pythonhosted.org/packages/9e/0e/dc857c71fd72b76966732ca90b88f6453680976dba54907fdc9293489cea/openmodule_commands-11.1.0rc4.tar.gz
+[2023-06-07 09:53:01] INFO root fetch - processPackages [openmodule-test]: Downloading https://files.pythonhosted.org/packages/98/2f/98fb439a0bb34c0be8268557d0c25ccf1102d6a23607c74e2376f8471efd/openmodule_test-9.0.0rc9.tar.gz
+[2023-06-07 09:53:01] INFO root fetch - processPackages [openmodule]: Downloading https://files.pythonhosted.org/packages/e3/bb/f041c5d77c5d10fd7137b23ff92757f6931cf24143d6794c63caaa775755/openmodule-9.0.0rc9.tar.gz
+[2023-06-07 09:53:01] INFO root fetch - processPackages [ap-features]: Downloading https://files.pythonhosted.org/packages/bf/41/c313ac98fdd06866a5c6307409fe7033fbe45ccf111b43170401e85e028f/ap_features-2023.3.0.tar.gz
+[2023-06-07 09:53:01] INFO root fetch - processPackages [ap-features]: Downloading https://files.pythonhosted.org/packages/bf/41/c313ac98fdd06866a5c6307409fe7033fbe45ccf111b43170401e85e028f/ap_features-2023.3.0.tar.gz
+[2023-06-07 09:53:01] INFO root fetch - processPackages [aliyun-python-sdk-schedulerx2]: Downloading https://files.pythonhosted.org/packages/c7/3d/1f141ddaf53ce494a126b4b5fe2dc9100c180fd5cc7656567b5afd3ebe76/aliyun-python-sdk-schedulerx2-1.1.8.tar.gz
+[2023-06-07 09:53:01] INFO root fetch - processPackages [faons]: Downloading https://files.pythonhosted.org/packages/2c/9b/3014451b597a1ff32f16117455e0ab1cc7507df7b46a3e02ceef412ea329/faons-0.0.1.tar.gz
+[2023-06-07 09:53:01] INFO root fetch - processPackages [pycellbase]: Downloading https://files.pythonhosted.org/packages/8c/32/8f150abdf909a3a5b4018d9fa97e81a796eac4dc2175708c95c98e25a71d/pycellbase-5.4.0.tar.gz
+[2023-06-07 09:53:01] INFO root fetch - processPackages [piperider]: Downloading https://files.pythonhosted.org/packages/a4/50/e24b00f8c9eee6add2d234812268358dd31efb1c7692b89e4f2abcf53b3a/piperider-0.9.0.tar.gz
+[2023-06-07 09:53:01] INFO root fetch - processPackages [openmodule-test]: Downloading https://files.pythonhosted.org/packages/39/cc/7362aa9f98216bb93757efcda7a44a06d4f86bc1d828b0f6775240dae0d3/openmodule_test-9.1.0.tar.gz
+[2023-06-07 09:53:01] INFO root fetch - processPackages [openmodule-commands]: Downloading https://files.pythonhosted.org/packages/23/35/69b979cd2e7cc321515784ac6ee765cfb7f6c835b0101e053682b41ded18/openmodule_commands-11.1.0rc5.tar.gz
+[2023-06-07 09:53:01] INFO root fetch - processPackages [th2-data-services-lwdp]: Downloading https://files.pythonhosted.org/packages/9e/e3/ea3995cf5f297b5f54bf3bf3e59c357b4ce052a6f7936e900b7539b8a65f/th2_data_services_lwdp-2.1.0.0.dev5197375339.tar.gz
+[2023-06-07 09:53:01] INFO root fetch - processPackages [openmodule]: Downloading https://files.pythonhosted.org/packages/a6/3c/48ccf044ba1edc8806c136901666ecc29542b5bf8b40ee6194dbc2abd0fe/openmodule-9.1.0.tar.gz
+[2023-06-07 09:53:01] INFO root fetch - processPackages [openmodule-test]: executing diffoscope
+[2023-06-07 09:53:01] INFO root fetch - processPackages [openmodule-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openmodule_test-9.0.0rc9.tar.gz tmp/openmodule_test-9.1.0.tar.gz --markdown 20230607/o/openmodule-test/9.0.0rc9-9.1.0/diff.md --exclude *.pyd
+[2023-06-07 09:53:01] INFO root fetch - processPackages [openmodule-commands]: executing diffoscope
+[2023-06-07 09:53:01] INFO root fetch - processPackages [openmodule-commands]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openmodule_commands-11.1.0rc4.tar.gz tmp/openmodule_commands-11.1.0rc5.tar.gz --markdown 20230607/o/openmodule-commands/11.1.0rc4-11.1.0rc5/diff.md --exclude *.pyd
+[2023-06-07 09:53:01] INFO root fetch - processPackages [openmodule]: executing diffoscope
+[2023-06-07 09:53:01] INFO root fetch - processPackages [openmodule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openmodule-9.0.0rc9.tar.gz tmp/openmodule-9.1.0.tar.gz --markdown 20230607/o/openmodule/9.0.0rc9-9.1.0/diff.md --exclude *.pyd
+[2023-06-07 09:53:01] INFO root fetch - processPackages [ap-features]: Downloading https://files.pythonhosted.org/packages/fc/c7/23432643d19c42f680eafaaac809531f16b523df6f2424fcf6af06f135de/ap_features-2023.3.1.tar.gz
+[2023-06-07 09:53:01] INFO root fetch - processPackages [faons]: Downloading https://files.pythonhosted.org/packages/10/67/6dfa1911ab5c0f4cc94a3959c2c99cef7e7d7b9650a190b0ee1adaf1cf12/faons-0.0.2.tar.gz
+[2023-06-07 09:53:01] INFO root fetch - processPackages [ap-features]: Downloading https://files.pythonhosted.org/packages/fc/c7/23432643d19c42f680eafaaac809531f16b523df6f2424fcf6af06f135de/ap_features-2023.3.1.tar.gz
+[2023-06-07 09:53:01] INFO root fetch - processPackages [th2-data-services-lwdp]: executing diffoscope
+[2023-06-07 09:53:01] INFO root fetch - processPackages [th2-data-services-lwdp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_data_services_lwdp-2.1.0.0.dev5196906620.tar.gz tmp/th2_data_services_lwdp-2.1.0.0.dev5197375339.tar.gz --markdown 20230607/t/th2-data-services-lwdp/2.1.0.0.dev5196906620-2.1.0.0.dev5197375339/diff.md --exclude *.pyd
+[2023-06-07 09:53:01] INFO root fetch - processPackages [pycellbase]: Downloading https://files.pythonhosted.org/packages/f1/32/49f42940f7665cde11ccf43ffcfb0ddf7892c803c8c7560e91d53079be67/pycellbase-5.5.0.tar.gz
+[2023-06-07 09:53:01] INFO root fetch - processPackages [ap-features]: executing diffoscope
+[2023-06-07 09:53:01] INFO root fetch - processPackages [ap-features]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ap_features-2023.3.0.tar.gz tmp/ap_features-2023.3.1.tar.gz --markdown 20230607/a/ap-features/2023.3.0-2023.3.1/diff.md --exclude *.pyd
+[2023-06-07 09:53:01] INFO root fetch - processPackages [ap-features]: executing diffoscope
+[2023-06-07 09:53:01] INFO root fetch - processPackages [ap-features]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ap_features-2023.3.0.tar.gz tmp/ap_features-2023.3.1.tar.gz --markdown 20230607/a/ap-features/2023.3.0-2023.3.1/diff.md --exclude *.pyd
+[2023-06-07 09:53:01] INFO root fetch - processPackages [faons]: executing diffoscope
+[2023-06-07 09:53:01] INFO root fetch - processPackages [faons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/faons-0.0.1.tar.gz tmp/faons-0.0.2.tar.gz --markdown 20230607/f/faons/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-07 09:53:01] INFO root fetch - processPackages [pycellbase]: executing diffoscope
+[2023-06-07 09:53:01] INFO root fetch - processPackages [pycellbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycellbase-5.4.0.tar.gz tmp/pycellbase-5.5.0.tar.gz --markdown 20230607/p/pycellbase/5.4.0-5.5.0/diff.md --exclude *.pyd
+[2023-06-07 09:53:01] INFO root fetch - processPackages [aliyun-python-sdk-schedulerx2]: Downloading https://files.pythonhosted.org/packages/64/40/c70f62fb7e6c33845452845cfa4ac95defb85984002d2411c4525ade42eb/aliyun-python-sdk-schedulerx2-1.1.9.tar.gz
+[2023-06-07 09:53:02] INFO root fetch - processPackages [aliyun-python-sdk-schedulerx2]: executing diffoscope
+[2023-06-07 09:53:02] INFO root fetch - processPackages [aliyun-python-sdk-schedulerx2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-schedulerx2-1.1.8.tar.gz tmp/aliyun-python-sdk-schedulerx2-1.1.9.tar.gz --markdown 20230607/a/aliyun-python-sdk-schedulerx2/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-06-07 09:53:02] INFO root fetch - processPackages [piperider]: Downloading https://files.pythonhosted.org/packages/7a/f9/9cc8461c7b00069da016c58db04f6c975e2adf28d9cbd443a882dd7396de/piperider-0.9.0rc1.tar.gz
+[2023-06-07 09:53:02] INFO root fetch - processPackages [piperider]: executing diffoscope
+[2023-06-07 09:53:02] INFO root fetch - processPackages [piperider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piperider-0.9.0.tar.gz tmp/piperider-0.9.0rc1.tar.gz --markdown 20230607/p/piperider/0.9.0-0.9.0rc1/diff.md --exclude *.pyd
+[2023-06-07 09:53:03] INFO root fetch - processPackages [openmodule-commands]: Remove: archive file [/home/abi/fetcher/tmp/openmodule_commands-11.1.0rc4.tar.gz]
+[2023-06-07 09:53:03] INFO root fetch - processPackages [openmodule-commands]: Remove: archive file [/home/abi/fetcher/tmp/openmodule_commands-11.1.0rc5.tar.gz]
+[2023-06-07 09:53:03] INFO root fetch - processPackages [openmodule-commands]: Start processing: tf-nightly-cpu
+[2023-06-07 09:53:03] INFO root fetch - main [MainThread]: End processing [openmodule-commands]: success
+[2023-06-07 09:53:03] INFO root fetch - processPackages [tf-nightly-cpu]: New version: [2.14.0.dev20230607] Old Version: [2.14.0.dev20230606]
+[2023-06-07 09:53:03] INFO root fetch - processPackages [faons]: Remove: archive file [/home/abi/fetcher/tmp/faons-0.0.1.tar.gz]
+[2023-06-07 09:53:03] INFO root fetch - processPackages [faons]: Remove: archive file [/home/abi/fetcher/tmp/faons-0.0.2.tar.gz]
+[2023-06-07 09:53:03] INFO root fetch - processPackages [faons]: Start processing: modelbase
+[2023-06-07 09:53:03] INFO root fetch - main [MainThread]: End processing [faons]: success
+[2023-06-07 09:53:03] INFO root fetch - processPackages [modelbase]: New version: [1rc2] Old Version: [1.9.3]
+[2023-06-07 09:53:03] INFO root fetch - processPackages [openmodule-test]: Remove: archive file [/home/abi/fetcher/tmp/openmodule_test-9.0.0rc9.tar.gz]
+[2023-06-07 09:53:03] INFO root fetch - processPackages [openmodule-test]: Remove: archive file [/home/abi/fetcher/tmp/openmodule_test-9.1.0.tar.gz]
+[2023-06-07 09:53:03] INFO root fetch - processPackages [openmodule-test]: Start processing: embiggen
+[2023-06-07 09:53:03] INFO root fetch - main [MainThread]: End processing [openmodule-test]: success
+[2023-06-07 09:53:03] INFO root fetch - processPackages [embiggen]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-06-07 09:53:03] INFO root fetch - processPackages [embiggen]: Downloading https://files.pythonhosted.org/packages/93/68/e13cdca050b32069a58f9e36d05835a384d261a5d1f299af468629e721e1/embiggen-0.9.2.tar.gz
+[2023-06-07 09:53:03] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/39/0e/5d6591d6af41aa8d2aebf162a70d4d4120116b12823e1ce7b3aae41a24fd/tf_nightly_cpu-2.14.0.dev20230606-cp39-cp39-win_amd64.whl
+[2023-06-07 09:53:03] INFO root fetch - processPackages [pycellbase]: Remove: archive file [/home/abi/fetcher/tmp/pycellbase-5.4.0.tar.gz]
+[2023-06-07 09:53:03] INFO root fetch - processPackages [pycellbase]: Remove: archive file [/home/abi/fetcher/tmp/pycellbase-5.5.0.tar.gz]
+[2023-06-07 09:53:03] INFO root fetch - processPackages [pycellbase]: Start processing: lazysdk
+[2023-06-07 09:53:03] INFO root fetch - main [MainThread]: End processing [pycellbase]: success
+[2023-06-07 09:53:03] INFO root fetch - processPackages [lazysdk]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-07 09:53:03] INFO root fetch - processPackages [modelbase]: Downloading https://files.pythonhosted.org/packages/2d/60/61225a94c9e33f3d21366aefd4cdf1945c8805e3540a30f2fd1c5d8faa06/modelbase-1.9.3.tar.gz
+[2023-06-07 09:53:03] INFO root fetch - processPackages [ap-features]: Remove: archive file [/home/abi/fetcher/tmp/ap_features-2023.3.0.tar.gz]
+[2023-06-07 09:53:03] INFO root fetch - processPackages [ap-features]: Remove: archive file [/home/abi/fetcher/tmp/ap_features-2023.3.1.tar.gz]
+[2023-06-07 09:53:03] INFO root fetch - processPackages [ap-features]: Start processing: nfonista7x
+[2023-06-07 09:53:03] INFO root fetch - main [MainThread]: End processing [ap-features]: success
+[2023-06-07 09:53:03] WARNING root fetch - processPackages [nfonista7x]: Skipping, unable to determine old version
+[2023-06-07 09:53:03] INFO root fetch - processPackages [nfonista7x]: Start processing: bahire-hasab
+[2023-06-07 09:53:03] INFO root fetch - main [MainThread]: End processing [nfonista7x] error
+[2023-06-07 09:53:03] INFO root fetch - processPackages [embiggen]: Downloading https://files.pythonhosted.org/packages/4b/25/4e08b9a62e34917ef75c8ed47526252ca4bcd5d5e15961bc14dc9486ccf8/embiggen-0.9.3.tar.gz
+[2023-06-07 09:53:03] INFO root fetch - processPackages [bahire-hasab]: New version: [0.2.7a0] Old Version: [0.2.7]
+[2023-06-07 09:53:03] INFO root fetch - processPackages [bahire-hasab]: Downloading https://files.pythonhosted.org/packages/76/0d/cdf1b9e99f1781eb8112e05ae55d6c84cf9943074d611956ee290ecceeb5/bahire-hasab-0.2.7.tar.gz
+[2023-06-07 09:53:03] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/ec/34/431ce053da51fb99da75bd2746c4bd566f782c141a3d01a840e1c452f233/tf_nightly_cpu-2.14.0.dev20230607-cp39-cp39-win_amd64.whl
+[2023-06-07 09:53:03] INFO root fetch - processPackages [ap-features]: Start processing: Pandora-Cloud
+[2023-06-07 09:53:03] INFO root fetch - main [MainThread]: End processing [ap-features]: success
+[2023-06-07 09:53:03] INFO root fetch - processPackages [lazysdk]: Downloading https://files.pythonhosted.org/packages/5c/7f/433236aa712de1dc7b2ca8a1dfe2c0aa657d21b6ba6793521e5859e5220c/lazysdk-0.1.3.tar.gz
+[2023-06-07 09:53:03] INFO root fetch - processPackages [embiggen]: executing diffoscope
+[2023-06-07 09:53:03] INFO root fetch - processPackages [embiggen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/embiggen-0.9.2.tar.gz tmp/embiggen-0.9.3.tar.gz --markdown 20230607/e/embiggen/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-06-07 09:53:04] INFO root fetch - processPackages [Pandora-Cloud]: New version: [0.4.5] Old Version: [0.4.4]
+[2023-06-07 09:53:04] INFO root fetch - processPackages [modelbase]: Downloading https://files.pythonhosted.org/packages/50/e2/d6e4b5bb8eda18f7221f3af4d4f295ef693f37fbafe88e68574e7e39c29f/modelbase-1rc2.tar.gz
+[2023-06-07 09:53:04] INFO root fetch - processPackages [tf-nightly-cpu]: executing diffoscope
+[2023-06-07 09:53:04] INFO root fetch - processPackages [tf-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly_cpu-2.14.0.dev20230606-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly_cpu-2.14.0.dev20230607-cp39-cp39-win_amd64.whl.zip --markdown 20230607/t/tf-nightly-cpu/2.14.0.dev20230606-2.14.0.dev20230607/diff.md --exclude *.pyd
+[2023-06-07 09:53:04] INFO root fetch - processPackages [bahire-hasab]: Downloading https://files.pythonhosted.org/packages/fa/77/f70ad679d870d8a3b8d390e29c02ab01886495b54d0cc3dcab10532cb65b/bahire-hasab-0.2.7a0.tar.gz
+[2023-06-07 09:53:04] INFO root fetch - processPackages [lazysdk]: Downloading https://files.pythonhosted.org/packages/84/d0/a868d9fc2e6687033c143e4d8ebdd2ed2798911c6fba17b6ecdd3cc1e149/lazysdk-0.1.4.tar.gz
+[2023-06-07 09:53:04] INFO root fetch - processPackages [modelbase]: executing diffoscope
+[2023-06-07 09:53:04] INFO root fetch - processPackages [modelbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelbase-1.9.3.tar.gz tmp/modelbase-1rc2.tar.gz --markdown 20230607/m/modelbase/1.9.3-1rc2/diff.md --exclude *.pyd
+[2023-06-07 09:53:04] INFO root fetch - processPackages [Pandora-Cloud]: Downloading https://files.pythonhosted.org/packages/0a/f5/f708754abddf8f5ae93daa6c890ed64187014de9100ac48356f64e2fa2d9/Pandora-Cloud-0.4.4.tar.gz
+[2023-06-07 09:53:04] INFO root fetch - processPackages [bahire-hasab]: executing diffoscope
+[2023-06-07 09:53:04] INFO root fetch - processPackages [bahire-hasab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bahire-hasab-0.2.7.tar.gz tmp/bahire-hasab-0.2.7a0.tar.gz --markdown 20230607/b/bahire-hasab/0.2.7-0.2.7a0/diff.md --exclude *.pyd
+[2023-06-07 09:53:04] INFO root fetch - processPackages [aliyun-python-sdk-schedulerx2]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-schedulerx2-1.1.8.tar.gz]
+[2023-06-07 09:53:04] INFO root fetch - processPackages [aliyun-python-sdk-schedulerx2]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-schedulerx2-1.1.9.tar.gz]
+[2023-06-07 09:53:04] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-schedulerx2]: success
+[2023-06-07 09:53:04] INFO root fetch - processPackages [lazysdk]: executing diffoscope
+[2023-06-07 09:53:04] INFO root fetch - processPackages [lazysdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazysdk-0.1.3.tar.gz tmp/lazysdk-0.1.4.tar.gz --markdown 20230607/l/lazysdk/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-07 09:53:04] INFO root fetch - processPackages [th2-data-services-lwdp]: Remove: archive file [/home/abi/fetcher/tmp/th2_data_services_lwdp-2.1.0.0.dev5196906620.tar.gz]
+[2023-06-07 09:53:04] INFO root fetch - processPackages [th2-data-services-lwdp]: Remove: archive file [/home/abi/fetcher/tmp/th2_data_services_lwdp-2.1.0.0.dev5197375339.tar.gz]
+[2023-06-07 09:53:04] INFO root fetch - main [MainThread]: End processing [th2-data-services-lwdp]: success
+[2023-06-07 09:53:04] INFO root fetch - processPackages [openmodule]: Remove: archive file [/home/abi/fetcher/tmp/openmodule-9.0.0rc9.tar.gz]
+[2023-06-07 09:53:04] INFO root fetch - processPackages [openmodule]: Remove: archive file [/home/abi/fetcher/tmp/openmodule-9.1.0.tar.gz]
+[2023-06-07 09:53:04] INFO root fetch - main [MainThread]: End processing [openmodule]: success
+[2023-06-07 09:53:04] INFO root fetch - processPackages [Pandora-Cloud]: Downloading https://files.pythonhosted.org/packages/c5/69/d7c92f93eaaa92fa0a7c378e288bdacb59b5132d4076c95cf86d0c41e5f3/Pandora-Cloud-0.4.5.tar.gz
+[2023-06-07 09:53:05] INFO root fetch - processPackages [Pandora-Cloud]: executing diffoscope
+[2023-06-07 09:53:05] INFO root fetch - processPackages [Pandora-Cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Pandora-Cloud-0.4.4.tar.gz tmp/Pandora-Cloud-0.4.5.tar.gz --markdown 20230607/P/Pandora-Cloud/0.4.4-0.4.5/diff.md --exclude *.pyd
+[2023-06-07 09:53:05] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.14.0.dev20230606-cp39-cp39-win_amd64.whl.zip]
+[2023-06-07 09:53:05] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.14.0.dev20230607-cp39-cp39-win_amd64.whl.zip]
+[2023-06-07 09:53:05] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu]: success
+[2023-06-07 09:53:05] INFO root fetch - processPackages [embiggen]: Remove: archive file [/home/abi/fetcher/tmp/embiggen-0.9.2.tar.gz]
+[2023-06-07 09:53:05] INFO root fetch - processPackages [embiggen]: Remove: archive file [/home/abi/fetcher/tmp/embiggen-0.9.3.tar.gz]
+[2023-06-07 09:53:05] INFO root fetch - main [MainThread]: End processing [embiggen]: success
+[2023-06-07 09:53:05] INFO root fetch - processPackages [modelbase]: Remove: archive file [/home/abi/fetcher/tmp/modelbase-1.9.3.tar.gz]
+[2023-06-07 09:53:05] INFO root fetch - processPackages [modelbase]: Remove: archive file [/home/abi/fetcher/tmp/modelbase-1rc2.tar.gz]
+[2023-06-07 09:53:05] INFO root fetch - main [MainThread]: End processing [modelbase]: success
+[2023-06-07 09:53:05] INFO root fetch - processPackages [bahire-hasab]: Remove: archive file [/home/abi/fetcher/tmp/bahire-hasab-0.2.7.tar.gz]
+[2023-06-07 09:53:05] INFO root fetch - processPackages [bahire-hasab]: Remove: archive file [/home/abi/fetcher/tmp/bahire-hasab-0.2.7a0.tar.gz]
+[2023-06-07 09:53:05] INFO root fetch - main [MainThread]: End processing [bahire-hasab]: success
+[2023-06-07 09:53:06] INFO root fetch - processPackages [lazysdk]: Remove: archive file [/home/abi/fetcher/tmp/lazysdk-0.1.3.tar.gz]
+[2023-06-07 09:53:06] INFO root fetch - processPackages [lazysdk]: Remove: archive file [/home/abi/fetcher/tmp/lazysdk-0.1.4.tar.gz]
+[2023-06-07 09:53:06] INFO root fetch - main [MainThread]: End processing [lazysdk]: success
+[2023-06-07 09:53:07] INFO root fetch - processPackages [Pandora-Cloud]: Remove: archive file [/home/abi/fetcher/tmp/Pandora-Cloud-0.4.4.tar.gz]
+[2023-06-07 09:53:07] INFO root fetch - processPackages [Pandora-Cloud]: Remove: archive file [/home/abi/fetcher/tmp/Pandora-Cloud-0.4.5.tar.gz]
+[2023-06-07 09:53:07] INFO root fetch - main [MainThread]: End processing [Pandora-Cloud]: success
+[2023-06-07 09:53:08] INFO root fetch - processPackages [piperider]: Remove: archive file [/home/abi/fetcher/tmp/piperider-0.9.0.tar.gz]
+[2023-06-07 09:53:08] INFO root fetch - processPackages [piperider]: Remove: archive file [/home/abi/fetcher/tmp/piperider-0.9.0rc1.tar.gz]
+[2023-06-07 09:53:08] INFO root fetch - main [MainThread]: End processing [piperider]: success
+[2023-06-07 09:53:08] INFO root fetch - main [MainThread]: Store serial: [18404342]
