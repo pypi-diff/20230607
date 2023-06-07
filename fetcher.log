@@ -12714,3 +12714,63 @@ AssertionError: tmp/odoo_addon_crm_lead_firstname-16.0.1.0.1-py3-none-any.whl.zi
 [2023-06-07 06:48:14] INFO root fetch - processPackages [aqueduct-sdk]: Remove: archive file [/home/abi/fetcher/tmp/aqueduct-sdk-0.3.6.tar.gz]
 [2023-06-07 06:48:14] INFO root fetch - main [MainThread]: End processing [aqueduct-sdk]: success
 [2023-06-07 06:48:14] INFO root fetch - main [MainThread]: Store serial: [18402801]
+[2023-06-07 06:53:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18402801]
+[2023-06-07 06:53:23] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-07 06:53:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flatland-railway-extension
+[2023-06-07 06:53:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pygem
+[2023-06-07 06:53:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aqueduct-ml
+[2023-06-07 06:53:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyoxynet
+[2023-06-07 06:53:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spaceone-core
+[2023-06-07 06:53:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: caqui
+[2023-06-07 06:53:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: thirdai
+[2023-06-07 06:53:23] INFO root fetch - processPackages [flatland-railway-extension]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-06-07 06:53:23] WARNING root fetch - processPackages [pygem]: Skipping, unable to determine old version
+[2023-06-07 06:53:23] INFO root fetch - main [MainThread]: End processing [pygem] error
+[2023-06-07 06:53:23] INFO root fetch - processPackages [aqueduct-ml]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-06-07 06:53:23] INFO root fetch - processPackages [spaceone-core]: New version: [1.9.7rc1] Old Version: [1.9.7.1]
+[2023-06-07 06:53:23] INFO root fetch - processPackages [pyoxynet]: New version: [0.0.9.9] Old Version: [0.0.9.8]
+[2023-06-07 06:53:23] INFO root fetch - processPackages [spaceone-core]: Downloading https://files.pythonhosted.org/packages/1f/6d/5cbc0264b2c1dd5f3ae609e7b61b5c5c8d54710e85e098c13db4552af976/spaceone_core-1.9.7.1-py3-none-any.whl
+[2023-06-07 06:53:23] INFO root fetch - processPackages [pyoxynet]: Downloading https://files.pythonhosted.org/packages/b0/fc/515fba70151d23e2002eff3cb89de86f3323f2de498b24ac5634ad424107/pyoxynet-0.0.9.8.tar.gz
+[2023-06-07 06:53:23] INFO root fetch - processPackages [caqui]: New version: [1.9.0] Old Version: [1.10.0]
+[2023-06-07 06:53:23] INFO root fetch - processPackages [thirdai]: New version: [0.7.5] Old Version: [0.7.4]
+[2023-06-07 06:53:23] INFO root fetch - processPackages [flatland-railway-extension]: Downloading https://files.pythonhosted.org/packages/21/31/2b6ebd9e2cb23085a36bffc114915b4904bbc02230b82fd00993ecd8027b/flatland-railway-extension-0.2.2.tar.gz
+[2023-06-07 06:53:23] INFO root fetch - processPackages [aqueduct-ml]: Downloading https://files.pythonhosted.org/packages/95/08/dbbc2410e17a914508b3324abb6b8eb5cb54222a630cb10fd776b74523d4/aqueduct-ml-0.3.5.tar.gz
+[2023-06-07 06:53:23] INFO root fetch - processPackages [caqui]: Downloading https://files.pythonhosted.org/packages/b9/ea/b7d06019df841a75c4ed936abfacc28008be8cf8fb3d4addc1d65f57ad4d/caqui-1.10.0.tar.gz
+[2023-06-07 06:53:23] INFO root fetch - processPackages [thirdai]: Downloading https://files.pythonhosted.org/packages/42/c9/1b83890f457c92d76fc0342ab68b860e693df8c9e7bdcfdac03a2cb2f865/thirdai-0.7.4-cp39-cp39-win_amd64.whl
+[2023-06-07 06:53:23] INFO root fetch - processPackages [spaceone-core]: Downloading https://files.pythonhosted.org/packages/2f/7f/98bd3e0e1e14ec1a59e8d305c033978db48833658a8f1754c0458e77a3c4/spaceone_core-1.9.7rc1-py3-none-any.whl
+[2023-06-07 06:53:24] INFO root fetch - processPackages [flatland-railway-extension]: Downloading https://files.pythonhosted.org/packages/72/13/357cd9368a011fe9dfd04da4b247afc2966ce2b7208d4e53978137f8d636/flatland-railway-extension-0.2.3.tar.gz
+[2023-06-07 06:53:24] INFO root fetch - processPackages [caqui]: Downloading https://files.pythonhosted.org/packages/96/cb/610c7cb58e0d91615a6000802ec99074b7f59645f112551cb10c3f105439/caqui-1.9.0.tar.gz
+[2023-06-07 06:53:24] INFO root fetch - processPackages [aqueduct-ml]: Downloading https://files.pythonhosted.org/packages/b7/e9/2cd579ba3c7f588291f9b87c725747260428ca1f2f375a971ed5b650699a/aqueduct-ml-0.3.6.tar.gz
+[2023-06-07 06:53:24] INFO root fetch - processPackages [caqui]: executing diffoscope
+[2023-06-07 06:53:24] INFO root fetch - processPackages [caqui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/caqui-1.10.0.tar.gz tmp/caqui-1.9.0.tar.gz --markdown 20230607/c/caqui/1.10.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-07 06:53:24] INFO root fetch - processPackages [aqueduct-ml]: executing diffoscope
+[2023-06-07 06:53:24] INFO root fetch - processPackages [aqueduct-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aqueduct-ml-0.3.5.tar.gz tmp/aqueduct-ml-0.3.6.tar.gz --markdown 20230607/a/aqueduct-ml/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-06-07 06:53:24] INFO root fetch - processPackages [flatland-railway-extension]: executing diffoscope
+[2023-06-07 06:53:24] INFO root fetch - processPackages [flatland-railway-extension]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flatland-railway-extension-0.2.2.tar.gz tmp/flatland-railway-extension-0.2.3.tar.gz --markdown 20230607/f/flatland-railway-extension/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-06-07 06:53:24] INFO root fetch - processPackages [spaceone-core]: executing diffoscope
+[2023-06-07 06:53:24] INFO root fetch - processPackages [spaceone-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone_core-1.9.7.1-py3-none-any.whl.zip tmp/spaceone_core-1.9.7rc1-py3-none-any.whl.zip --markdown 20230607/s/spaceone-core/1.9.7.1-1.9.7rc1/diff.md --exclude *.pyd
+[2023-06-07 06:53:24] INFO root fetch - processPackages [thirdai]: Downloading https://files.pythonhosted.org/packages/61/26/8a4ec22c7d33604bc62be7bfaa0630aa600e73873a54e27f5799192b18f1/thirdai-0.7.5-cp310-cp310-win_amd64.whl
+[2023-06-07 06:53:24] INFO root fetch - processPackages [pyoxynet]: Downloading https://files.pythonhosted.org/packages/41/8b/2c3056a7fa525137845d730655c8ebdc5f75e1a43909a910d81142b5a885/pyoxynet-0.0.9.9.tar.gz
+[2023-06-07 06:53:25] INFO root fetch - processPackages [caqui]: Remove: archive file [/home/abi/fetcher/tmp/caqui-1.10.0.tar.gz]
+[2023-06-07 06:53:25] INFO root fetch - processPackages [caqui]: Remove: archive file [/home/abi/fetcher/tmp/caqui-1.9.0.tar.gz]
+[2023-06-07 06:53:25] INFO root fetch - main [MainThread]: End processing [caqui]: success
+[2023-06-07 06:53:25] INFO root fetch - processPackages [flatland-railway-extension]: Remove: archive file [/home/abi/fetcher/tmp/flatland-railway-extension-0.2.2.tar.gz]
+[2023-06-07 06:53:25] INFO root fetch - processPackages [flatland-railway-extension]: Remove: archive file [/home/abi/fetcher/tmp/flatland-railway-extension-0.2.3.tar.gz]
+[2023-06-07 06:53:25] INFO root fetch - main [MainThread]: End processing [flatland-railway-extension]: success
+[2023-06-07 06:53:25] INFO root fetch - processPackages [spaceone-core]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_core-1.9.7.1-py3-none-any.whl.zip]
+[2023-06-07 06:53:25] INFO root fetch - processPackages [spaceone-core]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_core-1.9.7rc1-py3-none-any.whl.zip]
+[2023-06-07 06:53:25] INFO root fetch - main [MainThread]: End processing [spaceone-core]: success
+[2023-06-07 06:53:25] INFO root fetch - processPackages [aqueduct-ml]: Remove: archive file [/home/abi/fetcher/tmp/aqueduct-ml-0.3.5.tar.gz]
+[2023-06-07 06:53:25] INFO root fetch - processPackages [aqueduct-ml]: Remove: archive file [/home/abi/fetcher/tmp/aqueduct-ml-0.3.6.tar.gz]
+[2023-06-07 06:53:25] INFO root fetch - main [MainThread]: End processing [aqueduct-ml]: success
+[2023-06-07 06:53:25] INFO root fetch - processPackages [pyoxynet]: executing diffoscope
+[2023-06-07 06:53:25] INFO root fetch - processPackages [pyoxynet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyoxynet-0.0.9.8.tar.gz tmp/pyoxynet-0.0.9.9.tar.gz --markdown 20230607/p/pyoxynet/0.0.9.8-0.0.9.9/diff.md --exclude *.pyd
+[2023-06-07 06:53:26] INFO root fetch - processPackages [thirdai]: executing diffoscope
+[2023-06-07 06:53:26] INFO root fetch - processPackages [thirdai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thirdai-0.7.4-cp39-cp39-win_amd64.whl.zip tmp/thirdai-0.7.5-cp310-cp310-win_amd64.whl.zip --markdown 20230607/t/thirdai/0.7.4-0.7.5/diff.md --exclude *.pyd
+[2023-06-07 06:53:27] INFO root fetch - processPackages [pyoxynet]: Remove: archive file [/home/abi/fetcher/tmp/pyoxynet-0.0.9.8.tar.gz]
+[2023-06-07 06:53:27] INFO root fetch - processPackages [pyoxynet]: Remove: archive file [/home/abi/fetcher/tmp/pyoxynet-0.0.9.9.tar.gz]
+[2023-06-07 06:53:27] INFO root fetch - main [MainThread]: End processing [pyoxynet]: success
+[2023-06-07 06:53:28] INFO root fetch - processPackages [thirdai]: Remove: archive file [/home/abi/fetcher/tmp/thirdai-0.7.4-cp39-cp39-win_amd64.whl.zip]
+[2023-06-07 06:53:28] INFO root fetch - processPackages [thirdai]: Remove: archive file [/home/abi/fetcher/tmp/thirdai-0.7.5-cp310-cp310-win_amd64.whl.zip]
+[2023-06-07 06:53:28] INFO root fetch - main [MainThread]: End processing [thirdai]: success
+[2023-06-07 06:53:28] INFO root fetch - main [MainThread]: Store serial: [18402825]
