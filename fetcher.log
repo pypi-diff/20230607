@@ -11744,3 +11744,69 @@ AssertionError: tmp/odoo_addon_crm_lead_firstname-16.0.1.0.1-py3-none-any.whl.zi
 [2023-06-07 05:49:46] INFO root fetch - processPackages [gravitorch]: Remove: archive file [/home/abi/fetcher/tmp/gravitorch-0.0.9.tar.gz]
 [2023-06-07 05:49:46] INFO root fetch - main [MainThread]: End processing [gravitorch]: success
 [2023-06-07 05:49:46] INFO root fetch - main [MainThread]: Store serial: [18402436]
+[2023-06-07 05:54:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18402436]
+[2023-06-07 05:54:55] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-07 05:54:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scutls
+[2023-06-07 05:54:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulpcore
+[2023-06-07 05:54:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulpcore-client
+[2023-06-07 05:54:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ant1Interface
+[2023-06-07 05:54:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: uintel
+[2023-06-07 05:54:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: opensourceleg
+[2023-06-07 05:54:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cognica
+[2023-06-07 05:54:55] INFO root fetch - processPackages [scutls]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-06-07 05:54:55] INFO root fetch - processPackages [pulpcore-client]: New version: [3.9.1] Old Version: [3.9.0.dev1607297320]
+[2023-06-07 05:54:55] INFO root fetch - processPackages [ant1Interface]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-06-07 05:54:55] INFO root fetch - processPackages [opensourceleg]: New version: [1.2.7] Old Version: [1.2.6]
+[2023-06-07 05:54:55] INFO root fetch - processPackages [uintel]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-06-07 05:54:55] INFO root fetch - processPackages [pulpcore]: New version: [3.9.1] Old Version: [3.9.0]
+[2023-06-07 05:54:55] INFO root fetch - processPackages [pulpcore-client]: Downloading https://files.pythonhosted.org/packages/bc/86/6e7f7c30116cfa30b6bd9e4cb32992d10e7c7f831ceef210610b30707023/pulpcore-client-3.9.0.dev1607297320.tar.gz
+[2023-06-07 05:54:55] INFO root fetch - processPackages [opensourceleg]: Downloading https://files.pythonhosted.org/packages/2f/f4/4bcb31a8dfc140781cd2477ebc238ed464fa1efdb7675108e23d1d845fda/opensourceleg-1.2.6.tar.gz
+[2023-06-07 05:54:55] INFO root fetch - processPackages [ant1Interface]: Downloading https://files.pythonhosted.org/packages/ec/88/3a42ef13eeb70e156d3cf4e296adf9012fbef15a7685742aedf921da4911/ant1Interface-0.0.7-py3-none-any.whl
+[2023-06-07 05:54:55] INFO root fetch - processPackages [pulpcore]: Downloading https://files.pythonhosted.org/packages/f8/1d/71d5ee5112d508faa58a8e221cf74383b6d987ca0d17c18e2703c7f42845/pulpcore-3.9.0.tar.gz
+[2023-06-07 05:54:55] INFO root fetch - processPackages [scutls]: Downloading https://files.pythonhosted.org/packages/f5/a1/82ad51cda48c57f19d8f72b4758dd2e0d6e6c64036db645da34b09c28d5b/scutls-0.2.4.tar.gz
+[2023-06-07 05:54:55] INFO root fetch - processPackages [cognica]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-07 05:54:55] INFO root fetch - processPackages [uintel]: Downloading https://files.pythonhosted.org/packages/fd/76/05d3c245c43cbc18f7ae8b6e78296317e23495d757868df312313d0d1434/uintel-0.4.2.tar.gz
+[2023-06-07 05:54:55] INFO root fetch - processPackages [pulpcore]: Downloading https://files.pythonhosted.org/packages/bb/70/24516074cc53b97be0e41b4892a3f5bcf3ac34e3b7634e49e28a6ae67a49/pulpcore-3.9.1.tar.gz
+[2023-06-07 05:54:55] INFO root fetch - processPackages [ant1Interface]: Downloading https://files.pythonhosted.org/packages/cf/d2/fcb6e1b2a714653f4642d8b21e4ee22b1b4ffbf9e9a950b6433053e972f8/ant1Interface-0.0.9-py3-none-any.whl
+[2023-06-07 05:54:55] INFO root fetch - processPackages [pulpcore-client]: Downloading https://files.pythonhosted.org/packages/35/63/611a0870907086abd3a010fad88acd0236d830aac5b72032d41e66440aff/pulpcore-client-3.9.1.tar.gz
+[2023-06-07 05:54:55] INFO root fetch - processPackages [scutls]: Downloading https://files.pythonhosted.org/packages/13/d5/dfdc34f2746c65d20211c5e4c63650676672353d6711db5c0bfee484d579/scutls-0.2.5.tar.gz
+[2023-06-07 05:54:55] INFO root fetch - processPackages [cognica]: Downloading https://files.pythonhosted.org/packages/72/12/f8284ebe315c27ab0c18bb4dc0e1aacacd408f5c957db0e9d32a75f0f951/cognica-0.1.3.tar.gz
+[2023-06-07 05:54:55] INFO root fetch - processPackages [pulpcore]: executing diffoscope
+[2023-06-07 05:54:55] INFO root fetch - processPackages [pulpcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulpcore-3.9.0.tar.gz tmp/pulpcore-3.9.1.tar.gz --markdown 20230607/p/pulpcore/3.9.0-3.9.1/diff.md --exclude *.pyd
+[2023-06-07 05:54:55] INFO root fetch - processPackages [opensourceleg]: Downloading https://files.pythonhosted.org/packages/91/78/4192ba1c92d45e8153c21437bb109fb72955ede5679439ffc9063c8176f6/opensourceleg-1.2.7.tar.gz
+[2023-06-07 05:54:55] INFO root fetch - processPackages [pulpcore-client]: executing diffoscope
+[2023-06-07 05:54:55] INFO root fetch - processPackages [pulpcore-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulpcore-client-3.9.0.dev1607297320.tar.gz tmp/pulpcore-client-3.9.1.tar.gz --markdown 20230607/p/pulpcore-client/3.9.0.dev1607297320-3.9.1/diff.md --exclude *.pyd
+[2023-06-07 05:54:55] INFO root fetch - processPackages [scutls]: executing diffoscope
+[2023-06-07 05:54:55] INFO root fetch - processPackages [scutls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scutls-0.2.4.tar.gz tmp/scutls-0.2.5.tar.gz --markdown 20230607/s/scutls/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-06-07 05:54:55] INFO root fetch - processPackages [uintel]: Downloading https://files.pythonhosted.org/packages/d1/aa/deaf4e5dbe4eb1729f48b1a00a0f76757703ad3b76b53df6e35054c53bae/uintel-0.4.3.tar.gz
+[2023-06-07 05:54:56] INFO root fetch - processPackages [opensourceleg]: executing diffoscope
+[2023-06-07 05:54:56] INFO root fetch - processPackages [opensourceleg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opensourceleg-1.2.6.tar.gz tmp/opensourceleg-1.2.7.tar.gz --markdown 20230607/o/opensourceleg/1.2.6-1.2.7/diff.md --exclude *.pyd
+[2023-06-07 05:54:56] INFO root fetch - processPackages [uintel]: executing diffoscope
+[2023-06-07 05:54:56] INFO root fetch - processPackages [uintel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uintel-0.4.2.tar.gz tmp/uintel-0.4.3.tar.gz --markdown 20230607/u/uintel/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-06-07 05:54:56] INFO root fetch - processPackages [ant1Interface]: executing diffoscope
+[2023-06-07 05:54:56] INFO root fetch - processPackages [ant1Interface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ant1Interface-0.0.7-py3-none-any.whl.zip tmp/ant1Interface-0.0.9-py3-none-any.whl.zip --markdown 20230607/a/ant1Interface/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-06-07 05:54:56] INFO root fetch - processPackages [cognica]: Downloading https://files.pythonhosted.org/packages/3d/4a/4c3f334b51aa3c0d0d9852e01b7c7e37150bd369f0bddd1bbcb0f619a4b4/cognica-0.1.4-py3-none-any.whl
+[2023-06-07 05:54:56] INFO root fetch - processPackages [cognica]: executing diffoscope
+[2023-06-07 05:54:56] INFO root fetch - processPackages [cognica]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognica-0.1.3.tar.gz tmp/cognica-0.1.4-py3-none-any.whl.zip --markdown 20230607/c/cognica/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-07 05:54:57] INFO root fetch - processPackages [scutls]: Remove: archive file [/home/abi/fetcher/tmp/scutls-0.2.4.tar.gz]
+[2023-06-07 05:54:57] INFO root fetch - processPackages [scutls]: Remove: archive file [/home/abi/fetcher/tmp/scutls-0.2.5.tar.gz]
+[2023-06-07 05:54:57] INFO root fetch - main [MainThread]: End processing [scutls]: success
+[2023-06-07 05:54:57] INFO root fetch - processPackages [opensourceleg]: Remove: archive file [/home/abi/fetcher/tmp/opensourceleg-1.2.6.tar.gz]
+[2023-06-07 05:54:57] INFO root fetch - processPackages [opensourceleg]: Remove: archive file [/home/abi/fetcher/tmp/opensourceleg-1.2.7.tar.gz]
+[2023-06-07 05:54:57] INFO root fetch - main [MainThread]: End processing [opensourceleg]: success
+[2023-06-07 05:54:57] INFO root fetch - processPackages [uintel]: Remove: archive file [/home/abi/fetcher/tmp/uintel-0.4.2.tar.gz]
+[2023-06-07 05:54:57] INFO root fetch - processPackages [uintel]: Remove: archive file [/home/abi/fetcher/tmp/uintel-0.4.3.tar.gz]
+[2023-06-07 05:54:57] INFO root fetch - main [MainThread]: End processing [uintel]: success
+[2023-06-07 05:54:57] INFO root fetch - processPackages [ant1Interface]: Remove: archive file [/home/abi/fetcher/tmp/ant1Interface-0.0.7-py3-none-any.whl.zip]
+[2023-06-07 05:54:57] INFO root fetch - processPackages [ant1Interface]: Remove: archive file [/home/abi/fetcher/tmp/ant1Interface-0.0.9-py3-none-any.whl.zip]
+[2023-06-07 05:54:57] INFO root fetch - main [MainThread]: End processing [ant1Interface]: success
+[2023-06-07 05:54:57] INFO root fetch - processPackages [cognica]: Remove: archive file [/home/abi/fetcher/tmp/cognica-0.1.3.tar.gz]
+[2023-06-07 05:54:57] INFO root fetch - processPackages [cognica]: Remove: archive file [/home/abi/fetcher/tmp/cognica-0.1.4-py3-none-any.whl.zip]
+[2023-06-07 05:54:57] INFO root fetch - main [MainThread]: End processing [cognica]: success
+[2023-06-07 05:54:57] INFO root fetch - processPackages [pulpcore-client]: Remove: archive file [/home/abi/fetcher/tmp/pulpcore-client-3.9.0.dev1607297320.tar.gz]
+[2023-06-07 05:54:57] INFO root fetch - processPackages [pulpcore-client]: Remove: archive file [/home/abi/fetcher/tmp/pulpcore-client-3.9.1.tar.gz]
+[2023-06-07 05:54:57] INFO root fetch - main [MainThread]: End processing [pulpcore-client]: success
+[2023-06-07 05:54:58] INFO root fetch - processPackages [pulpcore]: Remove: archive file [/home/abi/fetcher/tmp/pulpcore-3.9.0.tar.gz]
+[2023-06-07 05:54:58] INFO root fetch - processPackages [pulpcore]: Remove: archive file [/home/abi/fetcher/tmp/pulpcore-3.9.1.tar.gz]
+[2023-06-07 05:54:58] INFO root fetch - main [MainThread]: End processing [pulpcore]: success
+[2023-06-07 05:54:58] INFO root fetch - main [MainThread]: Store serial: [18402455]
