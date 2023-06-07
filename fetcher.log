@@ -10317,3 +10317,63 @@
 [2023-06-07 04:43:27] INFO root fetch - processPackages [libsettings]: Remove: archive file [/home/abi/fetcher/tmp/libsettings-0.1.9.tar.gz]
 [2023-06-07 04:43:27] INFO root fetch - main [MainThread]: End processing [libsettings]: success
 [2023-06-07 04:43:27] INFO root fetch - main [MainThread]: Store serial: [18401967]
+[2023-06-07 04:48:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18401967]
+[2023-06-07 04:48:37] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-07 04:48:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: irt-data-utils
+[2023-06-07 04:48:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: naif-eop-high-prec
+[2023-06-07 04:48:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk8s-plus-25
+[2023-06-07 04:48:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: elifecleaner
+[2023-06-07 04:48:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dfmodule-DSTemplate
+[2023-06-07 04:48:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fileformats-testing
+[2023-06-07 04:48:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ml-pretrained
+[2023-06-07 04:48:37] INFO root fetch - processPackages [irt-data-utils]: New version: [0.0.1a1] Old Version: [0.0.1a0]
+[2023-06-07 04:48:37] WARNING root fetch - processPackages [dfmodule-DSTemplate]: Skipping, unable to determine old version
+[2023-06-07 04:48:37] INFO root fetch - main [MainThread]: End processing [dfmodule-DSTemplate] error
+[2023-06-07 04:48:37] INFO root fetch - processPackages [naif-eop-high-prec]: New version: [2023.6.7] Old Version: [2023.6.6]
+[2023-06-07 04:48:37] INFO root fetch - processPackages [fileformats-testing]: New version: [0.2] Old Version: [0.1.4]
+[2023-06-07 04:48:37] INFO root fetch - processPackages [ml-pretrained]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-07 04:48:37] INFO root fetch - processPackages [elifecleaner]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-07 04:48:37] INFO root fetch - processPackages [cdk8s-plus-25]: New version: [2.8.9] Old Version: [2.8.8]
+[2023-06-07 04:48:37] INFO root fetch - processPackages [naif-eop-high-prec]: Downloading https://files.pythonhosted.org/packages/4c/9c/03d129be1a7c61d0fbdc1942cce0c31d7bb72af0e829de4aed721f92fef9/naif_eop_high_prec-2023.6.6.tar.gz
+[2023-06-07 04:48:37] INFO root fetch - processPackages [ml-pretrained]: Downloading https://files.pythonhosted.org/packages/c3/df/5803d34d3955956bb42a2da5828a1bf4da6bc3322cf4dae06704360ac580/ml-pretrained-0.0.3.tar.gz
+[2023-06-07 04:48:37] INFO root fetch - processPackages [cdk8s-plus-25]: Downloading https://files.pythonhosted.org/packages/19/05/30d98744c3813d678438d1f164dc4db8972da2ff34d40fc7d3a6492d5cc8/cdk8s-plus-25-2.8.8.tar.gz
+[2023-06-07 04:48:37] INFO root fetch - processPackages [fileformats-testing]: Downloading https://files.pythonhosted.org/packages/75/39/a5a038a8b042a7c41195ebe595c60070f7c2d850f3e1b1663b5b89ca2213/fileformats_testing-0.1.4.tar.gz
+[2023-06-07 04:48:37] INFO root fetch - processPackages [irt-data-utils]: Downloading https://files.pythonhosted.org/packages/a0/cf/0c1c3f96ef239f09e0a88d8c827e003d56e445cd4c33e12bf9346a9869e6/irt-data-utils-0.0.1a0.tar.gz
+[2023-06-07 04:48:37] INFO root fetch - processPackages [elifecleaner]: Downloading https://files.pythonhosted.org/packages/d8/0e/4046c55d79880da671663d71e149bd71481ded59f3d48fcdbcb00ba806d5/elifecleaner-0.9.0.tar.gz
+[2023-06-07 04:48:37] INFO root fetch - processPackages [ml-pretrained]: Downloading https://files.pythonhosted.org/packages/1e/02/d73a6d6d3fec4c29345391b078aa155c22abafd77bbe6f80f1725795aac7/ml-pretrained-0.0.4.tar.gz
+[2023-06-07 04:48:37] INFO root fetch - processPackages [naif-eop-high-prec]: Downloading https://files.pythonhosted.org/packages/f5/38/68ea882ccc9be6a6bc205655ff29330d57bb9146c86d3017fe739f005157/naif_eop_high_prec-2023.6.7.tar.gz
+[2023-06-07 04:48:38] INFO root fetch - processPackages [ml-pretrained]: executing diffoscope
+[2023-06-07 04:48:38] INFO root fetch - processPackages [ml-pretrained]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml-pretrained-0.0.3.tar.gz tmp/ml-pretrained-0.0.4.tar.gz --markdown 20230607/m/ml-pretrained/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-07 04:48:38] INFO root fetch - processPackages [fileformats-testing]: Downloading https://files.pythonhosted.org/packages/a6/70/685e7dc20bf6b6799c203ead3f0c22cdd0a5803cfdcb64f5bc58f8e2b746/fileformats_testing-0.2.tar.gz
+[2023-06-07 04:48:38] INFO root fetch - processPackages [cdk8s-plus-25]: Downloading https://files.pythonhosted.org/packages/79/f6/d6bb21b3e8c3f61cefbc6cfb377c23ba65b57440ab1bd217fa176e0b9df7/cdk8s-plus-25-2.8.9.tar.gz
+[2023-06-07 04:48:38] INFO root fetch - processPackages [naif-eop-high-prec]: executing diffoscope
+[2023-06-07 04:48:38] INFO root fetch - processPackages [naif-eop-high-prec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naif_eop_high_prec-2023.6.6.tar.gz tmp/naif_eop_high_prec-2023.6.7.tar.gz --markdown 20230607/n/naif-eop-high-prec/2023.6.6-2023.6.7/diff.md --exclude *.pyd
+[2023-06-07 04:48:38] INFO root fetch - processPackages [irt-data-utils]: Downloading https://files.pythonhosted.org/packages/31/63/9da79ff723da45539e2e28a50f6482be3c5274c706efb269f633033456e3/irt-data-utils-0.0.1a1.tar.gz
+[2023-06-07 04:48:38] INFO root fetch - processPackages [fileformats-testing]: executing diffoscope
+[2023-06-07 04:48:38] INFO root fetch - processPackages [fileformats-testing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fileformats_testing-0.1.4.tar.gz tmp/fileformats_testing-0.2.tar.gz --markdown 20230607/f/fileformats-testing/0.1.4-0.2/diff.md --exclude *.pyd
+[2023-06-07 04:48:38] INFO root fetch - processPackages [elifecleaner]: Downloading https://files.pythonhosted.org/packages/ba/d9/f14856c509de287aec8a31e76808f681383e338462e051c31edcecd1527f/elifecleaner-0.9.1.tar.gz
+[2023-06-07 04:48:38] INFO root fetch - processPackages [irt-data-utils]: executing diffoscope
+[2023-06-07 04:48:38] INFO root fetch - processPackages [irt-data-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irt-data-utils-0.0.1a0.tar.gz tmp/irt-data-utils-0.0.1a1.tar.gz --markdown 20230607/i/irt-data-utils/0.0.1a0-0.0.1a1/diff.md --exclude *.pyd
+[2023-06-07 04:48:38] INFO root fetch - processPackages [cdk8s-plus-25]: executing diffoscope
+[2023-06-07 04:48:38] INFO root fetch - processPackages [cdk8s-plus-25]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-25-2.8.8.tar.gz tmp/cdk8s-plus-25-2.8.9.tar.gz --markdown 20230607/c/cdk8s-plus-25/2.8.8-2.8.9/diff.md --exclude *.pyd
+[2023-06-07 04:48:38] INFO root fetch - processPackages [elifecleaner]: executing diffoscope
+[2023-06-07 04:48:38] INFO root fetch - processPackages [elifecleaner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elifecleaner-0.9.0.tar.gz tmp/elifecleaner-0.9.1.tar.gz --markdown 20230607/e/elifecleaner/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-07 04:48:39] INFO root fetch - processPackages [ml-pretrained]: Remove: archive file [/home/abi/fetcher/tmp/ml-pretrained-0.0.3.tar.gz]
+[2023-06-07 04:48:39] INFO root fetch - processPackages [ml-pretrained]: Remove: archive file [/home/abi/fetcher/tmp/ml-pretrained-0.0.4.tar.gz]
+[2023-06-07 04:48:39] INFO root fetch - main [MainThread]: End processing [ml-pretrained]: success
+[2023-06-07 04:48:39] INFO root fetch - processPackages [fileformats-testing]: Remove: archive file [/home/abi/fetcher/tmp/fileformats_testing-0.1.4.tar.gz]
+[2023-06-07 04:48:39] INFO root fetch - processPackages [fileformats-testing]: Remove: archive file [/home/abi/fetcher/tmp/fileformats_testing-0.2.tar.gz]
+[2023-06-07 04:48:39] INFO root fetch - main [MainThread]: End processing [fileformats-testing]: success
+[2023-06-07 04:48:39] INFO root fetch - processPackages [irt-data-utils]: Remove: archive file [/home/abi/fetcher/tmp/irt-data-utils-0.0.1a0.tar.gz]
+[2023-06-07 04:48:39] INFO root fetch - processPackages [irt-data-utils]: Remove: archive file [/home/abi/fetcher/tmp/irt-data-utils-0.0.1a1.tar.gz]
+[2023-06-07 04:48:39] INFO root fetch - main [MainThread]: End processing [irt-data-utils]: success
+[2023-06-07 04:48:39] INFO root fetch - processPackages [elifecleaner]: Remove: archive file [/home/abi/fetcher/tmp/elifecleaner-0.9.0.tar.gz]
+[2023-06-07 04:48:39] INFO root fetch - processPackages [elifecleaner]: Remove: archive file [/home/abi/fetcher/tmp/elifecleaner-0.9.1.tar.gz]
+[2023-06-07 04:48:39] INFO root fetch - main [MainThread]: End processing [elifecleaner]: success
+[2023-06-07 04:48:39] INFO root fetch - processPackages [cdk8s-plus-25]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-25-2.8.8.tar.gz]
+[2023-06-07 04:48:39] INFO root fetch - processPackages [cdk8s-plus-25]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-25-2.8.9.tar.gz]
+[2023-06-07 04:48:39] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-25]: success
+[2023-06-07 04:48:42] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2023.6.6.tar.gz]
+[2023-06-07 04:48:42] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2023.6.7.tar.gz]
+[2023-06-07 04:48:42] INFO root fetch - main [MainThread]: End processing [naif-eop-high-prec]: success
+[2023-06-07 04:48:42] INFO root fetch - main [MainThread]: Store serial: [18402032]
