@@ -14477,3 +14477,60 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-06-07 08:33:12] INFO root fetch - processPackages [clickzetta-connector]: Remove: archive file [/home/abi/fetcher/tmp/clickzetta-connector-0.8.9.tar.gz]
 [2023-06-07 08:33:12] INFO root fetch - main [MainThread]: End processing [clickzetta-connector]: success
 [2023-06-07 08:33:12] INFO root fetch - main [MainThread]: Store serial: [18403585]
+[2023-06-07 08:38:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18403585]
+[2023-06-07 08:38:21] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-07 08:38:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dexterity.membrane
+[2023-06-07 08:38:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: imsholcal
+[2023-06-07 08:38:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dbt-clickzetta
+[2023-06-07 08:38:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: TINTOlib
+[2023-06-07 08:38:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: get-chrome-driver
+[2023-06-07 08:38:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pynecone
+[2023-06-07 08:38:21] INFO root fetch - processPackages [imsholcal]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-06-07 08:38:21] INFO root fetch - processPackages [pynecone]: New version: [0.1.33a2] Old Version: [0.1.33a1]
+[2023-06-07 08:38:21] INFO root fetch - processPackages [dbt-clickzetta]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-07 08:38:21] INFO root fetch - processPackages [get-chrome-driver]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-06-07 08:38:21] INFO root fetch - processPackages [TINTOlib]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-07 08:38:21] INFO root fetch - processPackages [dexterity.membrane]: New version: [3.0.2] Old Version: [3.0.1]
+[2023-06-07 08:38:22] INFO root fetch - processPackages [TINTOlib]: Downloading https://files.pythonhosted.org/packages/88/66/5ff78a7354d96c5cb6040119eab2be915cdf9e9570f5bf18b1c2dba81c64/tintolib-0.0.8.tar.gz
+[2023-06-07 08:38:22] INFO root fetch - processPackages [imsholcal]: Downloading https://files.pythonhosted.org/packages/d5/f9/b258cd8524f4a5d42df87aaa999a146a12ad5c8d194246b0932424397a47/imsholcal-1.1.3.tar.gz
+[2023-06-07 08:38:22] INFO root fetch - processPackages [dbt-clickzetta]: Downloading https://files.pythonhosted.org/packages/09/f0/5a413293e92b4ca0d7431450a7218700efac779c0ce2a94f2b8d575440f2/dbt-clickzetta-0.2.8.tar.gz
+[2023-06-07 08:38:22] INFO root fetch - processPackages [pynecone]: Downloading https://files.pythonhosted.org/packages/37/0c/be7bfb6797c238eb3dd6d51a36bda187676c77c5e420a3b5da108056cc6c/pynecone-0.1.33a1.tar.gz
+[2023-06-07 08:38:22] INFO root fetch - processPackages [get-chrome-driver]: Downloading https://files.pythonhosted.org/packages/d3/4b/8454f2e6479b4494155a2fa75dbf37a4ed834271526a16e2be238065cede/get-chrome-driver-1.3.8.tar.gz
+[2023-06-07 08:38:22] INFO root fetch - processPackages [dexterity.membrane]: Downloading https://files.pythonhosted.org/packages/6d/0e/0dffae56888493cbbc15d3c6e17a027b565d219b6cffc602c8b59e878458/dexterity.membrane-3.0.1.tar.gz
+[2023-06-07 08:38:22] INFO root fetch - processPackages [imsholcal]: Downloading https://files.pythonhosted.org/packages/72/7d/38faf1f83b83375e5ff7a6e1bd765d6805baeaf55d50f2726dc16dba96af/imsholcal-1.1.4.tar.gz
+[2023-06-07 08:38:22] INFO root fetch - processPackages [imsholcal]: executing diffoscope
+[2023-06-07 08:38:22] INFO root fetch - processPackages [imsholcal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imsholcal-1.1.3.tar.gz tmp/imsholcal-1.1.4.tar.gz --markdown 20230607/i/imsholcal/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-06-07 08:38:22] INFO root fetch - processPackages [dbt-clickzetta]: Downloading https://files.pythonhosted.org/packages/c1/14/85271f2139ff454c5ff9bcefec81d708e59f4ed0230702dafe1a5b557869/dbt-clickzetta-0.2.9.tar.gz
+[2023-06-07 08:38:22] INFO root fetch - processPackages [TINTOlib]: Downloading https://files.pythonhosted.org/packages/c4/27/a91d5cfaf102a55a2a1c9d05c61fa9b4e7a94ef94ddb79a837edafdb6324/tintolib-0.0.9.tar.gz
+[2023-06-07 08:38:22] INFO root fetch - processPackages [pynecone]: Downloading https://files.pythonhosted.org/packages/76/7a/c2fc2652b54e1e6a17be2970b2a44dedb4f118682e184383f864aabfefdb/pynecone-0.1.33a2.tar.gz
+[2023-06-07 08:38:22] INFO root fetch - processPackages [dexterity.membrane]: Downloading https://files.pythonhosted.org/packages/fa/b0/4a18f806b3510b1990705a1e2b43cd5ba1e6dc0020ccc226c9c2f16da92e/dexterity.membrane-3.0.2.tar.gz
+[2023-06-07 08:38:22] INFO root fetch - processPackages [dbt-clickzetta]: executing diffoscope
+[2023-06-07 08:38:22] INFO root fetch - processPackages [dbt-clickzetta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-clickzetta-0.2.8.tar.gz tmp/dbt-clickzetta-0.2.9.tar.gz --markdown 20230607/d/dbt-clickzetta/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-07 08:38:22] INFO root fetch - processPackages [get-chrome-driver]: Downloading https://files.pythonhosted.org/packages/f5/1f/401d689edcf0210796e6f03e2acfdf7b5fd9b97bd07b854116303d9c34a2/get-chrome-driver-1.3.9.tar.gz
+[2023-06-07 08:38:22] INFO root fetch - processPackages [dexterity.membrane]: executing diffoscope
+[2023-06-07 08:38:22] INFO root fetch - processPackages [dexterity.membrane]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dexterity.membrane-3.0.1.tar.gz tmp/dexterity.membrane-3.0.2.tar.gz --markdown 20230607/d/dexterity.membrane/3.0.1-3.0.2/diff.md --exclude *.pyd
+[2023-06-07 08:38:22] INFO root fetch - processPackages [TINTOlib]: executing diffoscope
+[2023-06-07 08:38:22] INFO root fetch - processPackages [TINTOlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tintolib-0.0.8.tar.gz tmp/tintolib-0.0.9.tar.gz --markdown 20230607/T/TINTOlib/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-07 08:38:22] INFO root fetch - processPackages [get-chrome-driver]: executing diffoscope
+[2023-06-07 08:38:22] INFO root fetch - processPackages [get-chrome-driver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/get-chrome-driver-1.3.8.tar.gz tmp/get-chrome-driver-1.3.9.tar.gz --markdown 20230607/g/get-chrome-driver/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-06-07 08:38:22] INFO root fetch - processPackages [pynecone]: executing diffoscope
+[2023-06-07 08:38:22] INFO root fetch - processPackages [pynecone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynecone-0.1.33a1.tar.gz tmp/pynecone-0.1.33a2.tar.gz --markdown 20230607/p/pynecone/0.1.33a1-0.1.33a2/diff.md --exclude *.pyd
+[2023-06-07 08:38:23] INFO root fetch - processPackages [imsholcal]: Remove: archive file [/home/abi/fetcher/tmp/imsholcal-1.1.3.tar.gz]
+[2023-06-07 08:38:23] INFO root fetch - processPackages [imsholcal]: Remove: archive file [/home/abi/fetcher/tmp/imsholcal-1.1.4.tar.gz]
+[2023-06-07 08:38:23] INFO root fetch - main [MainThread]: End processing [imsholcal]: success
+[2023-06-07 08:38:24] INFO root fetch - processPackages [dbt-clickzetta]: Remove: archive file [/home/abi/fetcher/tmp/dbt-clickzetta-0.2.8.tar.gz]
+[2023-06-07 08:38:24] INFO root fetch - processPackages [dbt-clickzetta]: Remove: archive file [/home/abi/fetcher/tmp/dbt-clickzetta-0.2.9.tar.gz]
+[2023-06-07 08:38:24] INFO root fetch - main [MainThread]: End processing [dbt-clickzetta]: success
+[2023-06-07 08:38:24] INFO root fetch - processPackages [get-chrome-driver]: Remove: archive file [/home/abi/fetcher/tmp/get-chrome-driver-1.3.8.tar.gz]
+[2023-06-07 08:38:24] INFO root fetch - processPackages [get-chrome-driver]: Remove: archive file [/home/abi/fetcher/tmp/get-chrome-driver-1.3.9.tar.gz]
+[2023-06-07 08:38:24] INFO root fetch - main [MainThread]: End processing [get-chrome-driver]: success
+[2023-06-07 08:38:25] INFO root fetch - processPackages [pynecone]: Remove: archive file [/home/abi/fetcher/tmp/pynecone-0.1.33a1.tar.gz]
+[2023-06-07 08:38:25] INFO root fetch - processPackages [pynecone]: Remove: archive file [/home/abi/fetcher/tmp/pynecone-0.1.33a2.tar.gz]
+[2023-06-07 08:38:25] INFO root fetch - main [MainThread]: End processing [pynecone]: success
+[2023-06-07 08:38:25] INFO root fetch - processPackages [dexterity.membrane]: Remove: archive file [/home/abi/fetcher/tmp/dexterity.membrane-3.0.1.tar.gz]
+[2023-06-07 08:38:25] INFO root fetch - processPackages [dexterity.membrane]: Remove: archive file [/home/abi/fetcher/tmp/dexterity.membrane-3.0.2.tar.gz]
+[2023-06-07 08:38:25] INFO root fetch - main [MainThread]: End processing [dexterity.membrane]: success
+[2023-06-07 08:39:01] INFO root fetch - processPackages [TINTOlib]: Remove: archive file [/home/abi/fetcher/tmp/tintolib-0.0.8.tar.gz]
+[2023-06-07 08:39:01] INFO root fetch - processPackages [TINTOlib]: Remove: archive file [/home/abi/fetcher/tmp/tintolib-0.0.9.tar.gz]
+[2023-06-07 08:39:01] INFO root fetch - main [MainThread]: End processing [TINTOlib]: success
+[2023-06-07 08:39:01] INFO root fetch - main [MainThread]: Store serial: [18403601]
