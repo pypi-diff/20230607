@@ -1663,3 +1663,115 @@
 [2023-06-07 01:56:00] INFO root fetch - processPackages [sqlite-html]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_html-0.1.2a5-py3-none-win_amd64.whl.zip]
 [2023-06-07 01:56:00] INFO root fetch - main [MainThread]: End processing [sqlite-html]: success
 [2023-06-07 01:56:00] INFO root fetch - main [MainThread]: Store serial: [18398798]
+[2023-06-07 02:01:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18398798]
+[2023-06-07 02:01:24] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-07 02:01:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mojo-interop
+[2023-06-07 02:01:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: robotframework-requests
+[2023-06-07 02:01:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: foc
+[2023-06-07 02:01:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pytorch-nlp-pipeline
+[2023-06-07 02:01:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: phoenixtools
+[2023-06-07 02:01:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: robotframework-requests
+[2023-06-07 02:01:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: camply
+[2023-06-07 02:01:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lusid-sdk-preview
+[2023-06-07 02:01:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lusid-sdk
+[2023-06-07 02:01:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: stackdiac
+[2023-06-07 02:01:24] INFO root fetch - processPackages [pytorch-nlp-pipeline]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-07 02:01:24] WARNING root fetch - processPackages [foc]: Skipping, unable to determine old version
+[2023-06-07 02:01:24] INFO root fetch - processPackages [foc]: Start processing: auto-obsidian
+[2023-06-07 02:01:24] INFO root fetch - main [MainThread]: End processing [foc] error
+[2023-06-07 02:01:24] INFO root fetch - processPackages [robotframework-requests]: New version: [devel] Old Version: [1.0a7]
+[2023-06-07 02:01:24] INFO root fetch - processPackages [robotframework-requests]: New version: [devel] Old Version: [1.0a7]
+[2023-06-07 02:01:24] INFO root fetch - processPackages [mojo-interop]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-07 02:01:24] INFO root fetch - processPackages [phoenixtools]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-07 02:01:24] INFO root fetch - processPackages [camply]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-06-07 02:01:24] INFO root fetch - processPackages [stackdiac]: New version: [0.0.1.dev26] Old Version: [0.0.1.dev25]
+[2023-06-07 02:01:25] WARNING root fetch - processPackages [auto-obsidian]: Skipping, unable to determine old version
+[2023-06-07 02:01:25] INFO root fetch - processPackages [auto-obsidian]: Start processing: qcs-sdk-python
+[2023-06-07 02:01:25] INFO root fetch - main [MainThread]: End processing [auto-obsidian] error
+[2023-06-07 02:01:25] INFO root fetch - processPackages [lusid-sdk]: New version: [1.0.98] Old Version: [1.0.91]
+[2023-06-07 02:01:25] INFO root fetch - processPackages [lusid-sdk-preview]: New version: [1.0.98] Old Version: [1.0.91]
+[2023-06-07 02:01:25] INFO root fetch - processPackages [camply]: Downloading https://files.pythonhosted.org/packages/b6/1e/0f4c1cd15a9dc716c825ce9473f46b8d514cdeef6ffa87576366bf2588f5/camply-0.9.2.tar.gz
+[2023-06-07 02:01:25] INFO root fetch - processPackages [qcs-sdk-python]: New version: [0.9.0rc0] Old Version: [0.8.1]
+[2023-06-07 02:01:25] INFO root fetch - processPackages [phoenixtools]: Downloading https://files.pythonhosted.org/packages/c6/e5/d28b4b8c76bed64a551295e231207a6b288fb9ae817f5337adabe0874cc6/phoenixtools-0.0.3.tar.gz
+[2023-06-07 02:01:25] INFO root fetch - processPackages [robotframework-requests]: Downloading https://files.pythonhosted.org/packages/04/c5/1a3cd7b796b09ca934f9e2a18660df5f64d27f1fdea1047da87878699570/robotframework-requests-1.0a7.tar.gz
+[2023-06-07 02:01:25] INFO root fetch - processPackages [robotframework-requests]: Downloading https://files.pythonhosted.org/packages/04/c5/1a3cd7b796b09ca934f9e2a18660df5f64d27f1fdea1047da87878699570/robotframework-requests-1.0a7.tar.gz
+[2023-06-07 02:01:25] INFO root fetch - processPackages [pytorch-nlp-pipeline]: Downloading https://files.pythonhosted.org/packages/70/0d/dfe167c6305332a809d43f42838f6664ceab8ca55a8b3e8fdfa7d6c1f2b9/pytorch_nlp_pipeline-0.1.8.tar.gz
+[2023-06-07 02:01:25] INFO root fetch - processPackages [mojo-interop]: Downloading https://files.pythonhosted.org/packages/55/36/9f539ca328591858e08e09e01710b5923e4b5fe2e60213684f9eb88bbee1/mojo_interop-0.0.8.tar.gz
+[2023-06-07 02:01:25] INFO root fetch - processPackages [stackdiac]: Downloading https://files.pythonhosted.org/packages/26/d5/d276e1d4d21a1d76b1428972d68c2763c9f0cb17816297dc37ee367fe737/stackdiac-0.0.1.dev25.tar.gz
+[2023-06-07 02:01:25] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/be/34/7662f651750d07513450337ca9275481d00381ada330eaaa7e365fdde135/lusid-sdk-1.0.91.tar.gz
+[2023-06-07 02:01:25] INFO root fetch - processPackages [lusid-sdk-preview]: Downloading https://files.pythonhosted.org/packages/49/7a/a2c137408aeb27bd4c7f6dd83e907217e3962f825b96448437c4cfa4e0ea/lusid-sdk-preview-1.0.91.tar.gz
+[2023-06-07 02:01:25] INFO root fetch - processPackages [qcs-sdk-python]: Downloading https://files.pythonhosted.org/packages/5c/d9/8459b3abdc74feb6db17d35740b47ccc7c5a0d14c2c5b9239678befe2f7d/qcs_sdk_python-0.8.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-07 02:01:25] INFO root fetch - processPackages [camply]: Downloading https://files.pythonhosted.org/packages/3e/d1/4f9e81a5f74b69b8f9c95b378d56780fcddfa4ab3f0f8226c1a7a7116867/camply-0.9.3.tar.gz
+[2023-06-07 02:01:25] INFO root fetch - processPackages [phoenixtools]: Downloading https://files.pythonhosted.org/packages/24/65/d21db338a18807332bfcc727ae93a6627f3d1e8649d0786f408b3b226ddd/phoenixtools-0.0.4.tar.gz
+[2023-06-07 02:01:25] INFO root fetch - processPackages [robotframework-requests]: Downloading https://files.pythonhosted.org/packages/0f/d1/0bbdc7db38b07b3607bae47d623418414a9629c2bf24b4f9e5d84c5eca9e/robotframework-requests-0.1.tar.gz
+[2023-06-07 02:01:25] INFO root fetch - processPackages [robotframework-requests]: Downloading https://files.pythonhosted.org/packages/0f/d1/0bbdc7db38b07b3607bae47d623418414a9629c2bf24b4f9e5d84c5eca9e/robotframework-requests-0.1.tar.gz
+[2023-06-07 02:01:25] INFO root fetch - processPackages [stackdiac]: Downloading https://files.pythonhosted.org/packages/7b/f0/baebaa5623b128b74fffee399eba3416bfb5c03c2e663064cbfebd00f9aa/stackdiac-0.0.1.dev26.tar.gz
+[2023-06-07 02:01:25] INFO root fetch - processPackages [mojo-interop]: Downloading https://files.pythonhosted.org/packages/ea/70/9e09838bffe5311c4accab6c3c9f2293ee5a591bd45e9bf64ebb9a01b20d/mojo_interop-0.0.9.tar.gz
+[2023-06-07 02:01:25] INFO root fetch - processPackages [pytorch-nlp-pipeline]: Downloading https://files.pythonhosted.org/packages/39/49/6c7b9df27304de79e69aed5ef0c709f40c6eefbe844f52d5f719e711a0e4/pytorch_nlp_pipeline-0.1.9.tar.gz
+[2023-06-07 02:01:25] INFO root fetch - processPackages [robotframework-requests]: executing diffoscope
+[2023-06-07 02:01:25] INFO root fetch - processPackages [robotframework-requests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework-requests-1.0a7.tar.gz tmp/robotframework-requests-0.1.tar.gz --markdown 20230607/r/robotframework-requests/1.0a7-devel/diff.md --exclude *.pyd
+[2023-06-07 02:01:25] INFO root fetch - processPackages [camply]: executing diffoscope
+[2023-06-07 02:01:25] INFO root fetch - processPackages [camply]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/camply-0.9.2.tar.gz tmp/camply-0.9.3.tar.gz --markdown 20230607/c/camply/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-06-07 02:01:25] INFO root fetch - processPackages [phoenixtools]: executing diffoscope
+[2023-06-07 02:01:25] INFO root fetch - processPackages [phoenixtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phoenixtools-0.0.3.tar.gz tmp/phoenixtools-0.0.4.tar.gz --markdown 20230607/p/phoenixtools/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-07 02:01:25] INFO root fetch - processPackages [robotframework-requests]: executing diffoscope
+[2023-06-07 02:01:25] INFO root fetch - processPackages [robotframework-requests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework-requests-1.0a7.tar.gz tmp/robotframework-requests-0.1.tar.gz --markdown 20230607/r/robotframework-requests/1.0a7-devel/diff.md --exclude *.pyd
+[2023-06-07 02:01:25] INFO root fetch - processPackages [lusid-sdk-preview]: Downloading https://files.pythonhosted.org/packages/98/81/36672596a28f997865bee76ba030a446e52a68b56b9e297ed56f9a8fb301/lusid-sdk-preview-1.0.98.tar.gz
+[2023-06-07 02:01:25] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/14/c8/523a5d4f9c0dcabd6883ffe308d0ecf41ed93c1f7e1cdc4baced16ec67c6/lusid-sdk-1.0.98.tar.gz
+[2023-06-07 02:01:25] INFO root fetch - processPackages [pytorch-nlp-pipeline]: executing diffoscope
+[2023-06-07 02:01:25] INFO root fetch - processPackages [pytorch-nlp-pipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytorch_nlp_pipeline-0.1.8.tar.gz tmp/pytorch_nlp_pipeline-0.1.9.tar.gz --markdown 20230607/p/pytorch-nlp-pipeline/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-07 02:01:25] INFO root fetch - processPackages [mojo-interop]: executing diffoscope
+[2023-06-07 02:01:25] INFO root fetch - processPackages [mojo-interop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mojo_interop-0.0.8.tar.gz tmp/mojo_interop-0.0.9.tar.gz --markdown 20230607/m/mojo-interop/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-07 02:01:25] INFO root fetch - processPackages [stackdiac]: executing diffoscope
+[2023-06-07 02:01:25] INFO root fetch - processPackages [stackdiac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stackdiac-0.0.1.dev25.tar.gz tmp/stackdiac-0.0.1.dev26.tar.gz --markdown 20230607/s/stackdiac/0.0.1.dev25-0.0.1.dev26/diff.md --exclude *.pyd
+[2023-06-07 02:01:25] INFO root fetch - processPackages [lusid-sdk-preview]: executing diffoscope
+[2023-06-07 02:01:25] INFO root fetch - processPackages [lusid-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-sdk-preview-1.0.91.tar.gz tmp/lusid-sdk-preview-1.0.98.tar.gz --markdown 20230607/l/lusid-sdk-preview/1.0.91-1.0.98/diff.md --exclude *.pyd
+[2023-06-07 02:01:25] INFO root fetch - processPackages [lusid-sdk]: executing diffoscope
+[2023-06-07 02:01:25] INFO root fetch - processPackages [lusid-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-sdk-1.0.91.tar.gz tmp/lusid-sdk-1.0.98.tar.gz --markdown 20230607/l/lusid-sdk/1.0.91-1.0.98/diff.md --exclude *.pyd
+[2023-06-07 02:01:25] INFO root fetch - processPackages [qcs-sdk-python]: Downloading https://files.pythonhosted.org/packages/a0/d0/fd1dab22d8af215ebc9904bbefa1d0352fef5d5f955e2c6e71ef1576fbde/qcs_sdk_python-0.9.0rc0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-07 02:01:27] INFO root fetch - processPackages [qcs-sdk-python]: executing diffoscope
+[2023-06-07 02:01:27] INFO root fetch - processPackages [qcs-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qcs_sdk_python-0.8.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/qcs_sdk_python-0.9.0rc0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230607/q/qcs-sdk-python/0.8.1-0.9.0rc0/diff.md --exclude *.pyd
+[2023-06-07 02:01:27] INFO root fetch - processPackages [phoenixtools]: Remove: archive file [/home/abi/fetcher/tmp/phoenixtools-0.0.3.tar.gz]
+[2023-06-07 02:01:27] INFO root fetch - processPackages [phoenixtools]: Remove: archive file [/home/abi/fetcher/tmp/phoenixtools-0.0.4.tar.gz]
+[2023-06-07 02:01:27] INFO root fetch - processPackages [phoenixtools]: Start processing: real-package
+[2023-06-07 02:01:27] INFO root fetch - main [MainThread]: End processing [phoenixtools]: success
+[2023-06-07 02:01:27] WARNING root fetch - processPackages [real-package]: Skipping, unable to determine old version
+[2023-06-07 02:01:27] INFO root fetch - processPackages [real-package]: Start processing: auto-route
+[2023-06-07 02:01:27] INFO root fetch - main [MainThread]: End processing [real-package] error
+[2023-06-07 02:01:27] WARNING root fetch - processPackages [auto-route]: Skipping, unable to determine old version
+[2023-06-07 02:01:27] INFO root fetch - processPackages [auto-route]: Start processing: promptrix
+[2023-06-07 02:01:27] INFO root fetch - main [MainThread]: End processing [auto-route] error
+[2023-06-07 02:01:27] INFO root fetch - processPackages [pytorch-nlp-pipeline]: Remove: archive file [/home/abi/fetcher/tmp/pytorch_nlp_pipeline-0.1.8.tar.gz]
+[2023-06-07 02:01:27] INFO root fetch - processPackages [pytorch-nlp-pipeline]: Remove: archive file [/home/abi/fetcher/tmp/pytorch_nlp_pipeline-0.1.9.tar.gz]
+[2023-06-07 02:01:27] INFO root fetch - main [MainThread]: End processing [pytorch-nlp-pipeline]: success
+[2023-06-07 02:01:27] INFO root fetch - processPackages [robotframework-requests]: Remove: archive file [/home/abi/fetcher/tmp/robotframework-requests-1.0a7.tar.gz]
+[2023-06-07 02:01:27] INFO root fetch - processPackages [robotframework-requests]: Remove: archive file [/home/abi/fetcher/tmp/robotframework-requests-0.1.tar.gz]
+[2023-06-07 02:01:27] INFO root fetch - main [MainThread]: End processing [robotframework-requests]: success
+[2023-06-07 02:01:27] INFO root fetch - processPackages [promptrix]: New version: [0.1.9] Old Version: [0.1.0]
+[2023-06-07 02:01:27] INFO root fetch - main [MainThread]: End processing [robotframework-requests]: success
+[2023-06-07 02:01:27] INFO root fetch - processPackages [camply]: Remove: archive file [/home/abi/fetcher/tmp/camply-0.9.2.tar.gz]
+[2023-06-07 02:01:27] INFO root fetch - processPackages [camply]: Remove: archive file [/home/abi/fetcher/tmp/camply-0.9.3.tar.gz]
+[2023-06-07 02:01:27] INFO root fetch - main [MainThread]: End processing [camply]: success
+[2023-06-07 02:01:27] INFO root fetch - processPackages [promptrix]: Downloading https://files.pythonhosted.org/packages/f0/98/9c764876a29f602745974876402303ab80a60a6fa286f187828a8297772b/promptrix-0.1.0.tar.gz
+[2023-06-07 02:01:27] INFO root fetch - processPackages [stackdiac]: Remove: archive file [/home/abi/fetcher/tmp/stackdiac-0.0.1.dev25.tar.gz]
+[2023-06-07 02:01:27] INFO root fetch - processPackages [stackdiac]: Remove: archive file [/home/abi/fetcher/tmp/stackdiac-0.0.1.dev26.tar.gz]
+[2023-06-07 02:01:27] INFO root fetch - main [MainThread]: End processing [stackdiac]: success
+[2023-06-07 02:01:27] INFO root fetch - processPackages [promptrix]: Downloading https://files.pythonhosted.org/packages/0e/04/23492bdf9692c8c7985da15789116df275542b78a99a7a86fc5d25802b7b/promptrix-0.1.9.tar.gz
+[2023-06-07 02:01:28] INFO root fetch - processPackages [promptrix]: executing diffoscope
+[2023-06-07 02:01:28] INFO root fetch - processPackages [promptrix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230607:/home/abi/fetcher/20230607:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promptrix-0.1.0.tar.gz tmp/promptrix-0.1.9.tar.gz --markdown 20230607/p/promptrix/0.1.0-0.1.9/diff.md --exclude *.pyd
+[2023-06-07 02:01:29] INFO root fetch - processPackages [promptrix]: Remove: archive file [/home/abi/fetcher/tmp/promptrix-0.1.0.tar.gz]
+[2023-06-07 02:01:29] INFO root fetch - processPackages [promptrix]: Remove: archive file [/home/abi/fetcher/tmp/promptrix-0.1.9.tar.gz]
+[2023-06-07 02:01:29] INFO root fetch - main [MainThread]: End processing [promptrix]: success
+[2023-06-07 02:01:29] INFO root fetch - processPackages [mojo-interop]: Remove: archive file [/home/abi/fetcher/tmp/mojo_interop-0.0.8.tar.gz]
+[2023-06-07 02:01:29] INFO root fetch - processPackages [mojo-interop]: Remove: archive file [/home/abi/fetcher/tmp/mojo_interop-0.0.9.tar.gz]
+[2023-06-07 02:01:29] INFO root fetch - main [MainThread]: End processing [mojo-interop]: success
+[2023-06-07 02:01:42] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-1.0.91.tar.gz]
+[2023-06-07 02:01:42] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-1.0.98.tar.gz]
+[2023-06-07 02:01:42] INFO root fetch - main [MainThread]: End processing [lusid-sdk]: success
+[2023-06-07 02:01:53] INFO root fetch - processPackages [lusid-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-preview-1.0.91.tar.gz]
+[2023-06-07 02:01:53] INFO root fetch - processPackages [lusid-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-preview-1.0.98.tar.gz]
+[2023-06-07 02:01:53] INFO root fetch - main [MainThread]: End processing [lusid-sdk-preview]: success
+[2023-06-07 02:03:48] INFO root fetch - processPackages [qcs-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/qcs_sdk_python-0.8.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-07 02:03:48] INFO root fetch - processPackages [qcs-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/qcs_sdk_python-0.9.0rc0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-07 02:03:48] INFO root fetch - main [MainThread]: End processing [qcs-sdk-python]: success
+[2023-06-07 02:03:48] INFO root fetch - main [MainThread]: Store serial: [18398867]
